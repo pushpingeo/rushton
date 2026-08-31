@@ -29,7 +29,7 @@
 
   /* Routes */
   --verified:#C9A227;     /* Gold — confirmed port calls */
-  --assumed:#FFFFFF;      /* White ghost — assumed route */
+  --assumed:#1a3a6e;      /* Navy — assumed route */
 
   /* Ribbon */
   --duster:#C8102E;
@@ -49,7 +49,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .maplibregl-ctrl-attrib a{color:var(--lamp-dim)!important}
 
 /* masthead */
-.masthead{position:absolute;top:20px;left:22px;z-index:5;pointer-events:none;max-width:min(40vw,420px);background:rgba(2,10,26,.55);backdrop-filter:blur(10px);border-radius:4px;padding:16px 18px 14px;border:1px solid rgba(255,255,255,.08)}.masthead button{pointer-events:auto}
+.masthead{position:absolute;top:20px;left:22px;z-index:5;pointer-events:none;max-width:min(40vw,420px);background:rgba(4,18,40,.95);backdrop-filter:blur(18px);border-radius:3px;padding:16px 18px 14px;border:1px solid rgba(255,255,255,.12);box-shadow:inset 0 2px 0 var(--ensign)}.masthead button{pointer-events:auto!important;position:relative;z-index:10}
 .masthead .ensign{display:flex;align-items:center;gap:10px;margin-bottom:6px}
 .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
 .masthead h1{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:clamp(24px,3.6vw,44px);line-height:.92;letter-spacing:.005em;margin:0;text-transform:uppercase;color:#FFFFFF}
@@ -61,7 +61,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .leg-item{display:flex;align-items:center;gap:6px;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--lamp-dim)}
 .leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 .leg-line{width:18px;height:2px;flex-shrink:0}
-.leg-dash{width:18px;height:0;flex-shrink:0;border-top:2px dashed var(--assumed)}
+.leg-dash{width:18px;height:0;flex-shrink:0;border-top:2px dashed #1a3a6e}
 
 /* nav */
 .map-nav{position:absolute;top:20px;left:50%;transform:translateX(-50%);z-index:5;display:flex;align-items:center;gap:8px;background:rgba(2,10,26,.88);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.15);border-radius:3px;padding:7px 14px}
@@ -172,7 +172,7 @@ dl.spec dd{margin:0}
     text-transform:uppercase;transition:background .15s,border-color .15s;
     margin-top:10px;pointer-events:auto;
   }
-  .pouch-btn:hover{background:rgba(201,162,39,.15);border-color:var(--brass);}
+  .pouch-btn:hover{background:rgba(1,33,105,.8);border-color:#4A7AB5;color:#FFFFFF;}
 
   /* Pouch overlay */
   .pouch-overlay{
@@ -249,14 +249,14 @@ dl.spec dd{margin:0}
   /* About button */
   .about-btn{
     display:inline-flex;align-items:center;gap:7px;
-    background:rgba(200,16,46,.15);backdrop-filter:blur(8px);
-    border:1px solid rgba(200,16,46,.45);border-radius:3px;
-    padding:6px 12px;color:#E8A0A8;cursor:pointer;
+    background:rgba(10,20,28,.55);backdrop-filter:blur(8px);
+    border:1px solid rgba(201,162,39,.4);border-radius:3px;
+    padding:6px 12px;color:var(--brass);cursor:pointer;
     font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.14em;
-    text-transform:uppercase;transition:background .15s,border-color .15s,color .15s;
-    margin-top:7px;pointer-events:auto;
+    text-transform:uppercase;transition:background .15s,border-color .15s;
+    pointer-events:auto;
   }
-  .about-btn:hover{background:rgba(200,16,46,.28);border-color:var(--ensign);color:#FFFFFF;}
+  .about-btn:hover{background:rgba(1,33,105,.8);border-color:#4A7AB5;color:#FFFFFF;}
 
   /* About modal */
   .about-overlay{
@@ -298,6 +298,14 @@ dl.spec dd{margin:0}
     border:1px solid rgba(255,255,255,.15);border-radius:2px;transition:color .15s,border-color .15s;
   }
   .about-close:hover{color:#FFFFFF;border-color:rgba(255,255,255,.4);}
+
+  /* Masthead button cluster — sits below the name panel */
+  .masthead-btns{
+    position:absolute;top:20px;left:22px;
+    z-index:6;
+    display:flex;flex-direction:column;gap:6px;
+    pointer-events:auto;
+  }
 </style>
 </head>
 <body>
@@ -318,6 +326,10 @@ dl.spec dd{margin:0}
     </div>
     <h1>William James<br><em>Rushton</em></h1>
     <p class="sub">Born Birkenhead, 19 October 1900. Forty-five years at sea, traced port by port from the CR10 cards, Lloyd's voyage records, and the Guildhall Library voyage cards.</p>
+  </header>
+
+  <!-- Masthead buttons — outside pointer-events:none header -->
+  <div class="masthead-btns">
     <button class="pouch-btn" onclick="openPouch()">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0">
         <path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 00-2-2V9a2 2 0 00-2-2z"/>
@@ -325,7 +337,13 @@ dl.spec dd{margin:0}
       </svg>
       Seaman's Pouch
     </button>
-  </header>
+    <button class="about-btn" onclick="openAbout()">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0">
+        <circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>
+      </svg>
+      About
+    </button>
+  </div>
 
   <div class="map-nav">
     <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">◀ Prev</button>
@@ -345,10 +363,10 @@ dl.spec dd{margin:0}
   </button>
 
   <div class="legend">
-    <div class="leg-item"><div class="leg-dot" style="background:var(--verified)"></div>Verified</div>
-    <div class="leg-item"><div class="leg-line" style="background:var(--verified)"></div>Confirmed leg</div>
-    <div class="leg-item"><div class="leg-dot" style="background:transparent;border:2px solid var(--assumed)"></div>Assumed</div>
-    <div class="leg-item"><div class="leg-dash"></div>Assumed leg</div>
+    <div class="leg-item"><div class="leg-dot" style="background:#C9A227"></div>Verified port</div>
+    <div class="leg-item"><div class="leg-line" style="background:#C9A227;height:3px"></div>Confirmed route</div>
+    <div class="leg-item"><div class="leg-dot" style="background:transparent;border:2px solid #C9A227"></div>Assumed port</div>
+    <div class="leg-item"><div style="width:20px;height:0;border-top:2px dashed #C9A227"></div>Assumed route</div>
   </div>
 
   <section class="panel">
@@ -429,10 +447,10 @@ map.on('load',()=>{
   map.addSource('pts',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
 
   map.addLayer({id:'route-v',type:'line',source:'rv',paint:{'line-color':'#C9A227','line-width':2.8,'line-opacity':1.0}});
-  map.addLayer({id:'route-a',type:'line',source:'ra',paint:{'line-color':'#FFFFFF','line-width':1.4,'line-opacity':0.45,'line-dasharray':[5,5]}});
-  map.addLayer({id:'pts-a',type:'circle',source:'pts',filter:['==',['get','v'],false],paint:{'circle-radius':4,'circle-color':'transparent','circle-stroke-width':1.5,'circle-stroke-color':'rgba(255,255,255,0.7)'}});
+  map.addLayer({id:'route-a',type:'line',source:'ra',paint:{'line-color':'#C9A227','line-width':2.8,'line-opacity':1.0,'line-dasharray':[6,5]}});
+  map.addLayer({id:'pts-a',type:'circle',source:'pts',filter:['==',['get','v'],false],paint:{'circle-radius':4,'circle-color':'transparent','circle-stroke-width':1.8,'circle-stroke-color':'#C9A227'}});
   map.addLayer({id:'pts-v',type:'circle',source:'pts',filter:['==',['get','v'],true],paint:{'circle-radius':5,'circle-color':'#C9A227','circle-stroke-width':2,'circle-stroke-color':'rgba(10,20,28,.8)'}});
-  map.addLayer({id:'pt-labels',type:'symbol',source:'pts',layout:{'text-field':['get','p'],'text-font':['Noto Sans Regular'],'text-size':10,'text-offset':[0,-1.4],'text-anchor':'bottom','text-optional':true,'text-allow-overlap':false},paint:{'text-color':'#E8E1D3','text-opacity':0.8,'text-halo-color':'rgba(10,20,28,.8)','text-halo-width':1.5}});
+  map.addLayer({id:'pt-labels',type:'symbol',source:'pts',layout:{'text-field':['get','p'],'text-font':['Noto Sans Regular'],'text-size':10,'text-offset':[0,-1.4],'text-anchor':'bottom','text-optional':true,'text-allow-overlap':false},paint:{'text-color':'#012169','text-opacity':1.0,'text-halo-color':'rgba(255,255,255,0.9)','text-halo-width':2.0}});
 
   ['pts-v','pts-a'].forEach(lid=>{
     map.on('click',lid,e=>{
@@ -496,6 +514,7 @@ function showVoyage(idx){
   const v=VOYAGES[idx];
   const yr=(v.engagement_date||v.discharge_date||'1918').slice(0,4);
   document.getElementById('yearOut').textContent=yr;
+  updateHead(v.engagement_date||v.discharge_date);
   document.getElementById('navCounter').textContent=`${idx+1} / ${VOYAGES.length}`;
   document.getElementById('navShip').textContent=v.ship;
   document.getElementById('prevBtn').disabled=idx===0;
@@ -691,6 +710,15 @@ document.getElementById('lbImg').addEventListener('click',e=>e.stopPropagation()
 // TIMELINE
 // ============================================================
 const Y0=1918,Y1=1964,YS=Y1-Y0;
+function updateHead(dateStr){
+  if(!dateStr) return;
+  const d = new Date(dateStr+'T00:00:00');
+  const y = d.getFullYear() + d.getMonth()/12;
+  const pct = Math.max(0, Math.min(100, (y - 1918) / 46 * 100));
+  const head = document.getElementById('tlHead');
+  if(head) head.style.left = pct + '%';
+}
+
 function buildTimeline(){
   const scale=document.getElementById('tlScale');
   const field=document.getElementById('field');
@@ -731,6 +759,20 @@ function closeAbout(){
 }
 function aboutKey(e){ if(e.key==='Escape') closeAbout(); }
 
+
+// Position masthead buttons below the masthead panel
+function positionMastheadBtns(){
+  const mh = document.querySelector('.masthead');
+  const btns = document.querySelector('.masthead-btns');
+  if(mh && btns){
+    const r = mh.getBoundingClientRect();
+    btns.style.top = (r.bottom + 8) + 'px';
+    btns.style.left = r.left + 'px';
+  }
+}
+window.addEventListener('load', positionMastheadBtns);
+window.addEventListener('resize', positionMastheadBtns);
+
 buildTimeline();
 showVoyage(0);
 
@@ -746,8 +788,8 @@ const POUCH_DOCS = [
   {n:6, name:"6_cr1_a.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/6_cr1_a.jpeg", label:"CR1 Card — A"},
   {n:7, name:"7_cr1_b.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/7_cr1_b.jpeg", label:"CR1 Card — B"},
   {n:8, name:"8_cr1_c.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/8_cr1_c.jpeg", label:"CR1 Card — C"},
-  {n:9, name:"9_crs10_back.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/9_crs10_back.jpeg", label:"CRS10 Card — Back"},
-  {n:10, name:"10_crs10_front.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/10_crs10_front.jpeg", label:"CRS10 Card — Front"},
+  {n:9, name:"9_crs10_front.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/9_crs10_front.jpeg", label:"CRS10 Card — Front"},
+  {n:10, name:"10_crs10_back.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/10_crs10_back.jpeg", label:"CRS10 Card — Back"},
   {n:11, name:"11_cr2_1925.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/11_cr2_1925.jpeg", label:"CR2 Card — 1925"},
   {n:12, name:"12_cr2_1939_front.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/12_cr2_1939_front.jpeg", label:"CR2 Card — 1939 Front"},
   {n:13, name:"13_cr2_1939_back.jpeg", url:"https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/pouch/13_cr2_1939_back.jpeg", label:"CR2 Card — 1939 Back"},
@@ -844,6 +886,24 @@ function pouchNav(dir) {
         </div>
         <button class="pouch-nav-btn" id="pouchNext" onclick="pouchNav(1)">Next &#9654;</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-overlay" id="aboutOverlay" onclick="closeAbout()">
+  <div class="about-modal" onclick="event.stopPropagation()">
+    <button class="about-close" onclick="closeAbout()">&#x2715; Close</button>
+    <h3>About This Project</h3>
+    <p>I spent four years living on Borneo, where I spent many evenings watching the sun go down over the South China Sea. I always wondered whether my great-grandfather — who died when I was six — had sailed that very sea a hundred years before me.</p>
+    <p>He spent fifty years in the merchant navy, perhaps the best-documented workforce in history. His seaman's pouch sits in the basement of the National Archives at Kew. The voyage cards for the ships he sailed are held at the Guildhall Library, in the heart of the City of London. Getting all of that into a map felt like a fitting 21st-century benchmark for Claude and its data centres somewhere in the American midwest.</p>
+    <p>We believe he first signed up for the merchant navy during the First World War in 1915, aged 15. Later in his career he would serve his country for the duration of the Second World War, running Atlantic convoys — several of which are documented here — while the streets of Birkenhead were being regularly bombed back home. He had a ring engraved with a torpedo and <em>Xmas 1941</em>. We believe he arrived in Freetown on Boxing Day 1941, having sailed with the City of Rangoon in convoy OS13. No loss is recorded, and the torpedo link remains a mystery.</p>
+    <p>His career spanned 45–50 years, and we estimate that around 38 of those were spent aboard a vessel sailing under the Red Ensign. This site is a small acknowledgement of a remarkable career, and a tribute to all those who have served their country in the merchant navy.</p>
+    <div class="thanks">
+      <span>With thanks to</span>
+      Elizabeth and Isabelle at the Guildhall Library &nbsp;&middot;&nbsp;
+      Doc Vernon at <a href="http://merchant-navy.net" target="_blank" rel="noopener">merchant-navy.net</a> &nbsp;&middot;&nbsp;
+      Vessel photographs from <a href="http://benjidog.co.uk" target="_blank" rel="noopener">benjidog.co.uk</a>, maintained by Brian Watson &nbsp;&middot;&nbsp;
+      <a href="https://www.maptiler.com" target="_blank" rel="noopener">MapTiler</a> for the ocean basemap
     </div>
   </div>
 </div>
