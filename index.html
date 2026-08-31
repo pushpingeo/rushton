@@ -65,7 +65,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 
 /* nav */
 .map-nav{position:absolute;top:20px;left:50%;transform:translateX(-50%);z-index:5;display:flex;align-items:center;gap:8px;background:rgba(2,10,26,.88);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.15);border-radius:3px;padding:7px 14px}
-.nav-btn{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;padding:4px 14px;border:1px solid var(--hair);border-radius:2px;transition:background .15s,border-color .15s;color:var(--lamp)}
+.nav-btn{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;padding:7px 16px;min-height:36px;border:1px solid var(--hair);border-radius:2px;transition:background .15s,border-color .15s;color:var(--lamp);display:flex;align-items:center;justify-content:center}
 .nav-btn:hover{background:rgba(232,225,211,.1);border-color:var(--brass)}
 .nav-btn:disabled{opacity:.3;cursor:default}
 .nav-info{text-align:center;min-width:160px}
@@ -161,6 +161,98 @@ dl.spec dd{margin:0}
 
 @keyframes ping{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.2);opacity:0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ── Tablet & Mobile ──────────────────────────────────────── */
+
+/* Tablet portrait / small laptop (≤ 900px) */
+@media (max-width: 900px) {
+  :root { --panel-w: 100%; --ribbon-h: 80px; }
+
+  /* Map fills top portion */
+  .stage { bottom: var(--ribbon-h); }
+
+  /* Panel becomes a bottom drawer */
+  .panel {
+    position: fixed;
+    top: auto;
+    bottom: var(--ribbon-h);
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-height: 42vh;
+    flex-direction: column;
+    z-index: 50;
+    border-radius: 0;
+  }
+  .panel::before, .panel::after { display: none; }
+  .tabs { border-radius: 0; }
+  .card { border-radius: 0; }
+
+  /* Masthead smaller */
+  .masthead {
+    max-width: min(60vw, 340px);
+    padding: 10px 12px 10px;
+  }
+  .masthead h1 { font-size: clamp(18px, 4vw, 28px); }
+  .masthead .sub { font-size: 10px; max-width: 28ch; }
+
+  /* Nav bar centred */
+  .map-nav { top: 12px; }
+  .nav-btn { padding: 6px 14px; font-size: 11px; }
+  .nav-info { min-width: 130px; }
+
+  /* Masthead buttons */
+  .masthead-btns { gap: 5px; }
+  .pouch-btn, .about-btn { font-size: 8.5px; padding: 5px 9px; }
+
+  /* Legend compact */
+  .legend { gap: 8px; padding: 5px 9px; font-size: 8px; }
+  .legend { bottom: calc(var(--ribbon-h) + 42vh + 10px); }
+
+  /* Ribbon */
+  .canton-box { width: 80px; }
+  .year-out { font-size: 28px; }
+  .tl-seg { top: 24px; height: 28px; }
+  .tl-seg b { font-size: 9px; }
+  .tl-hint { display: none; }
+}
+
+/* Phone landscape / small tablet (≤ 600px) */
+@media (max-width: 600px) {
+  :root { --ribbon-h: 64px; }
+
+  .masthead { max-width: min(55vw, 220px); padding: 8px 10px; }
+  .masthead h1 { font-size: clamp(14px, 5vw, 22px); }
+  .masthead .sub { display: none; }
+
+  .panel { max-height: 48vh; }
+
+  /* Nav buttons bigger touch targets */
+  .nav-btn { padding: 8px 16px; min-height: 40px; font-size: 11px; }
+
+  /* Pouch/about buttons icon-only on very small */
+  .pouch-btn span.btn-label, .about-btn span.btn-label { display: none; }
+
+  .map-nav { gap: 6px; padding: 5px 10px; }
+  .nav-info { min-width: 100px; }
+
+  /* Legend hidden on phone — too cluttered */
+  .legend { display: none; }
+
+  /* Ribbon */
+  .canton-box { width: 60px; }
+  .year-out { font-size: 22px; }
+  .tl-seg { top: 20px; height: 26px; }
+  .tl-tick span { display: none; }
+  .tl-hint { display: none; }
+}
+
+/* Touch-friendly nav buttons everywhere */
+@media (hover: none) {
+  .nav-btn { min-height: 44px; min-width: 44px; }
+  .tab { min-height: 40px; }
+}
+
 
   /* Seaman's Pouch button */
   .pouch-btn{
@@ -265,7 +357,7 @@ dl.spec dd{margin:0}
     align-items:center;justify-content:center;padding:24px;
   }
   .about-overlay.open{display:flex;}
-  .about-modal{
+  .about-modal{max-width:min(580px,95vw);
     background:rgba(4,18,40,.97);border:1px solid rgba(255,255,255,.12);border-radius:4px;
     border-top:3px solid var(--ensign);
     max-width:580px;width:100%;padding:36px 40px 32px;position:relative;
