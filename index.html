@@ -535,8 +535,11 @@ dl.spec dd{margin:0}
   </div>
 </div>
 
-<script src="data/voyages.js"></script>
-<script src="data/context.js"></script>
+<!-- ?v= is a manual cache-buster: bump it to today's date whenever
+     data/voyages.js or data/context.js changes, so returning visitors'
+     browsers don't keep serving a stale cached copy of the data. -->
+<script src="data/voyages.js?v=20260901"></script>
+<script src="data/context.js?v=20260901"></script>
 <script>
 // ============================================================
 // DATA
