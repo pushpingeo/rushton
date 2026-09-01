@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voyage Editor — W. J. Rushton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ensign:#C8102E; --canton:#012169; --gold:#C9A227;
+  --ink:#030E1A; --ink-2:#071628; --ink-3:#0C2040;
+  --hair:rgba(255,255,255,.1); --lamp:#FFFFFF; --lamp-dim:#A8C4D8;
+  --verified:#C9A227; --assumed:#5a8a6a; --danger:#C8102E;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--ink);color:var(--lamp);font-family:"IBM Plex Sans",system-ui,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
+button,input,textarea{font:inherit;color:inherit}
+input,textarea{background:var(--ink-3);border:1px solid var(--hair);border-radius:2px;color:var(--lamp);padding:6px 8px}
+input:focus,textarea:focus{outline:1px solid var(--gold);border-color:var(--gold)}
+label{display:block;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--lamp-dim);margin-bottom:4px}
+.field{margin-bottom:14px}
+.row{display:flex;gap:12px}
+.row>.field{flex:1}
+
+header{flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:14px 22px;background:var(--ink-2);border-bottom:1px solid var(--hair)}
+header h1{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:20px;text-transform:uppercase;letter-spacing:.02em;margin:0}
+header h1 em{font-style:normal;color:var(--ensign)}
+header .sub{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.1em;color:var(--lamp-dim);text-transform:uppercase;margin-top:2px}
+header a{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--lamp-dim);text-decoration:none;border:1px solid var(--hair);border-radius:2px;padding:6px 12px}
+header a:hover{color:var(--lamp);border-color:var(--gold)}
+
+main{flex:1;display:flex;overflow:hidden}
+
+.sidebar{width:300px;flex-shrink:0;display:flex;flex-direction:column;background:var(--ink-2);border-right:1px solid var(--hair)}
+.sidebar-search{padding:12px;border-bottom:1px solid var(--hair)}
+.sidebar-search input{width:100%}
+.voyage-list{flex:1;overflow-y:auto}
+.voyage-item{display:block;width:100%;text-align:left;padding:10px 14px;border:0;border-bottom:1px solid var(--hair);background:none;cursor:pointer;transition:background .12s}
+.voyage-item:hover{background:rgba(255,255,255,.04)}
+.voyage-item.active{background:rgba(201,162,39,.12);box-shadow:inset 3px 0 0 var(--gold)}
+.voyage-item .ship{font-size:13px;font-weight:500}
+.voyage-item .meta{font-family:"IBM Plex Mono",monospace;font-size:9.5px;color:var(--lamp-dim);margin-top:3px;display:flex;justify-content:space-between;gap:8px}
+.voyage-item .badge{font-family:"IBM Plex Mono",monospace;font-size:8.5px;letter-spacing:.08em;padding:1px 6px;border-radius:2px;white-space:nowrap}
+.badge-clean{color:var(--verified);border:1px solid rgba(201,162,39,.4)}
+.badge-assumed{color:#e0a840;border:1px solid rgba(224,168,64,.4)}
+.voyage-item.dirty .ship::after{content:" ●";color:var(--gold)}
+
+.editor{flex:1;overflow-y:auto;padding:24px 32px 80px}
+.editor h2{font-family:"Big Shoulders Display",sans-serif;font-weight:600;text-transform:uppercase;font-size:24px;margin:0 0 2px}
+.editor .ident{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--gold);letter-spacing:.1em;margin-bottom:20px}
+.section-label{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--lamp-dim);margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--hair)}
+.section-label:first-of-type{margin-top:0}
+.checkbox-field{display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.checkbox-field input{width:auto}
+.checkbox-field label{margin:0}
+textarea{width:100%;resize:vertical;min-height:60px;line-height:1.5;font-family:"IBM Plex Sans",sans-serif;font-size:13px}
+
+.wp-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.wp-table th{font-family:"IBM Plex Mono",monospace;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--lamp-dim);text-align:left;padding:0 8px 8px;font-weight:400}
+.wp-table td{padding:4px 8px 4px 0;vertical-align:top}
+.wp-table input[type=text],.wp-table input[type=number]{width:100%}
+.wp-table input.port{width:120px}
+.wp-table input.coord{width:90px;font-family:"IBM Plex Mono",monospace}
+.wp-table input.note{width:100%;min-width:180px}
+.wp-table tr{border-bottom:1px solid var(--hair)}
+.wp-table input[type=checkbox]{width:16px;height:16px;cursor:pointer}
+.route-note{font-size:11.5px;color:var(--lamp-dim);line-height:1.6;margin:10px 0 16px;padding:10px 12px;background:rgba(201,162,39,.06);border-left:2px solid var(--gold);border-radius:0 2px 2px 0}
+
+.empty-state{display:flex;align-items:center;justify-content:center;height:100%;color:var(--lamp-dim);font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+
+footer{flex-shrink:0;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 22px;background:var(--ink-2);border-top:1px solid var(--hair)}
+footer .status{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;color:var(--lamp-dim)}
+footer .status.ok{color:var(--verified)}
+.btn{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;padding:9px 18px;border-radius:2px;cursor:pointer;transition:background .15s,border-color .15s}
+.btn-primary{background:var(--gold);color:var(--ink);border:1px solid var(--gold);font-weight:600}
+.btn-primary:hover{background:#ddb84a}
+.btn-secondary{background:none;color:var(--lamp-dim);border:1px solid var(--hair)}
+.btn-secondary:hover{color:var(--lamp);border-color:var(--gold)}
+.footer-actions{display:flex;gap:10px}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Voyage <em>Editor</em></h1>
+    <div class="sub">QC tool for data/voyages.js — not part of the published site</div>
+  </div>
+  <a href="index.html">← Back to map</a>
+</header>
+
+<main>
+  <div class="sidebar">
+    <div class="sidebar-search">
+      <input type="text" id="search" placeholder="Search ship, port, rank…">
+    </div>
+    <div class="voyage-list" id="voyageList"></div>
+  </div>
+  <div class="editor" id="editor">
+    <div class="empty-state">Select a voyage</div>
+  </div>
+</main>
+
+<footer>
+  <div class="status" id="status">No changes yet</div>
+  <div class="footer-actions">
+    <button class="btn btn-secondary" id="copyBtn">Copy to clipboard</button>
+    <button class="btn btn-primary" id="downloadBtn">Download voyages.js</button>
+  </div>
+</footer>
+
+<script src="data/voyages.js"></script>
+<script>
+if(typeof VOYAGES === 'undefined'){
+  document.getElementById('editor').innerHTML =
+    '<div class="empty-state">Could not load data/voyages.js — open this file alongside index.html, not on its own.</div>';
+  throw new Error('VOYAGES not loaded');
+}
+
+let curIdx = 0;
+let dirty = new Set(); // indices with unsaved edits
+let searchTerm = '';
+
+function fieldChanged(idx){
+  dirty.add(idx);
+  renderList(); // updates the dot + status
+  setStatus(`${dirty.size} voyage${dirty.size===1?'':'s'} edited — not yet saved`, false);
+}
+
+function setStatus(msg, ok){
+  const el = document.getElementById('status');
+  el.textContent = msg;
+  el.className = 'status' + (ok ? ' ok' : '');
+}
+
+function matchesSearch(v, term){
+  if(!term) return true;
+  term = term.toLowerCase();
+  if(v.ship.toLowerCase().includes(term)) return true;
+  if((v.rank||'').toLowerCase().includes(term)) return true;
+  if(v.waypoints.some(w=>w.port.toLowerCase().includes(term))) return true;
+  return false;
+}
+
+function renderList(){
+  const list = document.getElementById('voyageList');
+  const term = searchTerm;
+  list.innerHTML = VOYAGES.map((v, i) => {
+    if(!matchesSearch(v, term)) return '';
+    const assumed = v.waypoints.filter(w=>!w.verified).length;
+    const badge = assumed === 0
+      ? `<span class="badge badge-clean">all verified</span>`
+      : `<span class="badge badge-assumed">${assumed} assumed</span>`;
+    return `<button class="voyage-item ${i===curIdx?'active':''} ${dirty.has(i)?'dirty':''}" onclick="selectVoyage(${i})">
+      <div class="ship">${v.ship}</div>
+      <div class="meta"><span>${v.engagement_date||'?'}</span>${badge}</div>
+    </button>`;
+  }).join('') || '<div style="padding:20px;color:var(--lamp-dim);font-size:12px">No matches</div>';
+}
+
+function selectVoyage(i){
+  curIdx = i;
+  renderList();
+  renderEditor();
+}
+
+function renderEditor(){
+  const v = VOYAGES[curIdx];
+  const el = document.getElementById('editor');
+
+  const wpRows = v.waypoints.map((w, wi) => `
+    <tr>
+      <td><input class="port" type="text" value="${escAttr(w.port)}" oninput="updateWaypoint(${wi},'port',this.value)"></td>
+      <td><input class="coord" type="number" step="0.0001" value="${w.lat}" oninput="updateWaypoint(${wi},'lat',parseFloat(this.value))"></td>
+      <td><input class="coord" type="number" step="0.0001" value="${w.lon}" oninput="updateWaypoint(${wi},'lon',parseFloat(this.value))"></td>
+      <td style="text-align:center"><input type="checkbox" ${w.verified?'checked':''} onchange="updateWaypoint(${wi},'verified',this.checked)"></td>
+      <td><input class="note" type="text" value="${escAttr(w.note||'')}" oninput="updateWaypoint(${wi},'note',this.value)"></td>
+    </tr>`).join('');
+
+  el.innerHTML = `
+    <h2>${v.ship}</h2>
+    <p class="ident">${v.line || ''}${v.ship_no ? ' · ON '+v.ship_no : ''}</p>
+
+    <div class="section-label">Voyage record</div>
+    <div class="row">
+      <div class="field"><label>Engaged (display)</label><input type="text" value="${escAttr(v.engaged||'')}" oninput="updateField('engaged',this.value)"></div>
+      <div class="field"><label>Engagement date (ISO)</label><input type="text" value="${escAttr(v.engagement_date||'')}" oninput="updateField('engagement_date',this.value)" placeholder="YYYY-MM-DD"></div>
+    </div>
+    <div class="row">
+      <div class="field"><label>Discharged (display)</label><input type="text" value="${escAttr(v.discharged||'')}" oninput="updateField('discharged',this.value)"></div>
+      <div class="field"><label>Discharge date (ISO)</label><input type="text" value="${escAttr(v.discharge_date||'')}" oninput="updateField('discharge_date',this.value)" placeholder="YYYY-MM-DD"></div>
+    </div>
+    <div class="field"><label>Rank</label><input type="text" value="${escAttr(v.rank||'')}" oninput="updateField('rank',this.value)"></div>
+    <div class="checkbox-field">
+      <input type="checkbox" id="authDis" ${v.authoritative_discharge?'checked':''} onchange="updateField('authoritative_discharge',this.checked)">
+      <label for="authDis" style="text-transform:none;font-family:inherit;font-size:13px;color:var(--lamp)">Authoritative discharge (confirmed by CRS10 card)</label>
+    </div>
+
+    <div class="section-label">Notes</div>
+    <div class="field"><label>Vessel note (shown on Vessel tab)</label><textarea oninput="updateField('note',this.value)">${escText(v.note||'')}</textarea></div>
+    <div class="field"><label>Voyage note (shown on Voyage tab)</label><textarea oninput="updateField('voyage_note',this.value)">${escText(v.voyage_note||'')}</textarea></div>
+
+    <div class="section-label">Waypoints — ${v.waypoints.length} port call${v.waypoints.length===1?'':'s'}</div>
+    <div class="route-note">
+      Editing a pin's lat/lon moves its marker, but the <em>drawn sea route</em> between ports
+      (<code>route_legs</code>) was pre-computed separately by searoute and won't reshape to match —
+      treat waypoint edits here as correcting the record, not re-plotting the line.
+      Toggling <b>Verified</b> does automatically re-colour the connecting route segments.
+      Adding or removing waypoints isn't supported here, since it would desync <code>route_legs</code>'
+      indices — ask Claude Code for that.
+    </div>
+    <table class="wp-table">
+      <thead><tr><th>Port</th><th>Lat</th><th>Lon</th><th>Verified</th><th>Note</th></tr></thead>
+      <tbody>${wpRows}</tbody>
+    </table>
+  `;
+}
+
+function updateField(key, value){
+  VOYAGES[curIdx][key] = value;
+  fieldChanged(curIdx);
+}
+
+function updateWaypoint(wi, key, value){
+  const v = VOYAGES[curIdx];
+  v.waypoints[wi][key] = value;
+  if(key === 'verified'){
+    // Keep drawn route segments' colour in sync with the endpoints they connect
+    (v.route_legs||[]).forEach(leg=>{
+      if(leg.from_idx===wi || leg.to_idx===wi){
+        leg.verified = v.waypoints[leg.from_idx].verified && v.waypoints[leg.to_idx].verified;
+      }
+    });
+  }
+  fieldChanged(curIdx);
+  renderList(); // badge counts may have changed
+}
+
+function escAttr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+function escText(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+function serialize(){
+  const header = '// Voyage data for W. J. Rushton — A Life at Sea\n' +
+    '// Loaded as a classic script (not an ES module) so index.html\n' +
+    '// still works when opened directly via file:// as well as when served.\n';
+  return header + 'const VOYAGES = ' + JSON.stringify(VOYAGES, null, 2) + ';\n';
+}
+
+document.getElementById('copyBtn').addEventListener('click', async ()=>{
+  try{
+    await navigator.clipboard.writeText(serialize());
+    setStatus('Copied — paste into data/voyages.js', true);
+  }catch(e){
+    setStatus('Clipboard blocked by browser — use Download instead', false);
+  }
+});
+
+document.getElementById('downloadBtn').addEventListener('click', ()=>{
+  const blob = new Blob([serialize()], {type:'text/javascript'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'voyages.js';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  setStatus('Downloaded — move it into data/voyages.js, replacing the old one', true);
+  dirty.clear();
+  renderList();
+});
+
+document.getElementById('search').addEventListener('input', (e)=>{
+  searchTerm = e.target.value;
+  renderList();
+});
+
+renderList();
+selectVoyage(0);
+</script>
+</body>
+</html>
