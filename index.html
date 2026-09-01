@@ -415,6 +415,30 @@ dl.spec dd{margin:0}
     display:flex;flex-direction:column;gap:6px;
     pointer-events:auto;
   }
+
+  /* .topbar only gets real width/height once a breakpoint below turns it into
+     a flex column; when it does, its empty area must not steal map drag/tap
+     gestures from the canvas underneath it. */
+  .topbar{ pointer-events:none; }
+  .topbar > *{ pointer-events:auto; }
+
+  /* iPad-landscape and similar mid-width windows: the masthead, its button
+     cluster and the centred Prev/Next pill are each positioned independently
+     and have enough combined width to collide with the fixed-width side
+     panel. Stack them instead of centring the nav pill across the full
+     window — the side panel and legend keep their normal desktop layout. */
+  @media (min-width: 901px) and (max-width: 1280px) {
+    .topbar{
+      position:absolute; top:20px; left:22px; right:auto; z-index:5;
+      display:flex; flex-direction:column; align-items:flex-start; gap:10px;
+    }
+    .masthead, .masthead-btns, .map-nav{
+      position:static !important;
+      top:auto; left:auto; right:auto; bottom:auto;
+      transform:none !important;
+    }
+    .masthead-btns{ flex-direction:row; gap:6px; }
+  }
 </style>
 </head>
 <body>
@@ -435,7 +459,7 @@ dl.spec dd{margin:0}
         <span class="eyebrow">Red Ensign · Discharge No. 866848</span>
       </div>
       <h1>William James<br><em>Rushton</em></h1>
-      <p class="sub">Born Birkenhead, 19 October 1900. Forty-five years at sea, traced port by port from the CRS10 cards, Lloyd's voyage records, and the Guildhall Library voyage cards.</p>
+      <p class="sub">Born Birkenhead, 19 October 1900. Forty-five years at sea, traced port by port from the CRS10 card, Lloyd's voyage records, and the Guildhall Library voyage cards.</p>
     </header>
 
     <!-- Masthead buttons — outside pointer-events:none header -->
@@ -660,6 +684,9 @@ function renderPane(pane){
   if(pane==='vessel') el.innerHTML=renderVessel(v);
   else if(pane==='voyage') el.innerHTML=renderVoyage(v);
   else el.innerHTML=renderContext();
+  requestAnimationFrame(positionLegend);
+  const img=el.querySelector('img');
+  if(img && !img.complete) img.addEventListener('load',positionLegend,{once:true});
 }
 
 // ============================================================
@@ -875,6 +902,26 @@ function positionMastheadBtns(){
 }
 window.addEventListener('load', positionMastheadBtns);
 window.addEventListener('resize', positionMastheadBtns);
+
+// On the portrait bottom-drawer layout the legend is meant to float just
+// above the drawer, but the drawer's real height depends on tab content
+// (it only reaches its 42vh cap when content is long enough) — so a fixed
+// vh-based offset leaves it floating too high, sometimes into the nav pill.
+// Track the panel's actual top edge instead.
+function positionLegend(){
+  const legend = document.querySelector('.legend');
+  const panel = document.querySelector('.panel');
+  if(!legend || !panel) return;
+  if(window.innerWidth > 900){
+    legend.style.bottom = '';
+    return;
+  }
+  const r = panel.getBoundingClientRect();
+  legend.style.bottom = Math.round(window.innerHeight - r.top + 10) + 'px';
+}
+window.addEventListener('load', positionLegend);
+window.addEventListener('resize', positionLegend);
+window.addEventListener('orientationchange', positionLegend);
 
 buildTimeline();
 showVoyage(0);
