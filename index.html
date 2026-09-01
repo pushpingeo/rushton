@@ -589,17 +589,23 @@ function drawVoyage(idx){
   const v=VOYAGES[idx], wps=v.waypoints, legs=v.route_legs||[];
   const vseg=[],aseg=[];
 
-  legs.forEach(leg=>{
-    const coords=leg.coords;
-    if(!coords||coords.length<2) return;
-    const seg={type:'Feature',geometry:{type:'LineString',coordinates:coords},properties:{}};
-    (leg.verified?vseg:aseg).push(seg);
-  });
+  // route_legs always connects consecutive waypoints (from_idx, from_idx+1) —
+  // index by from_idx so we can tell, per gap between two consecutive
+  // waypoints, whether a pre-computed searoute path exists for it.
+  const legByFromIdx=new Map();
+  legs.forEach(leg=>legByFromIdx.set(leg.from_idx,leg));
 
-  // Fallback straight lines if no legs data
-  if(legs.length===0 && wps.length>1){
-    for(let i=0;i<wps.length-1;i++){
-      const a=wps[i],b=wps[i+1];
+  for(let i=0;i<wps.length-1;i++){
+    const a=wps[i],b=wps[i+1];
+    const leg=legByFromIdx.get(i);
+    if(leg && leg.coords && leg.coords.length>=2 && leg.to_idx===i+1){
+      // Precise pre-computed maritime route for this specific gap
+      const seg={type:'Feature',geometry:{type:'LineString',coordinates:leg.coords},properties:{}};
+      (leg.verified?vseg:aseg).push(seg);
+    }else{
+      // No pre-computed route for this gap (e.g. a waypoint was inserted or
+      // removed here since the route was last computed) — straight line
+      // until someone re-runs the router for this voyage.
       const seg={type:'Feature',geometry:{type:'LineString',coordinates:[[a.lon,a.lat],[b.lon,b.lat]]},properties:{}};
       (a.verified&&b.verified?vseg:aseg).push(seg);
     }

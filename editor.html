@@ -68,6 +68,14 @@ textarea{width:100%;resize:vertical;min-height:60px;line-height:1.5;font-family:
 .wp-table tr{border-bottom:1px solid var(--hair)}
 .wp-table input[type=checkbox]{width:16px;height:16px;cursor:pointer}
 .route-note{font-size:11.5px;color:var(--lamp-dim);line-height:1.6;margin:10px 0 16px;padding:10px 12px;background:rgba(201,162,39,.06);border-left:2px solid var(--gold);border-radius:0 2px 2px 0}
+.wp-table .wp-actions{white-space:nowrap;padding-left:6px}
+.wp-icon-btn{width:22px;height:22px;border-radius:2px;border:1px solid var(--hair);background:none;color:var(--lamp-dim);cursor:pointer;font-size:13px;line-height:1;padding:0}
+.wp-icon-btn:hover{color:var(--lamp);border-color:var(--gold)}
+.wp-icon-btn.remove:hover{color:var(--ensign);border-color:var(--ensign)}
+.wp-insert-row td{padding:3px 0}
+.wp-insert-btn{font-family:"IBM Plex Mono",monospace;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--lamp-dim);background:none;border:1px dashed var(--hair);border-radius:2px;padding:2px 10px;cursor:pointer;width:100%}
+.wp-insert-btn:hover{color:var(--gold);border-color:rgba(201,162,39,.4)}
+.new-leg-flag{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.06em;color:var(--gold);text-transform:uppercase}
 
 .empty-state{display:flex;align-items:center;justify-content:center;height:100%;color:var(--lamp-dim);font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
 
@@ -167,18 +175,41 @@ function selectVoyage(i){
   renderEditor();
 }
 
-function renderEditor(){
-  const v = VOYAGES[curIdx];
-  const el = document.getElementById('editor');
+function hasPrecomputedRoute(v, fromIdx){
+  const leg = (v.route_legs||[]).find(l=>l.from_idx===fromIdx);
+  return !!(leg && leg.to_idx===fromIdx+1 && leg.coords && leg.coords.length>=2);
+}
 
-  const wpRows = v.waypoints.map((w, wi) => `
+function insertRowHtml(afterIdx, label){
+  return `<tr class="wp-insert-row"><td colspan="6">
+    <button class="wp-insert-btn" onclick="insertWaypoint(${afterIdx})">+ insert waypoint ${label}</button>
+  </td></tr>`;
+}
+
+function renderWaypointRows(v){
+  let html = insertRowHtml(-1, 'at start');
+  v.waypoints.forEach((w, wi) => {
+    html += `
     <tr>
       <td><input class="port" type="text" value="${escAttr(w.port)}" oninput="updateWaypoint(${wi},'port',this.value)"></td>
       <td><input class="coord" type="number" step="0.0001" value="${w.lat}" oninput="updateWaypoint(${wi},'lat',parseFloat(this.value))"></td>
       <td><input class="coord" type="number" step="0.0001" value="${w.lon}" oninput="updateWaypoint(${wi},'lon',parseFloat(this.value))"></td>
       <td style="text-align:center"><input type="checkbox" ${w.verified?'checked':''} onchange="updateWaypoint(${wi},'verified',this.checked)"></td>
       <td><input class="note" type="text" value="${escAttr(w.note||'')}" oninput="updateWaypoint(${wi},'note',this.value)"></td>
-    </tr>`).join('');
+      <td class="wp-actions"><button class="wp-icon-btn remove" title="Remove this waypoint" onclick="removeWaypoint(${wi})" ${v.waypoints.length<=1?'disabled':''}>✕</button></td>
+    </tr>`;
+    if(wi < v.waypoints.length-1){
+      const flag = hasPrecomputedRoute(v, wi) ? '' : ' <span class="new-leg-flag">— straight line, no precomputed route for this gap</span>';
+      html += insertRowHtml(wi, 'here' + flag);
+    }
+  });
+  html += insertRowHtml(v.waypoints.length-1, 'at end');
+  return html;
+}
+
+function renderEditor(){
+  const v = VOYAGES[curIdx];
+  const el = document.getElementById('editor');
 
   el.innerHTML = `
     <h2>${v.ship}</h2>
@@ -205,16 +236,16 @@ function renderEditor(){
 
     <div class="section-label">Waypoints — ${v.waypoints.length} port call${v.waypoints.length===1?'':'s'}</div>
     <div class="route-note">
-      Editing a pin's lat/lon moves its marker, but the <em>drawn sea route</em> between ports
-      (<code>route_legs</code>) was pre-computed separately by searoute and won't reshape to match —
-      treat waypoint edits here as correcting the record, not re-plotting the line.
-      Toggling <b>Verified</b> does automatically re-colour the connecting route segments.
-      Adding or removing waypoints isn't supported here, since it would desync <code>route_legs</code>'
-      indices — ask Claude Code for that.
+      Editing a pin's lat/lon moves its marker, but the precise <em>drawn sea route</em> between
+      two ports (<code>route_legs</code>) was pre-computed separately by searoute and won't
+      reshape to match. Insert or remove a waypoint and the gap(s) next to your edit will render
+      as a straight line instead of a real sea route, until someone re-runs the router for this
+      voyage — everywhere else the original precise route is kept. Toggling <b>Verified</b>
+      automatically re-colours the connecting route segments.
     </div>
     <table class="wp-table">
-      <thead><tr><th>Port</th><th>Lat</th><th>Lon</th><th>Verified</th><th>Note</th></tr></thead>
-      <tbody>${wpRows}</tbody>
+      <thead><tr><th>Port</th><th>Lat</th><th>Lon</th><th>Verified</th><th>Note</th><th></th></tr></thead>
+      <tbody>${renderWaypointRows(v)}</tbody>
     </table>
   `;
 }
@@ -237,6 +268,45 @@ function updateWaypoint(wi, key, value){
   }
   fieldChanged(curIdx);
   renderList(); // badge counts may have changed
+}
+
+// route_legs always connects consecutive waypoints (from_idx, from_idx+1 —
+// verified above at load time). Inserting/removing a waypoint shifts every
+// later leg's indices, and the one leg that used to bridge the edit point
+// directly now skips over it (or references a deleted point) — drop it and
+// let drawVoyage()'s per-segment fallback draw a straight line there instead.
+function insertWaypoint(afterIdx){
+  const v = VOYAGES[curIdx];
+  v.waypoints.splice(afterIdx+1, 0, {port:'', lat:0, lon:0, verified:false, note:''});
+  (v.route_legs||[]).forEach(leg=>{
+    if(leg.from_idx > afterIdx) leg.from_idx++;
+    if(leg.to_idx > afterIdx) leg.to_idx++;
+  });
+  v.route_legs = (v.route_legs||[]).filter(leg=>leg.to_idx===leg.from_idx+1);
+  fieldChanged(curIdx);
+  renderEditor();
+  renderList();
+  requestAnimationFrame(()=>{
+    const inputs = document.querySelectorAll('.wp-table .port');
+    if(inputs[afterIdx+1]) inputs[afterIdx+1].focus();
+  });
+}
+
+function removeWaypoint(idx){
+  const v = VOYAGES[curIdx];
+  if(v.waypoints.length<=1) return;
+  if(!confirm(`Remove waypoint "${v.waypoints[idx].port||'(unnamed)'}"? This can't be undone within the editor.`)) return;
+  v.waypoints.splice(idx,1);
+  v.route_legs = (v.route_legs||[])
+    .filter(leg=>leg.from_idx!==idx && leg.to_idx!==idx)
+    .map(leg=>{
+      if(leg.from_idx>idx) leg.from_idx--;
+      if(leg.to_idx>idx) leg.to_idx--;
+      return leg;
+    });
+  fieldChanged(curIdx);
+  renderEditor();
+  renderList();
 }
 
 function escAttr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
