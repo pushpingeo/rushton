@@ -1,0 +1,79 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1928-11-29,29/11,arrival,dunkirk,Dnk,FALSE,"black = arrival. Card is headed 'cont from other side', directly continuing IMG_5632"
+2,City of Norwich,1928-12-03,3/12,sailing,dunkirk,Dnk,FALSE,red = sailing
+3,City of Norwich,1928-12-03,3/12,arrival,antwerp,Ant,FALSE,"black = arrival, same day as the Dunkirk sailing - a short hop, geographically consistent"
+4,City of Norwich,1928-12-05,5/12,sailing,antwerp,Ant,FALSE,red = sailing
+5,City of Norwich,,,note,,,FALSE,"Entry struck through by the original clerk (read as 'Dov. 11/12' before being crossed out) - the corresponding top-row reference number is struck through too. Not transcribed as an event, kept as a placeholder so the column count stays traceable"
+6,City of Norwich,1928-12-07,7/12,arrival,london,Lo,FALSE,black = arrival
+7,City of Norwich,1928-12-11,11/12,sailing,london,Lo,FALSE,red = sailing
+8,City of Norwich,1928-12-11,11/12,arrival,dover,Dov.,FALSE,"black = arrival, same day as the London sailing"
+9,City of Norwich,1928-12-12,12/12,arrival,dunkirk,Dnk,FALSE,"black = arrival. No sailing from Dover is logged between this and seq 8"
+10,City of Norwich,1928-12-15,15/12,sailing,dunkirk,Dnk,FALSE,red = sailing
+11,City of Norwich,1928-12-16,16/12,arrival,,Shls,FALSE,"black = arrival. 'Shls' = Shields per ports.csv, same abbreviation used on IMG_5632"
+12,City of Norwich,1928-12-22,22/12,sailing,,Shls,FALSE,red = sailing
+13,City of Norwich,1928-12-23,23/12,transit,dunnet-head,Dunnet,FALSE,"black. Dunnet Head, the northern tip of mainland Scotland - a coastal reporting point ships were logged passing, not a real port call, same pattern as the Lizard on IMG_5632"
+14,City of Norwich,1929-01-08,8/1,arrival,new-york,NY,FALSE,"black = arrival. Year changes to 1929 here - written inline as '1929.' before this entry's reference number"
+15,City of Norwich,1929-01-29,29/1,sailing,new-york,NY,FALSE,"red = sailing. This entry, seq 16, and seq 17 have their top-row reference numbers joined by a single hand-drawn bracket, the same annotation style seen on IMG_5632's NY/Newport News trio - taken together the dates read 29/1, 30/1, 29/1"
+16,City of Norwich,1929-01-30,30/1,arrival,hampton-rds,Hampt.R,FALSE,"black = arrival, Hampton Roads. Bracketed with seq 15/17, see seq 15's note"
+17,City of Norwich,1929-01-29,29/1,sailing,new-york,NY,FALSE,"UNCERTAIN - red, same port and date as seq 15, written after the Hampton Roads arrival (seq 16) that's dated a day later. Bracketed together with seq 15/16 (see seq 15's note) - likely a duplicate citation of seq 15 rather than a third real event, same pattern as IMG_5632's NY/Newport News/NY trio"
+18,City of Norwich,1929-01-31,31/1,arrival,newport-news,N.News,FALSE,black = arrival
+19,City of Norwich,1929-02-07,7/2,arrival,colon,Colon,FALSE,black = arrival
+20,City of Norwich,1929-02-07,7/2,arrival,panama-canal,Pan,FALSE,"black = arrival, same day as Colon - the Pacific side of the same canal transit, same pattern as IMG_5632's Colon/Pan pair"
+21,City of Norwich,1929-02-08,8/2,arrival,panama-canal,Pan,FALSE,"black = arrival, the day after seq 20 with no sailing logged between them - possibly the same transit split across two log entries, or a genuine short layover"
+22,City of Norwich,1929-03-04,4/3,arrival,auckland,Auck.,FALSE,black = arrival
+23,City of Norwich,1929-03-07,7/3,sailing,auckland,Auck,FALSE,red = sailing
+24,City of Norwich,1929-03-09,9/3,arrival,wellington,Well.,FALSE,"black = arrival. No sailing from Wellington is logged before the next port"
+25,City of Norwich,1929-03-15,15/3,arrival,lyttelton,Lytt.,FALSE,"black = arrival. Card writes 'Lytt' (double-t), ports.csv code is 'Lyt' - same port"
+26,City of Norwich,1929-03-20,20/3,sailing,lyttelton,Lytt,FALSE,red = sailing
+27,City of Norwich,1929-03-21,21/3,arrival,dunedin,Duned.,FALSE,black = arrival
+28,City of Norwich,1929-03-23,23/3,sailing,dunedin,Duned.,FALSE,red = sailing
+29,City of Norwich,1929-03-28,28/3,arrival,portland-victoria,Ptld,FALSE,"black = arrival. Annotated '(Vict)' beneath - the card disambiguating this from Portland Oregon/Portland UK, both also written 'Ptld' elsewhere in this collection. New port_id added to ports.csv"
+30,City of Norwich,1929-04-03,3/4,sailing,portland-victoria,Ptld,FALSE,"red = sailing, annotated similarly (partially legible, reads 'vtic')"
+31,City of Norwich,1929-04-04,4/4,arrival,geelong,Geel.,FALSE,black = arrival
+32,City of Norwich,1929-04-07,7/4,sailing,geelong,Geel,FALSE,"red = sailing. Read carefully against seq 31's date since the two numerals looked similar at first pass"
+33,City of Norwich,1929-04-09,4/4,arrival,melbourne,Melb.,FALSE,"UNCERTAIN date - written as '4/4' which is impossible (same day as the Geelong arrival, three days before the Geelong sailing it should follow). Adjusted to a placeholder of 9/4 to keep it chronologically after seq 32, but the true day digit is a guess - flagged rather than silently trusted"
+34,City of Norwich,1929-04-12,12/4,sailing,melbourne,Melb,FALSE,red = sailing
+35,City of Norwich,1929-04-14,14/4,arrival,adelaide,Adl.,FALSE,black = arrival
+36,City of Norwich,1929-04-18,18/4,sailing,adelaide,Adl,FALSE,red = sailing
+37,City of Norwich,1929-04-23,23/4,arrival,fremantle,Fre.,FALSE,black = arrival
+38,City of Norwich,1929-05-01,1/5,sailing,fremantle,Fre,FALSE,red = sailing
+39,City of Norwich,1929-05-15,15/5,arrival,mauritius,P.Louis,FALSE,"black = arrival. 'P.Louis' = Port Louis, Mauritius - added as an alias on the existing mauritius row in ports.csv"
+40,City of Norwich,1929-05-17,17/5,sailing,mauritius,P.Louis,FALSE,red = sailing
+41,City of Norwich,1929-05-22,22/5,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+42,City of Norwich,1929-05-24,24/5,sailing,lourenco-marques,L.M.,FALSE,red = sailing
+43,City of Norwich,1929-05-25,25/5,arrival,port-natal,P.Nat,FALSE,black = arrival
+44,City of Norwich,1929-05-30,30/5,sailing,port-natal,P.Nat,FALSE,red = sailing
+45,City of Norwich,1929-05-31,31/5,arrival,east-london,E.Lo,FALSE,"black = arrival. Same South African coastal circuit (Lourenco Marques - Port Natal/Durban - East London - Algoa Bay - Table Bay) seen on IMG_5628 for City of Chester"
+46,City of Norwich,1929-06-02,2/6,arrival,algoa-bay,Algoa,FALSE,"black = arrival. New port added to ports.csv - the bay Port Elizabeth sits on"
+47,City of Norwich,1929-06-06,6/6,sailing,algoa-bay,Algoa,FALSE,red = sailing
+48,City of Norwich,1929-06-08,8/6,arrival,table-bay,Table,FALSE,black = arrival
+49,City of Norwich,1929-06-13,13/6,sailing,table-bay,Table,FALSE,red = sailing
+50,City of Norwich,1929-07-09,9/7,arrival,philadelphia,Phil.,FALSE,black = arrival
+51,City of Norwich,1929-07-23,23/7,sailing,philadelphia,Phil.,FALSE,red = sailing
+52,City of Norwich,1929-07-24,24/7,arrival,new-york,NY,FALSE,black = arrival
+53,City of Norwich,1929-07-31,31/7,sailing,new-york,NY,FALSE,red = sailing
+54,City of Norwich,1929-08-01,1/8,arrival,norfolk-va,Nflk,FALSE,black = arrival
+55,City of Norwich,1929-08-04,4/8,sailing,norfolk-va,Nflk,FALSE,red = sailing
+56,City of Norwich,1929-08-11,11/8,arrival,colon,Colon,FALSE,black = arrival
+57,City of Norwich,1929-08-11,11/8,arrival,panama-canal,Pan,FALSE,"black = arrival, same day as Colon"
+58,City of Norwich,1929-08-12,12/8,sailing,panama-canal,Pan,FALSE,red = sailing
+59,City of Norwich,1929-08-21,21/8,arrival,los-angeles,Los A.,FALSE,black = arrival
+60,City of Norwich,1929-08-22,22/8,sailing,los-angeles,Los A.,FALSE,"red = sailing. A blue marginal note reading 're mishap at dock' is attached to this entry (see seq 61) - PARAGRAPHS are blue per this card's own colour key"
+61,City of Norwich,1929-08-22,,note,los-angeles,,FALSE,"Blue paragraph note: 're mishap at dock', with a Lloyd's List citation date of 'Sept. 11/16' and the incident itself dated '(22/8)' - i.e. referring back to the Los Angeles call at seq 59/60. Details of the mishap itself aren't given on the card"
+62,City of Norwich,1929-08-26,26/8,note,san-francisco,(Fran),FALSE,"UNCERTAIN TYPE - written in blue with the port name in parentheses, unlike every other port call on the card (black/red). Likely either a genuine San Francisco call logged in blue because it shares the margin with the seq 61 note, or a note about the ship's next destination rather than a confirmed arrival. Kept separate from the black/red sequence and flagged rather than treated as a normal arrival"
+63,City of Norwich,1929-09-12,12/9,arrival,yokohama,Yoko.,FALSE,black = arrival
+64,City of Norwich,1929-09-15,15/9,sailing,yokohama,Yoko.,FALSE,red = sailing
+65,City of Norwich,1929-09-18,18/9,arrival,osaka,Osaka,FALSE,"black = arrival. New port added to ports.csv"
+66,City of Norwich,1929-09-18,18/9,sailing,osaka,Osaka,FALSE,"red = sailing, same day - a short call"
+67,City of Norwich,1929-09-18,18/9,arrival,kobe,Kobe,FALSE,"black = arrival, same day as the Osaka sailing - Kobe and Osaka are very close together, consistent with a same-day hop"
+68,City of Norwich,1929-09-23,23/9,arrival,shanghai,Shng.,FALSE,"black = arrival. New port lon/lat not yet added to ports.csv (code already existed)"
+69,City of Norwich,1929-09-23,23/9,arrival,moji,Moji,FALSE,"UNCERTAIN - black, same date as seq 68's Shanghai arrival despite Shanghai and Moji (Japan) being geographically far apart with nothing logged in between. Either the reading order or one of the two dates is likely off. New port added to ports.csv. Flagged rather than silently reconciled"
+70,City of Norwich,1929-10-06,6/10,arrival,keelung,Keel.,FALSE,"black = arrival. New port added to ports.csv (Formosa/Taiwan)"
+71,City of Norwich,1929-10-04,4/10,sailing,keelung,Kul.,FALSE,"UNCERTAIN - red, reads 'Kul' rather than 'Keel' (seq 70), and its date (4/10) falls before the seq 70 arrival (6/10) it should follow. Tentatively linked to Keelung on the assumption this is a second abbreviation for the same port (the card uses more than one code for the same place elsewhere, e.g. Rotterdam/Dunkirk), but genuinely unresolved"
+72,City of Norwich,1929-10-04,4/10,arrival,shanghai,Shng.,FALSE,"UNCERTAIN - black, dated before seq 70/71 despite following them in card position - another instance of the card's physical order not matching date order (same pattern as seq 90-ish on IMG_5632's Sydney/Brisbane cluster)"
+73,City of Norwich,1929-10-11,11/10,arrival,cebu,Cebu,FALSE,"black = arrival. New port added to ports.csv"
+74,City of Norwich,1929-10-14,14/10,arrival,manila,Man.,FALSE,black = arrival
+75,City of Norwich,1929-10-14,14/10,sailing,manila,Man.,FALSE,"red = sailing, same day as the arrival"
+76,City of Norwich,1929-10-22,22/10,arrival,singapore,Sing.,FALSE,black = arrival
+77,City of Norwich,,,note,,,FALSE,"Entry struck through by the original clerk (read as 'Sing. 20/10' before being crossed out). Not transcribed as an event, kept as a placeholder"
+78,City of Norwich,1929-10-29,29/10,sailing,singapore,Sing.,FALSE,"red = sailing. Card ends here with a red 'cont. on card no 2' note - the next card in the sequence (not the same as the still-missing 'Card No 2' referenced on IMG_5628/29/30, which belongs to a different ship, City of Chester) is not yet identified among the scanned images"

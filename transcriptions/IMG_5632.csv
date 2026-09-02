@@ -1,0 +1,85 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1927-10-06,6/10,arrival,portland-oregon,Ptld Ore,FALSE,black = arrival. Card explicitly qualifies "Ore" to disambiguate from Portland UK
+2,City of Norwich,1927-10-18,18/10,sailing,portland-oregon,Ptld Ore,FALSE,red = sailing
+3,City of Norwich,1927-10-21,21/10,arrival,san-francisco,Fran,FALSE,black = arrival
+4,City of Norwich,1927-11-02,2/11,sailing,san-francisco,Fran,FALSE,red = sailing
+5,City of Norwich,1927-11-03,3/11,arrival,los-angeles,Los A.,FALSE,black = arrival
+6,City of Norwich,1927-11-04,4/11,sailing,los-angeles,Los A.,FALSE,red = sailing
+7,City of Norwich,1927-11-15,15/11,arrival,panama-canal,Pan,FALSE,black = arrival at the Canal Zone
+8,City of Norwich,1927-11-16,16/11,sailing,panama-canal,Pan,FALSE,"red = sailing. Written with a connecting underline straight into the next entry (Brist, same date) - see that entry's note"
+9,City of Norwich,1927-11-16,16/11,unknown,bristol,Brist,FALSE,"UNCERTAIN - red, joined by a drawn connecting line to the Panama sailing (seq 8) and sharing its exact date, which is not physically possible for a Panama-to-Bristol transit. Most likely reading: this is a 'bound for Bristol' destination note attached to the Panama sailing entry, not a separate arrival record - so the true Bristol arrival date is not actually captured here. Kept as its own row since it's in its own card column, but flagged rather than treated as a real arrival date."
+10,City of Norwich,1927-12-04,4/12,arrival,liverpool,Liv,FALSE,"black = arrival. No sailing from Bristol is logged between this and seq 9, consistent with seq 9 being a destination note rather than a real port call"
+11,City of Norwich,1927-12-08,8/12,sailing,liverpool,Liv,FALSE,red = sailing
+12,City of Norwich,1927-12-09,9/12,transit,lizard,Liz,FALSE,"black. The Lizard (Cornwall) is a coastal signal station ships were reported passing, not a real port of call - kept as transit, not a waypoint"
+13,City of Norwich,1927-12-10,10/12,arrival,london,Lo.,FALSE,black = arrival
+14,City of Norwich,1927-12-14,14/12,sailing,london,Lo,FALSE,red = sailing
+15,City of Norwich,1927-12-15,15/12,arrival,hull,Hull.,FALSE,black = arrival
+16,City of Norwich,1927-12-25,25/12,arrival,,Oss,FALSE,"UNCERTAIN - black, boxed by the clerk with a hand-drawn rectangle that's linked via a curved bracket to the very next (red, seq 17) entry. Reads clearly as 'Oss' (capital O, then 'ss') but that code isn't in the official Guildhall list - closest are 'Ost' (Ostend) and 'Ods' (Odessa), neither a good letterform match. Genuinely unresolved."
+17,City of Norwich,1927-12-24,24/12,sailing,hull,Hull,FALSE,"red, bracketed to seq 16 (see its note) by the card's own hand-drawn annotation. Its date (24th) falls chronologically BEFORE the 'Oss' arrival immediately preceding it in card position (25th) - the annotation is likely the clerk's own way of marking that these two should be read together/in the corrected order (sailed Hull 24th, arrived '25th' next entry), which is exactly what the dates imply once you ignore card left-to-right order and go by date alone"
+18,City of Norwich,1927-12-29,29/12,arrival,glasgow,Glas,FALSE,black = arrival
+19,City of Norwich,1928-01-05,5/1,sailing,glasgow,Glas,FALSE,"red = sailing. The year changes to 1928 here - written inline as '1928 -' before this entry's reference number, rather than boxed between bars like on IMG_5628"
+20,City of Norwich,1928-01-06,6/1,arrival,liverpool,Liv,FALSE,black = arrival
+21,City of Norwich,1928-01-18,18/1,sailing,liverpool,Liv,FALSE,red = sailing
+22,City of Norwich,1928-01-23,23/1,transit,gibraltar,Gib.(p),FALSE,"black. '(p)' annotation - read as 'passed', i.e. reported passing Gibraltar without actually calling. Same annotation appears again at seq 37 in red - kept as transit either way"
+23,City of Norwich,1928-01-30,30/1,arrival,port-said,P.Said,FALSE,black = arrival
+24,City of Norwich,1928-01-31,31/1,sailing,port-said,P.Said,FALSE,red = sailing
+25,City of Norwich,,,note,,,FALSE,"Entry struck through by the original clerk (black ink, crossed out) - illegible and evidently cancelled. Not transcribed as an event, kept as a placeholder in the sequence so the count of card columns stays traceable"
+26,City of Norwich,1928-02-04,4/2,arrival,perim,Prm,FALSE,"black = arrival. 'Prm' = Perim, a small island station at the mouth of the Red Sea - new port, added to ports.csv"
+27,City of Norwich,1928-02-06,6/2,sailing,perim,Prm,FALSE,red = sailing
+28,City of Norwich,1928-02-19,19/2,unknown,,bal,FALSE,"UNCERTAIN - black, written lowercase ('bal') unlike every other port abbreviation on this card, which are capitalised. Doesn't match a place code in ports.csv. Best guess is that this is shipping shorthand for 'in ballast' (no cargo) rather than a port name, but flagged rather than guessed at as a place"
+29,City of Norwich,1928-03-01,1/3,unknown,,bal,FALSE,"UNCERTAIN - same lowercase 'bal' as seq 28, this time in red. Same flag applies"
+30,City of Norwich,1928-03-04,4/3,arrival,,Nlm,FALSE,"UNCERTAIN - black, reads as 'Nlm' or possibly 'Mlm' (the first letter is ambiguous between N and M). Doesn't match ports.csv. Position in the route (after Perim, before Rangoon) would fit a Bay-of-Bengal port such as Moulmein, but that's a guess, not a confirmed reading"
+31,City of Norwich,1928-03-12,12/3,arrival,rangoon,Rng.,FALSE,"black = arrival. New port, added to ports.csv"
+32,City of Norwich,1928-03-18,18/3,sailing,rangoon,Rng,FALSE,red = sailing
+33,City of Norwich,1928-03-25,25/3,unknown,,bey,FALSE,"UNCERTAIN - black, again written lowercase like seq 28/29's 'bal'. Doesn't match ports.csv (Beypore, a timber port in India, is a possible but unconfirmed guess). Flagged rather than guessed"
+34,City of Norwich,1928-04-02,2/4,transit,perim,Prm(p),FALSE,"black. '(p)' annotation again, read as 'passed' - a return transit past Perim without a full call, matching the seq 22 pattern. A stray mark after the date wasn't legible enough to transcribe"
+35,City of Norwich,1928-04-08,8/4,transit,suez,Suez,FALSE,"black = arrival. Suez, southern end of the canal - transit northbound"
+36,City of Norwich,1928-04-09,9/4,transit,port-said,P.Said,FALSE,"black = arrival. Port Said, northern end of the canal, arrived the day after Suez - consistent with a canal transit rather than two separate port calls, no sailing logged between them"
+37,City of Norwich,1928-04-16,16/4,transit,gibraltar,Gib.(y),FALSE,"red this time (seq 22's identical annotation was black) - '(p)' or possibly '(y)', hard to be certain which given the colour and annotation both differ from seq 22. Read as 'passed' regardless, kept as transit"
+38,City of Norwich,1928-04-22,22/4,arrival,london,Lo,FALSE,black = arrival
+39,City of Norwich,1928-04-24,24/4,sailing,london,Lo(c),FALSE,"red = sailing. Annotated '(c)' - meaning unknown, same unexplained bracketed marker seen on IMG_5628 (seq 44/51 there)"
+40,City of Norwich,1928-04-24,24/4,arrival,london,Lo,FALSE,"black = arrival, same day as the seq 39 sailing - a short move (e.g. anchorage to dock), matching the same-day pattern seen on IMG_5628 (Clyde Anchorage to Glasgow dock)"
+41,City of Norwich,1928-04-24,24/4,sailing,southend,Snd,FALSE,"red = sailing, same day again. 'Snd' is an ambiguous code (Southend or Sunderland per ports.csv) - going with Southend given the geography (Thames estuary, right after London) but flagged"
+42,City of Norwich,1928-04-26,26/4,arrival,hamburg,Ham,FALSE,black = arrival
+43,City of Norwich,1928-05-04,4/5,sailing,hamburg,Ham,FALSE,red = sailing
+44,City of Norwich,1928-05-05,5/5,arrival,nieuw-waterweg,N.Wtg,FALSE,"black = arrival. 'N Wtg' = Nieuw Waterweg, the Rotterdam approach channel"
+45,City of Norwich,1928-05-11,11/5,sailing,nieuw-waterweg,M.Wtg,FALSE,"UNCERTAIN - red, reads 'M Wtg' rather than 'N Wtg' (seq 44). Tentatively linked to the same Nieuw Waterweg entry on the assumption this is a letterform variant of 'N', but flagged since it could be a distinct place"
+46,City of Norwich,1928-05-12,12/5,arrival,antwerp,Ant,FALSE,black = arrival
+47,City of Norwich,1928-05-15,15/5,sailing,antwerp,Ant,FALSE,red = sailing
+48,City of Norwich,1928-05-15,15/5,sailing,antwerp,Ant,FALSE,"DUPLICATE - red, identical port and date to seq 47, written immediately after it. Likely two separate Lloyd's List citations of the same sailing rather than two real events, but kept as its own row and flagged rather than silently merged"
+49,City of Norwich,1928-05-19,19/5,arrival,,Shls,FALSE,"black = arrival. 'Shls' = Shields (North/South Shields, Tyneside) per ports.csv - day digit read with some uncertainty, looks like 19 but could be misread"
+50,City of Norwich,1928-05-25,25/5,sailing,,Shls,FALSE,red = sailing
+51,City of Norwich,1928-05-29,29/5,arrival,,Iwle,FALSE,"UNCERTAIN - black, ornate capital letter matching the same flourish used for 'P' elsewhere on this card (e.g. Ptld), followed by what reads as 'wle'. Doesn't match any code in ports.csv (Poole was considered and ruled out - wrong code). Genuinely unresolved"
+52,City of Norwich,1928-06-08,8/6,arrival,new-york,NY,FALSE,black = arrival
+53,City of Norwich,1928-06-26,26/6,sailing,new-york,NY,FALSE,"red = sailing. This entry, seq 54, and seq 55 have their top-row reference numbers joined by a single hand-drawn bracket spanning all three - the card is marking them as related. Taken at face value the dates read 26/6, 27/6, 26/6, which doesn't strictly move forward - see seq 55"
+54,City of Norwich,1928-06-27,27/6,arrival,newport-news,NNews,FALSE,"black = arrival. New port, added to ports.csv. Bracketed with seq 53/55, see seq 53's note"
+55,City of Norwich,1928-06-26,26/6,sailing,new-york,NY,FALSE,"UNCERTAIN - red, same port and date as seq 53, written after the Newport News arrival (seq 54) that itself is dated a day later (27/6). Bracketed together with seq 53/54 by the card's own annotation (see seq 53's note) - could be a duplicate citation of seq 53, or a misread digit on this or seq 53's date. Flagged rather than guessed"
+56,City of Norwich,1928-06-28,28/6,sailing,newport-news,NNews,FALSE,red = sailing
+57,City of Norwich,1928-07-05,5/7,arrival,colon,Colon,FALSE,"black = arrival. New port, added to ports.csv - Colon, the Atlantic-side terminus city of the Panama Canal"
+58,City of Norwich,1928-07-05,5/7,arrival,panama-canal,Pan,FALSE,"black = arrival, same day as Colon - the Pacific side of the same canal transit"
+59,City of Norwich,1928-07-06,6/7,sailing,panama-canal,Pan,FALSE,red = sailing
+60,City of Norwich,1928-08-04,4/8,arrival,brisbane,Bris,FALSE,black = arrival
+61,City of Norwich,1928-08-09,9/8,sailing,brisbane,Bris,FALSE,red = sailing
+62,City of Norwich,1928-08-09,9/8,arrival,sydney-nsw,Syd,FALSE,"black = arrival, same day as the Brisbane sailing"
+63,City of Norwich,1928-08-14,14/8,sailing,sydney-nsw,Syd,FALSE,red = sailing
+64,City of Norwich,1928-08-16,16/8,arrival,melbourne,Melb,FALSE,black = arrival
+65,City of Norwich,1928-08-20,20/8,arrival,adelaide,Adl,FALSE,"black = arrival. No sailing from Melbourne is logged between this and seq 64"
+66,City of Norwich,1928-08-22,22/8,sailing,adelaide,Adl,FALSE,red = sailing
+67,City of Norwich,1928-08-23,23/8,arrival,port-pirie,Pirie,FALSE,black = arrival
+68,City of Norwich,1928-08-24,24/8,sailing,port-pirie,Pirie,FALSE,red = sailing
+69,City of Norwich,1928-08-28,28/8,arrival,sydney-nsw,Syd,FALSE,black = arrival
+70,City of Norwich,1928-08-30,30/8,unknown,sydney-nsw,Syd,FALSE,"UNCERTAIN - written in black like seq 69's arrival rather than red, even though a sailing would be expected here. Colour may simply be a clerical slip; kept as its literal colour rather than assumed to be a sailing"
+71,City of Norwich,1928-09-04,4/9,arrival,cairns,Cairns,FALSE,"black = arrival. New port, added to ports.csv"
+72,City of Norwich,1928-09-08,8/9,unknown,sydney-nsw,Syd,FALSE,"UNCERTAIN - red, reads 'Syd' again, but a Cairns-to-Sydney-and-back sequence this fast doesn't sit well chronologically against the Rockhampton entries immediately following. May be a misread of a Queensland port rather than Sydney. Flagged rather than guessed"
+73,City of Norwich,1928-09-11,11/9,arrival,rockhampton,Rkhmptn,FALSE,"black = arrival. New port, added to ports.csv"
+74,City of Norwich,1928-09-13,13/9,sailing,rockhampton,Rkhmptn,FALSE,"red = sailing. Day digit partly cut off at the card edge, read as 13 with some uncertainty"
+75,City of Norwich,1928-09-14,14/9,arrival,brisbane,Bris,FALSE,black = arrival
+76,City of Norwich,1928-10-01,1/10,unknown,sydney-nsw,Syd,FALSE,"UNCERTAIN - black. Comes right before a Brisbane entry dated 29/9 (seq 78), i.e. earlier than this one, despite being written first - another instance of the card's physical order not matching date order, like seq 16/17"
+77,City of Norwich,1928-09-29,29/9,unknown,brisbane,Bris,FALSE,"UNCERTAIN - red. Dated before seq 76 despite following it in card position - see that entry's note"
+78,City of Norwich,1928-10-16,16/10,arrival,sydney-nsw,Syd,FALSE,black = arrival
+79,City of Norwich,1928-10-16,16/10,sailing,sydney-nsw,Syd,FALSE,"DUPLICATE - red, identical port and date to seq 78, written immediately after it - same pattern as seq 47/48"
+80,City of Norwich,1928-11-12,12/11,arrival,perim,Prm,FALSE,"black = arrival, on the way back through the Red Sea. Date read as 12/11 (a stray '1/11' fragment beside it may be part of the same number, not a separate entry)"
+81,City of Norwich,1928-11-16,16/11,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+82,City of Norwich,1928-11-19,19/11,transit,port-said,P.Said,FALSE,"red. Unusual colour for what should be a canal-transit arrival like seq 36 - flagged"
+83,City of Norwich,1928-11-24,24/11,transit,gibraltar,Gib.(p),FALSE,"black, '(p)' = passed, same convention as seq 22/34/37"
+84,City of Norwich,,,unknown,,Lag,FALSE,"INCOMPLETE - black, first three letters 'Lag' (possibly Lagos) with the rest of the entry, including its date, continuing onto the second side of this card (per the card's own red 'cont on other side' note right below it). Will be completed once the second side is located and transcribed"

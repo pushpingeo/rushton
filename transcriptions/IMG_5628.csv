@@ -1,0 +1,52 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Chester (Motor),1946-06-08,8/6,engaged,east-london,E Lo,FALSE,'Eng'd' written to the left in black - the day William joined City of Chester
+2,City of Chester (Motor),1946-06-08,8/6,sailing,east-london,E Lo,TRUE,"red, bare date - inferred same-day departure from East London"
+3,City of Chester (Motor),1946-06-0?,?/6,sailing,port-elizabeth,P Eliz,FALSE,"red, port name written. Day digit uncertain (1 or 7). No matching arrival on this card - probably logged on the missing predecessor 'Card No 1' for this ship"
+4,City of Chester (Motor),1946-06-09,9/6,arrival,durban,Durb,FALSE,black = arrival
+5,City of Chester (Motor),1946-06-14,14/6,sailing,durban,Durb,TRUE,"red, bare date, inferred Durban"
+6,City of Chester (Motor),1946-06-15,15/6,arrival,lourenco-marques,L M,FALSE,black = arrival
+7,City of Chester (Motor),1946-06-16,16/6,sailing,lourenco-marques,L M,TRUE,"red, bare date, inferred Lourenco Marques"
+8,City of Chester (Motor),1946-06-20,June 20,unknown,,,FALSE,"UNCERTAIN - black ink, spelled-out month+day instead of the usual DD/MM, no port. Still unresolved."
+9,City of Chester (Motor),1946-06-??,?,unknown,,,FALSE,"UNCERTAIN - red entry right after seq 8, mostly illegible"
+10,City of Chester (Motor),1946-06-18,18/6,arrival,beira,Beira,FALSE,black = arrival
+11,City of Chester (Motor),1946-06-29,29/6,sailing,beira,Beira,TRUE,"red, bare date, inferred Beira"
+12,City of Chester (Motor),1946-07-02,2/7,arrival,lourenco-marques,L M,FALSE,"black = arrival. Annotated '(PREV)' on the card - meaning unclear, possibly cross-referencing an earlier call. Worth asking about."
+13,City of Chester (Motor),1946-07-03,3/7,sailing,lourenco-marques,L M,TRUE,"red, bare date, inferred Lourenco Marques"
+14,City of Chester (Motor),1946-07-05,5/7,arrival,east-london,E Lo,FALSE,black = arrival
+15,City of Chester (Motor),1946-07-07,7/7,sailing,east-london,E Lo,TRUE,"red, bare date, inferred East London"
+16,City of Chester (Motor),1946-07-0?,?/7,arrival,port-elizabeth,P Eliz,FALSE,black = arrival. Day digit uncertain
+17,City of Chester (Motor),1946-07-11,11/7,sailing,port-elizabeth,P Eliz,FALSE,"red, port name written. 'July' month label appears just before this"
+18,City of Chester (Motor),1946-07-12,12/7,arrival,table-bay,Table,FALSE,black = arrival
+19,City of Chester (Motor),1946-07-13,13/7,sailing,table-bay,Table,TRUE,"red, bare date, inferred Table Bay"
+20,City of Chester (Motor),1946-07-28,28/7,arrival,,Lw,FALSE,"UNCERTAIN - reads 'hw' or 'Lw' on close zoom, not in the official abbreviation list and doesn't match the confirmed 'L M' letterforms elsewhere on this card. Genuinely unresolved."
+21,City of Chester (Motor),1946-08-13,13/8,sailing,,Lw,TRUE,"red, bare date, port inferred from seq 20 (so carries the same uncertainty)"
+22,City of Chester (Motor),1946-08-14,14/8,arrival,clyde-anchorage,Clyde Anch,FALSE,black = arrival
+23,City of Chester (Motor),1946-08-14,14/8,arrival,glasgow,Glas,FALSE,"black = arrival, same day as seq 22 - moved from anchorage up to dock"
+24,City of Chester (Motor),1946-08-27,27/8,sailing,clyde-anchorage,Clyde Anch,FALSE,"red, port name written - departed after a ~2 week stay"
+25,City of Chester (Motor),1946-09-0?,?/9,arrival,lourenco-marques,L M,FALSE,"black = arrival. UNCERTAIN date - I first misread this as 24/8, which is chronologically impossible (before the seq 24 departure it follows). Reworked to early September (day ambiguous, looks like 2 or 4) which fits between the 27 Aug departure and the 10 Sep departure below. Needs your eyes."
+26,City of Chester (Motor),1946-09-10,10/9,sailing,lourenco-marques,L M,TRUE,"red, bare date, inferred Lourenco Marques"
+27,City of Chester (Motor),1946-09-25,25/9,arrival,table-bay,Table,FALSE,black = arrival
+28,City of Chester (Motor),1946-09-28,28/9,sailing,table-bay,Table,TRUE,"red, bare date, inferred Table Bay"
+29,City of Chester (Motor),1946-09-29,29/9,arrival,port-elizabeth,P Eliz,FALSE,black = arrival
+30,City of Chester (Motor),1946-10-0?,?/10,sailing,port-elizabeth,P Eliz,TRUE,"red, bare date, inferred Port Elizabeth. Day digit uncertain (looks like 5)"
+31,City of Chester (Motor),1946-10-06,6/10,arrival,east-london,E Lo,FALSE,black = arrival
+32,City of Chester (Motor),1946-10-03,3/10,speaking,,,FALSE,"RECLASSIFIED from sailing - red, bare, no port, and dated 3 Oct despite appearing right after the 6 Oct arrival above. The card's own header says red covers 'sailings AND speakings' - this pattern (out-of-sequence red date, no port) looks like an at-sea sighting report logged alongside the arrival it relates to, not a real port call. Not included as a waypoint."
+33,City of Chester (Motor),1946-10-10,10/10,arrival,lourenco-marques,L M,FALSE,black = arrival
+34,City of Chester (Motor),1946-10-11,11/10,sailing,lourenco-marques,L M,TRUE,"red, bare date, inferred Lourenco Marques"
+35,City of Chester (Motor),1946-10-12,12/10,arrival,beira,Beira,FALSE,black = arrival
+36,City of Chester (Motor),1946-10-26,26/10,sailing,beira,Beira,TRUE,"red, bare date, inferred Beira"
+37,City of Chester (Motor),1946-10-29,29/10,arrival,east-london,E Lo,FALSE,black = arrival
+38,City of Chester (Motor),1946-10-31,31/10,sailing,east-london,E Lo,TRUE,"red, bare date, inferred East London"
+39,City of Chester (Motor),1946-11-01,1/11,sailing,port-elizabeth,P Eliz,FALSE,"red, port name written"
+40,City of Chester (Motor),1946-11-01,1/11,arrival,port-elizabeth,P Eliz,FALSE,"black = arrival, same date as seq 39 - quick same-day turnaround, or the sailing/arrival pair for this port is written in the opposite order to usual. Flagging the ordering rather than guessing."
+41,City of Chester (Motor),1946-11-02,2/11,arrival,table-bay,Table,FALSE,black = arrival
+42,City of Chester (Motor),1946-11-09,9/11,sailing,table-bay,Table,TRUE,"red, bare date, inferred Table Bay"
+43,City of Chester (Motor),1946-11-22,22/11,arrival,london,Lo,FALSE,black = arrival
+44,City of Chester (Motor),1946-11-28,28/11,sailing,london,Lo,TRUE,"red, bare date, inferred London. Annotated '(C)' - meaning unclear, same kind of bracketed note as seq 12's '(PREV)'. Worth asking about."
+45,City of Chester (Motor),1946-12-02,2/12,sailing,sunderland,Snd,FALSE,"red, port name written"
+46,City of Chester (Motor),1946-12-04,4/12,arrival,antwerp,Antf,FALSE,black = arrival ('Antf' - close variant of the official 'Ant' code)
+47,City of Chester (Motor),1946-12-18,18/12,sailing,antwerp,Antf,TRUE,"red, bare date, inferred Antwerp"
+48,City of Chester (Motor),1946-12-18,18/12,arrival,rotterdam,Rott,FALSE,"black = arrival, same day as departure from Antwerp - short hop, geographically consistent"
+49,City of Chester (Motor),1946-12-21,21/12,sailing,rotterdam,Rott,TRUE,"red, bare date, inferred Rotterdam"
+50,City of Chester (Motor),1946-12-22,22/12,arrival,london,Lo,FALSE,"black = arrival. '1947' appears right after this, written between two thick black bars marking the year change"
+51,City of Chester (Motor),1947-01-09,9/1,sailing,london,Lo,FALSE,"red, port name written. 'Jan 10' appears as a month/reference label just before it. Annotated '(c)', same unexplained marker as seq 44."
