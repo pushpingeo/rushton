@@ -379,12 +379,17 @@ dl.spec dd{margin:0}
     align-items:center;justify-content:center;padding:24px;
   }
   .about-overlay.open{display:flex;}
-  .about-modal{max-width:min(580px,95vw);
+  .about-modal{
     background:rgba(4,18,40,.97);border:1px solid rgba(255,255,255,.12);border-radius:4px;
     border-top:3px solid var(--ensign);
-    max-width:580px;width:100%;padding:36px 40px 32px;position:relative;
+    max-width:min(580px,calc(100vw - 48px));width:100%;padding:36px 40px 32px;position:relative;
+    max-height:calc(100vh - 48px);display:flex;flex-direction:column;
     box-shadow:0 24px 80px rgba(0,0,0,.8);
   }
+  /* Scrolls internally so long text never pushes the close button (or the
+     bottom of the card) off-screen on shorter viewports like an iPad in
+     landscape — the close button itself stays outside this, always visible. */
+  .about-body{overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;min-height:0;}
   .about-modal h3{
     font-family:"Big Shoulders Display",sans-serif;font-weight:600;
     font-size:20px;text-transform:uppercase;letter-spacing:.04em;
@@ -1017,17 +1022,19 @@ function pouchNav(dir) {
 <div class="about-overlay" id="aboutOverlay" onclick="closeAbout()">
   <div class="about-modal" onclick="event.stopPropagation()">
     <button class="about-close" onclick="closeAbout()">&#x2715; Close</button>
-    <h3>About This Project</h3>
-    <p>I spent four years living on Borneo, where I spent many evenings watching the sun go down over the South China Sea. I always wondered whether my great-grandfather — who died when I was six — had sailed that very sea a hundred years before me.</p>
-    <p>He spent fifty years in the merchant navy, perhaps the best-documented workforce in history. His seaman's pouch sits in the basement of the National Archives at Kew. The voyage cards for the ships he sailed are held at the Guildhall Library, in the heart of the City of London. Getting all of that into a map felt like a fitting 21st-century benchmark for Claude and its data centres somewhere in the American midwest.</p>
-    <p>We believe he first signed up for the merchant navy during the First World War in 1915, aged 15. Later in his career he would serve his country for the duration of the Second World War, running Atlantic convoys — several of which are documented here — while the streets of Birkenhead were being regularly bombed back home. He had a ring engraved with a torpedo and <em>Xmas 1941</em>. We believe he arrived in Freetown on Boxing Day 1941, having sailed with the City of Rangoon in convoy OS13. No loss is recorded, and the torpedo link remains a mystery.</p>
-    <p>His career spanned 45–50 years, and we estimate that around 38 of those were spent aboard a vessel sailing under the Red Ensign. This site is a small acknowledgement of a remarkable career, and a tribute to all those who have served their country in the merchant navy.</p>
-    <div class="thanks">
-      <span>With thanks to</span>
-      Elizabeth and Isabelle at the Guildhall Library &nbsp;&middot;&nbsp;
-      Doc Vernon at <a href="http://merchant-navy.net" target="_blank" rel="noopener">merchant-navy.net</a> &nbsp;&middot;&nbsp;
-      Vessel photographs from <a href="http://benjidog.co.uk" target="_blank" rel="noopener">benjidog.co.uk</a>, maintained by Brian Watson &nbsp;&middot;&nbsp;
-      <a href="https://www.maptiler.com" target="_blank" rel="noopener">MapTiler</a> for the ocean basemap
+    <div class="about-body">
+      <h3>About This Project</h3>
+      <p>I spent four years living on Borneo, where I spent many evenings watching the sun go down over the South China Sea. I always wondered whether my great-grandfather — who died when I was six — had sailed that very sea a hundred years before me.</p>
+      <p>He spent fifty years in the merchant navy, perhaps the best-documented workforce in history. His seaman's pouch sits in the basement of the National Archives at Kew. The voyage cards for the ships he sailed are held at the Guildhall Library, in the heart of the City of London. Getting all of that into a map felt like a fitting 21st-century benchmark for Claude and its data centres somewhere in the American midwest.</p>
+      <p>We believe he first signed up for the merchant navy during the First World War in 1915, aged 15. Later in his career he would serve his country for the duration of the Second World War, running Atlantic convoys — several of which are documented here — while the streets of Birkenhead were being regularly bombed back home. He had a ring engraved with a torpedo and <em>Xmas 1941</em>. We believe he arrived in Freetown on Boxing Day 1941, having sailed with the City of Rangoon in convoy OS13. No loss is recorded, and the torpedo link remains a mystery.</p>
+      <p>His career spanned 45–50 years, and we estimate that around 38 of those were spent aboard a vessel sailing under the Red Ensign. This site is a small acknowledgement of a remarkable career, and a tribute to all those who have served their country in the merchant navy.</p>
+      <div class="thanks">
+        <span>With thanks to</span>
+        Elizabeth and Isabelle at the Guildhall Library &nbsp;&middot;&nbsp;
+        Doc Vernon at <a href="http://merchant-navy.net" target="_blank" rel="noopener">merchant-navy.net</a> &nbsp;&middot;&nbsp;
+        Vessel photographs from <a href="http://benjidog.co.uk" target="_blank" rel="noopener">benjidog.co.uk</a>, maintained by Brian Watson &nbsp;&middot;&nbsp;
+        <a href="https://www.maptiler.com" target="_blank" rel="noopener">MapTiler</a> for the ocean basemap
+      </div>
     </div>
   </div>
 </div>
