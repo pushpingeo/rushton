@@ -25,6 +25,23 @@ running the result through `searoute`.
 This is the standard the first three cards were held to. Anyone (or any
 fresh context) picking this up should match it, not just fill columns in.
 
+**On pace vs thoroughness**: this is deliberately the slow, careful way to do
+this — zooming into individual ambiguous words, cross-checking letterforms
+against `ports.csv`, chasing a misread digit until it's resolved rather than
+shrugged off. It costs a lot of time and context per card. That's a known,
+accepted tradeoff, not something to "fix" by skimming faster once a session
+has been running a while or context is getting long — match the diligence of
+the cards already done (see "Fully transcribed so far" below for the bar),
+don't ease off it. If session length is a genuine constraint, the right lever
+is stopping between cards (everything below makes that safe), not lowering
+the standard within a card.
+
+**Checkpointing**: commit locally after every completed card (the
+transcription CSV, `ports.csv`, `cards.csv`, and this README together) so
+work is never at risk if a session ends unexpectedly. Don't push to the
+remote unless separately asked — check whether that's still wanted, since it
+may depend on what else is happening with the live site at the time.
+
 1. **Read the whole image first**, then identify which of two formats it is:
    - **Handwritten grid** (pre-1947-ish): ports abbreviated, ink colour
      carries meaning, reading order is **left to right across each ruled
