@@ -1,0 +1,65 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Rangoon,1940-07-21,21/7,arrival,lourenco-marques,L.m,FALSE,"black = arrival. NEW SHIP - first appearance of City of Rangoon in the collection (net tonnage 4272, distinct from City of Norwich's 4346). Card headed 'No 7 (first side)', 'Cont.' - continues an unseen Card No 6, Second Side. Card No 1 through 6 not yet identified among the scanned images. Date initially looked like '21/4' (April) but resolved to '21/7' (July) on closer inspection, consistent with the surrounding July/August citations"
+2,City of Rangoon,1940-07-24,24/7,sailing,lourenco-marques,,TRUE,red = sailing
+3,City of Rangoon,1940-07-30,30/7,arrival,table-bay,Table,FALSE,black = arrival
+4,City of Rangoon,1940-07-31,31/7,sailing,table-bay,,TRUE,red = sailing
+5,City of Rangoon,1940-08-13,13/8,arrival,freetown,Freet,FALSE,black = arrival
+6,City of Rangoon,1940-08-26,26/8,sailing,freetown,,TRUE,red = sailing
+7,City of Rangoon,1940-09-14,14/9,arrival,liverpool,Liv,FALSE,black = arrival
+8,City of Rangoon,1940-10-16,16/10,sailing,liverpool,,TRUE,"red = sailing. About a month docked at Liverpool, unexplained on this card"
+9,City of Rangoon,1940-10-17,17/10,arrival,river-mersey,Mersey,FALSE,black = arrival
+10,City of Rangoon,1940-11-16,16/11,arrival,table-bay,Table,FALSE,black = arrival
+11,City of Rangoon,1940-11-18,18/11,sailing,table-bay,,TRUE,red = sailing
+12,City of Rangoon,1940-11-22,22/11,arrival,durban,Durb.,FALSE,black = arrival
+13,City of Rangoon,1940-11-26,26/11,sailing,durban,,TRUE,red = sailing
+14,City of Rangoon,1940-11-29,29/11,arrival,beira,Beira,FALSE,black = arrival
+15,City of Rangoon,1940-12-07,7/12,sailing,beira,,TRUE,red = sailing
+16,City of Rangoon,1940-12-11,11/12,arrival,dar-es-salaam,Dar es S.,FALSE,black = arrival
+17,City of Rangoon,1940-12-12,12/12,sailing,dar-es-salaam,,TRUE,red = sailing
+18,City of Rangoon,1940-12-29,29/12,arrival,mombasa,Momb,FALSE,black = arrival
+19,City of Rangoon,1940-12-30,30/12,arrival,dar-es-salaam,Dar es S.,FALSE,"black = arrival. Year changes to 1941 here, boxed between the reference columns, sitting between this entry and the one before it"
+20,City of Rangoon,1941-01-05,5/1,sailing,dar-es-salaam,,TRUE,red = sailing
+21,City of Rangoon,1941-01-13,13/1,note,,,FALSE,Blue note 're tank repairs' - context not further specified on this card
+22,City of Rangoon,1941-01-10,10/1,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+23,City of Rangoon,,6/12,note,,,FALSE,Blue parenthetical '(Beira) 6/12' - doesn't fit chronologically here; most likely a citation cross-reference rather than a new event
+24,City of Rangoon,1941-01-14,14/1,sailing,lourenco-marques,L.m.,FALSE,red = sailing
+25,City of Rangoon,1941-01-19,19/1,arrival,table-bay,Table,FALSE,black = arrival
+26,City of Rangoon,1941-01-27,27/1,note,,,FALSE,"WARTIME INCIDENT - blue notes around this Table Bay call read 'Returned, leaking' (27/1, with a further reference '31/20') and 'Cape Town 28/1' (Cape Town sits on Table Bay, so likely the same event) and '(Lo.) 30/1' (a Lloyd's Agent citation). Read together: the ship returned to Table Bay/Cape Town leaking, in late January 1941. Not resolved into a precise day-by-day account"
+27,City of Rangoon,1941-02-04,4/2,sailing,table-bay,Table,FALSE,red = sailing
+28,City of Rangoon,1941-02-17,17/2,arrival,freetown,Freet,FALSE,black = arrival
+29,City of Rangoon,1941-02-19,19/11,note,,,FALSE,"Blue notes 'Re cargo damage' and '(Lo.) 28/2' (Lloyd's Agent citation) - a cargo damage incident at or around this Freetown call, not detailed further"
+30,City of Rangoon,1941-03-01,1/3,sailing,freetown,,TRUE,red = sailing
+31,City of Rangoon,1941-03-26,26/3,arrival,liverpool,Liv,FALSE,black = arrival
+32,City of Rangoon,1941-04-27,27/4,sailing,liverpool,,TRUE,red = sailing
+33,City of Rangoon,1941-05-01,1/5,arrival,river-mersey,Mersey,FALSE,black = arrival
+34,City of Rangoon,1941-05-06,6/25,note,,,FALSE,"Blue note 'Re gate damage' (with references '24/1' and '6/25') - a dock-gate damage incident; a further blue parenthetical word is illegible (reads approximately '(Kiel)', which would be an unlikely wartime destination and is probably a misreading of something else) - genuinely unresolved"
+35,City of Rangoon,1941-05-23,23/5,arrival,freetown,Freet,FALSE,black = arrival
+36,City of Rangoon,1941-05-25,25/5,sailing,freetown,,TRUE,red = sailing
+37,City of Rangoon,1941-06-09,9/6,arrival,table-bay,Table,FALSE,black = arrival
+38,City of Rangoon,1941-06-18,18/6,sailing,table-bay,,TRUE,red = sailing
+39,City of Rangoon,1941-06-23,23/6,arrival,durban,Durb,FALSE,black = arrival
+40,City of Rangoon,1941-06-27,27/6,sailing,durban,,TRUE,red = sailing
+41,City of Rangoon,1941-07-12,12/7,arrival,bombay,Bom,FALSE,black = arrival
+42,City of Rangoon,1941-07-29,29/7,sailing,bombay,,TRUE,red = sailing
+43,City of Rangoon,1941-08-01,1/8,arrival,karachi,Kar,FALSE,black = arrival
+44,City of Rangoon,1941-08-14,14/8,sailing,karachi,,TRUE,red = sailing
+45,City of Rangoon,1941-09-03,3/9,arrival,lourenco-marques,L.m,FALSE,black = arrival
+46,City of Rangoon,1941-09-05,5/9,sailing,lourenco-marques,,TRUE,red = sailing
+47,City of Rangoon,1941-09-10,10/9,arrival,table-bay,Table,FALSE,black = arrival
+48,City of Rangoon,1941-06-11,11/6,note,,,FALSE,"WARTIME/WEATHER INCIDENT - blue note reads approximately 'The damage re cyclone/tornado' dated 11/6, alongside a parenthetical '(Cape Town) 22/8'. A storm-damage incident, not detailed further; the date sits awkwardly relative to the surrounding September entries and may be a cross-reference to an earlier event rather than dated to this call"
+49,City of Rangoon,1941-09-24,24/9,sailing,table-bay,Table,FALSE,red = sailing
+50,City of Rangoon,1941-10-08,8/10,arrival,freetown,Freetn,FALSE,black = arrival
+51,City of Rangoon,1941-11-04,4/25,note,,,FALSE,Blue note 'The hull repairs re' with a reference 'Nov 4/25' - hull repair work referenced without further detail
+52,City of Rangoon,1941-10-16,16/10,sailing,freetown,,TRUE,red = sailing
+53,City of Rangoon,,15/9,note,,,FALSE,Blue parenthetical '(L.M) 15/9' - doesn't fit chronologically here; most likely a citation cross-reference
+54,City of Rangoon,1941-11-14,14/11,arrival,liverpool,Liv,FALSE,black = arrival
+55,City of Rangoon,1941-11-29,29/11,sailing,liverpool,,TRUE,red = sailing
+56,City of Rangoon,,3/11,note,,,FALSE,Blue note 'Mersey 3/11' - position and colour uncertain relative to the surrounding entries
+57,City of Rangoon,1941-12-21,21/12,arrival,freetown,Freetn,FALSE,"black = arrival. Year changes to 1942 here, boxed between the reference columns"
+58,City of Rangoon,1942-01-08,8/1,sailing,freetown,Freet,FALSE,red = sailing
+59,City of Rangoon,,27/12,note,,,FALSE,Blue parenthetical '(Freet) 27/12' - doesn't fit chronologically here; likely a citation cross-reference
+60,City of Rangoon,,24/20,note,,,FALSE,Blue note reading approximately 'the various dangers/damages' with a reference '24/20' - a general summary note rather than a specific dated incident
+61,City of Rangoon,1942-01-22,22/1,note,,,FALSE,"WARTIME INCIDENT - blue notes read 'Re repairs. Will be delayed a month at Table Bay' and 'The bad weather damage re.' - the ship needed a month's repairs at Table Bay for weather damage, tying together the cyclone/storm damage referenced earlier on this card"
+62,City of Rangoon,1942-01-22,22/1,arrival,table-bay,Table,FALSE,black = arrival
+63,City of Rangoon,,10/1,note,,,FALSE,Blue parenthetical '(Freetown) 10/1' - citation cross-reference
+64,City of Rangoon,,6/2,note,,,FALSE,"Blue parenthetical '(Lo.) 6/2' - a Lloyd's Agent citation. Card ends 'P.T.O.' (second side not yet transcribed)"

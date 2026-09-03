@@ -645,3 +645,21 @@ convention is known.
   arrival (Adelaide, 22 May 1945) and one uncertain-colour call (Sandheads,
   8 Aug 1945) flagged rather than forced. Card ends "Contd on card No 10"
   (not yet identified). New port added to `ports.csv`: Port Kembla.
+
+- **IMG_5650** — 64 rows, 21 Jul 1940 to 22 Jan 1942 (plus several undated
+  blue citation cross-references). **NEW SHIP: City of Rangoon** (net
+  tonnage 4272, distinct from City of Norwich's 4346), Card No 7, First
+  Side — continues an unseen Card No 6, Second Side; Cards 1-6 not yet
+  identified among the scanned images. Captain R.J. Jeffers throughout (from
+  14 Oct 1940, re-confirmed twice). The familiar South/East Africa circuit
+  (Lourenco Marques, Table Bay, Durban, Beira, Dar es Salaam, Mombasa),
+  Freetown, Liverpool/Mersey, then further east to Bombay and Karachi.
+  Heavily annotated in blue with a run of wartime/weather incidents that
+  aren't fully itemised: tank repairs, a "returned, leaking" episode at
+  Table Bay/Cape Town (Jan 1941), cargo damage at Freetown, dock-gate damage
+  at the Mersey, and — the card's major event — cyclone/storm damage that
+  required a month's repairs at Table Bay (Jan 1942). Several blue
+  parenthetical citations ("(Beira) 6/12", "(L.M) 15/9", "(Freet) 27/12")
+  don't fit chronologically where they sit and are flagged as Lloyd's Agent
+  cross-references rather than forced into the sequence. Card ends "P.T.O."
+  (second side not yet transcribed). No new ports — all previously seen.
