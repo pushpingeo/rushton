@@ -1,0 +1,75 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1934-03-04,4/3,arrival,hamburg,Ham,FALSE,"black = arrival. Card headed 'No 4 (first side)', continuing from IMG_5637's 'Continued on Card No 4'"
+2,City of Norwich,1934-03-08,8/3,sailing,hamburg,Ham,FALSE,red = sailing
+3,City of Norwich,1934-03-10,10/3,transit,lizard,Liz,FALSE,"black, passed the Lizard"
+4,City of Norwich,1934-03-12,12/3,arrival,liverpool,Liv,FALSE,black = arrival
+5,City of Norwich,1934-05-08,8/5,sailing,liverpool,Liv,FALSE,red = sailing
+6,City of Norwich,1934-05-20,20/5,arrival,paulsboro,Paulsbro,FALSE,"black = arrival. New port added to ports.csv (Delaware River, New Jersey)"
+7,City of Norwich,1934-05-22,22/5,sailing,paulsboro,Paulsbro,FALSE,red = sailing
+8,City of Norwich,1934-05-23,23/5,arrival,new-york,NY,FALSE,black = arrival
+9,City of Norwich,1934-06-03,3/6,sailing,new-york,NY,FALSE,red = sailing
+10,City of Norwich,1934-06-04,4/6,arrival,norfolk-va,Nflk,FALSE,black = arrival
+11,City of Norwich,1934-06-06,6/6,sailing,hampton-rds,Hamp Rds,FALSE,"red = sailing. This entry and seq 12 have their top-row reference numbers bracketed together by the card"
+12,City of Norwich,1934-06-06,6/6,arrival,newport-news,N.News,FALSE,"black = arrival, same day, bracketed with seq 11"
+13,City of Norwich,1934-06-12,12/6,arrival,bristol,Brist,FALSE,black = arrival
+14,City of Norwich,1934-06-12,12/6,arrival,panama-canal,Pan,FALSE,"black = arrival, same day as Bristol - almost certainly a misalignment somewhere in the reading rather than a real same-day double arrival on opposite sides of the Atlantic; kept as read and flagged"
+15,City of Norwich,1934-06-13,13/6,sailing,panama-canal,Pan,FALSE,red = sailing
+16,City of Norwich,1934-07-12,12/7,arrival,brisbane,Bris,FALSE,black = arrival
+17,City of Norwich,1934-07-13,13/7,sailing,brisbane,Bris,FALSE,red = sailing
+18,City of Norwich,1934-07-15,15/7,arrival,sydney-nsw,Syd,FALSE,black = arrival
+19,City of Norwich,1934-07-17,17/7,sailing,sydney-nsw,Syd,FALSE,"UNCERTAIN colour - read as black on the card, though a sailing here would be expected to be red like everywhere else on this ship's cards. Kept as read"
+20,City of Norwich,1934-07-20,20/7,arrival,melbourne,Melb,FALSE,black = arrival
+21,City of Norwich,1934-07-21,21/7,sailing,melbourne,Melb,FALSE,red = sailing
+22,City of Norwich,1934-07-23,23/7,arrival,adelaide,Adl,FALSE,black = arrival
+23,City of Norwich,1934-07-24,24/7,sailing,adelaide,Adl,FALSE,red = sailing
+24,City of Norwich,1934-07-29,29/7,arrival,fremantle,Fre,FALSE,black = arrival
+25,City of Norwich,1934-07-30,30/7,sailing,fremantle,Fre,FALSE,red = sailing
+26,City of Norwich,1934-08-14,14/8,arrival,dairen,Dair,FALSE,"black = arrival. No sailing from Dairen is explicitly logged before seq 27"
+27,City of Norwich,1934-08-20,20/8,transit,taku-bar,Taku B.,FALSE,"UNCERTAIN TYPE - red. Taku Bar isn't a real port, so this may be a 'sailed Dairen, passed Taku Bar' compound note (like the Panama/Bristol pairing on IMG_5632) rather than confirming an actual Dairen departure date"
+28,City of Norwich,1934-08-23,23/8,transit,woosung,Woosung,FALSE,"black, annotated '(p)' = passed - the Huangpu River approach to Shanghai"
+29,City of Norwich,1934-08-25,25/8,arrival,hankow,Hank.,FALSE,"black = arrival. New port added to ports.csv (Hankow, on the Yangtze, now part of Wuhan)"
+30,City of Norwich,1934-09-02,2/9,sailing,hankow,Hank.,FALSE,red = sailing
+31,City of Norwich,1934-09-04,4/9,arrival,shanghai,Shng,FALSE,black = arrival
+32,City of Norwich,1934-09-05,5/9,sailing,shanghai,Shng,FALSE,red = sailing
+33,City of Norwich,1934-09-07,7/9,arrival,keelung,Keel,FALSE,black = arrival
+34,City of Norwich,1934-09-09,9/9,arrival,hong-kong,Hkg,FALSE,"black = arrival. No sailing from Keelung is logged between this and seq 33"
+35,City of Norwich,1934-09-10,10/9,sailing,hong-kong,Hkg,FALSE,red = sailing
+36,City of Norwich,1934-09-15,15/9,arrival,singapore,Sing,FALSE,black = arrival
+37,City of Norwich,1934-09-17,17/9,sailing,singapore,Sing,FALSE,red = sailing
+38,City of Norwich,1934-09-18,18/9,arrival,port-swettenham,P.Swet,FALSE,black = arrival
+39,City of Norwich,1934-09-18,18/9,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day"
+40,City of Norwich,1934-09-19,19/9,arrival,penang,Pen,FALSE,black = arrival
+41,City of Norwich,1934-09-20,20/9,sailing,penang,Pen,FALSE,red = sailing
+42,City of Norwich,1934-09-26,26/9,arrival,ceylon,Cey,FALSE,black = arrival
+43,City of Norwich,1934-10-04,4/10,transit,perim,Prm(p),FALSE,"black, passed"
+44,City of Norwich,1934-10-08,8/10,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+45,City of Norwich,1934-10-09,9/10,transit,port-said,P.Said,FALSE,black = arrival at the northern end
+46,City of Norwich,1934-10-16,16/10,transit,gibraltar,Gib.(p),FALSE,"black, passed"
+47,City of Norwich,1934-10-21,21/10,arrival,avonmouth,Avr,FALSE,black = arrival
+48,City of Norwich,1934-10-22,22/10,sailing,avonmouth,Avr,FALSE,red = sailing
+49,City of Norwich,1934-10-23,23/10,arrival,london,Lo,FALSE,black = arrival
+50,City of Norwich,1934-10-24,24/10,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' again"
+51,City of Norwich,1934-10-25,25/10,arrival,london,Lo,FALSE,black = arrival
+52,City of Norwich,1934-10-26,26/10,arrival,nieuw-waterweg,N.Wtg,FALSE,black = arrival
+53,City of Norwich,1934-10-29,29/10,sailing,hamburg,Ham,FALSE,"red = sailing. This entry and seq 54 have their top-row reference numbers bracketed together"
+54,City of Norwich,1934-10-27,27/10,unknown,rotterdam,Rott,FALSE,"UNCERTAIN - red, dated two days before seq 53 despite following the Nieuw Waterweg arrival - bracketed with seq 53 by the card's own annotation, same recurring pattern as elsewhere on this ship's cards"
+55,City of Norwich,1934-10-31,31/10,arrival,hamburg,Ham,FALSE,black = arrival
+56,City of Norwich,1934-11-04,4/11,arrival,glasgow,Glas,FALSE,black = arrival
+57,City of Norwich,1934-11-16,16/11,sailing,glasgow,Glas,FALSE,red = sailing
+58,City of Norwich,1934-11-16,16/11,arrival,tail-of-the-bank,Tail of B.,FALSE,"black = arrival, same day - the Clyde anchorage"
+59,City of Norwich,1934-11-26,26/11,arrival,new-brunswick,N.B.,FALSE,"black = arrival. New port added to ports.csv reference - 'N.B.' resolves cleanly to the existing 'New Brunswick' entry (code 'N B'). Worth noting: IMG_5637 seq 16/17 had an unresolved 'M.B.' reading in a similar Gibraltar-to-UK context that may in fact be this same code misread"
+60,City of Norwich,1934-12-07,7/12,sailing,new-brunswick,N.B.,FALSE,red = sailing
+61,City of Norwich,1934-12-09,9/12,arrival,new-york,NY,FALSE,black = arrival
+62,City of Norwich,1934-12-16,16/12,arrival,norfolk-va,Nflk,FALSE,"black = arrival. No sailing from New York is logged between this and seq 61"
+63,City of Norwich,1934-12-15,15/12,unknown,newport-news,N.News,FALSE,"UNCERTAIN - red, dated a day before seq 62 despite following it in position"
+64,City of Norwich,1934-12-16,16/12,arrival,newport-news,N.News,FALSE,"black = arrival, same date as seq 62's Norfolk arrival"
+65,City of Norwich,1934-12-16,16/12,unknown,norfolk-va,Nflk,FALSE,"DUPLICATE-looking - black, same port and date as seq 62"
+66,City of Norwich,1934-12-18,18/12,arrival,savannah,Sav,FALSE,black = arrival
+67,City of Norwich,1934-12-19,19/12,sailing,savannah,Sav,FALSE,red = sailing
+68,City of Norwich,1934-12-25,25/12,arrival,panama-canal,Pan,FALSE,black = arrival
+69,City of Norwich,1934-12-25,25/12,sailing,panama-canal,Pan,FALSE,"DUPLICATE - red, same date as seq 68"
+70,City of Norwich,1935-01-04,4/1,arrival,los-angeles,Los A,FALSE,"black = arrival. Year changes to 1935 here, boxed between the reference columns"
+71,City of Norwich,1935-01-05,5/1,sailing,los-angeles,Los A,FALSE,red = sailing
+72,City of Norwich,1935-01-07,7/1,arrival,san-francisco,Fran,FALSE,black = arrival
+73,City of Norwich,1935-01-08,8/1,sailing,san-francisco,Fran,FALSE,red = sailing
+74,City of Norwich,1935-02-01,1/2,arrival,manila,Man,FALSE,"black = arrival. Card ends 'P.T.O.' - second side not yet transcribed"

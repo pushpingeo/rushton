@@ -338,3 +338,17 @@ convention is known.
   a duplicate Aden arrival/sailing, and an out-of-sequence New York date.
   New ports added to `ports.csv`: Ceuta, Baltimore, Dairen, Taku Bar;
   lon/lat and/or codes filled in for Avonmouth.
+
+- **IMG_5638** — 74 rows, 4 Mar 1934 to 1 Feb 1935. **City of Norwich**,
+  Card No 4, First Side — directly continues IMG_5637. Hamburg/Liverpool, a
+  new US port (Paulsboro, NJ), Norfolk/Hampton Roads/Newport News, Bristol,
+  Panama, a full Australia loop, Dairen, Taku Bar, Woosung, a new river port
+  (Hankow, on the Yangtze), Shanghai, Keelung, Hong Kong, SE Asia, Suez/
+  Gibraltar, Northern Europe, Glasgow, **New Brunswick** - which cleanly
+  resolves the code that IMG_5637 flagged as an unresolved "M.B." near
+  Gibraltar; almost certainly the same "N.B." misread - then a US East
+  Coast/Panama/West Coast run ending mid-arrival at Manila. Captain changed
+  mid-card (Reay to H. Spencer, 7 May 1934). Mostly the familiar kinds of
+  flags here: several duplicate-looking same-day entries and a couple of
+  bracketed out-of-sequence dates. New ports added to `ports.csv`:
+  Paulsboro, Hankow; lon/lat filled in for Woosung.
