@@ -296,3 +296,25 @@ convention is known.
   - A duplicate Port Said arrival/sailing logged on the same date.
   - New ports added to `ports.csv`: Alleppey, Calicut, Mangalore, Bombay,
     Okha; lon/lat filled in for Spurn Head, Cochin.
+
+- **IMG_5636** — 73 rows, 18 Aug 1932 to 9 Jul 1933. **City of Norwich**,
+  Card No 3, First Side — directly continues IMG_5635 ("Continued on card
+  No 3"). Opens in Gujarat (a new port, Bedi Bunder) and Karachi, then Red
+  Sea/Suez, Liverpool, the Manchester Ship Canal (Eastham/Manchester),
+  Glasgow and the Firth of Clyde (two new coastal points - Gareloch and Tail
+  of the Bank), Northern Europe, London, the now-familiar South Africa /
+  Lourenco Marques / Rangoon circuit, Red Sea/Suez again, London/Hull, and
+  back down to Table Bay / Algoa Bay / East London / Port Natal / Lourenco
+  Marques - ends "P.T.O.". Captain changed mid-card (Cooper to A.S. Reay,
+  21 Dec 1932). Two recurring-term data points worth knowing about:
+  - The unresolved "bey" term appears for a 4th time, in exactly the same
+    position in the route (between a Rangoon-area port and Perim) as every
+    previous sighting - strong evidence it's real and consistent, just
+    still unidentified.
+  - The unresolved "Pwle" term reappears too, but this time right after the
+    Isle of Wight on the south coast - geography that fits "Poole" far
+    better than either of its two earlier Hull-area appearances. That
+    mismatch raises a real possibility that "Pwle" isn't one single
+    unresolved place but two (or more) different words read the same way.
+  - New ports added to `ports.csv`: Bedi Bunder, Gareloch; lon/lat filled
+    in for Tail of the Bank.

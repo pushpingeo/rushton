@@ -54,6 +54,7 @@ beaumaris,Bms,Beaumaris,,,,
 bangkok,Bnk,Bangkok,,,,
 bombay,Bom,Bombay,72.8258,18.9750,,
 okha,P Okha,Okha,69.0762,22.4707,,"country: India - Gujarat coast"
+bedi-bunder,Bedi B,Bedi Bunder,70.0577,22.4707,,"country: India - Gujarat coast, near Jamnagar"
 bordeaux,Bor,Bordeaux,,,,
 boston,Bos,Boston,,,,
 barnstaple,Bpl,Barnstaple,,,,
@@ -398,7 +399,8 @@ swansea,Sws,Swansea,,,,
 sydney-nsw,Syd,Sydney NSW,,,Sydney,
 table-bay,Table,Table Bay,18.4241,-33.9249,,
 tacoma,Tac,Tacoma,,,,
-tail-of-the-bank,Tail,Tail of the Bank,,,,
+tail-of-the-bank,Tail,Tail of the Bank,-4.7597,55.9581,,"anchorage at the mouth of the Clyde estuary near Greenock"
+gareloch,,Gareloch,-4.8167,56.0500,,"sea loch on the Firth of Clyde, near Glasgow - card writes 'Gateloch', likely a misreading/misspelling of Gareloch"
 takoradi,Takor,Takoradi,,,,
 tampico,Tamp,Tampico,,,,
 tarragona,Tarra,Tarragona,,,,

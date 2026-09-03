@@ -1,0 +1,74 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1932-08-18,18/8,arrival,bedi-bunder,Bedi B.,FALSE,"black = arrival. Card headed 'No 3 (First side)', continuing from IMG_5635's 'Continued on card No 3'. New port added to ports.csv - Bedi Bunder, Gujarat coast, near Jamnagar/Okha"
+2,City of Norwich,1932-08-20,20/8,sailing,bedi-bunder,Bedi B.,FALSE,red = sailing
+3,City of Norwich,1932-08-21,21/8,arrival,karachi,Kar.,FALSE,black = arrival
+4,City of Norwich,1932-08-28,28/8,sailing,karachi,Kar.,FALSE,red = sailing
+5,City of Norwich,1932-09-03,3/9,transit,perim,Prm(p),FALSE,"black, passed"
+6,City of Norwich,1932-09-05,5/9,arrival,port-sudan,P.Sud,FALSE,black = arrival
+7,City of Norwich,1932-09-07,7/9,sailing,port-sudan,P.Sud,FALSE,red = sailing
+8,City of Norwich,1932-09-10,10/9,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+9,City of Norwich,1932-09-11,11/9,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+10,City of Norwich,1932-09-18,18/9,transit,gibraltar,Gib.(p),FALSE,"black, passed"
+11,City of Norwich,1932-09-23,23/9,arrival,liverpool,Liv,FALSE,black = arrival
+12,City of Norwich,1932-09-28,28/9,sailing,liverpool,Liv,FALSE,red = sailing
+13,City of Norwich,1932-09-29,29/9,arrival,eastham,Esthm,FALSE,black = arrival
+14,City of Norwich,1932-09-29,29/9,arrival,manchester,Mchr,FALSE,"black = arrival, same day as Eastham - Eastham is the entrance lock of the Manchester Ship Canal, so this is one continuous move rather than two separate calls"
+15,City of Norwich,1932-10-04,4/10,sailing,manchester,Mchr,FALSE,red = sailing
+16,City of Norwich,1932-10-04,4/10,arrival,eastham,Esthm,FALSE,"black = arrival, same day - the return trip down the canal"
+17,City of Norwich,1932-10-05,5/10,arrival,glasgow,Glas,FALSE,black = arrival
+18,City of Norwich,1932-10-14,14/10,sailing,glasgow,Glas,FALSE,red = sailing
+19,City of Norwich,1932-10-14,14/10,arrival,gareloch,Gateloch,FALSE,"black = arrival, same day as the Glasgow sailing - a short hop within the Firth of Clyde. Card writes 'Gateloch'; read as a misspelling/misreading of Gareloch, a sea loch in the same area. New port added to ports.csv"
+20,City of Norwich,1932-11-15,15/11,arrival,glasgow,Glas,FALSE,black = arrival
+21,City of Norwich,1932-12-01,1/12,sailing,glasgow,Glas,FALSE,red = sailing
+22,City of Norwich,1932-12-01,1/12,arrival,tail-of-the-bank,Tail of B.,FALSE,"black = arrival, same day - Tail of the Bank, the anchorage at the mouth of the Clyde near Greenock, not a real port of call"
+23,City of Norwich,1932-12-04,4/12,arrival,antwerp,Ant,FALSE,black = arrival
+24,City of Norwich,1932-12-08,8/12,sailing,antwerp,Ant,FALSE,red = sailing
+25,City of Norwich,1932-12-09,9/12,arrival,rotterdam,Rott,FALSE,black = arrival
+26,City of Norwich,1932-12-10,10/12,sailing,nieuw-waterweg,N.Wtg,FALSE,"red = sailing, logged against the Nieuw Waterweg (the Rotterdam approach channel) rather than Rotterdam itself"
+27,City of Norwich,1932-12-12,12/12,arrival,hamburg,Ham,FALSE,black = arrival
+28,City of Norwich,1932-12-14,14/12,sailing,hamburg,Ham,FALSE,red = sailing
+29,City of Norwich,1932-12-16,16/12,arrival,middlesbrough,Mbro,FALSE,black = arrival
+30,City of Norwich,1932-12-18,18/12,sailing,middlesbrough,Mbro,FALSE,red = sailing
+31,City of Norwich,1932-12-19,19/12,arrival,london,Lo,FALSE,black = arrival
+32,City of Norwich,1932-12-23,23/12,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' - the same recurring unexplained marker seen on IMG_5628/5632/5634"
+33,City of Norwich,1932-12-24,24/12,arrival,london,Lo,FALSE,"UNCERTAIN date - written close to a divider line separating this row from the '1933' year box, and reads more like '24/2' at a quick glance. Read as 24/12 since it sits before the year change and the alternative (24 Feb) doesn't fit the surrounding sequence"
+34,City of Norwich,1933-01-19,19/1,arrival,port-natal,P.Nat,FALSE,"black = arrival. Year changes to 1933 here, boxed between the reference columns"
+35,City of Norwich,1933-01-25,25/1,sailing,port-natal,P.Nat,FALSE,red = sailing
+36,City of Norwich,1933-01-26,26/1,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+37,City of Norwich,1933-01-31,31/1,sailing,lourenco-marques,L.M.,FALSE,red = sailing
+38,City of Norwich,1933-02-02,2/2,arrival,beira,Beira,FALSE,black = arrival
+39,City of Norwich,1933-02-06,6/2,sailing,beira,Beira,FALSE,red = sailing
+40,City of Norwich,1933-02-21,21/2,arrival,rangoon,Rng.,FALSE,black = arrival
+41,City of Norwich,1933-03-14,14/3,sailing,rangoon,Rng,FALSE,red = sailing
+42,City of Norwich,1933-03-20,20/3,unknown,,bey,FALSE,"UNCERTAIN - black, the recurring unresolved 'bey' term for a fourth time now (IMG_5632, twice on IMG_5634, and here), always in this same slot between a Rangoon-area port and Perim. This consistency across multiple voyages makes it very unlikely to be a misreading, but it still doesn't match any code in ports.csv or the official Guildhall list"
+43,City of Norwich,1933-03-24,24/3,transit,perim,Prm(p),FALSE,"black, passed"
+44,City of Norwich,1933-04-01,1/4,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+45,City of Norwich,1933-04-02,2/4,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+46,City of Norwich,1933-04-10,10/4,transit,gibraltar,Gib.(p),FALSE,"black, passed"
+47,City of Norwich,1933-04-15,15/4,arrival,london,Lo,FALSE,black = arrival
+48,City of Norwich,1933-04-20,20/4,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' again"
+49,City of Norwich,1933-04-21,21/4,arrival,london,Lo,FALSE,"black = arrival, the day after the sailing - a short local move, same pattern as earlier cards"
+50,City of Norwich,1933-04-22,22/4,arrival,hull,Hull,FALSE,black = arrival
+51,City of Norwich,1933-04-28,28/4,sailing,hull,Hull,FALSE,red = sailing
+52,City of Norwich,1933-04-28,28/4,transit,spurn-head,Spurn,FALSE,"red, same day - Spurn Head, passed at the mouth of the Humber"
+53,City of Norwich,1933-04-29,29/4,arrival,flushing,Flsh,FALSE,black = arrival
+54,City of Norwich,1933-04-29,29/4,arrival,antwerp,Ant,FALSE,"black = arrival, same day as Flushing - a short hop, same relationship as the two ports' first appearance on IMG_5635"
+55,City of Norwich,1933-05-03,3/5,sailing,antwerp,Ant,FALSE,red = sailing
+56,City of Norwich,1933-05-04,4/5,transit,isle-of-wight,I of W.,FALSE,"black, passed - a coastal reporting point, not a real call"
+57,City of Norwich,1933-05-04,4/5,unknown,,Pwle,FALSE,"UNCERTAIN - black, same day as the Isle of Wight entry, on the south coast route toward Liverpool. This is the same reading as the still-unresolved 'Pwle'/'Iwle' seen on IMG_5632 and IMG_5635, but THIS time the surrounding geography (right after the Isle of Wight, well south of Hull) fits Poole far better than it did in either earlier instance - raising the possibility that 'Pwle' isn't one consistent place but two or more different words I'm reading the same way. Not resolved to a port_id either way"
+58,City of Norwich,1933-05-06,6/5,arrival,liverpool,Liv,FALSE,black = arrival
+59,City of Norwich,1933-05-20,20/5,sailing,liverpool,Liv,FALSE,red = sailing
+60,City of Norwich,1933-05-21,21/5,transit,dunnet-head,Dunnet,FALSE,"UNCERTAIN reading - black, reads more like 'Bunnut'/'Dunnat' than 'Dunnet', but the context (Liverpool to Middlesbrough, i.e. a round-Scotland route) fits Dunnet Head well, and the letterforms are close. Tentatively linked to the existing Dunnet Head entry"
+61,City of Norwich,1933-05-22,22/5,arrival,middlesbrough,Mbro,FALSE,black = arrival
+62,City of Norwich,1933-05-27,27/5,sailing,middlesbrough,Mbro,FALSE,red = sailing
+63,City of Norwich,1933-05-28,28/5,arrival,london,Lo,FALSE,black = arrival
+64,City of Norwich,1933-06-02,2/6,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' again"
+65,City of Norwich,1933-06-07,7/6,arrival,london,Lo,FALSE,black = arrival
+66,City of Norwich,1933-06-07,7/6,arrival,dover,Dov.,FALSE,"black = arrival, same day - a short coastal move"
+67,City of Norwich,1933-06-29,29/6,arrival,table-bay,Table,FALSE,"black = arrival. No sailing from Dover is logged between this and seq 66 - a long unlogged transit south, same pattern seen elsewhere on this ship's cards"
+68,City of Norwich,1933-06-30,30/6,sailing,table-bay,Table,FALSE,red = sailing
+69,City of Norwich,1933-07-03,3/7,arrival,algoa-bay,Algoa,FALSE,black = arrival
+70,City of Norwich,1933-07-04,4/7,arrival,east-london,E.Lo,FALSE,"black = arrival. No sailing from Algoa Bay is logged between this and seq 69"
+71,City of Norwich,1933-07-05,5/7,sailing,east-london,E.Lo,FALSE,red = sailing
+72,City of Norwich,1933-07-08,8/7,arrival,port-natal,P.Nat,FALSE,black = arrival
+73,City of Norwich,1933-07-09,9/7,arrival,lourenco-marques,L.M.,FALSE,"black = arrival. No sailing from Port Natal is logged between this and seq 72. Card ends 'P.T.O.' - second side not yet transcribed"
