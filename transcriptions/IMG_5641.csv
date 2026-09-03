@@ -1,0 +1,72 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1936-07-24,24/7,arrival,antwerp,Ant,FALSE,"black = arrival. Card headed 'No.5 (second side)', continuing IMG_5640. NOTE: this date (24/7) is chronologically BEFORE IMG_5640's final entry (Spurn Head, 27/7) - a discontinuity between the two card sides that isn't resolved by any visible bracket or correction. Read carefully and confirmed as '24/7', but flagged rather than silently adjusted"
+2,City of Norwich,1936-08-03,3/8,sailing,antwerp,Ant,FALSE,"UNCERTAIN date - red. The digits are cramped and could also read as '8/7'; '3/8' is used here as the better chronological fit (after the 24/7 arrival), but this is a judgment call, not a confident reading"
+3,City of Norwich,1936-07-08,8/7,unknown,,,FALSE,"UNCERTAIN/UNRESOLVED - black, reads approximately 'Nov' but that doesn't match any port on this ship's route. Also chronologically tangled with seq 1/2/4 (see those notes) - this whole opening stretch of the card doesn't resolve into a clean chronological sequence and is flagged as a block rather than forced into one"
+4,City of Norwich,1936-07-03,3/7,arrival,liverpool,Liv,FALSE,"UNCERTAIN - black. Dated before seq 1-3 despite following them in card position; part of the same unresolved opening stretch"
+5,City of Norwich,1936-08-08,8/8,sailing,liverpool,Liv,FALSE,red = sailing
+6,City of Norwich,1936-08-20,20/8,arrival,philadelphia,Phil,FALSE,black = arrival
+7,City of Norwich,1936-08-21,21/8,sailing,paulsboro,Paulsbro.,FALSE,red = sailing
+8,City of Norwich,1936-08-22,22/8,arrival,new-york,NY.,FALSE,"black = arrival. Joined by a drawn line to seq 9 (Hampton Rds), the same bracketing convention used for the NY/Hampton Roads/Newport News trios on earlier cards"
+9,City of Norwich,1936-08-31,31/8,arrival,hampton-rds,Hamp Rds,FALSE,"black = arrival, bracketed to seq 8"
+10,City of Norwich,1936-08-31,31/8,arrival,newport-news,N.News,FALSE,"black = arrival, same date as seq 9's Hampton Rds - the same nearby-port pairing seen repeatedly on this ship's cards"
+11,City of Norwich,1936-09-02,2/9,sailing,newport-news,N.News,FALSE,red = sailing
+12,City of Norwich,1936-08-30,30/8,arrival,new-york,NY,FALSE,"UNCERTAIN - black, dated 30/8, one day before seq 10/11's 31/8-2/9 Newport News stay despite following them in card position. Possibly belongs earlier in the sequence; flagged rather than reordered"
+13,City of Norwich,1936-09-08,8/9,arrival,cristobal,Crist,FALSE,"black = arrival. 'Crist' is the official code for San Cristobal in ports.csv, but resolved here to Cristobal (the Atlantic terminus of the Panama Canal) since it immediately precedes seq 14's Panama Canal transit"
+14,City of Norwich,1936-09-09,9/9,sailing,panama-canal,Pan,FALSE,red = sailing
+15,City of Norwich,1936-10-07,7/10,arrival,brisbane,Bris,FALSE,black = arrival
+16,City of Norwich,1936-10-09,9/10,sailing,brisbane,Bris,FALSE,red = sailing
+17,City of Norwich,1936-10-11,11/10,arrival,sydney-nsw,Syd,FALSE,black = arrival
+18,City of Norwich,1936-10-16,16/10,sailing,sydney-nsw,Syd.,FALSE,red = sailing
+19,City of Norwich,1936-10-18,18/10,arrival,melbourne,Melb,FALSE,"black = arrival. Card writes it 'Helb'/'Melb' - read as Melbourne given the established Brisbane-Sydney-Melbourne circuit on every earlier City of Norwich card"
+20,City of Norwich,1936-10-21,21/10,sailing,melbourne,Melb.,FALSE,red = sailing
+21,City of Norwich,1936-10-23,23/10,arrival,adelaide,Adl,FALSE,black = arrival
+22,City of Norwich,1936-10-23,23/10,sailing,adelaide,Adl,FALSE,"red = sailing, same day as seq 21"
+23,City of Norwich,1936-10-29,29/10,arrival,fremantle,Fre,FALSE,black = arrival
+24,City of Norwich,1936-10-30,30/10,sailing,fremantle,Fre.,FALSE,red = sailing
+25,City of Norwich,1936-11-11,11/11,arrival,koilchottam,Koilchottam,FALSE,"black = arrival. NEW PORT, written out in full - position (after Fremantle, before Calcutta) suggests south India, but not identified against an official list or gazetteer. Genuinely tentative"
+26,City of Norwich,1936-11-14,14/11,sailing,koilchottam,Koilchottam,FALSE,red = sailing
+27,City of Norwich,1936-11-19,19/11,arrival,calcutta,Cal,FALSE,black = arrival
+28,City of Norwich,1936-12-02,2/12,sailing,calcutta,Cal,FALSE,red = sailing
+29,City of Norwich,1936-12-08,8/12,sailing,ceylon,Cey,FALSE,"red. No arrival at Ceylon is logged before this - either an unlogged call or a passing/speaking report"
+30,City of Norwich,1936-12-16,16/12,arrival,aden,Aden,FALSE,black = arrival
+31,City of Norwich,1936-12-16,16/12,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 30"
+32,City of Norwich,1936-12-19,19/12,arrival,port-sudan,P.Sud,FALSE,black = arrival
+33,City of Norwich,1936-12-19,19/12,sailing,port-sudan,P.Sud,FALSE,"red = sailing, same day as seq 32"
+34,City of Norwich,1936-12-22,22/12,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+35,City of Norwich,1936-12-23,23/12,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+36,City of Norwich,1936-12-31,31/12,arrival,gibraltar,Gib,FALSE,"black = arrival. Year changes to 1937 right after this entry, boxed between the reference columns"
+37,City of Norwich,1937-01-13,13/1,arrival,halifax-ns,Hal,FALSE,"black = arrival. NEW PORT (Halifax, Nova Scotia)"
+38,City of Norwich,1937-01-16,16/1,sailing,halifax-ns,Hal,FALSE,red = sailing
+39,City of Norwich,1937-01-18,18/1,arrival,boston,Bos,FALSE,black = arrival
+40,City of Norwich,1937-01-19,19/1,sailing,boston,Bos,FALSE,red = sailing
+41,City of Norwich,1937-01-20,20/1,arrival,new-york,NY,FALSE,black = arrival
+42,City of Norwich,1937-01-27,27/1,sailing,new-york,NY,FALSE,red = sailing
+43,City of Norwich,1937-01-28,28/1,arrival,philadelphia,Phil,FALSE,black = arrival
+44,City of Norwich,1937-01-28,28/1,sailing,philadelphia,Phil,FALSE,"red = sailing, same day as seq 43"
+45,City of Norwich,1937-01-31,31/1,arrival,baltimore,Balt,FALSE,black = arrival
+46,City of Norwich,1937-02-04,4/2,sailing,baltimore,Balt,FALSE,red = sailing
+47,City of Norwich,1937-02-04,4/2,arrival,norfolk-va,Nflk.,FALSE,"black = arrival, same day as seq 46's Baltimore sailing - close by in the Chesapeake"
+48,City of Norwich,1937-02-13,13/2,arrival,hampton-rds,Hamp Rds.,FALSE,"black = arrival, same nearby-port pattern as seq 9/10"
+49,City of Norwich,1937-02-15,15/2,arrival,philadelphia,Phil,FALSE,black = arrival
+50,City of Norwich,1937-02-17,17/2,sailing,philadelphia,Phil,FALSE,red = sailing
+51,City of Norwich,1937-02-18,18/2,arrival,new-york,NY,FALSE,"black = arrival, written inside a small hand-drawn box - emphasis of some kind, not one of the established recurring annotations"
+52,City of Norwich,1937-02-28,28/2,sailing,new-york,NY,FALSE,red = sailing
+53,City of Norwich,1937-03-02,2/3,arrival,new-brunswick,N.B.,FALSE,black = arrival
+54,City of Norwich,1937-03-04,4/3,sailing,new-brunswick,N.B.,FALSE,red = sailing
+55,City of Norwich,1937-03-15,15/3,arrival,gibraltar,Gib,FALSE,black = arrival
+56,City of Norwich,1937-03-17,17/3,sailing,gibraltar,Gib,FALSE,red = sailing
+57,City of Norwich,1937-03-24,24/3,arrival,port-said,P.Said,FALSE,black = arrival
+58,City of Norwich,1937-03-25,25/3,note,port-said,P.Said,FALSE,"blue paragraph note reads 'Pump crankshaft broken' - a genuine mechanical casualty, the same kind of blue incident note seen on IMG_5637 ('Lost prop. blade') and IMG_5633 ('mishap at dock'). Ship remained at Port Said for repairs"
+59,City of Norwich,1937-03-29,29/3,sailing,port-said,P.Said,FALSE,red = sailing - 5 days after the crankshaft failure was logged
+60,City of Norwich,1937-03-29,29/3,note,port-said,P.Said,FALSE,"blue, reads 'sailed' - the resolution of seq 58's casualty note, same date as seq 59's red sailing citation"
+61,City of Norwich,1937-03-30,30/3,transit,suez,Suez,FALSE,"red = sailing at the southern end of the canal (heading south, so Port Said - Suez rather than the usual northbound order)"
+62,City of Norwich,1937-04-01,1/4,arrival,port-sudan,P.Sud.,FALSE,black = arrival
+63,City of Norwich,1937-04-06,6/4,arrival,djibouti,Djib.,FALSE,"black = arrival. NEW PORT (Djibouti). No sailing logged before the next entry"
+64,City of Norwich,1937-04-07,7/4,arrival,aden,Aden,FALSE,black = arrival
+65,City of Norwich,1937-04-08,8/4,sailing,aden,Aden,FALSE,red = sailing
+66,City of Norwich,1937-04-13,13/4,arrival,karachi,Kar,FALSE,black = arrival
+67,City of Norwich,1937-04-14,14/4,sailing,karachi,Kar,FALSE,red = sailing
+68,City of Norwich,1937-04-16,16/4,arrival,bombay,Bom,FALSE,black = arrival
+69,City of Norwich,1937-04-18,18/4,sailing,bombay,Bom,FALSE,red = sailing
+70,City of Norwich,1937-04-23,23/4,arrival,madras,Mad,FALSE,black = arrival
+71,City of Norwich,1937-04-24,24/4,sailing,madras,Mad,FALSE,"red = sailing. Card ends 'Continued on Card No. 6' (not yet identified among the scanned images)"

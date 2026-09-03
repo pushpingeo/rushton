@@ -442,3 +442,29 @@ convention is known.
     x2, Aden x2, Mee x2, Port Said x2).
   - New ports added to `ports.csv`: Vizagapatam, Coringa (tentative),
     Madras, Bassein.
+
+- **IMG_5641** — 71 rows, 24 Jul 1936 to 24 Apr 1937. **City of Norwich**,
+  Card No 5, Second Side — directly continues IMG_5640. Antwerp/Liverpool,
+  US East Coast (Philadelphia, Paulsboro, New York, Hampton Roads, Newport
+  News), Panama, a full Australia loop (Brisbane, Sydney, Melbourne,
+  Adelaide, Fremantle), a new tentative south-India port (Koilchottam),
+  Calcutta, Ceylon, Red Sea/Suez, Gibraltar, a new port (Halifax, Nova
+  Scotia) opening a US/Canada East Coast run (Boston, New York,
+  Philadelphia, Baltimore, Norfolk, Hampton Roads, Philadelphia, New York,
+  New Brunswick), Gibraltar again, Suez, Port Sudan, a new port (Djibouti),
+  Aden, Karachi, Bombay, Madras, ending "Continued on Card No. 6" (not yet
+  identified). Two things worth flagging:
+  - A genuine mechanical casualty at Port Said: a blue note reads "Pump
+    crankshaft broken" (25 Mar 1937), and the ship sat there for repairs
+    until a second blue note, "sailed", five days later (29 Mar) - the same
+    kind of blue incident note as IMG_5637's "Lost prop. blade" and
+    IMG_5633's Los Angeles "mishap at dock".
+  - The card's opening few entries (Antwerp / an illegible "Nov"-like code /
+    Liverpool) don't resolve into a clean chronological sequence - several
+    are dated before IMG_5640's own final entry despite following it - and
+    are flagged as a block rather than forced into a false narrative. This
+    is the most significant unresolved stretch on any card transcribed so
+    far; would benefit from a fresh pair of eyes.
+  - New ports added to `ports.csv`: Koilchottam (tentative), Halifax NS,
+    Djibouti (Boston, Cristobal, Hampton Rds, Newport News, Norfolk and New
+    Brunswick already existed from earlier cards).
