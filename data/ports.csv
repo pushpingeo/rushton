@@ -180,7 +180,7 @@ hamburg,Hbg,Hamburg,,,,
 harrington,Hgt,Harrington,,,,
 hoogezand,Hgz,Hoogezand,,,,
 holyhead,Hhd,Holyhead,,,,
-hong-kong,Hkg,Hong Kong,,,Hongkong,
+hong-kong,Hkg,Hong Kong,114.1694,22.3193,Hongkong,
 huelva,Hlva,Huelva,,,,
 helvoet,Hlvt,Helvoet,,,,
 holland,Hol,Holland,,,,
@@ -240,7 +240,7 @@ magallanes,Magall,Magallanes,,,,
 manchester,Man,Manchester,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 manila,Man,Manila,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 margate,Mar,Margate,,,,
-marseilles,Mars,Marseilles,,,,
+marseilles,Mars,Marseilles,5.3698,43.2965,,
 mauritius,Mau,Mauritius,57.4989,-20.1619,P.Louis,"Port Louis is the island's capital and main port - card writes it as 'P.Louis'"
 mayaguez,Mayag,Mayaguez,,,,
 mumbles,Mbls,Mumbles,,,,
@@ -310,7 +310,7 @@ port-townsend,P Town,Port Townsend,,,,
 prince-edward-island,P.E.I.,Prince Edward Island,,,,
 padstow,Pad,Padstow,,,,
 pauillac,Pauill,Pauillac,,,,
-penang,Pen,Penang,,,,
+penang,Pen,Penang,100.3327,5.4141,,
 pensacola,Pensa,Pensacola,,,,
 pernambuco,Pern,Pernambuco,,,,
 peterhead,Pet,Peterhead,,,,
@@ -354,7 +354,7 @@ south-georgia,S Geo,South Georgia,,,,
 sierra-leone,S L,Sierra Leone,,,,
 south-orkney,S Ork,South Orkney,,,,
 sagres,Sag,Sagres,,,,
-saigon,Saig,Saigon,,,,
+saigon,Saig,Saigon,106.6297,10.8231,,
 sandheads,Sandh,Sandheads,,,,
 sarpsborg,Sarps,Sarpsborg,,,,
 savannah,Sav,Savannah,,,,
@@ -459,7 +459,7 @@ nagoya,,Nagoya,,,,country: Japan
 otaru,,Otaru,,,,country: Japan
 panama-canal,Pan,Panama Canal,-79.5197,8.9483,,country: Panama
 colon,,Colon,-79.9014,9.3547,,"country: Panama - Atlantic-side terminus city of the Panama Canal, adjacent to but distinct from Cristobal"
-port-swettenham,,Port Swettenham,,,,country: Malaysia
+port-swettenham,P Swet,Port Swettenham,101.3900,3.0044,,country: Malaysia
 st-john-nb,,St John (NB),,,,country: Canada
 suez,,Suez,,,,country: Egypt
 beira,,Beira,34.8389,-19.8436,,"country: Mozambique. Written in full on cards, not in the official abbreviation guide."
@@ -474,5 +474,6 @@ port-pirie,,Port Pirie,138.0208,-33.1839,Pirie,country: Australia
 cairns,,Cairns,145.7781,-16.9186,,country: Australia
 rockhampton,,Rockhampton,150.5100,-23.3791,Rkhmptn,country: Australia
 perim,,Perim,43.42,12.65,Prm,"small island at the mouth of the Red Sea (Bab-el-Mandeb strait) - historically a British coaling/bunkering station"
+port-sudan,P Sud,Port Sudan,37.2164,19.6158,,country: Sudan
 rangoon,,Rangoon,96.1735,16.8409,Rng,"country: Burma (now Yangon, Myanmar)"
 newport-news,,Newport News,-76.4257,36.9740,NNews,country: USA

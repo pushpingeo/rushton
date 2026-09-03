@@ -250,3 +250,27 @@ convention is known.
     Portland Oregon/UK by the card's own "(Vict)" annotation), Algoa Bay,
     Osaka, Moji, Keelung, Cebu; "P.Louis" added as an alias for the existing
     Mauritius row; lon/lat filled in for Shanghai and Yokohama.
+
+- **IMG_5634** — 74 rows, 30 Oct 1929 to 12 Oct 1931. **City of Norwich**,
+  Card No 2, First Side — this is the card IMG_5633 said it continued onto.
+  Repeats the same SE Asia / Red Sea / Mediterranean / US East coast /
+  Northern Europe circuit a second time (Penang, Port Swettenham, Singapore,
+  Manila, Shanghai, Hong Kong, Saigon, Cebu, Ceylon, Perim, a new stop at
+  Port Sudan, Suez, Port Said, Gibraltar, Marseilles, Le Havre, London,
+  Rotterdam, Hamburg, Hull, Shields, New York, Boston, Philadelphia, Newport
+  News, Antwerp). A few things worth noting:
+  - One entry the clerk struck through and explicitly labelled "Erroneous"
+    in their own hand — the clearest confirmation yet of what the voided
+    entries elsewhere have meant.
+  - The unresolved lowercase "bey" term (first seen on IMG_5632) turns up
+    twice more, in the same relative position in the route both times —
+    between a South/SE Asian port and Perim. That recurrence argues it's a
+    real, consistent piece of shorthand rather than a one-off misreading,
+    even though it still doesn't match anything in `ports.csv`.
+  - An apparent ~14-month gap in the card's own dates (Jul 1930 to Oct
+    1931), with an explicit "1931" year-box and nothing logged in between.
+    Most likely a genuine lay-up — 1930-31 was the depth of the shipping
+    depression — but the card doesn't say so, flagged as a guess not a fact.
+  - Card ends "P.T.O." — second side not yet transcribed.
+  - New port added to `ports.csv`: Port Sudan. Lon/lat and/or codes filled
+    in for Marseilles, Hong Kong, Saigon, Penang, Port Swettenham.

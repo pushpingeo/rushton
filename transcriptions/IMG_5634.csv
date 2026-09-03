@@ -1,0 +1,75 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1929-10-30,30/10,arrival,port-swettenham,P.Swet,FALSE,"black = arrival. Card headed 'No 2 (First side)', '1929 cont'd' - directly continues IMG_5633's 'cont. on card no 2'"
+2,City of Norwich,1929-10-30,30/10,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day as the arrival - a short call"
+3,City of Norwich,1929-10-31,31/10,arrival,penang,Pen,FALSE,black = arrival
+4,City of Norwich,1929-11-01,1/11,sailing,penang,Pen,FALSE,red = sailing
+5,City of Norwich,1929-11-09,9/11,unknown,,bey,FALSE,"UNCERTAIN - black, lowercase 'bey' again, same unresolved term seen on IMG_5632 (also positioned between a South/SE-Asian port and Perim in the route). Its recurrence in the same relative position across two different voyages suggests it isn't a misreading, but still doesn't match anything in ports.csv"
+6,City of Norwich,1929-11-07,7/11,unknown,,bey,FALSE,"UNCERTAIN - red, same term as seq 5, dated two days before it despite following it in card position - flagged rather than reordered"
+7,City of Norwich,1929-11-14,14/11,transit,perim,Prm(p),FALSE,"black. '(p)' = passed, same convention as IMG_5632/5633"
+8,City of Norwich,1929-11-19,19/11,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+9,City of Norwich,1929-11-20,20/11,transit,port-said,P.Said,FALSE,"red - unusual colour for a canal-transit arrival, same anomaly flagged on IMG_5632 seq 82"
+10,City of Norwich,1929-12-11,11/12,arrival,new-york,NY,FALSE,black = arrival
+11,City of Norwich,1929-12-20,20/12,sailing,new-york,NY,FALSE,red = sailing
+12,City of Norwich,,,note,,,FALSE,"Entry struck through by the original clerk and explicitly labelled 'Erroneous' in their own handwriting (read as 'Bos. 20/12' before being crossed out) - the clearest example yet of the card's own voiding convention. Not transcribed as an event"
+13,City of Norwich,1929-12-21,21/12,arrival,boston,Bos.,FALSE,"black = arrival - the corrected replacement for the voided seq 12 entry, one day later"
+14,City of Norwich,1930-01-03,3/1,sailing,boston,Bos,FALSE,"red = sailing. Year changes to 1930 here, boxed as '1930' between the reference columns"
+15,City of Norwich,1930-01-31,31/1,arrival,new-york,NY,FALSE,black = arrival
+16,City of Norwich,1930-02-05,5/2,sailing,new-york,NY,FALSE,red = sailing
+17,City of Norwich,1930-02-06,6/2,arrival,philadelphia,Phil.,FALSE,black = arrival
+18,City of Norwich,1930-02-14,14/2,sailing,philadelphia,Phil.,FALSE,red = sailing
+19,City of Norwich,1930-02-15,15/2,arrival,newport-news,N.News,FALSE,black = arrival
+20,City of Norwich,1930-02-19,19/2,sailing,newport-news,N.News,FALSE,red = sailing
+21,City of Norwich,1930-02-20,20/2,arrival,new-york,NY,FALSE,black = arrival
+22,City of Norwich,1930-02-27,27/2,sailing,new-york,NY,FALSE,red = sailing
+23,City of Norwich,1930-03-11,11/3,transit,gibraltar,Gib.(p),FALSE,"black. '(p)' = passed"
+24,City of Norwich,1930-03-13,13/3,arrival,marseilles,Mars.,FALSE,"black = arrival. New port, added to ports.csv"
+25,City of Norwich,1930-03-14,14/3,sailing,marseilles,Mars.,FALSE,red = sailing
+26,City of Norwich,1930-03-20,20/3,transit,port-said,P.Said,FALSE,black = arrival at the northern end of the canal
+27,City of Norwich,1930-03-21,21/3,transit,suez,Suez,FALSE,"red - same colour anomaly as seq 9, flagged rather than reconciled"
+28,City of Norwich,1930-03-26,26/3,transit,perim,Prm(p),FALSE,"black, passed"
+29,City of Norwich,1930-04-03,3/4,unknown,,bey,FALSE,"UNCERTAIN - black, the recurring unresolved 'bey' term again, same position in the route pattern as seq 5/6"
+30,City of Norwich,1930-04-04,4/4,unknown,,bey,FALSE,"UNCERTAIN - red, same term as seq 29"
+31,City of Norwich,1930-04-09,9/4,arrival,penang,Pen,FALSE,black = arrival
+32,City of Norwich,1930-04-09,9/4,sailing,penang,Pen,FALSE,"red = sailing, same day as the arrival"
+33,City of Norwich,1930-04-10,10/4,arrival,port-swettenham,P.Swet,FALSE,black = arrival
+34,City of Norwich,1930-04-10,10/4,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day as the arrival"
+35,City of Norwich,1930-04-11,11/4,arrival,singapore,Sing.,FALSE,black = arrival
+36,City of Norwich,1930-04-15,15/4,sailing,singapore,Sing.,FALSE,red = sailing
+37,City of Norwich,1930-04-20,20/4,arrival,manila,Man,FALSE,black = arrival
+38,City of Norwich,1930-04-25,25/4,sailing,manila,Man,FALSE,red = sailing
+39,City of Norwich,1930-04-30,30/4,arrival,shanghai,Shng.,FALSE,black = arrival
+40,City of Norwich,1930-05-04,4/5,sailing,shanghai,Shng.,FALSE,red = sailing
+41,City of Norwich,1930-05-04,4/5,arrival,hong-kong,Hkg.,FALSE,"UNCERTAIN - black, same date as the seq 40 Shanghai sailing, which isn't physically possible (Shanghai to Hong Kong is a couple of days' sailing). One of the two dates is likely misread. Flagged rather than adjusted"
+42,City of Norwich,1930-05-08,8/5,sailing,hong-kong,Hkg.,FALSE,red = sailing
+43,City of Norwich,1930-05-11,11/5,arrival,saigon,Saig.,FALSE,black = arrival
+44,City of Norwich,1930-05-15,15/5,sailing,saigon,Saig.,FALSE,red = sailing
+45,City of Norwich,1930-05-18,18/5,arrival,manila,Man,FALSE,black = arrival
+46,City of Norwich,1930-05-21,21/5,sailing,manila,Man,FALSE,red = sailing
+47,City of Norwich,1930-05-23,23/5,arrival,cebu,Cebu,FALSE,black = arrival
+48,City of Norwich,1930-05-25,25/5,sailing,cebu,Cebu,FALSE,red = sailing
+49,City of Norwich,1930-05-30,30/5,arrival,singapore,Sing.,FALSE,black = arrival
+50,City of Norwich,1930-06-02,2/6,sailing,singapore,Sing.,FALSE,red = sailing
+51,City of Norwich,1930-06-03,3/6,arrival,port-swettenham,P.Swet,FALSE,black = arrival
+52,City of Norwich,1930-06-03,3/6,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day"
+53,City of Norwich,1930-06-04,4/6,arrival,penang,Pen,FALSE,black = arrival
+54,City of Norwich,1930-06-04,4/6,sailing,penang,Pen,FALSE,"red = sailing, same day"
+55,City of Norwich,1930-06-11,11/6,arrival,ceylon,Cey,FALSE,black = arrival
+56,City of Norwich,1930-06-21,21/6,transit,perim,Prm(p),FALSE,"black, passed"
+57,City of Norwich,1930-06-23,23/6,arrival,port-sudan,P.Sud,FALSE,"black = arrival. New port, added to ports.csv"
+58,City of Norwich,1930-06-24,24/6,sailing,port-sudan,P.Sud,FALSE,red = sailing
+59,City of Norwich,1930-06-27,27/6,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+60,City of Norwich,1930-06-28,28/6,transit,port-said,P.Said,FALSE,"black = arrival at the northern end, no sailing logged between this and seq 59 - consistent canal-transit pattern seen elsewhere on this ship's cards"
+61,City of Norwich,1930-07-05,5/7,transit,gibraltar,Gib.(p),FALSE,"black, passed"
+62,City of Norwich,1930-07-10,10/7,arrival,le-havre,Hvr.,FALSE,black = arrival
+63,City of Norwich,1930-07-11,11/7,sailing,le-havre,Hvr.,FALSE,red = sailing
+64,City of Norwich,1930-07-12,12/7,arrival,london,Lo.,FALSE,black = arrival
+65,City of Norwich,1930-07-16,16/7,sailing,london,Lo.,FALSE,red = sailing
+66,City of Norwich,1930-07-17,17/7,arrival,london,Lo.,FALSE,"black = arrival, the day after the sailing - a short local move rather than a new port"
+67,City of Norwich,1930-07-18,18/7,arrival,rotterdam,Rott,FALSE,black = arrival
+68,City of Norwich,1930-07-20,20/7,arrival,hamburg,Ham,FALSE,"black = arrival. No sailing from Rotterdam is logged between this and seq 67"
+69,City of Norwich,1930-07-22,22/7,sailing,hamburg,Ham,FALSE,red = sailing
+70,City of Norwich,1930-07-24,24/7,arrival,hull,Hull,FALSE,black = arrival
+71,City of Norwich,1930-07-27,27/7,arrival,,Shls,FALSE,"black = arrival, Shields. No sailing from Hull is logged between this and seq 70"
+72,City of Norwich,1931-10-05,5/10,sailing,,Shls,FALSE,"red = sailing. There's roughly a 14-month gap on the card between this and seq 71 (Jul 1930 to Oct 1931), with an explicit '1931' year box appearing between them and nothing logged in the interim. Most likely explanation is a genuine lay-up - 1930-31 was the depth of the shipping slump in the Depression - but the card gives no reason, so this is a guess, not a confirmed explanation"
+73,City of Norwich,1931-10-06,6/10,arrival,antwerp,Ant,FALSE,black = arrival
+74,City of Norwich,1931-10-12,12/10,sailing,antwerp,Ant,FALSE,"red = sailing. Annotated '(c)' on the top-row reference number - the same unexplained bracketed marker seen on IMG_5628 and IMG_5632. Card ends here with 'P.T.O.' (please turn over) - second side not yet transcribed"
