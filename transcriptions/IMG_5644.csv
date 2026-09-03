@@ -1,0 +1,78 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1938-11-30,30/11,arrival,abadan,Abad,FALSE,"black = arrival. Card headed 'No.7 (first side)', continuing IMG_5643 ('1938 cont'). NEW PORT (Abadan, Iran) - major oil port, Persian Gulf"
+2,City of Norwich,1938-12-01,1/12,sailing,abadan,Abad,FALSE,red = sailing
+3,City of Norwich,1938-12-05,5/12,arrival,bushire,Bust.,FALSE,black = arrival
+4,City of Norwich,1938-12-13,13/12,sailing,bushire,Bust.,FALSE,red = sailing
+5,City of Norwich,1938-12-13,13/12,arrival,abadan,Abad,FALSE,"black = arrival, same day as seq 4"
+6,City of Norwich,1939-01-02,2/1,sailing,bandar-shahpur,Bandar Sh,FALSE,"red = sailing. Completes IMG_5643's final, incomplete entry ('Bandar Sh...', cut off at the card edge, port and card position confirmed but not the date). Year changes to 1939 here, boxed between the reference columns"
+7,City of Norwich,1939-01-14,14/1,arrival,calcutta,Cal,FALSE,"black = arrival. Long transit from the Persian Gulf back to India with nothing logged in between"
+8,City of Norwich,1939-02-07,7/2,sailing,calcutta,Cal,FALSE,red = sailing
+9,City of Norwich,1939-02-24,24/2,arrival,lourenco-marques,L.m,FALSE,black = arrival
+10,City of Norwich,1939-02-25,25/2,sailing,lourenco-marques,L.m,FALSE,red = sailing
+11,City of Norwich,1939-03-01,1/3,arrival,table-bay,Table,FALSE,black = arrival
+12,City of Norwich,1939-03-01,1/3,sailing,table-bay,Table,FALSE,"red = sailing, same day as seq 11"
+13,City of Norwich,1939-03-13,13/3,arrival,rio-de-janeiro,R.J.,FALSE,"black = arrival. NEW REGION - first appearance of South America on any City of Norwich card"
+14,City of Norwich,1939-03-14,14/3,sailing,rio-de-janeiro,R.J.,FALSE,red = sailing
+15,City of Norwich,1939-03-15,15/3,arrival,santos,Santos,FALSE,"black = arrival. NEW PORT (Santos, Brazil)"
+16,City of Norwich,1939-03-21,21/3,sailing,santos,Santos,FALSE,"red = sailing, written larger/bolder than the surrounding entries - no explained reason"
+17,City of Norwich,1939-03-26,26/3,arrival,buenos-aires,B.A,FALSE,black = arrival. NEW PORT (Buenos Aires)
+18,City of Norwich,1939-04-06,6/4,arrival,rosario,Rosa,FALSE,"black = arrival. NEW PORT (Rosario, up the Parana River from Buenos Aires). No sailing from Buenos Aires logged before this"
+19,City of Norwich,1939-04-15,15/4,sailing,rosario,Rosa,FALSE,red = sailing
+20,City of Norwich,1939-04-16,16/4,arrival,buenos-aires,B.A,FALSE,"black = arrival, back down the river from Rosario"
+21,City of Norwich,1939-04-24,24/4,arrival,buenos-aires,B.A.,FALSE,"UNCERTAIN - black, a second Buenos Aires arrival with no sailing logged between it and seq 20. Possibly the true sailing citation was one of the two 'Erroneous' voided entries immediately following (see seq 22)"
+22,City of Norwich,,,note,,Erroneous,FALSE,"Two entries (one black, one red, both dated in the same position as 'M.V. 24/4') struck through and explicitly labelled 'Erroneous' by the clerk - the same self-correction convention confirmed on IMG_5634. Not transcribed as events; superseded by seq 23/24"
+23,City of Norwich,1939-04-26,26/4,arrival,montevideo,M.V.,FALSE,"black = arrival - the corrected version of the voided seq 22 entries"
+24,City of Norwich,1939-04-26,26/4,sailing,montevideo,M.V.,FALSE,"red = sailing, same day as seq 23"
+25,City of Norwich,1939-05-10,10/5,arrival,cape-verdes,C.Vds,FALSE,black = arrival
+26,City of Norwich,1939-05-10,10/5,sailing,cape-verdes,C.Vds,FALSE,"red = sailing, same day as seq 25"
+27,City of Norwich,1939-05-20,20/5,arrival,liverpool,Liv,FALSE,black = arrival
+28,City of Norwich,1939-06-24,24/6,sailing,liverpool,Liv,FALSE,red = sailing
+29,City of Norwich,1939-06-25,25/6,arrival,barry,Barry D.,FALSE,black = arrival
+30,City of Norwich,1939-06-25,25/6,arrival,newport,Npt,FALSE,"black = arrival, same day as seq 29 - the same Barry/Newport cross-port pairing seen on IMG_5639/5641"
+31,City of Norwich,1939-06-29,29/6,sailing,newport,Npt,FALSE,red = sailing
+32,City of Norwich,1939-06-30,30/6,arrival,lowestoft,Lws,FALSE,black = arrival
+33,City of Norwich,1939-07-04,4/7,sailing,lowestoft,Lws,FALSE,red = sailing
+34,City of Norwich,1939-07-05,5/7,arrival,liverpool,Liv,FALSE,black = arrival
+35,City of Norwich,1939-07-13,13/7,sailing,liverpool,Liv,FALSE,red = sailing
+36,City of Norwich,1939-07-24,24/7,arrival,port-said,P.Said,FALSE,black = arrival
+37,City of Norwich,1939-07-24,24/7,sailing,port-said,P.Said,FALSE,"red = sailing, same day as seq 36"
+38,City of Norwich,1939-07-25,25/7,sailing,suez,Suez,FALSE,red = sailing/transit
+39,City of Norwich,1939-08-04,4/8,arrival,bombay,Bom.,FALSE,black = arrival
+40,City of Norwich,1939-08-09,9/8,arrival,okha,P.Okha,FALSE,black = arrival
+41,City of Norwich,1939-08-10,10/8,arrival,karachi,Kar,FALSE,black = arrival
+42,City of Norwich,1939-08-16,16/8,sailing,karachi,Kar,FALSE,red = sailing
+43,City of Norwich,1939-08-17,17/8,arrival,bedi-bunder,Bedi Bunder,FALSE,black = arrival
+44,City of Norwich,1939-08-20,20/8,arrival,navlakhi,Navlakhi,FALSE,"black = arrival. Written out in full this time, confirming the tentative 'Naval' reading from IMG_5639"
+45,City of Norwich,1939-08-23,23/8,sailing,bombay,Bom,FALSE,red = sailing
+46,City of Norwich,1939-09-01,1/9,sailing,bombay,Bom,FALSE,"DUPLICATE - red, written larger/bolder, same port as seq 45 a week later - possibly a genuine second call rather than a citation duplicate, since the date differs by more than a day; kept as read"
+47,City of Norwich,1939-09-18,18/9,arrival,durban,Durb.,FALSE,black = arrival
+48,City of Norwich,1939-09-21,21/9,sailing,durban,Durb.,FALSE,red = sailing
+49,City of Norwich,1939-09-24,24/9,arrival,table-bay,Table.,FALSE,black = arrival
+50,City of Norwich,1939-09-27,27/9,sailing,table-bay,Table.,FALSE,red = sailing
+51,City of Norwich,1939-10-09,9/10,arrival,freetown,Freet.,FALSE,black = arrival
+52,City of Norwich,1939-10-15,15/10,sailing,freetown,Freet.,FALSE,red = sailing
+53,City of Norwich,1939-11-03,3/11,arrival,liverpool,Liv,FALSE,black = arrival
+54,City of Norwich,1939-11-11,11/11,unknown,liverpool,Liv,FALSE,"UNCERTAIN colour - read as black, though a sailing here would be expected red like every other instance on this ship's cards"
+55,City of Norwich,1939-11-11,11/11,arrival,eastham,Esthm.,FALSE,"black = arrival, same day as seq 54 - the Manchester Ship Canal entrance"
+56,City of Norwich,1939-11-12,12/11,arrival,manchester,Mchr.,FALSE,black = arrival
+57,City of Norwich,1939-11-22,22/11,sailing,partington,Part,FALSE,"red = sailing. NEW PORT (Partington, an oil terminal on the Manchester Ship Canal)"
+58,City of Norwich,1939-11-22,22/11,sailing,eastham,Esthm.,FALSE,"red, same date as seq 57 - leaving the canal the same day as the Partington sailing"
+59,City of Norwich,1939-11-23,23/11,arrival,liverpool,Liv,FALSE,black = arrival
+60,City of Norwich,1939-11-26,26/11,sailing,middlesbrough,Mbro.,FALSE,"UNCERTAIN - red. No arrival at Middlesbrough is logged before this sailing; possibly belongs with an unlogged call, or a misreading"
+61,City of Norwich,1939-11-29,29/11,unknown,,,FALSE,"UNCERTAIN - red, no port name legible in this column, only the date. Genuinely unresolved"
+62,City of Norwich,1939-11-30,30/11,arrival,great-yarmouth-rds,Gt Yar Rds.,FALSE,black = arrival. NEW PORT (Great Yarmouth Roads)
+63,City of Norwich,1939-12-01,1/12,unknown,,,FALSE,"UNCERTAIN - red, no port name legible in this column, only the date"
+64,City of Norwich,1939-12-02,2/12,unknown,,Anc,FALSE,"UNCERTAIN - black, reads 'Anc'. Could be Ancona (a real Guildhall-listed code, 'Anc') but that's a poor geographic fit between Great Yarmouth Roads and Rotterdam; more likely shorthand for 'anchorage' rather than a place name. Not resolved either way"
+65,City of Norwich,1939-12-04,4/12,unknown,,,FALSE,"UNCERTAIN - red, no port name legible in this column, only the date"
+66,City of Norwich,1939-12-04,4/12,arrival,rotterdam,Rott,FALSE,"black = arrival, same day as seq 65"
+67,City of Norwich,1939-12-07,7/12,arrival,downs,Downs.,FALSE,"black = arrival. The Downs, a sheltered anchorage off the Kent coast - a real waypoint, not a port of call in the usual sense"
+68,City of Norwich,1939-12-08,8/12,arrival,london,Lo,FALSE,black = arrival
+69,City of Norwich,1939-12-18,18/12,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' again, same recurring unexplained mark as earlier cards"
+70,City of Norwich,1939-12-19,19/12,arrival,london,Lo,FALSE,black = arrival
+71,City of Norwich,1939-12-19,19/12,arrival,the-nore,Nore L.V.,FALSE,"UNCERTAIN reading of the annotation - black, 'Nore' is clear (the sandbank/anchorage at the Thames Estuary mouth), followed by what's read as 'L.V.' (Light Vessel, the standard marker for such a shoal) though it could be 'P.V.'; same day as seq 70. NEW PORT (The Nore, as a reporting waypoint)"
+72,City of Norwich,1939-12-20,20/12,arrival,dover,Dov.,FALSE,"black = arrival. Bracketed by the card to seq 73 (Downs), the same kind of same-day cross-reference seen elsewhere"
+73,City of Norwich,1939-12-20,20/12,sailing,downs,Downs,FALSE,"red, same date as seq 72, bracketed to it"
+74,City of Norwich,1940-01-19,19/1,arrival,table-bay,Table,FALSE,"black = arrival. Year changes to 1940 here, boxed between the reference columns. Large jump straight back to the South Africa run with nothing logged in between"
+75,City of Norwich,1940-01-20,20/1,sailing,table-bay,Table,FALSE,red = sailing
+76,City of Norwich,1940-01-21,21/1,arrival,mossel-bay,Mossel,FALSE,black = arrival
+77,City of Norwich,1940-01-21,21/1,sailing,mossel-bay,Mossel,FALSE,"red = sailing, same day as seq 76. Card ends 'P.T.O.' (second side not yet transcribed)"

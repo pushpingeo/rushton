@@ -528,3 +528,24 @@ convention is known.
   changed mid-card (D.O. Evans to G. Roberts, 3 Oct 1938). One unresolved
   code, "Bchy", between two London calls and Gibraltar. New ports added to
   `ports.csv`: Jeddah, Bushire, Khor Musa Bar.
+
+- **IMG_5644** — 77 rows, 30 Nov 1938 to 21 Jan 1940. **City of Norwich**,
+  Card No 7, First Side — directly continues IMG_5643, completing its final
+  incomplete entry (Bandar Shahpur). Finishes the Persian Gulf run (Abadan —
+  new port — and Bushire), then Calcutta, Lourenco Marques, Table Bay, and
+  then **the ship's first appearance in South America**: Rio de Janeiro, a
+  new port (Santos), Buenos Aires, a new port (Rosario, up the Parana
+  River), Montevideo (with a clerk's own "Erroneous" correction, the same
+  self-correction convention as IMG_5634), Cape Verdes, back to Liverpool.
+  Then Barry/Newport, Lowestoft, Liverpool, Suez/Port Said, back to
+  India/Persian Gulf waters (Bombay, Okha, Karachi, Bedi Bunder, Navlakhi —
+  confirming IMG_5639's tentative "Naval" reading), Durban, Table Bay,
+  Freetown, Liverpool, the Manchester Ship Canal (Eastham/Manchester and a
+  new port, Partington), a new port (Great Yarmouth Roads), Rotterdam, the
+  Thames Estuary waypoints (a new one, The Nore, plus Dover/Downs), and
+  finally jumping straight to Table Bay/Mossel Bay in January 1940 with
+  nothing logged in between. Several columns in the Nov–Dec 1939 UK stretch
+  have a date but no legible port name — flagged rather than guessed. Card
+  ends "P.T.O." (second side not yet transcribed). New ports added to
+  `ports.csv`: Bandar Shahpur, Santos, Partington, Great Yarmouth Roads, The
+  Nore; "Rosa" added as an alias for Rosario.

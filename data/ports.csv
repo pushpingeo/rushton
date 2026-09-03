@@ -352,7 +352,7 @@ ramsgate,Ram,Ramsgate,,,,
 reunion,Reu,Reunion,,,,
 reykjavik,Reyk,Reykjavik,,,,
 rouen,Rn,Rouen,,,,
-rosario,Ros,Rosario,,,,
+rosario,Ros,Rosario,,,Rosa,
 rotterdam,Rot,Rotterdam,,,,
 rotterdam,Rott,Rotterdam,,,,
 runcorn,Runc,Runcorn,,,,
@@ -500,3 +500,8 @@ koilchottam,,Koilchottam,,,,"country: India - written in full on IMG_5641, posit
 jeddah,Jedd,Jeddah,39.1925,21.4858,,"country: Saudi Arabia (Red Sea coast). First appearance of the Persian Gulf run, IMG_5643"
 bushire,Bush,Bushire,50.8385,28.9684,,"country: Iran (Persian Gulf) - now Bushehr"
 khor-musa-bar,,Khor Musa Bar,49.1500,30.4167,,"country: Iran (Persian Gulf) - the sandbar approach to Bandar Shahpur; approximate coordinates"
+bandar-shahpur,Bandar Sh,Bandar Shahpur,49.1161,30.4408,,"country: Iran (Persian Gulf) - now Bandar Imam Khomeini"
+santos,,Santos,-46.3308,-23.9608,,country: Brazil - port of Sao Paulo
+partington,,Partington,-2.4291,53.4139,,"country: United Kingdom - oil terminal on the Manchester Ship Canal"
+great-yarmouth-rds,,Great Yarmouth Roads,1.7500,52.6167,"Gt Yar Rds","country: United Kingdom - the roadstead off Great Yarmouth, Norfolk"
+the-nore,,The Nore,0.7500,51.5000,"Nore L.V.","country: United Kingdom - sandbank/anchorage and historic light vessel station at the mouth of the Thames Estuary, not a port of call in the usual sense"
