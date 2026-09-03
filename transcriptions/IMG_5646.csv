@@ -1,0 +1,63 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,,off 30.4.41,note,,,FALSE,"Boxed marginal note reading 'O.H.M.S.' over 'off 30.4.41' - the ship went back onto Admiralty requisition after IMG_5645's air-raid damage and was released again 30 Apr 1941. Card headed 'No.8 (first side)', labelled 'Cont' - directly continues IMG_5645"
+2,City of Norwich,1941-05-03,3/5,sailing,alexandria,Alx,FALSE,red = sailing
+3,City of Norwich,1941-05-04,4/5,arrival,port-said,P.Said,FALSE,black = arrival
+4,City of Norwich,1941-05-05,5/5,sailing,port-said,,TRUE,red = sailing
+5,City of Norwich,1941-05-05,5/5,arrival,suez,Suez,FALSE,"black = arrival, same day - transiting the canal"
+6,City of Norwich,1941-05-06,6/5,sailing,suez,,TRUE,red = sailing
+7,City of Norwich,1941-05-16,16/5,arrival,bombay,Bom,FALSE,black = arrival
+8,City of Norwich,1941-05-28,28/5,sailing,bombay,,TRUE,red = sailing
+9,City of Norwich,1941-05-29,29/5,arrival,mormugao,Morm,FALSE,"black = arrival. NEW PORT (Mormugao, Goa) - reads 'Morm', matching the period abbreviation for Mormugao rather than Mombasa ('Momb', which appears distinctly two rows later)"
+10,City of Norwich,1941-06-04,4/6,sailing,mormugao,,TRUE,red = sailing
+11,City of Norwich,1941-06-18,18/6,arrival,mombasa,Momb,FALSE,black = arrival
+12,City of Norwich,1941-06-20,20/6,sailing,mombasa,,TRUE,red = sailing
+13,City of Norwich,1941-06-27,27/6,arrival,durban,Durb,FALSE,black = arrival
+14,City of Norwich,1941-06-28,28/6,sailing,durban,,TRUE,red = sailing
+15,City of Norwich,1941-07-02,2/7,arrival,table-bay,Table,FALSE,black = arrival
+16,City of Norwich,1941-07-12,12/7,sailing,table-bay,,TRUE,red = sailing
+17,City of Norwich,1941-08-03,3/8,arrival,,Sc.L.,FALSE,"UNCERTAIN - black = arrival. Reads 'Sc.L.' or 'Lc.L.'; doesn't match any code in ports.csv. Given the next few calls are all UK/convoy waypoints (Halifax, Loch Ewe), this is likely a Scottish location, but not confidently identified"
+18,City of Norwich,1941-08-04,4/8,sailing,,,TRUE,"red = sailing, carried from the unresolved 'Sc.L.' arrival above"
+19,City of Norwich,1941-08-12,12/8,arrival,halifax-ns,Hal,FALSE,black = arrival
+20,City of Norwich,1941-08-16,16/8,sailing,halifax-ns,,TRUE,red = sailing
+21,City of Norwich,1941-08-30,30/8,arrival,loch-ewe,L.Ewe,FALSE,"black = arrival - Loch Ewe, a major WWII convoy assembly anchorage"
+22,City of Norwich,1941-09-01,1/9,sailing,loch-ewe,,TRUE,red = sailing
+23,City of Norwich,1941-09-03,3/9,arrival,methil-roads,Meth Rds,FALSE,"UNCERTAIN - black = arrival. The abbreviation appears to wrap awkwardly across the row boundary on the card (part of 'Rds' reads as if written on the following row); resolved against ports.csv's existing 'Methil Roads' (code 'Meth Rds') rather than transcribed as two separate calls"
+24,City of Norwich,1941-09-05,5/9,arrival,hull,Hull,FALSE,black = arrival
+25,City of Norwich,1941-10-04,4/10,sailing,hull,,TRUE,"red = sailing. Nearly a month docked at Hull, unexplained on this card"
+26,City of Norwich,1941-10-06,6/10,arrival,spurn-head,Spurn,FALSE,black = arrival - the Humber-mouth reporting point near Hull
+27,City of Norwich,1941-10-09,9/10,arrival,methil-roads,Meth,FALSE,black = arrival
+28,City of Norwich,1941-10-10,10/10,sailing,methil-roads,,TRUE,red = sailing
+29,City of Norwich,1941-10-13,13/10,arrival,loch-ewe,L.Ewe,FALSE,black = arrival
+30,City of Norwich,1941-10-15,15/10,note,,,FALSE,"WARTIME INCIDENT - a run of blue paragraph notes reads (approximately) 'Holed by collision' with a reference '18/25 L[?]', and separately 'the collision 15/10' and 'the damage [from the] collision'. This is the ship's second reported wartime damage incident (after IMG_5645's air raid). Taken together with the entries below, the ship was in collision around 15 Oct 1941 and required repairs"
+31,City of Norwich,1941-10-19,19/10,note,,,FALSE,"Blue note: 'Left Loch Ewe 19/10 for Clyde' - heading to the Clyde (Glasgow shipbuilding/repair area) after the collision, '...for repairs' per an adjoining blue note dated around 6 Oct/21-24 (uncertain reading)"
+32,City of Norwich,1941-10-21,21/10,arrival,clyde,Clyde,FALSE,"black/red = arrival at the Clyde, corroborated by a blue note '(Glas) Arr. Clyde 21/10' and a red citation 'Clyde 21/10' - genuinely uncertain which colour is the 'real' citation vs. the clerk's own working note, but the date and place are consistent across all three"
+33,City of Norwich,1941-10-21,21/10,sailing,tail-of-the-bank,Tail of B,FALSE,"UNCERTAIN reading - red, same day as the Clyde arrival, reads 'Sail of B' which is most likely 'Tail of B' (Tail of the Bank, the Clyde anchorage used elsewhere on this ship's cards) misread"
+34,City of Norwich,1941-10-24,24/10,note,,glasgow,FALSE,"Blue notes: 'Glas[gow] 21/10', 'Glasgow 24/10', '(Lo.) 29/10' - the ship's movements around the Clyde/Glasgow repair yards through late October are logged in blue rather than the normal black/red citation columns; not confidently resolved into discrete port_raw/date pairs, flagged as a block rather than forced"
+35,City of Norwich,1941-10-30,30/10,arrival,glasgow,Glas,FALSE,"red = 'Glas 30/10'; black = 'Clyde 30/10' immediately after - both citing the same return to the Clyde area"
+36,City of Norwich,1941-10-30,30/10,note,,,FALSE,"Blue note: 'Left Glas[gow] 30/10' - departing the repair yard"
+37,City of Norwich,1941-11-04,4/11,sailing,clyde,Clyde,FALSE,"UNCERTAIN - red, reads approximately 'Clyde 30/10 - 1/11'; a further red 'Nov[?] 4' sits alongside. Genuinely hard to disentangle from the entries either side; kept as a single flagged citation rather than split further"
+38,City of Norwich,1941-11-16,16/11,arrival,sydney-nsw,Syd,FALSE,"black = arrival, annotated '(NS)' beneath - most likely 'New South Wales' distinguishing this Sydney from Sydney, Nova Scotia, though that reading isn't certain"
+39,City of Norwich,1941-11-16,16/11,sailing,sydney-nsw,,TRUE,red = sailing
+40,City of Norwich,1941-11-19,19/11,arrival,,mble,FALSE,"UNCERTAIN - black = arrival, reads 'mble'. Doesn't match any code in ports.csv; left unresolved"
+41,City of Norwich,1941-11-30,30/11,sailing,,,TRUE,"red = sailing, carried from the unresolved 'mble' arrival"
+42,City of Norwich,1941-12-11,11/12,arrival,st-lawrence,St L.,FALSE,"UNCERTAIN - black = arrival, reads 'St L.' - tentatively the St Lawrence (river/gulf, Canada), fitting a wartime North Atlantic convoy route, but not confirmed against ports.csv (no existing entry)"
+43,City of Norwich,1941-12-13,13/12,sailing,st-lawrence,,TRUE,red = sailing
+44,City of Norwich,,,note,,,FALSE,"Blue marginal note reading approximately '(Lo.) Nov. 3/35' and '(Lo.) 30/10' - position/relationship to the surrounding entries unclear, flagged rather than guessed. This whole Sept 1941-Dec 1941 stretch (seq 23-44) is the densest and least certain in the collection so far, mixing ordinary red/black citations with an extended blue damage-and-repair narrative in cramped handwriting; would benefit from a fresh, dedicated re-read"
+45,City of Norwich,,,note,,,FALSE,"Year changes to 1942, boxed between the reference columns"
+46,City of Norwich,1942-01-05,5/1,arrival,table-bay,Table,FALSE,black = arrival
+47,City of Norwich,1942-01-17,17/1,sailing,table-bay,,TRUE,red = sailing
+48,City of Norwich,1942-01-22,22/1,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+49,City of Norwich,1942-02-04,4/2,sailing,lourenco-marques,,TRUE,red = sailing
+50,City of Norwich,1942-02-20,20/2,arrival,bombay,Bom,FALSE,black = arrival
+51,City of Norwich,1942-03-07,7/3,sailing,bombay,,TRUE,red = sailing
+52,City of Norwich,1942-03-11,11/3,arrival,,Cy,FALSE,"UNCERTAIN - black = arrival, reads 'Cy'. Doesn't cleanly match Ceylon (card code 'Cey' elsewhere) or any other ports.csv entry; left unresolved rather than forced"
+53,City of Norwich,1942-03-22,22/3,arrival,madras,mad,FALSE,"black = arrival, no sailing logged between this and the 'Cy' entry above"
+54,City of Norwich,1942-03-26,26/3,sailing,madras,,TRUE,red = sailing
+55,City of Norwich,,,note,,,FALSE,"Blue note, partly illegible, reading approximately 'the wireless repairs' - context not established"
+56,City of Norwich,1942-03-30,30/3,arrival,sandheads,Sandl,FALSE,"black = arrival. Card spells it 'Sandl'; resolved against ports.csv's existing 'Sandheads' (code 'Sandh') as the closest match"
+57,City of Norwich,1942-04-17,17/4,sailing,sandheads,,TRUE,red = sailing
+58,City of Norwich,1942-04-27,27/4,arrival,cochin,Coch,FALSE,black = arrival
+59,City of Norwich,,,note,,,FALSE,"Blue parenthetical note: '(Lourenco Marques) H/2' - meaning not established; may be an administrative cross-reference rather than a port call"
+60,City of Norwich,1942-05-05,5/5,sailing,cochin,Coch,FALSE,red = sailing
+61,City of Norwich,1942-05-23,23/5,arrival,durban,Durb,FALSE,black = arrival
+62,City of Norwich,1942-06-07,7/6,sailing,durban,,TRUE,"red = sailing. Card ends 'P.T.O.' (second side not yet transcribed)"

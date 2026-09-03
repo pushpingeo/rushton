@@ -576,3 +576,27 @@ convention is known.
   a clean reading, per the same standard as every other unresolved item in
   this collection. Card ends "Continued on card no. 8" (not yet identified).
   New port added to `ports.csv`: Haifa (Piraeus already existed, code "Pir").
+
+- **IMG_5646** — 62 rows, 3 May 1941 to 7 Jun 1942. **City of Norwich**,
+  Card No 8, First Side — directly continues IMG_5645. Opens with the ship
+  again coming off Admiralty requisition ("O.H.M.S.", released 30 Apr 1941),
+  then a long Eastern voyage — Port Said, Suez, Bombay, a new port
+  (Mormugao, Goa), Mombasa, the South Africa circuit (Durban, Table Bay),
+  then home to a run of UK/convoy waypoints (Halifax NS, Loch Ewe, Hull,
+  Spurn Head, Methil Roads). The card's major event is a **second wartime
+  damage incident**: a dense, hard-to-read run of blue paragraph notes
+  describes the ship holed in a collision around 15 Oct 1941, heading to the
+  Clyde/Glasgow for repairs, and a confusing few weeks of movements around
+  the Clyde through November. This whole September-December 1941 stretch
+  (IMG_5646.csv seq 23-44) mixes ordinary red/black citations with the blue
+  narrative in unusually cramped handwriting and is the least certain
+  stretch in the collection so far — flagged as a block, per the same
+  "don't force a clean reading" standard used for IMG_5641's own most
+  uncertain stretch, and noted as a good candidate for a fresh, dedicated
+  re-read. The ship then reaches Sydney NSW (marked "(NS)") before an
+  unresolved run of entries closes out 1941. 1942 resumes with the familiar
+  Table Bay/Lourenco Marques/Bombay circuit and a new Indian stretch
+  (Sandheads, a return to Cochin, Madras). Several unresolved codes
+  ("Sc.L.", "Cy", "mble") left unmatched against `ports.csv` rather than
+  guessed. Card ends "P.T.O." (second side not yet transcribed). New ports
+  added to `ports.csv`: Mormugao; St Lawrence (tentative).
