@@ -1,0 +1,81 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1935-08-30,30/8,arrival,antwerp,Ant,FALSE,"black = arrival. Card headed 'No 5 (first side)', directly continuing IMG_5639's final entry (Dunkirk sailing, 29/8)"
+2,City of Norwich,1935-08-30,30/8,sailing,antwerp,Ant,FALSE,"DUPLICATE - red, same port and date as seq 1"
+3,City of Norwich,1935-08-31,31/8,transit,isle-of-wight,Iofw,FALSE,"black, written out in full as 'I of W' rather than the official 'I W' code"
+4,City of Norwich,1935-09-02,2/9,arrival,liverpool,Liv,FALSE,black = arrival
+5,City of Norwich,1935-09-14,14/9,sailing,liverpool,Liv,FALSE,red = sailing
+6,City of Norwich,1935-09-16,16/9,transit,lizard,Liz,FALSE,"black, passed the Lizard"
+7,City of Norwich,1935-09-18,18/9,unknown,,Mrro,FALSE,"UNCERTAIN - black, reads approximately 'Merro'. Doesn't match ports.csv or any Guildhall code. Genuinely unresolved"
+8,City of Norwich,1935-09-27,27/9,note,,,FALSE,"UNCERTAIN/UNRESOLVED - red, a heavy overlapping scrawl that doesn't resolve into legible letters, possibly a struck-through/cancelled entry rather than a real port code (the pattern seen elsewhere on this ship's cards for voided entries). Also sits chronologically after seq 9/10 (22/9, 23/9) despite coming first in card position - flagging both the illegibility and the ordering"
+9,City of Norwich,1935-09-22,22/9,transit,dunnet-head,Dunnet,FALSE,"black, passed Dunnet Head - the same tentative reading used on IMG_5636 (card spells it closer to 'Bunnut'/'Dunnat' there; clearer here)"
+10,City of Norwich,1935-09-23,23/9,arrival,glasgow,Glas,FALSE,black = arrival
+11,City of Norwich,1935-10-03,3/10,arrival,glasgow,Glas.,FALSE,black = arrival
+12,City of Norwich,1935-10-03,3/10,arrival,liverpool,Liv,FALSE,"black = arrival, same date as seq 11's Glasgow - most likely one real call cited under both port names, the same pattern as the Barry/Newport pair on IMG_5639"
+13,City of Norwich,1935-10-10,10/10,sailing,liverpool,Liv,FALSE,red = sailing
+14,City of Norwich,1935-11-01,1/11,arrival,table-bay,Table,FALSE,black = arrival
+15,City of Norwich,1935-11-04,4/11,sailing,table-bay,Table.,FALSE,red = sailing
+16,City of Norwich,1935-11-05,5/11,arrival,mossel-bay,Mossel,FALSE,black = arrival
+17,City of Norwich,1935-11-05,5/11,sailing,mossel-bay,Mossel.,FALSE,"red = sailing, same day as seq 16"
+18,City of Norwich,1935-11-06,6/11,arrival,port-elizabeth,P.Eliz,FALSE,black = arrival
+19,City of Norwich,1935-11-07,7/11,sailing,port-elizabeth,P.Eliz,FALSE,red = sailing
+20,City of Norwich,1935-11-08,8/11,arrival,east-london,E.Lo,FALSE,black = arrival
+21,City of Norwich,1935-11-11,11/11,arrival,lourenco-marques,L.m,FALSE,black = arrival
+22,City of Norwich,1935-11-13,13/11,sailing,lourenco-marques,L.M.,FALSE,red = sailing
+23,City of Norwich,1935-11-18,18/11,arrival,mauritius,P.Louis Maur.,FALSE,black = arrival
+24,City of Norwich,1935-11-21,21/11,sailing,mauritius,P.Louis Maur,FALSE,red = sailing
+25,City of Norwich,1935-12-03,3/12,sailing,vizagapatam,Vizag,FALSE,"UNCERTAIN - red. NEW PORT (Vizagapatam/Visakhapatnam). No arrival at Vizag is logged before this - either a brief unlogged call or this is actually a speaking/passing rather than a real sailing"
+26,City of Norwich,1935-12-05,5/12,arrival,calcutta,Cal,FALSE,black = arrival
+27,City of Norwich,1935-12-12,12/12,sailing,sandheads,Sandheads,FALSE,"red = sailing/passing the Sandheads pilot station at the Hooghly mouth, effectively the sailing report for leaving Calcutta"
+28,City of Norwich,1935-12-13,13/12,arrival,coringa,Cora,FALSE,"black = arrival. NEW PORT, tentatively Coringa (near Kakinada) - fits the route position (a short coastal hop south from the Hooghly mouth) but not confirmed against an official list"
+29,City of Norwich,1935-12-16,16/12,arrival,madras,Mad,FALSE,black = arrival. NEW PORT (Madras)
+30,City of Norwich,1935-12-19,19/12,sailing,madras,Mad,FALSE,red = sailing
+31,City of Norwich,1935-12-22,22/12,unknown,,Bey,FALSE,"UNCERTAIN - red, capitalised this time. Recurring unresolved code (6th occurrence across the collection: IMG_5632, IMG_5634, IMG_5636 x2, IMG_5639), always in the same route position between a South/SE Asian port and Perim"
+32,City of Norwich,1935-12-30,30/12,transit,perim,Prm(p),FALSE,"black, passed Perim"
+33,City of Norwich,1936-01-04,4/1,transit,suez,Suez,FALSE,"black = arrival at the southern end of the canal. Year changes to 1936 here, boxed between the reference columns"
+34,City of Norwich,1936-01-04,4/1,transit,port-said,P.Said,FALSE,"red = sailing at the northern end, same day as seq 33"
+35,City of Norwich,1936-01-08,8/1,arrival,,Mee,FALSE,"UNCERTAIN - black. Doesn't match ports.csv. Sits between Port Said and Gibraltar (Mediterranean), Malta was considered as a candidate but the letters don't fit well. Genuinely unresolved"
+36,City of Norwich,1936-01-08,8/1,sailing,,Mee,FALSE,"DUPLICATE - red, same unresolved code and date as seq 35"
+37,City of Norwich,1936-01-12,12/1,arrival,gibraltar,Gib.,FALSE,black = arrival
+38,City of Norwich,1936-01-17,17/1,note,,,FALSE,"UNCERTAIN - black, a heavily overwritten/crossed entry that doesn't resolve into a legible port code, with what looks like a diagonal strike-through - most likely a struck-through/voided entry by the original clerk, the same pattern confirmed explicitly on IMG_5634 ('Erroneous')"
+39,City of Norwich,1936-01-17,17/1,arrival,london,Lo,FALSE,"black = arrival, same date as seq 38"
+40,City of Norwich,1936-01-21,21/1,sailing,london,Lo(r),FALSE,"red = sailing, annotated '(r)' - an unexplained bracketed annotation, the same kind as the recurring '(c)' seen on IMG_5628/5638/5639 but with a different letter"
+41,City of Norwich,1936-01-22,22/1,arrival,london,Lo,FALSE,"black = arrival, one day after seq 40's sailing"
+42,City of Norwich,1936-01-24,24/1,arrival,dunkirk,Dun,FALSE,"UNCERTAIN port - black. 'Dun' is ambiguous in ports.csv (Dunkirk or Dundee share the code); resolved to Dunkirk here since it sits in a cluster with 'Dnk' (also Dunkirk), Isle of Wight and Lizard - all Channel-area waypoints, not the North Sea/Scotland context Dundee would imply"
+43,City of Norwich,1936-01-29,29/1,sailing,dunkirk,Dun,FALSE,"red = sailing, same uncertain 'Dun' code as seq 42"
+44,City of Norwich,1936-01-31,31/1,arrival,dunkirk,Dnk,FALSE,black = arrival
+45,City of Norwich,1936-02-05,5/2,transit,isle-of-wight,Iofw,FALSE,"black, passed the Isle of Wight"
+46,City of Norwich,1936-02-04,4/2,sailing,dunkirk,Dnk,FALSE,"UNCERTAIN - red, dated 4/2 but sitting in card position after seq 45's 5/2 - a one-day chronological anomaly. A hand-drawn bracket over the reference numbers above seq 45/46 links the two columns, the same kind of clerk cross-reference seen elsewhere on this ship's cards (e.g. IMG_5639's seq 20). Kept in card position and flagged rather than reordered"
+47,City of Norwich,1936-02-05,5/2,transit,lizard,Liz,FALSE,"black, passed the Lizard, same date as seq 45's Isle of Wight"
+48,City of Norwich,1936-02-06,6/2,arrival,liverpool,Liv,FALSE,black = arrival
+49,City of Norwich,1936-04-04,4/4,sailing,liverpool,Liv,FALSE,"red = sailing. No arrival at Liverpool is logged between seq 48 and this sailing - a two-month gap, possibly a lay-up or drydocking not otherwise noted"
+50,City of Norwich,1936-04-06,6/4,arrival,glasgow,Glas,FALSE,black = arrival
+51,City of Norwich,1936-04-15,15/4,sailing,glasgow,Glas,FALSE,red = sailing
+52,City of Norwich,1936-04-15,15/4,sailing,tail-of-the-bank,Tail of B.,FALSE,"red, same date as seq 51 - Tail of the Bank is the anchorage in the Firth of Clyde just downstream of Glasgow, effectively the same departure"
+53,City of Norwich,1936-04-16,16/4,arrival,liverpool,Liv,FALSE,black = arrival
+54,City of Norwich,1936-04-18,18/4,sailing,liverpool,Liv,FALSE,"red = sailing, annotated with a small red circle (emphasis only, not an annotation seen elsewhere)"
+55,City of Norwich,1936-04-23,23/4,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+56,City of Norwich,1936-04-29,29/4,transit,port-said,P.Said,FALSE,black = arrival at the northern end of the canal - direction reversed from the usual Suez-first pattern since the ship is heading south this time
+57,City of Norwich,1936-04-30,30/4,transit,suez,Suez,FALSE,"red = sailing at the southern end, one day after entering at Port Said"
+58,City of Norwich,1936-05-17,17/5,unknown,,bal,FALSE,"UNCERTAIN - black, lowercase like the recurring 'bal' seen on IMG_5632 (possibly shipping shorthand for 'in ballast' rather than a place, per that card's note). Genuinely unresolved"
+59,City of Norwich,1936-05-22,22/5,sailing,calcutta,Cal.,FALSE,"red = sailing. No arrival at Calcutta is logged before this - either an unlogged call or a continuation from a much earlier visit not re-recorded"
+60,City of Norwich,1936-05-25,25/5,arrival,rangoon,Rng,FALSE,black = arrival
+61,City of Norwich,1936-06-08,8/6,arrival,rangoon,Rng.,FALSE,"black = arrival. No sailing from Rangoon is logged between this and seq 60. A red arrow drawn from the following row's 'Bassein 7/6' entry (seq 74 in card position, out of chronological order there) points up to this column - see seq 74's note"
+62,City of Norwich,1936-06-13,13/6,sailing,rangoon,Rng,FALSE,red = sailing
+63,City of Norwich,1936-06-19,19/6,unknown,,bey,FALSE,"UNCERTAIN - red, lowercase. 7th occurrence of the recurring unresolved 'bey' code, same route position as always (between a Rangoon-area port and Perim/Aden)"
+64,City of Norwich,1936-06-30,30/6,arrival,aden,Aden,FALSE,black = arrival
+65,City of Norwich,1936-06-30,30/6,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 64"
+66,City of Norwich,1936-06-30,30/6,transit,perim,Prm(p),FALSE,"black, passed Perim, same day as seq 64/65"
+67,City of Norwich,1936-07-02,2/7,arrival,port-sudan,P.Sud,FALSE,black = arrival
+68,City of Norwich,1936-07-02,2/7,sailing,port-sudan,P.Sud,FALSE,"red = sailing, same day as seq 67"
+69,City of Norwich,1936-07-05,5/7,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+70,City of Norwich,1936-07-05,5/7,transit,port-said,P.Said,FALSE,"black = arrival at the northern end, same day as seq 69 - a fast transit"
+71,City of Norwich,1936-07-06,6/7,sailing,port-said,P.Said,FALSE,"red = sailing out of Port Said itself, one day after seq 70"
+72,City of Norwich,1936-07-13,13/7,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+73,City of Norwich,1936-07-18,18/7,arrival,london,Lo,FALSE,black = arrival
+74,City of Norwich,1936-06-07,7/6,sailing,bassein,Bassein,FALSE,"UNCERTAIN - red. NEW PORT (Bassein, Burma, near Rangoon). Sits at the start of this row in card position (dated 7/6, right after seq 68's 2/7 in reading order), which is chronologically far earlier - it belongs right before seq 61's Rangoon arrival (8/6), one day later and a short hop down the Burma coast. A red arrow drawn on the card connects this entry's row back up to that column, the same kind of clerk cross-reference correction seen elsewhere on this ship's cards (e.g. IMG_5639's seq 20, this card's own seq 46). Kept in card position and flagged rather than reordered"
+75,City of Norwich,1936-07-20,20/7,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' - the same recurring unexplained annotation seen on IMG_5628/5638/5639"
+76,City of Norwich,1936-07-21,21/7,arrival,london,Lo,FALSE,"black = arrival, one day after seq 75's sailing"
+77,City of Norwich,1936-07-21,21/7,arrival,southend,Snd,FALSE,"UNCERTAIN port - black, same date as seq 76. 'Snd' is ambiguous in ports.csv (Southend or Sunderland share the code); resolved to Southend here since it fits the Thames-estuary-outward route from London toward Hull, rather than the North East coast Sunderland would imply"
+78,City of Norwich,1936-07-22,22/7,arrival,hull,Hull,FALSE,black = arrival
+79,City of Norwich,1936-07-26,26/7,sailing,hull,Hull,FALSE,red = sailing
+80,City of Norwich,1936-07-27,27/7,transit,spurn-head,Spurn,FALSE,"red, passed Spurn Head. Card ends 'P.T.O.' - second side not yet transcribed"

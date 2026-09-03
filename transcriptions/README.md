@@ -406,3 +406,39 @@ convention is known.
     plus the Barry/Newport cross-port pair).
   - New ports added to `ports.csv`: Chefoo, Chinwangtao, Navlakhi (tentative),
     Barry; "Lws" added as an alias for Lowestoft.
+
+- **IMG_5640** — 80 rows, 30 Aug 1935 to 27 Jul 1936. **City of Norwich**,
+  Card No 5, First Side — directly continues IMG_5639 ("Continued on Card
+  No. 5"). Antwerp, Liverpool, up around Scotland (Dunnet Head, Glasgow),
+  the now-familiar South African circuit (Table Bay, Mossel Bay, Port
+  Elizabeth, East London, Lourenco Marques), Mauritius, three new ports on
+  the east coast of India (Vizagapatam, Coringa - tentative, Madras), Red
+  Sea/Suez, Gibraltar, London, a Channel loop (Dunkirk/Isle of Wight/
+  Lizard), Glasgow/Tail of the Bank again, Suez/Red Sea, Calcutta, Rangoon,
+  a new Burma port (Bassein), Aden/Perim/Port Sudan, Suez/Port Said,
+  Gibraltar, London, Hull, ending "P.T.O." (second side not yet
+  transcribed). Captain changed mid-card (J.E. Roberts to F.T. Mills, 14 Apr
+  1936). Several things worth flagging:
+  - Two more clerk-bracketed chronological anomalies, same style as
+    IMG_5639's seq 20: a red arrow links a "Bassein 7/6" entry (sitting much
+    later in card position) back up to its correct spot right before a
+    Rangoon arrival dated 8/6; a hand-drawn bracket links a "Dnk[irk] 4/2"
+    sailing back to the column before the Isle of Wight entry it should
+    precede. Both kept in card position and flagged rather than reordered.
+  - The recurring unresolved "bey" code turns up twice on this one card
+    (6th and 7th occurrences overall), same route position as always.
+  - The recurring unresolved lowercase "bal" code (first seen on IMG_5632)
+    reappears too.
+  - Three new unresolved codes: "Merro" (Scottish coast, position unclear),
+    an illegible/possibly-voided red scrawl chronologically out of place
+    among the Scottish entries, and "Mee" (Mediterranean, between Port Said
+    and Gibraltar - Malta was considered and doesn't fit well).
+  - Two ambiguous official codes ("Dun" = Dunkirk or Dundee; "Snd" =
+    Southend or Sunderland) resolved by card context (both read as the
+    Channel/Thames-estuary option, matching the surrounding waypoints)
+    rather than by text match, per the port-linking method.
+  - Several duplicate-looking same-day/cross-port entries, consistent with
+    every earlier card (Antwerp x2, Glasgow/Liverpool same-day, Mossel Bay
+    x2, Aden x2, Mee x2, Port Said x2).
+  - New ports added to `ports.csv`: Vizagapatam, Coringa (tentative),
+    Madras, Bassein.
