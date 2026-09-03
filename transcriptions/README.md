@@ -617,3 +617,18 @@ convention is known.
   references rather than forced into the sequence. Card ends "Contd on card
   No. 9" (not yet identified). New ports added to `ports.csv`: Walvis Bay,
   Bougie.
+
+- **IMG_5648** — 44 rows, 22 Jun 1943 to 26 Jun 1944. **City of Norwich**,
+  Card No 9, First Side — directly continues IMG_5647. Card headed "Re
+  repairs - 'war miss'" — a wartime near-miss just before the card opens.
+  Milford Haven, Philadelphia/Hampton Roads, Suez, Aden, Bombay, Ceylon,
+  then the card's major event: the ship put into **Madras on 18 Oct 1943
+  with a fractured tunnel shaft**, and stayed there under repair for nearly
+  four months — a long run of "in port"/ditto citations through to 3 Feb
+  1944 — the longest layup logged anywhere in this collection. Resumes with
+  Sandheads/Calcutta, Ceylon, Aden, Suez, Port Said, then home via Loch Ewe
+  to Liverpool/Eastham/Manchester. A couple of out-of-place blue citation
+  cross-references ("(Madras) 2/2") left flagged rather than forced into the
+  sequence, the same pattern as IMG_5647's "(Cape Town) 31/1". No new ports
+  — all previously seen. Card ends "P.T.O." (second side not yet
+  transcribed).

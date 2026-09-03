@@ -1,0 +1,45 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1943-05-24,24/5,note,,,FALSE,"Card headed 'Re repairs - ""war miss""' in blue, dated 24/5 - the ship appears to have had a narrow escape from a wartime hazard (a near-miss, possibly torpedo or mine) shortly before this card opens. Labelled 'No 9 (first side)', 'Contd' - directly continues IMG_5647"
+2,City of Norwich,1943-06-22,22/6,sailing,avonmouth,,TRUE,"red = sailing, carried forward from IMG_5647's final entry (Avonmouth, 2/6)"
+3,City of Norwich,1943-06-22,22/6,arrival,milford-haven,Milf H,FALSE,"black = arrival, same day"
+4,City of Norwich,1943-06-23,23/6,sailing,milford-haven,,TRUE,red = sailing
+5,City of Norwich,1943-07-09,9/7,arrival,philadelphia,Phil,FALSE,black = arrival
+6,City of Norwich,1943-07-23,23/7,note,,,FALSE,Blue parenthetical '(L.O.) 23/7' - a Lloyd's Agent report citation
+7,City of Norwich,1943-08-03,3/8,arrival,philadelphia,Phil,FALSE,"UNCERTAIN - black = arrival, but no sailing is logged between this and the 9/7 Philadelphia arrival above (over 3 weeks) - possibly a missed citation, kept as read"
+8,City of Norwich,1943-08-04,4/8,arrival,hampton-rds,Hamp Rds,FALSE,black = arrival
+9,City of Norwich,1943-08-07,7/8,sailing,hampton-rds,,TRUE,red = sailing
+10,City of Norwich,1943-09-03,3/9,arrival,port-said,P.Said,FALSE,black = arrival
+11,City of Norwich,1943-09-05,5/9,sailing,port-said,,TRUE,red = sailing
+12,City of Norwich,1943-09-05,5/9,arrival,suez,Suez,FALSE,"black = arrival, same day - transiting the canal"
+13,City of Norwich,1943-09-05,5/9,sailing,suez,,TRUE,"red = sailing, same day"
+14,City of Norwich,1943-09-10,10/9,arrival,aden,Aden,FALSE,black = arrival
+15,City of Norwich,,,note,,,FALSE,"Blue note reading approximately 'Tunnel shaft fractured, unable... to proceed' - the first mention of the mechanical failure that leads to the ship's extended Madras layup a few weeks later. Position on the card suggests this was first identified around the Aden call"
+16,City of Norwich,1943-09-13,13/9,sailing,aden,,TRUE,"UNCERTAIN - red = sailing, carried forward from Aden; exact date reconstructed from the top reference line rather than a clearly legible bottom-line citation"
+17,City of Norwich,1943-09-17,17/9,arrival,bombay,Bom,FALSE,black = arrival
+18,City of Norwich,1943-10-09,9/10,sailing,bombay,,TRUE,red = sailing
+19,City of Norwich,1943-10-14,14/10,arrival,ceylon,Cey,FALSE,black = arrival
+20,City of Norwich,1943-10-14,14/10,sailing,ceylon,,TRUE,"red = sailing, same day"
+21,City of Norwich,1943-10-18,18/10,arrival,madras,Madras,FALSE,"black = arrival. Blue note alongside: '(L.O.) 21/10' - a Lloyd's Agent citation"
+22,City of Norwich,1943-10-24,18/10 - 3/2,note,,madras,FALSE,"MAJOR INCIDENT - blue note reads 'Put into Madras 18/10 with tunnel shaft fractured', dated '(Lo.) 24/10'. This begins a nearly four-month layup: the card logs a long run of 'in port'/ditto citations confirming the ship remained at Madras without moving - 4/11/1943, 15/11/1943, 2/12/1943, 13/12/1943, 20/12/1943, 3/1/1944, 20/1/1944, and 3/2/1944 (each marked 'Madras -|-' or 'in pt', i.e. still there) - the longest layup logged anywhere in this collection. A further blue note reads approximately '9/2/44, re cargo' - context (what cargo, why noted) not established"
+23,City of Norwich,1944-02-11,11/2,arrival,sandheads,Sandh,FALSE,"black = arrival - the ship finally moves again, after nearly four months at Madras"
+24,City of Norwich,1944-02-11,11/2,arrival,calcutta,Cal,FALSE,"black = arrival, same day"
+25,City of Norwich,,,note,,,FALSE,"Two ditto marks ('-|- -|-') follow, indicating the ship remained at Calcutta for a period before the next dated citation"
+26,City of Norwich,1944-03-20,20/3,sailing,calcutta,Cal,FALSE,red = sailing
+27,City of Norwich,1944-03-22,22/3,arrival,sandheads,Sandh,FALSE,black = arrival
+28,City of Norwich,1944-03-29,29/3,arrival,ceylon,Cey,FALSE,black = arrival
+29,City of Norwich,1944-04-09,9/4,sailing,ceylon,,TRUE,red = sailing
+30,City of Norwich,1944-04-18,18/4,arrival,aden,Aden,FALSE,black = arrival
+31,City of Norwich,1944-04-20,20/4,sailing,aden,,TRUE,red = sailing
+32,City of Norwich,1944-04-25,25/4,arrival,suez,Suez,FALSE,black = arrival
+33,City of Norwich,1944-04-25,25/4,sailing,suez,,TRUE,"red = sailing, same day"
+34,City of Norwich,1944-04-26,26/4,arrival,port-said,P.Said,FALSE,black = arrival
+35,City of Norwich,,2/2,note,,,FALSE,"UNCERTAIN - blue parenthetical '(Madras) 2/2' sitting amid the late-April entries. The date doesn't fit this position chronologically; most likely a citation cross-reference back to the Madras repair period rather than a new event - same pattern as IMG_5647's '(Cape Town) 31/1'"
+36,City of Norwich,1944-05-09,9/5,sailing,port-said,,TRUE,red = sailing
+37,City of Norwich,1944-05-22,3/22,note,,,FALSE,"UNCERTAIN - blue note reading approximately 'Re repairs to shaft [ms?]', dated 'May 3/22'. Further reference to the tunnel shaft repairs; exact meaning and date not fully resolved"
+38,City of Norwich,1944-06-04,4/6,arrival,loch-ewe,L.Ewe,FALSE,black = arrival
+39,City of Norwich,1944-06-12,12-13/6,sailing,loch-ewe,,TRUE,"red = sailing, date written as a range '12-13/6' (same pattern as earlier ranges on this ship's cards)"
+40,City of Norwich,1944-06-14,14/6,arrival,liverpool,Liv,FALSE,black = arrival
+41,City of Norwich,1944-06-14,14/6,arrival,eastham,Esthm,FALSE,"black = arrival, same day"
+42,City of Norwich,1944-06-15,15/6,arrival,manchester,Mchr,FALSE,black = arrival
+43,City of Norwich,1944-06-25,25/6,sailing,manchester,,TRUE,red = sailing
+44,City of Norwich,1944-06-26,26/6,sailing,eastham,Esthm,FALSE,"red = sailing. Card ends 'P.T.O.' (second side not yet transcribed)"
