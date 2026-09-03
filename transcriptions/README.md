@@ -549,3 +549,30 @@ convention is known.
   ends "P.T.O." (second side not yet transcribed). New ports added to
   `ports.csv`: Bandar Shahpur, Santos, Partington, Great Yarmouth Roads, The
   Nore; "Rosa" added as an alias for Rosario.
+
+- **IMG_5645** — 84 rows, 22 Jan 1940 to c. 16/24 Apr 1941. **City of
+  Norwich**, Card No 7, Second Side — directly continues IMG_5644. The
+  familiar South Africa circuit (Port Elizabeth, East London, Durban,
+  Lourenco Marques, Beira, Table Bay, Freetown), Liverpool and the
+  Manchester Ship Canal (Eastham, Manchester, Ellesmere Port, Partington,
+  Runcorn), then back out to Bombay, Okha, Karachi. One struck-through/
+  voided entry ("Gib (p)", early May 1940). An unresolved Clyde-area code,
+  "Geas"/"Yeas", logged alongside a Tail of the Bank call and not resolved
+  against `ports.csv`. Then, for the first time in the collection, the
+  ship's war service becomes visible: a boxed note reads "O.H.M.S." over
+  "off 5.3.41" — the ship was on Admiralty requisition ("On His Majesty's
+  Service") and released 5 Mar 1941. No "on" date is given, but the gap in
+  ordinary citations either side of the note fits that reading cleanly.
+  Entries resume into the Eastern Mediterranean — Aden, Suez, Port Said,
+  Alexandria — and bring two new ports: **Haifa** (Palestine) and
+  **Piraeus** (Greece, consistent with the spring 1941 Battle of Greece),
+  with a clerk correction bracket reordering one Piraeus sailing/arrival
+  pair (same convention as IMG_5632/5633/5639/5640) and a second
+  struck-through/voided entry (5/4). The card ends with the ship's first
+  war-damage incident: a blue paragraph note reading approximately "Damaged
+  in air raid" (date uncertain, c. 24 Apr 1941) and a second, harder-to-place
+  blue annotation ("16/4", with a small "(X0)" mark whose meaning isn't
+  established) — both flagged as genuinely uncertain rather than forced into
+  a clean reading, per the same standard as every other unresolved item in
+  this collection. Card ends "Continued on card no. 8" (not yet identified).
+  New port added to `ports.csv`: Haifa (Piraeus already existed, code "Pir").
