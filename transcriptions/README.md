@@ -369,3 +369,40 @@ convention is known.
   flags here: several duplicate-looking same-day entries and a couple of
   bracketed out-of-sequence dates. New ports added to `ports.csv`:
   Paulsboro, Hankow; lon/lat filled in for Woosung.
+
+- **IMG_5639** — 73 rows, 4 Feb 1935 to 29 Aug 1935. **City of Norwich**,
+  Card No 4, Second Side — directly continues IMG_5638 (Manila arrival).
+  A run up the north China coast (Chefoo and Chinwangtao, both new ports -
+  Chinwangtao resolves the "Chin[u]" code left unresolved on IMG_5637) to
+  Taku Bar, back through Shanghai/Hong Kong/Singapore/Port Swettenham/Penang,
+  the recurring unresolved "bey" code (5th occurrence), Red Sea/Suez,
+  Avonmouth/London, Rotterdam/Nieuw Waterweg/Hamburg, a new port (Barry,
+  South Wales, paired with a same-day Newport call the same way earlier
+  cards paired NY/Hampton Roads/Newport News), Lowestoft, Liverpool, back
+  east via Port Said/Perim to Bombay, the Gujarat/Kathiawar coast (an
+  unresolved "B.Laun" code, Okha, a new tentatively-resolved port Navlakhi,
+  Bedi Bunder), Karachi, Bombay again, Aden/Suez, Barcelona, Gibraltar,
+  Ushant, ending "Continued on Card No. 5" (not yet identified). Several
+  things worth flagging:
+  - A genuine chronological anomaly: a "Dair[en] 24/2" entry sits at the end
+    of a March row in card position, but is joined by a hand-drawn red
+    bracket back to the Chefoo/Chinwangtao/Taku Bar cluster earlier on the
+    card, where its February date actually belongs. Kept in its card
+    position and flagged rather than reordered, per the precedent set on
+    IMG_5632/5633's own bracketed corrections.
+  - An unresolved incident entry (a different, cursive hand) reading
+    approximately "In [uncertain] 27/4" near Dunkirk, annotated in blue with
+    "See under North Sea" - a cross-reference to some other record not part
+    of this card - and a blue "(W to N)" of uncertain meaning. Candidates
+    considered for the main word ("quarantine", "collision") are not
+    confirmed; genuinely unresolved.
+  - The recurring unresolved "bey" code turns up a 5th time, same route
+    position as every previous occurrence (between a South/SE Asian port and
+    Perim).
+  - A new unresolved code, "B.Laun", on the Gujarat coast between Bombay and
+    Okha - doesn't match ports.csv.
+  - Several duplicate-looking same-day/same-port entries, consistent with
+    the pattern on every card so far (Port Said x2, London x2, Navlakhi x2,
+    plus the Barry/Newport cross-port pair).
+  - New ports added to `ports.csv`: Chefoo, Chinwangtao, Navlakhi (tentative),
+    Barry; "Lws" added as an alias for Lowestoft.

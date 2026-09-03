@@ -1,0 +1,74 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1935-02-04,4/2,sailing,manila,Man,FALSE,"red = sailing. Card headed 'No 4 (second side)', directly continuing IMG_5638's final entry (Manila arrival, 1/2, black)"
+2,City of Norwich,1935-02-06,6/2,arrival,hong-kong,Hkg,FALSE,black = arrival
+3,City of Norwich,1935-02-09,9/2,sailing,hong-kong,Hkg,FALSE,red = sailing
+4,City of Norwich,1935-02-12,12/2,arrival,shanghai,Shng,FALSE,black = arrival
+5,City of Norwich,1935-02-16,16/2,sailing,shanghai,Shng,FALSE,red = sailing
+6,City of Norwich,1935-02-18,18/2,arrival,dairen,Dair,FALSE,black = arrival
+7,City of Norwich,1935-02-25,25/2,sailing,chefoo,Chef,FALSE,"red = sailing. NEW PORT (Chefoo, now Yantai). This entry, seq 8 (Chinwangtao) and seq 9 (Taku Bar) are joined by a hand-drawn red bracket/loop that also swoops down to connect to seq 20, a much later entry at the end of the following row - see seq 20's note for the chronological anomaly that creates"
+8,City of Norwich,1935-02-26,26/2,arrival,chinwangtao,Chin,FALSE,"black = arrival. NEW PORT - resolves the 'Chin[u]' code flagged unresolved on IMG_5637 (also positioned between Taku Bar and a Chinese port there); this occurrence gives a clean reading and a plausible geography (Chinwangtao/Qinhuangdao sits right next to Taku Bar, the Tientsin approach). Bracketed with seq 7/9/20"
+9,City of Norwich,1935-03-01,1/3,sailing,taku-bar,Taku Bar,FALSE,"red = sailing. Bracketed with seq 7/8/20"
+10,City of Norwich,1935-03-03,3/3,arrival,shanghai,Shng,FALSE,black = arrival
+11,City of Norwich,1935-03-05,5/3,sailing,shanghai,Shng,FALSE,red = sailing
+12,City of Norwich,1935-03-08,8/3,arrival,hong-kong,Hkg,FALSE,black = arrival
+13,City of Norwich,1935-03-09,9/3,sailing,hong-kong,Hkg,FALSE,red = sailing
+14,City of Norwich,1935-03-14,14/3,arrival,singapore,Sing,FALSE,black = arrival
+15,City of Norwich,1935-03-17,17/3,sailing,singapore,Sing,FALSE,red = sailing
+16,City of Norwich,1935-03-18,18/3,arrival,port-swettenham,P.Swet,FALSE,black = arrival
+17,City of Norwich,1935-03-18,18/3,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day as seq 16 - a quick call"
+18,City of Norwich,1935-03-19,19/3,arrival,penang,Pen,FALSE,black = arrival
+19,City of Norwich,1935-03-19,19/3,sailing,penang,Pen,FALSE,"red = sailing, same day as seq 18"
+20,City of Norwich,1935-02-24,24/2,unknown,dairen,Dair,FALSE,"UNCERTAIN - red, sitting at the end of the 19/3 Penang row in card position, but dated 24/2. Chronologically it belongs with the Dairen/Chefoo/Chinwangtao/Taku Bar cluster (seq 6-9), between the Dairen arrival (18/2) and the Chefoo sailing (25/2) - and the card itself agrees: a hand-drawn red bracket connects this entry back up to seq 7-9, the same kind of clerk's own cross-reference annotation seen on IMG_5632 (Hull/Oss) and IMG_5633. Kept in its own card-position row rather than reordered, per that precedent, and dated as written (24/2) rather than the row's own March dates"
+21,City of Norwich,1935-03-24,24/3,unknown,,bey,FALSE,"UNCERTAIN - red this time (earlier sightings were black or lowercase). 5th occurrence of this recurring unresolved code across the collection (IMG_5632, IMG_5634, IMG_5636 x2), always in the same route position between a South/SE Asian port and Perim. Still doesn't match ports.csv"
+22,City of Norwich,1935-03-31,31/3,transit,perim,Prm(p),FALSE,"black, passed Perim"
+23,City of Norwich,1935-04-02,2/4,arrival,port-sudan,P.Sud,FALSE,black = arrival
+24,City of Norwich,1935-04-02,2/4,sailing,port-sudan,P.Sud,FALSE,"red = sailing, same day as seq 23"
+25,City of Norwich,1935-04-05,5/4,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+26,City of Norwich,1935-04-06,6/4,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+27,City of Norwich,1935-04-13,13/4,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+28,City of Norwich,1935-04-18,18/4,arrival,avonmouth,Avr,FALSE,black = arrival
+29,City of Norwich,1935-04-19,19/4,sailing,avonmouth,Avr,FALSE,red = sailing
+30,City of Norwich,1935-04-20,20/4,arrival,london,Lo.,FALSE,black = arrival
+31,City of Norwich,1935-04-24,24/4,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' - the same unexplained bracketed annotation seen on IMG_5628 (seq 44/51) and IMG_5638 (seq 50)"
+32,City of Norwich,1935-04-24,24/4,sailing,london,Lo.,FALSE,"DUPLICATE - red, same port and date as seq 31, immediately following it. Most likely a repeat Lloyd's List citation of the same sailing rather than two departures, matching the duplicate pattern seen elsewhere on this ship's cards"
+33,City of Norwich,1935-04-25,25/4,arrival,dunkirk,Dnk Rds.,FALSE,black = arrival at the Dunkirk Roads anchorage rather than the harbour itself
+34,City of Norwich,1935-04-27,27/4,note,,,FALSE,"UNCERTAIN/UNRESOLVED - an unusual entry written in black cursive (a different hand to the rest of the card), reading approximately 'In [uncertain word] 27/4'. Candidates considered for the uncertain word include 'quarantine' and 'collision', neither confirmed. Annotated above in blue with 'See under North Sea' - a cross-reference to some other record not part of this card - and, below, a blue parenthetical reading approximately '(W to N)', possibly a wind-direction note. No port_id assigned; genuinely unresolved rather than guessed, flagging for a second look"
+35,City of Norwich,1935-04-27,27/4,sailing,dunkirk,Dnk,FALSE,"red = sailing, same date as seq 34's unresolved note"
+36,City of Norwich,1935-04-28,28/4,arrival,rotterdam,Rott,FALSE,black = arrival
+37,City of Norwich,1935-04-30,30/4,sailing,nieuw-waterweg,Nwtg,FALSE,red = sailing
+38,City of Norwich,1935-05-01,1/5,arrival,hamburg,Ham,FALSE,black = arrival
+39,City of Norwich,1935-05-03,3/5,sailing,hamburg,Ham,FALSE,red = sailing
+40,City of Norwich,1935-05-06,6/5,arrival,barry,Barry D.,FALSE,"black = arrival. NEW PORT (Barry Dock, South Wales). Same date as seq 41's Newport - see that note"
+41,City of Norwich,1935-05-06,6/5,arrival,newport,Npt,FALSE,"black = arrival, same date as seq 40's Barry, a few miles away in the Bristol Channel. Most likely one real call cited under both port names rather than two same-day arrivals - the same pattern as seq 42/43's matching sailing pair, and the NY/Hampton Roads/Newport News trios flagged on earlier cards"
+42,City of Norwich,1935-05-27,27/5,sailing,newport,Npt,FALSE,red = sailing
+43,City of Norwich,1935-05-27,27/5,sailing,barry,Barry D.,FALSE,"same date as seq 42's Newport sailing - same cross-port pairing as seq 40/41"
+44,City of Norwich,1935-05-28,28/5,arrival,lowestoft,Lws,FALSE,"black = arrival. Card spells it 'Lws' rather than the official 'Lwt' code - added as an alias in ports.csv"
+45,City of Norwich,1935-06-01,1/6,sailing,lowestoft,Lws,FALSE,red = sailing
+46,City of Norwich,1935-06-02,2/6,arrival,liverpool,Liv,FALSE,black = arrival
+47,City of Norwich,1935-06-09,9/6,sailing,liverpool,Liv,FALSE,"red = sailing. Captain re-confirmed here per the card's own footer, '6.6.35 H. Spencer' - H. Spencer carried over from IMG_5638, no change of captain, just re-entered while in Liverpool"
+48,City of Norwich,1935-06-20,20/6,arrival,port-said,P.Said,FALSE,"black = arrival - unlike seq 25/26 and seq 66/67 this isn't marked as a canal transit, kept as a real port call as written"
+49,City of Norwich,1935-06-20,20/6,sailing,port-said,P.Said,FALSE,"DUPLICATE - red, same port and date as seq 48"
+50,City of Norwich,1935-06-25,25/6,transit,perim,Prm(p),FALSE,"black, passed Perim"
+51,City of Norwich,1935-07-01,1/7,arrival,bombay,Bom.,FALSE,black = arrival
+52,City of Norwich,1935-07-12,12/7,sailing,bombay,Bom,FALSE,red = sailing
+53,City of Norwich,1935-07-13,13/7,arrival,,B.Laun,FALSE,"UNCERTAIN - black, doesn't match ports.csv or any Guildhall code. Sits on the Gujarat/Kathiawar coast route between Bombay and Okha, one day after leaving Bombay. Genuinely unresolved"
+54,City of Norwich,1935-07-14,14/7,sailing,,B.Laun,FALSE,"red = sailing, same unresolved code as seq 53. Date read as '14/7' from a cramped superscript '⁴' before the slash - the surrounding dates (13th, then 15th) require the 14th"
+55,City of Norwich,1935-07-15,15/7,arrival,okha,P.Okha,FALSE,black = arrival
+56,City of Norwich,1935-07-17,17/7,sailing,okha,P.Okha,FALSE,red = sailing
+57,City of Norwich,1935-07-20,20/7,arrival,navlakhi,Naval,FALSE,"UNCERTAIN - black. Tentatively read as Navlakhi (a real Gujarat/Kathiawar coast port), which fits the route position exactly (between Okha and Bedi Bunder) - added to ports.csv, but the abbreviation itself isn't confirmed against an official list"
+58,City of Norwich,1935-07-20,20/7,sailing,navlakhi,Naval,FALSE,"DUPLICATE - red, same date and place as seq 57"
+59,City of Norwich,1935-07-20,20/7,arrival,bedi-bunder,Bedi B.,FALSE,"black = arrival, same day as seq 57/58 - a short hop along the coast"
+60,City of Norwich,1935-07-23,23/7,sailing,bedi-bunder,Bedi B.,FALSE,red = sailing
+61,City of Norwich,1935-07-24,24/7,arrival,karachi,Kar,FALSE,black = arrival
+62,City of Norwich,1935-07-25,25/7,sailing,karachi,Kar,FALSE,red = sailing
+63,City of Norwich,1935-07-30,30/7,arrival,bombay,Bom,FALSE,"black = arrival. No sailing from Bombay is logged before the next entry"
+64,City of Norwich,1935-08-06,6/8,arrival,aden,Aden,FALSE,black = arrival
+65,City of Norwich,1935-08-07,7/8,transit,perim,Prm(p),FALSE,"black, passed Perim"
+66,City of Norwich,1935-08-11,11/8,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+67,City of Norwich,1935-08-12,12/8,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+68,City of Norwich,1935-08-18,18/8,arrival,barcelona,Barc,FALSE,black = arrival
+69,City of Norwich,1935-08-20,20/8,sailing,barcelona,Barc,FALSE,red = sailing
+70,City of Norwich,1935-08-22,22/8,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+71,City of Norwich,1935-08-26,26/8,transit,ushant,Usht,FALSE,"black, passed Ushant - no explicit '(p)' this time, but a waypoint passing rather than a real port call"
+72,City of Norwich,1935-08-27,27/8,arrival,dunkirk,Dnk,FALSE,black = arrival
+73,City of Norwich,1935-08-29,29/8,sailing,dunkirk,Dnk,FALSE,"red = sailing. Card ends 'Continued on Card No. 5' (not yet identified among the scanned images)"

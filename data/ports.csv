@@ -235,7 +235,7 @@ london,Lon,London,,,,
 longview,Longv,Longview,,,,
 los-angeles,Los A,Los Angeles,,,,
 leith,Lth,Leith,,,,
-lowestoft,Lwt,Lowestoft,,,,
+lowestoft,Lwt,Lowestoft,,,Lws,
 lynn,Lyn,Lynn,,,,
 point-lynas,Lynas,Point Lynas,,,,
 lyttelton,Lyt,Lyttelton,,,,
@@ -488,3 +488,7 @@ perim,,Perim,43.42,12.65,Prm,"small island at the mouth of the Red Sea (Bab-el-M
 port-sudan,P Sud,Port Sudan,37.2164,19.6158,,country: Sudan
 rangoon,,Rangoon,96.1735,16.8409,Rng,"country: Burma (now Yangon, Myanmar)"
 newport-news,,Newport News,-76.4257,36.9740,NNews,country: USA
+chefoo,,Chefoo,121.3914,37.5393,,"country: China (Shandong) - now Yantai. Treaty port on the north China coast"
+chinwangtao,,Chinwangtao,119.5865,39.9320,,"country: China (Hebei) - now Qinhuangdao, near Taku Bar. Resolves the 'Chin[u]' code flagged unresolved on IMG_5637 - IMG_5639 gives it a clear date and card position (between Chefoo and Taku Bar), matching where it was flagged before"
+navlakhi,,Navlakhi,70.4595,22.9601,Naval,"country: India - Gujarat/Kathiawar coast, near Bedi Bunder. 'Naval' reading is tentative - fits the route position (between Okha and Bedi Bunder) but not confirmed against an official list"
+barry,Bar,Barry,-3.2926,51.4045,"Barry D.","country: United Kingdom (Wales) - coal port near Newport/Cardiff. Card writes it 'Barry D.' (Barry Dock)"
