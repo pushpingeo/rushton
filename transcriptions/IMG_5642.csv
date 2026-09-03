@@ -1,0 +1,68 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1937-04-27,27/4,arrival,calcutta,Cal,FALSE,"black = arrival. Card headed 'No.6 (first side)', directly continuing IMG_5641 (Madras sailing, 24/4)"
+2,City of Norwich,1937-05-07,7/5,sailing,calcutta,Cal,FALSE,red = sailing
+3,City of Norwich,1937-05-10,10/5,arrival,vizagapatam,Vizag,FALSE,black = arrival
+4,City of Norwich,1937-05-09,9/5,sailing,sandheads,Sandheads,FALSE,"UNCERTAIN order - red, dated one day before seq 3's Vizag arrival despite following it in card position. Minor (one-day) discrepancy, not resolved further"
+5,City of Norwich,1937-05-15,15/5,sailing,vizagapatam,Vizag.,FALSE,red = sailing
+6,City of Norwich,1937-05-19,19/5,unknown,,bey,FALSE,"UNCERTAIN - red. 8th occurrence of the recurring unresolved 'bey' code, same route position as always (between a South/SE Asian port and Perim/Aden)"
+7,City of Norwich,1937-05-28,28/5,arrival,aden,Aden,FALSE,black = arrival
+8,City of Norwich,1937-05-28,28/5,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 7"
+9,City of Norwich,1937-06-02,2/6,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+10,City of Norwich,1937-06-04,4/6,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+11,City of Norwich,1937-06-11,11/6,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+12,City of Norwich,1937-06-15,15/6,arrival,dover,Dov.,FALSE,black = arrival
+13,City of Norwich,1937-06-15,15/6,arrival,london,Lo.,FALSE,"black = arrival, same day as seq 12's Dover - on the way up the Channel to London"
+14,City of Norwich,1937-06-16,16/6,sailing,london,Lo(r),FALSE,"red = sailing, annotated '(r)' - the same unexplained annotation seen on IMG_5641"
+15,City of Norwich,1937-06-17,17/6,arrival,london,Lo,FALSE,black = arrival
+16,City of Norwich,1937-06-18,18/6,transit,spurn-head,Spurn,FALSE,"black, passed Spurn Head - the approach to Hull"
+17,City of Norwich,1937-06-18,18/6,arrival,hull,Hull,FALSE,"black = arrival, same day as seq 16"
+18,City of Norwich,1937-06-24,24/6,sailing,hull,Hull,FALSE,"red = sailing. Card reads 'Null' rather than 'Hull' - almost certainly the same capital H written quickly enough to look like N, since Hull/Spurn Head is the only sensible reading given seq 16/17"
+19,City of Norwich,1937-07-04,4/7,transit,spurn-head,Spurn,FALSE,"red, passed Spurn Head again on the way out. Card reads closer to 'Sprund' than 'Spurn' but no other reading fits"
+20,City of Norwich,1937-06-25,25/6,arrival,dunkirk,Dnk,FALSE,black = arrival
+21,City of Norwich,1937-07-02,2/7,sailing,dunkirk,Dnk.,FALSE,red = sailing
+22,City of Norwich,1937-07-03,3/7,arrival,middlesbrough,Mbro.,FALSE,black = arrival. NEW PORT (Middlesbrough)
+23,City of Norwich,1937-08-16,16/8,sailing,middlesbrough,Mbro,FALSE,"red = sailing. A six-week gap with nothing else logged between this and seq 22's arrival - possibly a lay-up or a long loading stop, not stated"
+24,City of Norwich,1937-08-17,17/8,transit,dunnet-head,Dunnet,FALSE,"black, passed Dunnet Head"
+25,City of Norwich,1937-08-18,18/8,arrival,glasgow,Glas,FALSE,black = arrival
+26,City of Norwich,1937-08-25,25/8,sailing,glasgow,Glas,FALSE,red = sailing
+27,City of Norwich,1937-08-26,26/8,arrival,liverpool,Liv,FALSE,black = arrival
+28,City of Norwich,1937-09-02,2/9,sailing,liverpool,Liv,FALSE,red = sailing
+29,City of Norwich,1937-09-03,3/9,arrival,table-bay,Table,FALSE,black = arrival
+30,City of Norwich,1937-09-27,27/9,sailing,port-elizabeth,P.Eliz,FALSE,"UNCERTAIN order - red. This whole stretch (seq 30-34: P.Eliz/Table/P.Eliz/E.Lo/an unresolved code) doesn't resolve into a clean chronological or geographic sequence - Table Bay's own date (seq 31) sits before this Port Elizabeth sailing despite coming after it in card position, and there's no Mossel Bay call in between as on every earlier South Africa circuit. Transcribed in card order and flagged as a block rather than forced into a false narrative"
+31,City of Norwich,1937-09-25,25/9,arrival,table-bay,Table,FALSE,"black - see seq 30's note"
+32,City of Norwich,1937-09-28,28/9,sailing,port-elizabeth,P.Eliz,FALSE,"red - see seq 30's note"
+33,City of Norwich,1937-09-29,29/9,arrival,east-london,E.Lo,FALSE,black = arrival
+34,City of Norwich,1937-09-30,30/9,unknown,,N.f.,FALSE,"UNCERTAIN/UNRESOLVED - red, reads approximately 'N.f.'. Doesn't match ports.csv. Genuinely unresolved"
+35,City of Norwich,1937-10-01,1/10,arrival,port-natal,P.nat,FALSE,black = arrival
+36,City of Norwich,1937-10-02,2/10,sailing,port-natal,P.nat,FALSE,red = sailing
+37,City of Norwich,1937-10-08,8/10,arrival,mauritius,P.Louis Maur,FALSE,black = arrival
+38,City of Norwich,1937-10-09,9/10,sailing,mauritius,P.Louis Maur.,FALSE,red = sailing
+39,City of Norwich,1937-10-13,13/10,arrival,lourenco-marques,L.m,FALSE,black = arrival
+40,City of Norwich,1937-10-21,21/10,sailing,lourenco-marques,L.m,FALSE,red = sailing
+41,City of Norwich,1937-10-23,23/10,arrival,beira,Beira,FALSE,black = arrival
+42,City of Norwich,1937-10-28,28/10,sailing,beira,Beira,FALSE,red = sailing
+43,City of Norwich,1937-10-31,31/10,arrival,port-natal,P.nat,FALSE,black = arrival
+44,City of Norwich,1937-11-05,5/11,sailing,port-natal,P.nat,FALSE,red = sailing
+45,City of Norwich,1937-11-08,8/11,arrival,table-bay,Table,FALSE,black = arrival
+46,City of Norwich,1937-11-09,9/11,sailing,table-bay,Table,FALSE,red = sailing
+47,City of Norwich,1937-11-23,23/11,arrival,dakar,Dak,FALSE,black = arrival. NEW PORT (Dakar)
+48,City of Norwich,1937-12-03,3/12,sailing,liverpool,Liv,FALSE,"red = sailing. No sailing from Dakar or arrival at Liverpool logged between seq 47 and this - a gap in the record"
+49,City of Norwich,1937-12-10,10/12,arrival,liverpool,Liv,FALSE,black = arrival
+50,City of Norwich,1937-12-10,10/12,arrival,manchester,Mchr,FALSE,"black = arrival, same day as seq 49 - the Manchester Ship Canal approach, same pattern as earlier cards' Eastham/Manchester calls"
+51,City of Norwich,1937-12-17,17/12,sailing,manchester,Mchr,FALSE,red = sailing
+52,City of Norwich,1937-12-19,19/12,arrival,glasgow,Glas,FALSE,black = arrival
+53,City of Norwich,1938-01-10,10/1,sailing,glasgow,Glas,FALSE,"red = sailing. Year changes to 1938 here, boxed between the reference columns"
+54,City of Norwich,1938-01-11,11/1,arrival,liverpool,Liv,FALSE,black = arrival
+55,City of Norwich,1938-01-16,16/1,sailing,liverpool,Liv,FALSE,red = sailing
+56,City of Norwich,1938-01-20,20/1,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+57,City of Norwich,1938-01-27,27/1,arrival,port-said,P.Said,FALSE,black = arrival
+58,City of Norwich,1938-01-27,27/1,sailing,port-said,P.Said,FALSE,"red = sailing, same day as seq 57"
+59,City of Norwich,1938-01-28,28/1,sailing,suez,Suez,FALSE,red = sailing/transit
+60,City of Norwich,1938-02-13,13/2,arrival,calcutta,Cal,FALSE,"black = arrival - see seq 61's note on the casualty that likely falls somewhere in this stretch"
+61,City of Norwich,1938-02-19,19/2,sailing,calcutta,Cal,FALSE,red = sailing
+62,City of Norwich,1938-02-22,22/2,note,perim,Pen,FALSE,"MAJOR CASUALTY - black, circled by the clerk. 'Pen' is read as Perim here (not Penang - this card's own abbreviation for Penang is used elsewhere as 'Pen' too, so the two are genuinely hard to tell apart, but the accompanying blue paragraph notes settle it: 'ashore off Perim', 'Position serious', 're cargo discharge + jettison'). The ship ran aground off Perim, the situation was serious enough to require discharging and jettisoning cargo to refloat her. The blue notes carry their own small reference numbers (5/17, 5/18, 6/28, 7/26) rather than dates, so the exact day-by-day timeline of the grounding isn't fully recoverable from this card alone - transcribed as a single flagged event on the card's own dated entry (22/2) rather than reconstructed. This explains the unusually dense captain turnover recorded in this card's footer (Walmsley, Edge, Barclay, Evans all within a few months of early 1938)"
+63,City of Norwich,1938-03-18,18/3,sailing,rangoon,Rng,FALSE,"red = sailing. Sits after the Perim casualty in card position; whether the voyage genuinely went Calcutta-Perim-Rangoon or these are out of true order (as with several other bracketed anomalies on this ship's cards) is not resolved"
+64,City of Norwich,1938-03-24,24/3,sailing,ceylon,Cey.,FALSE,red = sailing
+65,City of Norwich,1938-04-01,1/4,arrival,aden,Aden,FALSE,black = arrival
+66,City of Norwich,1938-04-01,1/4,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 65"
+67,City of Norwich,1938-04-04,4/4,note,,,FALSE,"UNCERTAIN - a short run of blue parenthetical entries follows, unlike any other annotation style on this card: '(Aden) 2/4', '(Liv) 4/4', '(Aden) 4/4', then two more blue dates (5/4, 6/4) with no port given. Most likely a continuation of the seq 62 casualty's aftermath - situation reports or communications referencing Aden and Liverpool (the owners' port) - rather than real port calls, but not confirmed. Card ends 'P.T.O.' (second side not yet transcribed)"

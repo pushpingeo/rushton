@@ -468,3 +468,33 @@ convention is known.
   - New ports added to `ports.csv`: Koilchottam (tentative), Halifax NS,
     Djibouti (Boston, Cristobal, Hampton Rds, Newport News, Norfolk and New
     Brunswick already existed from earlier cards).
+
+- **IMG_5642** — 67 rows, 27 Apr 1937 to c. Apr 1938. **City of Norwich**,
+  Card No 6, First Side — directly continues IMG_5641. Calcutta,
+  Vizagapatam, the recurring unresolved "bey" code (8th occurrence),
+  Aden/Suez/Gibraltar, London/Dover/Hull, Dunkirk, a new port
+  (Middlesbrough) with an unexplained 6-week gap before its own sailing,
+  Dunnet Head, Glasgow, Liverpool, a South Africa circuit that doesn't fully
+  resolve chronologically (Table Bay/Port Elizabeth/East London entries out
+  of order, plus a new unresolved code "N.f."), Mauritius, Lourenco Marques,
+  Beira, Port Natal, Table Bay, a new port (Dakar), Liverpool, Manchester
+  (Ship Canal), Glasgow, Liverpool, Gibraltar, Port Said/Suez, Calcutta
+  again. Then the card's major event:
+  - **A serious grounding casualty** - the ship went ashore off Perim. The
+    clerk circled the entry (22 Feb 1938) and added blue paragraph notes:
+    "ashore off Perim", "Position serious", "re cargo discharge +
+    jettison" - cargo had to be discharged and jettisoned to refloat her.
+    The blue notes carry their own small reference numbers rather than
+    dates, so the day-by-day timeline isn't fully recoverable from this
+    card alone.
+  - This casualty coincides with an unusually dense run of captain changes
+    in the card's footer - B.J. Walmsley, then T.P. Edge (8 Jan 1938), D.E.
+    Barclay (14 Jan 1938) and D.O. Evans (15 Feb 1938, noted "at Calcutta")
+    all within about five weeks - almost certainly related, though the card
+    doesn't say so explicitly.
+  - A further run of blue parenthetical entries referencing Aden and
+    Liverpool into early April is most likely the casualty's aftermath
+    (situation reports or communications with the owners) rather than real
+    port calls - not confirmed.
+  - Card ends "P.T.O." (second side not yet transcribed). New ports added
+    to `ports.csv`: Middlesbrough, Dakar.
