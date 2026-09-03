@@ -274,3 +274,25 @@ convention is known.
   - Card ends "P.T.O." — second side not yet transcribed.
   - New port added to `ports.csv`: Port Sudan. Lon/lat and/or codes filled
     in for Marseilles, Hong Kong, Saigon, Penang, Port Swettenham.
+
+- **IMG_5635** — 75 rows, 12 Oct 1931 to 18 Aug 1932. **City of Norwich**,
+  Card No 2, Second Side — directly continues IMG_5634 ("cont."). A third
+  lap of the by-now-familiar circuit (Northern Europe, Mediterranean/Red Sea,
+  Penang/Port Swettenham/Singapore, Hong Kong, Shanghai, Japan, Iloilo), then
+  for the first time heads to **south India** — Alleppey, Cochin, Calicut,
+  Mangalore (Kerala/Karnataka coast, all new ports) — before Suez, a US East
+  Coast/English East Coast loop, and finally **Bombay and Okha** (Gujarat
+  coast, also new). Card ends "Continued on card No 3" (not yet identified).
+  A few things worth flagging:
+  - The still-unresolved "Pwle"/"Iwle" term from IMG_5632 turns up again,
+    in the same English-East-Coast context (between a transatlantic arrival
+    and Hull/Shields) both times — strong evidence it's a real, consistent
+    place rather than a misreading, just not yet identified.
+  - Another bracketed trio (Singapore/Port Swettenham this time) with a
+    duplicate-looking entry, same pattern as the NY/other-port trios on
+    IMG_5632/5633.
+  - An unusually styled entry for Mangalore — red and noticeably larger
+    than everything around it, unlike a normal sailing.
+  - A duplicate Port Said arrival/sailing logged on the same date.
+  - New ports added to `ports.csv`: Alleppey, Calicut, Mangalore, Bombay,
+    Okha; lon/lat filled in for Spurn Head, Cochin.
