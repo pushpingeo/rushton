@@ -632,3 +632,16 @@ convention is known.
   sequence, the same pattern as IMG_5647's "(Cape Town) 31/1". No new ports
   — all previously seen. Card ends "P.T.O." (second side not yet
   transcribed).
+
+- **IMG_5649** — 63 rows, 27 Jun 1944 to 12 Sep 1945. **City of Norwich**,
+  Card No 9, Second Side — directly continues IMG_5648. Much cleaner than
+  the last several cards: a normal black/red grid throughout, no dense
+  damage narrative. Clyde/Glasgow, Suez, Aden, Ceylon, Sandheads/Calcutta,
+  Freetown, then a long Australia/Indian Ocean run: Sydney NSW, a new port
+  (**Port Kembla**), Fremantle (written as the short form "Fre", distinct
+  from this same card's "Freet" for Freetown — a useful reminder that one
+  card can use two different abbreviations for two different ports),
+  Albany, Melbourne, Trincomalee, Vizagapatam. One sailing with no logged
+  arrival (Adelaide, 22 May 1945) and one uncertain-colour call (Sandheads,
+  8 Aug 1945) flagged rather than forced. Card ends "Contd on card No 10"
+  (not yet identified). New port added to `ports.csv`: Port Kembla.
