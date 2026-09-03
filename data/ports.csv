@@ -31,7 +31,8 @@ bahia-blanca,Bah B,Bahia Blanca,,,,
 bahrain,Bahr,Bahrain,,,,
 balboa,Balb,Balboa,,,,
 balik-papan,Balik P,Balik Papan,,,,
-baltimore,Balt,Baltimore,,,,
+baltimore,Balt,Baltimore,-76.6122,39.2904,,
+ceuta,,Ceuta,-5.3213,35.8894,,"Spanish enclave near Gibraltar"
 bandar-abbas,Bandar A,Bandar Abbas,,,,
 barmouth,Bar,Barmouth,,,,
 barbados,Barb,Barbados,,,,
@@ -373,6 +374,8 @@ shields-s,Shl,"Shields, S",,,,"ambiguous code - more than one place uses this ab
 shields,Shls,Shields,,,,
 shoreham,Shm,Shoreham,,,,
 shanghai,Shng,Shanghai,121.4737,31.2304,,
+dairen,Dair,Dairen,121.6147,38.9140,,"country: China (Manchuria) - now Dalian"
+taku-bar,TakuBar,Taku Bar,117.5000,38.9833,,"sandbar at the mouth of the Hai River, the shipping approach to Tientsin (Tianjin)"
 scilly,Sil,Scilly,,,,
 silloth,Sill,Silloth,,,,
 singapore,Sing,Singapore,,,,
@@ -452,7 +455,7 @@ zanzibar,Zanz,Zanzibar,,,,
 zeebrugge,Zeeb,Zeebrugge,,,,
 zwolle,Zwl,Zwolle,,,,
 aden,,Aden,,,,country: Yemen
-avonmouth,,Avonmouth,,,,country: United Kingdom
+avonmouth,Avr,Avonmouth,-2.7050,51.5075,,country: United Kingdom
 colombo,,Colombo,,,,country: Sri Lanka
 cristobal,,Cristobal,,,,country: Panama
 hampton-rds,,Hampton Rds,,,,country: United States

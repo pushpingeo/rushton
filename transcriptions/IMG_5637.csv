@@ -1,0 +1,72 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1933-07-09,9/7,sailing,lourenco-marques,L.M.,FALSE,"red = sailing. Card headed 'No 3 (second side)', continuing directly from IMG_5636's Lourenco Marques arrival"
+2,City of Norwich,1933-07-11,11/7,arrival,beira,Beira,FALSE,black = arrival
+3,City of Norwich,1933-07-12,12/7,sailing,beira,Beira,FALSE,red = sailing
+4,City of Norwich,1933-07-28,28/7,arrival,calcutta,Cal,FALSE,black = arrival
+5,City of Norwich,1933-08-13,13/8,sailing,calcutta,Cal,FALSE,red = sailing
+6,City of Norwich,1933-08-19,19/8,arrival,ceylon,Cey,FALSE,black = arrival
+7,City of Norwich,1933-08-28,28/8,arrival,aden,Aden,FALSE,black = arrival
+8,City of Norwich,1933-08-28,28/8,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 7"
+9,City of Norwich,1933-08-29,29/8,transit,perim,Prm(p),FALSE,"black, passed"
+10,City of Norwich,1933-08-31,31/8,arrival,port-sudan,Sud,FALSE,black = arrival
+11,City of Norwich,1933-08-31,31/8,sailing,port-sudan,Sud,FALSE,"red = sailing, same day"
+12,City of Norwich,1933-09-03,3/9,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+13,City of Norwich,1933-09-04,4/9,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+14,City of Norwich,1933-09-11,11/9,arrival,ceuta,Ceuta,FALSE,"black = arrival. New port added to ports.csv - the Spanish enclave near Gibraltar"
+15,City of Norwich,1933-09-11,11/9,transit,gibraltar,Gib.(p),FALSE,"black, passed - same day as the Ceuta call"
+16,City of Norwich,1933-09-24,24/9,unknown,,M.B.,FALSE,"UNCERTAIN - black, reads 'M.B.' (confirmed M not N on close zoom). Doesn't match anything obvious in ports.csv given the Gibraltar-to-UK leg this sits on"
+17,City of Norwich,1933-09-27,27/9,unknown,,M.B.,FALSE,"UNCERTAIN - red, same reading as seq 16"
+18,City of Norwich,1933-09-29,29/9,unknown,,Bvs,FALSE,UNCERTAIN - black. Not resolved to a port_id
+19,City of Norwich,1933-10-01,1/10,sailing,boston,Bos,FALSE,"red = sailing. No arrival at Boston is logged before this - continues directly from seq 18 with no intervening port shown"
+20,City of Norwich,1933-10-02,2/10,note,,try,FALSE,"UNCERTAIN - small black annotation reading 'try', purpose unclear. Kept as a flagged note rather than a port entry"
+21,City of Norwich,1933-10-04,4/10,sailing,new-york,NY,FALSE,red = sailing
+22,City of Norwich,1933-10-05,5/10,arrival,philadelphia,Phil,FALSE,black = arrival
+23,City of Norwich,1933-10-07,7/10,sailing,philadelphia,Phil,FALSE,red = sailing
+24,City of Norwich,1933-10-09,9/10,arrival,baltimore,Balt,FALSE,"black = arrival. New port added to ports.csv"
+25,City of Norwich,1933-10-10,10/10,note,baltimore,,FALSE,"Blue paragraph note reading 'Lost prop. blade', with a Lloyd's List citation '12/18' - the ship lost a propeller blade around this Baltimore call. PARAGRAPHS are blue per this card's own colour key. See also seq 28's continuation of this same incident"
+26,City of Norwich,1933-10-11,11/10,arrival,baltimore,Balt,FALSE,"black = arrival, immediately after the casualty note - possibly a return to dock for repairs rather than a fresh call"
+27,City of Norwich,1933-10-12,12/10,arrival,norfolk-va,Nflk,FALSE,black = arrival
+28,City of Norwich,1933-10-24,,note,newport-news,,FALSE,"Blue paragraph note continuing the seq 25 incident: 'New prop. blade lost, was docked at N.News', with a citation '24/17' and a further note '(Lo) 23/10'. Kept as a single consolidated note rather than forced into a normal arrival/sailing row, per the Casualties-box convention used on IMG_5629/5630"
+29,City of Norwich,1933-10-18,18/10,note,new-york,NY,FALSE,"UNCERTAIN TYPE - written in blue rather than black/red, unlike a normal arrival. Kept separate and flagged, same treatment as the blue '(Fran)' entry on IMG_5633"
+30,City of Norwich,1933-10-22,22/10,sailing,norfolk-va,Nflk,FALSE,red = sailing
+31,City of Norwich,1933-10-28,28/10,arrival,new-york,NY,FALSE,black = arrival
+32,City of Norwich,1933-10-25,25/10,unknown,new-york,NY,FALSE,"UNCERTAIN - red, dated before seq 31 despite following it in card position - same recurring anomaly as elsewhere on this ship's cards"
+33,City of Norwich,1933-10-28,28/10,arrival,savannah,Sav,FALSE,black = arrival
+34,City of Norwich,1933-10-29,29/10,sailing,savannah,Sav,FALSE,red = sailing
+35,City of Norwich,1933-11-03,3/11,arrival,colon,Colon,FALSE,black = arrival
+36,City of Norwich,1933-11-03,3/11,arrival,panama-canal,Pan,FALSE,"black = arrival, same day as Colon"
+37,City of Norwich,1933-11-04,4/11,sailing,panama-canal,Pan,FALSE,red = sailing
+38,City of Norwich,1933-11-14,14/11,arrival,los-angeles,Los A,FALSE,black = arrival
+39,City of Norwich,1933-11-16,16/11,sailing,los-angeles,Los A,FALSE,red = sailing
+40,City of Norwich,1933-11-17,17/11,arrival,san-francisco,Fran,FALSE,black = arrival
+41,City of Norwich,1933-11-19,19/11,sailing,san-francisco,Fran,FALSE,red = sailing
+42,City of Norwich,1933-12-13,13/12,arrival,manila,Man,FALSE,black = arrival
+43,City of Norwich,1933-12-16,16/12,sailing,manila,Man,FALSE,red = sailing
+44,City of Norwich,1933-12-18,18/12,arrival,hong-kong,Hkg,FALSE,black = arrival
+45,City of Norwich,1933-12-20,20/12,sailing,hong-kong,Hkg,FALSE,red = sailing
+46,City of Norwich,1933-12-23,23/12,arrival,shanghai,Shng,FALSE,black = arrival
+47,City of Norwich,1933-12-25,25/12,sailing,shanghai,Shng,FALSE,red = sailing
+48,City of Norwich,1933-12-27,27/12,arrival,dairen,Dair,FALSE,"black = arrival. New port added to ports.csv (Dairen, Manchuria, now Dalian)"
+49,City of Norwich,1934-01-01,1/1,sailing,dairen,Dair,FALSE,"red = sailing. Year changes to 1934 here, boxed between the reference columns"
+50,City of Norwich,1934-01-02,2/1,transit,taku-bar,TakuBar,FALSE,"black. New port added to ports.csv - the sandbar shipping approach to Tientsin (Tianjin), not a real port of call itself"
+51,City of Norwich,1934-01-04,4/1,unknown,,Chin,FALSE,"UNCERTAIN - red, an ornate capital letter (same flourish as 'Ptld'/'Prm' elsewhere) followed by letters read as 'Chin[u/w]'. Sits between Taku Bar and Hong Kong in the route, so likely another Chinese coastal port, but not confidently identified (candidates like Chinwangtao/Qinhuangdao considered, not confirmed)"
+52,City of Norwich,1934-01-08,8/1,arrival,hong-kong,Hkg,FALSE,black = arrival
+53,City of Norwich,1934-01-10,10/1,sailing,hong-kong,Hkg,FALSE,red = sailing
+54,City of Norwich,1934-01-15,15/1,arrival,singapore,Sing,FALSE,black = arrival
+55,City of Norwich,1934-01-18,18/1,sailing,singapore,Sing,FALSE,red = sailing
+56,City of Norwich,1934-01-19,19/1,arrival,port-swettenham,P.Swet,FALSE,black = arrival
+57,City of Norwich,1934-01-19,19/1,sailing,port-swettenham,P.Swet,FALSE,"red = sailing, same day"
+58,City of Norwich,1934-01-20,20/1,arrival,penang,Pen,FALSE,black = arrival
+59,City of Norwich,1934-01-21,21/1,sailing,penang,Pen,FALSE,red = sailing
+60,City of Norwich,1934-01-25,25/1,arrival,ceylon,Cey,FALSE,black = arrival
+61,City of Norwich,1934-02-03,3/2,transit,perim,Prm(p),FALSE,"black, passed"
+62,City of Norwich,1934-02-08,8/2,transit,suez,Suez,FALSE,black = arrival at the southern end of the canal
+63,City of Norwich,1934-02-09,9/2,transit,port-said,P.Said,FALSE,red = sailing at the northern end
+64,City of Norwich,1934-02-16,16/2,transit,gibraltar,Gib.(p),FALSE,"black, passed"
+65,City of Norwich,1934-02-21,21/2,arrival,avonmouth,Avr,FALSE,black = arrival
+66,City of Norwich,1934-02-22,22/2,sailing,avonmouth,Avr,FALSE,red = sailing
+67,City of Norwich,1934-02-23,23/2,arrival,london,Lo,FALSE,black = arrival
+68,City of Norwich,1934-02-28,28/2,sailing,london,Lo(c),FALSE,"red = sailing, annotated '(c)' - the same recurring unexplained marker seen throughout this ship's cards"
+69,City of Norwich,1934-03-01,1/3,arrival,london,Lo,FALSE,black = arrival
+70,City of Norwich,1934-03-02,2/3,arrival,rotterdam,Rott,FALSE,black = arrival
+71,City of Norwich,1934-03-03,3/3,sailing,nieuw-waterweg,N.Wtg,FALSE,"red = sailing, logged against the Nieuw Waterweg approach channel. Card ends 'Continued on Card No 4' - not yet identified among the scanned images"

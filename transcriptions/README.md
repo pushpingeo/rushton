@@ -318,3 +318,23 @@ convention is known.
     unresolved place but two (or more) different words read the same way.
   - New ports added to `ports.csv`: Bedi Bunder, Gareloch; lon/lat filled
     in for Tail of the Bank.
+
+- **IMG_5637** — 71 rows, 9 Jul 1933 to 3 Mar 1934. **City of Norwich**,
+  Card No 3, Second Side — directly continues IMG_5636. South/East Africa,
+  Calcutta, Ceylon, Aden, Red Sea/Suez, Ceuta (new port) and Gibraltar, then
+  a US East Coast run during which the ship suffered a genuine mechanical
+  casualty: a blue paragraph note reads **"Lost prop. blade"** at Baltimore
+  (10 Oct 1933), continued by a second note — **"New prop. blade lost, was
+  docked at N.News"** — the first mechanical-incident note this detailed
+  since the Casualties-box entries on IMG_5629/5630. From there: Panama, Los
+  Angeles, San Francisco, a long Pacific crossing to Manila, Hong Kong,
+  Shanghai, and for the first time **Dairen (Dalian) and Taku Bar** (new
+  ports, Manchuria/north China), back through SE Asia and Ceylon, Suez, and
+  finally Avonmouth/London/Rotterdam. Card ends "Continued on Card No 4"
+  (not yet identified). Several flagged items: an unresolved "M.B." code
+  near Gibraltar, an unresolved "Bvs", an unresolved "Chin[u]" between Taku
+  Bar and Hong Kong, a small unexplained "try" annotation, a blue-coloured
+  New York entry of uncertain status (same pattern as IMG_5633's "(Fran)"),
+  a duplicate Aden arrival/sailing, and an out-of-sequence New York date.
+  New ports added to `ports.csv`: Ceuta, Baltimore, Dairen, Taku Bar;
+  lon/lat and/or codes filled in for Avonmouth.
