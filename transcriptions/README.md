@@ -600,3 +600,20 @@ convention is known.
   ("Sc.L.", "Cy", "mble") left unmatched against `ports.csv` rather than
   guessed. Card ends "P.T.O." (second side not yet transcribed). New ports
   added to `ports.csv`: Mormugao; St Lawrence (tentative).
+
+- **IMG_5647** — 54 rows, 11 Jun 1942 to 4 Jun 1943. **City of Norwich**,
+  Card No 8, Second Side — directly continues IMG_5646. Card headed "Re leak
+  & repairs" in blue — the whole card documents an ongoing wartime leak and
+  its repairs, referenced in several blue notes rather than fully itemised
+  as discrete events. Two O.H.M.S. (Admiralty requisition) boundary notes,
+  one "on" (23.8.42) and one "off" (4.6.43) — the first time an "on" date
+  has appeared alongside an "off" date in this collection. Two new ports:
+  **Walvis Bay** (South West Africa) and **Bougie** (Algeria — timing fits
+  Allied convoy support in the wake of Operation Torch, Nov 1942) — plus the
+  familiar Table Bay/Freetown/Clyde/Algiers/Gibraltar/Liverpool rotation.
+  One struck-through/voided entry (annotated "NOT", 20/5/43). A handful of
+  blue citation-style annotations ("(Lo.)", "(L.O.)", "(Cape Town) 31/1")
+  don't fit as ordinary port calls and are flagged as Lloyd's Agent report
+  references rather than forced into the sequence. Card ends "Contd on card
+  No. 9" (not yet identified). New ports added to `ports.csv`: Walvis Bay,
+  Bougie.

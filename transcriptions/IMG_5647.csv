@@ -1,0 +1,55 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,,,note,,,FALSE,"Card headed 'Re leak & repairs' in blue - the whole card documents an ongoing leak issue and its repairs. Labelled 'No 8 (second side)', 'Contd' - directly continues IMG_5646 (Table Bay arrival)"
+2,City of Norwich,1942-06-11,11/6,arrival,table-bay,Table,FALSE,"black = arrival, carried over from IMG_5646"
+3,City of Norwich,1942-06-17,17/6,note,,,FALSE,"Blue parenthetical '(Lo.) 17/6' - a Lloyd's Agent report citation (London), not a separate port call"
+4,City of Norwich,1942-06-25,25/6,sailing,table-bay,Table,FALSE,red = sailing
+5,City of Norwich,1942-06-28,28/6,arrival,walvis-bay,Walvis,FALSE,"black = arrival. NEW PORT (Walvis Bay, South West Africa/Namibia)"
+6,City of Norwich,1942-07-03,3/7,sailing,walvis-bay,,TRUE,red = sailing
+7,City of Norwich,1942-07-14,14/7,arrival,freetown,Freet,FALSE,black = arrival
+8,City of Norwich,1942-07-20,20/7,sailing,freetown,,TRUE,red = sailing
+9,City of Norwich,1942-08-15,15/8,arrival,clyde-anchorage,Clyde anchge,FALSE,black = arrival
+10,City of Norwich,1942-08-15,15/8,arrival,glasgow,Glas,FALSE,"black = arrival, same day"
+11,City of Norwich,1942-08-23,23.8.42,note,,,FALSE,Boxed note 'O.H.M.S. / 23.8.42' - the ship went back onto Admiralty requisition (an 'on' date this time rather than the usual 'off' date)
+12,City of Norwich,1942-08-29,29/8,sailing,glasgow,,TRUE,red = sailing
+13,City of Norwich,,,note,,,FALSE,"Blue narrative running across this and the next row: '(Glas.)', 'the leak June-July', '...in 29' - describing the leak named in the card's header as first noticed/reported June-July 1942 and continuing into September. Not resolved into discrete dated entries, consistent with how the card frames the whole period"
+14,City of Norwich,1942-09-16,16/9,sailing,glasgow,Glas,FALSE,red = sailing
+15,City of Norwich,1942-09-16,16/9,arrival,tail-of-the-bank,Tail of B,FALSE,"black = arrival, same day"
+16,City of Norwich,1942-09-16,16/9,arrival,clyde-anchorage,Clyde Anch,FALSE,"black = arrival, same day"
+17,City of Norwich,,31/1,note,,,FALSE,"UNCERTAIN - blue parenthetical '(Cape Town) 31/1' sitting amid the September entries. The date doesn't fit this position chronologically (31 Jan is months away); most likely a citation/reference number rather than a real date, left unresolved rather than forced into the sequence"
+18,City of Norwich,1942-09-26,26/9,sailing,tail-of-the-bank,Tail of B,FALSE,red = sailing
+19,City of Norwich,1942-09-26,26/9,arrival,clyde-anchorage,Clyde Anch,FALSE,"black = arrival, same day"
+20,City of Norwich,1942-09-26,26/9,arrival,glasgow,Glas,FALSE,"black = arrival, same day"
+21,City of Norwich,1942-10-05,5/10,sailing,glasgow,,TRUE,red = sailing
+22,City of Norwich,1942-10-05,5/10,arrival,tail-of-the-bank,Tail of B.,FALSE,"black = arrival, same day"
+23,City of Norwich,1942-10-05,5/10,arrival,clyde-anchorage,Clyde Anch,FALSE,"black = arrival, same day"
+24,City of Norwich,1942-10-08,8/10,arrival,loch-ewe,L.Ewe,FALSE,black = arrival
+25,City of Norwich,1942-10-24,24-25/10,sailing,loch-ewe,,TRUE,"UNCERTAIN date - red = sailing, but the card writes a range '24-25/10' rather than a single day, the same pattern as IMG_5645's Ellesmere Port range. Resolved to the first day"
+26,City of Norwich,1942-11-15,15/11,arrival,bougie,Bougie,FALSE,"black = arrival, annotated '(prev)' - meaning not established (same unexplained annotation style as the '(PREV)' on IMG_5628 seq 12). NEW PORT (Bougie, Algeria) - timing fits Allied convoy support in the wake of Operation Torch (Nov 1942)"
+27,City of Norwich,1942-11-25,25/11,sailing,bougie,,TRUE,red = sailing
+28,City of Norwich,1942-11-29,29/11,arrival,algiers,Alg(abt),FALSE,"black = arrival, annotated '(abt)' = about/approximate - the clerk flagging this date as an estimate"
+29,City of Norwich,1942-12-01,1/12,sailing,algiers,Alg,FALSE,red = sailing
+30,City of Norwich,1942-12-04,4/12,arrival,gibraltar,Gib,FALSE,black = arrival
+31,City of Norwich,1942-12-08,8/12,sailing,gibraltar,,TRUE,red = sailing
+32,City of Norwich,1942-12-19,19/12,arrival,liverpool,Liv,FALSE,"black = arrival. Year changes to 1943 here, boxed between the reference columns"
+33,City of Norwich,1943-01-19,19/1,arrival,liverpool,Liv,FALSE,"UNCERTAIN - black = arrival, but no sailing is logged between this and the 19/12/1942 Liverpool arrival above (a month's gap). This may actually be the sailing citation, miscoloured black by the clerk, rather than a fresh arrival - kept as read"
+34,City of Norwich,1943-01-20,20/1,arrival,clyde-anchorage,Clyde anch,FALSE,black = arrival
+35,City of Norwich,1943-01-21,21/1,sailing,clyde-anchorage,,TRUE,red = sailing
+36,City of Norwich,1943-02-07,7/2,arrival,algiers,Alg,FALSE,black = arrival
+37,City of Norwich,1943-02-19,19/2,sailing,algiers,,TRUE,red = sailing
+38,City of Norwich,1943-03-01,1/3,arrival,river-mersey,Mersey,FALSE,black = arrival
+39,City of Norwich,1943-03-01,1/3,arrival,liverpool,Liv,FALSE,"black = arrival, same day"
+40,City of Norwich,1943-03-25,25/3,sailing,liverpool,,TRUE,red = sailing
+41,City of Norwich,1943-03-26,26/3,arrival,clyde-anchorage,Clyde Anch,FALSE,black = arrival
+42,City of Norwich,1943-03-28,28-29/3,arrival,greenock,Green,FALSE,"black = arrival, date written as a range '28-29/3' like the earlier Loch Ewe and Ellesmere Port ranges"
+43,City of Norwich,1943-03-31,31/3,sailing,clyde-anchorage,Clyde Anch,FALSE,red = sailing
+44,City of Norwich,1943-04-14,14/4,arrival,algiers,Alg,FALSE,black = arrival
+45,City of Norwich,1943-04-29,29/4,sailing,algiers,,TRUE,red = sailing
+46,City of Norwich,,,note,,,FALSE,"Blue note continuing across this and the next row: 'the damage to tanks & leak in [the] bulkhead' - further detail on the leak named in the card's header, undated precisely but positioned around early May 1943"
+47,City of Norwich,1943-05-02,2/5,arrival,gibraltar,Gib,FALSE,black = arrival
+48,City of Norwich,,20/5,note,,,FALSE,"Entry struck through by the clerk and annotated 'NOT' - voided, not transcribed as a real event"
+49,City of Norwich,1943-05-22,22/5,sailing,gibraltar,Gib,FALSE,red = sailing
+50,City of Norwich,1943-06-01,1/6,arrival,belfast-loch,Belf.L.,FALSE,black = arrival
+51,City of Norwich,1943-06-01,1/6,sailing,belfast-loch,,TRUE,"red = sailing, same day"
+52,City of Norwich,1943-06-02,2/6,note,,,FALSE,Blue parenthetical '(L.O.) 2/6' - a Lloyd's Agent report citation
+53,City of Norwich,1943-06-02,2/6,arrival,avonmouth,Avon,FALSE,black = arrival
+54,City of Norwich,1943-06-04,4.6.43,note,,,FALSE,"Boxed note 'OFF O.H.M.S.' dated 4.6.43 - the ship released from Admiralty requisition. Card ends 'Contd on card No. 9' (not yet identified)"
