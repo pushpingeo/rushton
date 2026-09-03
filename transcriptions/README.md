@@ -498,3 +498,33 @@ convention is known.
     port calls - not confirmed.
   - Card ends "P.T.O." (second side not yet transcribed). New ports added
     to `ports.csv`: Middlesbrough, Dakar.
+
+  **Date correction (made after transcribing IMG_5643):** the grounding
+  entry originally read as "22/2" is actually "2/4" (2 April) - IMG_5643
+  opens with an explicit, unambiguous cross-reference and a detailed dated
+  salvage log that supersedes this card's own reading. The fix resolves
+  what was flagged as this card's most significant chronological anomaly -
+  Calcutta/Rangoon/Ceylon/Aden now fall cleanly before the grounding
+  instead of after.
+
+- **IMG_5643** — 54 rows, 2 Apr 1938 to Nov 1938. **City of Norwich**, Card
+  No 6, Second Side — directly continues IMG_5642. Opens with a detailed,
+  dated blue salvage log for the Perim grounding: a long run of Lloyd's
+  Agent reports via London, marked "(Lo)" and dated almost daily through
+  April, tracking the casualty from grounding through "Refloated" (9 Apr),
+  "Damage serious" and "Bottom very badly damaged" (mid-late Apr), to "the
+  repairs & jettison of cargo" (2 May) and finally "Left Perim 28/5" -
+  nearly two months aground and under repair. This is the richest incident
+  record in the collection so far, and is what allowed IMG_5642's grounding
+  date to be corrected (see that entry). The voyage then resumes: Port
+  Sudan, Suez, Port Said, two Mediterranean position reports (an explicit
+  lat/long, "in abt 33N 25E" south of Crete, and "off Cani Rocks" near
+  Bizerte), Gibraltar, London, Dover, Avonmouth/Barry, Liverpool, Shields
+  (an unexplained ~2-month stay), London again, Gibraltar, Port Said/Suez,
+  and then **the ship's first appearance in the Persian Gulf**: a new port
+  (Jeddah), Aden, Bahrain, a new port (Bushire), a new port (Khor Musa Bar,
+  the sandbar approach to Bandar Shahpur) - card ends mid-entry ("Bandar
+  Sh...") with "Continued on Card No. 7" (not yet identified). Captain
+  changed mid-card (D.O. Evans to G. Roberts, 3 Oct 1938). One unresolved
+  code, "Bchy", between two London calls and Gibraltar. New ports added to
+  `ports.csv`: Jeddah, Bushire, Khor Musa Bar.

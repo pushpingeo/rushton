@@ -1,0 +1,55 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1938-04-02,2/4,note,perim,,FALSE,"MAJOR CASUALTY, continued from IMG_5642. Card headed 'No.6 (second side)', opening with an extensive blue-ink salvage narrative headed 're salvage & salvage prospects'. This entry is the small explanatory annotation '(vessel ashore off Perim 2/4)' - the actual grounding date. This CORRECTS IMG_5642 seq 62, which read the card's own circled entry as '22/2' - the true date, confirmed by this card's explicit cross-reference, is 2 April 1938, not 22 February"
+2,City of Norwich,1938-04-07,7/4,note,,(Lo),FALSE,"blue, '(Lo)' - a Lloyd's Agent report via London, the first of a long dated run of these covering the salvage operation. Accompanied by the small note '(re cargo &c)'"
+3,City of Norwich,1938-04-08,8/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+4,City of Norwich,1938-04-09,9/4,note,,(Lo),FALSE,"blue Lloyd's Agent report, under the column headed 'Refloated' - the ship came off the ground on or about this date"
+5,City of Norwich,1938-04-11,11/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+6,City of Norwich,1938-04-13,13/4,note,,(Lo),FALSE,"blue Lloyd's Agent report, under the column headed 'Damage serious'"
+7,City of Norwich,1938-04-14,14/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+8,City of Norwich,1938-04-16,16/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+9,City of Norwich,1938-04-19,19/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+10,City of Norwich,1938-04-20,20/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+11,City of Norwich,1938-04-21,21/4,note,,(Lo),FALSE,"blue Lloyd's Agent report, annotated 'Bottom very badly damaged'"
+12,City of Norwich,1938-04-22,22/4,note,,(Lo),FALSE,blue Lloyd's Agent report
+13,City of Norwich,1938-04-23,23/4,note,,(Lo),FALSE,"blue Lloyd's Agent report, annotated 're cargo damage'"
+14,City of Norwich,1938-05-02,2/5,note,,(Lo),FALSE,"blue Lloyd's Agent report, annotated 'the repairs & jettison of cargo' - repair work and cargo jettison under way"
+15,City of Norwich,1938-05-05,5/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+16,City of Norwich,1938-05-07,7/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+17,City of Norwich,1938-05-23,23/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+18,City of Norwich,1938-05-27,27/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+19,City of Norwich,1938-05-28,28/5,note,perim,,FALSE,"blue, annotated 'Left Perim 28/5' - the ship finally departed Perim almost two months after grounding (2 Apr - 28 May 1938)"
+20,City of Norwich,1938-05-29,29/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+21,City of Norwich,1938-05-30,30/5,note,,(Lo),FALSE,blue Lloyd's Agent report
+22,City of Norwich,1938-05-31,31/5,arrival,port-sudan,P.Sudan,FALSE,"blue-tinted but a real port call resuming the voyage, black/blue = arrival"
+23,City of Norwich,1938-05-31,31/5,sailing,port-sudan,P.Sudan,FALSE,"DUPLICATE - red, same date as seq 22"
+24,City of Norwich,1938-06-03,3/6,arrival,suez,,FALSE,"blue, annotated 'Has arr Suez' rather than given as a normal dated column entry"
+25,City of Norwich,1938-06-04,4/6,transit,port-said,P.Said,FALSE,"red = sailing at the northern end of the canal, confirmed by a matching blue citation annotated '(arr & left)'"
+26,City of Norwich,1938-06-06,6/6,note,,,FALSE,"blue position report, '(in abt 33N 25E)' - a Mediterranean position south of Crete, not a port call"
+27,City of Norwich,1938-06-09,9/6,note,,,FALSE,"blue, 'off Cani Rocks' - a reporting point near Bizerte, Tunisia, not a port call"
+28,City of Norwich,1938-06-09,9/6,unknown,,(Portis),FALSE,"UNCERTAIN - blue, reads approximately '(Portis)'. Not identified"
+29,City of Norwich,1938-06-12,12/6,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+30,City of Norwich,1938-06-17,17/6,arrival,london,Lo,FALSE,black = arrival
+31,City of Norwich,1938-06-25,25/6,sailing,london,Lo,FALSE,red = sailing
+32,City of Norwich,1938-06-26,26/6,arrival,dover,Dov.,FALSE,black = arrival
+33,City of Norwich,1938-06-27,27/6,arrival,avonmouth,Avon,FALSE,black = arrival
+34,City of Norwich,1938-07-24,24/7,sailing,avonmouth,Avon,FALSE,"red = sailing, same date as seq 35's Barry"
+35,City of Norwich,1938-07-24,24/7,sailing,barry,Barry D.,FALSE,"red, same nearby-port pairing as IMG_5641's Newport/Barry and this ship's other Bristol Channel duplicates"
+36,City of Norwich,1938-07-03,3/7,arrival,liverpool,Liv,FALSE,"UNCERTAIN - black, dated 3/7 but sitting in card position after seq 34/35's 24/7. Possibly a misread '31/7'; kept as read and flagged rather than corrected"
+37,City of Norwich,1938-08-06,6/8,sailing,liverpool,Liv,FALSE,red = sailing
+38,City of Norwich,1938-08-11,11/8,arrival,shields,Shls,FALSE,"black = arrival. Card abbreviates it slightly differently here than seq 39's 'Shls' but both clearly mean Shields"
+39,City of Norwich,1938-10-04,4/10,sailing,shields,Shls,FALSE,"red = sailing. Nearly two months at Shields with nothing else logged - a long stay, not explained"
+40,City of Norwich,1938-10-06,6/10,arrival,london,Lo,FALSE,black = arrival
+41,City of Norwich,1938-10-24,24/10,sailing,london,Lo(r),FALSE,"red = sailing, annotated '(r)' again"
+42,City of Norwich,1938-10-26,26/10,arrival,london,Lo,FALSE,black = arrival
+43,City of Norwich,1938-10-27,27/10,unknown,,Bchy,FALSE,"UNCERTAIN/UNRESOLVED - red, reads approximately 'Bchy'. Doesn't match ports.csv or any Guildhall code. Genuinely unresolved"
+44,City of Norwich,1938-10-31,31/10,transit,gibraltar,Gib(p),FALSE,"black, passed Gibraltar"
+45,City of Norwich,1938-11-07,7/11,arrival,port-said,P.Said,FALSE,black = arrival
+46,City of Norwich,1938-11-08,8/11,sailing,suez,Suez,FALSE,red = sailing/transit
+47,City of Norwich,1938-11-11,11/11,sailing,jeddah,Jedd.,FALSE,"red. NEW PORT (Jeddah) and NEW REGION - this is the first appearance of the Persian Gulf run on any City of Norwich card"
+48,City of Norwich,1938-11-14,14/11,arrival,aden,Aden,FALSE,black = arrival
+49,City of Norwich,1938-11-14,14/11,sailing,aden,Aden,FALSE,"DUPLICATE - red, same date as seq 48"
+50,City of Norwich,1938-11-21,21/11,sailing,bahrain,Bahr.,FALSE,red = sailing
+51,City of Norwich,1938-11-22,22/11,arrival,bushire,Bush,FALSE,"black = arrival. NEW PORT (Bushire, Persian Gulf)"
+52,City of Norwich,1938-11-22,22/11,sailing,bushire,Bush,FALSE,"DUPLICATE - red, same date as seq 51"
+53,City of Norwich,1938-11-23,23/11,arrival,khor-musa-bar,Khor musa Bar,FALSE,"black = arrival. NEW PORT (Khor Musa Bar, the sandbar approach to Bandar Shahpur, Persian Gulf/Iran)"
+54,City of Norwich,,,unknown,,Bandar Sh,FALSE,"INCOMPLETE - red, 'Bandar Sh...' (almost certainly Bandar Shahpur, Persian Gulf/Iran), cut off at the card's right edge. Card ends 'Continued on Card No. 7' (not yet identified) - date and the rest of the name will complete once that card is found"
