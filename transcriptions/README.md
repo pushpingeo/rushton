@@ -857,3 +857,20 @@ convention is known.
   (Sept 1947) and a collision near New York (24-25 May 1948, damage
   assessed, sailed again 28 May). New ports added to `ports.csv`: Trinidad,
   Mozambique.
+
+- **IMG_5663** — 115 rows, 6 Apr 1948 to 31 May 1949. **City of Chester
+  (Motor)**, Card No 3, Second Side — directly continues IMG_5662. Entirely
+  typed/pasted strips plus blue margin notes — no master listed on this
+  side. Continues the round-the-world pattern: East Africa (Dar-es-Salaam, a
+  new port **Tanga**, Mombasa, Lourenco Marques, Durban — repeated laps),
+  Table Bay/Cape Town, a US/Canada circuit (Trinidad, New York, Montreal,
+  Philadelphia, Baltimore), then a second and third South Africa lap,
+  Vizagapatam/Calcutta/Sandheads/Madras, Colombo, Aden/Suez/Gibraltar, a
+  further US East Coast run (Boston, New York, Philadelphia, Baltimore, a
+  new port **Charleston**), and a final South Africa/Australia leg reaching
+  Port Pirie and Sydney as the card ends mid-line. Two wartime-style
+  incidents in blue: a collision forcing the ship to "put back" into New
+  York (25 May 1948, repairs referenced into July) and damage plus a formal
+  enquiry connected to a Colombo call (Jan 1949). Card ends "Contd Card No
+  4" (not yet identified). New ports added to `ports.csv`: Tanga,
+  Charleston.
