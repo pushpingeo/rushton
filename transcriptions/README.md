@@ -906,3 +906,32 @@ convention is known.
     to `ports.csv` — a full-name "Navalakhi" spelling was added as an alias
     on the existing `navlakhi` row (confirming IMG_5644's tentative "Naval"
     reading).
+
+- **IMG_5665** — 121 rows, 25 Mar 1948 to 12 Oct 1949. **City of Florence**,
+  Card No 11, Second Side — directly continues IMG_5664. Entirely
+  typed/pasted strips plus a dense blue narrative column - no master/captain
+  listed on this side. A Persian-Gulf-heavy circuit repeated twice (Aden,
+  Bahrein, Kuwait, Abadan, Khorram Shahr, Busreh/Basra - plus a new port,
+  **Harta Point**, near Bandar Shahpur/Abadan on the second lap), alongside
+  the familiar Calcutta/Vizagapatam/Colombo, Suez/Port Said, UK ports (Newport,
+  Swansea, Liverpool, Naples, Avonmouth, Dundee, Middlesbrough, Rotterdam,
+  Glasgow), and - for the first time on this ship - East Africa (Mombasa,
+  Tanga, Mocambique). A few things worth flagging:
+  - A chronological inversion: "Ar Port Okha Nov 23" is printed after "Sd
+    Bombay Nov 27" but dated 4 days earlier - kept in card position rather
+    than reordered, per the collection's established precedent for this kind
+    of clerk-order anomaly.
+  - The card uses two different spellings of Mombasa ("Mombassa" and
+    "Mombasa") within the same short stretch - the same kind of inconsistency
+    already seen with Fremantle/Freetown on IMG_5649.
+  - Three wartime-style blue paragraph notes, each cross-referenced against
+    the typed strip's own dagger-mark citations rather than forced into a
+    single narrative: a propeller-blade-and-rudder casualty near Aden (Apr
+    1948, repaired/recast at Busreh in late May-June), a lost-anchor-and-cable
+    incident (Aug 1948), and a partly-illegible later citation ("(L.O.) 19/2 -
+    in R.H. voy 4"), tentatively placed around Feb 1949 but not confidently
+    resolved.
+  - Card ends "Contd on card No 12" (not yet identified). New port added to
+    `ports.csv`: Harta Point. Aliases added: Bahrein (bahrain), Busreh
+    (basra), Bandar Shapur (bandar-shahpur), Mombassa (mombasa), Vizagapatnam
+    (vizagapatam), Koilthottam (koilchottam).

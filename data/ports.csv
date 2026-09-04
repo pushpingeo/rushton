@@ -28,7 +28,7 @@ buenos-aires,B A,Buenos Aires,,,,
 banff,Baf,Banff,,,,
 bangor,Bag,Bangor,,,,
 bahia-blanca,Bah B,Bahia Blanca,,,,
-bahrain,Bahr,Bahrain,,,,
+bahrain,Bahr,Bahrain,,,Bahrein,
 balboa,Balb,Balboa,,,,
 balik-papan,Balik P,Balik Papan,,,,
 baltimore,Balt,Baltimore,-76.6122,39.2904,,
@@ -261,7 +261,7 @@ milford-haven,Mil,Milford Haven,,,,
 milford-haven,Milf H,Milford Haven,,,,
 malta,Mlt,Malta,,,,
 mobile,Mob,Mobile,,,,
-mombasa,Momb,Mombasa,,,,
+mombasa,Momb,Mombasa,,,Mombassa,
 monrovia,Mon,Monrovia,,,,
 maryport,Mpt,Maryport,,,,
 martinique,Mque,Martinique,,,,
@@ -493,15 +493,16 @@ chinwangtao,,Chinwangtao,119.5865,39.9320,,"country: China (Hebei) - now Qinhuan
 navlakhi,,Navlakhi,70.4595,22.9601,Naval,"country: India - Gujarat/Kathiawar coast, near Bedi Bunder. 'Naval' reading is tentative - fits the route position (between Okha and Bedi Bunder) but not confirmed against an official list"
 navlakhi,,Navalakhi,70.4595,22.9601,,"country: India - full-name spelling seen on IMG_5664 (City of Florence), confirming the 'Naval' abbreviation used on IMG_5644"
 barry,Bar,Barry,-3.2926,51.4045,"Barry D.","country: United Kingdom (Wales) - coal port near Newport/Cardiff. Card writes it 'Barry D.' (Barry Dock)"
-vizagapatam,Vizag,Vizagapatam,83.2185,17.6868,,"country: India (Andhra Pradesh coast) - now Visakhapatnam"
+vizagapatam,Vizag,Vizagapatam,83.2185,17.6868,Vizagapatnam,"country: India (Andhra Pradesh coast) - now Visakhapatnam"
 coringa,,Coringa,82.2333,16.8167,Cora,"country: India (Andhra Pradesh coast), near Kakinada - a historically significant port, now silted up. Tentative: IMG_5640 writes 'Cora' between Sandheads and the next entry, fits the geography but not confirmed against an official list"
 madras,Mad,Madras,80.2707,13.0827,,country: India (Tamil Nadu coast) - now Chennai
 bassein,,Bassein,94.7300,16.7833,,"country: Burma (now Myanmar) - now Pathein, near Rangoon"
-koilchottam,,Koilchottam,,,,"country: India - written in full on IMG_5641, position (after Fremantle, before Calcutta) suggests the Malabar/south Indian coast, but not identified against an official list or gazetteer. Genuinely tentative"
+koilchottam,,Koilchottam,,,Koilthottam,"country: India - written in full on IMG_5641, position (after Fremantle, before Calcutta) suggests the Malabar/south Indian coast, but not identified against an official list or gazetteer. Genuinely tentative"
 jeddah,Jedd,Jeddah,39.1925,21.4858,,"country: Saudi Arabia (Red Sea coast). First appearance of the Persian Gulf run, IMG_5643"
 bushire,Bush,Bushire,50.8385,28.9684,,"country: Iran (Persian Gulf) - now Bushehr"
 khor-musa-bar,,Khor Musa Bar,49.1500,30.4167,,"country: Iran (Persian Gulf) - the sandbar approach to Bandar Shahpur; approximate coordinates"
-bandar-shahpur,Bandar Sh,Bandar Shahpur,49.1161,30.4408,,"country: Iran (Persian Gulf) - now Bandar Imam Khomeini"
+bandar-shahpur,Bandar Sh,Bandar Shahpur,49.1161,30.4408,Bandar Shapur,"country: Iran (Persian Gulf) - now Bandar Imam Khomeini"
+harta-point,,Harta Point,,,,"country: Iran/Iraq (Persian Gulf, Shatt al-Arab/Khor Musa approach) - first appearance IMG_5665, between Bandar Shahpur and Abadan. Not identified against an official list or gazetteer; coordinates not established"
 santos,,Santos,-46.3308,-23.9608,,country: Brazil - port of Sao Paulo
 partington,,Partington,-2.4291,53.4139,,"country: United Kingdom - oil terminal on the Manchester Ship Canal"
 great-yarmouth-rds,,Great Yarmouth Roads,1.7500,52.6167,"Gt Yar Rds","country: United Kingdom - the roadstead off Great Yarmouth, Norfolk"
@@ -518,7 +519,7 @@ augusta,Augusta,Augusta,15.2214,37.2306,,"country: Italy (Sicily) - first appear
 castellammare,C'mare,Castellammare,14.4842,40.7011,,"country: Italy (near Naples) - first appearance IMG_5652"
 chittagong,Chitt,Chittagong,91.8317,22.3569,,"country: Bengal/British India (now Bangladesh) - first appearance IMG_5653"
 kuwait,Kuwait,Kuwait,47.9774,29.3759,,"country: Kuwait - first appearance IMG_5657"
-basra,Basra,Basra,47.8160,30.5085,,"country: Iraq - first appearance IMG_5657"
+basra,Basra,Basra,47.8160,30.5085,Busreh,"country: Iraq - first appearance IMG_5657"
 river-tyne,Tyne,River Tyne,-1.4500,55.0000,,"country: United Kingdom - first appearance IMG_5657"
 izmir,Izmir,Izmir,27.1428,38.4237,Smyrna,"country: Turkey (also historically Smyrna) - first appearance IMG_5658"
 patras,Patras,Patras,21.7346,38.2466,,"country: Greece - first appearance IMG_5658"

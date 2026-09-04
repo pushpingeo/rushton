@@ -1,0 +1,122 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Florence,1948-03-25,Mar 25,sailing,london,London,FALSE,"typed: Sd London Mar 25. Card headed 'No 11 (Second side)', '1948 contd' - directly continues IMG_5664"
+2,City of Florence,1948-04-06,Apr 6,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Apr 6
+3,City of Florence,1948-04-07,Apr 7,sailing,suez,Suez,FALSE,typed: Sd Suez Apr 7
+4,City of Florence,1948-04-13,Apr 13,arrival,aden,Aden,FALSE,"typed: Ar Aden Apr 13. Dagger-marked citation below reads 'Apr 14, June 10' - see seq 24-25 (blue note block)"
+5,City of Florence,1948-04-14,Apr 14,sailing,aden,Aden,FALSE,typed: Sd Aden Apr 14
+6,City of Florence,1948-04-22,Apr 22,arrival,bahrain,Bahrein,FALSE,typed: Ar Bahrein Apr 22
+7,City of Florence,1948-04-25,Apr 25,sailing,bahrain,Bahrein,FALSE,typed: Sd Bahrein Apr 25
+8,City of Florence,1948-04-26,Apr 26,arrival,kuwait,Kuwait,FALSE,typed: Ar Kuwait Apr 26
+9,City of Florence,1948-05-03,May 3,sailing,kuwait,Kuwait,FALSE,typed: Sd Kuwait May 3
+10,City of Florence,1948-05-04,May 4,arrival,abadan,Abadan,FALSE,typed: Ar Abadan May 4
+11,City of Florence,1948-05-06,May 6,sailing,abadan,Abadan,FALSE,typed: Sd Abadan May 6
+12,City of Florence,1948-05-06,May 6,arrival,khorram-shahr,Khorram Shahr,FALSE,"typed: Ar Khorram Shahr May 6, same day as the Abadan sailing above"
+13,City of Florence,1948-05-12,May 12,sailing,khorram-shahr,Khorram Shahr,FALSE,typed: Sd Khorram Shahr May 12
+14,City of Florence,1948-05-12,May 12,arrival,basra,Busreh,FALSE,"typed: Ar Busreh May 12, same day as the Khorram Shahr sailing above"
+15,City of Florence,1948-06-07,June 7,sailing,basra,Busreh,FALSE,"typed: Sd Busreh June 7 - see seq 26-27 (blue note block, propeller recast at Busreh)"
+16,City of Florence,,June,arrival,abadan,Abadan,FALSE,"typed: 'Ar Abadan June' - no day given"
+17,City of Florence,1948-06-09,June 9,sailing,abadan,Abadan,FALSE,typed: Sd Abadan June 9
+18,City of Florence,1948-06-24,June 24,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta June 24
+19,City of Florence,1948-07-05,July 5,sailing,calcutta,Calcutta,FALSE,"typed: Sd Calcutta July 5. Dagger-marked citation below reads 'Aug 20' - see seq 28 (blue note block)"
+20,City of Florence,1948-07-06,July 6,sailing,sandheads,Sandheads,TRUE,"typed: Sd Sandheads July 6 - no arrival logged, a reporting point at the mouth of the Hooghly on the way out from Calcutta"
+21,City of Florence,1948-07-08,July 8,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam July 8
+22,City of Florence,1948-07-08,July 8,sailing,vizagapatam,Vizagapatam,FALSE,"typed: Sd Vizagapatam July 8, same day as the arrival above"
+23,City of Florence,1948-07-12,July 12,arrival,colombo,Colombo,FALSE,typed: Ar Colombo July 12
+24,City of Florence,1948-07-16,July 16,sailing,colombo,Colombo,FALSE,typed: Sd Colombo July 16
+25,City of Florence,1948-04-14,Apr 14,note,aden,,FALSE,"blue paragraph note block (left-hand column): 'Apr 14 - Propeller blade missing', 'Aden 13/4 - Rudder broken' - both dated around the Aden call (seq 4-5). Matches the typed strip's dagger citation 'Apr 14, June 10' at seq 4"
+26,City of Florence,1948-04-16,Apr 16,note,,,FALSE,"blue paragraph note: 'Surveyed for damage', 'Apr 16 - Striking quay [at?] Liverpool', '(L.O.) 15/4' - reads as a further citation on the same Apr 1948 damage, though the port name is unclear (possibly the reporting Agent's office, per the convention flagged on IMG_5664, rather than the ship's own location so soon after Aden)"
+27,City of Florence,1948-05-29,May 29,note,basra,,FALSE,"blue note: 'Busreh 29/5 - propeller recast', 'June 1 - Repaired' - the repair for the propeller/rudder damage first noted at Aden (seq 25), carried out during the Busreh call (seq 14-15)"
+28,City of Florence,1948-06-10,June 10,note,,,FALSE,"blue citation: 'June 10 - Liverpool 9/6' - a Lloyd's Agent report date, matching the typed strip's own 'June 10' dagger citation at seq 4"
+29,City of Florence,1948-08-20,Aug 20,note,,,FALSE,"blue paragraph note: 'Aug 20 - Lost anchor & cable', matching the typed strip's dagger citation 'Aug 20' at seq 19. No port given"
+30,City of Florence,,19/2 / July 6,note,,,FALSE,"blue citation, hard to parse: '(L.O.) 19/2 - in R.H. voy 4', 'July 6' below it. Tentatively placed here (close to the Feb 1949 Aden/Red Sea leg, seq 39-42) but not confidently dated or resolved - 'R.H.' is not identified (possibly a person's initials, an office, or a vessel). A '1950' year-box follows with no further content on this side, before the card hands off to Card No 12"
+31,City of Florence,1948-07-25,July 25,arrival,aden,Aden,FALSE,typed: Ar Aden July 25
+32,City of Florence,1948-07-26,July 26,sailing,aden,Aden,FALSE,typed: Sd Aden July 26
+33,City of Florence,1948-07-31,July 31,arrival,suez,Suez,FALSE,typed: Ar Suez July 31
+34,City of Florence,1948-08-01,Aug 1,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Aug 1
+35,City of Florence,1948-08-13,Aug 13,arrival,london,London,FALSE,typed: Ar London Aug 13
+36,City of Florence,1948-08-28,Aug 28,sailing,london,London,FALSE,typed: Sd London Aug 28
+37,City of Florence,1948-08-29,Aug 29,arrival,boulogne,Boulogne,FALSE,typed: Ar Boulogne Aug 29
+38,City of Florence,1948-09-10,Sept 10,sailing,boulogne,Boulogne,FALSE,typed: Sd Boulogne Sept 10
+39,City of Florence,1948-09-12,Sept 12,arrival,newport,Newport,FALSE,"typed: Ar Newport Sept 12. Ambiguous which Newport - South Wales fits the following Swansea/Liverpool calls, unlike the US 'Newport News' seen on other cards"
+40,City of Florence,1948-09-19,Sept 19,sailing,newport,Newport,FALSE,typed: Sd Newport Sept 19
+41,City of Florence,1948-09-20,Sept 20,arrival,swansea,Swansea,FALSE,typed: Ar Swansea Sept 20
+42,City of Florence,1948-09-22,Sept 22,sailing,swansea,Swansea,FALSE,typed: Sd Swansea Sept 22
+43,City of Florence,1948-09-24,Sept 24,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Sept 24
+44,City of Florence,1948-10-08,Oct 8,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Oct 8
+45,City of Florence,1948-10-17,Oct 17,arrival,naples,Naples,FALSE,typed: Ar Naples Oct 17
+46,City of Florence,1948-10-19,Oct 19,sailing,naples,Naples,FALSE,typed: Sd Naples Oct 19
+47,City of Florence,1948-10-23,Oct 23,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Oct 23
+48,City of Florence,1948-10-25,Oct 25,sailing,suez,Suez,FALSE,typed: Sd Suez Oct 25
+49,City of Florence,1948-10-30,Oct 30,arrival,aden,Aden,FALSE,typed: Ar Aden Oct 30
+50,City of Florence,1948-10-31,Oct 31,sailing,aden,Aden,FALSE,typed: Sd Aden Oct 31
+51,City of Florence,1948-11-06,Nov 6,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Nov 6
+52,City of Florence,1948-11-27,Nov 27,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Nov 27
+53,City of Florence,1948-11-23,Nov 23,arrival,okha,Port Okha,FALSE,"typed: Ar Port Okha Nov 23 - printed after the Bombay sailing (seq 52) but dated 4 days before it, a chronological inversion. Kept in card position and flagged rather than reordered, per the method's own precedent for this kind of clerk-order anomaly"
+54,City of Florence,,—,sailing,okha,Port Okha,FALSE,"typed: 'Sd Port Okha —' - no date given, just a dash"
+55,City of Florence,1948-12-05,Dec 5,arrival,bedi-bunder,Bedi Bunder,FALSE,typed: Ar Bedi Bunder Dec 5
+56,City of Florence,1948-12-06,Dec 6,sailing,bedi-bunder,Bedi Bunder,FALSE,typed: Sd Bedi Bunder Dec 6
+57,City of Florence,1948-12-07,Dec 7,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Dec 7
+58,City of Florence,1948-12-13,Dec 13,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Dec 13
+59,City of Florence,1948-12-17,Dec 17,arrival,koilchottam,Koilthottam,FALSE,"typed: Ar Koilthottam Dec 17 - a new full-name spelling of the tentative 'Koilchottam' port first seen on IMG_5641, added as an alias"
+60,City of Florence,1948-12-21,Dec 21,sailing,koilchottam,Koilthottam,FALSE,typed: Sd Koilthottam Dec 21
+61,City of Florence,1948-12-27,Dec 27,arrival,calcutta,Calcutta,FALSE,"typed: Ar Calcutta Dec 27. 1949 year-box follows"
+62,City of Florence,1949-01-11,Jan 11,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Jan 11
+63,City of Florence,1949-01-14,Jan 14,arrival,vizagapatam,Vizagapatnam,FALSE,"typed: Ar Vizagapatnam Jan 14 - spelling variant of Vizagapatam, added as an alias"
+64,City of Florence,1949-01-17,Jan 17,sailing,vizagapatam,Vizagapatnam,FALSE,typed: Sd Vizagapatnam Jan 17
+65,City of Florence,1949-01-18,Jan 18,arrival,madras,Madras,FALSE,typed: Ar Madras Jan 18
+66,City of Florence,1949-01-22,Jan 22,sailing,madras,Madras,FALSE,typed: Sd Madras Jan 22
+67,City of Florence,1949-01-24,Jan 24,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Jan 24
+68,City of Florence,1949-01-28,Jan 28,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Jan 28
+69,City of Florence,1949-02-05,Feb 5,arrival,aden,Aden,FALSE,typed: Ar Aden Feb 5
+70,City of Florence,1949-02-05,Feb 5,sailing,aden,Aden,FALSE,"typed: Sd Aden Feb 5, same day as the arrival above"
+71,City of Florence,1949-02-08,Feb 8,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Feb 8
+72,City of Florence,1949-02-08,Feb 8,sailing,port-sudan,Port Sudan,FALSE,"typed: Sd Port Sudan Feb 8, same day as the arrival above"
+73,City of Florence,1949-02-11,Feb 11,arrival,suez,Suez,FALSE,typed: Ar Suez Feb 11
+74,City of Florence,1949-02-14,Feb 14,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Feb 14
+75,City of Florence,1949-02-26,Feb 26,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth Feb 26
+76,City of Florence,1949-03-01,Mar 1,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth Mar 1
+77,City of Florence,1949-03-03,Mar 3,arrival,london,London,FALSE,typed: Ar London Mar 3
+78,City of Florence,1949-03-16,Mar 16,sailing,london,London,FALSE,typed: Sd London Mar 16
+79,City of Florence,1949-03-18,Mar 18,arrival,dundee,Dundee,FALSE,typed: Ar Dundee Mar 18
+80,City of Florence,1949-03-21,Mar 21,sailing,dundee,Dundee,FALSE,typed: Sd Dundee Mar 21
+81,City of Florence,1949-03-22,Mar 22,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Mar 22
+82,City of Florence,1949-03-25,Mar 25,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Mar 25
+83,City of Florence,1949-03-25,Mar 25,arrival,rotterdam,Rotterdam,FALSE,"typed: Ar Rotterdam Mar 25, same day as the Middlesbrough sailing"
+84,City of Florence,1949-03-27,Mar 27,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam Mar 27
+85,City of Florence,1949-03-28,Mar 28,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Mar 28
+86,City of Florence,1949-04-11,Apr 11,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Apr 11
+87,City of Florence,1949-04-12,Apr 12,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Apr 12
+88,City of Florence,1949-05-04,May 4,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool May 4
+89,City of Florence,1949-05-16,May 16,arrival,port-said,Port Said,FALSE,typed: Ar Port Said May 16
+90,City of Florence,1949-05-18,May 18,sailing,suez,Suez,FALSE,typed: Sd Suez May 18
+91,City of Florence,1949-05-23,May 23,arrival,aden,Aden,FALSE,typed: Ar Aden May 23
+92,City of Florence,1949-05-24,May 24,sailing,aden,Aden,FALSE,typed: Sd Aden May 24
+93,City of Florence,1949-05-31,May 31,arrival,bandar-shahpur,Bandar Shapur,FALSE,typed: Ar Bandar Shapur May 31
+94,City of Florence,1949-06-27,June 27,sailing,bandar-shahpur,Bandar Shapur,FALSE,typed: Sd Bandar Shapur June 27
+95,City of Florence,1949-06-28,June 28,arrival,abadan,Abadan,FALSE,typed: Ar Abadan June 28
+96,City of Florence,1949-06-29,June 29,sailing,abadan,Abadan,FALSE,typed: Sd Abadan June 29
+97,City of Florence,1949-06-29,June 29,arrival,harta-point,Harta Point,FALSE,"typed: Ar Harta Point June 29, same day as the Abadan sailing above. New port - not identified against an official list or gazetteer, in the Shatt al-Arab/Khor Musa approach between Bandar Shahpur and Abadan"
+98,City of Florence,1949-07-03,July 3,sailing,harta-point,Harta Point,FALSE,typed: Sd Harta Point July 3
+99,City of Florence,1949-07-04,July 4,arrival,abadan,Abadan,FALSE,typed: Ar Abadan July 4
+100,City of Florence,1949-07-16,July 16,sailing,abadan,Abadan,FALSE,typed: Sd Abadan July 16
+101,City of Florence,1949-07-16,July 16,arrival,basra,Busreh,FALSE,"typed: Ar Busreh July 16, same day as the Abadan sailing above"
+102,City of Florence,1949-07-26,July 26,sailing,basra,Busreh,FALSE,typed: Sd Busreh July 26
+103,City of Florence,1949-07-26,July 26,arrival,abadan,Abadan,FALSE,"typed: Ar Abadan July 26, same day as the Busreh sailing above"
+104,City of Florence,1949-07-27,July 27,sailing,abadan,Abadan,FALSE,typed: Sd Abadan July 27
+105,City of Florence,1949-08-02,Aug 2,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Aug 2
+106,City of Florence,1949-08-05,Aug 5,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Aug 5
+107,City of Florence,1949-08-15,Aug 15,arrival,mombasa,Mombassa,FALSE,typed: Ar Mombassa Aug 15
+108,City of Florence,1949-08-18,Aug 18,sailing,mombasa,Mombassa,FALSE,typed: Sd Mombassa Aug 18
+109,City of Florence,1949-08-18,Aug 18,arrival,tanga,Tanga,FALSE,"typed: Ar Tanga Aug 18, same day as the Mombasa sailing above"
+110,City of Florence,1949-08-24,Aug 24,sailing,tanga,Tanga,FALSE,typed: Sd Tanga Aug 24
+111,City of Florence,1949-08-27,Aug 27,arrival,mozambique-island,Mocambique,FALSE,"typed: Ar Mocambique Aug 27 - the historic port city, distinct from the country name written the same way, as already flagged on IMG_5662"
+112,City of Florence,1949-08-28,Aug 28,sailing,mozambique-island,Mocambique,FALSE,typed: Sd Mocambique Aug 28
+113,City of Florence,1949-09-01,Sept 1,arrival,mombasa,Mombasa,FALSE,"typed: Ar Mombasa Sept 1 - note the different spelling from 'Mombassa' at seq 107-108, both on this same card"
+114,City of Florence,1949-09-09,Sept 9,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Sept 9
+115,City of Florence,1949-09-14,Sept 14,arrival,aden,Aden,FALSE,typed: Ar Aden Sept 14
+116,City of Florence,1949-09-15,Sept 15,sailing,aden,Aden,FALSE,typed: Sd Aden Sept 15
+117,City of Florence,1949-09-20,Sept 20,arrival,suez,Suez,FALSE,typed: Ar Suez Sept 20
+118,City of Florence,1949-09-21,Sept 21,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Sept 21
+119,City of Florence,1949-10-04,Oct 4,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Oct 4
+120,City of Florence,1949-10-12,Oct 12,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Oct 12
+121,City of Florence,1949-10-12,Oct 12,arrival,glasgow,Glasgow,FALSE,"typed: Ar Glasgow Oct 12, same day as the Liverpool sailing above. Card ends here - footer reads 'Contd on card No 12' (not yet identified)"
