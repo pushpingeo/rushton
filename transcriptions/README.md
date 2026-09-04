@@ -874,3 +874,35 @@ convention is known.
   enquiry connected to a Colombo call (Jan 1949). Card ends "Contd Card No
   4" (not yet identified). New ports added to `ports.csv`: Tanga,
   Charleston.
+
+- **IMG_5664** — 61 rows, 10 Oct 1946 to 8 Mar 1948. **NEW SHIP: City of
+  Florence** (net tonnage 4382, distinct from every other ship in the
+  collection), Card No 11, First Side — continues an unseen Card No 10,
+  Second Side; Cards 1-10 not yet identified among the scanned images.
+  Handwritten grid for the 1946 portion (Gibraltar, Port Said, a Suez Canal
+  transit, Aden, Karachi, Bombay, Madras), switching to typed/pasted strips
+  from the Dec 1946 sailing onward. Two things worth flagging:
+  - The recurring unresolved **"Bey"** code (first seen on City of Norwich's
+    IMG_5632) turns up here for the first time on a City of Florence card, in
+    a different route position (between Karachi/Bombay and Madras, not SE
+    Asia/Red Sea) — this could mean it's a different place read the same way,
+    or that "Bey" is a real, more general port that's never matched the
+    Guildhall list. A second, previously-unseen unresolved code, **"Bal"**,
+    appears right after Madras, tentatively somewhere near the sea approach
+    to Calcutta (the very next entry is a Calcutta sailing with no arrival
+    logged) but not confirmed.
+  - Two wartime-style incidents, each cross-referenced between a blue
+    handwritten note block and the typed strip's own dagger-mark citations,
+    read as Lloyd's Agent report dates rather than forced into a strict
+    timeline: a lost-anchor-and-buoy-strike incident at Hull (Feb 1947), and
+    an engine-trouble-and-buoy-strike incident at Port Said (Jan 1948) that
+    coincides with a same-day "put back" into Liverpool the following month
+    (Feb 1948).
+  - An unexplained ~6-month gap at Middlesbrough (Mar-Sept 1947), the same
+    pattern already seen there on IMG_5642 and IMG_5657 — captain P.J. Byrne's
+    listed start date (18 Sept 1947) falls right at the end of this gap,
+    suggesting a change of command coincided with the ship resuming service.
+  - Card ends "P.T.O." (second side not yet transcribed). No new ports added
+    to `ports.csv` — a full-name "Navalakhi" spelling was added as an alias
+    on the existing `navlakhi` row (confirming IMG_5644's tentative "Naval"
+    reading).

@@ -1,0 +1,62 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Florence,1946-10-10,10/10,arrival,gibraltar,Gib,FALSE,"black = arrival. Card headed 'No 11 (First side)', '1946 Contd' - continues an unseen Card No 10, Second Side"
+2,City of Florence,1946-10-17,17/10,arrival,port-said,P.Said,FALSE,"black = arrival, straight after the Gibraltar arrival with no sailing logged between them"
+3,City of Florence,1946-10-27,27/10,sailing,port-said,,TRUE,red = sailing
+4,City of Florence,1946-10-29,29/10,transit,suez,Suez,FALSE,"red, not black - unusual for a canal waypoint (contrast the black-ink Suez/Port Said transit pairs on earlier City of Norwich cards), but the 2-day gap after the Port Said sailing fits a canal transit, not a new departure"
+5,City of Florence,1946-11-02,2/11,arrival,aden,Aden,FALSE,black = arrival
+6,City of Florence,1946-11-03,3/11,sailing,aden,,TRUE,red = sailing
+7,City of Florence,1946-11-08,8/11,arrival,karachi,Kar,FALSE,black = arrival
+8,City of Florence,1946-11-10,10/11,sailing,karachi,,TRUE,red = sailing
+9,City of Florence,1946-11-12,12/11,arrival,bombay,Bom,FALSE,black = arrival
+10,City of Florence,1946-11-21,21/11,sailing,bombay,,TRUE,red = sailing
+11,City of Florence,1946-11-24,24/11,arrival,,Bey,FALSE,"black = arrival. 'Bey' is the recurring unresolved code seen many times on City of Norwich cards (first IMG_5632) - this is its first appearance on a City of Florence card, and in a different route position (between Karachi/Bombay and Madras, rather than SE Asia/Red Sea). Doesn't match ports.csv or the Guildhall list; could be a different place read the same way, or evidence this is a real, more general port never matched to the official list"
+12,City of Florence,1946-11-30,30/11,sailing,,,TRUE,"red = sailing, port carried forward from the unresolved 'Bey' arrival"
+13,City of Florence,1946-12-03,3/12,arrival,madras,Mad,FALSE,black = arrival
+14,City of Florence,1946-12-10,10/12,sailing,madras,,TRUE,red = sailing
+15,City of Florence,1946-12-14,14/12,arrival,,Bal,FALSE,"black = arrival. Unresolved - doesn't match ports.csv or the Guildhall list. Tentatively somewhere near the sea approach to Calcutta: the very next entry (typed strip) is 'Sd Calcutta Dec 31' with no arrival logged, which fits an intermediate anchorage/pilot station ahead of Calcutta itself, but this isn't confirmed"
+16,City of Florence,,Feb 24 / (L.O.) 26/2,note,,,FALSE,"blue paragraph note: 'Lost anchor & chains in N. Sea' - year is 1947 (falls right after the grid's own 1947 year-box, before the typed strip). '(L.O.) 26/2' reads as a Lloyd's Office citation date rather than the event date itself. Best placed around the Hull arrival below (seq 18) given the North Sea approach"
+17,City of Florence,1947-02-28,28/2,note,hull,,FALSE,"blue paragraph note: 'Struck buoy at Hull' with an unresolved 'Y.T.3' alongside (possibly a tug or buoy reference, not identified). The 'Mar' label above it is the reference-column month, not the event month - the date itself is still February. Matches the typed strip's dagger-marked citation 'Feb 27, Mar 8' next to 'Sd Hull Feb 28' (seq 20)"
+18,City of Florence,1946-12-31,Dec 31,sailing,calcutta,Calcutta,TRUE,"typed: Sd Calcutta Dec 31. No arrival at Calcutta was logged - card switches to typed/pasted strips from here. Year inferred as 1946 from continuity with the handwritten grid above (seq 15) and the Jan/Feb dates that follow"
+19,City of Florence,1947-01-02,Jan 2,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam Jan 2
+20,City of Florence,1947-01-07,Jan 7,sailing,vizagapatam,Vizagapatam,FALSE,typed: Sd Vizagapatam Jan 7
+21,City of Florence,1947-01-17,Jan 17,arrival,aden,Aden,FALSE,typed: Ar Aden Jan 17
+22,City of Florence,1947-01-18,Jan 18,sailing,aden,Aden,FALSE,typed: Sd Aden Jan 18
+23,City of Florence,1947-01-23,Jan 23,arrival,suez,Suez,FALSE,typed: Ar Suez Jan 23
+24,City of Florence,1947-01-25,Jan 25,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said Jan 25 - together with the Suez arrival above, a canal transit (kept as arrival/sailing per the card's own typed labels, matching how earlier typed cards handle these pairs)"
+25,City of Florence,1947-02-09,Feb 9,arrival,london,London,FALSE,typed: Ar London Feb 9
+26,City of Florence,1947-02-19,Feb 19,sailing,london,London,FALSE,typed: Sd London Feb 19
+27,City of Florence,1947-02-20,Feb 20,arrival,hull,Hull,FALSE,"typed: Ar Hull Feb 20. Dagger-marked citation right below reads 'Feb 27, Mar 8' - see seq 17"
+28,City of Florence,1947-02-28,Feb 28,sailing,hull,Hull,FALSE,"typed: Sd Hull Feb 28 - matches the blue 'Struck buoy at Hull' note (seq 17)"
+29,City of Florence,1947-03-01,Mar 1,arrival,dundee,Dundee,FALSE,"typed: Ar Dundee Mar 1. 'Dun' is an ambiguous Guildhall code (Dundee or Dunkirk) but this card spells the name out in full"
+30,City of Florence,1947-03-13,Mar 13,sailing,dundee,Dundee,FALSE,"handwritten (matching dark ink, not blue), directly continuing the typed strip: 'Sd Dundee Mar 13'"
+31,City of Florence,1947-03-14,Mar 14,arrival,middlesbrough,Middlesbro,FALSE,"handwritten: 'Ar Middlesbro Mar 14'. Card then jumps to 'Sd Middlesbro Sept 19' (seq 32) - an unexplained ~6-month gap, the same pattern seen at Middlesbrough on IMG_5642 and (this same port) IMG_5657"
+32,City of Florence,1947-09-19,Sept 19,sailing,middlesbrough,Middlesbro,FALSE,"typed: Sd Middlesbro Sept 19. Captain P.J. Byrne's start date on this card's footer is 18.9.47 - one day before this sailing, suggesting a change of command coincided with the ship resuming service after the layup"
+33,City of Florence,1947-09-22,Sept 22,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Sept 22
+34,City of Florence,1947-10-08,Oct 8,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Oct 8
+35,City of Florence,1947-10-17,Oct 17,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Oct 17
+36,City of Florence,1947-10-20,Oct 20,sailing,suez,Suez,FALSE,"typed: Sd Suez Oct 20 - another Port Said/Suez transit pair, kept as arrival/sailing per the card's own typed labels"
+37,City of Florence,1947-10-24,Oct 24,arrival,aden,Aden,FALSE,typed: Ar Aden Oct 24
+38,City of Florence,1947-10-24,Oct 24,sailing,aden,Aden,FALSE,"typed: Sd Aden Oct 24, same day as the arrival above"
+39,City of Florence,1947-10-31,Oct 31,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Oct 31
+40,City of Florence,1947-12-01,Dec 1,sailing,bombay,Bombay,FALSE,"typed: Sd Bombay Dec 1 - a 5-week stay, not explained on the card"
+41,City of Florence,1947-12-03,Dec 3,arrival,bedi-bunder,Bedi Bunder,FALSE,typed: Ar Bedi Bunder Dec 3
+42,City of Florence,1947-12-04,Dec 4,sailing,bedi-bunder,Bedi Bunder,FALSE,typed: Sd Bedi Bunder Dec 4
+43,City of Florence,1947-12-04,Dec 4,arrival,navlakhi,Navalakhi,FALSE,"typed: Ar Navalakhi Dec 4, same day as the Bedi Bunder sailing above (the two ports are close together on the Gujarat coast). 'Navalakhi' is a new full-name spelling of the port previously seen tentatively as 'Naval' on IMG_5644 - added as an alias"
+44,City of Florence,,—,sailing,navlakhi,Navalakhi,FALSE,"typed: 'Sd Navalakhi —' - no date given, just a dash on the card"
+45,City of Florence,1947-12-09,Dec 9,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Dec 9
+46,City of Florence,1947-12-16,Dec 16,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Dec 16
+47,City of Florence,1947-12-19,Dec 19,arrival,mormugao,Mormugao,FALSE,typed: Ar Mormugao Dec 19
+48,City of Florence,1947-12-25,Dec 25,sailing,mormugao,Mormugao,FALSE,typed: Sd Mormugao Dec 25
+49,City of Florence,1947-12-26,Dec 26,arrival,bombay,Bombay,FALSE,"typed: Ar Bombay Dec 26. 1948 year-box follows"
+50,City of Florence,1948-01-06,Jan 6,sailing,bombay,Bombay,FALSE,"typed: Sd Bombay Jan 6. Dagger-marked citation below reads 'Jan 29, 30'"
+51,City of Florence,1948-01-26,Jan 26 / L.O. citations,note,port-said,,FALSE,"Blue note block (left-hand column, paired with the '1948' year-box): 'Jan 26 Engine trouble', '(Liverpool) 28/1', 'Jan 30 - Left 28/1', 'Port Said 29/1', 'Struck buoy at P.S. 26'. Read together as Lloyd's Agent report citations (report dates, not event/port-call dates) describing one incident: engine trouble and a buoy strike at Port Said around 26 Jan 1948, with the ship then sailing as normal on 28 Jan - matching the typed strip's own 'Ar Port Said Jan 19' / 'Sd Port Said Jan 28' (seq 52-53) and its 'Jan 29, 30' dagger citation (seq 50). '(Liverpool)' most likely names the reporting Agent's office rather than the ship's location, per the same convention flagged on IMG_5650-52's blue parentheticals. Not confidently reconstructed as a single sentence - flagged rather than forced"
+52,City of Florence,1948-01-18,Jan 18,arrival,suez,Suez,FALSE,typed: Ar Suez Jan 18
+53,City of Florence,1948-01-19,Jan 19,arrival,port-said,Port Said,FALSE,"typed: Ar Port Said Jan 19, straight after the Suez arrival with no sailing logged between - see seq 51"
+54,City of Florence,1948-01-28,Jan 28,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Jan 28
+55,City of Florence,1948-02-10,Feb 10,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Feb 10
+56,City of Florence,1948-02-25,Feb 25,sailing,liverpool,Liverpool,FALSE,"typed: Sd Liverpool Feb 25. Dagger-marked citation below reads 'Feb 26, 28'"
+57,City of Florence,1948-02-25,Feb 25,note,liverpool,,FALSE,"typed: 'Put back Liverpool Feb 25' - sailed and returned the same day. Matches the left-hand blue note block's 'Liverpool 25/2' and 'Feb 28 - left 27/2' (report-date citations for this same incident, see seq 58)"
+58,City of Florence,1948-02-27,Feb 27,sailing,liverpool,Liverpool,FALSE,"typed: Sd Liverpool Feb 27, the second, successful sailing after the put-back above"
+59,City of Florence,1948-03-01,Mar 1,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Mar 1
+60,City of Florence,1948-03-07,Mar 7,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Mar 7
+61,City of Florence,1948-03-08,Mar 8,arrival,london,London,FALSE,"typed: Ar London Mar 8. Card ends 'P.T.O.' (second side not yet transcribed)"
