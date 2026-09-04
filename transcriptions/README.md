@@ -730,3 +730,19 @@ convention is known.
   "Oscar III" before this second side was ever needed. No IMG_5655.csv was
   created since there are zero rows to transcribe — this entry (and the
   matching row in `cards.csv`) is the complete record of this image.
+
+- **IMG_5656** — 32 rows, 19 Sep 1945 to 2 Jul 1946. **NEW SHIP: City of
+  Newcastle** (net tonnage 4462, distinct from both City of Norwich (4346)
+  and City of Rangoon (4272)), Card No 12, First Side — continues an unseen
+  Card No 11, Second Side; Cards 1-11 not yet identified among the scanned
+  images. Captain (A?) Saunders, then A. Flynn (25.9.45), then M.B. Bevan
+  (24.4.46). India/Ceylon circuit (Ceylon, Sandheads, Madras, Cochin), then
+  a long haul to South America (Montevideo, Buenos Aires), Cape Verdes, and
+  a genuine post-war leak incident at Las Palmas requiring repeated repair
+  stops through April 1946 (consolidated into one note rather than itemised
+  day by day), then home via the Downs to Liverpool/Manchester/Ellesmere
+  Port. Several unresolved port codes ("P.mistra", "R.M.", "Lib") left
+  unmatched against `ports.csv`. One struck-through entry annotated
+  "erroneous". Card ends "P.T.O." (second side not yet transcribed). No new
+  ports — all previously seen (from earlier City of Norwich cards' South
+  America/Atlantic legs).

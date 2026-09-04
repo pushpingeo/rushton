@@ -1,0 +1,33 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Newcastle,1945-09-19,19/9,arrival,ceylon,Cey,FALSE,"black = arrival. NEW SHIP - first appearance of City of Newcastle in the collection (net tonnage 4462, Liverpool registry). Card headed 'No 12 (first side)', 'Contd' - continues an unseen Card No 11, Second Side; Cards 1-11 not yet identified among the scanned images. Captain (A?) Saunders from 23.8.45 (per footer, a wax seal stamp also appears near the captain block)"
+2,City of Newcastle,1945-10-03,3/10,sailing,ceylon,,TRUE,red = sailing
+3,City of Newcastle,1945-10-08,8/10,arrival,sandheads,Sandh,FALSE,black = arrival
+4,City of Newcastle,1945-10-21,21/10,sailing,sandheads,,TRUE,red = sailing
+5,City of Newcastle,1945-10-24,24/10,arrival,madras,Mad,FALSE,"black = arrival. Captain change 25.9.45, A. Flynn (per footer - note this predates the 24/10 entry, so the change likely applied retroactively/was recorded late)"
+6,City of Newcastle,1945-11-08,8/11,sailing,madras,,TRUE,red = sailing
+7,City of Newcastle,1945-11-11,11/11,arrival,sandheads,Sandh,FALSE,black = arrival
+8,City of Newcastle,1945-11-20,20/11,note,,Coal,FALSE,"UNCERTAIN - red citation reading 'Coal 20/11'. Likely denotes a coaling/bunkering stop rather than a place name, but no port is named; not resolved into a port_id"
+9,City of Newcastle,1945-11-22,22/11,arrival,sandheads,Sandh,FALSE,"black = arrival - or possibly a sailing; colour reads red in the original, unusual for a plain 'Sandh' re-citation so soon after the one above"
+10,City of Newcastle,1945-11-28,28/11,arrival,cochin,Coch,FALSE,black = arrival
+11,City of Newcastle,1945-11-30,30/11,sailing,cochin,,TRUE,red = sailing
+12,City of Newcastle,1945-12-12,12/12,arrival,,P.mistra,FALSE,"UNCERTAIN - black = arrival, reads clearly as 'P.mistra' or 'Pmistra' on close zoom. Doesn't match any code in ports.csv; left unresolved rather than guessed"
+13,City of Newcastle,1945-12-19,19/12,sailing,,R.M.,TRUE,"UNCERTAIN - red = sailing, reads 'R.M.' (or possibly 'K.M.'). Doesn't match an established code; given the South American ports that follow (Montevideo, Buenos Aires), this may be a Brazilian port read incorrectly, but not confidently resolved - left unmatched rather than forced to 'Rio de Janeiro' (which uses a different code, 'R.J.', elsewhere in this collection)"
+14,City of Newcastle,1946-01-09,9/1,arrival,montevideo,M.V.,FALSE,"black = arrival. Year changes to 1946 here, boxed between the reference columns"
+15,City of Newcastle,1946-01-14,14/1,arrival,buenos-aires,B A,FALSE,"black = arrival, no sailing logged from Montevideo first - a short River Plate hop"
+16,City of Newcastle,1946-03-11,11/3,sailing,buenos-aires,,TRUE,"red = sailing. About two months docked at Buenos Aires, unexplained on this card"
+17,City of Newcastle,1946-03-18,18/3,arrival,montevideo,M.V.,FALSE,"UNCERTAIN colour - reads red, unusual for what should be a return arrival; kept as read"
+18,City of Newcastle,1946-04-03,3/4,arrival,cape-verdes,C.Vdo,FALSE,black = arrival
+19,City of Newcastle,1946-04-05,5/4,sailing,cape-verdes,,TRUE,red = sailing
+20,City of Newcastle,1946-04-10,10/4,note,,las-palmas,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue notes describe arriving Las Palmas 10/4 'with leak in [tank] ... suspect[ed]' cause, linked to '...and heavy weather'. The ship sailed again 15/4, but the leak recurs: further blue notes read 'Las Palmas 11/4', 're repairs, expect complete 13/4', 're repairs' again 16/4, and '(Las Palmas) 17/4 & repairs'. This whole April 1946 stretch is a repeated return-and-repair cycle at Las Palmas rather than a clean single incident; not resolved into separate dated port-call rows beyond this one, since the ship never really leaves the area during it"
+21,City of Newcastle,1946-05-13,13/5,sailing,las-palmas,Lo,TRUE,"UNCERTAIN - red = sailing, reads 'Lo' which elsewhere in this collection means a Lloyd's Agent citation, but here sits where a destination/port would be expected. Possibly London, possibly just another citation marker"
+22,City of Newcastle,1946-05-14,14/5,arrival,downs,Downs,FALSE,black = arrival
+23,City of Newcastle,1946-05-14,14/5,arrival,liverpool,Liv,FALSE,"black = arrival, same day as Downs - plausible as a Channel-then-Mersey approach, though tight"
+24,City of Newcastle,1946-05-16,16/5,arrival,liverpool,Liv,FALSE,"UNCERTAIN - a second 'Liverpool' citation two days later; possibly should read differently (e.g. a different port), kept as read"
+25,City of Newcastle,1946-05-16,16/5,arrival,eastham,Eathm,FALSE,"black = arrival, same day"
+26,City of Newcastle,1946-05-17,17/5,arrival,manchester,Mcht,FALSE,black = arrival
+27,City of Newcastle,1946-06-20,20/6,sailing,manchester,,TRUE,"red = sailing. About a month docked at Manchester, unexplained"
+28,City of Newcastle,1946-06-28,28/6,note,,,FALSE,"An entry annotated 'erroneous' is struck through by the clerk - voided, not transcribed as a real event (same self-correction convention seen on several other cards in this collection)"
+29,City of Newcastle,1946-06-24,24/6,sailing,manchester,,TRUE,"UNCERTAIN ordering - red = sailing, dated 24/6, sitting after the voided 28/6 entry in card position despite the earlier date"
+30,City of Newcastle,1946-06-27,27/6,arrival,ellesmere-port,Ellesm PT,FALSE,black = arrival
+31,City of Newcastle,1946-06-28,28/6,sailing,ellesmere-port,,TRUE,red = sailing
+32,City of Newcastle,1946-07-02,2/7,arrival,,Lib,FALSE,"UNCERTAIN - black = arrival, reads 'Lib'. Could be Libya/a Mediterranean port given this ship's likely wartime-adjacent routing, but no supporting context on this card; left unresolved. Card ends 'P.T.O.' (second side not yet transcribed)"
