@@ -723,3 +723,10 @@ convention is known.
   adds: sold 28 Aug 1946, to be renamed **"Oscar III"**. No second side to
   this card, and no further City of Rangoon cards are expected in this
   collection under this name. No new ports — all previously seen.
+
+- **IMG_5655** — blank. **City of Rangoon**, Card No 9, Second Side — no
+  entries of any kind (no dated citations, no captain info). Consistent with
+  IMG_5654: the ship was deleted from the register 27.2.47 and sold/renamed
+  "Oscar III" before this second side was ever needed. No IMG_5655.csv was
+  created since there are zero rows to transcribe — this entry (and the
+  matching row in `cards.csv`) is the complete record of this image.
