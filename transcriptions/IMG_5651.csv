@@ -1,0 +1,57 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Rangoon,1942-03-02,2/3,note,,,FALSE,"Red header note 'Left Table Bay 2/3' - marks the end of the month-long repair stop flagged at the close of IMG_5650. Blue header note 'Re damage - struck check' (possibly 'strut check') - a further inspection/damage note. Card labelled 'No 7 (second side)' - directly continues IMG_5650"
+2,City of Rangoon,,,note,,,FALSE,"A run of blue citation-style entries follows rather than normal port calls: 'Mar 9/31', '19/11', '(Liv) 5/3', 'Apl 23/22', '(Lo) 22/4', 'No damage to government cargo', 'May 11/33', '10/5', 'abt 13' - these read as a sequence of inspection/Lloyd's Agent reports confirming no damage to cargo, rather than dated arrivals or sailings. Not resolved into discrete rows"
+3,City of Rangoon,1942-05-11,11/5,arrival,durban,Durb Rds,FALSE,"black = arrival ('Durban Roads'), the first real port call after the Table Bay repair stop"
+4,City of Rangoon,1942-05-18,18/5,sailing,durban,,TRUE,red = sailing
+5,City of Rangoon,1942-05-19,19/5,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+6,City of Rangoon,1942-05-22,22/5,sailing,lourenco-marques,,TRUE,red = sailing
+7,City of Rangoon,1942-05-24,24/5,arrival,beira,Beira,FALSE,black = arrival
+8,City of Rangoon,1942-05-31,31/5,sailing,beira,,TRUE,red = sailing
+9,City of Rangoon,1942-06-02,2/6,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+10,City of Rangoon,1942-06-13,13/6,arrival,port-elizabeth,P.Eliz,FALSE,"black = arrival, no sailing logged from Lourenco Marques first"
+11,City of Rangoon,1942-06-17,17/6,sailing,port-elizabeth,,TRUE,red = sailing
+12,City of Rangoon,1942-06-21,21/6,arrival,table-bay,Table,FALSE,black = arrival
+13,City of Rangoon,,,note,,,FALSE,Blue note reading approximately 'Had tank/top leakage' - another leak issue noted at this Table Bay call
+14,City of Rangoon,1942-06-30,30/6,sailing,table-bay,,TRUE,red = sailing
+15,City of Rangoon,1942-07-05,5/7,arrival,freetown,Freet,FALSE,black = arrival
+16,City of Rangoon,1942-07-25,25/7,sailing,freetown,,TRUE,red = sailing
+17,City of Rangoon,1942-08-15,15/8,arrival,liverpool,Liv,FALSE,black = arrival
+18,City of Rangoon,,15/6,note,,,FALSE,Blue parenthetical '(L.M) 15/6' - doesn't fit chronologically here; likely a citation cross-reference
+19,City of Rangoon,1942-08-16,16/8,arrival,manchester,Mchr,FALSE,black = arrival
+20,City of Rangoon,1942-09-22,22/9,sailing,manchester,,TRUE,red = sailing
+21,City of Rangoon,1942-09-22,22/9,arrival,partington,Part,FALSE,"black = arrival, same day"
+22,City of Rangoon,1942-09-24,24/9,sailing,eastham,Esthm,FALSE,red = sailing
+23,City of Rangoon,1942-09-23,23/9,arrival,partington,Part,FALSE,"UNCERTAIN - black = arrival, but sits chronologically before (23/9) the Eastham sailing just above it (24/9) despite following it in card position. Kept as read rather than reordered, per the standard set on earlier cards' bracketed corrections - though no bracket is visible here"
+24,City of Rangoon,1942-09-24,24/9,arrival,liverpool,Liv,FALSE,"black = arrival, same day"
+25,City of Rangoon,1942-10-09,9/10,sailing,liverpool,,TRUE,red = sailing
+26,City of Rangoon,1942-10-11,11/10,arrival,river-mersey,Mersey,FALSE,black = arrival
+27,City of Rangoon,,11/11,note,,,FALSE,Blue parenthetical '(St Thomas) 11/11' - meaning and relevance not established; flagged as a citation-style note rather than a port call
+28,City of Rangoon,,26/10,note,,,FALSE,"Blue note '(Cape Town) 26/10, hawsepipes' - a hawsepipe (anchor chain fitting) damage/repair reference"
+29,City of Rangoon,,12/23,note,,,FALSE,Blue note 'Dec 12/23 anchor.' - an anchoring note between the Mersey call and the next dated arrival
+30,City of Rangoon,1942-12-10,10/12,arrival,saldanha-bay,Saldanha B.,FALSE,"black = arrival. NEW PORT (Saldanha Bay, South Africa)"
+31,City of Rangoon,1942-12-14,14/12,arrival,table-bay,Table (prev),FALSE,"black = arrival, annotated '(prev)' - same unexplained annotation style seen on earlier cards"
+32,City of Rangoon,1942-12-25,25/12,sailing,table-bay,,TRUE,"red = sailing. A struck-through '28' sits beside it, apparently voided"
+33,City of Rangoon,1942-12-29,29/12,arrival,durban,Durb,FALSE,black = arrival
+34,City of Rangoon,1943-01-31,31/1,sailing,durban,,TRUE,"red = sailing. Year changes to 1943 here. About a month docked at Durban, unexplained on this card"
+35,City of Rangoon,1943-02-01,1/2,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+36,City of Rangoon,1943-02-06,6/2,sailing,lourenco-marques,,TRUE,red = sailing
+37,City of Rangoon,1943-02-08,8/2,arrival,beira,Beira,FALSE,black = arrival
+38,City of Rangoon,1943-02-19,19/2,sailing,beira,,TRUE,red = sailing
+39,City of Rangoon,1943-02-24,24/2,arrival,mombasa,Momb,FALSE,black = arrival
+40,City of Rangoon,1943-03-08,8/3,sailing,mombasa,,TRUE,red = sailing
+41,City of Rangoon,1943-03-09,9/3,arrival,zanzibar,Zanz,FALSE,black = arrival
+42,City of Rangoon,1943-03-12,12/3,sailing,zanzibar,,TRUE,red = sailing
+43,City of Rangoon,1943-03-20,20/3,arrival,aden,Aden,FALSE,black = arrival
+44,City of Rangoon,1943-03-23,23/3,sailing,aden,,TRUE,red = sailing
+45,City of Rangoon,1943-03-29,29/3,arrival,suez,Suez,FALSE,black = arrival
+46,City of Rangoon,1943-03-29,29/3,sailing,suez,,TRUE,"red = sailing, same day"
+47,City of Rangoon,1943-03-30,30/3,arrival,port-said,P.Said,FALSE,black = arrival
+48,City of Rangoon,1943-03-31,31/3,sailing,port-said,,TRUE,red = sailing
+49,City of Rangoon,,14/25,note,,,FALSE,Blue note 'Re Repairs' with a reference '14/25' - repair work referenced without further detail
+50,City of Rangoon,1943-04-01,1/4,arrival,haifa,Haifa,FALSE,black = arrival
+51,City of Rangoon,1943-04-05,5/4,sailing,haifa,,TRUE,red = sailing
+52,City of Rangoon,1943-04-06,6/4,arrival,port-said,P.Said,FALSE,black = arrival
+53,City of Rangoon,,19/2,note,,,FALSE,Blue parenthetical '(Beira) 19/2' - doesn't fit chronologically here; likely a citation cross-reference
+54,City of Rangoon,1943-04-25,25.4.43,note,,,FALSE,"'OHMS' marker dated 25.4.43 - the ship going onto (or confirming) Admiralty requisition; no explicit 'on'/'off' label this time, unlike earlier cards' boxed notes"
+55,City of Rangoon,1943-04-25,-|-,arrival,port-said,,TRUE,"ditto mark - still at Port Said, no new citation beyond confirming presence"
+56,City of Rangoon,1943-04-27,27/4,sailing,port-said,,TRUE,"red = sailing. Card ends 'Contd on card no 8' (not yet identified)"

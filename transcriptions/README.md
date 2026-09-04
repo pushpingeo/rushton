@@ -663,3 +663,19 @@ convention is known.
   don't fit chronologically where they sit and are flagged as Lloyd's Agent
   cross-references rather than forced into the sequence. Card ends "P.T.O."
   (second side not yet transcribed). No new ports — all previously seen.
+
+- **IMG_5651** — 56 rows, 11 May 1942 to 27 Apr 1943 (plus several undated
+  blue citation notes). **City of Rangoon**, Card No 7, Second Side —
+  directly continues IMG_5650. Opens with the ship leaving Table Bay after
+  the repair stop flagged at the end of IMG_5650, followed by a run of blue
+  inspection/citation notes ("no damage to government cargo") before normal
+  entries resume. The familiar South/East Africa circuit (Durban, Lourenco
+  Marques, Beira, Port Elizabeth, Table Bay), Freetown, Liverpool/
+  Manchester/Mersey, a new port (**Saldanha Bay**), then Durban/Lourenco
+  Marques/Beira/Mombasa again, Zanzibar, Aden, Suez, Port Said, Haifa.
+  Several blue citation-style parentheticals ("(St Thomas)", "(Cape Town)
+  26/10, hawsepipes", "(Beira) 19/2") don't fit chronologically and are
+  flagged as Lloyd's Agent cross-references rather than forced into the
+  sequence. An "OHMS" marker (25.4.43) appears without the usual explicit
+  on/off label. Card ends "Contd on card no 8" (not yet identified). New
+  port added to `ports.csv`: Saldanha Bay.
