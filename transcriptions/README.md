@@ -1008,3 +1008,23 @@ convention is known.
   unmatched, since that card's Antwerp note had no corresponding Antwerp call
   on its own side) and at Liverpool (14 Dec 1950, damaged). New port added to
   `ports.csv`: Mena al Ahmadi. Alias added: Basrah (basra).
+
+- **IMG_5670** — 109 rows plus 4 Casualties-box notes, 23 May 1949 to 13
+  Sept 1950. **City of Leicester**, Card No 14, First Side. A numbering
+  oddity worth flagging: the dates here overlap with/precede where IMG_5659
+  (this ship's Card No 13, Second Side) left off in May 1950, so Cards 13 and
+  14 don't run cleanly in sequence - not resolved, just noted. Entirely
+  typed/pasted strips. The familiar Mediterranean/Aegean/Levant coasting
+  trade: Port Said/Alexandria/Palermo, UK ports (London, Hull, Middlesbrough,
+  Liverpool, Manchester, Glasgow), a Persian Gulf/India leg (Karachi, Bombay,
+  Port Okha, Aden, Suez), then Alexandria, Beirut, Malta, Tripoli (Libya), a
+  new port **Tobruk**, Tripoli (Lebanon), Famagusta, Limassol, a new port
+  **Paphos**, Piraeus, Volo, a new port **Thessaloniki**, Izmir, Istanbul, a
+  new port **Bourgas** (Bulgaria), Patras, a new port **Aegion**, Algiers,
+  Bandirma. The Casualties box records two incident clusters, each
+  cross-referenced against dagger citations in the main sequence: a collision
+  near Beirut (~29-30 Nov 1949, following trouble first cited at Alexandria)
+  and a tank pierced by a stern anchor slipping from a ship at Istanbul (22
+  May 1950); a third citation ("Glasgow 25/4 or 25/7") isn't confidently
+  matched to any specific call. New ports added to `ports.csv`: Tobruk,
+  Paphos, Aegion, Thessaloniki, Bourgas.
