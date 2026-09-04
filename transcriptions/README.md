@@ -988,3 +988,23 @@ convention is known.
   likely part of a stretch of the voyage this side doesn't itemise. Card ends
   "P.T.O." (second side not yet transcribed). New port added to `ports.csv`:
   Bandar Mashur (tentative).
+
+  **Resolved after transcribing IMG_5669:** the Antwerp incident belongs to
+  this ship's *next* card side, not a gap in this one - IMG_5669 opens with
+  its own "Ar Antwerp Nov 19" entry and a matching dagger citation.
+
+- **IMG_5669** — 69 rows plus 2 Casualties-box notes, 10 Sept 1950 to 1 June
+  1951 (card ends with no "P.T.O." or next-card reference at all). **City of
+  Tokio**, Card No 10, Second Side — directly continues IMG_5668. Entirely
+  typed/pasted strips. UK/Northern Europe (Colombo, Aden/Suez, London, Hull,
+  Dundee, Boulogne, Middlesbrough, Antwerp, Liverpool, Glasgow, Newport),
+  then a Persian Gulf circuit (Bahrein, Kuwait, a new port **Mena al Ahmadi**
+  appearing in a duplicate-looking Kuwait/Mena al Ahmadi/Kuwait trio, Bandar
+  Shapur, Abadan, Khorramshahr, Basrah), Vizagapatam/Calcutta/Sandheads/
+  Colombo/Cochin, Suez, Avonmouth/London/Boulogne/Liverpool/Glasgow. The
+  Casualties box records two jetty-strike incidents, each cross-referenced
+  against a dagger citation in the main sequence: at Antwerp (~11 Nov 1950 -
+  this resolves the incident IMG_5668's own Casualties box had left
+  unmatched, since that card's Antwerp note had no corresponding Antwerp call
+  on its own side) and at Liverpool (14 Dec 1950, damaged). New port added to
+  `ports.csv`: Mena al Ahmadi. Alias added: Basrah (basra).

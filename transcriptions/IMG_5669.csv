@@ -1,0 +1,72 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Tokio,1950-09-10,Sept 10,sailing,calcutta,Calcutta,FALSE,"typed: Sd Calcutta Sept 10. Card headed 'Card No. 10 (Second side)', '1950 contd' - directly continues IMG_5668"
+2,City of Tokio,1950-09-17,Sept 17,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Sept 17
+3,City of Tokio,1950-09-21,Sept 21,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Sept 21
+4,City of Tokio,1950-09-29,Sept 29,arrival,aden,Aden,FALSE,typed: Ar Aden Sept 29
+5,City of Tokio,1950-09-29,Sept 29,sailing,aden,Aden,FALSE,"typed: Sd Aden Sept 29, same day as the arrival above"
+6,City of Tokio,1950-10-04,Oct 4,arrival,suez,Suez,FALSE,typed: Ar Suez Oct 4
+7,City of Tokio,1950-10-05,Oct 5,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Oct 5
+8,City of Tokio,1950-10-17,Oct 17,arrival,london,London,FALSE,typed: Ar London Oct 17
+9,City of Tokio,1950-10-24,Oct 24,sailing,london,London,FALSE,typed: Sd London Oct 24
+10,City of Tokio,1950-10-25,Oct 25,arrival,hull,Hull,FALSE,typed: Ar Hull Oct 25
+11,City of Tokio,1950-10-28,Oct 28,sailing,hull,Hull,FALSE,typed: Sd Hull Oct 28
+12,City of Tokio,1950-10-29,Oct 29,arrival,dundee,Dundee,FALSE,typed: Ar Dundee Oct 29
+13,City of Tokio,1950-10-31,Oct 31,sailing,dundee,Dundee,FALSE,typed: Sd Dundee Oct 31
+14,City of Tokio,1950-11-02,Nov 2,arrival,boulogne,Boulogne,FALSE,typed: Ar Boulogne Nov 2
+15,City of Tokio,1950-11-06,Nov 6,sailing,boulogne,Boulogne,FALSE,typed: Sd Boulogne Nov 6
+16,City of Tokio,1950-11-07,Nov 7,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Nov 7
+17,City of Tokio,1950-11-17,Nov 17,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Nov 17
+18,City of Tokio,1950-11-19,Nov 19,arrival,antwerp,Antwerp,FALSE,"typed: Ar Antwerp Nov 19. Dagger-marked citation below reads 'Nov 20, Dec 15' - see seq 70 (Casualties box). This is what IMG_5668's own Casualties-box note ('Struck quay, Antwerp 19/11') refers to - resolving the uncertainty flagged there"
+19,City of Tokio,1950-12-10,Dec 10,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Dec 10
+20,City of Tokio,1950-12-13,Dec 13,arrival,liverpool,Liverpool,FALSE,"typed: Ar Liverpool Dec 13 - see seq 71, the ship struck a jetty wall during this call"
+21,City of Tokio,1950-12-18,Dec 18,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Dec 18
+22,City of Tokio,1950-12-19,Dec 19,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Dec 19
+23,City of Tokio,1950-12-30,Dec 30,sailing,glasgow,Glasgow,FALSE,"typed: Sd Glasgow Dec 30. 1951 year-box follows"
+24,City of Tokio,1951-01-01,Jan 1,arrival,newport,Newport,FALSE,typed: Ar Newport Jan 1
+25,City of Tokio,1951-01-05,Jan 5,sailing,newport,Newport,FALSE,typed: Sd Newport Jan 5
+26,City of Tokio,1951-01-16,Jan 16,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Jan 16
+27,City of Tokio,1951-01-17,Jan 17,sailing,suez,Suez,FALSE,typed: Sd Suez Jan 17
+28,City of Tokio,1951-01-22,Jan 22,arrival,aden,Aden,FALSE,typed: Ar Aden Jan 22
+29,City of Tokio,1951-01-22,Jan 22,sailing,aden,Aden,FALSE,"typed: Sd Aden Jan 22, same day as the arrival above"
+30,City of Tokio,1951-01-29,Jan 29,arrival,bahrain,Bahrein,FALSE,typed: Ar Bahrein Jan 29
+31,City of Tokio,1951-01-30,Jan 30,sailing,bahrain,Bahrein,FALSE,typed: Sd Bahrein Jan 30
+32,City of Tokio,1951-01-31,Jan 31,arrival,kuwait,Kuwait,FALSE,typed: Ar Kuwait Jan 31
+33,City of Tokio,1951-02-01,Feb 1,sailing,kuwait,Kuwait,FALSE,typed: Sd Kuwait Feb 1
+34,City of Tokio,1951-01-31,Jan 31,arrival,mena-al-ahmadi,Mena al Ahmadi,FALSE,"typed: Ar Mena al Ahmadi Jan 31 - printed after the Kuwait sailing above but dated the same day it arrived at Kuwait; part of a duplicate-looking Kuwait/Mena al Ahmadi/Kuwait trio, the same bracketed-citation pattern seen on several earlier cards. New port - the oil terminal south of Kuwait City"
+35,City of Tokio,1951-01-31,Jan 31,sailing,mena-al-ahmadi,Mena al Ahmadi,FALSE,"typed: Sd Mena al Ahmadi Jan 31, same day as the arrival above"
+36,City of Tokio,1951-02-01,Feb 1,arrival,kuwait,Kuwait,FALSE,"typed: Ar Kuwait Feb 1, completing the duplicate-looking trio"
+37,City of Tokio,1951-02-01,Feb 1,sailing,kuwait,Kuwait,FALSE,"typed: Sd Kuwait Feb 1, same day as the arrival above"
+38,City of Tokio,1951-02-02,Feb 2,arrival,bandar-shahpur,Bandar Shapur,FALSE,typed: Ar Bandar Shapur Feb 2
+39,City of Tokio,1951-02-08,Feb 8,sailing,bandar-shahpur,Bandar Shapur,FALSE,typed: Sd Bandar Shapur Feb 8
+40,City of Tokio,1951-02-09,Feb 9,arrival,abadan,Abadan,FALSE,typed: Ar Abadan Feb 9
+41,City of Tokio,1951-02-11,Feb 11,sailing,abadan,Abadan,FALSE,typed: Sd Abadan Feb 11
+42,City of Tokio,1951-02-11,Feb 11,arrival,khorram-shahr,Khorramshahr,FALSE,"typed: Ar Khorramshahr Feb 11, same day as the Abadan sailing above"
+43,City of Tokio,1951-02-21,Feb 21,sailing,khorram-shahr,Khorramshahr,FALSE,typed: Sd Khorramshahr Feb 21
+44,City of Tokio,1951-02-21,Feb 21,arrival,basra,Basrah,FALSE,"typed: Ar Basrah Feb 21, same day as the Khorramshahr sailing above - a further spelling variant of Busreh/Basra, added as an alias"
+45,City of Tokio,1951-02-26,Feb 26,sailing,basra,Basrah,FALSE,typed: Sd Basrah Feb 26
+46,City of Tokio,1951-02-26,Feb 26,arrival,abadan,Abadan,FALSE,"typed: Ar Abadan Feb 26, same day as the Basrah sailing above"
+47,City of Tokio,1951-03-05,Mar 5,sailing,abadan,Abadan,FALSE,typed: Sd Abadan Mar 5
+48,City of Tokio,1951-03-15,Mar 15,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam Mar 15
+49,City of Tokio,1951-03-17,Mar 17,sailing,vizagapatam,Vizagapatam,FALSE,typed: Sd Vizagapatam Mar 17
+50,City of Tokio,1951-03-19,Mar 19,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Mar 19
+51,City of Tokio,1951-04-03,Apr 3,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Apr 3
+52,City of Tokio,1951-04-05,Apr 5,sailing,sandheads,Sandheads,TRUE,typed: Sd Sandheads Apr 5 - reporting point at the mouth of the Hooghly
+53,City of Tokio,1951-04-09,Apr 9,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Apr 9
+54,City of Tokio,1951-04-11,Apr 11,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Apr 11
+55,City of Tokio,1951-04-12,Apr 12,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Apr 12
+56,City of Tokio,1951-04-13,Apr 13,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Apr 13
+57,City of Tokio,1951-04-20,Apr 20,arrival,aden,Aden,FALSE,typed: Ar Aden Apr 20
+58,City of Tokio,1951-04-22,Apr 22,sailing,aden,Aden,FALSE,typed: Sd Aden Apr 22
+59,City of Tokio,1951-04-27,Apr 27,arrival,suez,Suez,FALSE,typed: Ar Suez Apr 27
+60,City of Tokio,1951-04-28,Apr 28,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Apr 28
+61,City of Tokio,1951-05-10,May 10,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth May 10
+62,City of Tokio,1951-05-12,May 12,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth May 12
+63,City of Tokio,1951-05-14,May 14,arrival,london,London,FALSE,typed: Ar London May 14
+64,City of Tokio,1951-05-19,May 19,sailing,london,London,FALSE,typed: Sd London May 19
+65,City of Tokio,1951-05-19,May 19,arrival,boulogne,Boulogne,FALSE,"typed: Ar Boulogne May 19, same day as the London sailing above"
+66,City of Tokio,1951-05-27,May 27,sailing,boulogne,Boulogne,FALSE,typed: Sd Boulogne May 27
+67,City of Tokio,1951-05-29,May 29,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool May 29
+68,City of Tokio,1951-05-31,May 31,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool May 31
+69,City of Tokio,1951-06-01,June 1,arrival,glasgow,Glasgow,FALSE,"typed: Ar Glasgow June 1. Card ends here - the fourth column is blank and the footer has no 'P.T.O.' or next-card note at all"
+70,City of Tokio,1950-11-19,19/11 (struck 11/11?),note,antwerp,,FALSE,"Casualties box (blue): 'Re repairs', 'Struck jetty [wall?] at Antwerp 11/11', citation dates '19/11' and '15/12' alongside - matches the dagger citation at seq 18 ('Nov 20, Dec 15') and resolves the uncertainty flagged in IMG_5668's own Casualties-box entry for this same incident"
+71,City of Tokio,1950-12-14,14/12,note,liverpool,,FALSE,"Casualties box (blue): 'Liverpool 14/12 - struck jetty wall, damaged', citation 'Dec 15' - matches the Liverpool call at seq 20-21"
