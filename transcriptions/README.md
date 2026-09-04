@@ -709,3 +709,17 @@ convention is known.
   position. One unresolved port code ("Ymic") left unmatched against
   `ports.csv`. Card ends "Contd on card No: 9" (not yet identified). New
   port added to `ports.csv`: Chittagong.
+
+- **IMG_5654** — 19 rows, 4 May 1945 to 27 Feb 1947. **City of Rangoon**,
+  Card No 9, First Side — directly continues IMG_5653. **This is the end of
+  City of Rangoon's service.** Chittagong/Sandheads/Calcutta/Rangoon as
+  normal through mid-1945, then on 12 Oct 1945 a blue note reads "Coal depot
+  ship" — the vessel stops trading and becomes a stationary coal depot hulk
+  at Singapore. From November 1945 through at least May 1946 the card logs
+  nothing but repeated "Singapore, still here" ditto marks (consolidated
+  into one summary row rather than transcribed one per month — see
+  IMG_5654.csv seq 18). A 1947 year box appears with no further entries, and
+  the card closes: "Deleted from L.S.9. 27.2.47." The ship's-name footer
+  adds: sold 28 Aug 1946, to be renamed **"Oscar III"**. No second side to
+  this card, and no further City of Rangoon cards are expected in this
+  collection under this name. No new ports — all previously seen.
