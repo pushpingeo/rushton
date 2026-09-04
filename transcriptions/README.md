@@ -801,3 +801,19 @@ convention is known.
   "seen aground" note near Hamburg/Bremen (April). New ports added to
   `ports.csv`: Sitia, Heraklion, Suda Bay, Beirut, Tripoli (Lebanon),
   Limassol, Famagusta, Oran.
+
+- **IMG_5660** — 44 rows, 20 Sep 1945 to 30 May 1946. **City of Norwich**,
+  Card No 10, First Side — directly continues IMG_5649. Back to City of
+  Norwich after ten cards' worth of City of Rangoon/City of Newcastle/City
+  of Leicester material. Completes the Australia circuit (Melbourne, a new
+  port **Hobart**, Fremantle), Cochin, Calcutta — where a fire broke out in
+  the No.1 'tween deck cargo (blue note, extinguished, damage not extensive,
+  c. 2 Jan 1946) — Ceylon, Aden, Port Sudan, Suez, and at Port Said a second
+  incident: the ship fouled a buoy and touched the harbour bank (16 Feb
+  1946, damage noted). Then Gibraltar, a US East Coast run (New York,
+  Newport News, Hampton Roads, Philadelphia), Curacao, Bristol, a Panama
+  Canal transit (Balboa), Los Angeles, and a new port, **Pearl Harbor**. One
+  uncertain final entry ("Hond...", tentatively Honolulu given the Pearl
+  Harbor context, not confidently resolved). Card ends "P.T.O." (second
+  side not yet transcribed). New ports added to `ports.csv`: Hobart, Pearl
+  Harbor.

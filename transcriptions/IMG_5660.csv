@@ -1,0 +1,45 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1945-09-20,20/9,sailing,adelaide,Adl,FALSE,"red = sailing, no arrival logged before it - carries on from IMG_5649's final entry (Fremantle, 12/9). Card headed 'No 10 (first side)', 'Contd' - directly continues IMG_5649"
+2,City of Norwich,1945-09-23,23/9,arrival,melbourne,Melb,FALSE,black = arrival
+3,City of Norwich,1945-10-12,12/10,sailing,melbourne,,TRUE,red = sailing
+4,City of Norwich,1945-10-26,26/10,sailing,hobart,Hobart,FALSE,"UNCERTAIN - red = sailing, no arrival logged. NEW PORT (Hobart, Tasmania)"
+5,City of Norwich,1945-10-22,22/10,arrival,melbourne,Melb,FALSE,"UNCERTAIN ordering - black = arrival, dated before (22/10) the Hobart sailing just above it (26/10) despite following it in card position"
+6,City of Norwich,1945-11-11,11/11,sailing,melbourne,,TRUE,red = sailing
+7,City of Norwich,1945-11-18,18/11,arrival,fremantle,Fre,FALSE,"black = arrival - card writes the short form 'Fre', matching this ship's own established convention for Fremantle (distinct from 'Freet' for Freetown, per IMG_5649)"
+8,City of Norwich,1945-11-19,19/11,sailing,fremantle,,TRUE,red = sailing
+9,City of Norwich,1945-12-03,3/12,arrival,cochin,Coch,FALSE,black = arrival
+10,City of Norwich,1945-12-10,10/12,sailing,cochin,,TRUE,red = sailing
+11,City of Norwich,1945-12-14,14/12,arrival,calcutta,Cal,FALSE,"black = arrival. Year changes to 1946 here, boxed between the reference columns"
+12,City of Norwich,1946-01-02,2/1,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue notes read 'Slight fire damage at Calcutta', '(Lo) Jan 4', 'Calcutta 2/1', and in more detail: 'Had fire in No.1 'tween deck cargo. Fire extinguished, damage not extensive.' A further note 'Left 4/1' / '3/1' marks the ship's departure shortly after"
+13,City of Norwich,1946-01-03,3/1,sailing,calcutta,,TRUE,red = sailing
+14,City of Norwich,1946-01-09,9/1,arrival,ceylon,Cey,FALSE,black = arrival
+15,City of Norwich,1946-01-29,29/1,sailing,ceylon,,TRUE,red = sailing
+16,City of Norwich,1946-02-06,6/2,arrival,aden,Aden,FALSE,black = arrival
+17,City of Norwich,1946-02-08,8/2,sailing,aden,,TRUE,red = sailing
+18,City of Norwich,1946-02-11,11/2,arrival,port-sudan,P.Sud,FALSE,black = arrival
+19,City of Norwich,1946-02-14,14/2,sailing,port-sudan,,TRUE,red = sailing
+20,City of Norwich,1946-02-15,15/2,arrival,suez,Suez,FALSE,black = arrival
+21,City of Norwich,1946-02-18,18/2,arrival,port-said,P.Said,FALSE,black = arrival
+22,City of Norwich,1946-02-16,16/2,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue notes: 'Feb. 19. Fouled buoy & touched harbour bank 16/2. re damage.' and 'P.Said 16/2' and '20. Sailed 19/2'. The ship fouled a buoy and touched the harbour bank at Port Said on 16 Feb 1946, causing some damage, before sailing again 19 Feb"
+23,City of Norwich,1946-02-19,19/2,sailing,port-said,,TRUE,red = sailing
+24,City of Norwich,1946-02-28,28/2,arrival,gibraltar,Gib,FALSE,black = arrival
+25,City of Norwich,1946-03-01,1/3,sailing,gibraltar,,TRUE,red = sailing
+26,City of Norwich,1946-03-19,19/3,arrival,new-york,N.Y.,FALSE,black = arrival
+27,City of Norwich,1946-03-24,24/3,sailing,new-york,,TRUE,red = sailing
+28,City of Norwich,1946-03-25,25/3,arrival,newport-news,Newport News,FALSE,black = arrival
+29,City of Norwich,1946-03-30,30/3,sailing,hampton-rds,Hamp Rds,FALSE,red = sailing
+30,City of Norwich,1946-04-01,1/4,arrival,philadelphia,Phil,FALSE,black = arrival
+31,City of Norwich,1946-04-03,3/4,sailing,philadelphia,,TRUE,red = sailing
+32,City of Norwich,1946-04-04,4/4,arrival,new-york,N.Y.,FALSE,black = arrival
+33,City of Norwich,1946-04-21,21/4,sailing,new-york,,TRUE,red = sailing
+34,City of Norwich,1946-04-22,22/4,arrival,hampton-rds,Hamp Rds,FALSE,black = arrival
+35,City of Norwich,1946-04-24,24/4,sailing,hampton-rds,,TRUE,red = sailing
+36,City of Norwich,1946-04-24,24/4,arrival,newport-news,Npt News,FALSE,"black = arrival, same day"
+37,City of Norwich,1946-04-30,30/4,arrival,curacao,Curac,FALSE,black = arrival
+38,City of Norwich,1946-05-01,1/5,sailing,curacao,,TRUE,red = sailing
+39,City of Norwich,1946-05-05,5/5,arrival,bristol,Brist,FALSE,black = arrival
+40,City of Norwich,1946-05-05,5/5,sailing,balboa,Balb,FALSE,"red = sailing, same day - reads as a citation for transiting Balboa (Pacific end of the Panama Canal) rather than a Bristol departure, given the date coincidence with the Bristol arrival above"
+41,City of Norwich,1946-05-14,14/5,arrival,los-angeles,Los A,FALSE,black = arrival
+42,City of Norwich,1946-05-21,21/5,sailing,los-angeles,,TRUE,red = sailing
+43,City of Norwich,1946-05-30,30/5,arrival,pearl-harbor,Pearl Hbr,FALSE,"black = arrival. NEW PORT (Pearl Harbor, Hawaii)"
+44,City of Norwich,1946-05-29,29/5,note,,,FALSE,"UNCERTAIN - a circled note reading approximately 'Hond[uras]' or, more plausibly given Pearl Harbor sits in Honolulu harbour, 'Honolulu', with dates '29/5' and '30/5' alongside. Not confidently resolved to either port_id; kept as a flagged note rather than guessed. Card ends 'P.T.O.' (second side not yet transcribed). Captain D. Cameron throughout (from 23.8.45, re-confirmed 8.4.46); a struck-through 'R.B. May' appears above the captain entries, apparently an error"
