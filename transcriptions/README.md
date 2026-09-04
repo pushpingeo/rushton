@@ -835,3 +835,25 @@ convention is known.
   1949), damaging the rudder and propeller, and put into Karachi 2 March for
   repairs. Continued on Card No 11 (not yet identified). New ports added to
   `ports.csv`: Davao, Tacloban, Tabako, Boulogne.
+
+- **IMG_5662** — 129 rows, Jan 1947 to Apr 1948. **City of Chester (Motor)**,
+  Card No 3, First Side — **fills a gap flagged since IMG_5628**: that
+  card's own notes said a first side and a Card No 3 should exist but
+  weren't found among the scans; this is that Card No 3 (built 1944, 4954
+  tons — matches). A different, later card template: no black/red
+  handwritten grid at all, entirely typed/pasted strips plus a column of
+  blue margin notes; the footer uses "Master" instead of "Captain" and adds
+  a "Built" field. An extensive round-the-world circuit: South Africa
+  (Table Bay/Port Elizabeth/East London/Durban/Lourenco Marques/Beira,
+  repeated several times), Walvis Bay, Antwerp/Plymouth, a transatlantic
+  Canada run (Quebec/Montreal), New York/Hampton Rds/Curacao, a Panama Canal
+  transit, Los Angeles, the Philippines (Manila/Tabako/Cebu/Davao) and Far
+  East (Hong Kong/Shanghai), Singapore/Malaya (Port Swettenham/Penang),
+  Colombo, Aden/Suez, home to London/Liverpool/Glasgow, then a second South
+  Africa lap into 1948, US East Coast again (a new port, **Trinidad** — New
+  York/Baltimore/Philadelphia), and finally a third South Africa lap ending
+  at a new port, **Mozambique** (the historic port city, distinct from the
+  country name). Two incidents in blue: touching a mudbank off Tilbury
+  (Sept 1947) and a collision near New York (24-25 May 1948, damage
+  assessed, sailed again 28 May). New ports added to `ports.csv`: Trinidad,
+  Mozambique.

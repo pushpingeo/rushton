@@ -1,0 +1,132 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Chester (Motor),,,note,,,FALSE,"CARD NO 3, FIRST SIDE - this fills a gap flagged all the way back on IMG_5628: that card (Card No 2, Second Side) noted 'a first side should exist too... Continues onto card No 3', and no Card 3 had been found until now. Different card template to the earlier City of Chester cards: no black/red handwritten grid at all, just typed/pasted strips throughout plus a column of blue notes; the ship-info footer uses 'Master' and adds a 'Built' column (1944). Master R.P. Longstaff throughout (dated 2.1.44, re-confirmed 15.8.44 and 30.10.44 per the footer - all read as 1944 despite the card's own entries running 1947-48, implying several years without a re-confirmation citation)"
+2,City of Chester (Motor),1947-01-10,Jan 10,sailing,london,London,FALSE,typed: Sd London
+3,City of Chester (Motor),1947-01-27,Jan 27,arrival,table-bay,Table Bay,FALSE,typed: Ar Table Bay
+4,City of Chester (Motor),1947-01-29,Jan 29,sailing,table-bay,,TRUE,typed: Sd Table Bay
+5,City of Chester (Motor),1947-01-30,Jan 30,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth
+6,City of Chester (Motor),1947-01-31,Jan 31,sailing,port-elizabeth,,TRUE,typed: Sd Port Elizabeth
+7,City of Chester (Motor),1947-02-01,Feb 1,arrival,east-london,East London,FALSE,typed: Ar East London
+8,City of Chester (Motor),1947-02-01,Feb 1,sailing,east-london,,TRUE,"typed: Sd East London, same day"
+9,City of Chester (Motor),1947-02-02,Feb 2,arrival,durban,Durban,FALSE,typed: Ar Durban
+10,City of Chester (Motor),1947-02-07,Feb 7,sailing,durban,,TRUE,typed: Sd Durban
+11,City of Chester (Motor),1947-02-08,Feb 8,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques
+12,City of Chester (Motor),1947-02-11,Feb 11,sailing,lourenco-marques,,TRUE,typed: Sd Lour Marques
+13,City of Chester (Motor),1947-02-13,Feb 13,arrival,beira,Beira,FALSE,typed: Ar Beira
+14,City of Chester (Motor),1947-03-01,Mar 1,sailing,beira,,TRUE,typed: Sd Beira
+15,City of Chester (Motor),1947-03-03,Mar 3,arrival,durban,Durban,FALSE,typed: Ar Durban
+16,City of Chester (Motor),1947-03-05,Mar 5,sailing,durban,,TRUE,typed: Sd Durban
+17,City of Chester (Motor),1947-03-06,Mar 6,arrival,east-london,East London,FALSE,typed: Ar East London
+18,City of Chester (Motor),1947-03-08,Mar 8,sailing,east-london,,TRUE,typed: Sd East London
+19,City of Chester (Motor),1947-03-09,Mar 9,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth
+20,City of Chester (Motor),1947-03-10,Mar 10,sailing,port-elizabeth,,TRUE,typed: Sd Port Elizabeth
+21,City of Chester (Motor),1947-03-11,Mar 11,arrival,table-bay,Table Bay,FALSE,typed: Ar Table Bay
+22,City of Chester (Motor),1947-03-14,Mar 14,sailing,table-bay,,TRUE,typed: Sd Table Bay
+23,City of Chester (Motor),1947-03-16,Mar 16,arrival,walvis-bay,Walvis Bay,FALSE,typed: Ar Walvis Bay
+24,City of Chester (Motor),1947-03-19,Mar 19,sailing,walvis-bay,,TRUE,typed: Sd Walvis Bay
+25,City of Chester (Motor),1947-04-04,Apr 4,arrival,london,London,FALSE,typed: Ar London
+26,City of Chester (Motor),1947-04-17,Apr 17,sailing,london,,TRUE,typed: Sd London
+27,City of Chester (Motor),1947-04-18,Apr 18,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp
+28,City of Chester (Motor),1947-04-25,Apr 25,sailing,antwerp,,TRUE,typed: Sd Antwerp
+29,City of Chester (Motor),1947-04-26,Apr 26,arrival,plymouth,Plymouth,FALSE,typed: Ar Plymouth
+30,City of Chester (Motor),1947-04-26,Apr 26,sailing,plymouth,,TRUE,"typed: Sd Plymouth, same day"
+31,City of Chester (Motor),1947-05-04,May 4,arrival,quebec,Quebec,FALSE,typed: Ar Quebec
+32,City of Chester (Motor),1947-05-05,May 5,arrival,montreal,Montreal,FALSE,typed: Ar Montreal
+33,City of Chester (Motor),1947-05-11,May 11,sailing,montreal,,TRUE,typed: Sd Montreal
+34,City of Chester (Motor),1947-05-11,May 11,sailing,quebec,,TRUE,"typed: Sd Quebec, same day"
+35,City of Chester (Motor),1947-05-15,May 15,arrival,new-york,New York,FALSE,typed: Ar New York
+36,City of Chester (Motor),1947-05-22,May 22,arrival,new-york,New York,FALSE,"typed: Ar New York, a second citation - see also the blue margin notes (seq 46-ish) describing a collision around 24-25 May near New York"
+37,City of Chester (Motor),1947-05-22,May 22,sailing,new-york,,TRUE,"typed: Sd New York, same day"
+38,City of Chester (Motor),1947-05-23,May 23,arrival,hampton-rds,Hampton Rds,FALSE,typed: Ar Hampton Rds
+39,City of Chester (Motor),1947-05-24,May 24,sailing,hampton-rds,,TRUE,typed: Sd Hampton Rds
+40,City of Chester (Motor),1947-05-28,May 28,arrival,curacao,Curacao,FALSE,typed: Ar Curacao
+41,City of Chester (Motor),1947-05-29,May 29,sailing,curacao,,TRUE,typed: Sd Curacao
+42,City of Chester (Motor),1947-05-31,May 31,note,,cristobal,FALSE,typed: Pd Cristobal (passed - Panama Canal transit)
+43,City of Chester (Motor),1947-06-08,June 8,arrival,los-angeles,Los Angeles,FALSE,typed: Ar Los Angeles
+44,City of Chester (Motor),1947-06-11,June 11,sailing,los-angeles,,TRUE,typed: Sd Los Angeles
+45,City of Chester (Motor),1947-06-30,June 30,arrival,manila,Manila,FALSE,typed: Ar Manila
+46,City of Chester (Motor),1947-07-05,July 5,sailing,manila,,TRUE,typed: Sd Manila
+47,City of Chester (Motor),1947-07-07,July 7,arrival,hong-kong,Hongkong,FALSE,typed: Ar Hongkong
+48,City of Chester (Motor),1947-07-09,July 9,sailing,hong-kong,,TRUE,typed: Sd Hongkong
+49,City of Chester (Motor),1947-07-11,July 11,arrival,shanghai,Shanghai,FALSE,typed: Ar Shanghai
+50,City of Chester (Motor),1947-07-16,July 16,sailing,shanghai,,TRUE,typed: Sd Shanghai
+51,City of Chester (Motor),1947-07-18,July 18,arrival,hong-kong,Hongkong,FALSE,typed: Ar Hongkong
+52,City of Chester (Motor),1947-07-20,July 20,sailing,hong-kong,,TRUE,typed: Sd Hongkong
+53,City of Chester (Motor),1947-07-23,July 23,arrival,manila,Manila,FALSE,typed: Ar Manila
+54,City of Chester (Motor),1947-07-24,July 24,sailing,manila,,TRUE,typed: Sd Manila
+55,City of Chester (Motor),1947-07-25,July 25,arrival,tabako,Tabako,FALSE,typed: Ar Tabako
+56,City of Chester (Motor),1947-07-29,July 29,sailing,tabako,,TRUE,typed: Sd Tabako
+57,City of Chester (Motor),1947-07-30,July 30,arrival,cebu,Cebu,FALSE,typed: Ar Cebu
+58,City of Chester (Motor),1947-07-30,July 30,sailing,cebu,,TRUE,"typed: Sd Cebu, same day"
+59,City of Chester (Motor),1947-08-01,Aug 1,arrival,davao,Davao,FALSE,typed: Ar Davao
+60,City of Chester (Motor),1947-08-01,Aug 1,sailing,davao,,TRUE,"typed: Sd Davao, same day"
+61,City of Chester (Motor),1947-08-05,Aug 5,arrival,singapore,Singapore,FALSE,typed: Ar Singapore
+62,City of Chester (Motor),1947-08-13,Aug 13,sailing,singapore,,TRUE,typed: Sd Singapore
+63,City of Chester (Motor),1947-08-14,Aug 14,arrival,port-swettenham,Port Swettenham,FALSE,typed: Ar Port Swettenham
+64,City of Chester (Motor),1947-08-15,Aug 15,sailing,port-swettenham,,TRUE,typed: Sd Port Swettenham
+65,City of Chester (Motor),1947-08-15,Aug 15,arrival,penang,Penang,FALSE,"typed: Ar Penang, same day"
+66,City of Chester (Motor),1947-08-18,Aug 18,sailing,penang,,TRUE,typed: Sd Penang
+67,City of Chester (Motor),1947-08-22,Aug 22,arrival,colombo,Colombo,FALSE,typed: Ar Colombo
+68,City of Chester (Motor),1947-08-24,Aug 24,sailing,colombo,,TRUE,typed: Sd Colombo
+69,City of Chester (Motor),1947-08-31,Aug 31,arrival,aden,Aden,FALSE,typed: Ar Aden
+70,City of Chester (Motor),1947-09-01,Sept 1,sailing,aden,,TRUE,typed: Sd Aden
+71,City of Chester (Motor),1947-09-04,Sept 4,arrival,suez,Suez,FALSE,typed: Ar Suez
+72,City of Chester (Motor),1947-09-05,Sept 5,sailing,port-said,Port Said,FALSE,typed: Sd Port Said
+73,City of Chester (Motor),1947-09-14,Sept 14,arrival,london,London,FALSE,typed: Ar London
+74,City of Chester (Motor),1947-09-25,Sept 25,note,,,FALSE,"Small cross/dagger mark against 'Sept 25' in the typed strip, meaning not established (possibly a citation of the London call above rather than a separate incident)"
+75,City of Chester (Motor),1947-09-29,Sept 29,sailing,london,,TRUE,typed: Sd London
+76,City of Chester (Motor),1947-10-01,Oct 1,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool
+77,City of Chester (Motor),1947-10-04,Oct 4,sailing,liverpool,,TRUE,typed: Sd Liverpool
+78,City of Chester (Motor),1947-10-05,Oct 5,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow
+79,City of Chester (Motor),1947-10-18,Oct 18,sailing,glasgow,,TRUE,typed: Sd Glasgow
+80,City of Chester (Motor),1947-10-19,Oct 19,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool
+81,City of Chester (Motor),1947-11-07,Nov 7,sailing,liverpool,,TRUE,typed: Sd Liverpool
+82,City of Chester (Motor),1947-11-23,Nov 23,arrival,table-bay,Table Bay,FALSE,typed: Ar Table Bay
+83,City of Chester (Motor),1947-11-26,Nov 26,sailing,table-bay,,TRUE,typed: Sd Table Bay
+84,City of Chester (Motor),1947-11-27,Nov 27,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth
+85,City of Chester (Motor),1947-11-27,—,sailing,port-elizabeth,,TRUE,"typed: Sd Port Elizabeth, day left blank ('—') on the strip itself"
+86,City of Chester (Motor),1947-12-01,Dec 1,arrival,east-london,East London,FALSE,typed: Ar East London
+87,City of Chester (Motor),1947-12-02,Dec 2,sailing,east-london,,TRUE,typed: Sd East London
+88,City of Chester (Motor),1947-12-03,Dec 3,arrival,durban,Durban,FALSE,typed: Ar Durban
+89,City of Chester (Motor),1947-12-11,Dec 11,sailing,durban,,TRUE,typed: Sd Durban
+90,City of Chester (Motor),1947-12-12,Dec 12,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques
+91,City of Chester (Motor),1947-12-12,Dec 12,sailing,lourenco-marques,,TRUE,"typed: Sd Lour Marques, same day (next strip, direct continuity)"
+92,City of Chester (Motor),1947-12-16,Dec 16,arrival,mombasa,Mombasa,FALSE,typed: Ar Mombasa
+93,City of Chester (Motor),1947-12-22,Dec 22,sailing,mombasa,,TRUE,typed: Sd Mombasa
+94,City of Chester (Motor),1947-12-27,Dec 27,arrival,durban,Durban,FALSE,"typed: Ar Durban. Year changes to 1948 here, boxed between the reference columns"
+95,City of Chester (Motor),1948-01-01,Jan 1,sailing,durban,,TRUE,typed: Sd Durban
+96,City of Chester (Motor),1948-01-02,Jan 2,arrival,east-london,East London,FALSE,typed: Ar East London
+97,City of Chester (Motor),1948-01-02,Jan 2,sailing,east-london,,TRUE,"typed: Sd East London, same day"
+98,City of Chester (Motor),1948-01-03,Jan 3,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth
+99,City of Chester (Motor),1948-01-03,Jan 3,sailing,port-elizabeth,,TRUE,"typed: Sd Port Elizabeth, same day"
+100,City of Chester (Motor),1948-01-04,Jan 4,arrival,mossel-bay,Mossel Bay,FALSE,typed: Ar Mossel Bay
+101,City of Chester (Motor),1948-01-05,Jan 5,sailing,mossel-bay,,TRUE,typed: Sd Mossel Bay
+102,City of Chester (Motor),1948-01-06,Jan 6,arrival,table-bay,Table Bay,FALSE,typed: Ar Table Bay
+103,City of Chester (Motor),1948-01-06,Jan 6,sailing,table-bay,,TRUE,"typed: Sd Table Bay, same day"
+104,City of Chester (Motor),1948-01-19,Jan 19,arrival,trinidad,Trinidad,FALSE,"typed: Ar Trinidad. NEW PORT (Trinidad)"
+105,City of Chester (Motor),1948-01-20,Jan 20,sailing,trinidad,,TRUE,typed: Sd Trinidad
+106,City of Chester (Motor),1948-01-25,Jan 25,arrival,new-york,New York,FALSE,typed: Ar New York
+107,City of Chester (Motor),1948-02-10,Feb 10,sailing,new-york,,TRUE,typed: Sd New York
+108,City of Chester (Motor),1948-02-11,Feb 11,arrival,baltimore,Baltimore,FALSE,typed: Ar Baltimore
+109,City of Chester (Motor),1948-02-14,Feb 14,sailing,baltimore,,TRUE,typed: Sd Baltimore
+110,City of Chester (Motor),1948-02-15,Feb 15,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia
+111,City of Chester (Motor),1948-02-16,Feb 16,sailing,philadelphia,,TRUE,typed: Sd Philadelphia
+112,City of Chester (Motor),1948-02-17,Feb 17,arrival,new-york,New York,FALSE,typed: Ar New York
+113,City of Chester (Motor),1948-02-26,Feb 26,sailing,new-york,,TRUE,typed: Sd New York
+114,City of Chester (Motor),1948-02-27,Feb 27,arrival,hampton-rds,Hampton Rds,FALSE,typed: Ar Hampton Rds
+115,City of Chester (Motor),1948-02-27,Feb 27,sailing,hampton-rds,,TRUE,"typed: Sd Hampton Rds, same day"
+116,City of Chester (Motor),1948-02-28,Feb 28,arrival,baltimore,Baltimore,FALSE,typed: Ar Baltimore
+117,City of Chester (Motor),1948-02-29,Feb 29,sailing,baltimore,,TRUE,typed: Sd Baltimore
+118,City of Chester (Motor),1948-03-18,Mar 18,arrival,table-bay,Table Bay,FALSE,typed: Ar Table Bay
+119,City of Chester (Motor),1948-03-19,Mar 19,sailing,table-bay,,TRUE,typed: Sd Table Bay
+120,City of Chester (Motor),1948-03-21,Mar 21,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth
+121,City of Chester (Motor),1948-03-22,Mar 22,sailing,port-elizabeth,,TRUE,typed: Sd Port Elizabeth
+122,City of Chester (Motor),1948-03-23,Mar 23,arrival,east-london,East London,FALSE,typed: Ar East London
+123,City of Chester (Motor),1948-03-23,Mar 23,sailing,east-london,,TRUE,"typed: Sd East London, same day"
+124,City of Chester (Motor),1948-03-24,Mar 24,arrival,durban,Durban,FALSE,typed: Ar Durban
+125,City of Chester (Motor),1948-03-27,Mar 27,sailing,durban,,TRUE,typed: Sd Durban
+126,City of Chester (Motor),1948-03-28,Mar 28,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques
+127,City of Chester (Motor),1948-03-30,Mar 30,sailing,lourenco-marques,,TRUE,typed: Sd Lour Marques
+128,City of Chester (Motor),1948-04-01,Apr 1,arrival,mozambique-island,Mozambique,FALSE,"typed: Ar Mozambique. NEW PORT (Mozambique Island/city, distinct from the country)"
+129,City of Chester (Motor),1948-04-04,Apr 4,sailing,mozambique-island,,TRUE,"typed: Sd Mozambique. Card ends here (bottom of the last strip); no 'P.T.O.' visible, second side status unclear"
+130,City of Chester (Motor),1947-09-14,14/9,note,,,FALSE,"UNCERTAIN - blue margin note: 'touched mudbank off 25 off Tilbury', with citations '(Lo.) 24/9' and '14/9'. The ship touched a mudbank off Tilbury (Thames Estuary) around September 1947, roughly matching the typed strip's own London call (Ar London Sept 14) - likely describing the same visit"
+131,City of Chester (Motor),1948-05-24,24-25/5,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue notes read '[I]n collision on [?] 25' near 'May 24', then 'New York 26/5 p.c.', 'the damage 28 sailed', 'May 28 sailed', 'New York 27/5 26/5'. Read together: a collision around 24-25 May 1948, close to the ship's own two New York citations that same week (seq 36-37), with damage assessed and the ship sailing again by 28 May. Not resolved into a single precise account"
