@@ -763,3 +763,19 @@ convention is known.
   notes) to Bombay/Mormugao/Karachi/Bedi Bunder and back via Suez/Gibraltar/
   Hull to Antwerp. Card ends "Contd on Card No 13" (not yet identified). New
   ports added to `ports.csv`: Kuwait, Basra, River Tyne.
+
+- **IMG_5658** — 91 rows, 2 Jun 1946 to c. Mar 1948. **NEW SHIP: City of
+  Leicester** (net tonnage 1994 — much smaller than City of Norwich/Rangoon/
+  Newcastle, a Mediterranean/Aegean coaster rather than an ocean-going
+  tramp), Card No 13, First Side — continues an unseen Card No 12, Second
+  Side; earlier cards not yet identified. A stokeroom fire incident (blue
+  note, June 1946). The handwritten 1946 portion covers Gibraltar/Liverpool/
+  Istanbul/Izmir with several unresolved codes ("Dss", "V.mtg"). From early
+  1947 the card switches to clean typed/pasted strips covering an extensive
+  Mediterranean/Aegean coasting trade: Patras, Kalamata, Piraeus, Volo,
+  Izmir, Istanbul, Vostizza, Katakolo (all new ports except Piraeus/
+  Istanbul/Izmir), Gibraltar, London/Cardiff/Liverpool, then Malta, Trieste,
+  Venice, Split, Brindisi, Syracuse (all new), Tyne/Hull, and finally
+  Bandirma and Kuluk (both new) in early 1948, card ending mid-strip. New
+  ports added to `ports.csv`: Izmir, Patras, Kalamata, Volo, Vostizza,
+  Katakolo, Venice, Split, Syracuse, Bandirma, Kuluk (tentative).

@@ -1,0 +1,92 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Leicester,1946-06-02,2/6,arrival,gibraltar,Gib,FALSE,"black = arrival. NEW SHIP - first appearance of City of Leicester in the collection (net tonnage 1994, much smaller than City of Norwich/Rangoon/Newcastle - a Mediterranean/Aegean coaster rather than an ocean-going tramp). Card headed 'No 13 (first side)', 'Contd' - continues an unseen Card No 12, Second Side for this ship; earlier cards not yet identified"
+2,City of Leicester,1946-06-07,7/6,arrival,liverpool,Liv,FALSE,black = arrival
+3,City of Leicester,1946-07-16,16/7,sailing,liverpool,,TRUE,"red = sailing. About five weeks docked at Liverpool, unexplained"
+4,City of Leicester,,25,note,,,FALSE,"UNCERTAIN - blue note with a checkmark, reading approximately 'Re sailing cargo... 25... at Gib[raltar] 14/12' - meaning and date not fully resolved"
+5,City of Leicester,1946-07-27,27/7,note,,,FALSE,Blue citation '(Lo.) 27/7' - a Lloyd's Agent report
+6,City of Leicester,1946-07-29,29/7,arrival,istanbul,Istan,FALSE,black = arrival
+7,City of Leicester,1946-08-21,21/8,sailing,istanbul,,TRUE,red = sailing
+8,City of Leicester,1946-08-31,31/8,arrival,izmir,Izmir,FALSE,"UNCERTAIN colour - reads red, unusual for an arrival; kept as read"
+9,City of Leicester,1946-09-07,7/9,arrival,gibraltar,Gib,FALSE,black = arrival
+10,City of Leicester,1946-09-07,7/9,sailing,gibraltar,,TRUE,"red = sailing, same day"
+11,City of Leicester,1946-09-18,18/9,note,,,FALSE,Blue citation '(Lo) 18/9'
+12,City of Leicester,1946-10-10,10/10,sailing,,,TRUE,"red = sailing, port carried from context rather than explicitly named"
+13,City of Leicester,1946-10-11,11/10,note,,,FALSE,Blue citation '(Lo) 11/10'
+14,City of Leicester,1946-10-11,11/10,arrival,odessa,Dss,FALSE,"UNCERTAIN - black = arrival, reads 'Dss'. Tentatively resolved to Odessa (ports.csv code 'Ods') on the assumption of a letter-order misreading, not confirmed"
+15,City of Leicester,1946-10-16,16/10,arrival,gibraltar,Gib,FALSE,black = arrival
+16,City of Leicester,1946-10-29,29/10,arrival,piraeus,Pir,FALSE,black = arrival
+17,City of Leicester,1946-11-04,4/11,sailing,istanbul,S.Istan,FALSE,"UNCERTAIN - black, prefixed 'S.' which may mark a sailing (matching the typed strips' 'Sd' convention) despite the black ink; kept as read rather than reassigned to red"
+18,City of Leicester,1946-11-11,11/11,sailing,istanbul,,TRUE,red = sailing
+19,City of Leicester,1946-11-16,16/11,arrival,kuluk,Kulek,FALSE,"black = arrival. NEW PORT (Kuluk) - card spells it 'Kulek', matching the later typed strip's 'Kuluk'"
+20,City of Leicester,1946-12-07,7/12,sailing,izmir,S.Izmir (PREV),FALSE,"black, prefixed 'S.' and annotated '(PREV)' - same unexplained annotation style as earlier cards"
+21,City of Leicester,1946-11-25,25/11,sailing,izmir,S.Izmir,FALSE,"UNCERTAIN ordering - dated before (25/11) the entry above it (7/12) despite following it in card position"
+22,City of Leicester,1946-12-09,9/12,arrival,,V.mtg,FALSE,"UNCERTAIN - black = arrival, reads approximately 'V.mtg'. Doesn't match any code in ports.csv; left unresolved"
+23,City of Leicester,1946-12-12,12/12,arrival,patras,Patras,FALSE,black = arrival
+24,City of Leicester,1946-12-17,17/12,sailing,patras,,TRUE,red = sailing
+25,City of Leicester,1946-12-24,24/12,arrival,gibraltar,Gib,FALSE,"UNCERTAIN colour - reads red then black for what appear to be two citations of the same Gibraltar call, same date"
+26,City of Leicester,1946-12-30,30/12,arrival,london,Lo,FALSE,"black = arrival. Year changes to 1947 here, boxed between the reference columns"
+27,City of Leicester,1946-06-01,1-2/6,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue note 'Re fire in stokeroom', dated June 1/2, with further citations '(Lo.) 11/6' and '10/6'. Positioned late in the card's layout despite the June 1946 date - likely a retrospective note added after the fact, describing a stokeroom fire early in the period this card covers"
+28,City of Leicester,1947-02-19,Feb 19,sailing,london,,TRUE,"Typed/pasted strip begins here ('Sd London Feb 19', no year - inferred 1947 from position between the 1946 handwritten entries and the 1947 year box). Full port names, explicit 'Ar'/'Sd' labels, much higher confidence than the handwritten grid above"
+29,City of Leicester,1947-03-02,Mar 2,arrival,patras,Patras,FALSE,typed: Ar Patras
+30,City of Leicester,1947-03-03,Mar 3,sailing,patras,,TRUE,typed: Sd Patras
+31,City of Leicester,1947-03-04,Mar 4,arrival,kalamata,Kalamata,FALSE,"typed: Ar Kalamata. NEW PORT (Kalamata, Greece)"
+32,City of Leicester,1947-03-04,Mar 4,sailing,kalamata,,TRUE,"typed: Sd Kalamata, same day"
+33,City of Leicester,1947-03-05,Mar 5,arrival,piraeus,Piraeus,FALSE,typed: Ar Piraeus
+34,City of Leicester,1947-03-08,Mar 8,sailing,piraeus,,TRUE,typed: Sd Piraeus
+35,City of Leicester,1947-03-09,Mar 9,arrival,volo,Volo,FALSE,"typed: Ar Volo. NEW PORT (Volo/Volos, Greece)"
+36,City of Leicester,1947-03-10,Mar 10,sailing,volo,,TRUE,typed: Sd Volo
+37,City of Leicester,1947-03-11,Mar 11,arrival,izmir,Izmir,FALSE,typed: Ar Izmir
+38,City of Leicester,1947-03-11,Mar 11,sailing,izmir,,TRUE,"typed: Sd Izmir, same day"
+39,City of Leicester,1947-03-13,Mar 13,arrival,istanbul,Istanbul,FALSE,typed: Ar Istanbul
+40,City of Leicester,1947-03-25,Mar 25,sailing,istanbul,,TRUE,typed: Sd Istanbul
+41,City of Leicester,1947-03-29,Mar 29,arrival,kalamata,Kalamata,FALSE,typed: Ar Kalamata
+42,City of Leicester,1947-03-31,Mar 31,sailing,kalamata,,TRUE,typed: Sd Kalamata
+43,City of Leicester,1947-04-01,Apr 1,arrival,vostizza,Vostizza,FALSE,"typed: Ar Vostizza. NEW PORT (Vostizza, old name for Aigio, Greece)"
+44,City of Leicester,1947-04-04,Apr 4,sailing,vostizza,,TRUE,typed: Sd Vostizza
+45,City of Leicester,1947-04-04,Apr 4,arrival,patras,Patras,FALSE,"typed: Ar Patras, same day"
+46,City of Leicester,1947-04-07,Apr 7,sailing,patras,,TRUE,typed: Sd Patras
+47,City of Leicester,1947-04-08,Apr 8,arrival,katakolo,Katakolo,FALSE,"typed: Ar Katakolo. NEW PORT (Katakolo, Greece)"
+48,City of Leicester,1947-04-10,Apr 10,sailing,katakolo,,TRUE,typed: Sd Katakolo
+49,City of Leicester,1947-04-11,Apr 11,arrival,kalamata,Kalamata,FALSE,typed: Ar Kalamata
+50,City of Leicester,1947-04-12,Apr 12,sailing,kalamata,,TRUE,typed: Sd Kalamata
+51,City of Leicester,1947-04-17,Apr 17,arrival,gibraltar,Gibraltar,FALSE,typed: Ar Gibraltar
+52,City of Leicester,1947-04-20,Apr 20,sailing,gibraltar,,TRUE,typed: Sd Gibraltar
+53,City of Leicester,1947-04-25,Apr 25,arrival,london,London,FALSE,typed: Ar London
+54,City of Leicester,1947-10-14,Oct 14,sailing,london,,TRUE,"typed: Sd London (second strip begins here; a roughly six-month gap, Apr-Oct 1947, is unexplained on this card)"
+55,City of Leicester,1947-10-16,Oct 16,arrival,cardiff,Cardiff,FALSE,typed: Ar Cardiff
+56,City of Leicester,1947-10-25,Oct 25,sailing,cardiff,,TRUE,typed: Sd Cardiff
+57,City of Leicester,1947-10-26,Oct 26,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool
+58,City of Leicester,1947-11-01,Nov 1,sailing,liverpool,,TRUE,typed: Sd Liverpool
+59,City of Leicester,1947-11-10,Nov 10,arrival,malta,Malta,FALSE,typed: Ar Malta
+60,City of Leicester,1947-11-16,Nov 16,sailing,malta,,TRUE,typed: Sd Malta
+61,City of Leicester,1947-11-19,Nov 19,arrival,trieste,Trieste,FALSE,typed: Ar Trieste
+62,City of Leicester,1947-11-23,Nov 23,sailing,trieste,,TRUE,typed: Sd Trieste
+63,City of Leicester,1947-11-23,Nov 23,arrival,venice,Venice,FALSE,"typed: Ar Venice, same day. NEW PORT (Venice, Italy)"
+64,City of Leicester,1947-11-25,Nov 25,sailing,venice,,TRUE,typed: Sd Venice
+65,City of Leicester,1947-11-26,Nov 26,arrival,split,Split,FALSE,"typed: Ar Split. NEW PORT (Split, then Yugoslavia)"
+66,City of Leicester,1947-12-04,Dec 4,sailing,split,,TRUE,typed: Sd Split
+67,City of Leicester,1947-12-06,Dec 6,arrival,brindisi,Brindisi,FALSE,typed: Ar Brindisi
+68,City of Leicester,1947-12-07,Dec 7,sailing,brindisi,,TRUE,typed: Sd Brindisi
+69,City of Leicester,1947-12-08,Dec 8,arrival,syracuse,Syracuse,FALSE,"typed: Ar Syracuse. NEW PORT (Syracuse, Sicily)"
+70,City of Leicester,1947-12-13,Dec 13,sailing,syracuse,,TRUE,typed: Sd Syracuse
+71,City of Leicester,1947-12-18,Dec 18,arrival,gibraltar,Gibraltar,FALSE,typed: Ar Gibraltar
+72,City of Leicester,1947-12-18,Dec 18,sailing,gibraltar,,TRUE,"typed: Sd Gibraltar, same day"
+73,City of Leicester,1947-12-24,Dec 24,arrival,river-tyne,Tyne,FALSE,typed: Ar Tyne
+74,City of Leicester,1947-12-28,Dec 28,sailing,river-tyne,,TRUE,typed: Sd Tyne
+75,City of Leicester,1947-12-28,Dec 28,arrival,hull,Hull,FALSE,"typed: Ar Hull, same day"
+76,City of Leicester,1948-01-02,Jan 2,sailing,hull,,TRUE,"typed: Sd Hull (third strip begins here, inferred 1948 from the year box on the card)"
+77,City of Leicester,1948-01-03,Jan 3,arrival,london,London,FALSE,typed: Ar London
+78,City of Leicester,1948-01-22,Jan 22,sailing,london,,TRUE,typed: Sd London
+79,City of Leicester,1948-01-31,Jan 31,arrival,malta,Malta,FALSE,typed: Ar Malta
+80,City of Leicester,1948-02-04,Feb 4,sailing,malta,,TRUE,typed: Sd Malta
+81,City of Leicester,1948-02-06,Feb 6,arrival,kalamata,Kalamata,FALSE,typed: Ar Kalamata
+82,City of Leicester,1948-02-06,Feb 6,sailing,kalamata,,TRUE,"typed: Sd Kalamata, same day"
+83,City of Leicester,1948-02-07,Feb 7,arrival,piraeus,Piraeus,FALSE,typed: Ar Piraeus
+84,City of Leicester,1948-02-13,Feb 13,sailing,piraeus,,TRUE,typed: Sd Piraeus
+85,City of Leicester,1948-02-17,Feb 17,arrival,istanbul,Istanbul,FALSE,typed: Ar Istanbul
+86,City of Leicester,1948-03-03,Mar 3,sailing,istanbul,,TRUE,typed: Sd Istanbul
+87,City of Leicester,1948-03-01,Mar —,arrival,bandirma,Bandirma,FALSE,"typed: Ar Bandirma, day left blank on the strip itself ('Mar —'). NEW PORT (Bandirma, Turkey). Date approximated to early March"
+88,City of Leicester,1948-03-06,Mar 6,sailing,bandirma,,TRUE,typed: Sd Bandirma
+89,City of Leicester,1948-03-01,Mar —,arrival,izmir,Izmir,FALSE,"typed: Ar Izmir, day left blank on the strip ('Mar —'). Date approximated to early March"
+90,City of Leicester,1948-03-08,Mar 8,sailing,izmir,,TRUE,typed: Sd Izmir
+91,City of Leicester,1948-03-01,Mar —,arrival,kuluk,Kuluk,FALSE,"typed: Ar Kuluk, day left blank on the strip ('Mar —'). Card ends here, 'P.T.O.' (second side not yet transcribed). Captains recorded in footer: T.D. Handley (8.4.46), W.F. Wilson (14.2.47), T.D. Handley again (9.10.47)"
