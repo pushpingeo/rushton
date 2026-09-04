@@ -1,0 +1,104 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Leicester,,,note,,,FALSE,"Card headed 'No 13 (second side)', directly continues IMG_5658. Ship info corrected on this card: net tonnage '1994' struck through, replaced with '1975'; Port of Registry 'London' struck through, replaced with 'Liverpool'. Entirely typed/pasted strips plus a column of blue handwritten incident notes down the left margin - no ordinary handwritten grid entries on this side. STRUCTURAL NOTE: the pasted strips are not laid out in a single obvious reading order (year boxes for 1948 and 1949 appear at multiple points across the card's width). The ordering below is reconstructed from port-to-port continuity (each strip's first port matches the previous strip's last port) rather than strict left-to-right position, and is offered with that caveat - see individual seq notes where the year is inferred rather than read directly"
+2,City of Leicester,1948-03-01,Mar —,sailing,kuluk,Kuluk,FALSE,"typed: Sd Kuluk, day left blank ('Mar —'). Continues directly from IMG_5658's final entry (Ar Kuluk, Mar —)"
+3,City of Leicester,1948-03-16,Mar 16,arrival,sitia,Sitia,FALSE,"typed: Ar Sitia. NEW PORT (Sitia, Crete)"
+4,City of Leicester,1948-03-01,Mar —,sailing,sitia,,TRUE,"typed: Sd Sitia, day left blank"
+5,City of Leicester,1948-03-19,Mar 19,arrival,heraklion,Heraklion,FALSE,"typed: Ar Heraklion. NEW PORT (Heraklion, Crete)"
+6,City of Leicester,1948-03-31,Mar 31,sailing,heraklion,,TRUE,typed: Sd Heraklion
+7,City of Leicester,1948-03-31,Mar 31,arrival,suda-bay,Suda Bay,FALSE,"typed: Ar Suda Bay, same day. NEW PORT (Suda Bay, Crete)"
+8,City of Leicester,1948-04-03,Apr 3,sailing,suda-bay,,TRUE,typed: Sd Suda Bay
+9,City of Leicester,1948-04-04,Apr 4,arrival,kalamata,Kalamata,FALSE,typed: Ar Kalamata
+10,City of Leicester,1948-04-07,Apr 7,sailing,kalamata,,TRUE,typed: Sd Kalamata
+11,City of Leicester,1948-04-11,Apr 11,arrival,algiers,Algiers,FALSE,typed: Ar Algiers
+12,City of Leicester,1948-04-12,Apr 12,sailing,algiers,,TRUE,typed: Sd Algiers
+13,City of Leicester,1948-04-19,Apr 19,arrival,london,London,FALSE,"typed: Ar London. A handwritten '1949' year box follows in the margin here, though the very next typed line (seq 15) is dated Apr 29 - only ten days later, suggesting these are the same spring, most likely still 1948 sliding into citation-year 1949 rather than a full year gap"
+14,City of Leicester,1948-04-19,19/4,note,,liverpool,FALSE,"Blue margin note 'Liverpool 19/4' sitting just before the 1949 box - relationship to the typed Apr 19 London arrival above is unclear; possibly a separate citation, not confidently placed"
+15,City of Leicester,1949-04-29,Apr 29,sailing,london,,TRUE,typed: Sd London
+16,City of Leicester,1949-04-30,Apr 30,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp
+17,City of Leicester,1949-05-05,May 5,sailing,antwerp,,TRUE,typed: Sd Antwerp
+18,City of Leicester,1949-05-06,May 6,arrival,london,London,FALSE,typed: Ar London
+19,City of Leicester,1949-05-21,May 21,sailing,london,,TRUE,typed: Sd London
+20,City of Leicester,1949-05-31,May 31,arrival,patras,Patras,FALSE,typed: Ar Patras
+21,City of Leicester,1949-05-31,May 31,sailing,patras,,TRUE,"typed: Sd Patras, same day"
+22,City of Leicester,1949-06-01,June 1,arrival,piraeus,Piraeus,FALSE,"typed: Ar Piraeus. A small cross/dagger mark in the strip reads '✝ June 5, July 20' - see seq 23-24 for the matching blue margin notes describing a collision and repairs"
+23,City of Leicester,1949-06-05,June 5,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - blue margin note reads '[In/a] collision' dated June 5, with 'Piraeus 4/6' just below - a collision at or near Piraeus"
+24,City of Leicester,1949-07-20,20/7 - 28/7,note,,,FALSE,"Blue margin note: 'the damage & repairs, July 20/28' - repair period following the June 5 collision, matching the strip's own '✝ ... July 20' mark"
+25,City of Leicester,1949-06-04,June 4,sailing,piraeus,,TRUE,typed: Sd Piraeus
+26,City of Leicester,1949-06-06,June 6,arrival,istanbul,Istanbul,FALSE,typed: Ar Istanbul
+27,City of Leicester,1949-06-17,June 17,sailing,istanbul,,TRUE,typed: Sd Istanbul
+28,City of Leicester,1949-06-22,June 22,arrival,izmir,Izmir,FALSE,typed: Ar Izmir
+29,City of Leicester,1949-06-22,June 22,sailing,izmir,,TRUE,"typed: Sd Izmir, same day"
+30,City of Leicester,1949-06-24,June 24,arrival,patras,Patras,FALSE,typed: Ar Patras
+31,City of Leicester,1949-07-01,July 1,sailing,patras,,TRUE,typed: Sd Patras
+32,City of Leicester,1949-07-05,July 5,arrival,valencia,Valencia,FALSE,typed: Ar Valencia
+33,City of Leicester,1949-07-07,July 7,sailing,valencia,,TRUE,typed: Sd Valencia
+34,City of Leicester,1949-07-09,July 9,arrival,gibraltar,Gibraltar,FALSE,typed: Ar Gibraltar
+35,City of Leicester,1949-07-10,July 10,sailing,gibraltar,,TRUE,typed: Sd Gibraltar
+36,City of Leicester,1949-07-16,July 16,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool
+37,City of Leicester,1949-08-07,Aug 7,sailing,liverpool,,TRUE,"typed: Sd Liverpool (next strip - port continuity with the Liverpool arrival above confirms same year, 1949)"
+38,City of Leicester,1949-08-18,Aug 18,arrival,piraeus,Piraeus,FALSE,typed: Ar Piraeus
+39,City of Leicester,1949-08-26,Aug 26,sailing,piraeus,,TRUE,typed: Sd Piraeus
+40,City of Leicester,1949-08-30,Aug 30,arrival,algiers,Algiers,FALSE,typed: Ar Algiers
+41,City of Leicester,1949-09-08,Sept 8,sailing,algiers,,TRUE,typed: Sd Algiers
+42,City of Leicester,1949-09-17,Sept 17,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro
+43,City of Leicester,1949-10-02,Oct 2,sailing,middlesbrough,,TRUE,"typed: Sd Middlesbro (next strip, direct port continuity)"
+44,City of Leicester,1949-10-03,Oct 3,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp
+45,City of Leicester,1949-10-06,Oct 6,sailing,antwerp,,TRUE,typed: Sd Antwerp
+46,City of Leicester,1949-10-07,Oct 7,arrival,london,London,FALSE,typed: Ar London
+47,City of Leicester,1949-10-16,Oct 16,sailing,london,,TRUE,typed: Sd London
+48,City of Leicester,1949-10-29,Oct 29,arrival,alexandria,Alexandria,FALSE,typed: Ar Alexandria
+49,City of Leicester,1949-11-04,Nov 4,sailing,alexandria,,TRUE,typed: Sd Alexandria
+50,City of Leicester,1949-11-05,Nov 5,arrival,beirut,Beirut,FALSE,"typed: Ar Beirut. NEW PORT (Beirut, Lebanon)"
+51,City of Leicester,1949-11-06,Nov 6,sailing,beirut,,TRUE,typed: Sd Beirut
+52,City of Leicester,1949-11-07,Nov 7,arrival,tripoli-lebanon,Tripoli (Lebanon),FALSE,"typed: Ar Tripoli (Lebanon). NEW PORT - the card explicitly disambiguates this from Tripoli, Libya"
+53,City of Leicester,1949-11-10,Nov 10,sailing,tripoli-lebanon,,TRUE,typed: Sd Tripoli (Lebanon)
+54,City of Leicester,1949-11-11,Nov 11,arrival,limassol,Limasol,FALSE,"typed: Ar Limasol. NEW PORT (Limassol, Cyprus) - card spells it 'Limasol'"
+55,City of Leicester,1949-11-11,Nov 11,sailing,limassol,,TRUE,"typed: Sd Limasol, same day"
+56,City of Leicester,1949-11-15,Nov 15,arrival,istanbul,Istanbul,FALSE,typed: Ar Istanbul
+57,City of Leicester,1949-11-20,Nov 20,sailing,istanbul,,TRUE,typed: Sd Istanbul
+58,City of Leicester,1949-11-20,Nov 20,arrival,bandirma,Bandirma,FALSE,"typed: Ar Bandirma, same day"
+59,City of Leicester,1949-11-22,Nov 22,sailing,bandirma,,TRUE,typed: Sd Bandirma
+60,City of Leicester,1949-11-23,Nov 23,arrival,izmir,Izmir,FALSE,typed: Ar Izmir
+61,City of Leicester,1949-12-04,Dec 4,sailing,izmir,,TRUE,typed: Sd Izmir
+62,City of Leicester,1949-12-05,Dec 5,arrival,piraeus,Piraeus,FALSE,typed: Ar Piraeus
+63,City of Leicester,1949-12-07,Dec 7,sailing,piraeus,,TRUE,typed: Sd Piraeus
+64,City of Leicester,1949-12-21,Dec 21,arrival,london,London,FALSE,typed: Ar London
+65,City of Leicester,1950-01-05,Jan 5,sailing,london,,TRUE,"typed: Sd London. UNCERTAIN YEAR - this strip is physically pasted at the top-right of the card beside a '1949' box, but port continuity (arriving London Dec 21 above, sailing again Jan 5 here - a plausible two-week turnaround) argues this is actually January 1950, not January 1949. Presented as 1950 on that basis; flagged rather than silently trusted to its position on the card"
+66,City of Leicester,1950-01-06,Jan 6,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp
+67,City of Leicester,1950-01-08,Jan 8,sailing,antwerp,,TRUE,typed: Sd Antwerp
+68,City of Leicester,1950-01-09,Jan 9,arrival,london,London,FALSE,typed: Ar London
+69,City of Leicester,1950-01-22,Jan 22,sailing,london,,TRUE,typed: Sd London
+70,City of Leicester,1950-02-04,Feb 4,arrival,alexandria,Alexandria,FALSE,typed: Ar Alexandria
+71,City of Leicester,1950-02-11,Feb 11,sailing,alexandria,,TRUE,typed: Sd Alexandria
+72,City of Leicester,1950-02-12,Feb 12,arrival,beirut,Beirut,FALSE,"typed: Ar Beirut. A cross/dagger mark follows: '✝ Feb 24' - see seq 73"
+73,City of Leicester,1950-02-24,Feb 24,note,,,FALSE,"UNCERTAIN - blue margin notes read 'No damage whilst at quay', 'Feb 24', '15/16' (or '15/14'), and separately 'Beirut 19/2'. Read together with the strip's own '✝ Feb 24' mark: some incident was reported at/near Beirut in mid-to-late February, but resulted in no damage while alongside. Exact correlation between the blue notes' dates (19/2, 24, 15/16) and the typed citations is not fully resolved"
+74,City of Leicester,1950-02-17,Feb 17,sailing,beirut,,TRUE,typed: Sd Beirut
+75,City of Leicester,1950-02-18,Feb 18,arrival,tripoli-lebanon,Tripoli (Leb),FALSE,typed: Ar Tripoli (Leb)
+76,City of Leicester,1950-02-20,Feb 20,sailing,tripoli-lebanon,,TRUE,typed: Sd Tripoli (Leb)
+77,City of Leicester,1950-02-21,Feb 21,arrival,famagusta,Famagusta,FALSE,"typed: Ar Famagusta. NEW PORT (Famagusta, Cyprus)"
+78,City of Leicester,1950-02-22,Feb 22,sailing,famagusta,,TRUE,typed: Sd Famagusta
+79,City of Leicester,1950-02-23,Feb 23,arrival,limassol,Limassol,FALSE,typed: Ar Limassol
+80,City of Leicester,1950-02-24,Feb 24,sailing,limassol,,TRUE,typed: Sd Limassol
+81,City of Leicester,1950-02-25,Feb 25,arrival,port-said,Port Said,FALSE,typed: Ar Port Said
+82,City of Leicester,1950-03-05,Mar 5,sailing,port-said,,TRUE,typed: Sd Port Said
+83,City of Leicester,1950-03-06,Mar 6,arrival,alexandria,Alexandria,FALSE,typed: Ar Alexandria
+84,City of Leicester,1950-03-08,Mar 8,sailing,alexandria,,TRUE,typed: Sd Alexandria
+85,City of Leicester,1950-03-12,Mar 12,arrival,malta,Malta,FALSE,typed: Ar Malta
+86,City of Leicester,1950-03-15,Mar 15,sailing,malta,,TRUE,typed: Sd Malta
+87,City of Leicester,1950-03-16,Mar 16,arrival,tripoli,Tripoli (Libya),FALSE,"typed: Ar Tripoli (Libya) - the card itself disambiguates from Tripoli, Lebanon here, confirming the two are tracked as distinct ports"
+88,City of Leicester,1950-03-17,Mar 17,sailing,tripoli,,TRUE,typed: Sd Tripoli (Libya)
+89,City of Leicester,1950-03-27,Mar 27,arrival,london,London,FALSE,typed: Ar London
+90,City of Leicester,1950-04-05,Apr 5,sailing,london,,TRUE,typed: Sd London
+91,City of Leicester,1950-04-06,Apr 6,arrival,bremen,Bremen,FALSE,typed: Ar Bremen
+92,City of Leicester,1950-04-07,Apr 7,sailing,bremen,,TRUE,"typed: Sd Bremen. A cross/dagger mark follows: '✝ Apr 12' - see seq 93"
+93,City of Leicester,1950-04-12,12/,note,,,FALSE,"UNCERTAIN - blue margin notes read 'Seen aground' and 'B[l]/cap[?]' and '(Hamburg) 11/7' and 'Apl 8' near this point. Read together with the strip's '✝ Apr 12' mark: the ship may have been seen aground somewhere near Hamburg/Bremen around this time, but the fragments don't resolve into a clean single account"
+94,City of Leicester,1950-04-11,Apr 11,arrival,london,London,FALSE,typed: Ar London
+95,City of Leicester,1950-04-28,Apr 28,sailing,london,,TRUE,typed: Sd London
+96,City of Leicester,1950-05-04,May 4,arrival,oran,Oran,FALSE,"typed: Ar Oran. NEW PORT (Oran, Algeria)"
+97,City of Leicester,1950-05-05,May 5,sailing,oran,,TRUE,typed: Sd Oran
+98,City of Leicester,1950-05-12,May 12,arrival,alexandria,Alexandria,FALSE,typed: Ar Alexandria
+99,City of Leicester,1950-05-16,May 16,sailing,alexandria,,TRUE,typed: Sd Alexandria
+100,City of Leicester,1950-05-18,May 18,arrival,beirut,Beirut,FALSE,typed: Ar Beirut
+101,City of Leicester,1950-05-01,May —,sailing,beirut,,TRUE,"typed: Sd Beirut, day left blank ('May —')"
+102,City of Leicester,1950-05-20,May 20,arrival,tripoli-lebanon,Tripoli (Leb),FALSE,typed: Ar Tripoli (Leb)
+103,City of Leicester,1950-05-22,May 22,sailing,tripoli-lebanon,,TRUE,"typed: Sd Tripoli (Leb). Card ends here, 'Contd on Card No 14' (not yet identified). No captain names given on this side"

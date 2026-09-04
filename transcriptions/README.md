@@ -779,3 +779,25 @@ convention is known.
   Bandirma and Kuluk (both new) in early 1948, card ending mid-strip. New
   ports added to `ports.csv`: Izmir, Patras, Kalamata, Volo, Vostizza,
   Katakolo, Venice, Split, Syracuse, Bandirma, Kuluk (tentative).
+
+- **IMG_5659** — 103 rows, Mar 1948 to May 1950. **City of Leicester**, Card
+  No 13, Second Side — directly continues IMG_5658. Ship info corrected on
+  this card: net tonnage "1994" struck through to "1975"; Port of Registry
+  "London" struck through to "Liverpool". Entirely typed/pasted strips plus
+  a column of blue incident notes — no ordinary handwritten grid on this
+  side. **Structural caveat**: the pasted strips' physical layout (year
+  boxes for 1948/1949 at several points across the card's width) doesn't
+  give an unambiguous reading order; the transcription instead orders them
+  by port-to-port continuity (each strip's first port matches the previous
+  strip's last port), which places the rightmost/top strip in 1950 rather
+  than 1949 despite sitting beside a "1949" box — flagged clearly in the CSV
+  rather than trusted to position on the card. Extensive further
+  Mediterranean/Levant coasting: Crete (three new ports — Sitia, Heraklion,
+  Suda Bay), the familiar Kalamata/Algiers/London/Piraeus/Istanbul/Izmir/
+  Patras rotation, and new ports Beirut, Tripoli (Lebanon — explicitly
+  distinguished on the card from Tripoli, Libya), Limassol, Famagusta, and
+  Oran, plus Malta and Bremen. Two wartime-style incidents in blue: a
+  collision at/near Piraeus (5 June, repairs through July) and an uncertain
+  "seen aground" note near Hamburg/Bremen (April). New ports added to
+  `ports.csv`: Sitia, Heraklion, Suda Bay, Beirut, Tripoli (Lebanon),
+  Limassol, Famagusta, Oran.
