@@ -679,3 +679,19 @@ convention is known.
   sequence. An "OHMS" marker (25.4.43) appears without the usual explicit
   on/off label. Card ends "Contd on card no 8" (not yet identified). New
   port added to `ports.csv`: Saldanha Bay.
+
+- **IMG_5652** — 59 rows, 28 Apr 1943 to 25 Apr 1944. **City of Rangoon**,
+  Card No 8, First Side — directly continues IMG_5651. Alexandria and a new
+  port (**Tripoli**, Libya), Port Said/Suez/Aden, the familiar East/South
+  Africa circuit (Beira, Durban, Table Bay), Freetown, Liverpool/Mersey,
+  then a shift into the **Mediterranean theatre for the Italian campaign**:
+  Alexandria, and two new ports (**Augusta**, Sicily, and **Castellammare**,
+  near Naples), shuttling repeatedly between Naples/Augusta/Castellammare/
+  Alexandria/Port Said through early 1944. Two separate wartime collision
+  references in blue — one retrospective (dated 26 Mar 1942, over a year
+  before the surrounding entries) and one current (Feb 1944, details
+  unresolved) — plus damage/repair citations at Freetown and Liverpool. One
+  struck-through/voided entry ("NOT", 19/4) and a couple of unbracketed
+  chronological inversions kept in card position rather than reordered.
+  Card ends "P.T.O." (second side not yet transcribed). New ports added to
+  `ports.csv`: Tripoli, Augusta, Castellammare.

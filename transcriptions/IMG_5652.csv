@@ -1,0 +1,60 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Rangoon,1943-04-28,28/4,arrival,alexandria,Alx,FALSE,"black = arrival. Card headed 'No 8 (first side)', 'Contd' - directly continues IMG_5651"
+2,City of Rangoon,1943-04-29,29/4,sailing,alexandria,,TRUE,red = sailing
+3,City of Rangoon,1943-05-03,3/5,arrival,tripoli,Trip,FALSE,"black = arrival. NEW PORT (Tripoli, Libya) - fits the timing of the Allied North Africa campaign"
+4,City of Rangoon,1943-05-03,-|-,arrival,tripoli,,TRUE,"ditto mark - still at Tripoli, 'in pt 16/5'"
+5,City of Rangoon,1943-05-18,18/5,sailing,tripoli,,TRUE,red = sailing
+6,City of Rangoon,1943-05-22,22/5,arrival,alexandria,Alx,FALSE,black = arrival
+7,City of Rangoon,1943-06-01,1/6,sailing,alexandria,,TRUE,red = sailing
+8,City of Rangoon,1943-06-02,2/6,arrival,port-said,P.Said,FALSE,black = arrival
+9,City of Rangoon,1943-06-04,4.6.43,note,,,FALSE,Boxed note 'OFF OHMS' dated 4.6.43 - the ship released from Admiralty requisition
+10,City of Rangoon,1943-06-08,8/6,sailing,port-said,,TRUE,red = sailing
+11,City of Rangoon,,,note,,,FALSE,"A blue bracket labelled '(Lib)' connects two nearby citations - meaning not established (possibly a reference to Libya, given the recent Tripoli call, or to a Liberty-ship convoy designation)"
+12,City of Rangoon,1943-06-09,9/6,arrival,suez,Suez,FALSE,"black = arrival. The port/date 'Suez 9/6' appears to be written twice in this area of the card, bracketed together by the '(Lib)' note above - transcribed once rather than as two separate calls"
+13,City of Rangoon,1943-06-15,15/6,arrival,aden,Aden,FALSE,black = arrival
+14,City of Rangoon,1943-06-17,17/6,sailing,aden,,TRUE,red = sailing
+15,City of Rangoon,1943-07-03,3/7,arrival,beira,Beira,FALSE,black = arrival
+16,City of Rangoon,1943-07-17,17/7,sailing,beira,,TRUE,red = sailing
+17,City of Rangoon,1943-07-23,23/7,arrival,durban,Durb,FALSE,black = arrival
+18,City of Rangoon,1943-08-12,12/8,sailing,durban,,TRUE,red = sailing
+19,City of Rangoon,1943-08-16,16/8,arrival,table-bay,Table,FALSE,black = arrival
+20,City of Rangoon,1943-08-18,18/8,sailing,table-bay,,TRUE,red = sailing
+21,City of Rangoon,1943-09-02,2/9,arrival,freetown,Freet,FALSE,black = arrival
+22,City of Rangoon,1942-03-26,26/3/42,note,,,FALSE,"RETROSPECTIVE WARTIME INCIDENT - blue notes read 'Re temp repairs, 18/28' and 'Collision 26/3/42' and 'Cape Town, 8/9' - the collision date (26 Mar 1942) is well over a year before this card's other entries, so this reads as a retrospective note about an earlier incident being logged here rather than a new event. Not resolved further"
+23,City of Rangoon,1943-09-15,-|-,arrival,freetown,,TRUE,"ditto mark - still at Freetown, 'in pt 15/9'"
+24,City of Rangoon,1943-09-23,23/9,sailing,freetown,,TRUE,red = sailing
+25,City of Rangoon,1943-10-17,17/10,arrival,liverpool,Liv,FALSE,black = arrival
+26,City of Rangoon,,17/10,note,,,FALSE,"Blue notes: 'Ship at quay at Liv[erpool] 17/10' and '(See 10/22 [for] damage.)' and '(O.) 9/12' - further damage/citation references, not resolved into discrete events"
+27,City of Rangoon,1943-11-15,15/11,sailing,liverpool,,TRUE,red = sailing
+28,City of Rangoon,1943-11-16,16/11,arrival,river-mersey,Mersey,FALSE,black = arrival
+29,City of Rangoon,1943-12-09,9/12,arrival,alexandria,Alx,FALSE,black = arrival
+30,City of Rangoon,1943-12-29,29.12.43,arrival,alexandria,-|-,TRUE,"ditto mark, dated 29.12.43 - still at Alexandria. A further 'OHMS' marker sits alongside, without an explicit on/off label"
+31,City of Rangoon,1944-01-06,6/1,sailing,alexandria,,TRUE,"red = sailing. Year changes to 1944 here, boxed between the reference columns"
+32,City of Rangoon,1944-01-11,11/1,arrival,augusta,Augusta,FALSE,"black = arrival. NEW PORT (Augusta, Sicily) - fits the timing of the Allied Italian campaign"
+33,City of Rangoon,1944-01-13,13/1,sailing,augusta,,TRUE,red = sailing
+34,City of Rangoon,1944-01-14,14/1,arrival,naples,Nap,FALSE,black = arrival
+35,City of Rangoon,,2/2,note,,,FALSE,"A SECOND wartime incident referenced in blue: '(Lo) 2/2', 'Feb 3/25, Collision', and '22/12' - a further collision, distinct from the March 1942 one noted earlier on this card. Dates and details not fully resolved"
+36,City of Rangoon,1944-01-28,28/1,arrival,castellammare,C'mare,FALSE,"black = arrival. NEW PORT (Castellammare, Italy, near Naples)"
+37,City of Rangoon,1944-01-28,28/1,sailing,naples,Nap,FALSE,"red = sailing, same day - the ship appears to be shuttling between Naples and Castellammare"
+38,City of Rangoon,1944-02-06,-|-,arrival,castellammare,,TRUE,"ditto marks - still at/near Castellammare, 'in pt 6/2' and 'in pt 13/2'"
+39,City of Rangoon,1944-02-23,23/2,sailing,castellammare,,TRUE,red = sailing
+40,City of Rangoon,,20/1,note,,,FALSE,"Blue notes '(P.Said) 20/1' and 'Re Collision, 29/23, 22/12' - further detail on the second collision, not resolved into a clean date"
+41,City of Rangoon,1944-02-29,29/2,arrival,augusta,Augusta,FALSE,black = arrival
+42,City of Rangoon,1944-02-27,27/2,sailing,naples,Nap,FALSE,"UNCERTAIN ordering - red = sailing, dated before (27/2) the Augusta arrival just above it (29/2) despite following it in card position. Kept as read, same pattern as other unbracketed inversions on this ship's cards"
+43,City of Rangoon,1944-03-01,1/3,arrival,augusta,Augusta,FALSE,black = arrival
+44,City of Rangoon,1944-03-05,5/3,arrival,alexandria,Alx,FALSE,black = arrival
+45,City of Rangoon,1944-03-12,12.3.44,note,,,FALSE,Date marker '12.3.44' alongside the Alexandria stay - meaning not further specified
+46,City of Rangoon,1944-03-16,16/3,sailing,alexandria,,TRUE,red = sailing
+47,City of Rangoon,1944-03-21,21/3,arrival,augusta,Augusta,FALSE,black = arrival
+48,City of Rangoon,1944-03-24,24/3,sailing,augusta,,TRUE,red = sailing
+49,City of Rangoon,1944-03-25,25/3,arrival,naples,Nap,FALSE,black = arrival
+50,City of Rangoon,1944-04-07,7/4,sailing,naples,,TRUE,red = sailing
+51,City of Rangoon,1944-04-08,8/4,arrival,augusta,Augusta,FALSE,black = arrival
+52,City of Rangoon,1944-04-11,11/4,sailing,augusta,,TRUE,red = sailing
+53,City of Rangoon,1944-04-17,17/4,arrival,port-said,P.Said,FALSE,black = arrival
+54,City of Rangoon,,19/4,note,,,FALSE,Entry annotated 'NOT' - struck through/voided by the clerk
+55,City of Rangoon,1944-04-16,16/4,arrival,port-said,P.Said,FALSE,"UNCERTAIN ordering - black = arrival, dated before (16/4) the Port Said arrival just above it (17/4) despite following it in card position"
+56,City of Rangoon,1944-04-19,19/4,sailing,port-said,,TRUE,red = sailing
+57,City of Rangoon,1944-04-19,19/4,arrival,suez,Suez,FALSE,"black = arrival, same day"
+58,City of Rangoon,1944-04-20,20/4,sailing,suez,,TRUE,red = sailing
+59,City of Rangoon,1944-04-25,25/4,arrival,aden,Aden,FALSE,"black = arrival. Card ends 'P.T.O.' (second side not yet transcribed)"
