@@ -1,0 +1,123 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Tokio,1949-01-02,Jan 2,arrival,port-elizabeth,Port Elizabeth,FALSE,"typed: Ar Port Elizabeth Jan 2. Card headed 'Card No. 10 (First side)' - continues an unseen Card No 9, Second Side; earlier cards not yet identified"
+2,City of Tokio,1949-01-09,Jan 9,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Jan 9
+3,City of Tokio,1949-01-10,Jan 10,arrival,east-london,East London,FALSE,typed: Ar East London Jan 10
+4,City of Tokio,1949-01-12,Jan 12,sailing,east-london,East London,FALSE,typed: Sd East London Jan 12
+5,City of Tokio,1949-01-13,Jan 13,arrival,durban,Durban,FALSE,typed: Ar Durban Jan 13
+6,City of Tokio,1949-01-27,Jan 27,sailing,durban,Durban,FALSE,typed: Sd Durban Jan 27
+7,City of Tokio,1949-01-28,Jan 28,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Jan 28
+8,City of Tokio,1949-02-01,Feb 1,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Feb 1
+9,City of Tokio,1949-02-04,Feb 4,arrival,beira,Beira,FALSE,typed: Ar Beira Feb 4
+10,City of Tokio,1949-02-08,Feb 8,sailing,beira,Beira,FALSE,typed: Sd Beira Feb 8
+11,City of Tokio,1949-02-12,Feb 12,arrival,zanzibar,Zanzibar,FALSE,typed: Ar Zanzibar Feb 12
+12,City of Tokio,1949-02-15,Feb 15,sailing,zanzibar,Zanzibar,FALSE,typed: Sd Zanzibar Feb 15
+13,City of Tokio,1949-02-15,Feb 15,arrival,mombasa,Mombasa,FALSE,"typed: Ar Mombasa Feb 15, same day as the Zanzibar sailing above"
+14,City of Tokio,1949-02-27,Feb 27,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Feb 27
+15,City of Tokio,1949-03-06,Mar 6,arrival,aden,Aden,FALSE,typed: Ar Aden Mar 6
+16,City of Tokio,1949-03-07,Mar 7,sailing,aden,Aden,FALSE,typed: Sd Aden Mar 7
+17,City of Tokio,1949-03-12,Mar 12,arrival,suez,Suez,FALSE,typed: Ar Suez Mar 12
+18,City of Tokio,1949-03-13,Mar 13,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Mar 13
+19,City of Tokio,1949-03-17,Mar 17,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Mar 17
+20,City of Tokio,1949-05-06,May 6,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool May 6
+21,City of Tokio,1949-05-18,May 18,arrival,port-said,Port Said,FALSE,typed: Ar Port Said May 18
+22,City of Tokio,1949-05-19,May 19,sailing,suez,Suez,FALSE,typed: Sd Suez May 19
+23,City of Tokio,1949-05-24,May 24,arrival,aden,Aden,FALSE,typed: Ar Aden May 24
+24,City of Tokio,1949-05-24,May 24,sailing,aden,Aden,FALSE,"typed: Sd Aden May 24, same day as the arrival above"
+25,City of Tokio,1949-05-31,May 31,arrival,bombay,Bombay,FALSE,typed: Ar Bombay May 31
+26,City of Tokio,1949-06-22,June 22,sailing,bombay,Bombay,FALSE,typed: Sd Bombay June 22
+27,City of Tokio,1949-06-24,June 24,arrival,karachi,Karachi,FALSE,typed: Ar Karachi June 24
+28,City of Tokio,1949-07-05,July 5,sailing,karachi,Karachi,FALSE,typed: Sd Karachi July 5
+29,City of Tokio,1949-07-19,July 19,arrival,beira,Beira,FALSE,typed: Ar Beira July 19
+30,City of Tokio,1949-07-31,July 31,sailing,beira,Beira,FALSE,typed: Sd Beira July 31
+31,City of Tokio,1949-08-01,Aug 1,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Aug 1
+32,City of Tokio,1949-08-03,Aug 3,sailing,lourenco-marques,Lour Marques,FALSE,"typed: Sd Lour Marques Aug 3. Card headed 'City of Tokio' partly visible behind the next strip"
+33,City of Tokio,1949-08-04,Aug 4,arrival,durban,Durban,FALSE,typed: Ar Durban Aug 4
+34,City of Tokio,1949-08-12,Aug 12,sailing,durban,Durban,FALSE,typed: Sd Durban Aug 12
+35,City of Tokio,1949-08-13,Aug 13,arrival,east-london,East London,FALSE,typed: Ar East London Aug 13
+36,City of Tokio,1949-08-13,Aug 13,sailing,east-london,East London,FALSE,"typed: Sd East London Aug 13, same day as the arrival above"
+37,City of Tokio,1949-08-14,Aug 14,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Aug 14
+38,City of Tokio,1949-08-14,Aug 14,sailing,port-elizabeth,Port Elizabeth,FALSE,"typed: Sd Port Elizabeth Aug 14, same day as the arrival above"
+39,City of Tokio,1949-08-15,Aug 15,arrival,mossel-bay,Mossel Bay,FALSE,typed: Ar Mossel Bay Aug 15
+40,City of Tokio,1949-08-17,Aug 17,sailing,mossel-bay,Mossel Bay,FALSE,typed: Sd Mossel Bay Aug 17
+41,City of Tokio,1949-08-18,Aug 18,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Aug 18
+42,City of Tokio,1949-08-27,Aug 27,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Aug 27
+43,City of Tokio,1949-09-13,Sept 13,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe Sept 13
+44,City of Tokio,1949-09-14,Sept 14,sailing,teneriffe,Teneriffe,FALSE,typed: Sd Teneriffe Sept 14
+45,City of Tokio,1949-09-20,Sept 20,arrival,london,London,FALSE,typed: Ar London Sept 20
+46,City of Tokio,1949-09-23,Sept 23,sailing,london,London,FALSE,typed: Sd London Sept 23
+47,City of Tokio,1949-09-25,Sept 25,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth Sept 25
+48,City of Tokio,1949-09-27,Sept 27,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth Sept 27
+49,City of Tokio,1949-09-29,Sept 29,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Sept 29
+50,City of Tokio,1949-10-05,Oct 5,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Oct 5
+51,City of Tokio,1949-10-06,Oct 6,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Oct 6
+52,City of Tokio,1949-10-13,Oct 13,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Oct 13
+53,City of Tokio,1949-10-15,Oct 15,arrival,manchester,Manchester,FALSE,typed: Ar Manchester Oct 15
+54,City of Tokio,1949-11-16,Nov 16,sailing,manchester,Manchester,FALSE,"typed: Sd Manchester Nov 16 - over a month after the arrival above, no reason given"
+55,City of Tokio,1949-12-01,Dec 1,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Dec 1
+56,City of Tokio,1949-12-02,Dec 2,sailing,suez,Suez,FALSE,typed: Sd Suez Dec 2
+57,City of Tokio,1949-12-07,Dec 7,arrival,aden,Aden,FALSE,typed: Ar Aden Dec 7
+58,City of Tokio,1949-12-07,Dec 7,sailing,aden,Aden,FALSE,"typed: Sd Aden Dec 7, same day as the arrival above"
+59,City of Tokio,1949-12-14,Dec 14,arrival,bahrain,Bahrein,FALSE,typed: Ar Bahrein Dec 14
+60,City of Tokio,1949-12-18,Dec 18,sailing,bahrain,Bahrein,FALSE,typed: Sd Bahrein Dec 18
+61,City of Tokio,1949-12-19,Dec 19,arrival,kuwait,Kuwait,FALSE,typed: Ar Kuwait Dec 19
+62,City of Tokio,1949-12-28,Dec 28,sailing,kuwait,Kuwait,FALSE,typed: Sd Kuwait Dec 28
+63,City of Tokio,1949-12-23,Dec 23,arrival,abadan,Abadan,FALSE,"typed: Ar Abadan Dec 23 - printed after the Kuwait sailing (seq 62) but dated 5 days before it, a chronological inversion. Kept in card position and flagged rather than reordered"
+64,City of Tokio,1949-12-29,Dec 29,sailing,abadan,Abadan,FALSE,typed: Sd Abadan Dec 29
+65,City of Tokio,1949-12-29,Dec 29,arrival,harta-point,Harta Point,FALSE,"typed: Ar Harta Point Dec 29, same day as the Abadan sailing above. 1950 year-box follows"
+66,City of Tokio,,—,sailing,harta-point,Harta Point,FALSE,"typed: 'Sd Harta Point —' - no date given, just a dash. Falls right after the 1950 year-box by position"
+67,City of Tokio,1950-01-02,Jan 2,arrival,khorram-shahr,Khorramshahr,FALSE,typed: Ar Khorramshahr Jan 2
+68,City of Tokio,1950-01-15,Jan 15,sailing,khorram-shahr,Khorramshahr,FALSE,typed: Sd Khorramshahr Jan 15
+69,City of Tokio,1950-01-15,Jan 15,arrival,basra,Busreh,FALSE,"typed: Ar Busreh Jan 15, same day as the Khorramshahr sailing above"
+70,City of Tokio,1950-01-25,Jan 25,sailing,basra,Busreh,FALSE,typed: Sd Busreh Jan 25
+71,City of Tokio,1950-01-27,Jan 27,arrival,bandar-shahpur,Bandar Shapur,FALSE,typed: Ar Bandar Shapur Jan 27
+72,City of Tokio,1950-02-02,Feb 2,sailing,bandar-shahpur,Bandar Shapur,FALSE,typed: Sd Bandar Shapur Feb 2
+73,City of Tokio,,Feb,arrival,bandar-mashur,Bandar Mashur,FALSE,"typed: 'Ar Bandar Mashur Feb —' - no day given. New port, sandwiched between two Bandar Shapur calls - possibly the same place under a different transliteration, possibly a distinct nearby berth. See ports.csv note"
+74,City of Tokio,,Feb,sailing,bandar-mashur,Bandar Mashur,FALSE,"typed: 'Sd Bandar Mashur Feb —' - no day given either"
+75,City of Tokio,1950-02-03,Feb 3,arrival,bandar-shahpur,Bandar Shapur,FALSE,typed: Ar Bandar Shapur Feb 3
+76,City of Tokio,1950-02-16,Feb 16,sailing,bandar-shahpur,Bandar Shapur,FALSE,typed: Sd Bandar Shapur Feb 16
+77,City of Tokio,1950-02-21,Feb 21,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Feb 21
+78,City of Tokio,1950-02-28,Feb 28,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Feb 28
+79,City of Tokio,1950-03-08,Mar 8,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam Mar 8
+80,City of Tokio,1950-03-15,Mar 15,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Mar 15
+81,City of Tokio,1950-03-16,Mar 16,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Mar 16
+82,City of Tokio,1950-04-06,Apr 6,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Apr 6
+83,City of Tokio,1950-04-09,Apr 9,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam Apr 9
+84,City of Tokio,1950-04-13,Apr 13,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Apr 13
+85,City of Tokio,1950-04-14,Apr 14,arrival,madras,Madras,FALSE,typed: Ar Madras Apr 14
+86,City of Tokio,1950-04-16,Apr 16,sailing,madras,Madras,FALSE,typed: Sd Madras Apr 16
+87,City of Tokio,1950-04-19,Apr 19,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Apr 19
+88,City of Tokio,1950-04-20,Apr 20,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Apr 20
+89,City of Tokio,1950-04-23,Apr 23,arrival,aden,Aden,FALSE,typed: Ar Aden Apr 23
+90,City of Tokio,1950-04-28,Apr 28,sailing,aden,Aden,FALSE,typed: Sd Aden Apr 28
+91,City of Tokio,1950-05-01,May 1,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan May 1
+92,City of Tokio,1950-05-02,May 2,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan May 2
+93,City of Tokio,1950-05-04,May 4,arrival,suez,Suez,FALSE,typed: Ar Suez May 4
+94,City of Tokio,1950-05-06,May 6,sailing,port-said,Port Said,FALSE,typed: Sd Port Said May 6
+95,City of Tokio,1950-05-18,May 18,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool May 18
+96,City of Tokio,1950-05-20,May 20,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool May 20
+97,City of Tokio,1950-05-21,May 21,arrival,belfast,Belfast,FALSE,typed: Ar Belfast May 21
+98,City of Tokio,1950-05-23,May 23,sailing,belfast,Belfast,FALSE,typed: Sd Belfast May 23
+99,City of Tokio,1950-05-23,May 23,arrival,dublin,Dublin,FALSE,"typed: Ar Dublin May 23, same day as the Belfast sailing above"
+100,City of Tokio,1950-05-26,May 26,sailing,dublin,Dublin,FALSE,typed: Sd Dublin May 26
+101,City of Tokio,1950-05-28,May 28,arrival,london,London,FALSE,typed: Ar London May 28
+102,City of Tokio,1950-06-06,June 6,sailing,london,London,FALSE,typed: Sd London June 6
+103,City of Tokio,1950-06-07,June 7,arrival,hull,Hull,FALSE,typed: Ar Hull June 7
+104,City of Tokio,1950-06-10,June 10,sailing,hull,Hull,FALSE,typed: Sd Hull June 10
+105,City of Tokio,1950-06-11,June 11,arrival,dundee,Dundee,FALSE,typed: Ar Dundee June 11
+106,City of Tokio,1950-06-12,June 12,sailing,dundee,Dundee,FALSE,typed: Sd Dundee June 12
+107,City of Tokio,1950-06-13,June 13,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro June 13
+108,City of Tokio,1950-06-17,June 17,sailing,middlesbrough,Middlesbro,FALSE,"typed: Sd Middlesbro June 17. Card header 'City of Tokio (Br)' partly visible behind this strip"
+109,City of Tokio,1950-06-19,June 19,arrival,swansea,Swansea,FALSE,typed: Ar Swansea June 19
+110,City of Tokio,1950-06-20,June 20,sailing,swansea,Swansea,FALSE,typed: Sd Swansea June 20
+111,City of Tokio,1950-06-22,June 22,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow June 22
+112,City of Tokio,1950-06-27,June 27,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow June 27
+113,City of Tokio,1950-06-28,June 28,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool June 28
+114,City of Tokio,1950-07-19,July 19,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool July 19
+115,City of Tokio,1950-07-30,July 30,arrival,port-said,Port Said,FALSE,typed: Ar Port Said July 30
+116,City of Tokio,1950-08-01,Aug 1,sailing,suez,Suez,FALSE,typed: Sd Suez Aug 1
+117,City of Tokio,1950-08-04,Aug 4,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Aug 4
+118,City of Tokio,1950-08-06,Aug 6,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Aug 6
+119,City of Tokio,1950-08-09,Aug 9,arrival,aden,Aden,FALSE,typed: Ar Aden Aug 9
+120,City of Tokio,1950-08-09,Aug 9,sailing,aden,Aden,FALSE,"typed: Sd Aden Aug 9, same day as the arrival above"
+121,City of Tokio,1950-08-22,Aug 22,arrival,calcutta,Calcutta,FALSE,"typed: Ar Calcutta Aug 22. Card ends here - footer reads 'P.T.O.' (no explicit next card number given)"
+122,City of Tokio,1950-11-20,Nov 20,note,antwerp,,FALSE,"Casualties box (blue): 'Nov 20 - Struck quay', 'Antwerp 19/11', '[word uncertain, possibly a dock/quay name] 19/11' - a grounding/collision-type incident at Antwerp on 19 Nov 1950, reported 20 Nov. Doesn't correspond to any Antwerp call in the main typed sequence on this side, which never reaches Belgium in this date range - the ship's movements around this date aren't otherwise recorded here, so this may belong to a stretch of the voyage not itemised on this card"

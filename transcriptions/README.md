@@ -966,3 +966,25 @@ convention is known.
   reported 9 Jan 1951) - both cross-referenced against dagger-mark citations
   in the main typed sequence rather than forced into it. Card ends "Contd on
   card No 2" (not yet identified). No new ports.
+
+- **IMG_5668** — 121 rows plus 1 Casualties-box note, 2 Jan 1949 to 22 Aug
+  1950. **NEW SHIP: City of Tokio** (built 1921, net tonnage 4426, distinct
+  from every other ship in the collection and the oldest vessel seen so far),
+  Card No 10, First Side — continues an unseen Card No 9, Second Side;
+  earlier cards not yet identified. Entirely typed/pasted strips, no
+  handwritten grid. South/East Africa (Port Elizabeth, East London, Durban,
+  Lourenco Marques, Beira, Zanzibar, Mombasa, Mossel Bay, Cape Town),
+  Suez/Aden, Bombay/Karachi, a UK/Northern Europe leg (Liverpool, Glasgow,
+  Manchester, Belfast, Dublin, London, Hull, Dundee, Middlesbrough, Swansea),
+  and a Persian Gulf circuit (Bahrein, Kuwait, Abadan, a new port **Harta
+  Point**, Khorramshahr, Busreh, Bandar Shapur, and a new tentative port
+  **Bandar Mashur** sandwiched between two Bandar Shapur calls with no dates
+  given for either - possibly the same place under a different
+  transliteration, possibly a distinct nearby berth). One chronological
+  inversion (an Abadan arrival printed after, but dated before, the Kuwait
+  sailing it follows), kept in card position. The Casualties box records a
+  "Struck quay" incident at Antwerp (19 Nov 1950, reported 20 Nov) that
+  doesn't correspond to any Antwerp call in this side's own typed sequence -
+  likely part of a stretch of the voyage this side doesn't itemise. Card ends
+  "P.T.O." (second side not yet transcribed). New port added to `ports.csv`:
+  Bandar Mashur (tentative).
