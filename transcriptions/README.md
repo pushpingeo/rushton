@@ -935,3 +935,21 @@ convention is known.
     `ports.csv`: Harta Point. Aliases added: Bahrein (bahrain), Busreh
     (basra), Bandar Shapur (bandar-shahpur), Mombassa (mombasa), Vizagapatnam
     (vizagapatam), Koilthottam (koilchottam).
+
+- **IMG_5666** — 116 rows, 24 May 1949 to 8 June 1950. **NEW SHIP: City of
+  Brooklyn** (net tonnage 4334 struck through and corrected to 4411, distinct
+  from every other ship in the collection), Card No 1, First Side — the
+  ship's maiden voyage, opening with sea trials on the Tyne right after
+  launch ("Launched at Wallsend 8/12/48", built 1949). This card's template
+  drops the Captain column entirely (BUILT / NET TONNAGE / PORT OF REGISTRY
+  only, Port of Registry left blank), and the card itself is the cleanest in
+  the collection so far — entirely typed/pasted strips, no handwritten grid
+  and no blue notes at all. A steady India/Persian-Gulf-adjacent circuit
+  repeated three times: Tyne, New York, Suez/Aden, Karachi, Bombay, Colombo,
+  Madras, Calcutta/Sandheads/Cochin, back through Suez/Aden, a US/Canada East
+  Coast loop (Halifax, Boston, New York, Philadelphia, Baltimore, Hampton
+  Rds), and round again, ending at Liverpool. A blank "Casualties" box (with
+  1949/1950 year markers but no entries) closes out the side; footer just
+  reads "P.T.O." with no explicit next card number. New spelling variant
+  added as an alias: Visakhapatnam (vizagapatam, alongside the existing
+  Vizagapatam/Vizagapatnam).

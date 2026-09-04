@@ -1,0 +1,117 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Brooklyn,1949-05-24,May 24,sailing,river-tyne,Tyne,FALSE,"typed: 'Sd Tyne May 24 - Trials' - the ship's maiden trip, sea trials right after launch (footer: 'Launched at Wallsend 8/12/48'). Card headed 'Card No. 1 (First side)'"
+2,City of Brooklyn,1949-05-25,May 25,arrival,river-tyne,Tyne,FALSE,typed: Ar Tyne May 25
+3,City of Brooklyn,1949-06-01,June 1,sailing,river-tyne,Tyne,FALSE,typed: Sd Tyne June 1
+4,City of Brooklyn,1949-06-12,June 12,arrival,new-york,New York,FALSE,typed: Ar New York June 12
+5,City of Brooklyn,1949-06-23,June 23,sailing,new-york,New York,FALSE,typed: Sd New York June 23
+6,City of Brooklyn,1949-07-07,July 7,arrival,port-said,Port Said,FALSE,typed: Ar Port Said July 7
+7,City of Brooklyn,1949-07-09,July 9,sailing,suez,Suez,FALSE,typed: Sd Suez July 9
+8,City of Brooklyn,1949-07-13,July 13,arrival,aden,Aden,FALSE,typed: Ar Aden July 13
+9,City of Brooklyn,1949-07-13,July 13,sailing,aden,Aden,FALSE,"typed: Sd Aden July 13, same day as the arrival above"
+10,City of Brooklyn,1949-07-17,July 17,arrival,karachi,Karachi,FALSE,typed: Ar Karachi July 17
+11,City of Brooklyn,1949-07-20,July 20,sailing,karachi,Karachi,FALSE,typed: Sd Karachi July 20
+12,City of Brooklyn,1949-07-23,July 23,arrival,bombay,Bombay,FALSE,typed: Ar Bombay July 23
+13,City of Brooklyn,1949-08-08,Aug 8,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Aug 8
+14,City of Brooklyn,1949-08-10,Aug 10,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Aug 10
+15,City of Brooklyn,1949-08-12,Aug 12,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Aug 12
+16,City of Brooklyn,1949-08-14,Aug 14,arrival,madras,Madras,FALSE,typed: Ar Madras Aug 14
+17,City of Brooklyn,1949-08-17,Aug 17,sailing,madras,Madras,FALSE,typed: Sd Madras Aug 17
+18,City of Brooklyn,1949-08-20,Aug 20,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Aug 20
+19,City of Brooklyn,1949-09-04,Sept 4,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Sept 4
+20,City of Brooklyn,1949-09-05,Sept 5,sailing,sandheads,Sandheads,TRUE,typed: Sd Sandheads Sept 5 - reporting point at the mouth of the Hooghly
+21,City of Brooklyn,1949-09-09,Sept 9,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Sept 9
+22,City of Brooklyn,1949-09-09,Sept 9,sailing,colombo,Colombo,FALSE,"typed: Sd Colombo Sept 9, same day as the arrival above"
+23,City of Brooklyn,1949-09-10,Sept 10,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Sept 10
+24,City of Brooklyn,1949-09-11,Sept 11,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Sept 11
+25,City of Brooklyn,1949-09-16,Sept 16,arrival,aden,Aden,FALSE,typed: Ar Aden Sept 16
+26,City of Brooklyn,1949-09-17,Sept 17,sailing,aden,Aden,FALSE,typed: Sd Aden Sept 17
+27,City of Brooklyn,1949-09-20,Sept 20,arrival,suez,Suez,FALSE,typed: Ar Suez Sept 20
+28,City of Brooklyn,1949-09-22,Sept 22,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Sept 22
+29,City of Brooklyn,1949-10-04,Oct 4,arrival,halifax-ns,Halifax,FALSE,typed: Ar Halifax Oct 4
+30,City of Brooklyn,1949-10-05,Oct 5,sailing,halifax-ns,Halifax,FALSE,typed: Sd Halifax Oct 5
+31,City of Brooklyn,1949-10-06,Oct 6,arrival,boston,Boston,FALSE,typed: Ar Boston Oct 6
+32,City of Brooklyn,1949-10-07,Oct 7,sailing,boston,Boston,FALSE,typed: Sd Boston Oct 7
+33,City of Brooklyn,1949-10-08,Oct 8,arrival,new-york,New York,FALSE,typed: Ar New York Oct 8
+34,City of Brooklyn,1949-10-13,Oct 13,sailing,new-york,New York,FALSE,typed: Sd New York Oct 13
+35,City of Brooklyn,1949-10-14,Oct 14,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia Oct 14
+36,City of Brooklyn,1949-10-14,Oct 14,sailing,philadelphia,Philadelphia,FALSE,"typed: Sd Philadelphia Oct 14, same day as the arrival above"
+37,City of Brooklyn,1949-10-15,Oct 15,arrival,baltimore,Baltimore,FALSE,typed: Ar Baltimore Oct 15
+38,City of Brooklyn,1949-10-18,Oct 18,sailing,baltimore,Baltimore,FALSE,typed: Sd Baltimore Oct 18
+39,City of Brooklyn,1949-10-19,Oct 19,arrival,hampton-rds,Hampton Rds,FALSE,typed: Ar Hampton Rds Oct 19
+40,City of Brooklyn,1949-10-20,Oct 20,sailing,hampton-rds,Hampton Rds,FALSE,typed: Sd Hampton Rds Oct 20
+41,City of Brooklyn,1949-10-20,Oct 20,arrival,baltimore,Baltimore,FALSE,"typed: Ar Baltimore Oct 20, same day as the Hampton Rds sailing above"
+42,City of Brooklyn,1949-10-21,Oct 21,sailing,baltimore,Baltimore,FALSE,typed: Sd Baltimore Oct 21
+43,City of Brooklyn,1949-10-22,Oct 22,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia Oct 22
+44,City of Brooklyn,1949-10-23,Oct 23,sailing,philadelphia,Philadelphia,FALSE,typed: Sd Philadelphia Oct 23
+45,City of Brooklyn,1949-10-24,Oct 24,arrival,new-york,New York,FALSE,typed: Ar New York Oct 24
+46,City of Brooklyn,1949-10-29,Oct 29,sailing,new-york,New York,FALSE,typed: Sd New York Oct 29
+47,City of Brooklyn,1949-11-11,Nov 11,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Nov 11
+48,City of Brooklyn,1949-11-12,Nov 12,sailing,suez,Suez,FALSE,typed: Sd Suez Nov 12
+49,City of Brooklyn,1949-11-15,Nov 15,arrival,aden,Aden,FALSE,typed: Ar Aden Nov 15
+50,City of Brooklyn,1949-11-16,Nov 16,sailing,aden,Aden,FALSE,typed: Sd Aden Nov 16
+51,City of Brooklyn,1949-11-20,Nov 20,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Nov 20
+52,City of Brooklyn,1949-11-21,Nov 21,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Nov 21
+53,City of Brooklyn,1949-11-22,Nov 22,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Nov 22
+54,City of Brooklyn,1949-11-25,Nov 25,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Nov 25
+55,City of Brooklyn,1949-11-27,Nov 27,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Nov 27
+56,City of Brooklyn,1949-11-30,Nov 30,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Nov 30
+57,City of Brooklyn,1949-12-02,Dec 2,arrival,madras,Madras,FALSE,typed: Ar Madras Dec 2
+58,City of Brooklyn,1949-12-03,Dec 3,sailing,madras,Madras,FALSE,typed: Sd Madras Dec 3
+59,City of Brooklyn,1949-12-04,Dec 4,arrival,vizagapatam,Visakhapatnam,FALSE,"typed: Ar Visakhapatnam Dec 4 - a further spelling variant (added as an alias alongside the existing Vizagapatam/Vizagapatnam)"
+60,City of Brooklyn,1949-12-05,Dec 5,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Dec 5
+61,City of Brooklyn,1949-12-06,Dec 6,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Dec 6
+62,City of Brooklyn,1949-12-24,Dec 24,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Dec 24
+63,City of Brooklyn,1949-12-27,Dec 27,arrival,colombo,Colombo,FALSE,"typed: Ar Colombo Dec 27. 1950 year-box follows"
+64,City of Brooklyn,1950-01-04,Jan 4,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Jan 4
+65,City of Brooklyn,1950-01-05,Jan 5,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Jan 5
+66,City of Brooklyn,1950-01-10,Jan 10,arrival,aden,Aden,FALSE,typed: Ar Aden Jan 10
+67,City of Brooklyn,1950-01-11,Jan 11,sailing,aden,Aden,FALSE,typed: Sd Aden Jan 11
+68,City of Brooklyn,1950-01-13,Jan 13,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Jan 13
+69,City of Brooklyn,1950-01-13,Jan 13,sailing,port-sudan,Port Sudan,FALSE,"typed: Sd Port Sudan Jan 13, same day as the arrival above"
+70,City of Brooklyn,1950-01-15,Jan 15,arrival,suez,Suez,FALSE,typed: Ar Suez Jan 15
+71,City of Brooklyn,1950-01-17,Jan 17,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Jan 17
+72,City of Brooklyn,1950-01-30,Jan 30,arrival,halifax-ns,Halifax,FALSE,typed: Ar Halifax Jan 30
+73,City of Brooklyn,1950-02-01,Feb 1,sailing,halifax-ns,Halifax,FALSE,typed: Sd Halifax Feb 1
+74,City of Brooklyn,1950-02-02,Feb 2,arrival,boston,Boston,FALSE,typed: Ar Boston Feb 2
+75,City of Brooklyn,1950-02-03,Feb 3,sailing,boston,Boston,FALSE,typed: Sd Boston Feb 3
+76,City of Brooklyn,1950-02-04,Feb 4,arrival,new-york,New York,FALSE,typed: Ar New York Feb 4
+77,City of Brooklyn,1950-02-08,Feb 8,sailing,new-york,New York,FALSE,typed: Sd New York Feb 8
+78,City of Brooklyn,1950-02-09,Feb 9,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia Feb 9
+79,City of Brooklyn,1950-02-11,Feb 11,sailing,philadelphia,Philadelphia,FALSE,typed: Sd Philadelphia Feb 11
+80,City of Brooklyn,1950-02-11,Feb 11,arrival,baltimore,Baltimore,FALSE,"typed: Ar Baltimore Feb 11, same day as the Philadelphia sailing above"
+81,City of Brooklyn,1950-02-15,Feb 15,sailing,baltimore,Baltimore,FALSE,typed: Sd Baltimore Feb 15
+82,City of Brooklyn,1950-02-16,Feb 16,arrival,hampton-rds,Hampton Rds,FALSE,typed: Ar Hampton Rds Feb 16
+83,City of Brooklyn,1950-02-20,Feb 20,sailing,hampton-rds,Hampton Rds,FALSE,typed: Sd Hampton Rds Feb 20
+84,City of Brooklyn,1950-02-21,Feb 21,arrival,new-york,New York,FALSE,typed: Ar New York Feb 21
+85,City of Brooklyn,1950-03-01,Mar 1,sailing,new-york,New York,FALSE,typed: Sd New York Mar 1
+86,City of Brooklyn,1950-03-02,Mar 2,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia Mar 2
+87,City of Brooklyn,1950-03-03,Mar 3,sailing,philadelphia,Philadelphia,FALSE,typed: Sd Philadelphia Mar 3
+88,City of Brooklyn,1950-03-17,Mar 17,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Mar 17
+89,City of Brooklyn,1950-03-18,Mar 18,sailing,suez,Suez,FALSE,typed: Sd Suez Mar 18
+90,City of Brooklyn,1950-03-21,Mar 21,arrival,aden,Aden,FALSE,typed: Ar Aden Mar 21
+91,City of Brooklyn,1950-03-21,Mar 21,sailing,aden,Aden,FALSE,"typed: Sd Aden Mar 21, same day as the arrival above"
+92,City of Brooklyn,1950-03-25,Mar 25,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Mar 25
+93,City of Brooklyn,1950-03-26,Mar 26,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Mar 26
+94,City of Brooklyn,1950-03-28,Mar 28,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Mar 28
+95,City of Brooklyn,1950-03-29,Mar 29,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Mar 29
+96,City of Brooklyn,1950-04-01,Apr 1,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Apr 1
+97,City of Brooklyn,1950-04-01,Apr 1,sailing,colombo,Colombo,FALSE,"typed: Sd Colombo Apr 1, same day as the arrival above"
+98,City of Brooklyn,1950-04-03,Apr 3,arrival,madras,Madras,FALSE,typed: Ar Madras Apr 3
+99,City of Brooklyn,1950-04-04,Apr 4,sailing,madras,Madras,FALSE,typed: Sd Madras Apr 4
+100,City of Brooklyn,1950-04-05,Apr 5,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam Apr 5
+101,City of Brooklyn,1950-04-06,Apr 6,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Apr 6
+102,City of Brooklyn,1950-04-08,Apr 8,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Apr 8
+103,City of Brooklyn,1950-05-05,May 5,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta May 5
+104,City of Brooklyn,1950-05-08,May 8,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam May 8
+105,City of Brooklyn,1950-05-10,May 10,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam May 10
+106,City of Brooklyn,1950-05-11,May 11,arrival,madras,Madras,FALSE,typed: Ar Madras May 11
+107,City of Brooklyn,1950-05-14,May 14,sailing,madras,Madras,FALSE,typed: Sd Madras May 14
+108,City of Brooklyn,1950-05-16,May 16,arrival,colombo,Colombo,FALSE,typed: Ar Colombo May 16
+109,City of Brooklyn,1950-05-18,May 18,sailing,colombo,Colombo,FALSE,typed: Sd Colombo May 18
+110,City of Brooklyn,1950-05-23,May 23,arrival,aden,Aden,FALSE,typed: Ar Aden May 23
+111,City of Brooklyn,1950-05-24,May 24,sailing,aden,Aden,FALSE,typed: Sd Aden May 24
+112,City of Brooklyn,1950-05-26,May 26,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan May 26
+113,City of Brooklyn,1950-05-28,May 28,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan May 28
+114,City of Brooklyn,1950-05-29,May 29,arrival,suez,Suez,FALSE,typed: Ar Suez May 29
+115,City of Brooklyn,1950-05-30,May 30,sailing,port-said,Port Said,FALSE,typed: Sd Port Said May 30
+116,City of Brooklyn,1950-06-08,June 8,arrival,liverpool,Liverpool,FALSE,"typed: Ar Liverpool June 8. Card ends here - a blank 'Casualties' box (with its own 1949/1950 year markers but no entries) follows, then 'P.T.O.' in red (no explicit next card number given)"
