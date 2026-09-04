@@ -1,0 +1,95 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Brooklyn,1950-06-12,June 12,sailing,liverpool,Liverpool,FALSE,"typed: Sd Liverpool June 12. Card headed 'Card No. 1 (Second side)' - directly continues IMG_5666"
+2,City of Brooklyn,1950-06-14,June 14,arrival,london,London,FALSE,typed: Ar London June 14
+3,City of Brooklyn,1950-06-20,June 20,sailing,london,London,FALSE,typed: Sd London June 20
+4,City of Brooklyn,1950-06-20,June 20,arrival,middlesbrough,Middlesbro,FALSE,"typed: Ar Middlesbro June 20, same day as the London sailing above"
+5,City of Brooklyn,1950-06-25,Jun 25,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Jun 25
+6,City of Brooklyn,1950-06-26,June 26,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp June 26
+7,City of Brooklyn,1950-06-28,June 28,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp June 28
+8,City of Brooklyn,1950-06-29,June 29,arrival,rotterdam,Rotterdam,FALSE,typed: Ar Rotterdam June 29
+9,City of Brooklyn,1950-06-30,June 30,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam June 30
+10,City of Brooklyn,1950-07-01,July 1,arrival,hamburg,Hamburg,FALSE,typed: Ar Hamburg July 1
+11,City of Brooklyn,,July —,sailing,hamburg,Hamburg,FALSE,"typed: 'Sd Hamburg July —' - no day given, an explicit dash on the strip itself"
+12,City of Brooklyn,1950-07-04,July 4,arrival,london,London,FALSE,typed: Ar London July 4
+13,City of Brooklyn,1950-07-13,July 13,sailing,london,London,FALSE,typed: Sd London July 13
+14,City of Brooklyn,1950-07-17,July 17,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe July 17
+15,City of Brooklyn,1950-07-17,July 17,sailing,teneriffe,Teneriffe,FALSE,"typed: Sd Teneriffe July 17, same day as the arrival above"
+16,City of Brooklyn,1950-07-31,July 31,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town July 31
+17,City of Brooklyn,1950-08-03,Aug 3,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Aug 3
+18,City of Brooklyn,1950-08-05,Aug 5,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Aug 5
+19,City of Brooklyn,1950-08-08,Aug 8,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Aug 8
+20,City of Brooklyn,1950-08-09,Aug 9,arrival,east-london,East London,FALSE,typed: Ar East London Aug 9
+21,City of Brooklyn,1950-08-10,Aug 10,sailing,east-london,East London,FALSE,typed: Sd East London Aug 10
+22,City of Brooklyn,1950-08-11,Aug 11,arrival,durban,Durban,FALSE,typed: Ar Durban Aug 11
+23,City of Brooklyn,1950-08-19,Aug 19,sailing,durban,Durban,FALSE,"typed: Sd Durban Aug 19. Dagger-marked citation below reads 'Aug 25' - see seq 44 (Casualties box)"
+24,City of Brooklyn,1950-08-21,Aug 21,arrival,beira,Beira,FALSE,"typed: Ar Beira Aug 21 - see seq 44, the ship touched bottom entering this port"
+25,City of Brooklyn,,Aug,sailing,beira,Beira,FALSE,"typed: 'Sd Beira Aug [day]' - the day is torn away/obscured on the strip itself"
+26,City of Brooklyn,1950-08-29,Aug 29,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Aug 29
+27,City of Brooklyn,1950-09-01,Sept 1,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Sept 1
+28,City of Brooklyn,1950-09-02,Sept 2,arrival,durban,Durban,FALSE,typed: Ar Durban Sept 2
+29,City of Brooklyn,1950-09-05,Sept 5,sailing,durban,Durban,FALSE,typed: Sd Durban Sept 5
+30,City of Brooklyn,1950-09-06,Sept 6,arrival,east-london,East London,FALSE,typed: Ar East London Sept 6
+31,City of Brooklyn,1950-09-06,Sept 6,sailing,east-london,East London,FALSE,"typed: Sd East London Sept 6, same day as the arrival above"
+32,City of Brooklyn,1950-09-07,Sept 7,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Sept 7
+33,City of Brooklyn,1950-09-07,Sept 7,sailing,port-elizabeth,Port Elizabeth,FALSE,"typed: Sd Port Elizabeth Sept 7, same day as the arrival above"
+34,City of Brooklyn,1950-09-09,Sept 9,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Sept 9
+35,City of Brooklyn,1950-09-11,Sept 11,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Sept 11
+36,City of Brooklyn,1950-09-23,Sept 23,arrival,las-palmas,Las Palmas,FALSE,typed: Ar Las Palmas Sept 23
+37,City of Brooklyn,1950-09-23,Sept 23,sailing,las-palmas,Las Palmas,FALSE,"typed: Sd Las Palmas Sept 23, same day as the arrival above"
+38,City of Brooklyn,1950-09-29,Sept 29,arrival,london,London,FALSE,typed: Ar London Sept 29
+39,City of Brooklyn,1950-10-06,Oct 6,sailing,london,London,FALSE,typed: Sd London Oct 6
+40,City of Brooklyn,1950-10-06,Oct 6,arrival,rotterdam,Rotterdam,FALSE,"typed: Ar Rotterdam Oct 6, same day as the London sailing above"
+41,City of Brooklyn,1950-10-08,Oct 8,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam Oct 8
+42,City of Brooklyn,1950-10-08,Oct 8,arrival,hull,Hull,FALSE,"typed: Ar Hull Oct 8, same day as the Rotterdam sailing above"
+43,City of Brooklyn,1950-10-10,Oct 10,sailing,hull,Hull,FALSE,typed: Sd Hull Oct 10
+44,City of Brooklyn,1950-08-25,Aug 25,note,beira,,FALSE,"Casualties box (blue): 'Aug 25 - Touched bottom', 'Beira 24/8, entering Aug 21' - the ship touched bottom at Beira on 24 Aug, reported 25 Aug, matching the dagger citation at seq 23 and the arrival at seq 24"
+45,City of Brooklyn,1951-01-09,Jan 9,note,lourenco-marques,,FALSE,"Casualties box (blue): 'Re repairs, tank soundings [word uncertain] - Jan 9', 'Lourenco Marques 3/1' - matches the dagger citation at seq 66 (Ar Lour Marques Dec 21). Exact wording of the middle word not confidently read"
+46,City of Brooklyn,1950-10-11,Oct 11,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Oct 11
+47,City of Brooklyn,1950-10-21,Oct 21,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Oct 21
+48,City of Brooklyn,1950-10-22,Oct 22,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Oct 22
+49,City of Brooklyn,1950-10-23,Oct 23,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Oct 23
+50,City of Brooklyn,1950-10-24,Oct 24,arrival,rotterdam,Rotterdam,FALSE,typed: Ar Rotterdam Oct 24
+51,City of Brooklyn,1950-10-25,Oct 25,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam Oct 25
+52,City of Brooklyn,1950-10-26,Oct 26,arrival,hamburg,Hamburg,FALSE,typed: Ar Hamburg Oct 26
+53,City of Brooklyn,1950-10-28,Oct 28,sailing,hamburg,Hamburg,FALSE,typed: Sd Hamburg Oct 28
+54,City of Brooklyn,1950-10-29,Oct 29,arrival,london,London,FALSE,typed: Ar London Oct 29
+55,City of Brooklyn,1950-11-09,Nov 9,sailing,london,London,FALSE,typed: Sd London Nov 9
+56,City of Brooklyn,1950-11-13,Nov 13,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe Nov 13
+57,City of Brooklyn,1950-11-13,Nov 13,sailing,teneriffe,Teneriffe,FALSE,"typed: Sd Teneriffe Nov 13, same day as the arrival above"
+58,City of Brooklyn,1950-11-26,Nov 26,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Nov 26
+59,City of Brooklyn,1950-11-29,Nov 29,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Nov 29
+60,City of Brooklyn,1950-11-30,Nov 30,arrival,mossel-bay,Mossel Bay,FALSE,typed: Ar Mossel Bay Nov 30
+61,City of Brooklyn,1950-12-01,Dec 1,sailing,mossel-bay,Mossel Bay,FALSE,typed: Sd Mossel Bay Dec 1
+62,City of Brooklyn,1950-12-01,Dec 1,arrival,port-elizabeth,Port Elizabeth,FALSE,"typed: Ar Port Elizabeth Dec 1, same day as the Mossel Bay sailing above"
+63,City of Brooklyn,1950-12-08,Dec 8,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Dec 8
+64,City of Brooklyn,1950-12-09,Dec 9,arrival,east-london,East London,FALSE,typed: Ar East London Dec 9
+65,City of Brooklyn,1950-12-10,Dec 10,sailing,east-london,East London,FALSE,typed: Sd East London Dec 10
+66,City of Brooklyn,1950-12-11,Dec 11,arrival,durban,Durban,FALSE,typed: Ar Durban Dec 11
+67,City of Brooklyn,1950-12-20,Dec 20,sailing,durban,Durban,FALSE,typed: Sd Durban Dec 20
+68,City of Brooklyn,1950-12-21,Dec 21,arrival,lourenco-marques,Lour Marques,FALSE,"typed: Ar Lour Marques Dec 21. Dagger-marked citation below reads 'Jan 9' - see seq 45 (Casualties box)"
+69,City of Brooklyn,1950-12-22,Dec 22,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Dec 22
+70,City of Brooklyn,1950-12-24,Dec 24,arrival,beira,Beira,FALSE,typed: Ar Beira Dec 24
+71,City of Brooklyn,1950-12-27,Dec 27,sailing,beira,Beira,FALSE,typed: Sd Beira Dec 27
+72,City of Brooklyn,1950-12-29,Dec 29,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Dec 29
+73,City of Brooklyn,1950-12-30,Dec 30,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Dec 30
+74,City of Brooklyn,1950-12-31,Dec 31,arrival,durban,Durban,FALSE,"typed: Ar Durban Dec 31. 1951 year-box follows"
+75,City of Brooklyn,1951-01-04,Jan 4,sailing,durban,Durban,FALSE,typed: Sd Durban Jan 4
+76,City of Brooklyn,1951-01-05,Jan 5,arrival,east-london,East London,FALSE,typed: Ar East London Jan 5
+77,City of Brooklyn,1951-01-05,Jan 5,sailing,east-london,East London,FALSE,"typed: Sd East London Jan 5, same day as the arrival above"
+78,City of Brooklyn,1951-01-06,Jan 6,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Jan 6
+79,City of Brooklyn,1951-01-06,Jan 6,sailing,port-elizabeth,Port Elizabeth,FALSE,"typed: Sd Port Elizabeth Jan 6, same day as the arrival above"
+80,City of Brooklyn,1951-01-08,Jan 8,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Jan 8
+81,City of Brooklyn,1951-01-10,Jan 10,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Jan 10
+82,City of Brooklyn,1951-01-12,Jan 12,arrival,walvis-bay,Walvis Bay,FALSE,typed: Ar Walvis Bay Jan 12
+83,City of Brooklyn,1951-01-12,Jan 12,sailing,walvis-bay,Walvis Bay,FALSE,"typed: Sd Walvis Bay Jan 12, same day as the arrival above"
+84,City of Brooklyn,1951-01-28,Jan 28,arrival,london,London,FALSE,typed: Ar London Jan 28
+85,City of Brooklyn,1951-02-02,Feb 2,sailing,london,London,FALSE,typed: Sd London Feb 2
+86,City of Brooklyn,1951-02-03,Feb 3,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Feb 3
+87,City of Brooklyn,1951-02-06,Feb 6,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Feb 6
+88,City of Brooklyn,1951-02-06,Feb 6,arrival,rotterdam,Rotterdam,FALSE,"typed: Ar Rotterdam Feb 6, same day as the Antwerp sailing above"
+89,City of Brooklyn,1951-02-07,Feb 7,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam Feb 7
+90,City of Brooklyn,1951-02-07,Feb 7,arrival,hull,Hull,FALSE,"typed: Ar Hull Feb 7, same day as the Rotterdam sailing above"
+91,City of Brooklyn,1951-02-12,Feb 12,sailing,hull,Hull,FALSE,typed: Sd Hull Feb 12
+92,City of Brooklyn,1951-02-12,Feb 12,arrival,immingham,Immingham,FALSE,"typed: Ar Immingham Feb 12, same day as the Hull sailing above"
+93,City of Brooklyn,1951-02-16,Feb 16,sailing,immingham,Immingham,FALSE,typed: Sd Immingham Feb 16
+94,City of Brooklyn,1951-02-17,Feb 17,arrival,sunderland,Sunderland,FALSE,"typed: Ar Sunderland Feb 17 - card ends here, cut off at the bottom edge. Footer reads 'Contd on card No 2' (not yet identified)"

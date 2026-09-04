@@ -953,3 +953,16 @@ convention is known.
   reads "P.T.O." with no explicit next card number. New spelling variant
   added as an alias: Visakhapatnam (vizagapatam, alongside the existing
   Vizagapatam/Vizagapatnam).
+
+- **IMG_5667** — 94 rows, 12 June 1950 to 17 Feb 1951 (card ends mid-line).
+  **City of Brooklyn**, Card No 1, Second Side — directly continues IMG_5666.
+  Entirely typed/pasted strips again. A UK/Northern Europe and South Africa
+  circuit repeated twice (Liverpool, London, Middlesbrough, Antwerp,
+  Rotterdam, Hamburg, Teneriffe, Cape Town, Port Elizabeth, East London,
+  Durban, Beira, Lourenco Marques, Las Palmas, Hull, Mossel Bay, Walvis Bay,
+  Immingham, Sunderland). This card has the ship's first real Casualties-box
+  entries: touching bottom entering Beira (24 Aug 1950, reported 25 Aug) and
+  a repairs/tank-soundings citation at Lourenco Marques (event 3 Jan,
+  reported 9 Jan 1951) - both cross-referenced against dagger-mark citations
+  in the main typed sequence rather than forced into it. Card ends "Contd on
+  card No 2" (not yet identified). No new ports.
