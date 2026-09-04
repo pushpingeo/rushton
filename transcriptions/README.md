@@ -746,3 +746,20 @@ convention is known.
   "erroneous". Card ends "P.T.O." (second side not yet transcribed). No new
   ports — all previously seen (from earlier City of Norwich cards' South
   America/Atlantic legs).
+
+- **IMG_5657** — 72 rows, 9 Jul 1946 to 9 Dec 1947. **City of Newcastle**,
+  Card No 12, Second Side — directly continues IMG_5656. Net tonnage
+  corrected on this card (4468 struck through, replaced with 4446 — now
+  used as the canonical value). Persian Gulf run with two new ports
+  (**Kuwait**, **Basra**) alongside the familiar Bandar Shahpur/Abadan, then
+  a grounding incident at Bandar (blue note, 11 Sept 1946), the Indian coast
+  (Mormugao, Bombay, Navlakhi, Karachi), Aden/Suez/Gibraltar, and a
+  weather-damage-plus-collision incident at Le Havre spanning Dec
+  1946-Jan 1947. From here the card switches to clean typed/pasted strips
+  (much higher confidence than the handwritten grid): Middlesbrough (5
+  months docked, unexplained), a new port (**River Tyne**), Swansea,
+  Liverpool, then a full Indian Ocean round trip via Port Said (engine
+  trouble and damage, Aug 1947, flagged by both a typed dagger-mark and blue
+  notes) to Bombay/Mormugao/Karachi/Bedi Bunder and back via Suez/Gibraltar/
+  Hull to Antwerp. Card ends "Contd on Card No 13" (not yet identified). New
+  ports added to `ports.csv`: Kuwait, Basra, River Tyne.

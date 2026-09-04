@@ -1,0 +1,73 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Newcastle,1946-07-09,9/7,arrival,port-said,P.Said,FALSE,"black = arrival. Card headed 'No 12 (second side)', 'Contd' - directly continues IMG_5656. Net tonnage corrected on this card: '4468' struck through, replaced with '4446'"
+2,City of Newcastle,1946-07-10,10/7,sailing,port-said,,TRUE,red = sailing
+3,City of Newcastle,1946-07-11,11/7,sailing,suez,Suez,FALSE,"red - reads as a transit/sailing citation rather than a black arrival, consistent with a same-trip canal passage"
+4,City of Newcastle,1946-07-16,16/7,arrival,aden,Aden,FALSE,black = arrival
+5,City of Newcastle,1946-07-17,17/7,sailing,aden,,TRUE,red = sailing
+6,City of Newcastle,1946-07-24,24/7,arrival,bahrain,Bahrein,FALSE,black = arrival
+7,City of Newcastle,1946-07-26,26/7,sailing,bahrain,,TRUE,red = sailing
+8,City of Newcastle,1946-07-31,31/7,arrival,kuwait,Kuwait,FALSE,"UNCERTAIN date - black = arrival. NEW PORT (Kuwait). This whole Persian Gulf cluster (Kuwait/Bandar Shahpur/Basra) has several dates that are hard to pin down precisely and may not be in perfect order; flagged as a block rather than forcing exact digits"
+9,City of Newcastle,1946-07-28,28/7,sailing,kuwait,,TRUE,"UNCERTAIN ordering - red = sailing, dated before the arrival above despite following it in card position; see note on seq 8"
+10,City of Newcastle,1946-07-30,30/7,arrival,bandar-shahpur,Bandar S.,FALSE,black = arrival
+11,City of Newcastle,1946-08-03,3/8,sailing,bandar-shahpur,,TRUE,red = sailing
+12,City of Newcastle,1946-08-05,5/8,arrival,basra,Basra,FALSE,"black = arrival. NEW PORT (Basra, Iraq)"
+13,City of Newcastle,1946-08-21,21/8,sailing,basra,,TRUE,red = sailing
+14,City of Newcastle,1946-09-07,7/9,arrival,abadan,Abad,FALSE,"black = arrival, annotated '(PREV)' - same unexplained annotation style seen on earlier cards"
+15,City of Newcastle,1946-09-11,11/9,note,,,FALSE,"WARTIME-STYLE INCIDENT - blue note 'Sept 11. re grounding at Bandar' - a grounding incident at Bandar (likely Bandar Shahpur, called at a few weeks earlier). Further blue citations '(Kuwait) 21/8' and 'Shapur 30/7' sit nearby as cross-references"
+16,City of Newcastle,1946-09-13,13/9,sailing,abadan,,TRUE,red = sailing
+17,City of Newcastle,1946-09-20,20/9,arrival,mormugao,Mormugao,FALSE,black = arrival
+18,City of Newcastle,1946-09-25,25/9,sailing,mormugao,,TRUE,red = sailing
+19,City of Newcastle,1946-09-26,26/9,arrival,bombay,Bom,FALSE,black = arrival
+20,City of Newcastle,1946-09-28,28/9,sailing,bombay,,TRUE,red = sailing
+21,City of Newcastle,1946-09-30,30/9,arrival,navlakhi,Navatahi,FALSE,"black = arrival - card spells it closer to 'Navatahi', resolved against ports.csv's existing tentative 'Navlakhi' entry"
+22,City of Newcastle,1946-10-06,6/10,arrival,karachi,Kar,FALSE,black = arrival
+23,City of Newcastle,1946-11-07,7/11,sailing,karachi,,TRUE,"red = sailing. About a month docked at Karachi, unexplained"
+24,City of Newcastle,1946-11-13,13/11,arrival,aden,Aden,FALSE,black = arrival
+25,City of Newcastle,1946-11-14,14/11,sailing,aden,,TRUE,red = sailing
+26,City of Newcastle,1946-11-20,20/11,arrival,suez,Suez,FALSE,black = arrival
+27,City of Newcastle,1946-11-21,21/11,sailing,port-said,P.Said,FALSE,red = sailing
+28,City of Newcastle,1946-11-29,29/11,arrival,gibraltar,Gib,FALSE,black = arrival
+29,City of Newcastle,1946-11-30,30/11,sailing,gibraltar,,TRUE,red = sailing
+30,City of Newcastle,1946-12-07,7/12,arrival,le-havre,Hvr,FALSE,black = arrival
+31,City of Newcastle,1946-12-11,11/12,sailing,le-havre,,TRUE,red = sailing
+32,City of Newcastle,1946-12-13,13/12,arrival,hull,Hull,FALSE,"black = arrival. Year changes to 1947 here, boxed between the reference columns"
+33,City of Newcastle,1946-12-03,3/12,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - a cluster of blue notes: 'Re weather damage 3/12', 'Jan[?] & collision at Havre 4/12', and (nearby) 'Re collision[s], 24, at Havre 12/1'. Read together: weather damage in early December 1946, and a collision (or two collision references) at Le Havre around 4 Dec 1946 and 12 Jan 1947. Not resolved into a single clean incident report - kept as the fragments were written"
+34,City of Newcastle,1947-01-14,14/1,note,,antwerp,FALSE,"Blue note 'Antwerp 14/1' - likely related to the Havre collision citations above rather than a distinct port call (the typed strip below separately logs an Antwerp arrival on 15 Jan)"
+35,City of Newcastle,1947-01-13,Jan 13,sailing,hull,,TRUE,"Typed/pasted strip begins here ('Sd Hull Jan 13') - full port names, explicit 'Ar'/'Sd' labels, much higher confidence than the handwritten grid above"
+36,City of Newcastle,1947-01-15,Jan 15,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp
+37,City of Newcastle,1947-01-24,Jan 24,sailing,antwerp,,TRUE,typed: Sd Antwerp
+38,City of Newcastle,1947-01-26,Jan 26,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro
+39,City of Newcastle,1947-06-26,June 26,sailing,middlesbrough,,TRUE,"typed: Sd Middlesbro. Five months docked at Middlesbrough, unexplained on this card"
+40,City of Newcastle,1947-06-26,June 26,arrival,river-tyne,Tyne,FALSE,"typed: Ar Tyne, same day. NEW PORT (River Tyne)"
+41,City of Newcastle,1947-07-05,July 5,sailing,river-tyne,,TRUE,typed: Sd Tyne
+42,City of Newcastle,1947-07-08,July 8,arrival,swansea,Swansea,FALSE,typed: Ar Swansea
+43,City of Newcastle,1947-07-11,July 11,sailing,swansea,,TRUE,typed: Sd Swansea
+44,City of Newcastle,1947-07-12,July 12,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool
+45,City of Newcastle,1947-07-25,July 25,sailing,liverpool,,TRUE,"typed: Sd Liverpool (second strip begins here)"
+46,City of Newcastle,1947-08-07,Aug 7,arrival,port-said,Port Said,FALSE,typed: Ar Port Said
+47,City of Newcastle,1947-08-09,9/8,note,,,FALSE,"WARTIME-STYLE INCIDENT (post-war) - the typed strip itself carries a small dagger/cross mark against 'Aug 11, 13', and blue handwritten notes alongside read 'Aug 11 Delayed - trouble with engine', 'Port Said 9/8 damage', and 'Aug 13 Left 12/8'. Read together: engine trouble and some damage at Port Said in early-to-mid August 1947, causing a delay"
+48,City of Newcastle,1947-08-12,Aug 12,sailing,port-said,,TRUE,typed: Sd Port Said
+49,City of Newcastle,1947-08-13,Aug 13,sailing,suez,Suez,FALSE,typed: Sd Suez
+50,City of Newcastle,1947-08-18,Aug 18,arrival,aden,Aden,FALSE,typed: Ar Aden
+51,City of Newcastle,1947-08-18,Aug 18,sailing,aden,,TRUE,"typed: Sd Aden, same day"
+52,City of Newcastle,1947-08-25,Aug 25,arrival,bombay,Bombay,FALSE,typed: Ar Bombay
+53,City of Newcastle,1947-09-18,Sept 18,sailing,bombay,,TRUE,typed: Sd Bombay
+54,City of Newcastle,1947-09-19,Sept 19,arrival,mormugao,Mormugao,FALSE,typed: Ar Mormugao
+55,City of Newcastle,1947-09-25,Sept 25,sailing,mormugao,,TRUE,typed: Sd Mormugao
+56,City of Newcastle,1947-09-28,Sept 28,arrival,karachi,Karachi,FALSE,typed: Ar Karachi
+57,City of Newcastle,1947-10-06,Oct 6,sailing,karachi,,TRUE,typed: Sd Karachi
+58,City of Newcastle,1947-10-07,Oct 7,arrival,bedi-bunder,Bedi Bunder,FALSE,typed: Ar Bedi Bunder
+59,City of Newcastle,1947-10-12,Oct 12,sailing,bedi-bunder,,TRUE,"typed: Sd Bedi Bunder (third strip begins here)"
+60,City of Newcastle,1947-10-13,Oct 13,arrival,bombay,Bombay,FALSE,typed: Ar Bombay
+61,City of Newcastle,1947-10-27,Oct 27,sailing,bombay,,TRUE,typed: Sd Bombay
+62,City of Newcastle,1947-11-03,Nov 3,arrival,aden,Aden,FALSE,typed: Ar Aden
+63,City of Newcastle,1947-11-03,Nov 3,sailing,aden,,TRUE,"typed: Sd Aden, same day"
+64,City of Newcastle,1947-11-09,Nov 9,arrival,suez,Suez,FALSE,typed: Ar Suez
+65,City of Newcastle,1947-11-11,Nov 11,sailing,suez,,TRUE,typed: Sd Suez
+66,City of Newcastle,1947-11-12,Nov 12,arrival,port-said,Port Said,FALSE,typed: Ar Port Said
+67,City of Newcastle,1947-11-12,Nov 12,sailing,port-said,,TRUE,"typed: Sd Port Said, same day"
+68,City of Newcastle,1947-11-21,Nov 21,arrival,gibraltar,Gibraltar,FALSE,typed: Ar Gibraltar
+69,City of Newcastle,1947-11-21,Nov 21,sailing,gibraltar,,TRUE,"typed: Sd Gibraltar, same day"
+70,City of Newcastle,1947-11-28,Nov 28,arrival,hull,Hull,FALSE,typed: Ar Hull
+71,City of Newcastle,1947-12-08,Dec 8,sailing,hull,,TRUE,typed: Sd Hull
+72,City of Newcastle,1947-12-09,Dec 9,arrival,antwerp,Antwerp,FALSE,"typed: Ar Antwerp. Card ends 'Contd on Card No 13' (not yet identified). Captains recorded in footer: H.B. Provan (24.4.46), H. Saunders (20.6.46), T.R. Davies (22.6.47), H.G. White (3.12.47)"
