@@ -1,0 +1,80 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Norwich,1946-05-30,30/5,sailing,pearl-harbor,Pearl Hbr,FALSE,"red = sailing. Card headed 'No 10 (second side)', 'Contd' - directly continues IMG_5660. Net tonnage corrected on this card: '4346' struck through, replaced with '4388'"
+2,City of Norwich,1946-06-19,19/6,arrival,hong-kong,Hkg,FALSE,black = arrival
+3,City of Norwich,1946-06-25,25/6,sailing,hong-kong,,TRUE,red = sailing
+4,City of Norwich,1946-07-02,2/7,arrival,shanghai,Shng,FALSE,black = arrival
+5,City of Norwich,1946-07-30,30/7,sailing,shanghai,,TRUE,red = sailing
+6,City of Norwich,1946-08-05,5/8,arrival,davao,Davao,FALSE,"black = arrival, annotated '(PREV)' - same unexplained annotation style as earlier cards. NEW PORT (Davao, Philippines) - annotated 'Philippines' in the margin"
+7,City of Norwich,1946-08-10,10/8,arrival,tacloban,Tacloban,FALSE,"black = arrival. NEW PORT (Tacloban, Philippines)"
+8,City of Norwich,1946-08-16,16/8,arrival,tabako,Tabako,FALSE,"black = arrival. NEW PORT (Tabako/Tabaco, Philippines)"
+9,City of Norwich,1946-08-26,26/8,arrival,singapore,Sing,FALSE,black = arrival
+10,City of Norwich,1946-09-09,9/9,sailing,singapore,,TRUE,red = sailing
+11,City of Norwich,1946-09-14,14/9,arrival,,Bey,FALSE,"UNCERTAIN - black = arrival, reads 'Bey'. This is the same unresolved code that recurred many times on this ship's much earlier cards (IMG_5632 onward), always in this exact route position - between a South/SE Asian port and the Red Sea/Perim approach. Its reappearance here, years later, reinforces that it's a real, consistent piece of shorthand rather than a one-off misreading, even though it still doesn't match anything in ports.csv"
+12,City of Norwich,1946-09-18,18/9,sailing,,,TRUE,"red = sailing, carried from the unresolved 'Bey' arrival"
+13,City of Norwich,1946-09-26,26/9,arrival,aden,Aden,FALSE,black = arrival
+14,City of Norwich,1946-09-27,27/9,sailing,aden,,TRUE,red = sailing
+15,City of Norwich,1946-10-02,2/10,arrival,suez,Suez,FALSE,black = arrival
+16,City of Norwich,1946-10-03,3/10,sailing,port-said,P.Said,FALSE,"UNCERTAIN date - red = sailing, card reads '31/10' which is impossible this early in the sequence (before the 8/10 Malta arrival); most likely '3/10' misread"
+17,City of Norwich,1946-10-08,8/10,arrival,malta,Mlt,FALSE,black = arrival
+18,City of Norwich,1946-10-12,12/10,sailing,malta,,TRUE,red = sailing
+19,City of Norwich,1946-10-15,15/10,arrival,algiers,Alg,FALSE,black = arrival
+20,City of Norwich,1946-10-19,19/10,arrival,gibraltar,Gib,FALSE,black = arrival
+21,City of Norwich,1946-10-20,20/10,sailing,gibraltar,,TRUE,red = sailing
+22,City of Norwich,1946-10-25,25/10,arrival,,Bdny,FALSE,"UNCERTAIN - black = arrival, reads approximately 'Bdny'. Doesn't match any code in ports.csv; left unresolved"
+23,City of Norwich,1946-10-26,26/10,arrival,london,Lo,FALSE,black = arrival
+24,City of Norwich,1946-11-19,19/11,sailing,london,,TRUE,"red = sailing. About 3.5 weeks docked at London, unexplained"
+25,City of Norwich,1946-11-20,20/11,arrival,,Bdny,FALSE,"UNCERTAIN - black = arrival, same unresolved 'Bdny' reading as seq 22"
+26,City of Norwich,1946-11-24,24/11,arrival,liverpool,Liv,FALSE,"black = arrival. Year changes to 1947 here, boxed between the reference columns"
+27,City of Norwich,1947-03-13,Mar 13,sailing,liverpool,,TRUE,"Typed strip begins here ('Sd Liverpool Mar 13'). About 3.5 months since the Liverpool arrival, unexplained"
+28,City of Norwich,1947-03-27,Mar 27,arrival,port-said,Port Said,FALSE,typed: Ar Port Said
+29,City of Norwich,1947-03-28,Mar 28,sailing,suez,Suez,FALSE,typed: Sd Suez
+30,City of Norwich,1947-04-02,Apr 2,arrival,aden,Aden,FALSE,typed: Ar Aden
+31,City of Norwich,1947-04-02,Apr 2,sailing,aden,,TRUE,"typed: Sd Aden, same day"
+32,City of Norwich,1947-04-12,Apr 12,arrival,madras,Madras,FALSE,typed: Ar Madras
+33,City of Norwich,1947-04-20,Apr 20,sailing,madras,,TRUE,typed: Sd Madras
+34,City of Norwich,1947-04-26,Apr 26,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta
+35,City of Norwich,1947-05-31,May 31,sailing,calcutta,,TRUE,typed: Sd Calcutta
+36,City of Norwich,1947-06-02,June 2,sailing,sandheads,Sandheads,FALSE,typed: Sd Sandheads
+37,City of Norwich,1947-06-05,June 5,arrival,madras,Madras,FALSE,typed: Ar Madras
+38,City of Norwich,1947-06-13,June 13,arrival,cochin,Cochin,FALSE,"typed: Ar Cochin - UNCERTAIN ordering, this line's date (June 13) sits before the Madras sailing (June 19) below despite following the Madras arrival (June 5) directly above; the strip's own printed order is kept as-is"
+39,City of Norwich,1947-06-19,June 19,sailing,madras,,TRUE,typed: Sd Madras
+40,City of Norwich,1947-06-17,June 17,sailing,cochin,,TRUE,typed: Sd Cochin
+41,City of Norwich,1947-06-25,June 25,arrival,aden,Aden,FALSE,typed: Ar Aden
+42,City of Norwich,1947-06-25,June 25,sailing,aden,,TRUE,"typed: Sd Aden, same day"
+43,City of Norwich,1947-06-28,June 28,arrival,jeddah,Jeddah,FALSE,typed: Ar Jeddah
+44,City of Norwich,1947-06-28,June 28,sailing,jeddah,,TRUE,"typed: Sd Jeddah, same day"
+45,City of Norwich,1947-06-30,June 30,arrival,suez,Suez,FALSE,typed: Ar Suez
+46,City of Norwich,1947-07-01,July 1,sailing,port-said,Port Said,FALSE,typed: Sd Port Said
+47,City of Norwich,1947-07-20,July 20,arrival,montreal,Montreal,FALSE,"typed: Ar Montreal - a notable transatlantic diversion to Canada, unusual for this ship's normal Indian Ocean/Mediterranean pattern"
+48,City of Norwich,1947-08-09,Aug 9,sailing,montreal,,TRUE,typed: Sd Montreal
+49,City of Norwich,1947-08-10,Aug 10,sailing,quebec,Quebec,FALSE,typed: Sd Quebec
+50,City of Norwich,,16.20N 54.31E,note,,,FALSE,"MAJOR INCIDENT - blue notes read '? Struck object in 16.20 N. [,] 54.31 E' (a position in the Arabian Sea/Gulf of Aden approach) around 'Feb 1', followed by 'Portishead 3/[1] 30/[1]' (most likely a radio report via Portishead Radio, the GPO's ship-to-shore wireless station, rather than a port call) and 'Mar 24. Rudder [and] propeller damage. Arrived Karachi 2/3 to effect propeller repairs. (Lo) 23/3.' Positioned after a handwritten '1949' year box on this card, well over a year after the last typed strip entry (Aug 1947) - there is an undocumented gap between the two. Read together: the ship struck a submerged object around 1 Feb (1949, tentatively), damaging the rudder and propeller, and put into Karachi 2 March for repairs, with a Lloyd's Agent citation 23 March"
+51,City of Norwich,1947-08-28,Aug 28,arrival,port-said,Port Said,FALSE,"typed: Ar Port Said (a separate strip, physically pasted mid-card; placed here in 1947 on the assumption it continues the Quebec strip rather than the 1949 incident, though this is not certain - see general card note in cards.csv"
+52,City of Norwich,1947-08-31,Aug 31,sailing,port-said,,TRUE,typed: Sd Port Said
+53,City of Norwich,1947-09-01,Sept 1,sailing,suez,Suez,FALSE,typed: Sd Suez
+54,City of Norwich,1947-09-03,Sept 3,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan
+55,City of Norwich,1947-09-06,Sept 6,sailing,port-sudan,,TRUE,typed: Sd Port Sudan
+56,City of Norwich,1947-09-14,Sept 14,arrival,bombay,Bombay,FALSE,typed: Ar Bombay
+57,City of Norwich,1947-09-28,Sept 28,sailing,bombay,,TRUE,typed: Sd Bombay
+58,City of Norwich,1947-10-01,Oct 1,arrival,colombo,Colombo,FALSE,typed: Ar Colombo
+59,City of Norwich,1947-10-03,Oct 3,sailing,colombo,,TRUE,typed: Sd Colombo
+60,City of Norwich,1947-10-05,Oct 5,arrival,madras,Madras,FALSE,typed: Ar Madras
+61,City of Norwich,1947-10-07,Oct 7,sailing,madras,,TRUE,typed: Sd Madras
+62,City of Norwich,1947-10-08,Oct 8,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam
+63,City of Norwich,1947-10-12,Oct 12,sailing,vizagapatam,,TRUE,typed: Sd Vizagapatam
+64,City of Norwich,1947-10-15,Oct 15,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta
+65,City of Norwich,1947-10-28,Oct 28,sailing,calcutta,,TRUE,typed: Sd Calcutta
+66,City of Norwich,1947-10-30,Oct 30,sailing,sandheads,Sandheads,FALSE,typed: Sd Sandheads
+67,City of Norwich,1947-11-03,Nov 3,arrival,colombo,Colombo,FALSE,typed: Ar Colombo
+68,City of Norwich,1947-11-08,Nov 8,sailing,colombo,,TRUE,typed: Sd Colombo
+69,City of Norwich,1947-11-15,Nov 15,arrival,aden,Aden,FALSE,typed: Ar Aden
+70,City of Norwich,1947-11-16,Nov 16,sailing,aden,,TRUE,typed: Sd Aden
+71,City of Norwich,1947-11-21,Nov 21,arrival,suez,Suez,FALSE,typed: Ar Suez
+72,City of Norwich,1947-11-22,Nov 22,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said (next strip, direct continuity from the Suez arrival above)"
+73,City of Norwich,1947-12-07,Dec 7,arrival,london,London,FALSE,typed: Ar London
+74,City of Norwich,1947-12-14,Dec 14,sailing,london,,TRUE,typed: Sd London
+75,City of Norwich,1947-12-16,Dec 16,arrival,dundee,Dundee,FALSE,typed: Ar Dundee
+76,City of Norwich,1947-12-20,Dec 20,sailing,dundee,,TRUE,typed: Sd Dundee
+77,City of Norwich,1947-12-23,Dec 23,arrival,boulogne,Boulogne,FALSE,"typed: Ar Boulogne. NEW PORT (Boulogne, France). Year changes to 1948 here, boxed between the reference columns"
+78,City of Norwich,1948-01-01,Jan 1,sailing,boulogne,,TRUE,typed: Sd Boulogne
+79,City of Norwich,1948-01-02,Jan 2,arrival,london,London,FALSE,"typed: Ar London. Card ends 'Continued on Card No 14' (not yet identified). Captain D. Cameron throughout (from 8.4.46, re-confirmed 4.3.47)"

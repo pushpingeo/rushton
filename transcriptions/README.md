@@ -817,3 +817,21 @@ convention is known.
   Harbor context, not confidently resolved). Card ends "P.T.O." (second
   side not yet transcribed). New ports added to `ports.csv`: Hobart, Pearl
   Harbor.
+
+- **IMG_5661** — 79 rows, 30 May 1946 to 2 Jan 1948, plus a Feb/Mar 1949
+  incident note. **City of Norwich**, Card No 10, Second Side — directly
+  continues IMG_5660. Net tonnage corrected on this card: 4346 struck
+  through, replaced with 4388. Pacific/Asia leg: Hong Kong, Shanghai, and
+  three new Philippine ports (**Davao**, **Tacloban**, **Tabako**),
+  Singapore, then the recurring unresolved "Bey" code reappears in exactly
+  its historic route position (between SE Asia and the Red Sea) after a
+  years-long absence, followed by Aden/Suez/Malta/Algiers/Gibraltar/London/
+  Liverpool. Clean typed strips from Mar 1947 cover an extensive India/Red
+  Sea circuit plus a notable transatlantic diversion to Montreal/Quebec,
+  then back via Port Said/Sudan/Bombay/Colombo/Madras/Vizagapatam/Calcutta/
+  Aden/Suez to London, Dundee, and a new port (**Boulogne**), ending Jan
+  1948. A major incident follows (undocumented gap of over a year): the
+  ship struck a submerged object at 16°20'N 54°31'E around 1 Feb (tentatively
+  1949), damaging the rudder and propeller, and put into Karachi 2 March for
+  repairs. Continued on Card No 11 (not yet identified). New ports added to
+  `ports.csv`: Davao, Tacloban, Tabako, Boulogne.
