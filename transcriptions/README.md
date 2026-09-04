@@ -695,3 +695,17 @@ convention is known.
   chronological inversions kept in card position rather than reordered.
   Card ends "P.T.O." (second side not yet transcribed). New ports added to
   `ports.csv`: Tripoli, Augusta, Castellammare.
+
+- **IMG_5653** — 57 rows, 27 Apr 1944 to 29 Apr 1945. **City of Rangoon**,
+  Card No 8, Second Side — directly continues IMG_5652. Much cleaner than
+  the previous few cards: a normal black/red grid throughout, with only a
+  brief, hard-to-parse blue header note ("damage, striking... weather"). New
+  captain F.W. Letton (no change date given, replacing R.J. Jeffers). Aden,
+  the South/East Africa circuit (Durban, Lourenco Marques, Table Bay, Port
+  Elizabeth), Ceylon, Vizagapatam, and a long Bengal run: Sandheads/Calcutta
+  repeatedly, plus a new port (**Chittagong**). Several duplicate-looking
+  same-port citations with no sailing logged between (Madras, Chittagong)
+  and a couple of unbracketed chronological inversions kept in card
+  position. One unresolved port code ("Ymic") left unmatched against
+  `ports.csv`. Card ends "Contd on card No: 9" (not yet identified). New
+  port added to `ports.csv`: Chittagong.

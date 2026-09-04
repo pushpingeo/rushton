@@ -1,0 +1,58 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Rangoon,1944-05-02,5/2,note,,,FALSE,"UNCERTAIN - blue header note reading approximately 'Re damage, striking [Cuttland?] 5/2' and 'weather 29/28'. Meaning not fully resolved; reads as a card-level theme note (damage from striking something, and weather), similar in style to other cards' 'Re leak & repairs' headers. Card headed 'No 8 (second side)', 'Contd' - directly continues IMG_5652. New captain F.W. Letton (no date given for the change from R.J. Jeffers)"
+2,City of Rangoon,1944-04-27,27/4,sailing,aden,Aden,FALSE,"red = sailing, carried over from IMG_5652's final entry (Aden, 25/4)"
+3,City of Rangoon,1944-05-15,15/5,arrival,durban,Durb,FALSE,black = arrival
+4,City of Rangoon,1944-05-17,-|-,arrival,durban,,TRUE,"ditto mark - still at Durban, 'in pt 24/5'"
+5,City of Rangoon,1944-06-05,5/6,sailing,durban,Durb,FALSE,red = sailing
+6,City of Rangoon,1944-06-06,6/6,arrival,lourenco-marques,L.M.,FALSE,black = arrival
+7,City of Rangoon,,5/6,note,,,FALSE,"Blue notes '(Durban) 5/6' and '13.14/3' - citation cross-references, not resolved further"
+8,City of Rangoon,1944-07-08,8/7,sailing,lourenco-marques,L.M.,FALSE,red = sailing
+9,City of Rangoon,1944-07-22,22/7,arrival,aden,Aden,FALSE,black = arrival
+10,City of Rangoon,1944-08-03,-|-,arrival,aden,,TRUE,"ditto mark - still at Aden, 'in pt 3/8'"
+11,City of Rangoon,1944-08-10,10/8,sailing,aden,,TRUE,red = sailing
+12,City of Rangoon,1944-08-20,20/8,arrival,ceylon,Cey,FALSE,black = arrival
+13,City of Rangoon,1944-08-21,21/8,sailing,ceylon,,TRUE,red = sailing
+14,City of Rangoon,1944-08-26,26/8,arrival,vizagapatam,Vizag,FALSE,black = arrival
+15,City of Rangoon,1944-08-30,30/8,sailing,vizagapatam,Vizag,FALSE,red = sailing
+16,City of Rangoon,1944-09-01,1/9,arrival,sandheads,Sandh,FALSE,black = arrival
+17,City of Rangoon,1944-09-02,2/9,arrival,calcutta,Cal,FALSE,black = arrival
+18,City of Rangoon,1944-09-21,21/9,sailing,calcutta,,TRUE,red = sailing
+19,City of Rangoon,1944-09-21,21/9,arrival,sandheads,Sandh,FALSE,"UNCERTAIN colour - read as black (an outbound pilot-station call, same day as the Calcutta sailing), though the ink could be red"
+20,City of Rangoon,1944-09-24,24/9,arrival,madras,Mad,FALSE,black = arrival
+21,City of Rangoon,1944-09-25,25/9,arrival,madras,Mad,FALSE,"UNCERTAIN - black = arrival, a second Madras citation one day later with no sailing logged between"
+22,City of Rangoon,1944-10-16,16/10,arrival,durban,Durb,FALSE,black = arrival
+23,City of Rangoon,1944-10-26,26/10,sailing,durban,,TRUE,red = sailing
+24,City of Rangoon,1944-10-29,29/10,arrival,table-bay,Table,FALSE,black = arrival
+25,City of Rangoon,1944-11-21,21/11,sailing,table-bay,,TRUE,red = sailing
+26,City of Rangoon,1944-11-23,23/11,arrival,port-elizabeth,P.Elig,FALSE,"black = arrival - card writes something like 'P.Elig', resolved as Port Elizabeth"
+27,City of Rangoon,1944-11-28,28/11,sailing,port-elizabeth,,TRUE,red = sailing
+28,City of Rangoon,1944-11-30,30/11,arrival,durban,Durb,FALSE,black = arrival
+29,City of Rangoon,1944-12-06,6/12,sailing,durban,,TRUE,red = sailing
+30,City of Rangoon,1944-12-24,24/12,arrival,ceylon,Cey,FALSE,black = arrival
+31,City of Rangoon,1945-01-08,-|-,arrival,ceylon,,TRUE,"ditto mark - still at Ceylon, 'in pt 8/1'. Year changes to 1945 here"
+32,City of Rangoon,1945-01-12,12/1,sailing,ceylon,,TRUE,red = sailing
+33,City of Rangoon,1945-01-14,14/1,arrival,,Ymic,FALSE,"UNCERTAIN - black = arrival, reads clearly as 'Ymic' on close zoom (ruled out 'Trinc'/Trincomalee, which reads quite differently). Doesn't match any code in ports.csv; left unresolved rather than guessed"
+34,City of Rangoon,1945-01-18,18/1,sailing,,,TRUE,"red = sailing, carried from the unresolved 'Ymic' arrival"
+35,City of Rangoon,1945-01-20,20/1,arrival,madras,Mad,FALSE,black = arrival
+36,City of Rangoon,1945-01-23,23/1,sailing,madras,,TRUE,red = sailing
+37,City of Rangoon,1945-01-26,26/1,arrival,sandheads,Sandh,FALSE,black = arrival
+38,City of Rangoon,1945-01-24,24/1,arrival,calcutta,Cal,FALSE,"UNCERTAIN ordering - black = arrival, dated before (24/1) the Sandheads arrival just above it (26/1) despite following it in card position"
+39,City of Rangoon,1945-02-10,10.2.45,note,,,FALSE,"Date marker '10.2.45' alongside an 'OHMS' mention - meaning not further specified"
+40,City of Rangoon,1945-02-22,-|-,arrival,calcutta,,TRUE,"ditto mark - still at Calcutta, 'in pt 22/2'"
+41,City of Rangoon,1945-03-12,-|-,arrival,calcutta,,TRUE,"ditto mark - still at Calcutta, 'in pt 12/3'"
+42,City of Rangoon,1945-03-06,6/3,sailing,calcutta,,TRUE,"UNCERTAIN ordering - red = sailing, dated 6/3, sitting after the 12/3 ditto mark in card position despite the earlier date"
+43,City of Rangoon,1945-03-04,4/3,arrival,sandheads,Sandh,FALSE,black = arrival
+44,City of Rangoon,1945-03-08,8/3,arrival,chittagong,Chitt,FALSE,"black = arrival. NEW PORT (Chittagong, now Bangladesh)"
+45,City of Rangoon,1945-03-14,14/3,arrival,chittagong,Chitt,FALSE,"UNCERTAIN - black = arrival, a second Chittagong citation with no sailing logged between"
+46,City of Rangoon,1945-03-23,23/3,sailing,chittagong,,TRUE,red = sailing
+47,City of Rangoon,1945-03-24,24/3,arrival,sandheads,Sandh,FALSE,black = arrival
+48,City of Rangoon,1945-03-24,24/3,arrival,calcutta,Cal,FALSE,"black = arrival, same day"
+49,City of Rangoon,1945-04-02,2/4,sailing,calcutta,,TRUE,red = sailing
+50,City of Rangoon,1945-04-03,3/4,arrival,sandheads,Sandh,FALSE,black = arrival
+51,City of Rangoon,1945-04-06,6/4,arrival,chittagong,Chitt,FALSE,black = arrival
+52,City of Rangoon,1945-04-16,16/4,sailing,chittagong,,TRUE,red = sailing
+53,City of Rangoon,1945-04-17,17/4,arrival,sandheads,Sandh,FALSE,black = arrival
+54,City of Rangoon,1945-04-19,19/4,arrival,calcutta,Cal,FALSE,black = arrival
+55,City of Rangoon,1945-04-26,26/4,sailing,calcutta,,TRUE,red = sailing
+56,City of Rangoon,1945-04-28,28/4,sailing,sandheads,Sandh,FALSE,"UNCERTAIN - red = sailing, no separate arrival logged for this Sandheads visit"
+57,City of Rangoon,1945-04-29,29/4,arrival,chittagong,Chitt,FALSE,"black = arrival. Card ends 'Contd on card No: 9' (not yet identified)"
