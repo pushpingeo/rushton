@@ -1028,3 +1028,35 @@ convention is known.
   May 1950); a third citation ("Glasgow 25/4 or 25/7") isn't confidently
   matched to any specific call. New ports added to `ports.csv`: Tobruk,
   Paphos, Aegion, Thessaloniki, Bourgas.
+
+- **IMG_5671** — 110 rows plus 2 Casualties-box notes, 13 Sept 1950 to 24 Nov
+  1951. **City of Leicester**, Card No 14, Second Side — directly continues
+  IMG_5670, opening with a handwritten "Manchester" note that matches that
+  card's own final entry ("Ar Manchester Sept 13") rather than a new event.
+  No captain/master column on this card template at all. One struck-through/
+  voided entry right at the start ("Sd Liverpool Sept 24", port name crossed
+  out - also chronologically out of place between the Antwerp arrival and
+  sailing either side of it). The familiar Mediterranean/Aegean coasting
+  trade continues: Antwerp/London/Algiers, Patras, Piraeus, Volo,
+  Thessaloniki, Istanbul, Kulluk (double-l spelling, vs IMG_5658's "Kuluk" -
+  added as an alias on the same tentative port), Izmir, a new port **Zante**
+  (Zakynthos), Katakolo, Patras, Aegion, Malta, Gibraltar, Hamburg, Bremen,
+  London, Antwerp, London, a new port **Hole Haven** (Thames Estuary/Canvey
+  Island oil terminal), Alexandria, Beirut, and three new Levant ports:
+  **Iskenderun**, **Lattakia**, **Larnaca**, then Limassol. A mechanical
+  casualty follows: the ship put into Gibraltar (10 Mar 1951) with what a
+  Casualties-box blue note tentatively reads as a broken crankshaft, sailing
+  again two days later - cross-referenced by a dagger mark on the main strip
+  to two Lloyd's Agent citations dated 12 and 13 March. Resumes London/Hull/
+  Dunkirk/Middlesbrough/Hull, Port Said/Suez/Port Sudan, Karachi/Bombay/
+  Cochin, Aden/Port Sudan/Suez/Port Said, Liverpool/London/Antwerp/Dunkirk
+  (one sailing printed "Aug 4" that's almost certainly a typo for Sept 4 -
+  it's chronologically impossible as printed, and Sept 4 fits cleanly the
+  day before the next entry, Middlesbro Sept 5), Middlesbrough/Hull, Port
+  Said/Suez, Karachi/Bombay/Aden/Port Sudan/Suez, ending with a "1952" year
+  box with no entries under it. Card ends "Contd on card No. 15" (not yet
+  identified). Several day-digits are left blank/dashed on the card itself
+  (not transcription gaps - flagged individually rather than guessed), plus
+  two digits obscured by ink smudges/blots. New ports added to `ports.csv`:
+  Zante, Hole Haven, Iskenderun, Lattakia, Larnaca; "Kulluk" added as an
+  alias on the existing `kuluk` row.

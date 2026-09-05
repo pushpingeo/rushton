@@ -1,0 +1,113 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Leicester,1950-09-13,,note,manchester,Manchester,TRUE,"Handwritten header note 'Manchester' at the top of this side, above the first pasted strip - reads as a carried-forward location marker matching IMG_5670's own final entry ('Ar Manchester Sept 13'), not a new dated event"
+2,City of Leicester,1950-09-24,Sept 24,note,,Liverpool,FALSE,"typed: 'Sd Liverpool Sept 24' - the port name 'Liverpool' is struck through by the clerk, voiding the entry. Chronologically it also sits between the Ar Antwerp Sept 21 and Sd Antwerp Sept 30 entries either side of it, consistent with being a clerical error rather than a real call"
+3,City of Leicester,1950-09-21,Sept 21,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Sept 21
+4,City of Leicester,1950-09-30,Sept 30,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Sept 30
+5,City of Leicester,1950-10-01,Oct 1,arrival,london,London,FALSE,typed: Ar London Oct 1
+6,City of Leicester,1950-10-06,Oct 6,sailing,london,London,FALSE,typed: Sd London Oct 6
+7,City of Leicester,1950-10-13,Oct 13,arrival,algiers,Algiers,FALSE,typed: Ar Algiers Oct 13
+8,City of Leicester,1950-10-14,Oct 14,sailing,algiers,Algiers,FALSE,typed: Sd Algiers Oct 14
+9,City of Leicester,1950-10-18,Oct 18,arrival,patras,Patras,FALSE,typed: Ar Patras Oct 18
+10,City of Leicester,1950-10-18,Oct 18,sailing,patras,Patras,FALSE,typed: Sd Patras Oct 18
+11,City of Leicester,,Oct —,arrival,piraeus,Piraeus,FALSE,"typed: 'Ar Piraeus Oct —' - day left blank/dashed on the card itself, not a transcription gap"
+12,City of Leicester,1950-10-25,Oct 25,sailing,piraeus,Piraeus,FALSE,typed: Sd Piraeus Oct 25
+13,City of Leicester,1950-10-26,Oct 26,arrival,volo,Volo,FALSE,typed: Ar Volo Oct 26
+14,City of Leicester,1950-10-26,Oct 26,sailing,volo,Volo,FALSE,typed: Sd Volo Oct 26
+15,City of Leicester,,Nov —,arrival,thessaloniki,Thessaloniki,FALSE,"typed: 'Ar Thessaloniki Nov —' - day left blank/dashed on the card itself"
+16,City of Leicester,1950-11-01,Nov 1,sailing,thessaloniki,Thessaloniki,FALSE,typed: Sd Thessaloniki Nov 1
+17,City of Leicester,1950-11-03,Nov 3,arrival,istanbul,Istanbul,FALSE,typed: Ar Istanbul Nov 3
+18,City of Leicester,1950-11-07,Nov 7,sailing,istanbul,Istanbul,FALSE,typed: Sd Istanbul Nov 7
+19,City of Leicester,,Nov —,arrival,kuluk,Kulluk,FALSE,"typed: 'Ar Kulluk Nov —' - day left blank/dashed on the card itself. Spelled with a double 'l' here, vs the single-l 'Kuluk' on IMG_5658 - added as an alias on the same tentative port_id"
+20,City of Leicester,1950-11-11,Nov 11,sailing,kuluk,Kulluk,FALSE,typed: Sd Kulluk Nov 11
+21,City of Leicester,1950-11-13,Nov 13,arrival,izmir,Izmir,FALSE,typed: Ar Izmir Nov 13
+22,City of Leicester,1950-11-16,Nov 16,sailing,izmir,Izmir,FALSE,typed: Sd Izmir Nov 16
+23,City of Leicester,,Nov —,arrival,zante,Zante,FALSE,"NEW PORT - typed: 'Ar Zante Nov —', day left blank/dashed on the card. Zante = Zakynthos, Ionian Islands, Greece"
+24,City of Leicester,,—,sailing,zante,Zante,FALSE,"typed: 'Sd Zante —' - both month and day left blank/dashed on the card, unlike every other entry on this side"
+25,City of Leicester,1950-11-22,Nov 22,arrival,katakolo,Katakolo,FALSE,typed: Ar Katakolo Nov 22
+26,City of Leicester,1950-11-23,Nov 23,sailing,katakolo,Katakolo,FALSE,typed: Sd Katakolo Nov 23
+27,City of Leicester,1950-11-24,Nov 24,arrival,patras,Patras,FALSE,typed: Ar Patras Nov 24
+28,City of Leicester,1950-11-26,Nov 26,sailing,patras,Patras,FALSE,typed: Sd Patras Nov 26
+29,City of Leicester,1950-11-26,Nov 26,arrival,aegion,Aegion,FALSE,typed: Ar Aegion Nov 26
+30,City of Leicester,1950-12-01,Dec 1,sailing,aegion,Aegion,FALSE,typed: Sd Aegion Dec 1
+31,City of Leicester,1950-12-03,Dec 3,arrival,malta,Malta,FALSE,typed: Ar Malta Dec 3
+32,City of Leicester,1950-12-03,Dec 3,sailing,malta,Malta,FALSE,typed: Sd Malta Dec 3
+33,City of Leicester,1950-12-08,Dec 8,arrival,gibraltar,Gibraltar,FALSE,typed: Ar Gibraltar Dec 8
+34,City of Leicester,1950-12-08,Dec 8,sailing,gibraltar,Gibraltar,FALSE,typed: Sd Gibraltar Dec 8
+35,City of Leicester,1950-12-15,Dec 15,arrival,hamburg,Hamburg,FALSE,typed: Ar Hamburg Dec 15
+36,City of Leicester,1950-12-17,Dec 17,sailing,hamburg,Hamburg,FALSE,typed: Sd Hamburg Dec 17
+37,City of Leicester,1950-12-18,Dec 18,arrival,bremen,Bremen,FALSE,typed: Ar Bremen Dec 18
+38,City of Leicester,1950-12-18,Dec 18,sailing,bremen,Bremen,FALSE,typed: Sd Bremen Dec 18
+39,City of Leicester,1950-12-20,Dec 20,arrival,london,London,FALSE,"typed: Ar London Dec 20. A '1951' year box follows immediately after this strip, before the next one begins"
+40,City of Leicester,1951-01-04,Jan 4,sailing,london,London,FALSE,typed: Sd London Jan 4
+41,City of Leicester,1951-01-05,Jan 5,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Jan 5
+42,City of Leicester,1951-01-08,Jan 8,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Jan 8
+43,City of Leicester,1951-01-09,Jan 9,arrival,london,London,FALSE,typed: Ar London Jan 9
+44,City of Leicester,1951-01-22,Jan 22,sailing,london,London,FALSE,typed: Sd London Jan 22
+45,City of Leicester,1951-01-22,Jan 22,arrival,hole-haven,Hole Haven,FALSE,"NEW PORT - typed: 'Ar Hole Haven Jan 22', same day as the London sailing above it - a short Thames Estuary hop to the Canvey Island oil terminal. Hole Haven not previously seen in this collection"
+46,City of Leicester,,Jan —,sailing,hole-haven,Hole Haven,FALSE,"typed: 'Sd Hole Haven Jan —' - day left blank/dashed on the card"
+47,City of Leicester,1951-02-08,Feb 8,arrival,alexandria,Alexandria,FALSE,typed: Ar Alexandria Feb 8
+48,City of Leicester,1951-02-15,Feb 15,sailing,alexandria,Alexandria,FALSE,typed: Sd Alexandria Feb 15
+49,City of Leicester,1951-02-17,Feb 17,arrival,beirut,Beirut,FALSE,typed: Ar Beirut Feb 17
+50,City of Leicester,1951-02-20,Feb 20,sailing,beirut,Beirut,FALSE,typed: Sd Beirut Feb 20
+51,City of Leicester,1951-02-21,Feb 21,arrival,iskenderun,Iskenderun,FALSE,NEW PORT - typed: Ar Iskenderun Feb 21. Gulf of Alexandretta/Iskenderun coast of Turkey
+52,City of Leicester,1951-02-24,Feb 24,sailing,iskenderun,Iskenderun,FALSE,typed: Sd Iskenderun Feb 24
+53,City of Leicester,1951-02-25,Feb 25,arrival,lattakia,Lattakia,FALSE,NEW PORT - typed: Ar Lattakia Feb 25 (Latakia, Syria)
+54,City of Leicester,1951-02-25,Feb 25,sailing,lattakia,Lattakia,FALSE,typed: Sd Lattakia Feb 25
+55,City of Leicester,1951-02-26,Feb 26,arrival,larnaca,Larnaca,FALSE,NEW PORT - typed: Ar Larnaca Feb 26 (Cyprus - distinct from this ship's earlier Limassol/Famagusta calls)
+56,City of Leicester,1951-02-26,Feb 26,sailing,larnaca,Larnaca,FALSE,typed: Sd Larnaca Feb 26
+57,City of Leicester,1951-02-27,Feb 27,arrival,limassol,Limassol,FALSE,typed: Ar Limassol Feb 27
+58,City of Leicester,1951-03-01,Mar 1,sailing,limassol,Limassol,FALSE,typed: Sd Limassol Mar 1
+59,City of Leicester,1951-03-10,Mar 10,note,gibraltar,Gibraltar,FALSE,"MECHANICAL CASUALTY - typed: 'Put in Gibraltar Mar 10', with a dagger mark '✝ Mar 12, 13' referencing the Casualties box (see seq 60/61 rows and cards.csv). The ship put into Gibraltar with engine trouble rather than making a normal call"
+60,City of Leicester,1951-03-11,Mar 11,sailing,gibraltar,Gibraltar,FALSE,"typed: Sd Gibraltar Mar 11 - the day after putting in (seq 59); matches the Casualties box's second citation date '11/3'"
+61,City of Leicester,1951-03-19,Mar 19,arrival,london,London,FALSE,typed: Ar London Mar 19
+62,City of Leicester,1951-03-23,Mar 23,sailing,london,London,FALSE,typed: Sd London Mar 23
+63,City of Leicester,1951-03-24,Mar 24,arrival,hull,Hull,FALSE,typed: Ar Hull Mar 24
+64,City of Leicester,1951-04-01,Apr 1,sailing,hull,Hull,FALSE,typed: Sd Hull Apr 1
+65,City of Leicester,,Apr ?,arrival,dunkirk,Dunkirk,FALSE,"typed: 'Ar Dunkirk Apr ?' - the day digit is smudged/malformed on the card itself (prints as an ink blot rather than a clean numeral), not a torn-paper gap. Falls between Sd Hull Apr 1 and Sd Dunkirk Apr 10, so the day is somewhere in that range - not confidently resolved to a specific number"
+66,City of Leicester,1951-04-10,Apr 10,sailing,dunkirk,Dunkirk,FALSE,typed: Sd Dunkirk Apr 10
+67,City of Leicester,1951-04-11,Apr 11,arrival,middlesbrough,Middlesbro,FALSE,"typed: Ar Middlesbro Apr 11. A sliver of an obscured, illegible strip of text (reading approximately '...eatfield (H),') peeks out from underneath the next pasted strip just below this line - most likely an artifact of the paste overlap (an earlier draft/offcut of the strip beneath) rather than a distinct entry, but not confidently resolved either way"
+68,City of Leicester,1951-04-16,Apr 16,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Apr 16
+69,City of Leicester,1951-04-17,Apr 17,arrival,hull,Hull,FALSE,typed: Ar Hull Apr 17
+70,City of Leicester,1951-04-22,Apr 22,sailing,hull,Hull,FALSE,typed: Sd Hull Apr 22
+71,City of Leicester,1951-05-05,May 5,arrival,port-said,Port Said,FALSE,typed: Ar Port Said May 5
+72,City of Leicester,1951-05-06,May 6,sailing,port-said,Port Said,FALSE,typed: Sd Port Said May 6
+73,City of Leicester,1951-05-07,May 7,sailing,suez,Suez,FALSE,"typed: Sd Suez May 7 - no separate Ar Suez logged, a same/next-day Canal transit from Port Said"
+74,City of Leicester,1951-05-10,May 10,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan May 10
+75,City of Leicester,1951-05-14,May 14,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan May 14
+76,City of Leicester,,May 2?,arrival,karachi,Karachi,FALSE,"typed: 'Ar Karachi May 2?' - the second digit is covered by an ink blot/smudge on the card itself, fully illegible. Falls between Sd Port Sudan May 14 and Sd Karachi May 31, so somewhere in the low-to-mid 20s of May - not confidently resolved to a specific day"
+77,City of Leicester,1951-05-31,May 31,sailing,karachi,Karachi,FALSE,typed: Sd Karachi May 31
+78,City of Leicester,1951-06-02,June 2,arrival,bombay,Bombay,FALSE,typed: Ar Bombay June 2
+79,City of Leicester,1951-06-11,June 11,sailing,bombay,Bombay,FALSE,typed: Sd Bombay June 11
+80,City of Leicester,1951-06-15,June 15,arrival,cochin,Cochin,FALSE,typed: Ar Cochin June 15
+81,City of Leicester,1951-07-03,July 3,sailing,cochin,Cochin,FALSE,typed: Sd Cochin July 3
+82,City of Leicester,1951-07-16,July 16,arrival,aden,Aden,FALSE,typed: Ar Aden July 16
+83,City of Leicester,1951-07-18,July 18,sailing,aden,Aden,FALSE,typed: Sd Aden July 18
+84,City of Leicester,1951-07-21,July 21,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan July 21
+85,City of Leicester,1951-07-23,July 23,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan July 23
+86,City of Leicester,1951-07-26,July 26,arrival,suez,Suez,FALSE,typed: Ar Suez July 26
+87,City of Leicester,1951-07-27,July 27,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said July 27 - no separate Ar Port Said logged, a same-week Canal transit from Suez"
+88,City of Leicester,1951-08-10,Aug 10,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Aug 10
+89,City of Leicester,1951-08-15,Aug 15,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Aug 15
+90,City of Leicester,1951-08-18,Aug 18,arrival,london,London,FALSE,typed: Ar London Aug 18
+91,City of Leicester,1951-08-23,Aug 23,sailing,london,London,FALSE,typed: Sd London Aug 23
+92,City of Leicester,1951-08-24,Aug 24,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Aug 24
+93,City of Leicester,1951-08-31,Aug 31,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Aug 31
+94,City of Leicester,1951-08-31,Aug 31,arrival,dunkirk,Dunkirk,FALSE,"typed: Ar Dunkirk Aug 31, same day as the Antwerp sailing above it - a short hop"
+95,City of Leicester,1951-09-04,Aug 4,sailing,dunkirk,Dunkirk,FALSE,"UNCERTAIN - typed: 'Sd Dunkirk Aug 4', but this is chronologically impossible as printed (4 Aug is before the 31 Aug arrival it follows). Almost certainly a typo for 'Sept 4' - the next entry, 'Ar Middlesbro Sept 5', fits cleanly the day after. Date resolved to 1951-09-04 on that basis; date_raw kept exactly as printed"
+96,City of Leicester,1951-09-05,Sept 5,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Sept 5
+97,City of Leicester,1951-09-12,Sept 12,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Sept 12
+98,City of Leicester,1951-09-12,Sept 12,arrival,hull,Hull,FALSE,"typed: Ar Hull Sept 12, same day as the Middlesbro sailing above it - a short coastal hop"
+99,City of Leicester,1951-09-20,Sept 20,sailing,hull,Hull,FALSE,"typed: Sd Hull Sept 20 - the day digit prints in a broken/stylised font, read as '20' by position (follows Sept 12)"
+100,City of Leicester,1951-10-03,Oct 3,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Oct 3
+101,City of Leicester,1951-10-07,Oct 7,sailing,suez,Suez,FALSE,"typed: Sd Suez Oct 7 - no separate Ar Suez logged, a Canal transit from Port Said"
+102,City of Leicester,1951-10-21,Oct 21,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Oct 21
+103,City of Leicester,1951-10-28,Oct 28,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Oct 28
+104,City of Leicester,1951-11-01,Nov 1,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Nov 1
+105,City of Leicester,1951-11-08,Nov 8,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Nov 8
+106,City of Leicester,1951-11-14,Nov 14,arrival,aden,Aden,FALSE,typed: Ar Aden Nov 14
+107,City of Leicester,1951-11-15,Nov 15,sailing,aden,Aden,FALSE,typed: Sd Aden Nov 15
+108,City of Leicester,1951-11-18,Nov 18,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Nov 18
+109,City of Leicester,1951-11-22,Nov 22,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Nov 22
+110,City of Leicester,1951-11-24,Nov 24,arrival,suez,Suez,FALSE,"typed: Ar Suez Nov 24. A '1952' year box follows with no further entries under it - card ends here, 'Contd on card No. 15' (not yet identified)"
+111,City of Leicester,1951-03-12,12,note,gibraltar,,FALSE,"CASUALTIES box (1951): blue handwritten citation reads approximately 'Mar 12 - Put in [Gibraltar] with [broken] crankshaft' - a Lloyd's Agent report dated 12 March about the Mar 10 Gibraltar put-in already logged in the main sequence (seq 59). The word after 'with' is tentatively read as 'crankshaft' by comparison with the identical incident description on IMG_5641 ('Pump crankshaft broken')"
+112,City of Leicester,1951-03-13,13,note,gibraltar,,FALSE,"CASUALTIES box (1951): second blue citation, dated 13 March, reads approximately '[Seaworthy?] Sailed [Gib] 11/3' - a Lloyd's Agent report about the Mar 11 Gibraltar sailing already logged in the main sequence (seq 60). The word before 'Sailed' is genuinely uncertain, tentatively 'Seaworthy' - both citations are cross-referenced by the dagger mark '✝ Mar 12, 13' on the main strip next to the Gibraltar entries"
