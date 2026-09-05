@@ -1,0 +1,104 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Lille (Motor),1950-11-13,Nov 13,sailing,rotterdam,Rotterdam,FALSE,"typed: Sd Rotterdam Nov 13 - directly continues IMG_5672's final entry, Ar Rotterdam Nov 12"
+2,City of Lille (Motor),1950-11-15,Nov 15,arrival,hamburg,Hamburg,FALSE,typed: Ar Hamburg Nov 15
+3,City of Lille (Motor),1950-11-16,Nov 16,sailing,hamburg,Hamburg,FALSE,typed: Sd Hamburg Nov 16
+4,City of Lille (Motor),1950-11-17,Nov 17,arrival,hull,Hull,FALSE,typed: Ar Hull Nov 17
+5,City of Lille (Motor),1950-11-19,Nov 19,sailing,hull,Hull,FALSE,typed: Sd Hull Nov 19
+6,City of Lille (Motor),1950-11-20,Nov 20,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Nov 20
+7,City of Lille (Motor),1950-11-26,Nov 26,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Nov 26
+8,City of Lille (Motor),1950-11-28,Nov 28,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Nov 28
+9,City of Lille (Motor),1950-12-02,Dec 2,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Dec 2
+10,City of Lille (Motor),1950-12-03,Dec 3,arrival,london,London,FALSE,typed: Ar London Dec 3
+11,City of Lille (Motor),1950-12-13,Dec 13,sailing,london,London,FALSE,typed: Sd London Dec 13
+12,City of Lille (Motor),1950-12-19,Dec 19,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe Dec 19
+13,City of Lille (Motor),1950-12-19,Dec 19,sailing,teneriffe,Teneriffe,FALSE,"typed: Sd Teneriffe Dec 19, same day. A '1951' year box follows"
+14,City of Lille (Motor),1951-01-07,Jan 7,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Jan 7
+15,City of Lille (Motor),1951-01-11,Jan 11,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Jan 11
+16,City of Lille (Motor),1951-01-13,Jan 13,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Jan 13
+17,City of Lille (Motor),1951-01-20,Jan 20,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Jan 20
+18,City of Lille (Motor),1951-01-21,Jan 21,arrival,east-london,East London,FALSE,typed: Ar East London Jan 21
+19,City of Lille (Motor),1951-01-21,Jan 21,sailing,east-london,East London,FALSE,"typed: Sd East London Jan 21, same day"
+20,City of Lille (Motor),1951-01-22,Jan 22,arrival,durban,Durban,FALSE,typed: Ar Durban Jan 22
+21,City of Lille (Motor),1951-01-29,Jan 29,sailing,durban,Durban,FALSE,typed: Sd Durban Jan 29
+22,City of Lille (Motor),1951-01-30,Jan 30,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Jan 30
+23,City of Lille (Motor),1951-01-31,Jan 31,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Jan 31
+24,City of Lille (Motor),1951-02-08,Feb 8,arrival,mombasa,Mombasa,FALSE,"typed: Ar Mombasa Feb 8 - end of column 1, continues into column 2"
+25,City of Lille (Motor),1951-02-24,Feb 24,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Feb 24
+26,City of Lille (Motor),1951-03-02,Mar 2,arrival,aden,Aden,FALSE,typed: Ar Aden Mar 2
+27,City of Lille (Motor),1951-03-03,Mar 3,sailing,aden,Aden,FALSE,typed: Sd Aden Mar 3
+28,City of Lille (Motor),1951-03-07,Mar 7,arrival,suez,Suez,FALSE,typed: Ar Suez Mar 7
+29,City of Lille (Motor),,Mar —,sailing,port-said,Port Said,FALSE,"typed: 'Sd Port Said Mar —' - day left blank/dashed on the card itself"
+30,City of Lille (Motor),1951-03-10,Mar 10,note,port-said,Port Said,FALSE,"MECHANICAL CASUALTY - typed: 'Put back Port Said Mar 10' with a dagger mark '✝ Mar 12, 16' referencing the Casualties box. The box itself reads clearly: 'Mar 12 - Port Said 10/3 with engine trouble' and 'Sailed 16 - 15/3' - the ship put back into Port Said with engine trouble, Lloyd's Agent citations dated 12 and 16 March confirming the 10/3 put-back and 15/3 sailing"
+31,City of Lille (Motor),1951-03-16,Mar 16,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said Mar 16 - matches the Casualties box's 'Sailed 16 - 15/3' citation (see seq 30), sailed the day after the citation date"
+32,City of Lille (Motor),1951-03-26,Mar 26,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Mar 26
+33,City of Lille (Motor),1951-04-08,Apr 8,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Apr 8
+34,City of Lille (Motor),1951-04-09,Apr 9,arrival,manchester,Manchester,FALSE,typed: Ar Manchester Apr 9
+35,City of Lille (Motor),1951-04-17,Apr 17,sailing,manchester,Manchester,FALSE,typed: Sd Manchester Apr 17
+36,City of Lille (Motor),1951-04-19,Apr 19,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Apr 19
+37,City of Lille (Motor),1951-04-29,Apr 29,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Apr 29
+38,City of Lille (Motor),1951-05-11,May 11,arrival,philadelphia,Philadelphia,FALSE,typed: Ar Philadelphia May 11
+39,City of Lille (Motor),1951-05-14,May 14,sailing,philadelphia,Philadelphia,FALSE,typed: Sd Philadelphia May 14
+40,City of Lille (Motor),1951-05-15,May 15,arrival,new-york,New York,FALSE,typed: Ar New York May 15
+41,City of Lille (Motor),1951-05-22,May 22,sailing,new-york,New York,FALSE,typed: Sd New York May 22
+42,City of Lille (Motor),1951-06-09,June 9,arrival,port-said,Port Said,FALSE,typed: Ar Port Said June 9
+43,City of Lille (Motor),1951-06-10,June 10,sailing,suez,Suez,FALSE,"typed: Sd Suez June 10 - no separate Ar Suez logged, a Canal transit from Port Said"
+44,City of Lille (Motor),1951-06-15,June 15,arrival,aden,Aden,FALSE,typed: Ar Aden June 15
+45,City of Lille (Motor),1951-06-15,June 15,sailing,aden,Aden,FALSE,"typed: Sd Aden June 15, same day"
+46,City of Lille (Motor),1951-06-20,June 20,arrival,karachi,Karachi,FALSE,typed: Ar Karachi June 20
+47,City of Lille (Motor),1951-06-22,June 22,sailing,karachi,Karachi,FALSE,typed: Sd Karachi June 22
+48,City of Lille (Motor),1951-06-24,June 24,arrival,bombay,Bombay,FALSE,typed: Ar Bombay June 24
+49,City of Lille (Motor),1951-07-02,July 2,sailing,bombay,Bombay,FALSE,typed: Sd Bombay July 2
+50,City of Lille (Motor),1951-07-04,July 4,arrival,cochin,Cochin,FALSE,typed: Ar Cochin July 4
+51,City of Lille (Motor),1951-07-06,July 6,sailing,cochin,Cochin,FALSE,typed: Sd Cochin July 6
+52,City of Lille (Motor),1951-07-07,July 7,arrival,colombo,Colombo,FALSE,"typed: Ar Colombo July 7 - end of column 2, continues into column 3"
+53,City of Lille (Motor),1951-07-12,July 12,sailing,colombo,Colombo,FALSE,typed: Sd Colombo July 12
+54,City of Lille (Motor),1951-07-14,July 14,arrival,madras,Madras,FALSE,typed: Ar Madras July 14
+55,City of Lille (Motor),1951-07-17,July 17,sailing,madras,Madras,FALSE,typed: Sd Madras July 17
+56,City of Lille (Motor),1951-07-20,July 20,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta July 20
+57,City of Lille (Motor),1951-08-08,Aug 8,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Aug 8
+58,City of Lille (Motor),1951-08-10,Aug 10,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam Aug 10
+59,City of Lille (Motor),1951-08-14,Aug 14,sailing,vizagapatam,Vizagapatam,FALSE,typed: Sd Vizagapatam Aug 14
+60,City of Lille (Motor),1951-08-15,Aug 15,arrival,madras,Madras,FALSE,typed: Ar Madras Aug 15
+61,City of Lille (Motor),1951-08-18,Aug 18,sailing,madras,Madras,FALSE,typed: Sd Madras Aug 18
+62,City of Lille (Motor),1951-08-20,Aug 20,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Aug 20
+63,City of Lille (Motor),1951-08-23,Aug 23,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Aug 23
+64,City of Lille (Motor),1951-08-24,Aug 24,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Aug 24
+65,City of Lille (Motor),1951-08-25,Aug 25,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Aug 25
+66,City of Lille (Motor),1951-09-01,Sept 1,arrival,aden,Aden,FALSE,typed: Ar Aden Sept 1
+67,City of Lille (Motor),1951-09-02,Sept 2,sailing,aden,Aden,FALSE,typed: Sd Aden Sept 2
+68,City of Lille (Motor),1951-09-04,Sept 4,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Sept 4
+69,City of Lille (Motor),1951-09-05,Sept 5,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Sept 5
+70,City of Lille (Motor),1951-09-07,Sept 7,arrival,suez,Suez,FALSE,typed: Ar Suez Sept 7
+71,City of Lille (Motor),1951-09-08,Sept 8,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said Sept 8 - no separate Ar Port Said logged, a Canal transit from Suez"
+72,City of Lille (Motor),1951-09-20,Sept 20,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth Sept 20
+73,City of Lille (Motor),1951-09-26,Sept 26,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth Sept 26
+74,City of Lille (Motor),1951-09-28,Sept 28,arrival,london,London,FALSE,typed: Ar London Sept 28
+75,City of Lille (Motor),1951-10-03,Oct 3,sailing,london,London,FALSE,typed: Sd London Oct 3
+76,City of Lille (Motor),1951-10-04,Oct 4,arrival,hull,Hull,FALSE,typed: Ar Hull Oct 4
+77,City of Lille (Motor),1951-10-08,Oct 8,sailing,hull,Hull,FALSE,typed: Sd Hull Oct 8
+78,City of Lille (Motor),1951-10-10,Oct 10,arrival,dundee,Dundee,FALSE,typed: Ar Dundee Oct 10
+79,City of Lille (Motor),1951-10-11,Oct 11,sailing,dundee,Dundee,FALSE,typed: Sd Dundee Oct 11
+80,City of Lille (Motor),1951-10-13,Oct 13,arrival,glasgow,Glasgow,FALSE,"typed: Ar Glasgow Oct 13 - end of column 3, continues into column 4"
+81,City of Lille (Motor),1951-10-25,Oct 25,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Oct 25
+82,City of Lille (Motor),1951-10-26,Oct 26,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Oct 26
+83,City of Lille (Motor),1951-11-11,Nov 11,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Nov 11
+84,City of Lille (Motor),1951-11-22,Nov 22,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Nov 22
+85,City of Lille (Motor),1951-11-23,Nov 23,sailing,suez,Suez,FALSE,"typed: Sd Suez Nov 23 - no separate Ar Suez logged, a Canal transit from Port Said"
+86,City of Lille (Motor),1951-11-26,Nov 26,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Nov 26
+87,City of Lille (Motor),1951-11-30,Nov 30,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Nov 30
+88,City of Lille (Motor),1951-12-02,Dec 2,arrival,aden,Aden,FALSE,typed: Ar Aden Dec 2
+89,City of Lille (Motor),1951-12-02,Dec 2,sailing,aden,Aden,FALSE,"typed: Sd Aden Dec 2, same day"
+90,City of Lille (Motor),1951-12-08,Dec 8,arrival,mombasa,Mombasa Rds,FALSE,"typed: Ar Mombasa Rds Dec 8 - the roadstead/offshore anchorage. A '1952' year box follows"
+91,City of Lille (Motor),1952-01-15,Jan 15,arrival,mombasa,Mombasa,FALSE,"typed: Ar Mombasa Jan 15 - into the harbour proper, over a month after the roadstead arrival (seq 90)"
+92,City of Lille (Motor),1952-01-31,Jan 31,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Jan 31
+93,City of Lille (Motor),1952-01-31,Jan 31,arrival,tanga,Tanga,FALSE,"typed: Ar Tanga Jan 31, same day as the Mombasa sailing above it"
+94,City of Lille (Motor),1952-02-02,Feb 2,sailing,tanga,Tanga,FALSE,typed: Sd Tanga Feb 2
+95,City of Lille (Motor),1952-02-03,Feb 3,arrival,zanzibar,Zanzibar,FALSE,typed: Ar Zanzibar Feb 3
+96,City of Lille (Motor),1952-02-03,Feb 3,sailing,zanzibar,Zanzibar,FALSE,"typed: Sd Zanzibar Feb 3, same day"
+97,City of Lille (Motor),1952-02-04,Feb 4,arrival,dar-es-salaam,Dar-es-Salaam,FALSE,typed: Ar Dar-es-Salaam Feb 4
+98,City of Lille (Motor),1952-02-11,Feb 11,sailing,dar-es-salaam,Dar-es-Salaam,FALSE,typed: Sd Dar-es-Salaam Feb 11
+99,City of Lille (Motor),1952-02-17,Feb 17,arrival,mauritius,Mauritius,FALSE,typed: Ar Mauritius Feb 17
+100,City of Lille (Motor),1952-02-18,Feb 18,sailing,mauritius,Mauritius,FALSE,typed: Sd Mauritius Feb 18
+101,City of Lille (Motor),1952-03-02,Mar 2,arrival,port-swettenham,Port Swettenham,FALSE,typed: Ar Port Swettenham Mar 2
+102,City of Lille (Motor),1952-03-05,Mar 5,sailing,port-swettenham,Port Swettenham,FALSE,typed: Sd Port Swettenham Mar 5
+103,City of Lille (Motor),1952-03-12,Mar 12,arrival,hong-kong,Hongkong,FALSE,"typed: Ar Hongkong Mar 12 - card ends here, 'Contd Card No 14' written in red at the bottom of the card (not yet identified)"

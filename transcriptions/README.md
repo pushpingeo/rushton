@@ -1092,3 +1092,21 @@ convention is known.
   isn't fully reconstructed; a citation reading approximately "[Cal]led to
   [attend?] sick man" near a "Lisbon 26/10" reference is flagged but not
   confidently dated. New port added to `ports.csv`: Three Rivers.
+
+
+- **IMG_5673** — 103 rows plus 2 Casualties-box notes, 13 Nov 1950 to 12 Mar
+  1952. **City of Lille**, Card No 13, Second Side — directly continues
+  IMG_5672. Entirely typed/pasted strips. Hamburg/Hull/Middlesbrough/Antwerp/
+  London/Teneriffe, then a full South/East Africa circuit (Cape Town, Port
+  Elizabeth, East London, Durban, Lourenco Marques, Mombasa). A second
+  mechanical casualty follows the pattern from IMG_5672: the ship put back
+  into Port Said (10 Mar 1951) with engine trouble - this time the
+  Casualties box is clearly legible ("Port Said 10/3 with engine trouble",
+  "Sailed 16 - 15/3"), sailing again six days later. Resumes Liverpool/
+  Manchester/Glasgow, a US East Coast run (Philadelphia, New York), Suez/
+  Aden/Karachi/Bombay/Cochin/Colombo/Madras/Calcutta/Vizagapatam (repeated
+  laps), Aden/Port Sudan/Suez, Avonmouth/London/Hull/Dundee/Glasgow,
+  Liverpool, Suez/Port Sudan/Aden, a Mombasa roadstead arrival followed over
+  a month later by the harbour arrival proper, Tanga/Zanzibar/Dar-es-Salaam,
+  Mauritius, Port Swettenham, ending at Hongkong. Card ends "Contd Card No
+  14" (not yet identified). No new ports.
