@@ -1060,3 +1060,35 @@ convention is known.
   two digits obscured by ink smudges/blots. New ports added to `ports.csv`:
   Zante, Hole Haven, Iskenderun, Lattakia, Larnaca; "Kulluk" added as an
   alias on the existing `kuluk` row.
+
+
+- **IMG_5672** — 109 rows plus 6 Casualties-box notes, 11 June 1949 to 12 Nov
+  1950. **NEW SHIP: City of Lille** (Motor) (built 1928, net tonnage 4052),
+  Card No 13, First Side — continues an unseen Card No 12, Second Side;
+  earlier cards not yet identified. Entirely typed/pasted strips. Opens with
+  a transatlantic Canada run (Montreal, a new port **Three Rivers**/
+  Trois-Rivieres, Quebec), then the ship put back into Quebec - the
+  Casualties box, headed "Re generator damage" (read tentatively), suggests
+  generator trouble - sailing again nearly a month later. Resumes Port Said/
+  Suez, where the ship also lost an anchor and chain per the Casualties box,
+  Aden, Karachi, Bombay, Cochin, Colombo, Madras, Calcutta, Visakhapatnam,
+  Colombo, Aden, Port Sudan, Suez/Port Said, London, Dundee, Boulogne,
+  Dunkirk (a roadstead arrival followed 6 days later by a harbour arrival),
+  Liverpool, Newport, Glasgow - a following Liverpool sailing is torn off
+  the card, its date lost rather than just illegible - then into 1950: Port
+  Said, Port Sudan, Aden, Mombasa, Tanga, Zanzibar, Dar-es-Salaam (repeated
+  laps), a duplicate-looking "Ar Liverpool May 5" citation pasted in
+  chronologically the wrong spot before its correctly-placed twin later on
+  the card, Suez/Port Said, Liverpool, Glasgow, Newport, Liverpool,
+  Teneriffe, then a full South/East Africa circuit (Durban, Lourenco
+  Marques, Beira, Lourenco Marques, Durban, East London, Port Elizabeth,
+  Cape Town), Las Palmas, Lisbon, London, Avonmouth, ending at Rotterdam
+  with no "P.T.O." or "Contd" note spotted. A handwritten margin note beside
+  the last entry reads approximately "Recovered Anchor & cable", probably
+  closing out the lost-anchor incident from earlier on the card. The
+  Casualties box is dense and only partially resolved - citation dates are
+  matched to their main-sequence dagger marks where possible, but the
+  overall narrative (beyond "generator damage" and "lost anchor & chain")
+  isn't fully reconstructed; a citation reading approximately "[Cal]led to
+  [attend?] sick man" near a "Lisbon 26/10" reference is flagged but not
+  confidently dated. New port added to `ports.csv`: Three Rivers.

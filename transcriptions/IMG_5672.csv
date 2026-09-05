@@ -1,0 +1,116 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Lille (Motor),1949-06-11,June 11,sailing,montreal,Montreal,FALSE,typed: Sd Montreal June 11
+2,City of Lille (Motor),1949-06-12,June 12,arrival,three-rivers,Three Rivers,FALSE,NEW PORT - typed: Ar Three Rivers June 12 (Trois-Rivieres, Quebec, on the St Lawrence)
+3,City of Lille (Motor),1949-06-13,June 13,sailing,three-rivers,Three Rivers,FALSE,typed: Sd Three Rivers June 13
+4,City of Lille (Motor),1949-06-14,June 14,arrival,quebec,Quebec,FALSE,typed: Ar Quebec June 14
+5,City of Lille (Motor),1949-06-14,June 14,sailing,quebec,Quebec,FALSE,typed: Sd Quebec June 14
+6,City of Lille (Motor),1949-06-15,June 15,note,quebec,Quebec,FALSE,"MAJOR INCIDENT - typed: 'Put back Quebec June 15' with a dagger mark '✝ June 18, July 6' referencing the Casualties box. The box itself is headed 'Re generator damage' (read tentatively - handwriting compressed/unclear), which most likely describes this incident: the ship, a motor vessel, put back into Quebec with generator trouble rather than making a normal call. Not itemised further in the box beyond the header and the two citation dates"
+7,City of Lille (Motor),1949-07-10,July 10,sailing,quebec,Quebec,FALSE,"typed: Sd Quebec July 10 - sailed again after the put-back (seq 6), just under a month later"
+8,City of Lille (Motor),1949-07-27,July 27,arrival,port-said,Port Said,FALSE,typed: Ar Port Said July 27
+9,City of Lille (Motor),1949-07-28,July 28,arrival,suez,Suez,FALSE,"typed: Ar Suez July 28, with a dagger mark '✝ Aug 1, 6' referencing the Casualties box - see seq 10 for the incident this points to"
+10,City of Lille (Motor),1949-08-01,Aug 1,sailing,suez,Suez,FALSE,"typed: Sd Suez Aug 1. CASUALTIES box: 'Aug 1 - Lost anchor & chain' with a citation cluster 'Suez 30/7, July 29, 2/8, Aug 1, P.Said 5/8' - read together, the ship lost an anchor and chain around the Suez call above, with Lloyd's Agent reports through early August. A separate margin note on this card's right-hand edge reads approximately 'Recovered Anchor & cable' (partly illegible beyond that) - likely a later citation that the anchor/cable were recovered, but not confidently linked to a specific date"
+11,City of Lille (Motor),1949-08-06,Aug 6,arrival,aden,Aden,FALSE,typed: Ar Aden Aug 6
+12,City of Lille (Motor),1949-08-06,Aug 6,sailing,aden,Aden,FALSE,typed: Sd Aden Aug 6
+13,City of Lille (Motor),1949-08-12,Aug 12,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Aug 12
+14,City of Lille (Motor),1949-08-13,Aug 13,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Aug 13
+15,City of Lille (Motor),1949-08-16,Aug 16,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Aug 16
+16,City of Lille (Motor),1949-08-29,Aug 29,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Aug 29
+17,City of Lille (Motor),1949-08-31,Aug 31,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Aug 31
+18,City of Lille (Motor),1949-09-01,Sept 1,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Sept 1
+19,City of Lille (Motor),1949-09-02,Sept 2,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Sept 2
+20,City of Lille (Motor),1949-09-04,Sept 4,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Sept 4
+21,City of Lille (Motor),1949-09-06,Sept 6,arrival,madras,Madras,FALSE,typed: Ar Madras Sept 6
+22,City of Lille (Motor),1949-09-07,Sept 7,sailing,madras,Madras,FALSE,typed: Sd Madras Sept 7
+23,City of Lille (Motor),1949-09-13,Sept 13,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Sept 13
+24,City of Lille (Motor),1949-10-06,Oct 6,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Oct 6
+25,City of Lille (Motor),1949-10-08,Oct 8,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam Oct 8
+26,City of Lille (Motor),1949-10-09,Oct 9,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Oct 9
+27,City of Lille (Motor),1949-10-12,Oct 12,arrival,colombo,Colombo,FALSE,"typed: Ar Colombo Oct 12, with a dagger mark '✝ Oct 13, 15' referencing the Casualties box (see seq 28)"
+28,City of Lille (Motor),1949-10-14,Oct 14,sailing,colombo,Colombo,FALSE,"typed: Sd Colombo Oct 14. CASUALTIES box citations 'Colombo 12/10' and 'Colombo 14/10' (under a '1949 Cont'd' year marker) match this arrival/sailing pair exactly - read as Lloyd's Agent confirmations of these same two dates rather than separate events"
+29,City of Lille (Motor),1949-10-21,Oct 21,arrival,aden,Aden,FALSE,typed: Ar Aden Oct 21
+30,City of Lille (Motor),1949-10-21,Oct 21,sailing,aden,Aden,FALSE,typed: Sd Aden Oct 21
+31,City of Lille (Motor),1949-10-23,Oct 23,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Oct 23
+32,City of Lille (Motor),1949-10-24,Oct 24,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Oct 24
+33,City of Lille (Motor),1949-10-27,Oct 27,arrival,suez,Suez,FALSE,typed: Ar Suez Oct 27
+34,City of Lille (Motor),1949-10-28,Oct 28,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said Oct 28 - no separate Ar Port Said logged, a Canal transit from Suez"
+35,City of Lille (Motor),1949-11-07,Nov 7,arrival,london,London,FALSE,typed: Ar London Nov 7
+36,City of Lille (Motor),1949-11-15,Nov 15,sailing,london,London,FALSE,typed: Sd London Nov 15
+37,City of Lille (Motor),1949-11-17,Nov 17,arrival,dundee,Dundee,FALSE,typed: Ar Dundee Nov 17
+38,City of Lille (Motor),,Nov —,sailing,dundee,Dundee,FALSE,"typed: 'Sd Dundee Nov —' - day left blank/dashed on the card itself"
+39,City of Lille (Motor),1949-11-20,Nov 20,arrival,boulogne,Boulogne,FALSE,typed: Ar Boulogne Nov 20
+40,City of Lille (Motor),1949-11-24,Nov 24,sailing,boulogne,Boulogne,FALSE,typed: Sd Boulogne Nov 24
+41,City of Lille (Motor),1949-11-24,Nov 24,arrival,dunkirk,Dunkirk Rds,FALSE,"typed: 'Ar Dunkirk Rds Nov 24' - arrival at the roadstead (offshore anchorage), same day as the Boulogne sailing. Followed by a separate arrival into Dunkirk proper 6 days later (seq 42) - the ship evidently lay at anchor off Dunkirk before being berthed"
+42,City of Lille (Motor),1949-11-30,Nov 30,arrival,dunkirk,Dunkirk,FALSE,"typed: Ar Dunkirk Nov 30 - see seq 41, a second 'arrival' 6 days after the roadstead one, most likely reflecting the move from anchorage to berth rather than a fresh call"
+43,City of Lille (Motor),1949-12-05,Dec 5,sailing,dunkirk,Dunkirk,FALSE,typed: Sd Dunkirk Dec 5
+44,City of Lille (Motor),1949-12-07,Dec 7,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Dec 7
+45,City of Lille (Motor),1949-12-21,Dec 21,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Dec 21
+46,City of Lille (Motor),1949-12-22,Dec 22,arrival,newport,Newport,FALSE,typed: Ar Newport Dec 22
+47,City of Lille (Motor),1949-12-24,Dec 24,sailing,newport,Newport,FALSE,typed: Sd Newport Dec 24
+48,City of Lille (Motor),1949-12-25,Dec 25,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Dec 25
+49,City of Lille (Motor),1949-12-29,Dec 29,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Dec 29
+50,City of Lille (Motor),1949-12-30,Dec 30,arrival,liverpool,Liverpool,FALSE,"typed: Ar Liverpool Dec 30. The strip is physically torn immediately below this line, cutting off what was evidently a following 'Sd Liverpool [date]' entry - the date is lost, not just illegible. A '1950' year box follows"
+51,City of Lille (Motor),1950-01-16,Jan 16,sailing,liverpool,Liverpool,FALSE,"typed: Sd Liverpool Jan 16 - the sailing torn off after seq 50 (date unknown) presumably preceded this"
+52,City of Lille (Motor),1950-01-28,Jan 28,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Jan 28
+53,City of Lille (Motor),1950-01-29,Jan 29,sailing,suez,Suez,FALSE,"typed: Sd Suez Jan 29 - no separate Ar Suez logged, a Canal transit from Port Said"
+54,City of Lille (Motor),1950-02-01,Feb 1,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Feb 1
+55,City of Lille (Motor),1950-02-02,Feb 2,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Feb 2
+56,City of Lille (Motor),1950-02-04,Feb 4,arrival,aden,Aden,FALSE,typed: Ar Aden Feb 4
+57,City of Lille (Motor),1950-02-05,Feb 5,sailing,aden,Aden,FALSE,typed: Sd Aden Feb 5
+58,City of Lille (Motor),1950-02-10,Feb 10,arrival,mombasa,Mombasa,FALSE,typed: Ar Mombasa Feb 10
+59,City of Lille (Motor),1950-02-25,Feb 25,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Feb 25
+60,City of Lille (Motor),1950-02-25,Feb 25,arrival,tanga,Tanga,FALSE,typed: Ar Tanga Feb 25
+61,City of Lille (Motor),,Feb —,sailing,tanga,Tanga,FALSE,"typed: 'Sd Tanga Feb —' - day left blank/dashed on the card itself"
+62,City of Lille (Motor),1950-02-28,Feb 28,arrival,zanzibar,Zanzibar,FALSE,typed: Ar Zanzibar Feb 28
+63,City of Lille (Motor),1950-03-07,Mar 7,sailing,zanzibar,Zanzibar,FALSE,typed: Sd Zanzibar Mar 7
+64,City of Lille (Motor),1950-03-07,Mar 7,arrival,dar-es-salaam,Dar-es-Salaam,FALSE,"typed: Ar Dar-es-Salaam Mar 7, same day as the Zanzibar sailing above it"
+65,City of Lille (Motor),1950-03-29,Mar 29,sailing,dar-es-salaam,Dar-es-Salaam,FALSE,typed: Sd Dar-es-Salaam Mar 29
+66,City of Lille (Motor),1950-03-30,Mar 30,arrival,zanzibar,Zanzibar,FALSE,typed: Ar Zanzibar Mar 30
+67,City of Lille (Motor),1950-03-31,Mar 31,sailing,zanzibar,Zanzibar,FALSE,typed: Sd Zanzibar Mar 31
+68,City of Lille (Motor),1950-03-31,Mar 31,arrival,tanga,Tanga,FALSE,"typed: Ar Tanga Mar 31, same day as the Zanzibar sailing above it"
+69,City of Lille (Motor),1950-04-02,Apr 2,sailing,tanga,Tanga,FALSE,typed: Sd Tanga Apr 2
+70,City of Lille (Motor),1950-04-02,Apr 2,arrival,mombasa,Mombasa,FALSE,"typed: Ar Mombasa Apr 2, same day as the Tanga sailing above it"
+71,City of Lille (Motor),,May 5,note,,Liverpool,FALSE,"DUPLICATE/OUT OF PLACE - typed: 'Ar Liverpool May 5' sitting between 'Ar Mombasa Apr 2' and 'Sd Mombasa Apr 11', which is chronologically impossible as printed (a May arrival can't precede an April sailing from East Africa). The same citation recurs correctly positioned later on this card (seq 75, after Sd Port Said Apr 23) - almost certainly this is a duplicate Lloyd's List citation pasted in the wrong spot, the same pattern as the duplicate-looking entries flagged on several earlier cards in this collection. Not counted as a real waypoint here"
+72,City of Lille (Motor),1950-04-11,Apr 11,sailing,mombasa,Mombasa,FALSE,typed: Sd Mombasa Apr 11
+73,City of Lille (Motor),1950-04-22,Apr 22,arrival,suez,Suez,FALSE,"typed: Ar Suez Apr 22. A sliver of obscured/illegible text (ending '...contd.') peeks out from under the next pasted strip just below this line - most likely an offcut of the strip beneath rather than a distinct entry"
+74,City of Lille (Motor),1950-04-23,Apr 23,sailing,port-said,Port Said,FALSE,"typed: Sd Port Said Apr 23 - no separate Ar Port Said logged, a Canal transit from Suez"
+75,City of Lille (Motor),1950-05-05,May 5,arrival,liverpool,Liverpool,FALSE,"typed: Ar Liverpool May 5 - the correctly-positioned instance of this citation, see seq 71"
+76,City of Lille (Motor),1950-05-19,May 19,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool May 19
+77,City of Lille (Motor),1950-05-20,May 20,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow May 20
+78,City of Lille (Motor),1950-05-30,May 30,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow May 30
+79,City of Lille (Motor),1950-05-31,May 31,arrival,newport,Newport,FALSE,typed: Ar Newport May 31
+80,City of Lille (Motor),1950-06-03,June 3,sailing,newport,Newport,FALSE,typed: Sd Newport June 3
+81,City of Lille (Motor),1950-06-04,June 4,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool June 4
+82,City of Lille (Motor),1950-06-15,June 15,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool June 15
+83,City of Lille (Motor),1950-06-21,June 21,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe June 21
+84,City of Lille (Motor),1950-06-21,June 21,sailing,teneriffe,Teneriffe,FALSE,typed: Sd Teneriffe June 21
+85,City of Lille (Motor),1950-07-12,July 12,arrival,durban,Durban,FALSE,typed: Ar Durban July 12
+86,City of Lille (Motor),1950-07-22,July 22,sailing,durban,Durban,FALSE,typed: Sd Durban July 22
+87,City of Lille (Motor),1950-07-23,July 23,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques July 23
+88,City of Lille (Motor),1950-08-02,Aug 2,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Aug 2
+89,City of Lille (Motor),1950-08-24,Aug 24,arrival,beira,Beira,FALSE,typed: Ar Beira Aug 24
+90,City of Lille (Motor),1950-09-17,Sept 17,sailing,beira,Beira,FALSE,"typed: Sd Beira Sept 17 - a roughly 3.5-week stay, no reason given"
+91,City of Lille (Motor),1950-09-19,Sept 19,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Sept 19
+92,City of Lille (Motor),1950-09-21,Sept 21,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Sept 21
+93,City of Lille (Motor),1950-09-22,Sept 22,arrival,durban,Durban,FALSE,typed: Ar Durban Sept 22
+94,City of Lille (Motor),1950-09-27,Sept 27,sailing,durban,Durban,FALSE,typed: Sd Durban Sept 27
+95,City of Lille (Motor),1950-09-28,Sept 28,arrival,east-london,East London,FALSE,typed: Ar East London Sept 28
+96,City of Lille (Motor),1950-09-28,Sept 28,sailing,east-london,East London,FALSE,"typed: Sd East London Sept 28, same day"
+97,City of Lille (Motor),1950-09-29,Sept 29,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Sept 29
+98,City of Lille (Motor),1950-09-30,Sept 30,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Sept 30
+99,City of Lille (Motor),1950-10-02,Oct 2,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Oct 2
+100,City of Lille (Motor),1950-10-05,Oct 5,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Oct 5
+101,City of Lille (Motor),1950-10-22,Oct 22,arrival,las-palmas,Las Palmas,FALSE,typed: Ar Las Palmas Oct 22
+102,City of Lille (Motor),1950-10-22,Oct 22,sailing,las-palmas,Las Palmas,FALSE,"typed: Sd Las Palmas Oct 22, same day"
+103,City of Lille (Motor),1950-10-25,Oct 25,arrival,lisbon,Lisbon,FALSE,typed: Ar Lisbon Oct 25
+104,City of Lille (Motor),1950-10-25,Oct 25,sailing,lisbon,Lisbon,FALSE,"typed: Sd Lisbon Oct 25, same day"
+105,City of Lille (Motor),1950-10-30,Oct 30,arrival,london,London,FALSE,typed: Ar London Oct 30
+106,City of Lille (Motor),1950-11-05,Nov 5,sailing,london,London,FALSE,typed: Sd London Nov 5
+107,City of Lille (Motor),1950-11-08,Nov 8,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth Nov 8
+108,City of Lille (Motor),1950-11-09,Nov 9,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth Nov 9
+109,City of Lille (Motor),1950-11-12,Nov 12,arrival,rotterdam,Rotterdam,FALSE,"typed: Ar Rotterdam Nov 12 - card ends here, no 'P.T.O.' or 'Contd' note spotted; a handwritten blue margin note beside this last strip reads approximately 'Recovered Anchor & cable [...]' (rest illegible) - most likely related to the lost-anchor incident at seq 10, not confidently dated"
+110,City of Lille (Motor),1949-10-13,13,note,colombo,,FALSE,"CASUALTIES box (1949 Cont'd): dagger-referenced citation dated 13 October, part of the Colombo cluster - see seq 27/28"
+111,City of Lille (Motor),1949-10-15,15,note,colombo,,FALSE,"CASUALTIES box (1949 Cont'd): second dagger-referenced citation dated 15 October, part of the Colombo cluster - see seq 27/28. A nearby illegible fragment reading approximately '[Sailed] 15/[?]/10' may be a third citation in the same cluster, not confidently resolved"
+112,City of Lille (Motor),1949-06-18,18,note,quebec,,FALSE,"CASUALTIES box: dagger-referenced citation dated 18 June, part of the Quebec put-back cluster headed 'Re generator damage' - see seq 6"
+113,City of Lille (Motor),1949-07-06,6,note,quebec,,FALSE,"CASUALTIES box: second dagger-referenced citation dated 6 July, part of the Quebec put-back cluster - see seq 6. Falls the same day the ship actually sailed again from Quebec (seq 7), i.e. a Lloyd's Agent report confirming the ship was clear"
+114,City of Lille (Motor),1949-08-06,6,note,,,FALSE,"CASUALTIES box: dagger-referenced citation dated 6 August, part of the Suez lost-anchor cluster - see seq 10"
+115,City of Lille (Motor),1949-10-27,27,note,,,FALSE,"CASUALTIES box (1950 year marker): a citation reads approximately '[Cal]led to [attend?] sick man', dated 27 (month uncertain - positioned under the '1950' box, and near a separate citation 'Lisbon 26/10' which would put it in October) - a doctor or agent called out to attend a sick crew member. The exact date and its relationship to the Oct 25 Lisbon call (seq 103/104) is not confidently established"
