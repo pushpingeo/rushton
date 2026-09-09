@@ -1121,3 +1121,14 @@ convention is known.
   Jan 31 sailing is physically after that mark and remains in card position;
   the Dubai arrival has a blank day exactly as printed. Built 1921; net
   tonnage corrected from 7507 to 7522. Continues on IMG_5675.
+
+- **IMG_5675** — 82 rows, 16 Dec 1951 to 11 Sep 1952. **City of Durban**,
+  Card No 11, Second Side — directly continues IMG_5674. Typed/pasted strips
+  through Suez/Port Said/Marseilles/Cardiff/Liverpool/Manchester/Glasgow/
+  Greenock, Algiers/Port Sudan/Aden, the Bay of Bengal and south India,
+  Northern Europe, Teneriffe and the South African coast ending at Beira.
+  One pasted-strip inversion places Sd Liverpool July 5 and Ar Middlesbro
+  July 8 after Ar Liverpool July 11; retained in card position and flagged.
+  Beira Roads Sept 7 is followed by the harbour arrival Sept 11. The
+  handwritten Casualties material is present but not confidently legible as
+  a separate incident and is flagged at card level.

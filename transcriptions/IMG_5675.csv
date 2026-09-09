@@ -1,0 +1,83 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Durban (Br),1951-12-16,Dec 16,arrival,suez,Suez,FALSE,typed: Ar Suez Dec 16
+2,City of Durban (Br),1951-12-18,Dec 18,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Dec 18
+3,City of Durban (Br),1951-12-24,Dec 24,arrival,marseilles,Marseilles,FALSE,typed: Ar Marseilles Dec 24
+4,City of Durban (Br),1951-12-28,Dec 28,sailing,marseilles,Marseilles,FALSE,typed: Sd Marseilles Dec 28
+5,City of Durban (Br),1952-01-06,Jan 6,arrival,cardiff,Cardiff,FALSE,typed: Ar Cardiff Jan 6
+6,City of Durban (Br),1952-01-09,Jan 9,sailing,cardiff,Cardiff,FALSE,typed: Sd Cardiff Jan 9
+7,City of Durban (Br),1952-01-11,Jan 11,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Jan 11
+8,City of Durban (Br),1952-01-22,Jan 22,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Jan 22
+9,City of Durban (Br),1952-01-22,Jan 22,arrival,manchester,Manchester,FALSE,typed: Ar Manchester Jan 22, same day
+10,City of Durban (Br),1952-01-29,Jan 29,sailing,manchester,Manchester,FALSE,typed: Sd Manchester Jan 29
+11,City of Durban (Br),1952-01-31,Jan 31,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Jan 31
+12,City of Durban (Br),1952-02-07,Feb 7,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Feb 7
+13,City of Durban (Br),1952-02-08,Feb 8,arrival,greenock,Greenock,FALSE,typed: Ar Greenock Feb 8
+14,City of Durban (Br),1952-02-10,Feb 10,sailing,greenock,Greenock,FALSE,typed: Sd Greenock Feb 10
+15,City of Durban (Br),1952-02-11,Feb 11,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Feb 11
+16,City of Durban (Br),1952-02-22,Feb 22,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Feb 22
+17,City of Durban (Br),1952-02-28,Feb 28,arrival,algiers,Algiers,FALSE,typed: Ar Algiers Feb 28
+18,City of Durban (Br),1952-02-28,Feb 28,sailing,algiers,Algiers,FALSE,typed: Sd Algiers Feb 28, same day
+19,City of Durban (Br),1952-03-05,Mar 5,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Mar 5
+20,City of Durban (Br),1952-03-11,Mar 11,sailing,suez,Suez,FALSE,typed: Sd Suez Mar 11
+21,City of Durban (Br),1952-03-12,Mar 12,arrival,port-sudan,Port Sudan,FALSE,typed: Ar Port Sudan Mar 12
+22,City of Durban (Br),1952-03-17,Mar 17,sailing,port-sudan,Port Sudan,FALSE,typed: Sd Port Sudan Mar 17
+23,City of Durban (Br),1952-03-20,Mar 20,arrival,aden,Aden,FALSE,typed: Ar Aden Mar 20
+24,City of Durban (Br),1952-03-20,Mar 20,sailing,aden,Aden,FALSE,typed: Sd Aden Mar 20, same day
+25,City of Durban (Br),1952-03-29,Mar 29,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Mar 29
+26,City of Durban (Br),1952-03-29,Mar 29,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Mar 29, same day
+27,City of Durban (Br),1952-04-04,Apr 4,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Apr 4
+28,City of Durban (Br),1952-04-17,Apr 17,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Apr 17
+29,City of Durban (Br),1952-04-19,Apr 19,arrival,chittagong,Chittagong,FALSE,typed: Ar Chittagong Apr 19
+30,City of Durban (Br),1952-04-27,Apr 27,sailing,chittagong,Chittagong,FALSE,typed: Sd Chittagong Apr 27
+31,City of Durban (Br),1952-04-30,Apr 30,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta Apr 30
+32,City of Durban (Br),1952-05-06,May 6,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta May 6
+33,City of Durban (Br),1952-05-09,May 9,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam May 9
+34,City of Durban (Br),1952-05-11,May 11,sailing,vizagapatam,Vizagapatam,FALSE,typed: Sd Vizagapatam May 11
+35,City of Durban (Br),1952-05-13,May 13,arrival,madras,Madras,FALSE,typed: Ar Madras May 13
+36,City of Durban (Br),1952-05-14,May 14,sailing,madras,Madras,FALSE,typed: Sd Madras May 14
+37,City of Durban (Br),1952-05-17,May 17,arrival,colombo,Colombo,FALSE,typed: Ar Colombo May 17
+38,City of Durban (Br),1952-05-20,May 20,sailing,colombo,Colombo,FALSE,typed: Sd Colombo May 20
+39,City of Durban (Br),1952-05-30,May 30,arrival,aden,Aden,FALSE,typed: Ar Aden May 30
+40,City of Durban (Br),1952-05-30,May 30,sailing,aden,Aden,FALSE,typed: Sd Aden May 30, same day
+41,City of Durban (Br),1952-06-04,June 4,arrival,suez,Suez,FALSE,typed: Ar Suez June 4
+42,City of Durban (Br),1952-06-06,June 6,sailing,port-said,Port Said,FALSE,typed: Sd Port Said June 6
+43,City of Durban (Br),1952-06-12,June 12,arrival,algiers,Algiers,FALSE,typed: Ar Algiers June 12
+44,City of Durban (Br),1952-06-12,June 12,sailing,algiers,Algiers,FALSE,typed: Sd Algiers June 12, same day
+45,City of Durban (Br),1952-06-19,June 19,arrival,london,London,FALSE,typed: Ar London June 19
+46,City of Durban (Br),1952-06-23,June 23,sailing,london,London,FALSE,typed: Sd London June 23
+47,City of Durban (Br),1952-06-24,June 24,arrival,hull,Hull,FALSE,typed: Ar Hull June 24
+48,City of Durban (Br),1952-06-25,June 25,sailing,hull,Hull,FALSE,typed: Sd Hull June 25
+49,City of Durban (Br),1952-06-26,June 26,arrival,dundee,Dundee,FALSE,typed: Ar Dundee June 26
+50,City of Durban (Br),1952-06-30,June 30,sailing,dundee,Dundee,FALSE,typed: Sd Dundee June 30
+51,City of Durban (Br),1952-07-02,July 2,arrival,boulogne,Boulogne,FALSE,typed: Ar Boulogne July 2
+52,City of Durban (Br),1952-07-04,July 4,sailing,boulogne,Boulogne,FALSE,typed: Sd Boulogne July 4
+53,City of Durban (Br),1952-07-06,July 6,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth July 6
+54,City of Durban (Br),1952-07-10,July 10,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth July 10
+55,City of Durban (Br),1952-07-11,July 11,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool July 11
+56,City of Durban (Br),1952-07-05,July 5,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool July 5; physically appears in the next pasted strip after Ar Liverpool July 11, a card-order/date inversion
+57,City of Durban (Br),1952-07-08,July 8,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro July 8; follows the same physically displaced strip
+58,City of Durban (Br),1952-07-10,July 10,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro July 10
+59,City of Durban (Br),1952-07-11,July 11,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp July 11
+60,City of Durban (Br),1952-07-14,July 14,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp July 14
+61,City of Durban (Br),1952-07-15,July 15,arrival,rotterdam,Rotterdam,FALSE,typed: Ar Rotterdam July 15
+62,City of Durban (Br),1952-07-16,July 16,sailing,rotterdam,Rotterdam,FALSE,typed: Sd Rotterdam July 16
+63,City of Durban (Br),1952-07-17,July 17,arrival,hamburg,Hamburg,FALSE,typed: Ar Hamburg July 17
+64,City of Durban (Br),1952-07-21,July 21,sailing,hamburg,Hamburg,FALSE,typed: Sd Hamburg July 21
+65,City of Durban (Br),1952-07-23,July 23,arrival,london,London,FALSE,typed: Ar London July 23
+66,City of Durban (Br),1952-07-31,July 31,sailing,london,London,FALSE,typed: Sd London July 31
+67,City of Durban (Br),1952-08-06,Aug 6,arrival,teneriffe,Teneriffe,FALSE,typed: Ar Teneriffe Aug 6
+68,City of Durban (Br),1952-08-06,Aug 6,sailing,teneriffe,Teneriffe,FALSE,typed: Sd Teneriffe Aug 6, same day
+69,City of Durban (Br),1952-08-20,Aug 20,arrival,cape-town,Cape Town,FALSE,typed: Ar Cape Town Aug 20
+70,City of Durban (Br),1952-08-22,Aug 22,sailing,cape-town,Cape Town,FALSE,typed: Sd Cape Town Aug 22
+71,City of Durban (Br),1952-08-23,Aug 23,arrival,mossel-bay,Mossel Bay,FALSE,typed: Ar Mossel Bay Aug 23
+72,City of Durban (Br),1952-08-23,Aug 23,sailing,mossel-bay,Mossel Bay,FALSE,typed: Sd Mossel Bay Aug 23, same day
+73,City of Durban (Br),1952-08-24,Aug 24,arrival,port-elizabeth,Port Elizabeth,FALSE,typed: Ar Port Elizabeth Aug 24
+74,City of Durban (Br),1952-08-26,Aug 26,sailing,port-elizabeth,Port Elizabeth,FALSE,typed: Sd Port Elizabeth Aug 26
+75,City of Durban (Br),1952-08-27,Aug 27,arrival,east-london,East London,FALSE,typed: Ar East London Aug 27
+76,City of Durban (Br),1952-08-29,Aug 29,sailing,east-london,East London,FALSE,typed: Sd East London Aug 29
+77,City of Durban (Br),1952-08-30,Aug 30,arrival,durban,Durban,FALSE,typed: Ar Durban Aug 30
+78,City of Durban (Br),1952-09-03,Sept 3,sailing,durban,Durban,FALSE,typed: Sd Durban Sept 3
+79,City of Durban (Br),1952-09-04,Sept 4,arrival,lourenco-marques,Lour Marques,FALSE,typed: Ar Lour Marques Sept 4
+80,City of Durban (Br),1952-09-05,Sept 5,sailing,lourenco-marques,Lour Marques,FALSE,typed: Sd Lour Marques Sept 5
+81,City of Durban (Br),1952-09-07,Sept 7,arrival,beira,Beira Rds,FALSE,typed: Ar Beira Rds Sept 7; roadstead entry
+82,City of Durban (Br),1952-09-11,Sept 11,arrival,beira,Beira,FALSE,typed: Ar Beira Sept 11; harbour arrival after the roadstead entry
