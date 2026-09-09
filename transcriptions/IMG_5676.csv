@@ -1,0 +1,67 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Chester (Motor),1943-01-12,12/1,arrival,port-said,P Said,FALSE,black entry; year marker 1943 at card top
+2,City of Chester (Motor),1943-01-18,18/1,sailing,port-said,,TRUE,red departure from Port Said; port carried forward
+3,City of Chester (Motor),1943-01-19,19/1,arrival,suez,Suez,FALSE,black entry
+4,City of Chester (Motor),1943-01-20,20/1,sailing,suez,,TRUE,red departure; port carried forward
+5,City of Chester (Motor),1943-01-26,26/1,arrival,aden,Aden,FALSE,black entry
+6,City of Chester (Motor),1943-01-29,29/1,sailing,aden,,TRUE,red departure; port carried forward
+7,City of Chester (Motor),1943-02-04,4/2,arrival,bombay,Bombay,FALSE,black entry; date partly overwritten but route makes 4/2 clear
+8,City of Chester (Motor),1943-02-08,8/2,sailing,bombay,,TRUE,red departure; port carried forward
+9,City of Chester (Motor),1943-02-13,13/2,arrival,cochin,Cochin,FALSE,black entry
+10,City of Chester (Motor),1943-02-18,18/2,sailing,cochin,,TRUE,red departure; port carried forward
+11,City of Chester (Motor),1943-02-25,25/2,arrival,colombo,Colombo,FALSE,black entry
+12,City of Chester (Motor),1943-03-04,4/3,sailing,colombo,,TRUE,red departure; port carried forward
+13,City of Chester (Motor),1943-03-15,15/3,arrival,aden,Aden,FALSE,black entry; intervening Suez/Red Sea notation is partly obscured
+14,City of Chester (Motor),1943-03-18,18/3,sailing,aden,,TRUE,red departure; port carried forward
+15,City of Chester (Motor),1943-03-29,29/3,arrival,suez,Suez,FALSE,black entry
+16,City of Chester (Motor),1943-03-30,30/3,sailing,port-said,P Said,FALSE,red canal departure; card writes Port Said rather than carrying Suez forward
+17,City of Chester (Motor),1943-04-15,15/4,arrival,liverpool,Liverpool,FALSE,black entry
+18,City of Chester (Motor),1943-04-27,27/4,sailing,liverpool,,TRUE,red departure; port carried forward
+19,City of Chester (Motor),1943-05-03,3/5,arrival,table-bay,Table Bay,FALSE,black entry
+20,City of Chester (Motor),1943-05-08,8/5,sailing,table-bay,,TRUE,red departure; port carried forward
+21,City of Chester (Motor),1943-05-13,13/5,arrival,port-elizabeth,P Eliz,FALSE,black entry
+22,City of Chester (Motor),1943-05-15,15/5,sailing,port-elizabeth,,TRUE,red departure; port carried forward
+23,City of Chester (Motor),1943-05-18,18/5,arrival,east-london,E London,FALSE,black entry
+24,City of Chester (Motor),1943-05-20,20/5,sailing,east-london,,TRUE,red departure; port carried forward
+25,City of Chester (Motor),1943-05-26,26/5,arrival,durban,Durban,FALSE,black entry
+26,City of Chester (Motor),1943-05-29,29/5,sailing,durban,,TRUE,red departure; port carried forward
+27,City of Chester (Motor),1943-06-04,4/6,arrival,lourenco-marques,L M,FALSE,black entry
+28,City of Chester (Motor),1943-06-08,8/6,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+29,City of Chester (Motor),1943-06-15,15/6,arrival,beira,Beira,FALSE,black entry
+30,City of Chester (Motor),1943-06-18,18/6,sailing,beira,,TRUE,red departure; port carried forward
+31,City of Chester (Motor),1943-06-29,29/6,arrival,durban,Durban,FALSE,black entry
+32,City of Chester (Motor),1943-07-04,4/7,sailing,durban,,TRUE,red departure; port carried forward
+33,City of Chester (Motor),1943-07-10,10/7,arrival,lourenco-marques,L M,FALSE,black entry
+34,City of Chester (Motor),1943-07-15,15/7,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+35,City of Chester (Motor),1943-07-22,22/7,arrival,table-bay,Table Bay,FALSE,black entry
+36,City of Chester (Motor),1943-07-27,27/7,sailing,table-bay,,TRUE,red departure; port carried forward
+37,City of Chester (Motor),1943-08-03,3/8,arrival,liverpool,Liverpool,FALSE,black entry; later date annotations overlap this row
+38,City of Chester (Motor),1943-08-11,11/8,sailing,liverpool,,TRUE,red departure; port carried forward
+39,City of Chester (Motor),1943-08-20,20/8,note,,,FALSE,blue paragraph/citation beside the Liverpool-to-homeward section; wording illegible
+40,City of Chester (Motor),1943-09-01,1/9,unknown,,Unresolved port,FALSE,black port name illegible; retained as unknown rather than guessed
+41,City of Chester (Motor),1943-09-08,8/9,sailing,,,TRUE,red date with no confidently readable port; likely departure from seq 40, flagged
+42,City of Chester (Motor),1943-09-18,18/9,unknown,,Unresolved port,FALSE,black port name illegible beneath later blue writing
+43,City of Chester (Motor),1943-09-25,25/9,sailing,,,TRUE,red departure; preceding port not confidently recoverable
+44,City of Chester (Motor),1944-01-01,1944 year marker,note,,,FALSE,hand-drawn year marker; no event on this line
+45,City of Chester (Motor),1944-01-10,10/1,arrival,liverpool,Liverpool,FALSE,black entry after 1944 marker
+46,City of Chester (Motor),1944-01-18,18/1,sailing,liverpool,,TRUE,red departure; port carried forward
+47,City of Chester (Motor),1944-02-02,2/2,arrival,table-bay,Table Bay,FALSE,black entry
+48,City of Chester (Motor),1944-02-08,8/2,sailing,table-bay,,TRUE,red departure; port carried forward
+49,City of Chester (Motor),1944-02-15,15/2,arrival,port-elizabeth,P Eliz,FALSE,black entry
+50,City of Chester (Motor),1944-02-19,19/2,sailing,port-elizabeth,,TRUE,red departure; port carried forward
+51,City of Chester (Motor),1944-02-26,26/2,arrival,east-london,E London,FALSE,black entry
+52,City of Chester (Motor),1944-03-04,4/3,sailing,east-london,,TRUE,red departure; port carried forward
+53,City of Chester (Motor),1944-03-12,12/3,arrival,durban,Durban,FALSE,black entry
+54,City of Chester (Motor),1944-03-20,20/3,sailing,durban,,TRUE,red departure; port carried forward
+55,City of Chester (Motor),1944-03-29,29/3,arrival,lourenco-marques,L M,FALSE,black entry
+56,City of Chester (Motor),1944-04-05,5/4,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+57,City of Chester (Motor),1944-04-15,15/4,arrival,beira,Beira,FALSE,black entry
+58,City of Chester (Motor),1944-04-23,23/4,sailing,beira,,TRUE,red departure; port carried forward
+59,City of Chester (Motor),1944-05-03,3/5,arrival,durban,Durban,FALSE,black entry
+60,City of Chester (Motor),1944-05-11,11/5,sailing,durban,,TRUE,red departure; port carried forward
+61,City of Chester (Motor),1944-05-22,22/5,arrival,lourenco-marques,L M,FALSE,black entry
+62,City of Chester (Motor),1944-05-30,30/5,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+63,City of Chester (Motor),1944-06-12,12/6,arrival,table-bay,Table Bay,FALSE,black entry
+64,City of Chester (Motor),1944-06-20,20/6,sailing,table-bay,,TRUE,red departure; port carried forward
+65,City of Chester (Motor),1944-07-01,1/7,arrival,liverpool,Liverpool,FALSE,black entry; final readable main-sequence entry on this side
+66,City of Chester (Motor),1944-07-10,10/7,sailing,liverpool,,TRUE,red departure; side continues into later overwritten material

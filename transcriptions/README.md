@@ -1132,3 +1132,12 @@ convention is known.
   Beira Roads Sept 7 is followed by the harbour arrival Sept 11. The
   handwritten Casualties material is present but not confidently legible as
   a separate incident and is flagged at card level.
+
+- **IMG_5676** — 66 rows, Jan 1943 to Jul 1944. **City of Chester (Motor)**,
+  Card No. 2, First Side — handwritten grid format. South/Indian Ocean and
+  South African circuits through Port Said, Suez, Aden, Bombay, Cochin,
+  Colombo, Liverpool, Table Bay, Port Elizabeth, East London, Durban,
+  Lourenco Marques and Beira. Two black port names remain unresolved beneath
+  later blue writing, and one blue paragraph/citation is retained as a note
+  row; these are flagged in the CSV rather than guessed. Continues on
+  IMG_5677.
