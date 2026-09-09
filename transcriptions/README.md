@@ -1132,3 +1132,11 @@ convention is known.
   Beira Roads Sept 7 is followed by the harbour arrival Sept 11. The
   handwritten Casualties material is present but not confidently legible as
   a separate incident and is flagged at card level.
+
+- **IMG_5676** — 37 rows, Jan 1943 to Jul 1944. **City of Chester (Motor)**,
+  Card No. 2, First Side — best-effort handwritten-grid transcription, read
+  left to right across each row and then downward. Clear black arrivals and
+  red sailings are linked to the existing port lookup. Two port cells remain
+  unresolved beneath blue overwriting, and one blue paragraph/citation is
+  retained as a note row; uncertain cells are flagged in the CSV. Continues
+  on IMG_5677.
