@@ -1,0 +1,76 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Durban (Br),1950-09-12,Sept 12,sailing,calcutta,Calcutta,FALSE,typed: Sd Calcutta Sept 12
+2,City of Durban (Br),1950-09-16,Sept 16,arrival,vizagapatam,Visakhapatnam,FALSE,typed: Ar Visakhapatnam Sept 16
+3,City of Durban (Br),1950-09-28,Sept 28,sailing,vizagapatam,Visakhapatnam,FALSE,typed: Sd Visakhapatnam Sept 28
+4,City of Durban (Br),1950-10-02,Oct 2,arrival,colombo,Colombo,FALSE,typed: Ar Colombo Oct 2
+5,City of Durban (Br),1950-10-07,Oct 7,sailing,colombo,Colombo,FALSE,typed: Sd Colombo Oct 7
+6,City of Durban (Br),1950-10-15,Oct 15,arrival,aden,Aden,FALSE,typed: Ar Aden Oct 15
+7,City of Durban (Br),1950-10-15,Oct 15,sailing,aden,Aden,FALSE,typed: Sd Aden Oct 15, same day
+8,City of Durban (Br),1950-10-20,Oct 20,arrival,suez,Suez,FALSE,typed: Ar Suez Oct 20
+9,City of Durban (Br),1950-10-22,Oct 22,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Oct 22
+10,City of Durban (Br),1950-11-05,Nov 5,arrival,london,London,FALSE,typed: Ar London Nov 5
+11,City of Durban (Br),1950-11-08,Nov 8,sailing,london,London,FALSE,typed: Sd London Nov 8
+12,City of Durban (Br),1950-11-09,Nov 9,arrival,hull,Hull,FALSE,typed: Ar Hull Nov 9
+13,City of Durban (Br),1950-11-14,Nov 14,sailing,hull,Hull,FALSE,typed: Sd Hull Nov 14
+14,City of Durban (Br),1950-11-14,Nov 14,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Nov 14, same day
+15,City of Durban (Br),1950-11-17,Nov 17,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Nov 17
+16,City of Durban (Br),1950-11-19,Nov 19,arrival,antwerp,Antwerp,FALSE,typed: Ar Antwerp Nov 19
+17,City of Durban (Br),1950-11-23,Nov 23,sailing,antwerp,Antwerp,FALSE,typed: Sd Antwerp Nov 23
+18,City of Durban (Br),1950-11-26,Nov 26,arrival,avonmouth,Avonmouth,FALSE,typed: Ar Avonmouth Nov 26
+19,City of Durban (Br),1950-11-29,Nov 29,sailing,avonmouth,Avonmouth,FALSE,typed: Sd Avonmouth Nov 29
+20,City of Durban (Br),1950-12-01,Dec 1,arrival,glasgow,Glasgow,FALSE,typed: Ar Glasgow Dec 1
+21,City of Durban (Br),1950-12-05,Dec 5,sailing,glasgow,Glasgow,FALSE,typed: Sd Glasgow Dec 5
+22,City of Durban (Br),1950-12-06,Dec 6,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Dec 6
+23,City of Durban (Br),1950-12-30,Dec 30,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Dec 30
+24,City of Durban (Br),1951-01-11,Jan 11,arrival,port-said,Port Said,FALSE,typed: Ar Port Said Jan 11
+25,City of Durban (Br),1951-01-12,Jan 12,sailing,suez,Suez,FALSE,typed: Sd Suez Jan 12
+26,City of Durban (Br),1951-01-17,Jan 17,arrival,aden,Aden,FALSE,typed: Ar Aden Jan 17
+27,City of Durban (Br),1951-01-18,Jan 18,sailing,aden,Aden,FALSE,typed: Sd Aden Jan 18
+28,City of Durban (Br),1951-01-23,Jan 23,arrival,karachi,Karachi,FALSE,typed: Ar Karachi Jan 23
+29,City of Durban (Br),1951-02-06,Feb 6,note,,,FALSE,blue/black casualty or citation mark only; no port or event text legible on the typed strip
+30,City of Durban (Br),1951-01-31,Jan 31,sailing,karachi,Karachi,FALSE,typed: Sd Karachi Jan 31; appears after the Feb 6 mark in card position
+31,City of Durban (Br),1951-02-02,Feb 2,arrival,bombay,Bombay,FALSE,typed: Ar Bombay Feb 2
+32,City of Durban (Br),1951-02-08,Feb 8,sailing,bombay,Bombay,FALSE,typed: Sd Bombay Feb 8
+33,City of Durban (Br),1951-02-10,Feb 10,arrival,koilchottam,Koilthottam,FALSE,typed: Ar Koilthottam Feb 10; tentative port identity carried from ports.csv
+34,City of Durban (Br),1951-02-14,Feb 14,sailing,koilchottam,Koilthottam,FALSE,typed: Sd Koilthottam Feb 14
+35,City of Durban (Br),1951-02-15,Feb 15,arrival,cochin,Cochin,FALSE,typed: Ar Cochin Feb 15
+36,City of Durban (Br),1951-02-19,Feb 19,sailing,cochin,Cochin,FALSE,typed: Sd Cochin Feb 19
+37,City of Durban (Br),1951-02-20,Feb 20,arrival,kozhikode,Kozhikode,FALSE,typed: Ar Kozhikode Feb 20
+38,City of Durban (Br),1951-02-21,Feb 21,sailing,kozhikode,Kozhikode,FALSE,typed: Sd Kozhikode Feb 21
+39,City of Durban (Br),1951-02-22,Feb 22,arrival,alleppey,Alleppey,FALSE,typed: Ar Alleppey Feb 22
+40,City of Durban (Br),1951-02-25,Feb 25,sailing,alleppey,Alleppey,FALSE,typed: Sd Alleppey Feb 25
+41,City of Durban (Br),1951-03-04,Mar 4,arrival,aden,Aden,FALSE,typed: Ar Aden Mar 4
+42,City of Durban (Br),1951-03-04,Mar 4,sailing,aden,Aden,FALSE,typed: Sd Aden Mar 4, same day
+43,City of Durban (Br),1951-03-09,Mar 9,arrival,suez,Suez,FALSE,typed: Ar Suez Mar 9
+44,City of Durban (Br),1951-03-10,Mar 10,sailing,port-said,Port Said,FALSE,typed: Sd Port Said Mar 10
+45,City of Durban (Br),1951-03-23,Mar 23,arrival,liverpool,Liverpool,FALSE,typed: Ar Liverpool Mar 23
+46,City of Durban (Br),1951-03-29,Mar 29,sailing,liverpool,Liverpool,FALSE,typed: Sd Liverpool Mar 29
+47,City of Durban (Br),1951-04-02,Apr 2,arrival,london,London,FALSE,typed: Ar London Apr 2
+48,City of Durban (Br),1951-04-04,Apr 4,sailing,london,London,FALSE,typed: Sd London Apr 4
+49,City of Durban (Br),1951-04-05,Apr 5,arrival,middlesbrough,Middlesbro,FALSE,typed: Ar Middlesbro Apr 5
+50,City of Durban (Br),1951-04-13,Apr 13,sailing,middlesbrough,Middlesbro,FALSE,typed: Sd Middlesbro Apr 13
+51,City of Durban (Br),1951-04-14,Apr 14,arrival,london,London,FALSE,typed: Ar London Apr 14
+52,City of Durban (Br),1951-04-27,Apr 27,sailing,london,London,FALSE,typed: Sd London Apr 27
+53,City of Durban (Br),1951-05-08,May 8,arrival,port-said,Port Said,FALSE,typed: Ar Port Said May 8
+54,City of Durban (Br),1951-05-10,May 10,sailing,suez,Suez,FALSE,typed: Sd Suez May 10
+55,City of Durban (Br),1951-05-15,May 15,arrival,aden,Aden,FALSE,typed: Ar Aden May 15
+56,City of Durban (Br),1951-05-15,May 15,sailing,aden,Aden,FALSE,typed: Sd Aden May 15, same day
+57,City of Durban (Br),,May —,arrival,dubai,Dubai,FALSE,typed: Ar Dubai May —; day blank on card
+58,City of Durban (Br),1951-05-22,May 22,sailing,dubai,Dubai,FALSE,typed: Sd Dubai May 22
+59,City of Durban (Br),1951-05-26,May 26,arrival,bahrain,Bahrein,FALSE,typed: Ar Bahrein May 26
+60,City of Durban (Br),1951-05-29,May 29,sailing,bahrain,Bahrein,FALSE,typed: Sd Bahrein May 29
+61,City of Durban (Br),1951-05-30,May 30,arrival,kuwait,Kuwait,FALSE,typed: Ar Kuwait May 30
+62,City of Durban (Br),1951-05-30,May 30,sailing,kuwait,Kuwait,FALSE,typed: Sd Kuwait May 30, same day
+63,City of Durban (Br),1951-06-01,June 1,arrival,khorram-shahr,Khorramshahr,FALSE,typed: Ar Khorramshahr June 1
+64,City of Durban (Br),1951-06-07,June 7,sailing,khorram-shahr,Khorramshahr,FALSE,typed: Sd Khorramshahr June 7
+65,City of Durban (Br),1951-06-07,June 7,arrival,abadan,Abadan,FALSE,typed: Ar Abadan June 7, same day
+66,City of Durban (Br),1951-06-07,June 7,sailing,abadan,Abadan,FALSE,typed: Sd Abadan June 7, same day
+67,City of Durban (Br),1951-06-08,June 8,arrival,busrah,Basrah,FALSE,typed: Ar Basrah June 8
+68,City of Durban (Br),1951-06-13,June 13,sailing,busrah,Basrah,FALSE,typed: Sd Basrah June 13
+69,City of Durban (Br),1951-06-18,June 18,arrival,abadan,Abadan,FALSE,typed: Ar Abadan June 18
+70,City of Durban (Br),1951-06-18,June 18,sailing,abadan,Abadan,FALSE,typed: Sd Abadan June 18, same day
+71,City of Durban (Br),1951-06-29,June 29,arrival,colombo,Colombo,FALSE,typed: Ar Colombo June 29
+72,City of Durban (Br),1951-06-29,June 29,sailing,colombo,Colombo,FALSE,typed: Sd Colombo June 29, same day
+73,City of Durban (Br),1951-07-03,July 3,arrival,vizagapatam,Vizagapatam,FALSE,typed: Ar Vizagapatam July 3
+74,City of Durban (Br),1951-07-10,July 10,sailing,vizagapatam,Vizagapatam,FALSE,typed: Sd Vizagapatam July 10
+75,City of Durban (Br),1951-07-13,July 13,arrival,calcutta,Calcutta,FALSE,typed: Ar Calcutta July 13; card side ends here

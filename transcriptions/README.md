@@ -1110,3 +1110,14 @@ convention is known.
   a month later by the harbour arrival proper, Tanga/Zanzibar/Dar-es-Salaam,
   Mauritius, Port Swettenham, ending at Hongkong. Card ends "Contd Card No
   14" (not yet identified). No new ports.
+
+- **IMG_5674** — 75 rows, 12 Sep 1950 to 13 Jul 1951. **City of Durban**,
+  Card No 11, First Side. Typed/pasted strips: Calcutta/Visakhapatnam/
+  Colombo/Aden/Suez, Northern Europe and UK, Karachi/Bombay and the south
+  Indian coast (Koilthottam, Cochin, Kozhikode, Alleppey), then a Persian
+  Gulf run through Dubai, Bahrain, Kuwait, Khorramshahr, Abadan and Basrah
+  before Colombo/Visakhapatnam/Calcutta. A blue/black mark dated Feb 6 has
+  no legible port or event text and is retained as a note row. The Karachi
+  Jan 31 sailing is physically after that mark and remains in card position;
+  the Dubai arrival has a blank day exactly as printed. Built 1921; net
+  tonnage corrected from 7507 to 7522. Continues on IMG_5675.
