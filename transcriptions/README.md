@@ -1140,3 +1140,11 @@ convention is known.
   unresolved beneath blue overwriting, and one blue paragraph/citation is
   retained as a note row; uncertain cells are flagged in the CSV. Continues
   on IMG_5677.
+
+- **IMG_5677** — 82 rows, Jan 1946 to Jan 1948. **City of Chester (Motor)**,
+  Card No. 2, Second Side — best-effort handwritten-grid transcription,
+  directly continuing IMG_5676. The readable route is the repeating South
+  African circuit (Table Bay, Port Elizabeth, East London, Durban, Lourenco
+  Marques, Beira) through the 1946 and 1947 year markers. Some denominator
+  digits and overwritten annotations remain uncertain and are flagged in the
+  CSV; the final row reaches the card edge and its continuation is uncertain.

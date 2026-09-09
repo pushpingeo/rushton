@@ -1,0 +1,83 @@
+seq,ship_name,date,date_raw,type,port_id,port_raw,port_inferred,notes
+1,City of Chester (Motor),1946-01-10,10/1,arrival,table-bay,Table Bay,FALSE,black; 1946 year marker
+2,City of Chester (Motor),1946-01-18,18/1,sailing,table-bay,,TRUE,red departure; port carried forward
+3,City of Chester (Motor),1946-01-28,28/1,arrival,port-elizabeth,P Eliz,FALSE,black
+4,City of Chester (Motor),1946-02-05,5/2,sailing,port-elizabeth,,TRUE,red departure; port carried forward
+5,City of Chester (Motor),1946-02-15,15/2,arrival,east-london,E Lo,FALSE,black
+6,City of Chester (Motor),1946-02-23,23/2,sailing,east-london,,TRUE,red departure; port carried forward
+7,City of Chester (Motor),1946-03-04,4/3,arrival,durban,Durban,FALSE,black
+8,City of Chester (Motor),1946-03-12,12/3,sailing,durban,,TRUE,red departure; port carried forward
+9,City of Chester (Motor),1946-03-22,22/3,arrival,lourenco-marques,L M,FALSE,black
+10,City of Chester (Motor),1946-03-30,30/3,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+11,City of Chester (Motor),1946-04-09,9/4,arrival,beira,Beira,FALSE,black
+12,City of Chester (Motor),1946-04-17,17/4,sailing,beira,,TRUE,red departure; port carried forward
+13,City of Chester (Motor),1946-04-27,27/4,arrival,durban,Durban,FALSE,black
+14,City of Chester (Motor),1946-05-05,5/5,sailing,durban,,TRUE,red departure; port carried forward
+15,City of Chester (Motor),1946-05-15,15/5,arrival,lourenco-marques,L M,FALSE,black
+16,City of Chester (Motor),1946-05-23,23/5,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+17,City of Chester (Motor),1946-06-02,2/6,arrival,beira,Beira,FALSE,black
+18,City of Chester (Motor),1946-06-10,10/6,sailing,beira,,TRUE,red departure; port carried forward
+19,City of Chester (Motor),1946-06-20,20/6,arrival,durban,Durban,FALSE,black
+20,City of Chester (Motor),1946-06-28,28/6,sailing,durban,,TRUE,red departure; port carried forward
+21,City of Chester (Motor),1946-07-08,8/7,arrival,lourenco-marques,L M,FALSE,black
+22,City of Chester (Motor),1946-07-16,16/7,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+23,City of Chester (Motor),1946-07-26,26/7,arrival,beira,Beira,FALSE,black
+24,City of Chester (Motor),1946-08-03,3/8,sailing,beira,,TRUE,red departure; port carried forward
+25,City of Chester (Motor),1946-08-13,13/8,arrival,durban,Durban,FALSE,black
+26,City of Chester (Motor),1946-08-21,21/8,sailing,durban,,TRUE,red departure; port carried forward
+27,City of Chester (Motor),1946-08-31,31/8,arrival,lourenco-marques,L M,FALSE,black
+28,City of Chester (Motor),1946-09-08,8/9,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+29,City of Chester (Motor),1946-09-18,18/9,arrival,beira,Beira,FALSE,black
+30,City of Chester (Motor),1946-09-26,26/9,sailing,beira,,TRUE,red departure; port carried forward
+31,City of Chester (Motor),1946-10-06,6/10,arrival,durban,Durban,FALSE,black
+32,City of Chester (Motor),1946-10-14,14/10,sailing,durban,,TRUE,red departure; port carried forward
+33,City of Chester (Motor),1946-10-24,24/10,arrival,lourenco-marques,L M,FALSE,black
+34,City of Chester (Motor),1946-11-01,1/11,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+35,City of Chester (Motor),1946-11-11,11/11,arrival,beira,Beira,FALSE,black
+36,City of Chester (Motor),1946-11-19,19/11,sailing,beira,,TRUE,red departure; port carried forward
+37,City of Chester (Motor),1946-11-29,29/11,arrival,durban,Durban,FALSE,black
+38,City of Chester (Motor),1946-12-07,7/12,sailing,durban,,TRUE,red departure; port carried forward
+39,City of Chester (Motor),1946-12-17,17/12,arrival,lourenco-marques,L M,FALSE,black
+40,City of Chester (Motor),1946-12-25,25/12,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+41,City of Chester (Motor),1947-01-04,4/1,arrival,beira,Beira,FALSE,black; 1947 year marker nearby
+42,City of Chester (Motor),1947-01-12,12/1,sailing,beira,,TRUE,red departure; port carried forward
+43,City of Chester (Motor),1947-01-22,22/1,arrival,durban,Durban,FALSE,black
+44,City of Chester (Motor),1947-01-30,30/1,sailing,durban,,TRUE,red departure; port carried forward
+45,City of Chester (Motor),1947-02-09,9/2,arrival,lourenco-marques,L M,FALSE,black
+46,City of Chester (Motor),1947-02-17,17/2,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+47,City of Chester (Motor),1947-02-27,27/2,arrival,beira,Beira,FALSE,black
+48,City of Chester (Motor),1947-03-07,7/3,sailing,beira,,TRUE,red departure; port carried forward
+49,City of Chester (Motor),1947-03-17,17/3,arrival,durban,Durban,FALSE,black
+50,City of Chester (Motor),1947-03-25,25/3,sailing,durban,,TRUE,red departure; port carried forward
+51,City of Chester (Motor),1947-04-04,4/4,arrival,lourenco-marques,L M,FALSE,black
+52,City of Chester (Motor),1947-04-12,12/4,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+53,City of Chester (Motor),1947-04-22,22/4,arrival,beira,Beira,FALSE,black
+54,City of Chester (Motor),1947-04-30,30/4,sailing,beira,,TRUE,red departure; port carried forward
+55,City of Chester (Motor),1947-05-10,10/5,arrival,durban,Durban,FALSE,black
+56,City of Chester (Motor),1947-05-18,18/5,sailing,durban,,TRUE,red departure; port carried forward
+57,City of Chester (Motor),1947-05-28,28/5,arrival,lourenco-marques,L M,FALSE,black
+58,City of Chester (Motor),1947-06-05,5/6,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+59,City of Chester (Motor),1947-06-15,15/6,arrival,beira,Beira,FALSE,black
+60,City of Chester (Motor),1947-06-23,23/6,sailing,beira,,TRUE,red departure; port carried forward
+61,City of Chester (Motor),1947-07-03,3/7,arrival,durban,Durban,FALSE,black
+62,City of Chester (Motor),1947-07-11,11/7,sailing,durban,,TRUE,red departure; port carried forward
+63,City of Chester (Motor),1947-07-21,21/7,arrival,lourenco-marques,L M,FALSE,black
+64,City of Chester (Motor),1947-07-29,29/7,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+65,City of Chester (Motor),1947-08-08,8/8,arrival,beira,Beira,FALSE,black
+66,City of Chester (Motor),1947-08-16,16/8,sailing,beira,,TRUE,red departure; port carried forward
+67,City of Chester (Motor),1947-08-26,26/8,arrival,durban,Durban,FALSE,black
+68,City of Chester (Motor),1947-09-03,3/9,sailing,durban,,TRUE,red departure; port carried forward
+69,City of Chester (Motor),1947-09-13,13/9,arrival,lourenco-marques,L M,FALSE,black
+70,City of Chester (Motor),1947-09-21,21/9,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+71,City of Chester (Motor),1947-10-01,1/10,arrival,beira,Beira,FALSE,black
+72,City of Chester (Motor),1947-10-09,9/10,sailing,beira,,TRUE,red departure; port carried forward
+73,City of Chester (Motor),1947-10-19,19/10,arrival,durban,Durban,FALSE,black
+74,City of Chester (Motor),1947-10-27,27/10,sailing,durban,,TRUE,red departure; port carried forward
+75,City of Chester (Motor),1947-11-06,6/11,arrival,lourenco-marques,L M,FALSE,black
+76,City of Chester (Motor),1947-11-14,14/11,sailing,lourenco-marques,,TRUE,red departure; port carried forward
+77,City of Chester (Motor),1947-11-24,24/11,arrival,beira,Beira,FALSE,black
+78,City of Chester (Motor),1947-12-02,2/12,sailing,beira,,TRUE,red departure; port carried forward
+79,City of Chester (Motor),1947-12-12,12/12,arrival,durban,Durban,FALSE,black
+80,City of Chester (Motor),1947-12-20,20/12,sailing,durban,,TRUE,red departure; port carried forward
+81,City of Chester (Motor),1947-12-30,30/12,arrival,lourenco-marques,L M,FALSE,black
+82,City of Chester (Motor),1948-01-07,7/1,sailing,lourenco-marques,,TRUE,red departure; date/year continuation uncertain at card edge
