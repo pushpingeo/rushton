@@ -1,54 +1,50 @@
 // Voyage data for W. J. Rushton — A Life at Sea
+// Compiled from transcriptions/engagements.csv (the hand-checked CRS10 engagement
+// register) joined against transcriptions/cards.csv + IMG_*.csv (the transcribed
+// voyage-card port-call sequences) and data/ports.csv (port coordinates).
 // Loaded as a classic script (not an ES module) so index.html
 // still works when opened directly via file:// as well as when served.
 const VOYAGES = [
   {
-    "id": "ortega-1918-1",
+    "id": "ss-ortega-1918",
     "ship": "SS Ortega",
     "ship_no": "123976",
     "line": "Pacific Steam Navigation Co.",
     "built": "1906",
     "tons": "8,075 grt",
-    "flag": "🎖 CRS10 Card Confirmed",
+    "flag": "📋 Register Confirmed",
     "engaged": "29 Oct 1918, Liverpool",
-    "discharged": "11 Nov 1918, Ellis Island, New York",
+    "discharged": "11 Nov 1918, Ellis Island New York",
     "engagement_date": "1918-10-29",
     "discharge_date": "1918-11-11",
-    "rank": "Assistant Steward",
-    "authoritative_discharge": true,
-    "card_image": "city_of_norwich_card1_first.jpg",
-    "note": "William's first documented voyage at age 18. Joined two weeks before the Armistice. Ortega had already made her name in 1914, outrunning the German cruiser Dresden through the uncharted Nelson Strait.",
-    "voyage_note": "The ship was bound for South America via New York. He was 18 years old. The Armistice was signed on the day he was discharged — 11 November 1918.",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on SS Ortega from 29 Oct 1918, Liverpool to 11 Nov 1918, Ellis Island New York.",
+    "voyage_note": "Verification: No transcribed CRS10 card exists for this vessel in the current collection (49 scanned cards are all later 'City of...' ships) — unverifiable against card data.",
     "waypoints": [
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "note": "CRS10: engaged 29 Oct 1918"
-      },
-      {
-        "port": "Vigo",
-        "lon": -8.7207,
-        "lat": 42.2406,
-        "verified": false,
-        "note": "Typical PSNC outward call"
+        "note": "register: Liverpool"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "note": "CRS10: discharged Ellis Island 11 Nov 1918 — Armistice Day"
+        "note": "register: Ellis Island New York"
       }
     ],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "register_only",
     "route_legs": [
       {
         "from_idx": 0,
         "to_idx": 1,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             -2.980042,
@@ -87,155 +83,80 @@ const VOYAGES = [
             52.111814
           ],
           [
-            -5.9,
-            51.25
+            -5.781725,
+            52.16867
           ],
           [
-            -5.8714,
-            50.4096
+            -6.274194,
+            52.030384
           ],
           [
-            -5.783648,
-            49.997799
+            -6.843006,
+            51.911162
           ],
           [
-            -5.952064,
-            49.835483
+            -8.045595,
+            51.659101
           ],
           [
-            -5.979701,
-            49.782237
+            -9.6,
+            51.3333
           ],
           [
-            -6.196961,
-            49.363661
+            -10.8,
+            51.3
           ],
           [
-            -6.510489,
-            48.759616
+            -12.36921,
+            51.078264
           ],
           [
-            -6.61351,
-            48.561136
+            -14.920876,
+            50.717702
           ],
           [
-            -6.791122,
-            48.218947
+            -15.688076,
+            50.609294
           ],
           [
-            -6.921259,
-            47.968223
+            -16.72313,
+            50.463036
           ],
           [
-            -7.66278,
-            46.539604
+            -19.2306,
+            50.5539
           ],
           [
-            -7.987368,
-            45.91425
+            -19.529903,
+            50.548409
           ],
           [
-            -8.49576,
-            44.934776
+            -20.000464,
+            50.539776
           ],
           [
-            -9.019938,
-            43.924891
+            -20.509014,
+            50.530446
           ],
           [
-            -9.14264,
-            43.688493
+            -25.6242,
+            50.4366
           ],
           [
-            -9.5,
-            43
+            -29.894016,
+            50.123642
           ],
           [
-            -9.346233,
-            42.269608
+            -30.0001,
+            50.115866
           ],
           [
-            -8.924675,
-            42.26232
+            -30.103901,
+            50.108258
           ],
           [
-            -8.819618,
-            42.230551
-          ],
-          [
-            -8.66684,
-            42.284675
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -8.66684,
-            42.284675
-          ],
-          [
-            -8.819618,
-            42.230551
-          ],
-          [
-            -8.924675,
-            42.26232
-          ],
-          [
-            -9.346233,
-            42.269608
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.753278,
-            43.18068
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -10.194961,
-            43.495763
-          ],
-          [
-            -12.396551,
-            45.066309
-          ],
-          [
-            -13.53667,
-            45.879634
-          ],
-          [
-            -14.893005,
-            46.810906
-          ],
-          [
-            -16.235098,
-            47.648984
-          ],
-          [
-            -16.888237,
-            48.056841
-          ],
-          [
-            -19.57938,
-            49.737341
-          ],
-          [
-            -20,
-            50
-          ],
-          [
-            -30,
-            50
+            -30.170671,
+            50.103364
           ],
           [
             -31.580914,
@@ -375,40 +296,40 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/123976_ss_ortega.jpeg"
   },
   {
-    "id": "ortega-1919",
+    "id": "ss-ortega-1919",
     "ship": "SS Ortega",
     "ship_no": "123976",
     "line": "Pacific Steam Navigation Co.",
     "built": "1906",
     "tons": "8,075 grt",
-    "flag": null,
+    "flag": "📋 Register Confirmed",
     "engaged": "8 Feb 1919, Liverpool",
-    "discharged": "19 Feb 1919, New York City",
+    "discharged": "19 Feb 1919, NYC",
     "engagement_date": "1919-02-08",
     "discharge_date": "1919-02-19",
-    "rank": "Assistant Steward",
-    "authoritative_discharge": true,
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
     "card_image": null,
-    "note": "Second voyage on Ortega. Short post-war North Atlantic crossing.",
-    "voyage_note": "A quick Atlantic crossing — possibly returning passengers or carrying mail. 11 days at sea.",
+    "note": "William's service on SS Ortega from 8 Feb 1919, Liverpool to 19 Feb 1919, NYC.",
+    "voyage_note": "Verification: No transcribed CRS10 card exists for this vessel — unverifiable.",
     "waypoints": [
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "note": "Engaged 8 Feb 1919"
+        "note": "register: Liverpool"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "note": "Discharged 19 Feb 1919"
+        "note": "register: NYC"
       }
     ],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "register_only",
     "route_legs": [
       {
         "from_idx": 0,
@@ -671,1077 +592,135 @@ const VOYAGES = [
     "line": "Unknown",
     "built": "Unknown",
     "tons": "Unknown",
-    "flag": null,
-    "engaged": "11 Apr 1924",
-    "discharged": "13 Mar 1925 (no auth. discharge)",
+    "flag": "❓ No Card Data",
+    "engaged": "11 Apr 1924, ",
+    "discharged": "13 Mar 1925, ",
     "engagement_date": "1924-04-11",
     "discharge_date": "1925-03-13",
-    "rank": "Unknown",
+    "rank": "Unknown rank",
     "authoritative_discharge": false,
     "card_image": null,
-    "note": "Gap of 4 years between Orduna and Sycamore — unknown service. No voyage card found. Discharge date matches next engagement (no authoritative discharge).",
-    "voyage_note": "Waypoints unknown — no voyage card traced. Route assumed.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Likely Merseyside engagement"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "No authoritative discharge"
-      }
-    ],
+    "note": "William's service on Sycamore from 11 Apr 1924,  to 13 Mar 1925, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder matching the next engagement — cannot verify or refine without additional card material. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
+    "waypoints_source": "no_data",
+    "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/140520_sycamore.jpeg"
   },
   {
-    "id": "bibby-1925-1935",
-    "ship": "Bibby Line Service",
-    "ship_no": "Various",
-    "line": "Bibby Line / Cunard",
-    "built": "Various",
-    "tons": "Various",
-    "flag": "⚠ Multiple ships",
-    "engaged": "13 Mar 1925",
-    "discharged": "8 Nov 1935 (no auth. discharge)",
+    "id": "leicestershire-1925",
+    "ship": "Leicestershire",
+    "ship_no": "127995",
+    "line": "Bibby Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "13 Mar 1925, ",
+    "discharged": "13 Jun 1925, ",
     "engagement_date": "1925-03-13",
-    "discharge_date": "1935-11-08",
-    "rank": "Unknown → Assistant Steward",
+    "discharge_date": "1925-06-13",
+    "rank": "Unknown rank",
     "authoritative_discharge": false,
     "card_image": null,
-    "note": "CRS10 records five ships across ~10 years: Leicestershire, Carmania (Cunard), Oxfordshire, Warwickshire, Yorkshire. The Yorkshire entry spans 1927–1935 — nearly 8 years on one ship, suggesting repeated voyages. No voyage cards found for any of these. Discharge dates match next engagements throughout.",
-    "voyage_note": "Bibby Line ran the Liverpool–Burma route via Suez. CRS10 notes Carmania called New York (25 Jun 1925). No waypoints confirmed — voyage cards not held.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Bibby Line Liverpool base"
-      },
-      {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Standard Suez-route outward call"
-      },
-      {
-        "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Suez Canal northern entrance"
-      },
-      {
-        "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
-        "verified": false,
-        "note": "Suez Canal"
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Standard coaling/call"
-      },
-      {
-        "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
-        "verified": false,
-        "note": "Ceylon call — Bibby route standard"
-      },
-      {
-        "port": "Rangoon",
-        "lon": 96.1951,
-        "lat": 16.8661,
-        "verified": false,
-        "note": "Bibby Line Burma route terminus"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "No authoritative discharge dates — multiple voyages"
-      }
-    ],
+    "note": "William's service on Leicestershire from 13 Mar 1925,  to 13 Jun 1925, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.359877,
-            31.336373
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.557983,
-            30.213982
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            78.868856,
-            6.674926
-          ],
-          [
-            79.789581,
-            6.994585
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            79.789581,
-            6.994585
-          ],
-          [
-            79.82666,
-            6.424484
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            96.249847,
-            16.595398
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
-        "coords": [
-          [
-            96.249847,
-            16.595398
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/127995_leicestershire.jpeg"
+  },
+  {
+    "id": "carmania-1925",
+    "ship": "Carmania",
+    "ship_no": "120901",
+    "line": "Cunard Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "13 Jun 1925, ",
+    "discharged": "31 Jul 1925, ",
+    "engagement_date": "1925-06-13",
+    "discharge_date": "1925-07-31",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on Carmania from 13 Jun 1925,  to 31 Jul 1925, .",
+    "voyage_note": "USA immigration record: 25th June arrived NYC Verification: No transcribed card for this vessel — the 'arrived NYC 25th June' immigration note cannot be cross-checked. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/120901_carmania.jpeg"
+  },
+  {
+    "id": "oxfordshire-1925",
+    "ship": "Oxfordshire",
+    "ship_no": "131454",
+    "line": "Bibby Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "31 Jul 1925, ",
+    "discharged": "10 Aug 1925, ",
+    "engagement_date": "1925-07-31",
+    "discharge_date": "1925-08-10",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on Oxfordshire from 31 Jul 1925,  to 10 Aug 1925, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/131454_oxfordshire.jpeg"
+  },
+  {
+    "id": "warwickshire-1925",
+    "ship": "Warwickshire",
+    "ship_no": "115258",
+    "line": "Bibby Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "10 Aug 1925, ",
+    "discharged": "2 Dec 1927, ",
+    "engagement_date": "1925-08-10",
+    "discharge_date": "1927-12-02",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on Warwickshire from 10 Aug 1925,  to 2 Dec 1927, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/115258_warwickshire.jpeg"
+  },
+  {
+    "id": "yorkshire-1927",
+    "ship": "Yorkshire",
+    "ship_no": "143663",
+    "line": "Bibby Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "2 Dec 1927, ",
+    "discharged": "8 Nov 1935, ",
+    "engagement_date": "1927-12-02",
+    "discharge_date": "1935-11-08",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on Yorkshire from 2 Dec 1927,  to 8 Nov 1935, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder despite an 8-year service gap — unverifiable without further source material. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/143663_yorkshire.jpg"
   },
   {
@@ -1751,4131 +730,230 @@ const VOYAGES = [
     "line": "Bibby Line",
     "built": "Unknown",
     "tons": "Unknown",
-    "flag": null,
-    "engaged": "8 Nov 1935",
-    "discharged": "3 Dec 1937 (no auth. discharge)",
+    "flag": "❓ No Card Data",
+    "engaged": "8 Nov 1935, ",
+    "discharged": "3 Dec 1937, ",
     "engagement_date": "1935-11-08",
     "discharge_date": "1937-12-03",
-    "rank": "Unknown",
+    "rank": "Unknown rank",
     "authoritative_discharge": false,
     "card_image": null,
-    "note": "Bibby Line Burma route. 2 years service. No voyage cards found. No authoritative discharge.",
-    "voyage_note": "Liverpool–Rangoon via Suez, typical Bibby Line service. 2+ years.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Bibby Line base"
-      },
-      {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Outward route"
-      },
-      {
-        "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Suez Canal"
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Coaling/call"
-      },
-      {
-        "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
-        "verified": false,
-        "note": "Ceylon"
-      },
-      {
-        "port": "Rangoon",
-        "lon": 96.1951,
-        "lat": 16.8661,
-        "verified": false,
-        "note": "Burma"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "No auth discharge"
-      }
-    ],
+    "note": "William's service on Derbyshire from 8 Nov 1935,  to 3 Dec 1937, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.359877,
-            31.336373
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            78.868856,
-            6.674926
-          ],
-          [
-            79.789581,
-            6.994585
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            79.789581,
-            6.994585
-          ],
-          [
-            79.82666,
-            6.424484
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            96.249847,
-            16.595398
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            96.249847,
-            16.595398
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
+    "waypoints_source": "no_data",
+    "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/164273_derbyshire.jpeg"
   },
   {
-    "id": "cheshire-shropshire-1937",
-    "ship": "Cheshire / Shropshire",
-    "ship_no": "149625 / 149001",
+    "id": "cheshire-1937",
+    "ship": "Cheshire",
+    "ship_no": "149625",
     "line": "Bibby Line",
     "built": "Unknown",
     "tons": "Unknown",
-    "flag": null,
-    "engaged": "3 Dec 1937",
-    "discharged": "8 Sep 1939 (no auth. discharge)",
+    "flag": "❓ No Card Data",
+    "engaged": "3 Dec 1937, ",
+    "discharged": "22 Apr 1938, ",
     "engagement_date": "1937-12-03",
+    "discharge_date": "1938-04-22",
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William's service on Cheshire from 3 Dec 1937,  to 22 Apr 1938, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/149625_cheshire.jpeg"
+  },
+  {
+    "id": "shropshire-1938",
+    "ship": "Shropshire",
+    "ship_no": "149001",
+    "line": "Bibby Line",
+    "built": "Unknown",
+    "tons": "Unknown",
+    "flag": "❓ No Card Data",
+    "engaged": "22 Apr 1938, ",
+    "discharged": "8 Sep 1939, ",
+    "engagement_date": "1938-04-22",
     "discharge_date": "1939-09-08",
     "rank": "Assistant Steward",
     "authoritative_discharge": false,
     "card_image": null,
-    "note": "Two ships, both Bibby Line. CRS10 confirms rank: Assistant Steward by Shropshire. War declared 3 September 1939 — this engagement straddles the outbreak of WW2. Discharge 8 Sep 1939.",
-    "voyage_note": "War was declared during this voyage. Discharge date 8 Sep 1939 — 5 days after the outbreak. His last pre-war voyage.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Bibby Line base"
-      },
-      {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Outward route"
-      },
-      {
-        "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Suez Canal"
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Coaling/call"
-      },
-      {
-        "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
-        "verified": false,
-        "note": "Ceylon"
-      },
-      {
-        "port": "Rangoon",
-        "lon": 96.1951,
-        "lat": 16.8661,
-        "verified": false,
-        "note": "Burma"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "War declared Sep 1939 during voyage"
-      }
-    ],
+    "note": "William served as Assistant Steward on Shropshire from 22 Apr 1938,  to 8 Sep 1939, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.359877,
-            31.336373
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            78.868856,
-            6.674926
-          ],
-          [
-            79.789581,
-            6.994585
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            79.789581,
-            6.994585
-          ],
-          [
-            79.82666,
-            6.424484
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            96.249847,
-            16.595398
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            96.249847,
-            16.595398
-          ],
-          [
-            96.394043,
-            16.412375
-          ],
-          [
-            95.262451,
-            15.262989
-          ],
-          [
-            93.638649,
-            14.549165
-          ],
-          [
-            88.973316,
-            13.264437
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            85.694628,
-            10.724911
-          ],
-          [
-            85.0995,
-            10.1376
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            80.1,
-            5.8
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
-    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/149625_cheshire.jpeg"
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/149001_shropshire.jpeg"
   },
   {
-    "id": "stafffordshire-1939",
+    "id": "staffordshire-1939",
     "ship": "Staffordshire",
     "ship_no": "161082",
     "line": "Bibby Line",
     "built": "Unknown",
     "tons": "Unknown",
-    "flag": "⚠ WW2 outbreak",
-    "engaged": "8 Sep 1939",
-    "discharged": "16 Jun 1940 (no auth. discharge)",
+    "flag": "❓ No Card Data",
+    "engaged": "8 Sep 1939, ",
+    "discharged": "16 Jun 1940, ",
     "engagement_date": "1939-09-08",
     "discharge_date": "1940-06-16",
-    "rank": "Unknown",
+    "rank": "Unknown rank",
     "authoritative_discharge": false,
     "card_image": null,
-    "note": "First full wartime voyage. Engaged 5 days after war declared. Discharged June 1940 — during the Dunkirk evacuation. No voyage cards found.",
-    "voyage_note": "Wartime convoy conditions from the outset. Discharged 16 Jun 1940 — the same week France fell.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Wartime Merseyside"
-      },
-      {
-        "port": "Freetown",
-        "lon": -13.2317,
-        "lat": 8.4657,
-        "verified": false,
-        "note": "Wartime convoy assembly port"
-      },
-      {
-        "port": "Cape Town",
-        "lon": 18.4241,
-        "lat": -33.9249,
-        "verified": false,
-        "note": "Cape route — Med closed"
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Wartime call"
-      },
-      {
-        "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
-        "verified": false,
-        "note": "Possible Indian Ocean call"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Dunkirk evacuation period"
-      }
-    ],
+    "note": "William's service on Staffordshire from 8 Sep 1939,  to 16 Jun 1940, .",
+    "voyage_note": "Verification: No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable. No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -13.282471,
-            8.553862
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -13.282471,
-            8.553862
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -11.5,
-            5.5
-          ],
-          [
-            -7.5,
-            3.5
-          ],
-          [
-            -3.7467,
-            1.753
-          ],
-          [
-            -2.368781,
-            1.108294
-          ],
-          [
-            -1.743578,
-            -2e-05
-          ],
-          [
-            -1.108984,
-            -1.124983
-          ],
-          [
-            0.000167,
-            -3.091205
-          ],
-          [
-            2.295228,
-            -7.159723
-          ],
-          [
-            3.739652,
-            -9.720292
-          ],
-          [
-            6.364889,
-            -14.374122
-          ],
-          [
-            11,
-            -19
-          ],
-          [
-            13.80944,
-            -22.909209
-          ],
-          [
-            14.534912,
-            -26.863281
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18.428192,
-            -33.862433
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            18.428192,
-            -33.862433
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            32,
-            -30
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            34.437034,
-            -25.749552
-          ],
-          [
-            35.142957,
-            -24.861024
-          ],
-          [
-            36,
-            -24
-          ],
-          [
-            38.929,
-            -19.5234
-          ],
-          [
-            41.7,
-            -15
-          ],
-          [
-            43,
-            -12
-          ],
-          [
-            44.496583,
-            -8.106077
-          ],
-          [
-            47.058219,
-            -1.280003
-          ],
-          [
-            47.812548,
-            0.745717
-          ],
-          [
-            49.4,
-            5
-          ],
-          [
-            50.8379,
-            8.3029
-          ],
-          [
-            52.3,
-            11.6
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            56.810303,
-            14.567634
-          ],
-          [
-            59.44496,
-            15.644932
-          ],
-          [
-            61.54,
-            16.2661
-          ],
-          [
-            62.6071,
-            16.551398
-          ],
-          [
-            64.766386,
-            17.128701
-          ],
-          [
-            66.257926,
-            17.527476
-          ],
-          [
-            67.795105,
-            17.911613
-          ],
-          [
-            69.999749,
-            18.43269
-          ],
-          [
-            72.4,
-            19
-          ],
-          [
-            72.80777,
-            18.941361
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            72.80777,
-            18.941361
-          ],
-          [
-            72.4,
-            19
-          ],
-          [
-            69.999749,
-            18.43269
-          ],
-          [
-            67.795105,
-            17.911613
-          ],
-          [
-            66.257926,
-            17.527476
-          ],
-          [
-            64.766386,
-            17.128701
-          ],
-          [
-            62.6071,
-            16.551398
-          ],
-          [
-            61.54,
-            16.2661
-          ],
-          [
-            59.44496,
-            15.644932
-          ],
-          [
-            56.810303,
-            14.567634
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
+    "waypoints_source": "no_data",
+    "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/161082_staffordshire.jpeg"
   },
   {
-    "id": "dunkirk-1940",
+    "id": "city-of-dunkirk-1940",
     "ship": "City of Dunkirk",
     "ship_no": "131464",
     "line": "Ellerman Lines (City Line)",
     "built": "1912",
     "tons": "4,872 grt",
-    "flag": "🎖 CRS10 Confirmed — First Chief Steward",
-    "engaged": "16 Jun 1940",
+    "flag": "📋 Register Confirmed",
+    "engaged": "16 Jun 1940, ",
     "discharged": "22 Oct 1941, Hull",
     "engagement_date": "1940-06-16",
     "discharge_date": "1941-10-22",
     "rank": "Chief Steward",
-    "authoritative_discharge": true,
+    "authoritative_discharge": false,
     "card_image": null,
-    "note": "First voyage as Chief Steward. 16 months. Discharged Hull — authoritative. Ellerman City Line India route.",
-    "voyage_note": "Promoted to Chief Steward. Mediterranean closed — Cape route only. 16 months of wartime convoy service.",
+    "note": "William served as Chief Steward on City of Dunkirk from 16 Jun 1940,  to 22 Oct 1941, Hull.",
+    "voyage_note": "Verification: No transcribed card for this vessel in the current collection — unverifiable.",
     "waypoints": [
       {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "note": "Engaged Jun 1940 — Battle of Britain"
-      },
-      {
-        "port": "Loch Ewe",
-        "lon": -5.6324,
-        "lat": 57.8508,
-        "verified": false,
-        "note": "Wartime convoy assembly"
-      },
-      {
-        "port": "Freetown",
-        "lon": -13.2317,
-        "lat": 8.4657,
-        "verified": false,
-        "note": "West Africa convoy call"
-      },
-      {
-        "port": "Cape Town",
-        "lon": 18.4241,
-        "lat": -33.9249,
-        "verified": false,
-        "note": "Cape route — Med closed"
-      },
-      {
-        "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
-        "verified": false,
-        "note": "South Africa call"
-      },
-      {
-        "port": "Mombasa",
-        "lon": 39.6682,
-        "lat": -4.0435,
-        "verified": false,
-        "note": "East Africa"
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Wartime call"
-      },
-      {
-        "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
-        "verified": false,
-        "note": "India"
-      },
-      {
         "port": "Hull",
-        "lon": -0.3367,
-        "lat": 53.7457,
+        "lon": -0.3301214,
+        "lat": 53.7623863,
         "verified": true,
-        "note": "Discharged Hull 22 Oct 1941 — authoritative"
+        "note": "register: Hull"
       }
     ],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.831515,
-            53.940031
-          ],
-          [
-            -4.162754,
-            54.389945
-          ],
-          [
-            -5.002755,
-            54.604048
-          ],
-          [
-            -5.137288,
-            54.638339
-          ],
-          [
-            -5.2,
-            54.8
-          ],
-          [
-            -5.445564,
-            54.990994
-          ],
-          [
-            -5.854566,
-            55.309107
-          ],
-          [
-            -6.201782,
-            55.422779
-          ],
-          [
-            -6.654443,
-            55.698575
-          ],
-          [
-            -6.580727,
-            56.173018
-          ],
-          [
-            -6.567442,
-            56.420585
-          ],
-          [
-            -6.38018,
-            56.622089
-          ],
-          [
-            -6.316952,
-            56.690147
-          ],
-          [
-            -5.8274,
-            57.0506
-          ],
-          [
-            -5.658717,
-            57.22077
-          ],
-          [
-            -5.655077,
-            57.267716
-          ],
-          [
-            -5.778249,
-            57.284772
-          ],
-          [
-            -5.894746,
-            57.347681
-          ],
-          [
-            -5.9098,
-            57.5462
-          ],
-          [
-            -5.87533,
-            57.823831
-          ],
-          [
-            -5.784214,
-            58.005856
-          ],
-          [
-            -5.5308,
-            57.9274
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.5308,
-            57.9274
-          ],
-          [
-            -5.784214,
-            58.005856
-          ],
-          [
-            -5.857551,
-            58.028561
-          ],
-          [
-            -6.118044,
-            57.852952
-          ],
-          [
-            -6.287926,
-            57.738428
-          ],
-          [
-            -6.527774,
-            57.688641
-          ],
-          [
-            -6.7173,
-            57.6493
-          ],
-          [
-            -6.870262,
-            57.404779
-          ],
-          [
-            -7.0414,
-            57.1312
-          ],
-          [
-            -7.1,
-            56.9
-          ],
-          [
-            -7.661853,
-            56.486873
-          ],
-          [
-            -10.5,
-            54.4
-          ],
-          [
-            -10.2,
-            53
-          ],
-          [
-            -10.472335,
-            52.228385
-          ],
-          [
-            -10.646733,
-            51.734257
-          ],
-          [
-            -10.8,
-            51.3
-          ],
-          [
-            -10.754063,
-            50.707477
-          ],
-          [
-            -10.717387,
-            50.234397
-          ],
-          [
-            -10.709054,
-            50.126917
-          ],
-          [
-            -10.694975,
-            49.945308
-          ],
-          [
-            -10.690172,
-            49.88336
-          ],
-          [
-            -10.632436,
-            49.138636
-          ],
-          [
-            -10.630839,
-            49.118042
-          ],
-          [
-            -10.558668,
-            48.187125
-          ],
-          [
-            -10.462429,
-            46.945761
-          ],
-          [
-            -10.404053,
-            46.192784
-          ],
-          [
-            -10.194961,
-            43.495763
-          ],
-          [
-            -10.176425,
-            43.256675
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -13.282471,
-            8.553862
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            -13.282471,
-            8.553862
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -11.5,
-            5.5
-          ],
-          [
-            -7.5,
-            3.5
-          ],
-          [
-            -3.7467,
-            1.753
-          ],
-          [
-            -2.368781,
-            1.108294
-          ],
-          [
-            -1.743578,
-            -2e-05
-          ],
-          [
-            -1.108984,
-            -1.124983
-          ],
-          [
-            0.000167,
-            -3.091205
-          ],
-          [
-            2.295228,
-            -7.159723
-          ],
-          [
-            3.739652,
-            -9.720292
-          ],
-          [
-            6.364889,
-            -14.374122
-          ],
-          [
-            11,
-            -19
-          ],
-          [
-            13.80944,
-            -22.909209
-          ],
-          [
-            14.534912,
-            -26.863281
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18.428192,
-            -33.862433
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            18.428192,
-            -33.862433
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            34.437034,
-            -25.749552
-          ],
-          [
-            35.142957,
-            -24.861024
-          ],
-          [
-            36,
-            -24
-          ],
-          [
-            38.929,
-            -19.5234
-          ],
-          [
-            41.7,
-            -15
-          ],
-          [
-            41,
-            -10
-          ],
-          [
-            40,
-            -6.5
-          ],
-          [
-            40.3,
-            -4.2
-          ],
-          [
-            39.830933,
-            -4.061536
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            39.830933,
-            -4.061536
-          ],
-          [
-            40.3,
-            -4.2
-          ],
-          [
-            43,
-            -1
-          ],
-          [
-            45.852351,
-            1.732747
-          ],
-          [
-            49.4,
-            5
-          ],
-          [
-            50.8379,
-            8.3029
-          ],
-          [
-            52.3,
-            11.6
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            56.810303,
-            14.567634
-          ],
-          [
-            59.44496,
-            15.644932
-          ],
-          [
-            61.54,
-            16.2661
-          ],
-          [
-            62.6071,
-            16.551398
-          ],
-          [
-            64.766386,
-            17.128701
-          ],
-          [
-            66.257926,
-            17.527476
-          ],
-          [
-            67.795105,
-            17.911613
-          ],
-          [
-            69.999749,
-            18.43269
-          ],
-          [
-            72.4,
-            19
-          ],
-          [
-            72.80777,
-            18.941361
-          ]
-        ]
-      },
-      {
-        "from_idx": 7,
-        "to_idx": 8,
-        "verified": false,
-        "coords": [
-          [
-            72.80777,
-            18.941361
-          ],
-          [
-            72.4,
-            19
-          ],
-          [
-            69.999749,
-            18.43269
-          ],
-          [
-            67.795105,
-            17.911613
-          ],
-          [
-            66.257926,
-            17.527476
-          ],
-          [
-            64.766386,
-            17.128701
-          ],
-          [
-            62.6071,
-            16.551398
-          ],
-          [
-            61.54,
-            16.2661
-          ],
-          [
-            59.44496,
-            15.644932
-          ],
-          [
-            56.810303,
-            14.567634
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.954994,
-            45.668797
-          ],
-          [
-            -6.698867,
-            47.340067
-          ],
-          [
-            -5.5,
-            48.6667
-          ],
-          [
-            -5.06401,
-            48.799916
-          ],
-          [
-            -4.270518,
-            49.042365
-          ],
-          [
-            -4.030414,
-            49.115729
-          ],
-          [
-            -3.986163,
-            49.129249
-          ],
-          [
-            -3.197043,
-            49.370363
-          ],
-          [
-            -2.39189,
-            49.616376
-          ],
-          [
-            -1.992006,
-            49.738559
-          ],
-          [
-            -1.93365,
-            49.75639
-          ],
-          [
-            -1.665743,
-            49.838248
-          ],
-          [
-            -1.47977,
-            49.895072
-          ],
-          [
-            -1.3,
-            49.95
-          ],
-          [
-            -0.671539,
-            50.155459
-          ],
-          [
-            -0.545959,
-            50.196513
-          ],
-          [
-            -0.343359,
-            50.262748
-          ],
-          [
-            0.39288,
-            50.503441
-          ],
-          [
-            1.193894,
-            50.765311
-          ],
-          [
-            1.3,
-            50.8
-          ],
-          [
-            1.384634,
-            51.049171
-          ],
-          [
-            1.4181,
-            51.1477
-          ],
-          [
-            1.474566,
-            51.467902
-          ],
-          [
-            1.4922,
-            51.5679
-          ],
-          [
-            1.539869,
-            51.652703
-          ],
-          [
-            1.613617,
-            51.783903
-          ],
-          [
-            1.5065,
-            51.878829
-          ],
-          [
-            1.761684,
-            52.03871
-          ],
-          [
-            2.1349,
-            52.7457
-          ],
-          [
-            0.4,
-            53.5
-          ],
-          [
-            -0.039825,
-            53.583538
-          ],
-          [
-            -0.299377,
-            53.730842
-          ]
-        ]
-      }
-    ],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/131464_city_of_dunkirk.jpeg"
   },
   {
-    "id": "rangoon-1941",
+    "id": "city-of-rangoon-1941",
     "ship": "City of Rangoon",
     "ship_no": "135582",
     "line": "Ellerman Lines (City Line)",
     "built": "1914",
     "tons": "4,272 grt",
-    "flag": "🎖 Christmas 1941 — The Torpedo Ring Voyage",
+    "flag": "🎖 CRS10 Card Confirmed",
     "engaged": "26 Nov 1941, Birkenhead",
     "discharged": "17 Aug 1942, Manchester",
     "engagement_date": "1941-11-26",
     "discharge_date": "1942-08-17",
     "rank": "Chief Steward",
     "authoritative_discharge": true,
-    "card_image": "city_of_rangoon_card7_first.jpg",
-    "note": "The Christmas 1941 torpedo ring voyage. Engaged Birkenhead 26 November 1941. The ring engraved 'Xmas 1941' falls inside this engagement. Voyage cards (Cards 7-9) document the full route. Captain R J Jeffers took command on the same date William joined.",
-    "voyage_note": "Nine months. The torpedo ring with 'Xmas 1941' was made during this voyage. The ship ran South Atlantic convoy routes, East Africa, and Indian Ocean.",
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Rangoon from 26 Nov 1941, Birkenhead to 17 Aug 1942, Manchester. Engagement type: foreign-going.",
+    "voyage_note": "",
     "waypoints": [
       {
-        "port": "Birkenhead",
-        "lon": -3.0138,
-        "lat": 53.3927,
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "date": "1941-11-26",
-        "note": "CRS10: engaged 26 Nov 1941, Birkenhead"
+        "note": "sailing 29/11 1941"
       },
       {
         "port": "Freetown",
-        "lat": 8.4657,
-        "lon": -13.2317,
+        "lon": -13.26795,
+        "lat": 8.479004,
         "verified": true,
-        "note": "Voyage card: Arrived 21 Dec 1941, departed 8 Jan 1942"
+        "note": "arrival 21/12 1941; sailing 8/1 1942"
       },
       {
         "port": "Table Bay",
         "lon": 18.4241,
         "lat": -33.9249,
         "verified": true,
-        "date": "1942-01-22",
-        "note": "Voyage card: Arrived 22 Jan 1942, departed 7 Feb 1942"
-      },
-      {
-        "port": "Lourenco Marques",
-        "lat": -25.9692,
-        "lon": 32.5732,
-        "verified": true,
-        "note": "Voyage card: Arrived 9 Mar 1942, departed 22 Apr 1942"
+        "note": "arrival 22/1 1942"
       },
       {
         "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
+        "lon": 31.009909,
+        "lat": -29.8618145,
         "verified": true,
-        "date": "1942-05-14",
-        "note": "Voyage card: Arrival 14 May 1942"
+        "note": "arrival 11/5 1942; sailing 18/5 1942"
+      },
+      {
+        "port": "Lourenco Marques",
+        "lon": 32.5732,
+        "lat": -25.9692,
+        "verified": true,
+        "note": "arrival 19/5 1942; sailing 22/5 1942"
       },
       {
         "port": "Beira",
         "lon": 34.8389,
         "lat": -19.8436,
         "verified": true,
-        "date": "1942-05-27",
-        "note": "Voyage card: Arrival 27 May 1942"
+        "note": "arrival 24/5 1942; sailing 31/5 1942"
       },
       {
         "port": "Lourenco Marques",
         "lon": 32.5732,
         "lat": -25.9692,
         "verified": true,
-        "date": "1942-06-12",
-        "note": "Voyage card: Arrival 12 Jun 1942"
-      },
-      {
-        "port": "Manchester",
-        "lon": -2.2426,
-        "lat": 53.4808,
-        "verified": true,
-        "date": "1942-06-16",
-        "note": "Voyage card: Arrival 16 Jun 1942"
+        "note": "arrival 2/6 1942"
       },
       {
         "port": "Port Elizabeth",
         "lon": 25.6022,
         "lat": -33.9608,
         "verified": true,
-        "date": "1942-06-17",
-        "note": "Voyage card: Arrival 17 Jun 1942"
+        "note": "arrival 13/6 1942; sailing 17/6 1942"
       },
       {
         "port": "Table Bay",
         "lon": 18.4241,
         "lat": -33.9249,
         "verified": true,
-        "date": "1942-06-21",
-        "note": "Voyage card: Arrival 21 Jun 1942"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "date": "1942-07-15",
-        "note": "Voyage card: Arrival 15 Jul 1942"
+        "note": "arrival 21/6 1942; sailing 30/6 1942"
       },
       {
         "port": "Freetown",
-        "lon": -13.2317,
-        "lat": 8.4657,
+        "lon": -13.26795,
+        "lat": 8.479004,
         "verified": true,
-        "date": "1942-07-20",
-        "note": "Voyage card: Arrival 20 Jul 1942"
+        "note": "arrival 5/7 1942; sailing 25/7 1942"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival 15/8 1942"
       },
       {
         "port": "Manchester",
-        "lon": -2.2426,
-        "lat": 53.4808,
+        "lon": -2.2324547,
+        "lat": 53.4424618,
         "verified": true,
-        "date": "1942-08-17",
-        "note": "CRS10: discharged 17 Aug 1942, Manchester"
+        "note": "arrival 16/8 1942"
       }
     ],
     "card_images": [
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5650.jpeg",
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5651.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -6189,28 +1267,8 @@ const VOYAGES = [
             -33.5
           ],
           [
-            32,
-            -30
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.606049,
-            -25.995081
+            31.173706,
+            -29.816817
           ]
         ]
       },
@@ -6220,6 +1278,37 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
+            31.173706,
+            -29.816817
+          ],
+          [
+            32.920532,
+            -28.449374
+          ],
+          [
+            33.156738,
+            -25.888879
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.606049,
+            -25.995081
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
             32.606049,
             -25.995081
           ],
@@ -6230,37 +1319,6 @@ const VOYAGES = [
           [
             32.861481,
             -25.703413
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": true,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            34.437034,
-            -25.749552
           ],
           [
             35.142957,
@@ -6347,533 +1405,6 @@ const VOYAGES = [
           [
             28.5,
             -33.5
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            12.499733,
-            -28.1252
-          ],
-          [
-            10.425227,
-            -25.53227
-          ],
-          [
-            7.89386,
-            -22.368307
-          ],
-          [
-            5.653262,
-            -19.567777
-          ],
-          [
-            3.542734,
-            -16.929822
-          ],
-          [
-            1.7833,
-            -14.7307
-          ],
-          [
-            0.000405,
-            -12.501846
-          ],
-          [
-            -1.100476,
-            -11.1256
-          ],
-          [
-            -1.989182,
-            -10.0146
-          ],
-          [
-            -5.531121,
-            -5.586708
-          ],
-          [
-            -10,
-            -2e-05
-          ],
-          [
-            -13.4277,
-            5.5302
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -2.887001,
-            53.312827
-          ],
-          [
-            -2.764778,
-            53.319595
-          ]
-        ]
-      },
-      {
-        "from_idx": 7,
-        "to_idx": 8,
-        "verified": true,
-        "coords": [
-          [
-            -2.764778,
-            53.319595
-          ],
-          [
-            -2.887001,
-            53.312827
-          ],
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -13.4277,
-            5.5302
-          ],
-          [
-            -10,
-            -2e-05
-          ],
-          [
-            -5.531121,
-            -5.586708
-          ],
-          [
-            -1.989182,
-            -10.0146
-          ],
-          [
-            -1.100476,
-            -11.1256
-          ],
-          [
-            0.000405,
-            -12.501846
-          ],
-          [
-            1.7833,
-            -14.7307
-          ],
-          [
-            3.542734,
-            -16.929822
-          ],
-          [
-            5.653262,
-            -19.567777
-          ],
-          [
-            7.89386,
-            -22.368307
-          ],
-          [
-            10.425227,
-            -25.53227
-          ],
-          [
-            12.499733,
-            -28.1252
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
           ],
           [
             25.934206,
@@ -6882,6 +1413,41 @@ const VOYAGES = [
           [
             25.640717,
             -33.918292
+          ]
+        ]
+      },
+      {
+        "from_idx": 7,
+        "to_idx": 8,
+        "verified": true,
+        "coords": [
+          [
+            25.640717,
+            -33.918292
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            26,
+            -34.5
+          ],
+          [
+            22,
+            -35
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18.428192,
+            -33.862433
           ]
         ]
       },
@@ -6891,32 +1457,72 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            25.640717,
-            -33.918292
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            18,
-            -35
+            18.428192,
+            -33.862433
           ],
           [
             18.237305,
             -33.840764
           ],
           [
-            18.428192,
-            -33.862433
+            14.534912,
+            -26.863281
+          ],
+          [
+            13.80944,
+            -22.909209
+          ],
+          [
+            11,
+            -19
+          ],
+          [
+            6.364889,
+            -14.374122
+          ],
+          [
+            3.739652,
+            -9.720292
+          ],
+          [
+            2.295228,
+            -7.159723
+          ],
+          [
+            0.000167,
+            -3.091205
+          ],
+          [
+            -1.108984,
+            -1.124983
+          ],
+          [
+            -1.743578,
+            -2e-05
+          ],
+          [
+            -2.368781,
+            1.108294
+          ],
+          [
+            -3.7467,
+            1.753
+          ],
+          [
+            -7.5,
+            3.5
+          ],
+          [
+            -11.5,
+            5.5
+          ],
+          [
+            -14.5,
+            8.5
+          ],
+          [
+            -13.282471,
+            8.553862
           ]
         ]
       },
@@ -6926,64 +1532,12 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            18.428192,
-            -33.862433
+            -13.282471,
+            8.553862
           ],
           [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            12.499733,
-            -28.1252
-          ],
-          [
-            10.425227,
-            -25.53227
-          ],
-          [
-            7.89386,
-            -22.368307
-          ],
-          [
-            5.653262,
-            -19.567777
-          ],
-          [
-            3.542734,
-            -16.929822
-          ],
-          [
-            1.7833,
-            -14.7307
-          ],
-          [
-            0.000405,
-            -12.501846
-          ],
-          [
-            -1.100476,
-            -11.1256
-          ],
-          [
-            -1.989182,
-            -10.0146
-          ],
-          [
-            -5.531121,
-            -5.586708
-          ],
-          [
-            -10,
-            -2e-05
-          ],
-          [
-            -13.4277,
-            5.5302
+            -14.5,
+            8.5
           ],
           [
             -17,
@@ -7189,409 +1743,6 @@ const VOYAGES = [
             53.370425
           ],
           [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -13.282471,
-            8.553862
-          ]
-        ]
-      },
-      {
-        "from_idx": 11,
-        "to_idx": 12,
-        "verified": true,
-        "coords": [
-          [
-            -13.282471,
-            8.553862
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
             -2.887001,
             53.312827
           ],
@@ -7605,84 +1756,150 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135582_city_of_rangoon.jpeg"
   },
   {
-    "id": "norwich-1942-1",
+    "id": "city-of-rangoon-1942",
+    "ship": "City of Rangoon",
+    "ship_no": "135582",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,272 grt",
+    "flag": "📋 Register Confirmed",
+    "engaged": "18 Aug 1942, Manchester",
+    "discharged": "20 Aug 1942, Manchester",
+    "engagement_date": "1942-08-18",
+    "discharge_date": "1942-08-20",
+    "rank": "Chief Steward",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Rangoon from 18 Aug 1942, Manchester to 20 Aug 1942, Manchester. Engagement type: foreign-going.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Manchester",
+        "lon": -2.2324547,
+        "lat": 53.4424618,
+        "verified": true,
+        "note": "register: Manchester"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135582_city_of_rangoon.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1942",
     "ship": "City of Norwich",
     "ship_no": "135479",
     "line": "Ellerman Lines (City Line)",
     "built": "1914",
     "tons": "4,346 grt",
-    "flag": "🎖 Voyage Cards Held",
+    "flag": "🎖 CRS10 Card Confirmed",
     "engaged": "12 Sep 1942, Glasgow",
     "discharged": "21 Dec 1942, Liverpool",
     "engagement_date": "1942-09-12",
     "discharge_date": "1942-12-21",
     "rank": "Chief Steward",
     "authoritative_discharge": true,
-    "card_image": "city_of_norwich_card8_first.jpg",
-    "note": "First City of Norwich voyage. Cards 8 & 9 cover the OHMS period. Ship was on wartime government service — Alexandria, Tripoli, Italian theatre.",
-    "voyage_note": "South Africa and East Africa route. OHMS (On His Majesty's Service) requisitioned from 30 Apr 1941. Near miss May 1943.",
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Norwich from 12 Sep 1942, Glasgow to 21 Dec 1942, Liverpool. Engagement type: foreign-going.",
+    "voyage_note": "",
     "waypoints": [
       {
         "port": "Glasgow",
-        "lon": -4.2518,
-        "lat": 55.8642,
+        "lon": -4.2501687,
+        "lat": 55.861155,
         "verified": true,
-        "date": "1942-09-14",
-        "note": "Voyage card: Arrival 14 Sep 1942"
+        "note": "sailing 16/9 1942"
       },
       {
         "port": "Tail of the Bank",
-        "lon": -4.75,
-        "lat": 55.95,
+        "lon": -4.7597,
+        "lat": 55.9581,
         "verified": true,
-        "date": "1942-09-16",
-        "note": "Voyage card: Arrival 16 Sep 1942"
+        "note": "arrival 16/9 1942"
       },
       {
         "port": "Clyde Anchorage",
-        "lon": -4.7,
-        "lat": 55.87,
+        "lon": -4.85,
+        "lat": 55.75,
         "verified": true,
-        "date": "1942-09-16",
-        "note": "Voyage card: Arrival 16 Sep 1942"
+        "note": "arrival 16/9 1942"
+      },
+      {
+        "port": "Tail of the Bank",
+        "lon": -4.7597,
+        "lat": 55.9581,
+        "verified": true,
+        "note": "sailing 26/9 1942"
+      },
+      {
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "arrival 26/9 1942"
+      },
+      {
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
+        "verified": true,
+        "note": "arrival 26/9 1942; sailing 5/10 1942"
+      },
+      {
+        "port": "Tail of the Bank",
+        "lon": -4.7597,
+        "lat": 55.9581,
+        "verified": true,
+        "note": "arrival 5/10 1942"
+      },
+      {
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "arrival 5/10 1942"
       },
       {
         "port": "Loch Ewe",
-        "lon": -5.6324,
-        "lat": 57.8508,
+        "lon": -5.6344503,
+        "lat": 57.8212502,
         "verified": true,
-        "date": "1942-10-08",
-        "note": "Voyage card: Arrival 08 Oct 1942"
+        "note": "arrival 8/10 1942; sailing 24-25/10 1942"
+      },
+      {
+        "port": "Bougie",
+        "lon": 5.0667,
+        "lat": 36.75,
+        "verified": true,
+        "note": "arrival 15/11 1942; sailing 25/11 1942"
       },
       {
         "port": "Algiers",
-        "lon": 3.087,
-        "lat": 36.7372,
+        "lon": 3.0588445,
+        "lat": 36.7729333,
         "verified": true,
-        "date": "1942-11-29",
-        "note": "Voyage card: Arrival 29 Nov 1942"
+        "note": "arrival 29/11 1942; sailing 1/12 1942"
       },
       {
         "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
+        "lon": -5.3474761,
+        "lat": 36.1285933,
         "verified": true,
-        "date": "1942-12-04",
-        "note": "Voyage card: Arrival 04 Dec 1942"
+        "note": "arrival 4/12 1942; sailing 8/12 1942"
       },
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "date": "1942-12-19",
-        "note": "Voyage card: Arrival 19 Dec 1942"
+        "note": "arrival 19/12 1942"
       }
     ],
     "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5646.jpeg"
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5647.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -7707,12 +1924,39 @@ const VOYAGES = [
           [
             -4.768562,
             55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
           ]
         ]
       },
       {
         "from_idx": 2,
         "to_idx": 3,
+        "verified": true,
+        "coords": [
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -4.768562,
+            55.987575
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
         "verified": true,
         "coords": [
           [
@@ -7723,6 +1967,74 @@ const VOYAGES = [
             -4.893723,
             55.949777
           ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.54422,
+            55.924586
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            -4.54422,
+            55.924586
+          ],
+          [
+            -4.768562,
+            55.987575
+          ]
+        ]
+      },
+      {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 7,
+        "to_idx": 8,
+        "verified": true,
+        "coords": [
           [
             -5.012512,
             55.653573
@@ -7802,8 +2114,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 3,
-        "to_idx": 4,
+        "from_idx": 8,
+        "to_idx": 9,
         "verified": true,
         "coords": [
           [
@@ -7963,32 +2275,87 @@ const VOYAGES = [
             35.97289
           ],
           [
-            -4.7,
-            36
+            -4.417056,
+            36.339533
           ],
           [
-            -3.683043,
-            36.156455
+            -4.070282,
+            36.488703
           ],
           [
-            -3.264225,
-            36.220888
+            -3.811553,
+            36.6
           ],
           [
-            -2.590675,
-            36.324512
+            -3.559793,
+            36.6
           ],
           [
-            -2.244793,
-            36.377724
+            -3.464998,
+            36.6
           ],
           [
-            -1.62439,
-            36.473171
+            -2.508613,
+            36.6
           ],
           [
-            -0.366667,
-            36.666667
+            -2.1,
+            36.6
+          ],
+          [
+            -0.182736,
+            37.508837
+          ],
+          [
+            0.075557,
+            37.631275
+          ],
+          [
+            0.128088,
+            37.656176
+          ],
+          [
+            1.542546,
+            38.326669
+          ],
+          [
+            2.426923,
+            38.745888
+          ],
+          [
+            3.031664,
+            39.032552
+          ],
+          [
+            3.429353,
+            38.942011
+          ],
+          [
+            4.200818,
+            38.766372
+          ],
+          [
+            5.0023,
+            38.5839
+          ]
+        ]
+      },
+      {
+        "from_idx": 9,
+        "to_idx": 10,
+        "verified": true,
+        "coords": [
+          [
+            5.0023,
+            38.5839
+          ],
+          [
+            4.200818,
+            38.766372
+          ],
+          [
+            3.294502,
+            37.47676
           ],
           [
             3.1,
@@ -8001,8 +2368,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 4,
-        "to_idx": 5,
+        "from_idx": 10,
+        "to_idx": 11,
         "verified": true,
         "coords": [
           [
@@ -8052,8 +2419,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 5,
-        "to_idx": 6,
+        "from_idx": 11,
+        "to_idx": 12,
         "verified": true,
         "coords": [
           [
@@ -8202,98 +2569,99 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
   },
   {
-    "id": "norwich-1943-ohms",
-    "ship": "City of Norwich (OHMS)",
+    "id": "city-of-norwich-1943",
+    "ship": "City of Norwich",
     "ship_no": "135479",
-    "line": "Ellerman / Ministry of War Transport",
+    "line": "Ellerman Lines (City Line)",
     "built": "1914",
     "tons": "4,346 grt",
-    "flag": "⚓ OHMS — Mediterranean Theatre",
-    "engaged": "12 Jan 1943, Birkenhead",
-    "discharged": "3 Jun 1943, Avonmouth",
-    "engagement_date": "1943-01-15",
-    "discharge_date": "1943-06-03",
+    "flag": "📋 Register Confirmed",
+    "engaged": "3 Jan 1943, Liverpool",
+    "discharged": "15 Jan 1943, Liverpool",
+    "engagement_date": "1943-01-03",
+    "discharge_date": "1943-01-15",
     "rank": "Chief Steward",
-    "authoritative_discharge": true,
-    "card_image": "city_of_norwich_card8_first.jpg",
-    "note": "Requisitioned for military service — OHMS from 29 Dec 1943. Voyage card covers Mediterranean theatre: Alexandria, Tripoli Libya, then Augusta Sicily, Naples during the Italian campaign.",
-    "voyage_note": "OHMS wartime service. Alexandria, Tripoli Libya, then the Italian campaign — Augusta Sicily, Naples, Civitavecchia. Near miss May 1943.",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Norwich from 3 Jan 1943, Liverpool to 15 Jan 1943, Liverpool. Engagement type: foreign-going.",
+    "voyage_note": "Verification: CHECKED (assumed discharge date): card (IMG_5647) confirms the ship was docked in Liverpool through ~19 Jan 1943 — consistent with an engage/discharge cycle inside that layup, though the card can't pin the exact administrative day any tighter.",
     "waypoints": [
       {
-        "port": "Birkenhead",
-        "lon": -3.0138,
-        "lat": 53.3927,
-        "verified": false,
-        "note": "Engaged 15 Jan 1943",
-        "date": null
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "register: Liverpool"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1943-2",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "15 Jan 1943, Birkenhead",
+    "discharged": "3 Mar 1943, Liverpool",
+    "engagement_date": "1943-01-15",
+    "discharge_date": "1943-03-03",
+    "rank": "Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Norwich from 15 Jan 1943, Birkenhead to 3 Mar 1943, Liverpool. Engagement type: foreign-going.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival 19/1 1943"
       },
       {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Wartime convoy route",
-        "date": null
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "arrival 20/1 1943; sailing 21/1 1943"
       },
       {
         "port": "Algiers",
-        "lon": 3.087,
-        "lat": 36.7372,
-        "verified": false,
-        "note": "Voyage card: Algiers Nov 1942 — Operation Torch period",
-        "date": null
+        "lon": 3.0588445,
+        "lat": 36.7729333,
+        "verified": true,
+        "note": "arrival 7/2 1943; sailing 19/2 1943"
       },
       {
-        "port": "Alexandria",
-        "lon": 29.9187,
-        "lat": 31.2001,
-        "verified": false,
-        "note": "Voyage card: OHMS Egypt",
-        "date": null
+        "port": "River Mersey",
+        "lon": -2.8937832,
+        "lat": 53.304895,
+        "verified": true,
+        "note": "arrival 1/3 1943"
       },
       {
-        "port": "Haifa",
-        "lon": 34.9896,
-        "lat": 32.794,
-        "verified": false,
-        "note": "Voyage card: Haifa",
-        "date": null
-      },
-      {
-        "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Voyage card: Port Said",
-        "date": null
-      },
-      {
-        "port": "Freetown",
-        "lon": -13.2317,
-        "lat": 8.4657,
-        "verified": false,
-        "note": "Voyage card: Freetown homeward",
-        "date": null
-      },
-      {
-        "port": "Avonmouth",
-        "lon": -2.7136,
-        "lat": 51.5072,
-        "verified": false,
-        "note": "CRS10: discharged Avonmouth 3 Jun 1943",
-        "date": null
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival 1/3 1943"
       }
     ],
     "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5646.jpeg",
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5647.jpeg"
     ],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
         "to_idx": 1,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             -2.980042,
@@ -8308,28 +2676,87 @@ const VOYAGES = [
             53.572938
           ],
           [
-            -3.964322,
-            53.295363
+            -3.831515,
+            53.940031
           ],
           [
-            -4.119099,
-            53.234173
+            -4.162754,
+            54.389945
           ],
           [
-            -4.329113,
-            53.12664
+            -5.002755,
+            54.604048
           ],
           [
-            -4.806092,
-            52.785658
+            -5.137288,
+            54.638339
           ],
           [
-            -5.081903,
-            52.783932
+            -5.2,
+            54.8
           ],
           [
-            -5.440366,
-            52.111814
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.781725,
+            52.16867
           ],
           [
             -5.9,
@@ -8426,25 +2853,6 @@ const VOYAGES = [
           [
             -5.354867,
             35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
           ],
           [
             -5.269383,
@@ -8491,240 +2899,11 @@ const VOYAGES = [
       {
         "from_idx": 2,
         "to_idx": 3,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             3.11592,
             36.800164
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.151721,
-            37.438492
-          ],
-          [
-            11.746338,
-            37.197431
-          ],
-          [
-            12.046597,
-            37.075704
-          ],
-          [
-            12.171642,
-            37.02501
-          ],
-          [
-            13.053885,
-            36.667344
-          ],
-          [
-            14.7,
-            36
-          ],
-          [
-            17.679754,
-            34.897899
-          ],
-          [
-            19.481653,
-            34.231443
-          ],
-          [
-            22,
-            33.3
-          ],
-          [
-            23.824796,
-            32.764727
-          ],
-          [
-            24.464304,
-            32.577138
-          ],
-          [
-            25.75,
-            32.2
-          ],
-          [
-            29.7545,
-            31.2025
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            29.7545,
-            31.2025
-          ],
-          [
-            30.072508,
-            31.744076
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.886029,
-            32.337658
-          ],
-          [
-            33.138181,
-            32.542215
-          ],
-          [
-            33.899796,
-            33.160068
-          ],
-          [
-            34.8,
-            33
-          ],
-          [
-            35.026558,
-            32.846664
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            35.026558,
-            32.846664
-          ],
-          [
-            34.8,
-            33
-          ],
-          [
-            34.221929,
-            31.941392
-          ],
-          [
-            32.390763,
-            31.727717
-          ],
-          [
-            32.359877,
-            31.336373
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
           ],
           [
             3.1,
@@ -8771,163 +2950,48 @@ const VOYAGES = [
             35.95
           ],
           [
-            -7.1,
-            34.4
+            -7.26966,
+            36.31906
           ],
           [
-            -7.7875,
-            34.076471
+            -8.219465,
+            36.549727
           ],
           [
-            -8.751058,
-            33.623031
+            -9.25,
+            36.8
           ],
           [
-            -10.1,
-            31.8
+            -9.452092,
+            37.781589
           ],
           [
-            -12.194387,
-            29.156452
+            -9.6,
+            38.5
           ],
           [
-            -13.963623,
-            27.410786
+            -9.9844,
+            40.7798
           ],
           [
-            -18,
-            21
+            -9.5,
+            43
           ],
           [
-            -18,
-            15
+            -9.14264,
+            43.688493
           ],
           [
-            -17,
-            11
+            -9.019938,
+            43.924891
           ],
           [
-            -14.5,
-            8.5
+            -8.49576,
+            44.934776
           ],
           [
-            -13.282471,
-            8.553862
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
-        "coords": [
-          [
-            -13.282471,
-            8.553862
-          ],
-          [
-            -14.5,
-            8.5
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -15.128174,
-            27.999252
-          ],
-          [
-            -15.145809,
-            28.538331
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -8.21226,
-            45.844905
+            -7.987368,
+            45.91425
           ],
           [
             -7.66278,
@@ -8970,6 +3034,704 @@ const VOYAGES = [
             50.4096
           ],
           [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.440366,
+            52.111814
+          ],
+          [
+            -5.081903,
+            52.783932
+          ],
+          [
+            -4.806092,
+            52.785658
+          ],
+          [
+            -4.329113,
+            53.12664
+          ],
+          [
+            -4.119099,
+            53.234173
+          ],
+          [
+            -3.964322,
+            53.295363
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ],
+          [
+            -2.887001,
+            53.312827
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            -2.887001,
+            53.312827
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1943-3",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "📋 Register Confirmed",
+    "engaged": "10 Mar 1943, Liverpool",
+    "discharged": "23 Mar 1943, Birkenhead",
+    "engagement_date": "1943-03-10",
+    "discharge_date": "1943-03-23",
+    "rank": "Chief Steward",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Norwich from 10 Mar 1943, Liverpool to 23 Mar 1943, Birkenhead. Engagement type: home-trade.",
+    "voyage_note": "Verification: CHECKED (assumed discharge date): card (IMG_5647) shows the ship still in Liverpool, sailing 25 Mar 1943 — a minor 2-day discrepancy with the stated 23 Mar discharge, but same port/window.",
+    "waypoints": [
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "register: Liverpool"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1943-4",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "23 Mar 1943, Birkenhead",
+    "discharged": "3 Jun 1943, Avonmouth",
+    "engagement_date": "1943-03-23",
+    "discharge_date": "1943-06-03",
+    "rank": "Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Norwich from 23 Mar 1943, Birkenhead to 3 Jun 1943, Avonmouth. Engagement type: home-trade.",
+    "voyage_note": "Verification: CHECKED: card (IMG_5647) confirms arrival Avonmouth 2 Jun 1943 - resolves the register's own flagged ambiguity ('Amouth: Weymouth",
+    "waypoints": [
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "sailing 25/3 1943"
+      },
+      {
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "arrival 26/3 1943"
+      },
+      {
+        "port": "Greenock",
+        "lon": -4.7564721,
+        "lat": 55.9473423,
+        "verified": true,
+        "note": "arrival 28-29/3 1943"
+      },
+      {
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "sailing 31/3 1943"
+      },
+      {
+        "port": "Algiers",
+        "lon": 3.0588445,
+        "lat": 36.7729333,
+        "verified": true,
+        "note": "arrival 14/4 1943; sailing 29/4 1943"
+      },
+      {
+        "port": "Gibraltar",
+        "lon": -5.3474761,
+        "lat": 36.1285933,
+        "verified": true,
+        "note": "arrival 2/5 1943; sailing 22/5 1943"
+      },
+      {
+        "port": "Belfast Loch",
+        "lon": -5.7330755,
+        "lat": 54.6848407,
+        "verified": true,
+        "note": "arrival 1/6 1943; sailing 1/6 1943"
+      },
+      {
+        "port": "Avonmouth",
+        "lon": -2.705,
+        "lat": 51.5075,
+        "verified": true,
+        "note": "arrival 2/6 1943"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5647.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
+        "coords": [
+          [
+            -2.980042,
+            53.370425
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.831515,
+            53.940031
+          ],
+          [
+            -4.162754,
+            54.389945
+          ],
+          [
+            -5.002755,
+            54.604048
+          ],
+          [
+            -5.137288,
+            54.638339
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -4.768562,
+            55.987575
+          ]
+        ]
+      },
+      {
+        "from_idx": 2,
+        "to_idx": 3,
+        "verified": true,
+        "coords": [
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.781725,
+            52.16867
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.952064,
+            49.835483
+          ],
+          [
+            -5.979701,
+            49.782237
+          ],
+          [
+            -6.196961,
+            49.363661
+          ],
+          [
+            -6.510489,
+            48.759616
+          ],
+          [
+            -6.61351,
+            48.561136
+          ],
+          [
+            -6.791122,
+            48.218947
+          ],
+          [
+            -6.921259,
+            47.968223
+          ],
+          [
+            -7.66278,
+            46.539604
+          ],
+          [
+            -7.987368,
+            45.91425
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            3.11592,
+            36.800164
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
+            3.11592,
+            36.800164
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.343132,
+            36.110975
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            -5.343132,
+            36.110975
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -7.987368,
+            45.91425
+          ],
+          [
+            -7.66278,
+            46.539604
+          ],
+          [
+            -6.921259,
+            47.968223
+          ],
+          [
+            -6.791122,
+            48.218947
+          ],
+          [
+            -6.61351,
+            48.561136
+          ],
+          [
+            -6.510489,
+            48.759616
+          ],
+          [
+            -6.196961,
+            49.363661
+          ],
+          [
+            -5.979701,
+            49.782237
+          ],
+          [
+            -5.952064,
+            49.835483
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.781725,
+            52.16867
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.487915,
+            54.727708
+          ],
+          [
+            -5.686931,
+            54.713691
+          ]
+        ]
+      },
+      {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            -5.686931,
+            54.713691
+          ],
+          [
+            -5.487915,
+            54.727708
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.781725,
+            52.16867
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
             -4.501826,
             51.156194
           ],
@@ -9003,189 +3765,175 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
   },
   {
-    "id": "norwich-1943-purser",
+    "id": "city-of-norwich-1943-5",
     "ship": "City of Norwich",
     "ship_no": "135479",
     "line": "Ellerman Lines (City Line)",
     "built": "1914",
     "tons": "4,346 grt",
-    "flag": "🎖 Promoted to Purser",
+    "flag": "🎖 CRS10 Card Confirmed",
     "engaged": "14 Jun 1943, Avonmouth",
-    "discharged": "16 Jun 1944",
+    "discharged": "16 Jun 1944, ",
     "engagement_date": "1943-06-14",
     "discharge_date": "1944-06-16",
-    "rank": "Purser and Chief Steward",
+    "rank": "Purser and Chiefmate",
     "authoritative_discharge": true,
-    "card_image": "city_of_norwich_card9_first.jpg",
-    "note": "Promoted to Purser and Chief Steward — a dual role. 12-month voyage. OHMS continues (29 Dec 1943). Italian theatre: Augusta, Naples. Tunnel shaft fracture Sep 1943 — ship stranded in Madras for months.",
-    "voyage_note": "The tunnel shaft fracture in Sep 1943 put the ship into Madras for repairs from Oct 1943 to early 1944. A near miss was recorded May 1943.",
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Norwich from 14 Jun 1943, Avonmouth to 16 Jun 1944, . Engagement type: foreign-going.",
+    "voyage_note": "USA immigration record: R/Hall Line Lici Verification: CHECKED: card (IMG_5647) confirms Avonmouth sailing 22 Jun 1943 - same resolution as the preceding row's discharge place.",
     "waypoints": [
       {
         "port": "Avonmouth",
-        "lon": -2.7136,
-        "lat": 51.5072,
+        "lon": -2.705,
+        "lat": 51.5075,
         "verified": true,
-        "date": "1943-06-14",
-        "note": "CRS10: engaged 14 Jun 1943, Avonmouth"
+        "note": "sailing 22/6 1943"
       },
       {
         "port": "Milford Haven",
-        "lon": -5.0376,
-        "lat": 51.707,
+        "lon": -5.0359395,
+        "lat": 51.7130946,
         "verified": true,
-        "date": "1943-06-22",
-        "note": "Voyage card: Arrival 22 Jun 1943"
+        "note": "arrival 22/6 1943; sailing 23/6 1943"
       },
       {
         "port": "Philadelphia",
         "lon": -75.1652,
         "lat": 39.9526,
         "verified": true,
-        "date": "1943-07-09",
-        "note": "Voyage card: Arrival 09 Jul 1943"
+        "note": "arrival 9/7 1943; arrival 3/8 1943"
       },
       {
-        "port": "Hampton Roads",
-        "lon": -76.3219,
-        "lat": 36.9468,
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
         "verified": true,
-        "date": "1943-08-04",
-        "note": "Voyage card: Arrival 04 Aug 1943"
+        "note": "arrival 4/8 1943; sailing 7/8 1943"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1943-09-05",
-        "note": "Voyage card: Arrival 05 Sep 1943"
+        "note": "arrival 3/9 1943; sailing 5/9 1943"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1943-09-05",
-        "note": "Voyage card: Arrival 05 Sep 1943"
+        "note": "arrival 5/9 1943; sailing 5/9 1943"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1943-09-10",
-        "note": "Voyage card: Arrival 10 Sep 1943"
+        "note": "arrival 10/9 1943; sailing 13/9 1943"
       },
       {
         "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
+        "lon": 72.8258,
+        "lat": 18.975,
         "verified": true,
-        "date": "1943-09-14",
-        "note": "Voyage card: Arrival 14 Sep 1943"
+        "note": "arrival 17/9 1943; sailing 9/10 1943"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 14/10 1943; sailing 14/10 1943"
       },
       {
         "port": "Madras",
         "lon": 80.2707,
         "lat": 13.0827,
         "verified": true,
-        "date": "1943-10-18",
-        "note": "Voyage card: Arrival 18 Oct 1943"
-      },
-      {
-        "port": "Madras",
-        "lon": 80.2707,
-        "lat": 13.0827,
-        "verified": true,
-        "date": "1944-02-07",
-        "note": "Voyage card: Arrival 07 Feb 1944"
+        "note": "arrival 18/10 1943"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1944-02-11",
-        "note": "Voyage card: Arrival 11 Feb 1944"
+        "note": "arrival 11/2 1944"
       },
       {
         "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
+        "lon": 88.3638953,
+        "lat": 22.5726459,
         "verified": true,
-        "date": "1944-02-11",
-        "note": "Voyage card: Arrival 11 Feb 1944"
-      },
-      {
-        "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
-        "verified": true,
-        "date": "1944-03-20",
-        "note": "Voyage card: Arrival 20 Mar 1944"
+        "note": "arrival 11/2 1944; sailing 20/3 1944"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1944-03-22",
-        "note": "Voyage card: Arrival 22 Mar 1944"
+        "note": "arrival 22/3 1944"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 29/3 1944; sailing 9/4 1944"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1944-04-12",
-        "note": "Voyage card: Arrival 12 Apr 1944"
+        "note": "arrival 18/4 1944; sailing 20/4 1944"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1944-04-25",
-        "note": "Voyage card: Arrival 25 Apr 1944"
+        "note": "arrival 25/4 1944; sailing 25/4 1944"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1944-04-26",
-        "note": "Voyage card: Arrival 26 Apr 1944"
+        "note": "arrival 26/4 1944; sailing 9/5 1944"
       },
       {
         "port": "Loch Ewe",
-        "lon": -5.6324,
-        "lat": 57.8508,
+        "lon": -5.6344503,
+        "lat": 57.8212502,
         "verified": true,
-        "date": "1944-06-04",
-        "note": "Voyage card: Arrival 04 Jun 1944"
+        "note": "arrival 4/6 1944; sailing 12-13/6 1944"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival 14/6 1944"
       },
       {
         "port": "Eastham",
-        "lon": -2.8693,
-        "lat": 53.3131,
+        "lon": -2.9521413,
+        "lat": 53.3041812,
         "verified": true,
-        "date": "1944-06-14",
-        "note": "Voyage card: Arrival 14 Jun 1944"
+        "note": "arrival 14/6 1944"
       },
       {
         "port": "Manchester",
-        "lon": -2.2426,
-        "lat": 53.4808,
+        "lon": -2.2324547,
+        "lat": 53.4424618,
         "verified": true,
-        "date": "1944-06-15",
-        "note": "Voyage card: Arrival 15 Jun 1944"
+        "note": "arrival 15/6 1944"
       }
     ],
     "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5647.jpeg",
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5648.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -9561,6 +4309,10 @@ const VOYAGES = [
           [
             -76.269836,
             36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
           ]
         ]
       },
@@ -9569,6 +4321,10 @@ const VOYAGES = [
         "to_idx": 4,
         "verified": true,
         "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
           [
             -76.269836,
             36.999262
@@ -10082,8 +4838,23 @@ const VOYAGES = [
             8
           ],
           [
-            78.868856,
-            6.674926
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 8,
+        "to_idx": 9,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
           ],
           [
             80.1,
@@ -10101,17 +4872,6 @@ const VOYAGES = [
             81,
             13
           ],
-          [
-            80.414429,
-            12.977795
-          ]
-        ]
-      },
-      {
-        "from_idx": 8,
-        "to_idx": 9,
-        "verified": true,
-        "coords": [
           [
             80.414429,
             12.977795
@@ -10150,6 +4910,10 @@ const VOYAGES = [
           [
             88,
             21
+          ],
+          [
+            87.93869,
+            21.684229
           ]
         ]
       },
@@ -10158,10 +4922,6 @@ const VOYAGES = [
         "to_idx": 11,
         "verified": true,
         "coords": [
-          [
-            88,
-            21
-          ],
           [
             87.93869,
             21.684229
@@ -10184,6 +4944,14 @@ const VOYAGES = [
           [
             88.173523,
             22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
           ]
         ]
       },
@@ -10193,28 +4961,9 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            88.173523,
-            22.165786
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
             87.93869,
             21.684229
           ],
-          [
-            88,
-            21
-          ]
-        ]
-      },
-      {
-        "from_idx": 13,
-        "to_idx": 14,
-        "verified": true,
-        "coords": [
           [
             88,
             21
@@ -10254,6 +5003,29 @@ const VOYAGES = [
           [
             80.1,
             5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 13,
+        "to_idx": 14,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
           ],
           [
             78.019032,
@@ -10802,6 +5574,17 @@ const VOYAGES = [
           [
             -2.980042,
             53.370425
+          ]
+        ]
+      },
+      {
+        "from_idx": 18,
+        "to_idx": 19,
+        "verified": true,
+        "coords": [
+          [
+            -2.980042,
+            53.370425
           ],
           [
             -2.887001,
@@ -10810,8 +5593,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 18,
-        "to_idx": 19,
+        "from_idx": 19,
+        "to_idx": 20,
         "verified": true,
         "coords": [
           [
@@ -10828,356 +5611,434 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
   },
   {
-    "id": "norwich-1944-great",
+    "id": "city-of-norwich-1944",
     "ship": "City of Norwich",
     "ship_no": "135479",
     "line": "Ellerman Lines (City Line)",
     "built": "1914",
     "tons": "4,346 grt",
-    "flag": "🌍 The Great Wartime Voyage — VE Day & VJ Day at Sea",
+    "flag": "📋 Register Confirmed",
+    "engaged": "19 Jul 1944, Glasgow",
+    "discharged": "24 Jul 1944, Glasgow",
+    "engagement_date": "1944-07-19",
+    "discharge_date": "1944-07-24",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Norwich from 19 Jul 1944, Glasgow to 24 Jul 1944, Glasgow. Engagement type: home-trade.",
+    "voyage_note": "Verification: CHECKED (assumed discharge date): card (IMG_5649) confirms the ship was docked in Glasgow continuously from 27 Jun to 30 Jul 1944 — consistent with the engage/discharge window.",
+    "waypoints": [
+      {
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
+        "verified": true,
+        "note": "register: Glasgow"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1944-2",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
     "engaged": "24 Jul 1944, Glasgow",
     "discharged": "19 Apr 1946, Liverpool",
     "engagement_date": "1944-07-24",
     "discharge_date": "1946-04-19",
-    "rank": "Purser and Chief Steward",
+    "rank": "Purser and Chiefmate",
     "authoritative_discharge": true,
-    "card_image": "city_of_norwich_card10_first.jpg",
-    "note": "The great voyage — 21 months. VE Day (8 May 1945) and VJ Day (15 Aug 1945) both occurred while he was at sea. CRS10 notes document each major waypoint explicitly. Card 10 covers 1945–1948.",
-    "voyage_note": "Departed Liverpool 28 Jul 1944. Both the end of the war in Europe and the Pacific occurred during this single voyage. Fire in No.1 hold Calcutta Dec 1945. Called Pearl Harbour Jun 1946.",
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Norwich from 24 Jul 1944, Glasgow to 19 Apr 1946, Liverpool. Engagement type: home-trade.",
+    "voyage_note": "USA immigration record: R/Hall Line as arranged. Dept Liverpool 28th July 1944; 19th Feb 1945 Port Said, Eygpt; Calcutta 23rd July 1945; Melbourne 1st Nov 1945; 21st Jan 1946 Colombo; 18th March NYC Verification: PARTIAL MATCH + GENUINE CONFLICT. The '18th March NYC' immigration note matches a New York arrival on 19 Mar 1946 in the card (IMG_5660) — 1 day off. But the stated 19/04/1946 Liverpool discharge conflicts with the card, which shows the ship still in New York (sailing 21 Apr) and Hampton Roads through 24 Apr — nowhere near Liverpool. Flagged per discussion 2026-09-13: possible he returned Liverpool separately, on another vessel, after leaving City of Norwich in the US. Discharge date/place left as recorded pending further research.",
     "waypoints": [
       {
-        "port": "Clyde Anchorage",
-        "lon": -4.7,
-        "lat": 55.87,
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
         "verified": true,
-        "date": "1944-08-01",
-        "note": "Voyage card: Arrival 01 Aug 1944"
+        "note": "sailing 30/7 1944"
+      },
+      {
+        "port": "Clyde Anchorage",
+        "lon": -4.85,
+        "lat": 55.75,
+        "verified": true,
+        "note": "arrival 31/7 1944; sailing 1/8 1944"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1944-08-25",
-        "note": "Voyage card: Arrival 25 Aug 1944"
+        "note": "arrival 23/8 1944; sailing 8/9 1944"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1944-09-08",
-        "note": "Voyage card: Arrival 08 Sep 1944"
+        "note": "arrival 8/9 1944; sailing 10/9 1944"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1944-09-15",
-        "note": "Voyage card: Arrival 15 Sep 1944"
+        "note": "arrival 15/9 1944; sailing 17/9 1944"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 24/9 1944; sailing 24/9 1944"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1944-10-04",
-        "note": "Voyage card: Arrival 04 Oct 1944"
+        "note": "arrival 4/10 1944"
       },
       {
         "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
+        "lon": 88.3638953,
+        "lat": 22.5726459,
         "verified": true,
-        "date": "1944-10-06",
-        "note": "Voyage card: Arrival 06 Oct 1944"
+        "note": "arrival 6/10 1944; sailing 21/10 1944"
       },
       {
-        "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "port": "Sandheads",
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1944-11-10",
-        "note": "Voyage card: Arrival 10 Nov 1944"
+        "note": "arrival 21/10 1944"
       },
       {
-        "port": "Sydney",
-        "lon": 151.2093,
-        "lat": -33.8688,
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
         "verified": true,
-        "date": "1944-11-22",
-        "note": "Voyage card: Arrival 22 Nov 1944"
+        "note": "arrival 26/10 1944; sailing 26/10 1944"
+      },
+      {
+        "port": "Freetown",
+        "lon": -13.26795,
+        "lat": 8.479004,
+        "verified": true,
+        "note": "arrival 10/11 1944; sailing 14/11 1944"
+      },
+      {
+        "port": "Sydney NSW",
+        "lon": 151.2082848,
+        "lat": -33.8698439,
+        "verified": true,
+        "note": "arrival 22/11 1944; sailing 30/11 1944"
       },
       {
         "port": "Port Kembla",
-        "lon": 150.8958,
-        "lat": -34.4756,
+        "lon": 150.9028,
+        "lat": -34.4731,
         "verified": true,
-        "date": "1944-12-01",
-        "note": "Voyage card: Arrival 01 Dec 1944"
+        "note": "arrival 1/12 1944; sailing 6/12 1944"
+      },
+      {
+        "port": "Sydney NSW",
+        "lon": 151.2082848,
+        "lat": -33.8698439,
+        "verified": true,
+        "note": "arrival 7/12 1944; sailing 14/12 1944"
       },
       {
         "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "lon": 115.7586172,
+        "lat": -32.0534086,
         "verified": true,
-        "date": "1945-01-03",
-        "note": "Voyage card: Arrival 03 Jan 1945"
+        "note": "arrival 29/12 1944; sailing 5/1 1945"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 28/1 1945; sailing 29/1 1945"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1945-02-03",
-        "note": "Voyage card: Arrival 03 Feb 1945"
+        "note": "arrival 3/2 1945"
       },
       {
         "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
+        "lon": 88.3638953,
+        "lat": 22.5726459,
         "verified": true,
-        "date": "1945-02-06",
-        "note": "Voyage card: Arrival 06 Feb 1945"
+        "note": "arrival 6/2 1945; sailing 19/2 1945"
+      },
+      {
+        "port": "Sandheads",
+        "lon": 88.15,
+        "lat": 21.65,
+        "verified": true,
+        "note": "arrival 19/2 1945"
       },
       {
         "port": "Trincomalee",
-        "lon": 81.2152,
-        "lat": 8.5874,
+        "lon": 81.2344952,
+        "lat": 8.576425,
         "verified": true,
-        "date": "1945-02-23",
-        "note": "Voyage card: Arrival 23 Feb 1945"
+        "note": "arrival 23/2 1945; sailing 4/3 1945"
       },
       {
         "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "lon": 115.7586172,
+        "lat": -32.0534086,
         "verified": true,
-        "date": "1945-03-17",
-        "note": "Voyage card: Arrival 17 Mar 1945"
+        "note": "arrival 16/3 1945; sailing 17/3 1945"
       },
       {
-        "port": "Adelaide",
-        "lon": 138.6007,
-        "lat": -34.9285,
+        "port": "Albany",
+        "lon": -73.754968,
+        "lat": 42.6511674,
         "verified": true,
-        "date": "1945-03-19",
-        "note": "Voyage card: Arrival 19 Mar 1945"
+        "note": "arrival 19/3 1945; sailing 22/3 1945"
       },
       {
-        "port": "Sydney",
-        "lon": 151.2093,
-        "lat": -33.8688,
+        "port": "Sydney NSW",
+        "lon": 151.2082848,
+        "lat": -33.8698439,
         "verified": true,
-        "date": "1945-03-29",
-        "note": "Voyage card: Arrival 29 Mar 1945"
+        "note": "arrival 29/3 1945; sailing 3/5 1945"
       },
       {
         "port": "Port Kembla",
-        "lon": 150.8958,
-        "lat": -34.4756,
+        "lon": 150.9028,
+        "lat": -34.4731,
         "verified": true,
-        "date": "1945-05-03",
-        "note": "Voyage card: Arrival 03 May 1945"
+        "note": "arrival 3/5 1945; sailing 6/5 1945"
       },
       {
         "port": "Melbourne",
-        "lon": 144.9631,
-        "lat": -37.8136,
+        "lon": 144.9631732,
+        "lat": -37.8142454,
         "verified": true,
-        "date": "1945-05-09",
-        "note": "Voyage card: Arrival 09 May 1945"
+        "note": "arrival 9/5 1945; sailing 15/5 1945"
       },
       {
         "port": "Adelaide",
-        "lon": 138.6007,
-        "lat": -34.9285,
+        "lon": 138.5999312,
+        "lat": -34.9281805,
         "verified": true,
-        "date": "1945-05-22",
-        "note": "Voyage card: Arrival 22 May 1945"
+        "note": "sailing 22/5 1945"
       },
       {
         "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "lon": 115.7586172,
+        "lat": -32.0534086,
         "verified": true,
-        "date": "1945-05-28",
-        "note": "Voyage card: Arrival 28 May 1945"
+        "note": "arrival 28/5 1945; sailing 31/5 1945"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 13/6 1945; sailing 25/6 1945"
       },
       {
         "port": "Vizagapatam",
         "lon": 83.2185,
         "lat": 17.6868,
         "verified": true,
-        "date": "1945-06-29",
-        "note": "Voyage card: Arrival 29 Jun 1945"
+        "note": "arrival 29/6 1945; sailing 7/7 1945"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1945-07-09",
-        "note": "Voyage card: Arrival 09 Jul 1945"
+        "note": "arrival 9/7 1945"
       },
       {
         "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
+        "lon": 88.3638953,
+        "lat": 22.5726459,
         "verified": true,
-        "date": "1945-07-17",
-        "note": "Voyage card: Arrival 17 Jul 1945"
+        "note": "arrival 17/7 1945; sailing 7/8 1945"
       },
       {
         "port": "Sandheads",
-        "lon": 88.0,
-        "lat": 21.1,
+        "lon": 88.15,
+        "lat": 21.65,
         "verified": true,
-        "date": "1945-08-10",
-        "note": "Voyage card: Arrival 10 Aug 1945"
+        "note": "arrival 8/8 1945"
+      },
+      {
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
+        "verified": true,
+        "note": "arrival 14/8 1945; sailing 24/8 1945"
       },
       {
         "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "lon": 115.7586172,
+        "lat": -32.0534086,
         "verified": true,
-        "date": "1945-09-08",
-        "note": "Voyage card: Arrival 08 Sep 1945"
+        "note": "arrival 8/9 1945; sailing 12/9 1945"
       },
       {
         "port": "Adelaide",
-        "lon": 138.6007,
-        "lat": -34.9285,
+        "lon": 138.5999312,
+        "lat": -34.9281805,
         "verified": true,
-        "date": "1945-09-20",
-        "note": "Voyage card: Arrival 20 Sep 1945"
+        "note": "sailing 20/9 1945"
       },
       {
         "port": "Melbourne",
-        "lon": 144.9631,
-        "lat": -37.8136,
+        "lon": 144.9631732,
+        "lat": -37.8142454,
         "verified": true,
-        "date": "1945-09-23",
-        "note": "Voyage card: Arrival 23 Sep 1945"
+        "note": "arrival 23/9 1945; sailing 12/10 1945; arrival 22/10 1945"
+      },
+      {
+        "port": "Hobart",
+        "lon": 147.3272,
+        "lat": -42.8821,
+        "verified": true,
+        "note": "sailing 26/10 1945"
+      },
+      {
+        "port": "Melbourne",
+        "lon": 144.9631732,
+        "lat": -37.8142454,
+        "verified": true,
+        "note": "sailing 11/11 1945"
       },
       {
         "port": "Fremantle",
-        "lon": 115.8605,
-        "lat": -31.9505,
+        "lon": 115.7586172,
+        "lat": -32.0534086,
         "verified": true,
-        "date": "1945-11-18",
-        "note": "Voyage card: Arrival 18 Nov 1945"
+        "note": "arrival 18/11 1945; sailing 19/11 1945"
       },
       {
         "port": "Cochin",
         "lon": 76.2673,
         "lat": 9.9312,
         "verified": true,
-        "date": "1945-12-03",
-        "note": "Voyage card: Arrival 03 Dec 1945"
+        "note": "arrival 3/12 1945; sailing 10/12 1945"
       },
       {
         "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
+        "lon": 88.3638953,
+        "lat": 22.5726459,
         "verified": true,
-        "date": "1945-12-14",
-        "note": "Voyage card: Arrival 14 Dec 1945"
+        "note": "arrival 14/12 1945; sailing 3/1 1946"
       },
       {
-        "port": "London",
-        "lon": -0.1278,
-        "lat": 51.5074,
+        "port": "Ceylon",
+        "lon": 80.6625544,
+        "lat": 7.8771833,
         "verified": true,
-        "date": "1946-01-03",
-        "note": "Voyage card: Arrival 03 Jan 1946"
+        "note": "arrival 9/1 1946; sailing 29/1 1946"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1946-02-06",
-        "note": "Voyage card: Arrival 06 Feb 1946"
+        "note": "arrival 6/2 1946; sailing 8/2 1946"
       },
       {
         "port": "Port Sudan",
         "lon": 37.2164,
         "lat": 19.6158,
         "verified": true,
-        "date": "1946-02-11",
-        "note": "Voyage card: Arrival 11 Feb 1946"
+        "note": "arrival 11/2 1946; sailing 14/2 1946"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1946-02-15",
-        "note": "Voyage card: Arrival 15 Feb 1946"
+        "note": "arrival 15/2 1946"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1946-02-16",
-        "note": "Voyage card: Arrival 16 Feb 1946"
+        "note": "arrival 18/2 1946; sailing 19/2 1946"
       },
       {
         "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
+        "lon": -5.3474761,
+        "lat": 36.1285933,
         "verified": true,
-        "date": "1946-02-28",
-        "note": "Voyage card: Arrival 28 Feb 1946"
+        "note": "arrival 28/2 1946; sailing 1/3 1946"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1946-03-13",
-        "note": "Voyage card: Arrival 13 Mar 1946"
+        "note": "arrival 19/3 1946; sailing 24/3 1946"
       },
       {
-        "port": "Hampton Roads",
-        "lon": -76.3219,
-        "lat": 36.9468,
+        "port": "Newport News",
+        "lon": -76.4257,
+        "lat": 36.974,
         "verified": true,
-        "date": "1946-03-30",
-        "note": "Voyage card: Arrival 30 Mar 1946"
+        "note": "arrival 25/3 1946"
+      },
+      {
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
+        "verified": true,
+        "note": "sailing 30/3 1946"
       },
       {
         "port": "Philadelphia",
         "lon": -75.1652,
         "lat": 39.9526,
         "verified": true,
-        "date": "1946-04-03",
-        "note": "Voyage card: Arrival 03 Apr 1946"
+        "note": "arrival 1/4 1946; sailing 3/4 1946"
       },
       {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1946-04-19",
-        "note": "CRS10: discharged 19 Apr 1946, Liverpool"
+        "note": "arrival 4/4 1946"
       }
     ],
     "card_images": [
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5649.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5660.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5661.jpeg"
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5660.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
         "to_idx": 1,
         "verified": true,
         "coords": [
+          [
+            -4.54422,
+            55.924586
+          ],
           [
             -4.768562,
             55.987575
@@ -11186,6 +6047,17 @@ const VOYAGES = [
             -4.893723,
             55.949777
           ],
+          [
+            -5.012512,
+            55.653573
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
           [
             -5.012512,
             55.653573
@@ -11453,8 +6325,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 1,
-        "to_idx": 2,
+        "from_idx": 2,
+        "to_idx": 3,
         "verified": true,
         "coords": [
           [
@@ -11476,8 +6348,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 2,
-        "to_idx": 3,
+        "from_idx": 3,
+        "to_idx": 4,
         "verified": true,
         "coords": [
           [
@@ -11535,8 +6407,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 3,
-        "to_idx": 4,
+        "from_idx": 4,
+        "to_idx": 5,
         "verified": true,
         "coords": [
           [
@@ -11616,6 +6488,29 @@ const VOYAGES = [
             6.387793
           ],
           [
+            78.868856,
+            6.674926
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
             80.1,
             5.8
           ],
@@ -11654,184 +6549,10 @@ const VOYAGES = [
           [
             88,
             21
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": true,
-        "coords": [
-          [
-            88,
-            21
           ],
           [
             87.93869,
             21.684229
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
-            88.173523,
-            22.165786
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": true,
-        "coords": [
-          [
-            88.173523,
-            22.165786
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
-            87.93869,
-            21.684229
-          ],
-          [
-            88,
-            21
-          ],
-          [
-            86.491,
-            17.5782
-          ],
-          [
-            85.735114,
-            15.791697
-          ],
-          [
-            87.079924,
-            14.742137
-          ],
-          [
-            86.454873,
-            13.772563
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            90.0001,
-            10.9397
-          ],
-          [
-            94.326449,
-            6.157121
-          ],
-          [
-            95.537109,
-            4.297113
-          ],
-          [
-            97.053223,
-            2.811371
-          ],
-          [
-            99.9646,
-            -1.054628
-          ],
-          [
-            101.920166,
-            -4.116327
-          ],
-          [
-            104,
-            -7
-          ],
-          [
-            105.012341,
-            -8.877442
-          ],
-          [
-            105.814819,
-            -10.271681
-          ],
-          [
-            107.064737,
-            -12.341912
-          ],
-          [
-            109.737283,
-            -20.376116
-          ],
-          [
-            110.632363,
-            -22.913768
-          ],
-          [
-            110.674365,
-            -23.032849
-          ],
-          [
-            111.183872,
-            -24.477358
-          ],
-          [
-            111.507366,
-            -25.394497
-          ],
-          [
-            112.7,
-            -26
-          ],
-          [
-            114,
-            -29
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
           ]
         ]
       },
@@ -11841,120 +6562,16 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            115.84465,
-            -31.970221
+            87.93869,
+            21.684229
           ],
           [
-            115.821991,
-            -32.004582
+            88.206482,
+            22.065278
           ],
           [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            114.678526,
-            -33.460369
-          ],
-          [
-            114.797777,
-            -34.672181
-          ],
-          [
-            118,
-            -35.5
-          ],
-          [
-            123.5477,
-            -36.7051
-          ],
-          [
-            129.2527,
-            -37.651
-          ],
-          [
-            135.0835,
-            -38.3203
-          ],
-          [
-            141,
-            -38.7
-          ],
-          [
-            142.3,
-            -38.9
-          ],
-          [
-            143.536491,
-            -38.961841
-          ],
-          [
-            145.012756,
-            -39.074055
-          ],
-          [
-            146.436768,
-            -39.27479
-          ],
-          [
-            147.854004,
-            -38.160476
-          ],
-          [
-            150.1,
-            -37.7
-          ],
-          [
-            151.5,
-            -34.0001
-          ],
-          [
-            151.312981,
-            -33.835631
-          ],
-          [
-            151.278305,
-            -33.828787
-          ],
-          [
-            151.251183,
-            -33.856945
-          ],
-          [
-            151.211615,
-            -33.854094
+            88.173523,
+            22.165786
           ]
         ]
       },
@@ -11964,14 +6581,601 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            151.211615,
-            -33.854094
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
           ]
         ]
       },
       {
         "from_idx": 8,
         "to_idx": 9,
+        "verified": true,
+        "coords": [
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            86.491,
+            17.5782
+          ],
+          [
+            85.735114,
+            15.791697
+          ],
+          [
+            85.155655,
+            14.422172
+          ],
+          [
+            85.038,
+            14.1441
+          ],
+          [
+            83.978619,
+            11.556515
+          ],
+          [
+            83.6282,
+            10.7006
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 9,
+        "to_idx": 10,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
+          ],
+          [
+            78.019032,
+            6.387793
+          ],
+          [
+            75.966807,
+            6.966807
+          ],
+          [
+            70.817426,
+            8.365148
+          ],
+          [
+            69.999915,
+            8.582747
+          ],
+          [
+            69.671733,
+            8.6701
+          ],
+          [
+            69.3291,
+            8.7613
+          ],
+          [
+            68.858995,
+            8.881605
+          ],
+          [
+            65.7044,
+            9.6889
+          ],
+          [
+            64.992809,
+            9.862937
+          ],
+          [
+            64.698862,
+            9.934828
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.1,
+            34.4
+          ],
+          [
+            -7.7875,
+            34.076471
+          ],
+          [
+            -8.751058,
+            33.623031
+          ],
+          [
+            -10.1,
+            31.8
+          ],
+          [
+            -12.194387,
+            29.156452
+          ],
+          [
+            -13.963623,
+            27.410786
+          ],
+          [
+            -18,
+            21
+          ],
+          [
+            -18,
+            15
+          ],
+          [
+            -17,
+            11
+          ],
+          [
+            -14.5,
+            8.5
+          ],
+          [
+            -13.282471,
+            8.553862
+          ]
+        ]
+      },
+      {
+        "from_idx": 10,
+        "to_idx": 11,
+        "verified": true,
+        "coords": [
+          [
+            -13.282471,
+            8.553862
+          ],
+          [
+            -14.5,
+            8.5
+          ],
+          [
+            -11.5,
+            5.5
+          ],
+          [
+            -10,
+            -2e-05
+          ],
+          [
+            -5.531121,
+            -5.586708
+          ],
+          [
+            -1.989182,
+            -10.0146
+          ],
+          [
+            -1.100476,
+            -11.1256
+          ],
+          [
+            0.000405,
+            -12.501846
+          ],
+          [
+            1.7833,
+            -14.7307
+          ],
+          [
+            3.542734,
+            -16.929822
+          ],
+          [
+            5.653262,
+            -19.567777
+          ],
+          [
+            7.89386,
+            -22.368307
+          ],
+          [
+            10.425227,
+            -25.53227
+          ],
+          [
+            12.499733,
+            -28.1252
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            20,
+            -40
+          ],
+          [
+            25,
+            -45.219281
+          ],
+          [
+            30,
+            -50
+          ],
+          [
+            40,
+            -50
+          ],
+          [
+            50,
+            -50
+          ],
+          [
+            60,
+            -50
+          ],
+          [
+            70,
+            -50
+          ],
+          [
+            80,
+            -50
+          ],
+          [
+            90,
+            -50
+          ],
+          [
+            100,
+            -50
+          ],
+          [
+            110,
+            -50
+          ],
+          [
+            120,
+            -50
+          ],
+          [
+            130,
+            -50
+          ],
+          [
+            133.1726,
+            -47.2819
+          ],
+          [
+            135.102249,
+            -45.393286
+          ],
+          [
+            138.6269,
+            -41.6192
+          ],
+          [
+            141,
+            -38.7
+          ],
+          [
+            142.3,
+            -38.9
+          ],
+          [
+            143.536491,
+            -38.961841
+          ],
+          [
+            145.012756,
+            -39.074055
+          ],
+          [
+            146.436768,
+            -39.27479
+          ],
+          [
+            147.854004,
+            -38.160476
+          ],
+          [
+            150.1,
+            -37.7
+          ],
+          [
+            151.5,
+            -34.0001
+          ],
+          [
+            151.312981,
+            -33.835631
+          ],
+          [
+            151.278305,
+            -33.828787
+          ],
+          [
+            151.251183,
+            -33.856945
+          ],
+          [
+            151.211615,
+            -33.854094
+          ]
+        ]
+      },
+      {
+        "from_idx": 11,
+        "to_idx": 12,
+        "verified": true,
+        "coords": [
+          [
+            151.211615,
+            -33.854094
+          ]
+        ]
+      },
+      {
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
+        "coords": [
+          [
+            151.211615,
+            -33.854094
+          ]
+        ]
+      },
+      {
+        "from_idx": 13,
+        "to_idx": 14,
         "verified": true,
         "coords": [
           [
@@ -12065,62 +7269,14 @@ const VOYAGES = [
           [
             115.750837,
             -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
           ]
         ]
       },
       {
-        "from_idx": 9,
-        "to_idx": 10,
+        "from_idx": 14,
+        "to_idx": 15,
         "verified": true,
         "coords": [
-          [
-            115.84465,
-            -31.970221
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
           [
             115.750837,
             -32.041841
@@ -12170,56 +7326,95 @@ const VOYAGES = [
             -20.376116
           ],
           [
-            107.064737,
-            -12.341912
+            104.62424,
+            -15.090918
           ],
           [
-            105.814819,
-            -10.271681
+            100,
+            -10
           ],
           [
-            105.012341,
-            -8.877442
+            98.869746,
+            -8.892185
           ],
           [
-            104,
-            -7
+            97.4664,
+            -7.5167
           ],
           [
-            101.920166,
-            -4.116327
+            95.347681,
+            -5.403987
           ],
           [
-            99.9646,
-            -1.054628
+            92.506946,
+            -2.543113
           ],
           [
-            97.053223,
-            2.811371
+            90,
+            -1e-05
           ],
           [
-            95.537109,
-            4.297113
+            88.040723,
+            1.4295
           ],
           [
-            94.326449,
-            6.157121
+            81.9,
+            5.9
           ],
           [
-            90.0001,
-            10.9397
+            80.1,
+            5.8
           ],
           [
-            88,
-            13
+            79.82666,
+            6.424484
           ],
           [
-            86.454873,
-            13.772563
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 15,
+        "to_idx": 16,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
           ],
           [
-            87.079924,
-            14.742137
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            83.6282,
+            10.7006
+          ],
+          [
+            83.978619,
+            11.556515
+          ],
+          [
+            85.038,
+            14.1441
+          ],
+          [
+            85.155655,
+            14.422172
           ],
           [
             85.735114,
@@ -12232,18 +7427,18 @@ const VOYAGES = [
           [
             88,
             21
+          ],
+          [
+            87.93869,
+            21.684229
           ]
         ]
       },
       {
-        "from_idx": 10,
-        "to_idx": 11,
+        "from_idx": 16,
+        "to_idx": 17,
         "verified": true,
         "coords": [
-          [
-            88,
-            21
-          ],
           [
             87.93869,
             21.684229
@@ -12259,8 +7454,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 11,
-        "to_idx": 12,
+        "from_idx": 17,
+        "to_idx": 18,
         "verified": true,
         "coords": [
           [
@@ -12271,6 +7466,17 @@ const VOYAGES = [
             88.206482,
             22.065278
           ],
+          [
+            87.93869,
+            21.684229
+          ]
+        ]
+      },
+      {
+        "from_idx": 18,
+        "to_idx": 19,
+        "verified": true,
+        "coords": [
           [
             87.93869,
             21.684229
@@ -12310,8 +7516,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 12,
-        "to_idx": 13,
+        "from_idx": 19,
+        "to_idx": 20,
         "verified": true,
         "coords": [
           [
@@ -12401,495 +7607,6 @@ const VOYAGES = [
           [
             115.750837,
             -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
-          ]
-        ]
-      },
-      {
-        "from_idx": 13,
-        "to_idx": 14,
-        "verified": true,
-        "coords": [
-          [
-            115.84465,
-            -31.970221
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            114.678526,
-            -33.460369
-          ],
-          [
-            114.797777,
-            -34.672181
-          ],
-          [
-            118,
-            -35.5
-          ],
-          [
-            135.670166,
-            -35.5
-          ],
-          [
-            137.798767,
-            -35.384572
-          ],
-          [
-            138.433228,
-            -34.91071
-          ]
-        ]
-      },
-      {
-        "from_idx": 14,
-        "to_idx": 15,
-        "verified": true,
-        "coords": [
-          [
-            138.433228,
-            -34.91071
-          ],
-          [
-            137.798767,
-            -35.384572
-          ],
-          [
-            141,
-            -38.7
-          ],
-          [
-            142.3,
-            -38.9
-          ],
-          [
-            143.536491,
-            -38.961841
-          ],
-          [
-            145.012756,
-            -39.074055
-          ],
-          [
-            146.436768,
-            -39.27479
-          ],
-          [
-            147.854004,
-            -38.160476
-          ],
-          [
-            150.1,
-            -37.7
-          ],
-          [
-            151.5,
-            -34.0001
-          ],
-          [
-            151.312981,
-            -33.835631
-          ],
-          [
-            151.278305,
-            -33.828787
-          ],
-          [
-            151.251183,
-            -33.856945
-          ],
-          [
-            151.211615,
-            -33.854094
-          ]
-        ]
-      },
-      {
-        "from_idx": 15,
-        "to_idx": 16,
-        "verified": true,
-        "coords": [
-          [
-            151.211615,
-            -33.854094
-          ]
-        ]
-      },
-      {
-        "from_idx": 16,
-        "to_idx": 17,
-        "verified": true,
-        "coords": [
-          [
-            151.211615,
-            -33.854094
-          ],
-          [
-            151.251183,
-            -33.856945
-          ],
-          [
-            151.278305,
-            -33.828787
-          ],
-          [
-            151.312981,
-            -33.835631
-          ],
-          [
-            151.5,
-            -34.0001
-          ],
-          [
-            150.1,
-            -37.7
-          ],
-          [
-            147.854004,
-            -38.160476
-          ],
-          [
-            146.436768,
-            -39.27479
-          ],
-          [
-            144.577332,
-            -38.397644
-          ],
-          [
-            144.643936,
-            -38.283469
-          ],
-          [
-            144.738693,
-            -38.264602
-          ],
-          [
-            144.930954,
-            -37.860218
-          ]
-        ]
-      },
-      {
-        "from_idx": 17,
-        "to_idx": 18,
-        "verified": true,
-        "coords": [
-          [
-            144.930954,
-            -37.860218
-          ],
-          [
-            144.738693,
-            -38.264602
-          ],
-          [
-            144.643936,
-            -38.283469
-          ],
-          [
-            144.577332,
-            -38.397644
-          ],
-          [
-            143.536491,
-            -38.961841
-          ],
-          [
-            142.3,
-            -38.9
-          ],
-          [
-            141,
-            -38.7
-          ],
-          [
-            137.798767,
-            -35.384572
-          ],
-          [
-            138.433228,
-            -34.91071
-          ]
-        ]
-      },
-      {
-        "from_idx": 18,
-        "to_idx": 19,
-        "verified": true,
-        "coords": [
-          [
-            138.433228,
-            -34.91071
-          ],
-          [
-            137.798767,
-            -35.384572
-          ],
-          [
-            135.670166,
-            -35.5
-          ],
-          [
-            118,
-            -35.5
-          ],
-          [
-            114.797777,
-            -34.672181
-          ],
-          [
-            114.678526,
-            -33.460369
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
-          ]
-        ]
-      },
-      {
-        "from_idx": 19,
-        "to_idx": 20,
-        "verified": true,
-        "coords": [
-          [
-            115.84465,
-            -31.970221
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            114,
-            -29
-          ],
-          [
-            112.7,
-            -26
-          ],
-          [
-            111.507366,
-            -25.394497
-          ],
-          [
-            111.183872,
-            -24.477358
-          ],
-          [
-            110.674365,
-            -23.032849
-          ],
-          [
-            110.632363,
-            -22.913768
-          ],
-          [
-            109.737283,
-            -20.376116
-          ],
-          [
-            107.064737,
-            -12.341912
-          ],
-          [
-            105.814819,
-            -10.271681
-          ],
-          [
-            105.012341,
-            -8.877442
-          ],
-          [
-            104,
-            -7
-          ],
-          [
-            101.920166,
-            -4.116327
-          ],
-          [
-            99.9646,
-            -1.054628
-          ],
-          [
-            97.053223,
-            2.811371
-          ],
-          [
-            95.537109,
-            4.297113
-          ],
-          [
-            94.326449,
-            6.157121
-          ],
-          [
-            90.0001,
-            10.9397
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            86.454873,
-            13.772563
-          ],
-          [
-            87.079924,
-            14.742137
-          ],
-          [
-            85.735114,
-            15.791697
-          ],
-          [
-            83.656463,
-            17.413983
-          ],
-          [
-            83.3898,
-            17.6221
           ]
         ]
       },
@@ -12899,242 +7616,6 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            83.3898,
-            17.6221
-          ],
-          [
-            83.656463,
-            17.413983
-          ],
-          [
-            84.9566,
-            18.5238
-          ],
-          [
-            88,
-            21
-          ]
-        ]
-      },
-      {
-        "from_idx": 21,
-        "to_idx": 22,
-        "verified": true,
-        "coords": [
-          [
-            88,
-            21
-          ],
-          [
-            87.93869,
-            21.684229
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
-            88.173523,
-            22.165786
-          ]
-        ]
-      },
-      {
-        "from_idx": 22,
-        "to_idx": 23,
-        "verified": true,
-        "coords": [
-          [
-            88.173523,
-            22.165786
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
-            87.93869,
-            21.684229
-          ],
-          [
-            88,
-            21
-          ]
-        ]
-      },
-      {
-        "from_idx": 23,
-        "to_idx": 24,
-        "verified": true,
-        "coords": [
-          [
-            88,
-            21
-          ],
-          [
-            86.491,
-            17.5782
-          ],
-          [
-            85.735114,
-            15.791697
-          ],
-          [
-            87.079924,
-            14.742137
-          ],
-          [
-            86.454873,
-            13.772563
-          ],
-          [
-            88,
-            13
-          ],
-          [
-            90.0001,
-            10.9397
-          ],
-          [
-            94.326449,
-            6.157121
-          ],
-          [
-            95.537109,
-            4.297113
-          ],
-          [
-            97.053223,
-            2.811371
-          ],
-          [
-            99.9646,
-            -1.054628
-          ],
-          [
-            101.920166,
-            -4.116327
-          ],
-          [
-            104,
-            -7
-          ],
-          [
-            105.012341,
-            -8.877442
-          ],
-          [
-            105.814819,
-            -10.271681
-          ],
-          [
-            107.064737,
-            -12.341912
-          ],
-          [
-            109.737283,
-            -20.376116
-          ],
-          [
-            110.632363,
-            -22.913768
-          ],
-          [
-            110.674365,
-            -23.032849
-          ],
-          [
-            111.183872,
-            -24.477358
-          ],
-          [
-            111.507366,
-            -25.394497
-          ],
-          [
-            112.7,
-            -26
-          ],
-          [
-            114,
-            -29
-          ],
-          [
-            115.411377,
-            -31.969639
-          ],
-          [
-            115.626984,
-            -31.963814
-          ],
-          [
-            115.71599,
-            -32.056463
-          ],
-          [
-            115.737534,
-            -32.053699
-          ],
-          [
-            115.750837,
-            -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
-          ]
-        ]
-      },
-      {
-        "from_idx": 24,
-        "to_idx": 25,
-        "verified": true,
-        "coords": [
-          [
-            115.84465,
-            -31.970221
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
             115.750837,
             -32.041841
           ],
@@ -13163,12 +7644,984 @@ const VOYAGES = [
             -34.672181
           ],
           [
-            118,
-            -35.5
+            107.437825,
+            -37.635476
           ],
           [
-            135.670166,
-            -35.5
+            100,
+            -40
+          ],
+          [
+            95.0848,
+            -41.2273
+          ],
+          [
+            91.769284,
+            -41.887052
+          ],
+          [
+            90.001387,
+            -42.238844
+          ],
+          [
+            87.72852,
+            -42.543978
+          ],
+          [
+            82.981172,
+            -43.181585
+          ],
+          [
+            81.6766,
+            -43.3568
+          ],
+          [
+            80.002072,
+            -43.454672
+          ],
+          [
+            76.745487,
+            -43.645012
+          ],
+          [
+            73.588875,
+            -43.829508
+          ],
+          [
+            70.002282,
+            -43.805502
+          ],
+          [
+            66.650664,
+            -43.751213
+          ],
+          [
+            64.5385,
+            -43.717
+          ],
+          [
+            63.382107,
+            -43.6118
+          ],
+          [
+            60.001982,
+            -43.304302
+          ],
+          [
+            57.271435,
+            -43.055897
+          ],
+          [
+            56.0755,
+            -42.9471
+          ],
+          [
+            52.143376,
+            -42.287232
+          ],
+          [
+            50.001156,
+            -41.927736
+          ],
+          [
+            48.503205,
+            -41.676358
+          ],
+          [
+            47.9022,
+            -41.5755
+          ],
+          [
+            41.643662,
+            -40.035111
+          ],
+          [
+            40.316034,
+            -39.708348
+          ],
+          [
+            40.00016,
+            -39.61996
+          ],
+          [
+            32.917525,
+            -37.307564
+          ],
+          [
+            26,
+            -34.5
+          ],
+          [
+            22,
+            -35
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            13.9085,
+            -32.5342
+          ],
+          [
+            10,
+            -30
+          ],
+          [
+            4.581235,
+            -25.7304
+          ],
+          [
+            0.000594,
+            -22.121182
+          ],
+          [
+            -1.147621,
+            -21.216471
+          ],
+          [
+            -2.645049,
+            -20.036605
+          ],
+          [
+            -6.625182,
+            -16.728359
+          ],
+          [
+            -9.999538,
+            -12.890797
+          ],
+          [
+            -11.321431,
+            -11.387445
+          ],
+          [
+            -12.52511,
+            -10.018534
+          ],
+          [
+            -14.3,
+            -8
+          ],
+          [
+            -17.819,
+            -5.0879
+          ],
+          [
+            -19.999803,
+            -3.28153
+          ],
+          [
+            -21.780662,
+            -1.806339
+          ],
+          [
+            -23.960846,
+            -2e-05
+          ],
+          [
+            -27.041927,
+            2.552564
+          ],
+          [
+            -27.159236,
+            2.649749
+          ],
+          [
+            -29.222944,
+            4.359034
+          ],
+          [
+            -29.829347,
+            4.861138
+          ],
+          [
+            -30.0003,
+            5.002688
+          ],
+          [
+            -31.8433,
+            6.5287
+          ],
+          [
+            -32.762118,
+            7.288622
+          ],
+          [
+            -34.4259,
+            8.664676
+          ],
+          [
+            -36.07644,
+            10.028798
+          ],
+          [
+            -38.257452,
+            11.8296
+          ],
+          [
+            -40.000523,
+            13.2666
+          ],
+          [
+            -43.776444,
+            16.37688
+          ],
+          [
+            -46.036889,
+            18.239233
+          ],
+          [
+            -48.21318,
+            20.024728
+          ],
+          [
+            -49.207335,
+            20.840203
+          ],
+          [
+            -50.000417,
+            21.489805
+          ],
+          [
+            -51.302049,
+            22.551019
+          ],
+          [
+            -54.686707,
+            25.302569
+          ],
+          [
+            -54.840663,
+            25.427012
+          ],
+          [
+            -57.046567,
+            27.210057
+          ],
+          [
+            -57.951012,
+            27.936496
+          ],
+          [
+            -58.995496,
+            28.772554
+          ],
+          [
+            -60.000119,
+            29.576705
+          ],
+          [
+            -60.223798,
+            29.75575
+          ],
+          [
+            -60.541592,
+            30.010129
+          ],
+          [
+            -61.320443,
+            30.632712
+          ],
+          [
+            -62.024698,
+            31.186227
+          ],
+          [
+            -63.143196,
+            32.06532
+          ],
+          [
+            -63.465852,
+            32.318914
+          ],
+          [
+            -64.370232,
+            33.029719
+          ],
+          [
+            -65.2756,
+            33.7413
+          ],
+          [
+            -65.80232,
+            34.143809
+          ],
+          [
+            -67.057094,
+            35.102685
+          ],
+          [
+            -68.147963,
+            35.936306
+          ],
+          [
+            -69.436,
+            36.9206
+          ],
+          [
+            -69.656388,
+            37.0784
+          ],
+          [
+            -69.73835,
+            37.137086
+          ],
+          [
+            -69.848971,
+            37.216292
+          ],
+          [
+            -69.975985,
+            37.307235
+          ],
+          [
+            -70.521347,
+            37.697721
+          ],
+          [
+            -70.98362,
+            38.028713
+          ],
+          [
+            -71.271542,
+            38.234868
+          ],
+          [
+            -71.472185,
+            38.378531
+          ],
+          [
+            -71.643369,
+            38.501101
+          ],
+          [
+            -71.798223,
+            38.611978
+          ],
+          [
+            -72.150135,
+            38.863951
+          ],
+          [
+            -72.280515,
+            38.957304
+          ],
+          [
+            -72.44495,
+            39.419124
+          ],
+          [
+            -72.4725,
+            39.4965
+          ],
+          [
+            -73.537794,
+            40.250805
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.015579,
+            40.75922
+          ],
+          [
+            -73.919449,
+            40.905729
+          ],
+          [
+            -73.885117,
+            41.05502
+          ],
+          [
+            -73.900909,
+            41.157978
+          ]
+        ]
+      },
+      {
+        "from_idx": 21,
+        "to_idx": 22,
+        "verified": true,
+        "coords": [
+          [
+            -73.900909,
+            41.157978
+          ],
+          [
+            -73.885117,
+            41.05502
+          ],
+          [
+            -73.919449,
+            40.905729
+          ],
+          [
+            -74.015579,
+            40.75922
+          ],
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.781008,
+            39.022499
+          ],
+          [
+            -73.795419,
+            37.972408
+          ],
+          [
+            -73.810546,
+            36.870169
+          ],
+          [
+            -73.813155,
+            36.68003
+          ],
+          [
+            -73.817452,
+            36.36695
+          ],
+          [
+            -73.817593,
+            36.356635
+          ],
+          [
+            -73.822134,
+            36.025763
+          ],
+          [
+            -73.822953,
+            35.966106
+          ],
+          [
+            -73.833105,
+            35.226359
+          ],
+          [
+            -73.8351,
+            35.081
+          ],
+          [
+            -73.835242,
+            35.054558
+          ],
+          [
+            -73.839731,
+            34.219318
+          ],
+          [
+            -73.840136,
+            34.144019
+          ],
+          [
+            -73.851055,
+            32.112533
+          ],
+          [
+            -73.856125,
+            31.169391
+          ],
+          [
+            -73.860704,
+            30.317457
+          ],
+          [
+            -73.86123,
+            30.219522
+          ],
+          [
+            -73.867836,
+            28.697605
+          ],
+          [
+            -73.868832,
+            28.461423
+          ],
+          [
+            -73.874355,
+            27.151575
+          ],
+          [
+            -73.87461,
+            27.091075
+          ],
+          [
+            -73.877374,
+            26.435706
+          ],
+          [
+            -73.990483,
+            25.263602
+          ],
+          [
+            -74.109958,
+            23.954362
+          ],
+          [
+            -74.11547,
+            23.158922
+          ],
+          [
+            -73.876074,
+            22.919183
+          ],
+          [
+            -73.745728,
+            22.507482
+          ],
+          [
+            -73.775799,
+            21.799217
+          ],
+          [
+            -73.811646,
+            20.915266
+          ],
+          [
+            -73.898851,
+            20.346136
+          ],
+          [
+            -73.9,
+            20
+          ],
+          [
+            -74.696227,
+            18.9156
+          ],
+          [
+            -75,
+            18.5
+          ],
+          [
+            -75.408284,
+            17.801104
+          ],
+          [
+            -75.900579,
+            16.958398
+          ],
+          [
+            -76.604059,
+            15.754186
+          ],
+          [
+            -77.16329,
+            14.773087
+          ],
+          [
+            -77.638723,
+            13.975975
+          ],
+          [
+            -80,
+            9.75
+          ],
+          [
+            -79.900612,
+            9.208176
+          ],
+          [
+            -79.821304,
+            9.173012
+          ],
+          [
+            -79.803246,
+            9.118307
+          ],
+          [
+            -79.741379,
+            9.118236
+          ],
+          [
+            -79.689331,
+            9.10639
+          ],
+          [
+            -79.641747,
+            9.035982
+          ],
+          [
+            -79.585922,
+            8.992656
+          ],
+          [
+            -79.494118,
+            8.796576
+          ],
+          [
+            -79.5,
+            8.6
+          ],
+          [
+            -79.672852,
+            7.422389
+          ],
+          [
+            -80.227822,
+            6.983728
+          ],
+          [
+            -81.4,
+            6.9
+          ],
+          [
+            -82.675316,
+            6.409235
+          ],
+          [
+            -85.742297,
+            5.227789
+          ],
+          [
+            -89.238446,
+            3.852041
+          ],
+          [
+            -90.595838,
+            3.313011
+          ],
+          [
+            -92.511534,
+            2.547643
+          ],
+          [
+            -93.9491,
+            1.9733
+          ],
+          [
+            -100,
+            -2e-05
+          ],
+          [
+            -103.444083,
+            -1.851137
+          ],
+          [
+            -105.370314,
+            -2.623527
+          ],
+          [
+            -106.833632,
+            -3.20824
+          ],
+          [
+            -108.677777,
+            -3.938441
+          ],
+          [
+            -109.999732,
+            -4.461878
+          ],
+          [
+            -114.02527,
+            -6.029318
+          ],
+          [
+            -117.177048,
+            -7.228058
+          ],
+          [
+            -119.999897,
+            -8.281897
+          ],
+          [
+            -121.277234,
+            -8.748123
+          ],
+          [
+            -124.871763,
+            -10.035757
+          ],
+          [
+            -128.707198,
+            -11.357568
+          ],
+          [
+            -129.999714,
+            -11.787362
+          ],
+          [
+            -130.876464,
+            -12.078904
+          ],
+          [
+            -132.478029,
+            -12.600069
+          ],
+          [
+            -136.338883,
+            -13.807999
+          ],
+          [
+            -139.99922,
+            -14.877634
+          ],
+          [
+            -144.147271,
+            -16.011589
+          ],
+          [
+            -145.1692,
+            -16.2871
+          ],
+          [
+            -149.7,
+            -17.4
+          ],
+          [
+            -150.515973,
+            -17.273762
+          ],
+          [
+            -154.68599,
+            -20.039466
+          ],
+          [
+            -158.208114,
+            -21.776325
+          ],
+          [
+            -159.99894,
+            -22.626783
+          ],
+          [
+            -164.255332,
+            -24.510534
+          ],
+          [
+            -165.332968,
+            -24.947414
+          ],
+          [
+            -167.9328,
+            -26.0014
+          ],
+          [
+            -169.999094,
+            -26.764069
+          ],
+          [
+            -170.524859,
+            -26.958128
+          ],
+          [
+            -171.8564,
+            -27.4496
+          ],
+          [
+            -175.879,
+            -28.7856
+          ],
+          [
+            -180,
+            -30
+          ],
+          [
+            -180,
+            -30
+          ],
+          [
+            -185.28721,
+            -31.231075
+          ],
+          [
+            -188.183845,
+            -31.816155
+          ],
+          [
+            -188.979277,
+            -31.952688
+          ],
+          [
+            -192.324204,
+            -32.526832
+          ],
+          [
+            -193.9378,
+            -32.8038
+          ],
+          [
+            -196.496223,
+            -33.090282
+          ],
+          [
+            -199.99819,
+            -33.482419
+          ],
+          [
+            -201.1697,
+            -33.6136
+          ],
+          [
+            -208.5,
+            -34.0001
+          ],
+          [
+            -208.687019,
+            -33.835631
+          ],
+          [
+            -208.721695,
+            -33.828787
+          ],
+          [
+            -208.748817,
+            -33.856945
+          ],
+          [
+            -208.788385,
+            -33.854094
+          ]
+        ]
+      },
+      {
+        "from_idx": 22,
+        "to_idx": 23,
+        "verified": true,
+        "coords": [
+          [
+            151.211615,
+            -33.854094
+          ]
+        ]
+      },
+      {
+        "from_idx": 23,
+        "to_idx": 24,
+        "verified": true,
+        "coords": [
+          [
+            151.211615,
+            -33.854094
+          ],
+          [
+            151.251183,
+            -33.856945
+          ],
+          [
+            151.278305,
+            -33.828787
+          ],
+          [
+            151.312981,
+            -33.835631
+          ],
+          [
+            151.5,
+            -34.0001
+          ],
+          [
+            150.1,
+            -37.7
+          ],
+          [
+            147.854004,
+            -38.160476
+          ],
+          [
+            146.436768,
+            -39.27479
+          ],
+          [
+            144.577332,
+            -38.397644
+          ],
+          [
+            144.643936,
+            -38.283469
+          ],
+          [
+            144.738693,
+            -38.264602
+          ],
+          [
+            144.930954,
+            -37.860218
+          ]
+        ]
+      },
+      {
+        "from_idx": 24,
+        "to_idx": 25,
+        "verified": true,
+        "coords": [
+          [
+            144.930954,
+            -37.860218
+          ],
+          [
+            144.738693,
+            -38.264602
+          ],
+          [
+            144.643936,
+            -38.283469
+          ],
+          [
+            144.577332,
+            -38.397644
+          ],
+          [
+            143.536491,
+            -38.961841
+          ],
+          [
+            142.3,
+            -38.9
+          ],
+          [
+            141,
+            -38.7
           ],
           [
             137.798767,
@@ -13194,6 +8647,481 @@ const VOYAGES = [
             -35.384572
           ],
           [
+            135.670166,
+            -35.5
+          ],
+          [
+            118,
+            -35.5
+          ],
+          [
+            114.797777,
+            -34.672181
+          ],
+          [
+            114.678526,
+            -33.460369
+          ],
+          [
+            115.411377,
+            -31.969639
+          ],
+          [
+            115.626984,
+            -31.963814
+          ],
+          [
+            115.71599,
+            -32.056463
+          ],
+          [
+            115.737534,
+            -32.053699
+          ],
+          [
+            115.750837,
+            -32.041841
+          ]
+        ]
+      },
+      {
+        "from_idx": 26,
+        "to_idx": 27,
+        "verified": true,
+        "coords": [
+          [
+            115.750837,
+            -32.041841
+          ],
+          [
+            115.737534,
+            -32.053699
+          ],
+          [
+            115.71599,
+            -32.056463
+          ],
+          [
+            115.626984,
+            -31.963814
+          ],
+          [
+            115.411377,
+            -31.969639
+          ],
+          [
+            114,
+            -29
+          ],
+          [
+            112.7,
+            -26
+          ],
+          [
+            111.507366,
+            -25.394497
+          ],
+          [
+            111.183872,
+            -24.477358
+          ],
+          [
+            110.674365,
+            -23.032849
+          ],
+          [
+            110.632363,
+            -22.913768
+          ],
+          [
+            109.737283,
+            -20.376116
+          ],
+          [
+            104.62424,
+            -15.090918
+          ],
+          [
+            100,
+            -10
+          ],
+          [
+            98.869746,
+            -8.892185
+          ],
+          [
+            97.4664,
+            -7.5167
+          ],
+          [
+            95.347681,
+            -5.403987
+          ],
+          [
+            92.506946,
+            -2.543113
+          ],
+          [
+            90,
+            -1e-05
+          ],
+          [
+            88.040723,
+            1.4295
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 27,
+        "to_idx": 28,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            82.998315,
+            12.032454
+          ],
+          [
+            83.45929,
+            15.271825
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 28,
+        "to_idx": 29,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            87.93869,
+            21.684229
+          ]
+        ]
+      },
+      {
+        "from_idx": 29,
+        "to_idx": 30,
+        "verified": true,
+        "coords": [
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            88.173523,
+            22.165786
+          ]
+        ]
+      },
+      {
+        "from_idx": 30,
+        "to_idx": 31,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ]
+        ]
+      },
+      {
+        "from_idx": 31,
+        "to_idx": 32,
+        "verified": true,
+        "coords": [
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            86.491,
+            17.5782
+          ],
+          [
+            85.735114,
+            15.791697
+          ],
+          [
+            85.155655,
+            14.422172
+          ],
+          [
+            85.038,
+            14.1441
+          ],
+          [
+            83.978619,
+            11.556515
+          ],
+          [
+            83.6282,
+            10.7006
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 32,
+        "to_idx": 33,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            88.040723,
+            1.4295
+          ],
+          [
+            90,
+            -1e-05
+          ],
+          [
+            92.506946,
+            -2.543113
+          ],
+          [
+            95.347681,
+            -5.403987
+          ],
+          [
+            97.4664,
+            -7.5167
+          ],
+          [
+            98.869746,
+            -8.892185
+          ],
+          [
+            100,
+            -10
+          ],
+          [
+            104.62424,
+            -15.090918
+          ],
+          [
+            109.737283,
+            -20.376116
+          ],
+          [
+            110.632363,
+            -22.913768
+          ],
+          [
+            110.674365,
+            -23.032849
+          ],
+          [
+            111.183872,
+            -24.477358
+          ],
+          [
+            111.507366,
+            -25.394497
+          ],
+          [
+            112.7,
+            -26
+          ],
+          [
+            114,
+            -29
+          ],
+          [
+            115.411377,
+            -31.969639
+          ],
+          [
+            115.626984,
+            -31.963814
+          ],
+          [
+            115.71599,
+            -32.056463
+          ],
+          [
+            115.737534,
+            -32.053699
+          ],
+          [
+            115.750837,
+            -32.041841
+          ]
+        ]
+      },
+      {
+        "from_idx": 33,
+        "to_idx": 34,
+        "verified": true,
+        "coords": [
+          [
+            115.750837,
+            -32.041841
+          ],
+          [
+            115.737534,
+            -32.053699
+          ],
+          [
+            115.71599,
+            -32.056463
+          ],
+          [
+            115.626984,
+            -31.963814
+          ],
+          [
+            115.411377,
+            -31.969639
+          ],
+          [
+            114.678526,
+            -33.460369
+          ],
+          [
+            114.797777,
+            -34.672181
+          ],
+          [
+            118,
+            -35.5
+          ],
+          [
+            135.670166,
+            -35.5
+          ],
+          [
+            137.798767,
+            -35.384572
+          ],
+          [
+            138.433228,
+            -34.91071
+          ]
+        ]
+      },
+      {
+        "from_idx": 34,
+        "to_idx": 35,
+        "verified": true,
+        "coords": [
+          [
+            138.433228,
+            -34.91071
+          ],
+          [
+            137.798767,
+            -35.384572
+          ],
+          [
             141,
             -38.7
           ],
@@ -13224,8 +9152,110 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 26,
-        "to_idx": 27,
+        "from_idx": 35,
+        "to_idx": 36,
+        "verified": true,
+        "coords": [
+          [
+            144.930954,
+            -37.860218
+          ],
+          [
+            144.738693,
+            -38.264602
+          ],
+          [
+            144.643936,
+            -38.283469
+          ],
+          [
+            144.577332,
+            -38.397644
+          ],
+          [
+            145.012756,
+            -39.074055
+          ],
+          [
+            145.364959,
+            -39.616489
+          ],
+          [
+            147.741867,
+            -40.470118
+          ],
+          [
+            149.382808,
+            -41.15994
+          ],
+          [
+            149,
+            -43
+          ],
+          [
+            147.7,
+            -43.6
+          ],
+          [
+            147.357559,
+            -42.995106
+          ]
+        ]
+      },
+      {
+        "from_idx": 36,
+        "to_idx": 37,
+        "verified": true,
+        "coords": [
+          [
+            147.357559,
+            -42.995106
+          ],
+          [
+            147.7,
+            -43.6
+          ],
+          [
+            149,
+            -43
+          ],
+          [
+            149.382808,
+            -41.15994
+          ],
+          [
+            147.741867,
+            -40.470118
+          ],
+          [
+            145.364959,
+            -39.616489
+          ],
+          [
+            145.012756,
+            -39.074055
+          ],
+          [
+            144.577332,
+            -38.397644
+          ],
+          [
+            144.643936,
+            -38.283469
+          ],
+          [
+            144.738693,
+            -38.264602
+          ],
+          [
+            144.930954,
+            -37.860218
+          ]
+        ]
+      },
+      {
+        "from_idx": 37,
+        "to_idx": 38,
         "verified": true,
         "coords": [
           [
@@ -13299,62 +9329,14 @@ const VOYAGES = [
           [
             115.750837,
             -32.041841
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.84465,
-            -31.970221
           ]
         ]
       },
       {
-        "from_idx": 27,
-        "to_idx": 28,
+        "from_idx": 38,
+        "to_idx": 39,
         "verified": true,
         "coords": [
-          [
-            115.84465,
-            -31.970221
-          ],
-          [
-            115.821991,
-            -32.004582
-          ],
-          [
-            115.78783,
-            -32.006038
-          ],
-          [
-            115.775385,
-            -32.026634
-          ],
-          [
-            115.76045,
-            -32.024159
-          ],
-          [
-            115.761223,
-            -32.037621
-          ],
           [
             115.750837,
             -32.041841
@@ -13462,8 +9444,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 28,
-        "to_idx": 29,
+        "from_idx": 39,
+        "to_idx": 40,
         "verified": true,
         "coords": [
           [
@@ -13537,8 +9519,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 29,
-        "to_idx": 30,
+        "from_idx": 40,
+        "to_idx": 41,
         "verified": true,
         "coords": [
           [
@@ -13592,6 +9574,29 @@ const VOYAGES = [
           [
             80.1,
             5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 41,
+        "to_idx": 42,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
           ],
           [
             78.019032,
@@ -13666,725 +9671,14 @@ const VOYAGES = [
             12
           ],
           [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.954994,
-            45.668797
-          ],
-          [
-            -6.698867,
-            47.340067
-          ],
-          [
-            -5.5,
-            48.6667
-          ],
-          [
-            -5.06401,
-            48.799916
-          ],
-          [
-            -4.270518,
-            49.042365
-          ],
-          [
-            -4.030414,
-            49.115729
-          ],
-          [
-            -3.986163,
-            49.129249
-          ],
-          [
-            -3.197043,
-            49.370363
-          ],
-          [
-            -2.39189,
-            49.616376
-          ],
-          [
-            -1.992006,
-            49.738559
-          ],
-          [
-            -1.93365,
-            49.75639
-          ],
-          [
-            -1.665743,
-            49.838248
-          ],
-          [
-            -1.47977,
-            49.895072
-          ],
-          [
-            -1.3,
-            49.95
-          ],
-          [
-            -0.671539,
-            50.155459
-          ],
-          [
-            -0.545959,
-            50.196513
-          ],
-          [
-            -0.343359,
-            50.262748
-          ],
-          [
-            0.39288,
-            50.503441
-          ],
-          [
-            1.193894,
-            50.765311
-          ],
-          [
-            1.3,
-            50.8
-          ],
-          [
-            1.384634,
-            51.049171
-          ],
-          [
-            1.4181,
-            51.1477
-          ],
-          [
-            1.474566,
-            51.467902
-          ],
-          [
-            0.8262,
-            51.5038
-          ],
-          [
-            0.5034,
-            51.4996
-          ],
-          [
-            0.4499,
-            51.479
-          ],
-          [
-            0.4265,
-            51.4482
-          ],
-          [
-            0.3441,
-            51.45
-          ],
-          [
-            0.3126,
-            51.4722
-          ],
-          [
-            0.2782,
-            51.4594
-          ],
-          [
-            0.2137,
-            51.4867
-          ]
-        ]
-      },
-      {
-        "from_idx": 30,
-        "to_idx": 31,
-        "verified": true,
-        "coords": [
-          [
-            0.2137,
-            51.4867
-          ],
-          [
-            0.2782,
-            51.4594
-          ],
-          [
-            0.3126,
-            51.4722
-          ],
-          [
-            0.3441,
-            51.45
-          ],
-          [
-            0.4265,
-            51.4482
-          ],
-          [
-            0.4499,
-            51.479
-          ],
-          [
-            0.5034,
-            51.4996
-          ],
-          [
-            0.8262,
-            51.5038
-          ],
-          [
-            1.474566,
-            51.467902
-          ],
-          [
-            1.4181,
-            51.1477
-          ],
-          [
-            1.384634,
-            51.049171
-          ],
-          [
-            1.3,
-            50.8
-          ],
-          [
-            1.193894,
-            50.765311
-          ],
-          [
-            0.39288,
-            50.503441
-          ],
-          [
-            -0.343359,
-            50.262748
-          ],
-          [
-            -0.545959,
-            50.196513
-          ],
-          [
-            -0.671539,
-            50.155459
-          ],
-          [
-            -1.3,
-            49.95
-          ],
-          [
-            -1.47977,
-            49.895072
-          ],
-          [
-            -1.665743,
-            49.838248
-          ],
-          [
-            -1.93365,
-            49.75639
-          ],
-          [
-            -1.992006,
-            49.738559
-          ],
-          [
-            -2.39189,
-            49.616376
-          ],
-          [
-            -3.197043,
-            49.370363
-          ],
-          [
-            -3.986163,
-            49.129249
-          ],
-          [
-            -4.030414,
-            49.115729
-          ],
-          [
-            -4.270518,
-            49.042365
-          ],
-          [
-            -5.06401,
-            48.799916
-          ],
-          [
-            -5.5,
-            48.6667
-          ],
-          [
-            -6.698867,
-            47.340067
-          ],
-          [
-            -7.954994,
-            45.668797
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
             44.972534,
             12.710009
           ]
         ]
       },
       {
-        "from_idx": 31,
-        "to_idx": 32,
+        "from_idx": 42,
+        "to_idx": 43,
         "verified": true,
         "coords": [
           [
@@ -14422,8 +9716,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 32,
-        "to_idx": 33,
+        "from_idx": 43,
+        "to_idx": 44,
         "verified": true,
         "coords": [
           [
@@ -14457,8 +9751,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 33,
-        "to_idx": 34,
+        "from_idx": 44,
+        "to_idx": 45,
         "verified": true,
         "coords": [
           [
@@ -14480,8 +9774,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 34,
-        "to_idx": 35,
+        "from_idx": 45,
+        "to_idx": 46,
         "verified": true,
         "coords": [
           [
@@ -14615,8 +9909,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 35,
-        "to_idx": 36,
+        "from_idx": 46,
+        "to_idx": 47,
         "verified": true,
         "coords": [
           [
@@ -14810,8 +10104,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 36,
-        "to_idx": 37,
+        "from_idx": 47,
+        "to_idx": 48,
         "verified": true,
         "coords": [
           [
@@ -14897,14 +10191,33 @@ const VOYAGES = [
           [
             -76.269836,
             36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
           ]
         ]
       },
       {
-        "from_idx": 37,
-        "to_idx": 38,
+        "from_idx": 48,
+        "to_idx": 49,
         "verified": true,
         "coords": [
+          [
+            -76.442871,
+            36.935623
+          ]
+        ]
+      },
+      {
+        "from_idx": 49,
+        "to_idx": 50,
+        "verified": true,
+        "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
           [
             -76.269836,
             36.999262
@@ -14988,8 +10301,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 38,
-        "to_idx": 39,
+        "from_idx": 50,
+        "to_idx": 51,
         "verified": true,
         "coords": [
           [
@@ -15037,228 +10350,40 @@ const VOYAGES = [
             38.787
           ],
           [
-            -74.073738,
-            38.935598
+            -73.921285,
+            39.411453
           ],
           [
-            -73.781008,
-            39.022499
+            -73.7709,
+            39.759
           ],
           [
-            -73.040934,
-            39.242199
+            -73.783,
+            40.0331
           ],
           [
-            -72.904115,
-            39.282816
+            -73.7932,
+            40.3456
           ],
           [
-            -72.78466,
-            39.318277
+            -73.8129,
+            40.4456
           ],
           [
-            -72.475572,
-            39.410034
+            -74.0106,
+            40.5253
           ],
           [
-            -72.44495,
-            39.419124
+            -74.0561,
+            40.6285
           ],
           [
-            -71.661125,
-            39.651813
+            -74.0488,
+            40.6676
           ],
           [
-            -71.118305,
-            39.812955
-          ],
-          [
-            -69.5,
-            40.3
-          ],
-          [
-            -68.968854,
-            40.500432
-          ],
-          [
-            -68.910147,
-            40.522586
-          ],
-          [
-            -68.860571,
-            40.541294
-          ],
-          [
-            -68.826743,
-            40.554059
-          ],
-          [
-            -68.640214,
-            40.624447
-          ],
-          [
-            -64.2,
-            42.3
-          ],
-          [
-            -59.7029,
-            43.7421
-          ],
-          [
-            -55,
-            45
-          ],
-          [
-            -50.002066,
-            46.558558
-          ],
-          [
-            -49.6649,
-            46.6637
-          ],
-          [
-            -47.121001,
-            47.29537
-          ],
-          [
-            -44.0207,
-            48.0652
-          ],
-          [
-            -41.658626,
-            48.508366
-          ],
-          [
-            -40.000709,
-            48.819419
-          ],
-          [
-            -38.952623,
-            49.016058
-          ],
-          [
-            -38.0964,
-            49.1767
-          ],
-          [
-            -31.9411,
-            49.9736
-          ],
-          [
-            -31.580914,
-            50
-          ],
-          [
-            -30.170671,
-            50.103364
-          ],
-          [
-            -30.103901,
-            50.108258
-          ],
-          [
-            -30.0001,
-            50.115866
-          ],
-          [
-            -29.894016,
-            50.123642
-          ],
-          [
-            -25.6242,
-            50.4366
-          ],
-          [
-            -20.509014,
-            50.530446
-          ],
-          [
-            -20.000464,
-            50.539776
-          ],
-          [
-            -19.529903,
-            50.548409
-          ],
-          [
-            -19.2306,
-            50.5539
-          ],
-          [
-            -16.72313,
-            50.463036
-          ],
-          [
-            -15.688076,
-            50.609294
-          ],
-          [
-            -14.920876,
-            50.717702
-          ],
-          [
-            -12.36921,
-            51.078264
-          ],
-          [
-            -10.8,
-            51.3
-          ],
-          [
-            -9.6,
-            51.3333
-          ],
-          [
-            -8.045595,
-            51.659101
-          ],
-          [
-            -6.843006,
-            51.911162
-          ],
-          [
-            -6.274194,
-            52.030384
-          ],
-          [
-            -5.781725,
-            52.16867
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
+            -74.023819,
+            40.708751
           ]
         ]
       }
@@ -15266,157 +10391,214 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
   },
   {
-    "id": "newcastle-1946",
+    "id": "city-of-newcastle-1946",
     "ship": "City of Newcastle",
     "ship_no": "187125",
     "line": "Ellerman Lines (City Line)",
     "built": "Unknown",
     "tons": "4,462 grt",
-    "flag": "🎖 Voyage Cards Held",
-    "engaged": "10 Jun 1946",
-    "discharged": "16 Dec 1946, Hull",
-    "engagement_date": "1946-06-10",
-    "discharge_date": "1946-12-16",
-    "rank": "Purser and Chief Steward",
-    "authoritative_discharge": true,
-    "card_image": "city_of_newcastle_card12_second.jpg",
-    "note": "Persian Gulf route: Bahrain, Kuwait, Bandar Shahpur, Abadan, Karachi, Bombay. Voyage card records grounding at Bandar Shahpur Sep 1946. Weather damage and collision Dec 1946.",
-    "voyage_note": "Post-war Persian Gulf service. The great oilfields route — Kuwait, Abadan, Bandar Shahpur. Grounding incident at Bandar. Discharged Hull.",
+    "flag": "📍 Last Known Position",
+    "engaged": "13 Jun 1946, Unknown",
+    "discharged": "19 Jun 1946, Unknown",
+    "engagement_date": "1946-06-13",
+    "discharge_date": "1946-06-19",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Newcastle from 13 Jun 1946, Unknown to 19 Jun 1946, Unknown. Engagement type: foreign-going.",
+    "voyage_note": "",
     "waypoints": [
       {
         "port": "Manchester",
-        "lon": -2.2426,
-        "lat": 53.4808,
+        "lon": -2.2324547,
+        "lat": 53.4424618,
         "verified": true,
-        "date": "1946-06-20",
-        "note": "Voyage card: Arrival 20 Jun 1946"
+        "note": "no new port call logged in this window; ship's last known position was Manchester (arrival 17/5 1946)"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "card_carried_forward",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/187125_city_of_newcastle.jpeg"
+  },
+  {
+    "id": "city-of-newcastle-1946-2",
+    "ship": "City of Newcastle",
+    "ship_no": "187125",
+    "line": "Ellerman Lines (City Line)",
+    "built": "Unknown",
+    "tons": "4,462 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "10 Jun 1946, Unknown",
+    "discharged": "16 Dec 1946, Hull",
+    "engagement_date": "1946-06-10",
+    "discharge_date": "1946-12-16",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Newcastle from 10 Jun 1946, Unknown to 16 Dec 1946, Hull. Engagement type: foreign-going.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Manchester",
+        "lon": -2.2324547,
+        "lat": 53.4424618,
+        "verified": true,
+        "note": "sailing 20/6 1946; sailing 24/6 1946"
       },
       {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
+        "port": "Ellesmere Port",
+        "lon": -2.9022507,
+        "lat": 53.2789347,
         "verified": true,
-        "date": "1946-07-02",
-        "note": "Voyage card: Arrival 02 Jul 1946"
+        "note": "arrival 27/6 1946; sailing 28/6 1946"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1946-07-09",
-        "note": "Voyage card: Arrival 09 Jul 1946"
+        "note": "arrival 9/7 1946; sailing 10/7 1946"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1946-07-11",
-        "note": "Voyage card: Arrival 11 Jul 1946"
+        "note": "sailing 11/7 1946"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1946-07-16",
-        "note": "Voyage card: Arrival 16 Jul 1946"
+        "note": "arrival 16/7 1946; sailing 17/7 1946"
       },
       {
         "port": "Bahrain",
-        "lon": 50.5577,
-        "lat": 26.0667,
+        "lon": 50.5344606,
+        "lat": 26.1551249,
         "verified": true,
-        "date": "1946-07-24",
-        "note": "Voyage card: Arrival 24 Jul 1946"
+        "note": "arrival 24/7 1946; sailing 26/7 1946"
       },
       {
         "port": "Kuwait",
         "lon": 47.9774,
         "lat": 29.3759,
         "verified": true,
-        "date": "1946-07-28",
-        "note": "Voyage card: Arrival 28 Jul 1946"
+        "note": "sailing 28/7 1946"
       },
       {
         "port": "Bandar Shahpur",
-        "lon": 49.1533,
-        "lat": 30.4228,
+        "lon": 49.1161,
+        "lat": 30.4408,
         "verified": true,
-        "date": "1946-07-30",
-        "note": "Voyage card: Arrival 30 Jul 1946"
+        "note": "arrival 30/7 1946"
+      },
+      {
+        "port": "Kuwait",
+        "lon": 47.9774,
+        "lat": 29.3759,
+        "verified": true,
+        "note": "arrival 31/7 1946"
+      },
+      {
+        "port": "Bandar Shahpur",
+        "lon": 49.1161,
+        "lat": 30.4408,
+        "verified": true,
+        "note": "sailing 3/8 1946"
+      },
+      {
+        "port": "Basra",
+        "lon": 47.816,
+        "lat": 30.5085,
+        "verified": true,
+        "note": "arrival 5/8 1946; sailing 21/8 1946"
       },
       {
         "port": "Abadan",
-        "lon": 48.3046,
-        "lat": 30.3395,
+        "lon": 48.2591475,
+        "lat": 30.3636097,
         "verified": true,
-        "date": "1946-09-07",
-        "note": "Voyage card: Arrival 07 Sep 1946"
+        "note": "arrival 7/9 1946; sailing 13/9 1946"
+      },
+      {
+        "port": "Mormugao",
+        "lon": 73.8018,
+        "lat": 15.4218,
+        "verified": true,
+        "note": "arrival 20/9 1946; sailing 25/9 1946"
       },
       {
         "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
+        "lon": 72.8258,
+        "lat": 18.975,
         "verified": true,
-        "date": "1946-09-26",
-        "note": "Voyage card: Arrival 26 Sep 1946"
+        "note": "arrival 26/9 1946; sailing 28/9 1946"
+      },
+      {
+        "port": "Navalakhi",
+        "lon": 70.4595,
+        "lat": 22.9601,
+        "verified": true,
+        "note": "arrival 30/9 1946"
       },
       {
         "port": "Karachi",
-        "lon": 67.0011,
-        "lat": 24.8607,
+        "lon": 67.0207055,
+        "lat": 24.8546842,
         "verified": true,
-        "date": "1946-10-06",
-        "note": "Voyage card: Arrival 06 Oct 1946"
+        "note": "arrival 6/10 1946; sailing 7/11 1946"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1946-11-13",
-        "note": "Voyage card: Arrival 13 Nov 1946"
+        "note": "arrival 13/11 1946; sailing 14/11 1946"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1946-11-20",
-        "note": "Voyage card: Arrival 20 Nov 1946"
+        "note": "arrival 20/11 1946"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
+        "lon": 32.305505,
+        "lat": 31.263235,
         "verified": true,
-        "date": "1946-11-21",
-        "note": "Voyage card: Arrival 21 Nov 1946"
+        "note": "sailing 21/11 1946"
       },
       {
         "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
+        "lon": -5.3474761,
+        "lat": 36.1285933,
         "verified": true,
-        "date": "1946-11-30",
-        "note": "Voyage card: Arrival 30 Nov 1946"
+        "note": "arrival 29/11 1946; sailing 30/11 1946"
+      },
+      {
+        "port": "Le Havre",
+        "lon": 0.1079732,
+        "lat": 49.4938975,
+        "verified": true,
+        "note": "arrival 7/12 1946; sailing 11/12 1946"
       },
       {
         "port": "Hull",
-        "lon": -0.3367,
-        "lat": 53.7457,
+        "lon": -0.3301214,
+        "lat": 53.7623863,
         "verified": true,
-        "date": "1946-12-07",
-        "note": "Voyage card: Arrival 07 Dec 1946"
+        "note": "arrival 13/12 1946"
       }
     ],
     "card_images": [
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5656.jpeg",
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5657.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -15427,6 +10609,17 @@ const VOYAGES = [
             -2.764778,
             53.319595
           ],
+          [
+            -2.887001,
+            53.312827
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
           [
             -2.887001,
             53.312827
@@ -15562,25 +10755,6 @@ const VOYAGES = [
           [
             -5.354867,
             35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": true,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
           ],
           [
             -5.269383,
@@ -16009,8 +11183,161 @@ const VOYAGES = [
             28.6
           ],
           [
+            48.833915,
+            29.050188
+          ],
+          [
+            48.3,
+            29.1
+          ],
+          [
+            48.144836,
+            29.427637
+          ],
+          [
+            47.828979,
+            29.42046
+          ]
+        ]
+      },
+      {
+        "from_idx": 8,
+        "to_idx": 9,
+        "verified": true,
+        "coords": [
+          [
+            47.828979,
+            29.42046
+          ],
+          [
+            48.144836,
+            29.427637
+          ],
+          [
+            48.3,
+            29.1
+          ],
+          [
+            48.833915,
+            29.050188
+          ],
+          [
+            50.1,
+            28.6
+          ],
+          [
+            50.201307,
+            28.847987
+          ],
+          [
+            49.029236,
+            30.085731
+          ],
+          [
+            48.88916,
+            30.347102
+          ],
+          [
+            48.930702,
+            30.405452
+          ],
+          [
+            49.01001,
+            30.38798
+          ],
+          [
+            49.051208,
+            30.410782
+          ],
+          [
+            49.123306,
+            30.416999
+          ]
+        ]
+      },
+      {
+        "from_idx": 9,
+        "to_idx": 10,
+        "verified": true,
+        "coords": [
+          [
+            49.123306,
+            30.416999
+          ],
+          [
+            49.051208,
+            30.410782
+          ],
+          [
+            49.01001,
+            30.38798
+          ],
+          [
+            48.930702,
+            30.405452
+          ],
+          [
+            48.88916,
+            30.347102
+          ],
+          [
+            49.029236,
+            30.085731
+          ],
+          [
+            50.201307,
+            28.847987
+          ],
+          [
+            50.1,
+            28.6
+          ],
+          [
             48.660224,
             29.701563
+          ],
+          [
+            48.194275,
+            30.015598
+          ],
+          [
+            48.071022,
+            30.028975
+          ],
+          [
+            48.014717,
+            29.994489
+          ],
+          [
+            47.958412,
+            30.007274
+          ],
+          [
+            47.958069,
+            30.069391
+          ]
+        ]
+      },
+      {
+        "from_idx": 10,
+        "to_idx": 11,
+        "verified": true,
+        "coords": [
+          [
+            47.958069,
+            30.069391
+          ],
+          [
+            47.958412,
+            30.007274
+          ],
+          [
+            48.014717,
+            29.994489
+          ],
+          [
+            48.071022,
+            30.028975
           ],
           [
             48.194275,
@@ -16019,8 +11346,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 8,
-        "to_idx": 9,
+        "from_idx": 11,
+        "to_idx": 12,
         "verified": true,
         "coords": [
           [
@@ -16108,14 +11435,33 @@ const VOYAGES = [
             19
           ],
           [
+            73,
+            15.3
+          ]
+        ]
+      },
+      {
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
+        "coords": [
+          [
+            73,
+            15.3
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
             72.80777,
             18.941361
           ]
         ]
       },
       {
-        "from_idx": 9,
-        "to_idx": 10,
+        "from_idx": 13,
+        "to_idx": 14,
         "verified": true,
         "coords": [
           [
@@ -16139,6 +11485,33 @@ const VOYAGES = [
             22.543001
           ],
           [
+            69.44458,
+            22.573438
+          ],
+          [
+            70.246582,
+            22.857195
+          ]
+        ]
+      },
+      {
+        "from_idx": 14,
+        "to_idx": 15,
+        "verified": true,
+        "coords": [
+          [
+            70.246582,
+            22.857195
+          ],
+          [
+            69.44458,
+            22.573438
+          ],
+          [
+            68.719482,
+            22.543001
+          ],
+          [
             66.6,
             24.3
           ],
@@ -16149,8 +11522,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 10,
-        "to_idx": 11,
+        "from_idx": 15,
+        "to_idx": 16,
         "verified": true,
         "coords": [
           [
@@ -16200,8 +11573,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 11,
-        "to_idx": 12,
+        "from_idx": 16,
+        "to_idx": 17,
         "verified": true,
         "coords": [
           [
@@ -16259,8 +11632,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 12,
-        "to_idx": 13,
+        "from_idx": 17,
+        "to_idx": 18,
         "verified": true,
         "coords": [
           [
@@ -16282,8 +11655,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 13,
-        "to_idx": 14,
+        "from_idx": 18,
+        "to_idx": 19,
         "verified": true,
         "coords": [
           [
@@ -16417,8 +11790,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 14,
-        "to_idx": 15,
+        "from_idx": 19,
+        "to_idx": 20,
         "verified": true,
         "coords": [
           [
@@ -16534,24 +11907,63 @@ const VOYAGES = [
             49.95
           ],
           [
-            -0.671539,
-            50.155459
+            -0.754538,
+            49.742898
           ],
           [
-            -0.545959,
-            50.196513
+            -0.390945,
+            49.604849
           ],
           [
-            -0.343359,
-            50.262748
+            -0.109,
+            49.4978
           ],
           [
-            0.39288,
-            50.503441
+            0.082233,
+            49.485898
+          ]
+        ]
+      },
+      {
+        "from_idx": 20,
+        "to_idx": 21,
+        "verified": true,
+        "coords": [
+          [
+            0.082233,
+            49.485898
           ],
           [
-            1.193894,
-            50.765311
+            0.039095,
+            49.532857
+          ],
+          [
+            -0.057054,
+            49.637359
+          ],
+          [
+            0.1,
+            49.9
+          ],
+          [
+            0.372734,
+            50.105616
+          ],
+          [
+            0.63949,
+            50.306725
+          ],
+          [
+            0.640538,
+            50.307515
+          ],
+          [
+            1.117257,
+            50.563512
+          ],
+          [
+            1.271747,
+            50.763438
           ],
           [
             1.3,
@@ -16611,1559 +12023,381 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/187125_city_of_newcastle.jpeg"
   },
   {
-    "id": "leicester-1947-1",
+    "id": "city-of-newcastle-1946-3",
+    "ship": "City of Newcastle",
+    "ship_no": "187125",
+    "line": "Ellerman Lines (City Line)",
+    "built": "Unknown",
+    "tons": "4,462 grt",
+    "flag": "📋 Register Confirmed",
+    "engaged": "17 Dec 1946, Hull",
+    "discharged": "19 Dec 1946, Hull",
+    "engagement_date": "1946-12-17",
+    "discharge_date": "1946-12-19",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Newcastle from 17 Dec 1946, Hull to 19 Dec 1946, Hull. Engagement type: foreign-going.",
+    "voyage_note": "USA immigration record: R/Hall Line as arranged",
+    "waypoints": [
+      {
+        "port": "Hull",
+        "lon": -0.3301214,
+        "lat": 53.7623863,
+        "verified": true,
+        "note": "register: Hull"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/187125_city_of_newcastle.jpeg"
+  },
+  {
+    "id": "city-of-leicester-1947",
     "ship": "City of Leicester",
     "ship_no": "147349",
     "line": "Ellerman Lines (City Line)",
     "built": "1926",
     "tons": "1,975 grt",
-    "flag": "🎖 Voyage Cards Held",
-    "engaged": "6 Jan 1947",
-    "discharged": "6 Feb 1947 (no auth. discharge)",
+    "flag": "📋 Register Confirmed",
+    "engaged": "6 Jan 1947, Unknown (Tilby)",
+    "discharged": "6 Feb 1947, Unknown (Papla)",
     "engagement_date": "1947-01-06",
     "discharge_date": "1947-02-06",
-    "rank": "Purser and Chief Steward",
+    "rank": "Purser and Chiefmate",
     "authoritative_discharge": false,
-    "card_image": "city_of_leicester_card13_first.jpg",
-    "note": "Small vessel (1,975 grt) on Eastern Mediterranean route. Piraeus, Patras, Kalamata, Istanbul, Izmir, Thessaloniki. Voyage cards show extensive Aegean calling pattern.",
-    "voyage_note": "Eastern Mediterranean and Aegean tramping. A very different type of voyage — small coastal ship, many Greek and Turkish ports.",
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Leicester from 6 Jan 1947, Unknown (Tilby) to 6 Feb 1947, Unknown (Papla).",
+    "voyage_note": "Verification: CHECKED (assumed discharge date): card (IMG_5658) confirms the ship was in the London/Tilbury area from 30 Dec 1946 (arrival) until sailing 19 Feb 1947 — consistent with 'Tilby' as engagement place and both engage/discharge dates falling inside this layup. Card also notes a captain change (T.D. Handley to W.F. Wilson) dated 14 Feb 1947, close to the discharge date.",
+    "waypoints": [
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "register: Unknown (Tilby)"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/147349_city_of_leicester.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1947",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "📋 Register Confirmed",
+    "engaged": "6 Feb 1947, Birkenhead",
+    "discharged": "7 Mar 1947, Birkenhead",
+    "engagement_date": "1947-02-06",
+    "discharge_date": "1947-03-07",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Norwich from 6 Feb 1947, Birkenhead to 7 Mar 1947, Birkenhead.",
+    "voyage_note": "",
     "waypoints": [
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Engagement Jan 1947",
-        "date": null
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "register: Birkenhead"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "register_only_partial",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
+  },
+  {
+    "id": "city-of-norwich-1947-2",
+    "ship": "City of Norwich",
+    "ship_no": "135479",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1914",
+    "tons": "4,346 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "20 Mar 1947, Birkenhead",
+    "discharged": "31 Mar 1947, Birkenhead",
+    "engagement_date": "1947-03-20",
+    "discharge_date": "1947-03-31",
+    "rank": "Purser and Chiefmate",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Purser and Chiefmate on City of Norwich from 20 Mar 1947, Birkenhead to 31 Mar 1947, Birkenhead.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival Mar 27 1947"
       },
       {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Voyage card: Gibraltar",
-        "date": null
-      },
-      {
-        "port": "Algiers",
-        "lon": 3.087,
-        "lat": 36.7372,
-        "verified": false,
-        "note": "Voyage card: Algiers",
-        "date": null
-      },
-      {
-        "port": "Izmir",
-        "lon": 27.1287,
-        "lat": 38.4192,
-        "verified": false,
-        "note": "Voyage card: Izmir",
-        "date": null
-      },
-      {
-        "port": "Istanbul",
-        "lon": 28.9784,
-        "lat": 41.0082,
-        "verified": false,
-        "note": "Voyage card: Istanbul",
-        "date": null
-      },
-      {
-        "port": "Kuluk",
-        "lon": 27.0667,
-        "lat": 38.5653,
-        "verified": false,
-        "note": "Voyage card: Kuluk Turkey",
-        "date": null
-      },
-      {
-        "port": "Piraeus",
-        "lon": 23.6467,
-        "lat": 37.9477,
-        "verified": false,
-        "note": "Voyage card: Piraeus",
-        "date": null
-      },
-      {
-        "port": "Patras",
-        "lon": 21.7346,
-        "lat": 38.2466,
-        "verified": false,
-        "note": "Voyage card: Patras Greece",
-        "date": null
-      },
-      {
-        "port": "Volo",
-        "lon": 22.9447,
-        "lat": 39.3624,
-        "verified": false,
-        "note": "Voyage card: Volo Greece",
-        "date": null
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "No authoritative discharge",
-        "date": null
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing Mar 28 1947"
       }
     ],
     "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5658.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5659.jpeg"
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5661.jpeg"
     ],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
         "to_idx": 1,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            -2.980042,
-            53.370425
+            32.359877,
+            31.336373
           ],
           [
-            -3.042183,
-            53.459438
+            32.310104,
+            31.102922
           ],
           [
-            -3.397522,
-            53.572938
+            32.382202,
+            30.318359
           ],
           [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            3.11592,
-            36.800164
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            3.11592,
-            36.800164
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.095237,
-            37.715715
-          ],
-          [
-            7.192242,
-            37.728237
-          ],
-          [
-            7.507237,
-            37.768897
-          ],
-          [
-            8.147147,
-            37.851498
-          ],
-          [
-            8.676736,
-            37.919859
-          ],
-          [
-            9.1442,
-            37.9802
-          ],
-          [
-            9.780069,
-            38.026727
-          ],
-          [
-            10.136119,
-            38.052779
-          ],
-          [
-            10.311505,
-            38.065613
-          ],
-          [
-            10.445158,
-            38.075392
-          ],
-          [
-            11.013127,
-            38.116951
-          ],
-          [
-            11.661179,
-            38.164369
-          ],
-          [
-            12.099936,
-            38.196473
-          ],
-          [
-            12.743535,
-            38.243566
-          ],
-          [
-            13.3959,
-            38.2913
-          ],
-          [
-            15.727668,
-            38.366322
-          ],
-          [
-            15.711882,
-            38.273843
-          ],
-          [
-            15.608743,
-            38.230867
-          ],
-          [
-            15.557174,
-            38.032185
-          ],
-          [
-            15.6982,
-            37.892786
-          ],
-          [
-            16.152761,
-            37.900531
-          ],
-          [
-            16.419052,
-            37.905068
-          ],
-          [
-            18.393028,
-            37.938699
-          ],
-          [
-            20.319182,
-            37.971516
-          ],
-          [
-            20.680488,
-            37.977089
-          ],
-          [
-            20.98035,
-            38.076305
-          ],
-          [
-            21.158505,
-            38.131249
-          ],
-          [
-            21.353302,
-            38.219841
-          ],
-          [
-            21.9041,
-            38.3486
-          ],
-          [
-            22.828287,
-            38.02424
-          ],
-          [
-            22.947178,
-            37.960508
-          ],
-          [
-            23.020113,
-            37.909026
-          ],
-          [
-            23.175353,
-            37.880707
-          ],
-          [
-            23.401569,
-            37.850922
-          ],
-          [
-            23.505426,
-            37.837248
-          ],
-          [
-            23.6425,
-            37.8192
-          ],
-          [
-            23.885914,
-            37.616154
-          ],
-          [
-            23.888901,
-            37.615875
-          ],
-          [
-            24.063647,
-            37.621498
-          ],
-          [
-            24.083063,
-            37.715634
-          ],
-          [
-            24.114615,
-            37.769372
-          ],
-          [
-            24.372282,
-            37.856919
-          ],
-          [
-            24.520041,
-            37.90673
-          ],
-          [
-            24.537948,
-            37.902017
-          ],
-          [
-            24.612093,
-            37.988022
-          ],
-          [
-            24.6863,
-            38.0741
-          ],
-          [
-            25.432437,
-            38.327161
-          ],
-          [
-            25.753004,
-            38.636582
-          ],
-          [
-            26.157985,
-            38.716479
-          ],
-          [
-            26.289642,
-            38.787125
-          ],
-          [
-            26.53194,
-            38.694131
-          ],
-          [
-            26.677562,
-            38.603147
-          ],
-          [
-            26.825612,
-            38.456953
-          ],
-          [
-            26.903277,
-            38.40562
-          ],
-          [
-            26.993077,
-            38.415129
-          ],
-          [
-            27.153261,
-            38.449351
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            27.153261,
-            38.449351
-          ],
-          [
-            26.993077,
-            38.415129
-          ],
-          [
-            26.903277,
-            38.40562
-          ],
-          [
-            26.825612,
-            38.456953
-          ],
-          [
-            26.677562,
-            38.603147
-          ],
-          [
-            26.675135,
-            39.053139
-          ],
-          [
-            26.41787,
-            39.37657
-          ],
-          [
-            26.345059,
-            39.423456
-          ],
-          [
-            26.080512,
-            39.442202
-          ],
-          [
-            26.034399,
-            39.475931
-          ],
-          [
-            26.097501,
-            39.784356
-          ],
-          [
-            26.143615,
-            39.992927
-          ],
-          [
-            26.2,
-            40.1
-          ],
-          [
-            26.768188,
-            40.440676
-          ],
-          [
-            27.277634,
-            40.60495
-          ],
-          [
-            28.449481,
-            40.805825
-          ],
-          [
-            28.501542,
-            40.82216
-          ],
-          [
-            28.977708,
-            40.971568
-          ],
-          [
-            28.995,
-            41.027893
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            28.995,
-            41.027893
-          ],
-          [
-            28.977708,
-            40.971568
-          ],
-          [
-            28.501542,
-            40.82216
-          ],
-          [
-            28.449481,
-            40.805825
-          ],
-          [
-            27.277634,
-            40.60495
-          ],
-          [
-            26.768188,
-            40.440676
-          ],
-          [
-            26.2,
-            40.1
-          ],
-          [
-            26.143615,
-            39.992927
-          ],
-          [
-            26.097501,
-            39.784356
-          ],
-          [
-            26.034399,
-            39.475931
-          ],
-          [
-            26.080512,
-            39.442202
-          ],
-          [
-            26.345059,
-            39.423456
-          ],
-          [
-            26.41787,
-            39.37657
-          ],
-          [
-            26.675135,
-            39.053139
-          ],
-          [
-            26.677562,
-            38.603147
-          ],
-          [
-            26.825612,
-            38.456953
-          ],
-          [
-            26.903277,
-            38.40562
-          ],
-          [
-            26.993077,
-            38.415129
-          ],
-          [
-            27.153261,
-            38.449351
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            27.153261,
-            38.449351
-          ],
-          [
-            26.993077,
-            38.415129
-          ],
-          [
-            26.903277,
-            38.40562
-          ],
-          [
-            26.825612,
-            38.456953
-          ],
-          [
-            26.677562,
-            38.603147
-          ],
-          [
-            26.53194,
-            38.694131
-          ],
-          [
-            26.289642,
-            38.787125
-          ],
-          [
-            26.157985,
-            38.716479
-          ],
-          [
-            25.753004,
-            38.636582
-          ],
-          [
-            25.432437,
-            38.327161
-          ],
-          [
-            24.6863,
-            38.0741
-          ],
-          [
-            24.612093,
-            37.988022
-          ],
-          [
-            24.537948,
-            37.902017
-          ],
-          [
-            24.520041,
-            37.90673
-          ],
-          [
-            24.372282,
-            37.856919
-          ],
-          [
-            24.114615,
-            37.769372
-          ],
-          [
-            24.083063,
-            37.715634
-          ],
-          [
-            24.063647,
-            37.621498
-          ],
-          [
-            23.888901,
-            37.615875
-          ],
-          [
-            23.885914,
-            37.616154
-          ],
-          [
-            23.6425,
-            37.8192
-          ],
-          [
-            23.6195,
-            37.917095
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
-        "coords": [
-          [
-            23.6195,
-            37.917095
-          ],
-          [
-            23.505426,
-            37.837248
-          ],
-          [
-            23.401569,
-            37.850922
-          ],
-          [
-            23.175353,
-            37.880707
-          ],
-          [
-            23.020113,
-            37.909026
-          ],
-          [
-            22.947178,
-            37.960508
-          ],
-          [
-            22.828287,
-            38.02424
-          ],
-          [
-            21.9041,
-            38.3486
-          ]
-        ]
-      },
-      {
-        "from_idx": 7,
-        "to_idx": 8,
-        "verified": false,
-        "coords": [
-          [
-            21.9041,
-            38.3486
-          ],
-          [
-            22.828287,
-            38.02424
-          ],
-          [
-            22.947178,
-            37.960508
-          ],
-          [
-            23.020113,
-            37.909026
-          ],
-          [
-            23.175353,
-            37.880707
-          ],
-          [
-            23.401569,
-            37.850922
-          ],
-          [
-            23.505426,
-            37.837248
-          ],
-          [
-            23.6425,
-            37.8192
-          ],
-          [
-            23.885914,
-            37.616154
-          ],
-          [
-            23.888901,
-            37.615875
-          ],
-          [
-            24.063647,
-            37.621498
-          ],
-          [
-            24.083063,
-            37.715634
-          ],
-          [
-            24.114615,
-            37.769372
-          ],
-          [
-            24.372282,
-            37.856919
-          ],
-          [
-            24.520041,
-            37.90673
-          ],
-          [
-            24.657285,
-            38.115863
-          ],
-          [
-            24.350414,
-            38.557553
-          ],
-          [
-            24.21655,
-            38.650549
-          ],
-          [
-            23.592803,
-            38.945627
-          ],
-          [
-            23.352526,
-            39.064446
-          ],
-          [
-            23.168072,
-            39.045599
-          ],
-          [
-            23.041866,
-            39.077636
-          ],
-          [
-            22.959347,
-            39.339038
-          ]
-        ]
-      },
-      {
-        "from_idx": 8,
-        "to_idx": 9,
-        "verified": false,
-        "coords": [
-          [
-            22.959347,
-            39.339038
-          ],
-          [
-            23.041866,
-            39.077636
-          ],
-          [
-            23.168072,
-            39.045599
-          ],
-          [
-            23.352526,
-            39.064446
-          ],
-          [
-            23.592803,
-            38.945627
-          ],
-          [
-            24.21655,
-            38.650549
-          ],
-          [
-            24.350414,
-            38.557553
-          ],
-          [
-            24.657285,
-            38.115863
-          ],
-          [
-            24.520041,
-            37.90673
-          ],
-          [
-            24.372282,
-            37.856919
-          ],
-          [
-            24.114615,
-            37.769372
-          ],
-          [
-            24.083063,
-            37.715634
-          ],
-          [
-            24.063647,
-            37.621498
-          ],
-          [
-            23.888901,
-            37.615875
-          ],
-          [
-            23.885914,
-            37.616154
-          ],
-          [
-            23.6425,
-            37.8192
-          ],
-          [
-            23.505426,
-            37.837248
-          ],
-          [
-            23.401569,
-            37.850922
-          ],
-          [
-            23.175353,
-            37.880707
-          ],
-          [
-            23.020113,
-            37.909026
-          ],
-          [
-            22.947178,
-            37.960508
-          ],
-          [
-            22.828287,
-            38.02424
-          ],
-          [
-            21.9041,
-            38.3486
-          ],
-          [
-            21.353302,
-            38.219841
-          ],
-          [
-            21.158505,
-            38.131249
-          ],
-          [
-            20.98035,
-            38.076305
-          ],
-          [
-            20.680488,
-            37.977089
-          ],
-          [
-            20.319182,
-            37.971516
-          ],
-          [
-            18.393028,
-            37.938699
-          ],
-          [
-            16.419052,
-            37.905068
-          ],
-          [
-            16.152761,
-            37.900531
-          ],
-          [
-            15.6982,
-            37.892786
-          ],
-          [
-            15.557174,
-            38.032185
-          ],
-          [
-            15.608743,
-            38.230867
-          ],
-          [
-            15.711882,
-            38.273843
-          ],
-          [
-            15.727668,
-            38.366322
-          ],
-          [
-            13.3959,
-            38.2913
-          ],
-          [
-            12.743535,
-            38.243566
-          ],
-          [
-            12.099936,
-            38.196473
-          ],
-          [
-            11.661179,
-            38.164369
-          ],
-          [
-            11.013127,
-            38.116951
-          ],
-          [
-            10.445158,
-            38.075392
-          ],
-          [
-            10.311505,
-            38.065613
-          ],
-          [
-            10.136119,
-            38.052779
-          ],
-          [
-            9.780069,
-            38.026727
-          ],
-          [
-            9.1442,
-            37.9802
-          ],
-          [
-            8.676736,
-            37.919859
-          ],
-          [
-            8.147147,
-            37.851498
-          ],
-          [
-            7.507237,
-            37.768897
-          ],
-          [
-            7.192242,
-            37.728237
-          ],
-          [
-            7.095237,
-            37.715715
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
+            32.557983,
+            30.213982
           ]
         ]
       }
     ],
-    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/147349_city_of_leicester.jpeg"
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/135479_city_of_norwich.jpeg"
   },
   {
-    "id": "chester-1947-roundworld",
+    "id": "city-of-chester-1947",
     "ship": "City of Chester",
     "ship_no": "168876",
     "line": "Ellerman Lines (City Line)",
     "built": "1944, Harland & Wolff",
     "tons": "4,954 grt",
-    "flag": "🌍 Round-the-World Voyage",
-    "engaged": "15 Apr 1947",
-    "discharged": "7 Oct 1947, Liverpool",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "15 Apr 1947, Unknown",
+    "discharged": "7 Oct 1947, 151",
     "engagement_date": "1947-04-15",
     "discharge_date": "1947-10-07",
     "rank": "Chief Steward",
     "authoritative_discharge": true,
-    "card_image": "city_of_chester_card3_first.jpg",
-    "note": "Epic round-the-world voyage. CRS10 confirms arrival NY 15 May 1947 from Montreal. Voyage card documents the full Far East leg.",
-    "voyage_note": "South Africa → South America → Montreal → New York → Panama Canal → Los Angeles → Philippines → Singapore → Colombo → Liverpool. 176 days.",
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Chester from 15 Apr 1947, Unknown to 7 Oct 1947, 151. Engagement type: foreign-going.",
+    "voyage_note": "USA immigration record: Arrived in New york 15th May 1947, sailing from Montreal Verification: CHECKED: 'Arrived New York 15th May 1947, sailing from Montreal' matches the card (IMG_5662) exactly — Quebec/Montreal early May, New York arrival 15 May 1947.",
     "waypoints": [
       {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
         "verified": true,
-        "date": "1947-04-15",
-        "note": "CRS10: engaged 15 Apr 1947, Liverpool"
+        "note": "sailing Apr 17 1947"
       },
       {
         "port": "Antwerp",
-        "lon": 4.3997,
-        "lat": 51.2213,
+        "lon": 4.3997081,
+        "lat": 51.2211097,
         "verified": true,
-        "date": "1947-04-18",
-        "note": "Voyage card: Ar 1947-04-18"
+        "note": "arrival Apr 18 1947; sailing Apr 25 1947"
       },
       {
         "port": "Plymouth",
-        "lon": -4.1427,
-        "lat": 50.3755,
+        "lon": -4.1424451,
+        "lat": 50.3714122,
         "verified": true,
-        "date": "1947-04-26",
-        "note": "Voyage card: Ar 1947-04-26"
+        "note": "arrival Apr 26 1947; sailing Apr 26 1947"
       },
       {
         "port": "Quebec",
-        "lon": -71.2082,
-        "lat": 46.8139,
+        "lon": -71.8258668,
+        "lat": 52.4760892,
         "verified": true,
-        "date": "1947-05-04",
-        "note": "Voyage card: Ar 1947-05-04"
+        "note": "arrival May 4 1947"
       },
       {
         "port": "Montreal",
-        "lon": -73.5673,
-        "lat": 45.5017,
+        "lon": -73.5698065,
+        "lat": 45.5031824,
         "verified": true,
-        "date": "1947-05-05",
-        "note": "Voyage card: Ar 1947-05-05"
+        "note": "arrival May 5 1947; sailing May 11 1947"
+      },
+      {
+        "port": "Quebec",
+        "lon": -71.8258668,
+        "lat": 52.4760892,
+        "verified": true,
+        "note": "sailing May 11 1947"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1947-05-15",
-        "note": "Voyage card: Ar 1947-05-15"
+        "note": "arrival May 15 1947; arrival May 22 1947; sailing May 22 1947"
       },
       {
-        "port": "Hampton Roads",
-        "lon": -76.3219,
-        "lat": 36.9468,
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
         "verified": true,
-        "date": "1947-05-23",
-        "note": "Voyage card: Ar 1947-05-23"
+        "note": "arrival May 23 1947; sailing May 24 1947"
       },
       {
-        "port": "Curaçao",
-        "lon": -68.99,
-        "lat": 12.1696,
+        "port": "Curacao",
+        "lon": -68.9309263,
+        "lat": 12.1176488,
         "verified": true,
-        "date": "1947-05-28",
-        "note": "Voyage card: Ar 1947-05-28"
-      },
-      {
-        "port": "Cristobal Panama",
-        "lon": -79.902,
-        "lat": 9.3547,
-        "verified": true,
-        "date": "1947-05-31",
-        "note": "Voyage card: Ar 1947-05-31"
+        "note": "arrival May 28 1947; sailing May 29 1947"
       },
       {
         "port": "Los Angeles",
-        "lon": -118.2437,
-        "lat": 34.0522,
+        "lon": -118.242766,
+        "lat": 34.0536909,
         "verified": true,
-        "date": "1947-06-11",
-        "note": "Voyage card: Ar 1947-06-11"
+        "note": "arrival June 8 1947; sailing June 11 1947"
+      },
+      {
+        "port": "Manila",
+        "lon": 120.9803621,
+        "lat": 14.5904492,
+        "verified": true,
+        "note": "arrival June 30 1947; sailing July 5 1947"
       },
       {
         "port": "Hong Kong",
         "lon": 114.1694,
         "lat": 22.3193,
         "verified": true,
-        "date": "1947-07-07",
-        "note": "Voyage card: Ar 1947-07-07"
+        "note": "arrival July 7 1947; sailing July 9 1947"
       },
       {
         "port": "Shanghai",
-        "lon": 121.4737,
-        "lat": 31.2304,
+        "lon": 121.4700152,
+        "lat": 31.2312707,
         "verified": true,
-        "date": "1947-07-11",
-        "note": "Voyage card: Ar 1947-07-11"
+        "note": "arrival July 11 1947; sailing July 16 1947"
+      },
+      {
+        "port": "Hong Kong",
+        "lon": 114.1694,
+        "lat": 22.3193,
+        "verified": true,
+        "note": "arrival July 18 1947; sailing July 20 1947"
       },
       {
         "port": "Manila",
-        "lon": 120.9842,
-        "lat": 14.5995,
+        "lon": 120.9803621,
+        "lat": 14.5904492,
         "verified": true,
-        "date": "1947-07-23",
-        "note": "Voyage card: Ar 1947-07-23"
+        "note": "arrival July 23 1947; sailing July 24 1947"
       },
       {
-        "port": "Tabaco Philippines",
-        "lon": 123.8333,
-        "lat": 13.0,
+        "port": "Tabako",
+        "lon": 123.7333,
+        "lat": 13.35,
         "verified": true,
-        "date": "1947-07-25",
-        "note": "Voyage card: Ar 1947-07-25"
+        "note": "arrival July 25 1947; sailing July 29 1947"
       },
       {
         "port": "Cebu",
         "lon": 123.8854,
         "lat": 10.3157,
         "verified": true,
-        "date": "1947-07-30",
-        "note": "Voyage card: Ar 1947-07-30"
+        "note": "arrival July 30 1947; sailing July 30 1947"
       },
       {
         "port": "Davao",
-        "lon": 125.4553,
-        "lat": 7.1907,
+        "lon": 125.6128,
+        "lat": 7.0731,
         "verified": true,
-        "date": "1947-08-01",
-        "note": "Voyage card: Ar 1947-08-01"
+        "note": "arrival Aug 1 1947; sailing Aug 1 1947"
       },
       {
         "port": "Singapore",
-        "lon": 103.8198,
-        "lat": 1.3521,
+        "lon": 103.8194992,
+        "lat": 1.357107,
         "verified": true,
-        "date": "1947-08-05",
-        "note": "Voyage card: Ar 1947-08-05"
+        "note": "arrival Aug 5 1947; sailing Aug 13 1947"
       },
       {
         "port": "Port Swettenham",
-        "lon": 101.3833,
-        "lat": 3.0,
+        "lon": 101.39,
+        "lat": 3.0044,
         "verified": true,
-        "date": "1947-08-14",
-        "note": "Voyage card: Ar 1947-08-14"
+        "note": "arrival Aug 14 1947; sailing Aug 15 1947"
       },
       {
         "port": "Penang",
-        "lon": 100.3288,
+        "lon": 100.3327,
         "lat": 5.4141,
         "verified": true,
-        "date": "1947-08-18",
-        "note": "Voyage card: Ar 1947-08-18"
+        "note": "arrival Aug 15 1947; sailing Aug 18 1947"
       },
       {
         "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
+        "lon": 79.8542005,
+        "lat": 6.9388614,
         "verified": true,
-        "date": "1947-08-22",
-        "note": "Voyage card: Ar 1947-08-22"
+        "note": "arrival Aug 22 1947; sailing Aug 24 1947"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1947-09-01",
-        "note": "Voyage card: Ar 1947-09-01"
+        "note": "arrival Aug 31 1947; sailing Sept 1 1947"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1947-09-04",
-        "note": "Voyage card: Ar 1947-09-04"
+        "note": "arrival Sept 4 1947"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Sept 5 1947"
       },
       {
         "port": "London",
-        "lon": -0.1278,
-        "lat": 51.5074,
+        "lon": -0.1277653,
+        "lat": 51.5074456,
         "verified": true,
-        "date": "1947-09-14",
-        "note": "Voyage card: Ar 1947-09-14"
+        "note": "arrival Sept 14 1947; sailing Sept 29 1947"
       },
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "date": "1947-10-01",
-        "note": "Voyage card: Ar 1947-10-01"
+        "note": "arrival Oct 1 1947; sailing Oct 4 1947"
       },
       {
         "port": "Glasgow",
-        "lon": -4.2518,
-        "lat": 55.8642,
+        "lon": -4.2501687,
+        "lat": 55.861155,
         "verified": true,
-        "date": "1947-10-05",
-        "note": "Voyage card: Ar 1947-10-05"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "date": "1947-10-07",
-        "note": "CRS10: discharged 7 Oct 1947, Liverpool"
+        "note": "arrival Oct 5 1947"
       }
     ],
     "card_images": [
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5662.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -18171,140 +12405,48 @@ const VOYAGES = [
         "verified": true,
         "coords": [
           [
-            -2.980042,
-            53.370425
+            0.2137,
+            51.4867
           ],
           [
-            -3.042183,
-            53.459438
+            0.2782,
+            51.4594
           ],
           [
-            -3.397522,
-            53.572938
+            0.3126,
+            51.4722
           ],
           [
-            -3.964322,
-            53.295363
+            0.3441,
+            51.45
           ],
           [
-            -4.119099,
-            53.234173
+            0.4265,
+            51.4482
           ],
           [
-            -4.329113,
-            53.12664
+            0.4499,
+            51.479
           ],
           [
-            -4.806092,
-            52.785658
+            0.5034,
+            51.4996
           ],
           [
-            -5.081903,
-            52.783932
+            0.8262,
+            51.5038
           ],
           [
-            -5.440366,
-            52.111814
+            1.474566,
+            51.467902
           ],
           [
-            -5.9,
-            51.25
+            1.868984,
+            51.235892
           ],
           [
-            -5.8714,
-            50.4096
-          ],
-          [
-            -5.783648,
-            49.997799
-          ],
-          [
-            -5.611439,
-            49.881674
-          ],
-          [
-            -5.196944,
-            49.937831
-          ],
-          [
-            -4.115519,
-            50.084349
-          ],
-          [
-            -4,
-            50.1
-          ],
-          [
-            -2.624015,
-            50.023556
-          ],
-          [
-            -2.270882,
-            50.112738
-          ],
-          [
-            -2.100162,
-            50.138244
-          ],
-          [
-            -1.755087,
-            50.189798
-          ],
-          [
-            -1.577583,
-            50.216317
-          ],
-          [
-            -1.251907,
-            50.264973
-          ],
-          [
-            -0.76446,
-            50.337798
-          ],
-          [
-            -0.764313,
-            50.33751
-          ],
-          [
-            -0.672505,
-            50.358079
-          ],
-          [
-            -0.505582,
-            50.395477
-          ],
-          [
-            0.301537,
-            50.576304
-          ],
-          [
-            1.149895,
-            50.76637
-          ],
-          [
-            1.3,
-            50.8
-          ],
-          [
-            1.441366,
-            50.849032
-          ],
-          [
-            1.567687,
-            50.892845
-          ],
-          [
-            1.813195,
-            50.988387
-          ],
-          [
-            2.1,
-            51.1
-          ],
-          [
-            2.356699,
-            51.178984
+            2.330031,
+            51.330031
           ],
           [
             3.4,
@@ -18647,6 +12789,17 @@ const VOYAGES = [
           [
             -68.7297,
             48.7027
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            -68.7297,
+            48.7027
           ],
           [
             -69.625854,
@@ -18660,17 +12813,6 @@ const VOYAGES = [
             -71.040413,
             46.841121
           ],
-          [
-            -71.183098,
-            46.837089
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": true,
-        "coords": [
           [
             -71.183098,
             46.837089
@@ -18805,6 +12947,17 @@ const VOYAGES = [
           [
             -68.7297,
             48.7027
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            -68.7297,
+            48.7027
           ],
           [
             -66.890259,
@@ -18921,8 +13074,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 5,
-        "to_idx": 6,
+        "from_idx": 6,
+        "to_idx": 7,
         "verified": true,
         "coords": [
           [
@@ -19008,14 +13161,22 @@ const VOYAGES = [
           [
             -76.269836,
             36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
           ]
         ]
       },
       {
-        "from_idx": 6,
-        "to_idx": 7,
+        "from_idx": 7,
+        "to_idx": 8,
         "verified": true,
         "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
           [
             -76.269836,
             36.999262
@@ -19211,8 +13372,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 7,
-        "to_idx": 8,
+        "from_idx": 8,
+        "to_idx": 9,
         "verified": true,
         "coords": [
           [
@@ -19239,17 +13400,6 @@ const VOYAGES = [
             -80,
             9.75
           ],
-          [
-            -79.900612,
-            9.208176
-          ]
-        ]
-      },
-      {
-        "from_idx": 8,
-        "to_idx": 9,
-        "verified": true,
-        "coords": [
           [
             -79.900612,
             9.208176
@@ -19410,258 +13560,321 @@ const VOYAGES = [
             34.4361
           ],
           [
-            -122.9,
-            37.7
+            -121.532,
+            34.5768
           ],
           [
-            -123.998772,
-            38.30243
+            -124.335754,
+            35.602083
           ],
           [
-            -126.7021,
-            39.7846
+            -124.7876,
+            35.767315
           ],
           [
-            -129.021695,
-            40.925896
+            -125.4023,
+            35.9921
           ],
           [
-            -129.88192,
-            41.349148
+            -125.79613,
+            36.120424
           ],
           [
-            -130.000844,
-            41.407661
+            -126.521154,
+            36.356665
           ],
           [
-            -130.7204,
-            41.7617
+            -126.936629,
+            36.492042
           ],
           [
-            -132.290903,
-            42.442073
+            -130.001054,
+            37.490546
           ],
           [
-            -132.411296,
-            42.49423
+            -130.0893,
+            37.5193
           ],
           [
-            -134.700168,
-            43.485814
+            -132.090419,
+            38.070858
           ],
           [
-            -134.9769,
-            43.6057
+            -134.818074,
+            38.822668
           ],
           [
-            -136.328686,
-            44.111743
+            -134.9586,
+            38.8614
           ],
           [
-            -139.4855,
-            45.2935
+            -137.425836,
+            39.418625
           ],
           [
-            -140.002727,
-            45.456581
-          ],
-          [
-            -143.74132,
-            46.635358
-          ],
-          [
-            -144.2543,
-            46.7971
-          ],
-          [
-            -147.484025,
-            47.633164
-          ],
-          [
-            -149.2766,
-            48.0972
-          ],
-          [
-            -150.001053,
-            48.245182
-          ],
-          [
-            -151.590299,
-            48.569813
-          ],
-          [
-            -153.455505,
-            48.950813
-          ],
-          [
-            -154.5354,
-            49.1714
-          ],
-          [
-            -160,
-            50
-          ],
-          [
-            -162.794168,
-            50.373414
-          ],
-          [
-            -165.622957,
-            50.751454
-          ],
-          [
-            -168.08097,
-            51.079944
-          ],
-          [
-            -168.2056,
-            51.0966
-          ],
-          [
-            -171.555154,
-            51.295103
-          ],
-          [
-            -176.996223,
-            50.558732
-          ],
-          [
-            -179.485843,
-            50.252896
-          ],
-          [
-            -180,
-            50
-          ],
-          [
-            -180,
-            50
-          ],
-          [
-            -195.816761,
-            44.859607
-          ],
-          [
-            -210,
+            -140,
             40
           ],
           [
-            -214.4708,
-            38.0301
+            -144.8826,
+            40.7555
           ],
           [
-            -218.977918,
-            35.682829
+            -148.927788,
+            41.20084
           ],
           [
-            -219.523315,
-            35.086203
+            -150.000787,
+            41.312849
           ],
           [
-            -220.1,
-            34.8
+            -151.3126,
+            41.399388
           ],
           [
-            -220.368808,
-            34.712506
+            -154.850126,
+            41.632757
           ],
           [
-            -220.449441,
-            34.683002
+            -158.468421,
+            41.715315
           ],
           [
-            -220.698853,
-            34.604954
+            -159.9932,
+            41.749
           ],
           [
-            -221.044922,
-            34.395579
+            -160.001049,
+            41.748829
           ],
           [
-            -224.110107,
-            33.328233
+            -160.413881,
+            41.739849
           ],
           [
-            -224.680446,
-            33.065148
+            -165.0775,
+            41.6384
           ],
           [
-            -228.558813,
-            31.255374
+            -168.752681,
+            41.396954
           ],
           [
-            -229.1,
-            31
+            -169.524375,
+            41.346256
           ],
           [
-            -229.382858,
-            30.929912
+            -171.111891,
+            41.198456
           ],
           [
-            -229.874973,
-            30.776168
+            -175.1119,
+            40.758
           ],
           [
-            -234.471411,
-            28.388213
+            -180,
+            40
           ],
           [
-            -236.077903,
-            27.608066
+            -180,
+            40
           ],
           [
-            -240,
-            25.7
+            -188.186,
+            38.2345
           ],
           [
-            -240.179503,
-            25.236972
+            -190.000968,
+            37.695003
           ],
           [
-            -240.238037,
-            25.085599
+            -193.683995,
+            36.600227
           ],
           [
-            -240.571452,
-            24.865974
+            -195.674807,
+            36.008461
           ],
           [
-            -240.904867,
-            24.645959
+            -195.9317,
+            35.9321
           ],
           [
-            -241.244706,
-            24.354126
+            -200.00184,
+            34.381947
           ],
           [
-            -241.65319,
-            24.018001
+            -202.985255,
+            33.245683
           ],
           [
-            -242.601838,
-            23.301773
+            -203.2013,
+            33.1634
           ],
           [
-            -243,
-            23
+            -210,
+            30
           ],
           [
-            -244.556117,
-            22.303937
+            -213.3801,
+            28.149
           ],
           [
-            -245.548553,
-            22.426263
+            -216.245664,
+            26.453489
           ],
           [
-            -245.571899,
-            22.338644
+            -216.435228,
+            26.341327
+          ],
+          [
+            -218.760619,
+            24.878635
+          ],
+          [
+            -220.001142,
+            24.079767
+          ],
+          [
+            -222.180507,
+            22.607616
+          ],
+          [
+            -222.8587,
+            22.1495
+          ],
+          [
+            -224.356087,
+            21.079859
+          ],
+          [
+            -225.786142,
+            20.058315
+          ],
+          [
+            -225.8283,
+            20.0282
+          ],
+          [
+            -228.17195,
+            18.268861
+          ],
+          [
+            -228.7186,
+            17.8585
+          ],
+          [
+            -230.000504,
+            16.853491
+          ],
+          [
+            -231.5394,
+            15.647
+          ],
+          [
+            -234.3,
+            13.4
+          ],
+          [
+            -235.673218,
+            12.940322
+          ],
+          [
+            -235.836639,
+            12.491554
+          ],
+          [
+            -236.093445,
+            12.478146
+          ],
+          [
+            -236.347504,
+            12.775643
+          ],
+          [
+            -236.631775,
+            12.633638
+          ],
+          [
+            -237.989014,
+            13.056805
+          ],
+          [
+            -238.477457,
+            13.368274
+          ],
+          [
+            -239.27536,
+            13.63531
+          ],
+          [
+            -239.497833,
+            13.911407
+          ],
+          [
+            -239.464874,
+            14.262387
+          ],
+          [
+            -239.069366,
+            14.630095
           ]
         ]
       },
       {
         "from_idx": 10,
         "to_idx": 11,
+        "verified": true,
+        "coords": [
+          [
+            120.930634,
+            14.630095
+          ],
+          [
+            120.535126,
+            14.262387
+          ],
+          [
+            119.9,
+            14.4
+          ],
+          [
+            118.161859,
+            16.908251
+          ],
+          [
+            117.028182,
+            18.264486
+          ],
+          [
+            115.841059,
+            19.666279
+          ],
+          [
+            114.1,
+            21.7
+          ],
+          [
+            114.216614,
+            21.932855
+          ],
+          [
+            114.426727,
+            22.070369
+          ],
+          [
+            114.421234,
+            22.253513
+          ],
+          [
+            114.428101,
+            22.338644
+          ]
+        ]
+      },
+      {
+        "from_idx": 11,
+        "to_idx": 12,
         "verified": true,
         "coords": [
           [
@@ -19767,8 +13980,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 11,
-        "to_idx": 12,
+        "from_idx": 12,
+        "to_idx": 13,
         "verified": true,
         "coords": [
           [
@@ -19828,28 +14041,87 @@ const VOYAGES = [
             25.7
           ],
           [
-            120,
-            24.80949
+            119.820497,
+            25.236972
           ],
           [
-            120,
-            23.912535
+            119.761963,
+            25.085599
           ],
           [
-            119.877319,
-            23.01402
+            119.428548,
+            24.865974
           ],
           [
-            120,
-            22.1
+            119.095133,
+            24.645959
           ],
           [
-            120,
-            19
+            118.755294,
+            24.354126
           ],
           [
-            119.4,
-            17
+            118.34681,
+            24.018001
+          ],
+          [
+            117.398162,
+            23.301773
+          ],
+          [
+            117,
+            23
+          ],
+          [
+            115.443883,
+            22.303937
+          ],
+          [
+            114.451447,
+            22.426263
+          ],
+          [
+            114.428101,
+            22.338644
+          ]
+        ]
+      },
+      {
+        "from_idx": 13,
+        "to_idx": 14,
+        "verified": true,
+        "coords": [
+          [
+            114.428101,
+            22.338644
+          ],
+          [
+            114.421234,
+            22.253513
+          ],
+          [
+            114.426727,
+            22.070369
+          ],
+          [
+            114.216614,
+            21.932855
+          ],
+          [
+            114.1,
+            21.7
+          ],
+          [
+            115.841059,
+            19.666279
+          ],
+          [
+            117.028182,
+            18.264486
+          ],
+          [
+            118.161859,
+            16.908251
           ],
           [
             119.9,
@@ -19866,8 +14138,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 12,
-        "to_idx": 13,
+        "from_idx": 14,
+        "to_idx": 15,
         "verified": true,
         "coords": [
           [
@@ -19925,8 +14197,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 13,
-        "to_idx": 14,
+        "from_idx": 15,
+        "to_idx": 16,
         "verified": true,
         "coords": [
           [
@@ -19976,8 +14248,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 14,
-        "to_idx": 15,
+        "from_idx": 16,
+        "to_idx": 17,
         "verified": true,
         "coords": [
           [
@@ -20039,8 +14311,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 15,
-        "to_idx": 16,
+        "from_idx": 17,
+        "to_idx": 18,
         "verified": true,
         "coords": [
           [
@@ -20120,35 +14392,59 @@ const VOYAGES = [
             1.249295
           ],
           [
-            103.861103,
-            1.171415
+            104.026451,
+            1.375562
           ],
           [
-            103.763466,
-            1.259893
+            103.999157,
+            1.418465
           ],
           [
-            103.736687,
-            1.29353
+            103.926287,
+            1.429362
+          ],
+          [
+            103.895988,
+            1.427732
           ]
         ]
       },
       {
-        "from_idx": 16,
-        "to_idx": 17,
+        "from_idx": 18,
+        "to_idx": 19,
         "verified": true,
         "coords": [
           [
-            103.736687,
-            1.29353
+            103.895988,
+            1.427732
           ],
           [
-            103.763466,
-            1.259893
+            103.853073,
+            1.463083
           ],
           [
-            103.658066,
-            1.197766
+            103.797112,
+            1.476125
+          ],
+          [
+            103.763123,
+            1.448668
+          ],
+          [
+            103.721924,
+            1.458278
+          ],
+          [
+            103.675232,
+            1.429448
+          ],
+          [
+            103.627853,
+            1.349134
+          ],
+          [
+            103.563995,
+            1.295246
           ],
           [
             103.6,
@@ -20181,8 +14477,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 17,
-        "to_idx": 18,
+        "from_idx": 19,
+        "to_idx": 20,
         "verified": true,
         "coords": [
           [
@@ -20224,8 +14520,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 18,
-        "to_idx": 19,
+        "from_idx": 20,
+        "to_idx": 21,
         "verified": true,
         "coords": [
           [
@@ -20271,8 +14567,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 19,
-        "to_idx": 20,
+        "from_idx": 21,
+        "to_idx": 22,
         "verified": true,
         "coords": [
           [
@@ -20362,8 +14658,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 20,
-        "to_idx": 21,
+        "from_idx": 22,
+        "to_idx": 23,
         "verified": true,
         "coords": [
           [
@@ -20421,8 +14717,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 21,
-        "to_idx": 22,
+        "from_idx": 23,
+        "to_idx": 24,
         "verified": true,
         "coords": [
           [
@@ -20437,6 +14733,17 @@ const VOYAGES = [
             32.310104,
             31.102922
           ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 24,
+        "to_idx": 25,
+        "verified": true,
+        "coords": [
           [
             32.359877,
             31.336373
@@ -20736,8 +15043,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 22,
-        "to_idx": 23,
+        "from_idx": 25,
+        "to_idx": 26,
         "verified": true,
         "coords": [
           [
@@ -20903,8 +15210,8 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 23,
-        "to_idx": 24,
+        "from_idx": 26,
+        "to_idx": 27,
         "verified": true,
         "coords": [
           [
@@ -20962,69 +15269,6 @@ const VOYAGES = [
           [
             -4.54422,
             55.924586
-          ]
-        ]
-      },
-      {
-        "from_idx": 24,
-        "to_idx": 25,
-        "verified": true,
-        "coords": [
-          [
-            -4.54422,
-            55.924586
-          ],
-          [
-            -4.768562,
-            55.987575
-          ],
-          [
-            -4.893723,
-            55.949777
-          ],
-          [
-            -5.012512,
-            55.653573
-          ],
-          [
-            -5.009766,
-            55.415764
-          ],
-          [
-            -5.445564,
-            54.990994
-          ],
-          [
-            -5.2,
-            54.8
-          ],
-          [
-            -5.137288,
-            54.638339
-          ],
-          [
-            -5.002755,
-            54.604048
-          ],
-          [
-            -4.162754,
-            54.389945
-          ],
-          [
-            -3.831515,
-            53.940031
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
           ]
         ]
       }
@@ -21032,261 +15276,550 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/168876_city_of_chester.jpeg"
   },
   {
-    "id": "chester-1947-1949",
+    "id": "city-of-chester-1947-2",
     "ship": "City of Chester",
     "ship_no": "168876",
     "line": "Ellerman Lines (City Line)",
     "built": "1944, Harland & Wolff",
     "tons": "4,954 grt",
-    "flag": "🎖 Three NY arrivals documented",
-    "engaged": "30 Oct 1947, Liverpool",
-    "discharged": "21 Feb 1949, Liverpool",
+    "flag": "📍 Last Known Position",
+    "engaged": "23 Oct 1947, 150",
+    "discharged": "30 Oct 1947, 151",
+    "engagement_date": "1947-10-23",
+    "discharge_date": "1947-10-30",
+    "rank": "Chief Steward",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Chester from 23 Oct 1947, 150 to 30 Oct 1947, 151. Engagement type: foreign-going.",
+    "voyage_note": "Verification: CHECKED (assumed discharge date): card (IMG_5662) confirms the ship was in Liverpool continuously from 19 Oct to 7 Nov 1947 — consistent with the engage/discharge window.",
+    "waypoints": [
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "no new port call logged in this window; ship's last known position was Liverpool (arrival Oct 19 1947)"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "card_carried_forward",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/168876_city_of_chester.jpeg"
+  },
+  {
+    "id": "city-of-chester-1947-3",
+    "ship": "City of Chester",
+    "ship_no": "168876",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1944, Harland & Wolff",
+    "tons": "4,954 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "30 Oct 1947, 150",
+    "discharged": "21 Feb 1949, 151",
     "engagement_date": "1947-10-30",
     "discharge_date": "1949-02-21",
     "rank": "Chief Steward",
     "authoritative_discharge": true,
-    "card_image": "city_of_chester_card3_second.jpg",
-    "note": "16-month voyage. CRS10 documents three separate New York arrivals. Voyage card (Card 3) covers full route including East Africa, Far East, India.",
-    "voyage_note": "Cape Town → NY (26 Jan 1948) → Port Elizabeth → NY (22 May 1948) → Mombasa → NY (17 Sep 1948) → Calcutta → Vizagapatam → Calcutta → Colombo → Sandheads → Liverpool.",
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Chester from 30 Oct 1947, 150 to 21 Feb 1949, 151. Engagement type: foreign-going.",
+    "voyage_note": "USA immigration record: Hall Line Ltd, Arrived in New York 26th Jan 1948 having sailed from Capetown. Arrived in New York 22 May 1948 from port elizabeth, sa. Arrived in New York 17th sept, departed from Mombassa 14th Aug. Verification: CHECKED: all 3 immigration notes corroborated by cards (IMG_5662/5663) — 26 Jan 1948 ex-Cape Town (card: NY arrival 25 Jan, 1 day off); 22 May 1948 ex-Port Elizabeth (card: exact match); 17 Sept ex-Mombasa 14 Aug (card: exact match on both dates).",
     "waypoints": [
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
+        "lon": -2.9166389,
+        "lat": 53.3933411,
         "verified": true,
-        "date": "1947-10-30",
-        "note": "CRS10: engaged 30 Oct 1947, Liverpool"
+        "note": "sailing Nov 7 1947"
       },
       {
         "port": "Table Bay",
         "lon": 18.4241,
         "lat": -33.9249,
         "verified": true,
-        "date": "1947-11-23",
-        "note": "Voyage card: Ar 1947-11-23"
+        "note": "arrival Nov 23 1947; sailing Nov 26 1947"
       },
       {
         "port": "Port Elizabeth",
         "lon": 25.6022,
         "lat": -33.9608,
         "verified": true,
-        "date": "1947-11-27",
-        "note": "Voyage card: Ar 1947-11-27"
+        "note": "arrival Nov 27 1947; sailing — 1947"
       },
       {
-        "port": "East London SA",
+        "port": "East London",
         "lon": 27.9116,
         "lat": -33.0153,
         "verified": true,
-        "date": "1947-12-01",
-        "note": "Voyage card: Ar 1947-12-01"
+        "note": "arrival Dec 1 1947; sailing Dec 2 1947"
       },
       {
         "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
+        "lon": 31.009909,
+        "lat": -29.8618145,
         "verified": true,
-        "date": "1947-12-03",
-        "note": "Voyage card: Ar 1947-12-03"
+        "note": "arrival Dec 3 1947; sailing Dec 11 1947"
       },
       {
         "port": "Lourenco Marques",
         "lon": 32.5732,
         "lat": -25.9692,
         "verified": true,
-        "date": "1947-12-12",
-        "note": "Voyage card: Ar 1947-12-12"
+        "note": "arrival Dec 12 1947; sailing Dec 12 1947"
       },
       {
-        "port": "Lourenco Marques",
-        "lon": 32.5732,
-        "lat": -25.9692,
+        "port": "Mombasa",
+        "lon": 39.667169,
+        "lat": -4.05052,
         "verified": true,
-        "date": "1948-04-20",
-        "note": "Voyage card: Ar 1948-04-20"
+        "note": "arrival Dec 16 1947; sailing Dec 22 1947"
       },
       {
         "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
+        "lon": 31.009909,
+        "lat": -29.8618145,
         "verified": true,
-        "date": "1948-04-24",
-        "note": "Voyage card: Ar 1948-04-24"
+        "note": "arrival Dec 27 1947; sailing Jan 1 1948"
+      },
+      {
+        "port": "East London",
+        "lon": 27.9116,
+        "lat": -33.0153,
+        "verified": true,
+        "note": "arrival Jan 2 1948; sailing Jan 2 1948"
       },
       {
         "port": "Port Elizabeth",
         "lon": 25.6022,
         "lat": -33.9608,
         "verified": true,
-        "date": "1948-04-28",
-        "note": "Voyage card: Ar 1948-04-28"
+        "note": "arrival Jan 3 1948; sailing Jan 3 1948"
+      },
+      {
+        "port": "Mossel Bay",
+        "lon": 22.1536248,
+        "lat": -34.1832022,
+        "verified": true,
+        "note": "arrival Jan 4 1948; sailing Jan 5 1948"
       },
       {
         "port": "Table Bay",
         "lon": 18.4241,
         "lat": -33.9249,
         "verified": true,
-        "date": "1948-05-01",
-        "note": "Voyage card: Ar 1948-05-01"
+        "note": "arrival Jan 6 1948; sailing Jan 6 1948"
+      },
+      {
+        "port": "Trinidad",
+        "lon": -61.5,
+        "lat": 10.6667,
+        "verified": true,
+        "note": "arrival Jan 19 1948; sailing Jan 20 1948"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1948-05-22",
-        "note": "Voyage card: Ar 1948-05-22"
+        "note": "arrival Jan 25 1948; sailing Feb 10 1948"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Feb 11 1948; sailing Feb 14 1948"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Feb 15 1948; sailing Feb 16 1948"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival Feb 17 1948; sailing Feb 26 1948"
+      },
+      {
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
+        "verified": true,
+        "note": "arrival Feb 27 1948; sailing Feb 27 1948"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Feb 28 1948; sailing Feb 29 1948"
+      },
+      {
+        "port": "Table Bay",
+        "lon": 18.4241,
+        "lat": -33.9249,
+        "verified": true,
+        "note": "arrival Mar 18 1948; sailing Mar 19 1948"
+      },
+      {
+        "port": "Port Elizabeth",
+        "lon": 25.6022,
+        "lat": -33.9608,
+        "verified": true,
+        "note": "arrival Mar 21 1948; sailing Mar 22 1948"
+      },
+      {
+        "port": "East London",
+        "lon": 27.9116,
+        "lat": -33.0153,
+        "verified": true,
+        "note": "arrival Mar 23 1948; sailing Mar 23 1948"
+      },
+      {
+        "port": "Durban",
+        "lon": 31.009909,
+        "lat": -29.8618145,
+        "verified": true,
+        "note": "arrival Mar 24 1948; sailing Mar 27 1948"
+      },
+      {
+        "port": "Lourenco Marques",
+        "lon": 32.5732,
+        "lat": -25.9692,
+        "verified": true,
+        "note": "arrival Mar 28 1948; sailing Mar 30 1948"
+      },
+      {
+        "port": "Mozambique",
+        "lon": 40.735,
+        "lat": -15.0342,
+        "verified": true,
+        "note": "arrival Apr 1 1948; sailing Apr 4 1948"
+      },
+      {
+        "port": "Dar es Salaam",
+        "lon": 39.2803583,
+        "lat": -6.8160837,
+        "verified": true,
+        "note": "arrival Apr 6 1948; sailing Apr 10 1948"
+      },
+      {
+        "port": "Tanga",
+        "lon": 39.0983,
+        "lat": -5.0689,
+        "verified": true,
+        "note": "arrival Apr 11 1948; sailing Apr 13 1948"
+      },
+      {
+        "port": "Mombasa",
+        "lon": 39.667169,
+        "lat": -4.05052,
+        "verified": true,
+        "note": "arrival Apr 13 1948; sailing Apr 16 1948"
+      },
+      {
+        "port": "Lourenco Marques",
+        "lon": 32.5732,
+        "lat": -25.9692,
+        "verified": true,
+        "note": "arrival Apr 20 1948; sailing Apr 23 1948"
+      },
+      {
+        "port": "Durban",
+        "lon": 31.009909,
+        "lat": -29.8618145,
+        "verified": true,
+        "note": "arrival Apr 24 1948; sailing Apr 27 1948"
+      },
+      {
+        "port": "Port Elizabeth",
+        "lon": 25.6022,
+        "lat": -33.9608,
+        "verified": true,
+        "note": "arrival Apr 28 1948; sailing Apr 30 1948"
+      },
+      {
+        "port": "Table Bay",
+        "lon": 18.4241,
+        "lat": -33.9249,
+        "verified": true,
+        "note": "arrival May 1 1948; sailing May 2 1948"
+      },
+      {
+        "port": "Trinidad",
+        "lon": -61.5,
+        "lat": 10.6667,
+        "verified": true,
+        "note": "arrival May 16 1948; sailing May 16 1948"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival May 22 1948; sailing May 25 1948; sailing May 26 1948"
       },
       {
         "port": "Montreal",
-        "lon": -73.5673,
-        "lat": 45.5017,
+        "lon": -73.5698065,
+        "lat": 45.5031824,
         "verified": true,
-        "date": "1948-06-01",
-        "note": "Voyage card: Ar 1948-06-01"
+        "note": "arrival June 1 1948; sailing June 5 1948"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival June 9 1948; sailing June 11 1948"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival June 13 1948; sailing June 14 1948"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1948-06-15",
-        "note": "Voyage card: Ar 1948-06-15"
+        "note": "arrival June 15 1948; sailing June 23 1948"
+      },
+      {
+        "port": "Table Bay",
+        "lon": 18.4241,
+        "lat": -33.9249,
+        "verified": true,
+        "note": "arrival July 12 1948; sailing July 13 1948"
       },
       {
         "port": "Port Elizabeth",
         "lon": 25.6022,
         "lat": -33.9608,
         "verified": true,
-        "date": "1948-07-14",
-        "note": "Voyage card: Ar 1948-07-14"
+        "note": "arrival July 14 1948; sailing July 30 1948"
       },
       {
-        "port": "East London SA",
+        "port": "East London",
         "lon": 27.9116,
         "lat": -33.0153,
         "verified": true,
-        "date": "1948-07-31",
-        "note": "Voyage card: Ar 1948-07-31"
+        "note": "arrival July 31 1948; sailing July 31 1948"
       },
       {
         "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
+        "lon": 31.009909,
+        "lat": -29.8618145,
         "verified": true,
-        "date": "1948-08-01",
-        "note": "Voyage card: Ar 1948-08-01"
+        "note": "arrival Aug 1 1948; sailing Aug 5 1948"
       },
       {
         "port": "Lourenco Marques",
         "lon": 32.5732,
         "lat": -25.9692,
         "verified": true,
-        "date": "1948-08-06",
-        "note": "Voyage card: Ar 1948-08-06"
+        "note": "arrival Aug 6 1948; sailing Aug 7 1948"
+      },
+      {
+        "port": "Mombasa",
+        "lon": 39.667169,
+        "lat": -4.05052,
+        "verified": true,
+        "note": "arrival Aug 11 1948; sailing Aug 14 1948"
+      },
+      {
+        "port": "Lourenco Marques",
+        "lon": 32.5732,
+        "lat": -25.9692,
+        "verified": true,
+        "note": "arrival Aug 18 1948; sailing Aug 20 1948"
+      },
+      {
+        "port": "Durban",
+        "lon": 31.009909,
+        "lat": -29.8618145,
+        "verified": true,
+        "note": "arrival Aug 22 1948; sailing Aug 24 1948"
+      },
+      {
+        "port": "Table Bay",
+        "lon": 18.4241,
+        "lat": -33.9249,
+        "verified": true,
+        "note": "arrival Aug 27 1948; sailing Aug 28 1948"
+      },
+      {
+        "port": "Trinidad",
+        "lon": -61.5,
+        "lat": 10.6667,
+        "verified": true,
+        "note": "arrival Sept 11 1948; sailing Sept 11 1948"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1948-09-22",
-        "note": "Voyage card: Ar 1948-09-22"
+        "note": "arrival Sept 17 1948; sailing Sept 22 1948"
       },
       {
-        "port": "Hampton Roads",
-        "lon": -76.3219,
-        "lat": 36.9468,
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
         "verified": true,
-        "date": "1948-09-23",
-        "note": "Voyage card: Ar 1948-09-23"
+        "note": "arrival Sept 23 1948; sailing Sept 24 1948"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Sept 25 1948; sailing Oct 6 1948"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Oct 7 1948; sailing Oct 10 1948"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1948-10-10",
-        "note": "Voyage card: Ar 1948-10-10"
+        "note": "arrival Oct 10 1948; sailing Oct 19 1948"
+      },
+      {
+        "port": "Table Bay",
+        "lon": 18.4241,
+        "lat": -33.9249,
+        "verified": true,
+        "note": "arrival Nov 6 1948; sailing Nov 7 1948"
       },
       {
         "port": "Port Elizabeth",
         "lon": 25.6022,
         "lat": -33.9608,
         "verified": true,
-        "date": "1948-11-08",
-        "note": "Voyage card: Ar 1948-11-08"
+        "note": "arrival Nov 8 1948; sailing Nov 17 1948"
       },
       {
-        "port": "East London SA",
+        "port": "East London",
         "lon": 27.9116,
         "lat": -33.0153,
         "verified": true,
-        "date": "1948-11-18",
-        "note": "Voyage card: Ar 1948-11-18"
+        "note": "arrival Nov 18 1948; sailing Nov 18 1948"
       },
       {
         "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
+        "lon": 31.009909,
+        "lat": -29.8618145,
         "verified": true,
-        "date": "1948-11-19",
-        "note": "Voyage card: Ar 1948-11-19"
+        "note": "arrival Nov 19 1948; sailing Dec 2 1948"
       },
       {
         "port": "Lourenco Marques",
         "lon": 32.5732,
         "lat": -25.9692,
         "verified": true,
-        "date": "1948-12-03",
-        "note": "Voyage card: Ar 1948-12-03"
+        "note": "arrival Dec 3 1948; sailing Dec 6 1948"
+      },
+      {
+        "port": "Mombasa",
+        "lon": 39.667169,
+        "lat": -4.05052,
+        "verified": true,
+        "note": "arrival Dec 8 1948; sailing Dec 13 1948"
+      },
+      {
+        "port": "Vizagapatam",
+        "lon": 83.2185,
+        "lat": 17.6868,
+        "verified": true,
+        "note": "arrival Dec 22 1948; sailing Dec 25 1948"
+      },
+      {
+        "port": "Calcutta",
+        "lon": 88.3638953,
+        "lat": 22.5726459,
+        "verified": true,
+        "note": "arrival Dec 27 1948; sailing Jan 15 1949"
+      },
+      {
+        "port": "Sandheads",
+        "lon": 88.15,
+        "lat": 21.65,
+        "verified": true,
+        "note": "sailing Jan 16 1949"
+      },
+      {
+        "port": "Madras",
+        "lon": 80.2707,
+        "lat": 13.0827,
+        "verified": true,
+        "note": "arrival Jan 18 1949; sailing Jan 19 1949"
       },
       {
         "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
+        "lon": 79.8542005,
+        "lat": 6.9388614,
         "verified": true,
-        "date": "1949-01-20",
-        "note": "Voyage card: Ar 1949-01-20"
+        "note": "arrival Jan 20 1949; sailing Jan 22 1949"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
+        "lon": 45.028504,
+        "lat": 12.789585,
         "verified": true,
-        "date": "1949-01-27",
-        "note": "Voyage card: Ar 1949-01-27"
+        "note": "arrival Jan 27 1949; sailing Jan 27 1949"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
+        "lon": 32.537086,
+        "lat": 29.974498,
         "verified": true,
-        "date": "1949-01-31",
-        "note": "Voyage card: Ar 1949-01-31"
+        "note": "arrival Jan 31 1949"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Feb 1 1949"
+      },
+      {
+        "port": "Gibraltar",
+        "lon": -5.3474761,
+        "lat": 36.1285933,
+        "verified": true,
+        "note": "arrival Feb 7 1949; sailing Feb 7 1949"
+      },
+      {
+        "port": "Boston",
+        "lon": -71.0578303,
+        "lat": 42.3588336,
+        "verified": true,
+        "note": "arrival Feb 16 1949; sailing Feb 16 1949"
       },
       {
         "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
+        "lon": -74.0060152,
+        "lat": 40.7127281,
         "verified": true,
-        "date": "1949-02-17",
-        "note": "Voyage card: Ar 1949-02-17"
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": true,
-        "date": "1949-02-21",
-        "note": "CRS10: discharged 21 Feb 1949, Liverpool"
+        "note": "arrival Feb 17 1949"
       }
     ],
     "card_images": [
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5662.jpeg",
       "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5663.jpeg"
     ],
-    "waypoints_source": "csv_verified",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
@@ -21655,2040 +16188,6 @@ const VOYAGES = [
           [
             32.606049,
             -25.995081
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": true,
-        "coords": [
-          [
-            32.606049,
-            -25.995081
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 7,
-        "to_idx": 8,
-        "verified": true,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            25.640717,
-            -33.918292
-          ]
-        ]
-      },
-      {
-        "from_idx": 8,
-        "to_idx": 9,
-        "verified": true,
-        "coords": [
-          [
-            25.640717,
-            -33.918292
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18.428192,
-            -33.862433
-          ]
-        ]
-      },
-      {
-        "from_idx": 9,
-        "to_idx": 10,
-        "verified": true,
-        "coords": [
-          [
-            18.428192,
-            -33.862433
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            13.9085,
-            -32.5342
-          ],
-          [
-            10,
-            -30
-          ],
-          [
-            4.581235,
-            -25.7304
-          ],
-          [
-            0.000594,
-            -22.121182
-          ],
-          [
-            -1.147621,
-            -21.216471
-          ],
-          [
-            -2.645049,
-            -20.036605
-          ],
-          [
-            -6.625182,
-            -16.728359
-          ],
-          [
-            -9.999538,
-            -12.890797
-          ],
-          [
-            -11.321431,
-            -11.387445
-          ],
-          [
-            -12.52511,
-            -10.018534
-          ],
-          [
-            -14.3,
-            -8
-          ],
-          [
-            -17.819,
-            -5.0879
-          ],
-          [
-            -19.999803,
-            -3.28153
-          ],
-          [
-            -21.780662,
-            -1.806339
-          ],
-          [
-            -23.960846,
-            -2e-05
-          ],
-          [
-            -27.041927,
-            2.552564
-          ],
-          [
-            -27.159236,
-            2.649749
-          ],
-          [
-            -29.222944,
-            4.359034
-          ],
-          [
-            -29.829347,
-            4.861138
-          ],
-          [
-            -30.0003,
-            5.002688
-          ],
-          [
-            -31.8433,
-            6.5287
-          ],
-          [
-            -32.762118,
-            7.288622
-          ],
-          [
-            -34.4259,
-            8.664676
-          ],
-          [
-            -36.07644,
-            10.028798
-          ],
-          [
-            -38.257452,
-            11.8296
-          ],
-          [
-            -40.000523,
-            13.2666
-          ],
-          [
-            -43.776444,
-            16.37688
-          ],
-          [
-            -46.036889,
-            18.239233
-          ],
-          [
-            -48.21318,
-            20.024728
-          ],
-          [
-            -49.207335,
-            20.840203
-          ],
-          [
-            -50.000417,
-            21.489805
-          ],
-          [
-            -51.302049,
-            22.551019
-          ],
-          [
-            -54.686707,
-            25.302569
-          ],
-          [
-            -54.840663,
-            25.427012
-          ],
-          [
-            -57.046567,
-            27.210057
-          ],
-          [
-            -57.951012,
-            27.936496
-          ],
-          [
-            -58.995496,
-            28.772554
-          ],
-          [
-            -60.000119,
-            29.576705
-          ],
-          [
-            -60.223798,
-            29.75575
-          ],
-          [
-            -60.541592,
-            30.010129
-          ],
-          [
-            -61.320443,
-            30.632712
-          ],
-          [
-            -62.024698,
-            31.186227
-          ],
-          [
-            -63.143196,
-            32.06532
-          ],
-          [
-            -63.465852,
-            32.318914
-          ],
-          [
-            -64.370232,
-            33.029719
-          ],
-          [
-            -65.2756,
-            33.7413
-          ],
-          [
-            -65.80232,
-            34.143809
-          ],
-          [
-            -67.057094,
-            35.102685
-          ],
-          [
-            -68.147963,
-            35.936306
-          ],
-          [
-            -69.436,
-            36.9206
-          ],
-          [
-            -69.656388,
-            37.0784
-          ],
-          [
-            -69.73835,
-            37.137086
-          ],
-          [
-            -69.848971,
-            37.216292
-          ],
-          [
-            -69.975985,
-            37.307235
-          ],
-          [
-            -70.521347,
-            37.697721
-          ],
-          [
-            -70.98362,
-            38.028713
-          ],
-          [
-            -71.271542,
-            38.234868
-          ],
-          [
-            -71.472185,
-            38.378531
-          ],
-          [
-            -71.643369,
-            38.501101
-          ],
-          [
-            -71.798223,
-            38.611978
-          ],
-          [
-            -72.150135,
-            38.863951
-          ],
-          [
-            -72.280515,
-            38.957304
-          ],
-          [
-            -72.44495,
-            39.419124
-          ],
-          [
-            -72.4725,
-            39.4965
-          ],
-          [
-            -73.537794,
-            40.250805
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 10,
-        "to_idx": 11,
-        "verified": true,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -72.4247,
-            40.7393
-          ],
-          [
-            -71.4738,
-            41.0726
-          ],
-          [
-            -71.3569,
-            41.1171
-          ],
-          [
-            -71.1677,
-            41.325
-          ],
-          [
-            -70.8921,
-            41.3891
-          ],
-          [
-            -70.8432,
-            41.4056
-          ],
-          [
-            -70.6704,
-            41.4908
-          ],
-          [
-            -70.6342,
-            41.5038
-          ],
-          [
-            -70.5527,
-            41.4794
-          ],
-          [
-            -70.2864,
-            41.4528
-          ],
-          [
-            -70.2305,
-            41.4442
-          ],
-          [
-            -70.0641,
-            41.4823
-          ],
-          [
-            -69.5275,
-            41.5917
-          ],
-          [
-            -69.25,
-            41.8
-          ],
-          [
-            -68.3705,
-            42.119818
-          ],
-          [
-            -65.4,
-            43.2
-          ],
-          [
-            -62.183924,
-            44.501586
-          ],
-          [
-            -60.2173,
-            45.2835
-          ],
-          [
-            -59.3,
-            46.1
-          ],
-          [
-            -60.2,
-            47.75
-          ],
-          [
-            -63.3547,
-            48.9284
-          ],
-          [
-            -65.638916,
-            49.511125
-          ],
-          [
-            -66.890259,
-            49.292889
-          ],
-          [
-            -68.7297,
-            48.7027
-          ],
-          [
-            -69.625854,
-            47.820539
-          ],
-          [
-            -70.922241,
-            46.893985
-          ],
-          [
-            -71.040413,
-            46.841121
-          ],
-          [
-            -71.183098,
-            46.837089
-          ],
-          [
-            -71.234802,
-            46.766198
-          ],
-          [
-            -71.356447,
-            46.738916
-          ],
-          [
-            -71.683869,
-            46.652012
-          ],
-          [
-            -71.890961,
-            46.672032
-          ],
-          [
-            -72.194183,
-            46.547282
-          ],
-          [
-            -72.281799,
-            46.432117
-          ],
-          [
-            -72.806396,
-            46.217852
-          ],
-          [
-            -73.040098,
-            46.061274
-          ],
-          [
-            -73.164276,
-            46.038911
-          ],
-          [
-            -73.211243,
-            45.906207
-          ],
-          [
-            -73.373291,
-            45.793129
-          ],
-          [
-            -73.488373,
-            45.617586
-          ],
-          [
-            -73.535614,
-            45.509613
-          ]
-        ]
-      },
-      {
-        "from_idx": 11,
-        "to_idx": 12,
-        "verified": true,
-        "coords": [
-          [
-            -73.535614,
-            45.509613
-          ],
-          [
-            -73.488373,
-            45.617586
-          ],
-          [
-            -73.373291,
-            45.793129
-          ],
-          [
-            -73.211243,
-            45.906207
-          ],
-          [
-            -73.164276,
-            46.038911
-          ],
-          [
-            -73.040098,
-            46.061274
-          ],
-          [
-            -72.806396,
-            46.217852
-          ],
-          [
-            -72.281799,
-            46.432117
-          ],
-          [
-            -72.194183,
-            46.547282
-          ],
-          [
-            -71.890961,
-            46.672032
-          ],
-          [
-            -71.683869,
-            46.652012
-          ],
-          [
-            -71.356447,
-            46.738916
-          ],
-          [
-            -71.234802,
-            46.766198
-          ],
-          [
-            -71.183098,
-            46.837089
-          ],
-          [
-            -71.040413,
-            46.841121
-          ],
-          [
-            -70.922241,
-            46.893985
-          ],
-          [
-            -69.625854,
-            47.820539
-          ],
-          [
-            -68.7297,
-            48.7027
-          ],
-          [
-            -66.890259,
-            49.292889
-          ],
-          [
-            -65.638916,
-            49.511125
-          ],
-          [
-            -63.3547,
-            48.9284
-          ],
-          [
-            -60.2,
-            47.75
-          ],
-          [
-            -59.3,
-            46.1
-          ],
-          [
-            -60.2173,
-            45.2835
-          ],
-          [
-            -62.183924,
-            44.501586
-          ],
-          [
-            -65.4,
-            43.2
-          ],
-          [
-            -68.3705,
-            42.119818
-          ],
-          [
-            -69.25,
-            41.8
-          ],
-          [
-            -69.5275,
-            41.5917
-          ],
-          [
-            -70.0641,
-            41.4823
-          ],
-          [
-            -70.2305,
-            41.4442
-          ],
-          [
-            -70.2864,
-            41.4528
-          ],
-          [
-            -70.5527,
-            41.4794
-          ],
-          [
-            -70.6342,
-            41.5038
-          ],
-          [
-            -70.6704,
-            41.4908
-          ],
-          [
-            -70.8432,
-            41.4056
-          ],
-          [
-            -70.8921,
-            41.3891
-          ],
-          [
-            -71.1677,
-            41.325
-          ],
-          [
-            -71.3569,
-            41.1171
-          ],
-          [
-            -71.4738,
-            41.0726
-          ],
-          [
-            -72.4247,
-            40.7393
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 12,
-        "to_idx": 13,
-        "verified": true,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -73.537794,
-            40.250805
-          ],
-          [
-            -72.4725,
-            39.4965
-          ],
-          [
-            -72.44495,
-            39.419124
-          ],
-          [
-            -72.280515,
-            38.957304
-          ],
-          [
-            -72.150135,
-            38.863951
-          ],
-          [
-            -71.798223,
-            38.611978
-          ],
-          [
-            -71.643369,
-            38.501101
-          ],
-          [
-            -71.472185,
-            38.378531
-          ],
-          [
-            -71.271542,
-            38.234868
-          ],
-          [
-            -70.98362,
-            38.028713
-          ],
-          [
-            -70.521347,
-            37.697721
-          ],
-          [
-            -69.975985,
-            37.307235
-          ],
-          [
-            -69.848971,
-            37.216292
-          ],
-          [
-            -69.73835,
-            37.137086
-          ],
-          [
-            -69.656388,
-            37.0784
-          ],
-          [
-            -69.436,
-            36.9206
-          ],
-          [
-            -68.147963,
-            35.936306
-          ],
-          [
-            -67.057094,
-            35.102685
-          ],
-          [
-            -65.80232,
-            34.143809
-          ],
-          [
-            -65.2756,
-            33.7413
-          ],
-          [
-            -64.370232,
-            33.029719
-          ],
-          [
-            -63.465852,
-            32.318914
-          ],
-          [
-            -63.143196,
-            32.06532
-          ],
-          [
-            -62.024698,
-            31.186227
-          ],
-          [
-            -61.320443,
-            30.632712
-          ],
-          [
-            -60.541592,
-            30.010129
-          ],
-          [
-            -60.223798,
-            29.75575
-          ],
-          [
-            -60.000119,
-            29.576705
-          ],
-          [
-            -58.995496,
-            28.772554
-          ],
-          [
-            -57.951012,
-            27.936496
-          ],
-          [
-            -57.046567,
-            27.210057
-          ],
-          [
-            -54.840663,
-            25.427012
-          ],
-          [
-            -54.686707,
-            25.302569
-          ],
-          [
-            -51.302049,
-            22.551019
-          ],
-          [
-            -50.000417,
-            21.489805
-          ],
-          [
-            -49.207335,
-            20.840203
-          ],
-          [
-            -48.21318,
-            20.024728
-          ],
-          [
-            -46.036889,
-            18.239233
-          ],
-          [
-            -43.776444,
-            16.37688
-          ],
-          [
-            -40.000523,
-            13.2666
-          ],
-          [
-            -38.257452,
-            11.8296
-          ],
-          [
-            -36.07644,
-            10.028798
-          ],
-          [
-            -34.4259,
-            8.664676
-          ],
-          [
-            -32.762118,
-            7.288622
-          ],
-          [
-            -31.8433,
-            6.5287
-          ],
-          [
-            -30.0003,
-            5.002688
-          ],
-          [
-            -29.829347,
-            4.861138
-          ],
-          [
-            -29.222944,
-            4.359034
-          ],
-          [
-            -27.159236,
-            2.649749
-          ],
-          [
-            -27.041927,
-            2.552564
-          ],
-          [
-            -23.960846,
-            -2e-05
-          ],
-          [
-            -21.780662,
-            -1.806339
-          ],
-          [
-            -19.999803,
-            -3.28153
-          ],
-          [
-            -17.819,
-            -5.0879
-          ],
-          [
-            -14.3,
-            -8
-          ],
-          [
-            -12.52511,
-            -10.018534
-          ],
-          [
-            -11.321431,
-            -11.387445
-          ],
-          [
-            -9.999538,
-            -12.890797
-          ],
-          [
-            -6.625182,
-            -16.728359
-          ],
-          [
-            -2.645049,
-            -20.036605
-          ],
-          [
-            -1.147621,
-            -21.216471
-          ],
-          [
-            0.000594,
-            -22.121182
-          ],
-          [
-            4.581235,
-            -25.7304
-          ],
-          [
-            10,
-            -30
-          ],
-          [
-            13.9085,
-            -32.5342
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            25.640717,
-            -33.918292
-          ]
-        ]
-      },
-      {
-        "from_idx": 13,
-        "to_idx": 14,
-        "verified": true,
-        "coords": [
-          [
-            25.640717,
-            -33.918292
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            28.5,
-            -33.5
-          ]
-        ]
-      },
-      {
-        "from_idx": 14,
-        "to_idx": 15,
-        "verified": true,
-        "coords": [
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 15,
-        "to_idx": 16,
-        "verified": true,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.606049,
-            -25.995081
-          ]
-        ]
-      },
-      {
-        "from_idx": 16,
-        "to_idx": 17,
-        "verified": true,
-        "coords": [
-          [
-            32.606049,
-            -25.995081
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            32,
-            -30
-          ],
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            13.9085,
-            -32.5342
-          ],
-          [
-            10,
-            -30
-          ],
-          [
-            4.581235,
-            -25.7304
-          ],
-          [
-            0.000594,
-            -22.121182
-          ],
-          [
-            -1.147621,
-            -21.216471
-          ],
-          [
-            -2.645049,
-            -20.036605
-          ],
-          [
-            -6.625182,
-            -16.728359
-          ],
-          [
-            -9.999538,
-            -12.890797
-          ],
-          [
-            -11.321431,
-            -11.387445
-          ],
-          [
-            -12.52511,
-            -10.018534
-          ],
-          [
-            -14.3,
-            -8
-          ],
-          [
-            -17.819,
-            -5.0879
-          ],
-          [
-            -19.999803,
-            -3.28153
-          ],
-          [
-            -21.780662,
-            -1.806339
-          ],
-          [
-            -23.960846,
-            -2e-05
-          ],
-          [
-            -27.041927,
-            2.552564
-          ],
-          [
-            -27.159236,
-            2.649749
-          ],
-          [
-            -29.222944,
-            4.359034
-          ],
-          [
-            -29.829347,
-            4.861138
-          ],
-          [
-            -30.0003,
-            5.002688
-          ],
-          [
-            -31.8433,
-            6.5287
-          ],
-          [
-            -32.762118,
-            7.288622
-          ],
-          [
-            -34.4259,
-            8.664676
-          ],
-          [
-            -36.07644,
-            10.028798
-          ],
-          [
-            -38.257452,
-            11.8296
-          ],
-          [
-            -40.000523,
-            13.2666
-          ],
-          [
-            -43.776444,
-            16.37688
-          ],
-          [
-            -46.036889,
-            18.239233
-          ],
-          [
-            -48.21318,
-            20.024728
-          ],
-          [
-            -49.207335,
-            20.840203
-          ],
-          [
-            -50.000417,
-            21.489805
-          ],
-          [
-            -51.302049,
-            22.551019
-          ],
-          [
-            -54.686707,
-            25.302569
-          ],
-          [
-            -54.840663,
-            25.427012
-          ],
-          [
-            -57.046567,
-            27.210057
-          ],
-          [
-            -57.951012,
-            27.936496
-          ],
-          [
-            -58.995496,
-            28.772554
-          ],
-          [
-            -60.000119,
-            29.576705
-          ],
-          [
-            -60.223798,
-            29.75575
-          ],
-          [
-            -60.541592,
-            30.010129
-          ],
-          [
-            -61.320443,
-            30.632712
-          ],
-          [
-            -62.024698,
-            31.186227
-          ],
-          [
-            -63.143196,
-            32.06532
-          ],
-          [
-            -63.465852,
-            32.318914
-          ],
-          [
-            -64.370232,
-            33.029719
-          ],
-          [
-            -65.2756,
-            33.7413
-          ],
-          [
-            -65.80232,
-            34.143809
-          ],
-          [
-            -67.057094,
-            35.102685
-          ],
-          [
-            -68.147963,
-            35.936306
-          ],
-          [
-            -69.436,
-            36.9206
-          ],
-          [
-            -69.656388,
-            37.0784
-          ],
-          [
-            -69.73835,
-            37.137086
-          ],
-          [
-            -69.848971,
-            37.216292
-          ],
-          [
-            -69.975985,
-            37.307235
-          ],
-          [
-            -70.521347,
-            37.697721
-          ],
-          [
-            -70.98362,
-            38.028713
-          ],
-          [
-            -71.271542,
-            38.234868
-          ],
-          [
-            -71.472185,
-            38.378531
-          ],
-          [
-            -71.643369,
-            38.501101
-          ],
-          [
-            -71.798223,
-            38.611978
-          ],
-          [
-            -72.150135,
-            38.863951
-          ],
-          [
-            -72.280515,
-            38.957304
-          ],
-          [
-            -72.44495,
-            39.419124
-          ],
-          [
-            -72.4725,
-            39.4965
-          ],
-          [
-            -73.537794,
-            40.250805
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 17,
-        "to_idx": 18,
-        "verified": true,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -73.7932,
-            40.3456
-          ],
-          [
-            -73.783,
-            40.0331
-          ],
-          [
-            -73.7709,
-            39.759
-          ],
-          [
-            -73.921285,
-            39.411453
-          ],
-          [
-            -74.5743,
-            38.787
-          ],
-          [
-            -74.5647,
-            38.6565
-          ],
-          [
-            -74.5502,
-            38.5317
-          ],
-          [
-            -74.5315,
-            38.3084
-          ],
-          [
-            -75.0202,
-            37.6502
-          ],
-          [
-            -75.1485,
-            37.4694
-          ],
-          [
-            -75.287,
-            37.2901
-          ],
-          [
-            -75.4399,
-            37.0813
-          ],
-          [
-            -75.8067,
-            36.8468
-          ],
-          [
-            -75.9599,
-            36.9485
-          ],
-          [
-            -76.0085,
-            36.9585
-          ],
-          [
-            -76.269836,
-            36.999262
-          ]
-        ]
-      },
-      {
-        "from_idx": 18,
-        "to_idx": 19,
-        "verified": true,
-        "coords": [
-          [
-            -76.269836,
-            36.999262
-          ],
-          [
-            -76.0085,
-            36.9585
-          ],
-          [
-            -75.9599,
-            36.9485
-          ],
-          [
-            -75.8067,
-            36.8468
-          ],
-          [
-            -75.4399,
-            37.0813
-          ],
-          [
-            -75.287,
-            37.2901
-          ],
-          [
-            -75.1485,
-            37.4694
-          ],
-          [
-            -75.0202,
-            37.6502
-          ],
-          [
-            -74.5315,
-            38.3084
-          ],
-          [
-            -74.5502,
-            38.5317
-          ],
-          [
-            -74.5647,
-            38.6565
-          ],
-          [
-            -74.5743,
-            38.787
-          ],
-          [
-            -73.921285,
-            39.411453
-          ],
-          [
-            -73.7709,
-            39.759
-          ],
-          [
-            -73.783,
-            40.0331
-          ],
-          [
-            -73.7932,
-            40.3456
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 19,
-        "to_idx": 20,
-        "verified": true,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.8129,
-            40.4456
-          ],
-          [
-            -73.537794,
-            40.250805
-          ],
-          [
-            -72.4725,
-            39.4965
-          ],
-          [
-            -72.44495,
-            39.419124
-          ],
-          [
-            -72.280515,
-            38.957304
-          ],
-          [
-            -72.150135,
-            38.863951
-          ],
-          [
-            -71.798223,
-            38.611978
-          ],
-          [
-            -71.643369,
-            38.501101
-          ],
-          [
-            -71.472185,
-            38.378531
-          ],
-          [
-            -71.271542,
-            38.234868
-          ],
-          [
-            -70.98362,
-            38.028713
-          ],
-          [
-            -70.521347,
-            37.697721
-          ],
-          [
-            -69.975985,
-            37.307235
-          ],
-          [
-            -69.848971,
-            37.216292
-          ],
-          [
-            -69.73835,
-            37.137086
-          ],
-          [
-            -69.656388,
-            37.0784
-          ],
-          [
-            -69.436,
-            36.9206
-          ],
-          [
-            -68.147963,
-            35.936306
-          ],
-          [
-            -67.057094,
-            35.102685
-          ],
-          [
-            -65.80232,
-            34.143809
-          ],
-          [
-            -65.2756,
-            33.7413
-          ],
-          [
-            -64.370232,
-            33.029719
-          ],
-          [
-            -63.465852,
-            32.318914
-          ],
-          [
-            -63.143196,
-            32.06532
-          ],
-          [
-            -62.024698,
-            31.186227
-          ],
-          [
-            -61.320443,
-            30.632712
-          ],
-          [
-            -60.541592,
-            30.010129
-          ],
-          [
-            -60.223798,
-            29.75575
-          ],
-          [
-            -60.000119,
-            29.576705
-          ],
-          [
-            -58.995496,
-            28.772554
-          ],
-          [
-            -57.951012,
-            27.936496
-          ],
-          [
-            -57.046567,
-            27.210057
-          ],
-          [
-            -54.840663,
-            25.427012
-          ],
-          [
-            -54.686707,
-            25.302569
-          ],
-          [
-            -51.302049,
-            22.551019
-          ],
-          [
-            -50.000417,
-            21.489805
-          ],
-          [
-            -49.207335,
-            20.840203
-          ],
-          [
-            -48.21318,
-            20.024728
-          ],
-          [
-            -46.036889,
-            18.239233
-          ],
-          [
-            -43.776444,
-            16.37688
-          ],
-          [
-            -40.000523,
-            13.2666
-          ],
-          [
-            -38.257452,
-            11.8296
-          ],
-          [
-            -36.07644,
-            10.028798
-          ],
-          [
-            -34.4259,
-            8.664676
-          ],
-          [
-            -32.762118,
-            7.288622
-          ],
-          [
-            -31.8433,
-            6.5287
-          ],
-          [
-            -30.0003,
-            5.002688
-          ],
-          [
-            -29.829347,
-            4.861138
-          ],
-          [
-            -29.222944,
-            4.359034
-          ],
-          [
-            -27.159236,
-            2.649749
-          ],
-          [
-            -27.041927,
-            2.552564
-          ],
-          [
-            -23.960846,
-            -2e-05
-          ],
-          [
-            -21.780662,
-            -1.806339
-          ],
-          [
-            -19.999803,
-            -3.28153
-          ],
-          [
-            -17.819,
-            -5.0879
-          ],
-          [
-            -14.3,
-            -8
-          ],
-          [
-            -12.52511,
-            -10.018534
-          ],
-          [
-            -11.321431,
-            -11.387445
-          ],
-          [
-            -9.999538,
-            -12.890797
-          ],
-          [
-            -6.625182,
-            -16.728359
-          ],
-          [
-            -2.645049,
-            -20.036605
-          ],
-          [
-            -1.147621,
-            -21.216471
-          ],
-          [
-            0.000594,
-            -22.121182
-          ],
-          [
-            4.581235,
-            -25.7304
-          ],
-          [
-            10,
-            -30
-          ],
-          [
-            13.9085,
-            -32.5342
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            25.640717,
-            -33.918292
-          ]
-        ]
-      },
-      {
-        "from_idx": 20,
-        "to_idx": 21,
-        "verified": true,
-        "coords": [
-          [
-            25.640717,
-            -33.918292
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            28.5,
-            -33.5
-          ]
-        ]
-      },
-      {
-        "from_idx": 21,
-        "to_idx": 22,
-        "verified": true,
-        "coords": [
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 22,
-        "to_idx": 23,
-        "verified": true,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.606049,
-            -25.995081
-          ]
-        ]
-      },
-      {
-        "from_idx": 23,
-        "to_idx": 24,
-        "verified": true,
-        "coords": [
-          [
-            32.606049,
-            -25.995081
           ],
           [
             32.827148,
@@ -23707,2528 +16206,489 @@ const VOYAGES = [
             -24
           ],
           [
-            42.51709,
-            -16.678293
+            38.929,
+            -19.5234
           ],
           [
-            46.9055,
-            -12.783871
+            41.7,
+            -15
           ],
           [
-            50,
+            41,
             -10
           ],
           [
-            54.286051,
-            -10.031461
+            40,
+            -6.5
           ],
           [
-            60,
-            -10
+            40.3,
+            -4.2
           ],
           [
-            62.5333,
-            -7.5169
-          ],
-          [
-            64.9999,
-            -5.057193
-          ],
-          [
-            66.708666,
-            -3.334083
-          ],
-          [
-            67.449371,
-            -2.586972
-          ],
-          [
-            67.5237,
-            -2.512
-          ],
-          [
-            70,
-            -3e-05
-          ],
-          [
-            73.560879,
-            4.143884
-          ],
-          [
-            73.845613,
-            4.845613
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            78.868856,
-            6.674926
-          ],
-          [
-            79.789581,
-            6.994585
-          ]
-        ]
-      },
-      {
-        "from_idx": 24,
-        "to_idx": 25,
-        "verified": true,
-        "coords": [
-          [
-            79.789581,
-            6.994585
-          ],
-          [
-            78.868856,
-            6.674926
-          ],
-          [
-            78.019032,
-            6.387793
-          ],
-          [
-            75.966807,
-            6.966807
-          ],
-          [
-            70.817426,
-            8.365148
-          ],
-          [
-            69.999915,
-            8.582747
-          ],
-          [
-            69.671733,
-            8.6701
-          ],
-          [
-            69.3291,
-            8.7613
-          ],
-          [
-            68.858995,
-            8.881605
-          ],
-          [
-            65.7044,
-            9.6889
-          ],
-          [
-            64.992809,
-            9.862937
-          ],
-          [
-            64.698862,
-            9.934828
-          ],
-          [
-            64.303249,
-            10.031585
-          ],
-          [
-            62.0601,
-            10.5802
-          ],
-          [
-            60.825733,
-            10.866984
-          ],
-          [
-            59.894005,
-            11.083455
-          ],
-          [
-            55.041504,
-            12.747516
-          ],
-          [
-            53.61885,
-            13.300009
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 25,
-        "to_idx": 26,
-        "verified": true,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ]
-        ]
-      },
-      {
-        "from_idx": 26,
-        "to_idx": 27,
-        "verified": true,
-        "coords": [
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.36445,
-            36.83741
-          ],
-          [
-            -10.855872,
-            37.324914
-          ],
-          [
-            -11.138637,
-            37.417342
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -13.755544,
-            38.272734
-          ],
-          [
-            -14.5065,
-            38.5182
-          ],
-          [
-            -20,
-            40
-          ],
-          [
-            -25.565029,
-            41.125083
-          ],
-          [
-            -25.9351,
-            41.1999
-          ],
-          [
-            -28.584901,
-            41.584862
-          ],
-          [
-            -30.001074,
-            41.790603
-          ],
-          [
-            -31.940532,
-            42.072366
-          ],
-          [
-            -32.0626,
-            42.0901
-          ],
-          [
-            -34.863425,
-            42.340269
-          ],
-          [
-            -37.685353,
-            42.592324
-          ],
-          [
-            -38.3322,
-            42.6501
-          ],
-          [
-            -40.001623,
-            42.706999
-          ],
-          [
-            -42.618304,
-            42.796183
-          ],
-          [
-            -44.6814,
-            42.8665
-          ],
-          [
-            -47.493255,
-            42.807466
-          ],
-          [
-            -50.001652,
-            42.754804
-          ],
-          [
-            -51.0402,
-            42.733
-          ],
-          [
-            -52.53975,
-            42.618612
-          ],
-          [
-            -52.613022,
-            42.613022
-          ],
-          [
-            -57.3379,
-            42.2526
-          ],
-          [
-            -62.794754,
-            41.53046
-          ],
-          [
-            -63.5093,
-            41.4359
-          ],
-          [
-            -64.632986,
-            41.222837
-          ],
-          [
-            -68.782982,
-            40.435954
-          ],
-          [
-            -68.813685,
-            40.430133
-          ],
-          [
-            -68.907278,
-            40.412386
-          ],
-          [
-            -69.5,
-            40.3
-          ],
-          [
-            -71.289425,
-            40.419295
-          ],
-          [
-            -71.557579,
-            40.437172
-          ],
-          [
-            -71.798554,
-            40.453237
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 27,
-        "to_idx": 28,
-        "verified": true,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -72.4247,
-            40.7393
-          ],
-          [
-            -71.4738,
-            41.0726
-          ],
-          [
-            -71.3569,
-            41.1171
-          ],
-          [
-            -71.1677,
-            41.325
-          ],
-          [
-            -70.8921,
-            41.3891
-          ],
-          [
-            -70.8432,
-            41.4056
-          ],
-          [
-            -70.6704,
-            41.4908
-          ],
-          [
-            -70.6342,
-            41.5038
-          ],
-          [
-            -70.5527,
-            41.4794
-          ],
-          [
-            -70.2864,
-            41.4528
-          ],
-          [
-            -70.2305,
-            41.4442
-          ],
-          [
-            -70.0641,
-            41.4823
-          ],
-          [
-            -69.5275,
-            41.5917
-          ],
-          [
-            -69.25,
-            41.8
-          ],
-          [
-            -68.3705,
-            42.119818
-          ],
-          [
-            -65.4,
-            43.2
-          ],
-          [
-            -62.183924,
-            44.501586
-          ],
-          [
-            -55,
-            45
-          ],
-          [
-            -50.002066,
-            46.558558
-          ],
-          [
-            -49.6649,
-            46.6637
-          ],
-          [
-            -47.121001,
-            47.29537
-          ],
-          [
-            -44.0207,
-            48.0652
-          ],
-          [
-            -41.658626,
-            48.508366
-          ],
-          [
-            -40.000709,
-            48.819419
-          ],
-          [
-            -38.952623,
-            49.016058
-          ],
-          [
-            -38.0964,
-            49.1767
-          ],
-          [
-            -31.9411,
-            49.9736
-          ],
-          [
-            -31.580914,
-            50
-          ],
-          [
-            -30.170671,
-            50.103364
-          ],
-          [
-            -30.103901,
-            50.108258
-          ],
-          [
-            -30.0001,
-            50.115866
-          ],
-          [
-            -29.894016,
-            50.123642
-          ],
-          [
-            -25.6242,
-            50.4366
-          ],
-          [
-            -20.509014,
-            50.530446
-          ],
-          [
-            -20.000464,
-            50.539776
-          ],
-          [
-            -19.529903,
-            50.548409
-          ],
-          [
-            -19.2306,
-            50.5539
-          ],
-          [
-            -16.72313,
-            50.463036
-          ],
-          [
-            -15.688076,
-            50.609294
-          ],
-          [
-            -14.920876,
-            50.717702
-          ],
-          [
-            -12.36921,
-            51.078264
-          ],
-          [
-            -10.8,
-            51.3
-          ],
-          [
-            -9.6,
-            51.3333
-          ],
-          [
-            -8.045595,
-            51.659101
-          ],
-          [
-            -6.843006,
-            51.911162
-          ],
-          [
-            -6.274194,
-            52.030384
-          ],
-          [
-            -5.781725,
-            52.16867
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
-    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/168876_city_of_chester.jpeg"
-  },
-  {
-    "id": "brooklyn-1949",
-    "ship": "City of Brooklyn",
-    "ship_no": "182488",
-    "line": "Ellerman Lines (City Line)",
-    "built": "1949, launched Wallsend 8 Dec 1948",
-    "tons": "4,411 grt",
-    "flag": "🆕 Brand New Ship",
-    "engaged": "25 May 1949, Liverpool",
-    "discharged": "9 Jun 1950, Liverpool",
-    "engagement_date": "1949-05-25",
-    "discharge_date": "1950-06-09",
-    "rank": "Chief Steward",
-    "authoritative_discharge": true,
-    "card_image": "city_of_brooklyn_card1_first.jpg",
-    "note": "Brand new ship — William was aboard for her maiden voyage from the Tyne. CRS10 notes NY 12 Jun 1949 from Newcastle. Voyage card documents full route: India, US East Coast, South Africa, East Africa, Northern Europe.",
-    "voyage_note": "Maiden voyage of a new ship. India run, then US East Coast, South Africa, touched bottom at Beira, Northern European ports. 13 months.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Engaged May 1949",
-        "date": null
-      },
-      {
-        "port": "Tyne",
-        "lon": -1.6178,
-        "lat": 54.9783,
-        "verified": false,
-        "note": "CRS10: from Newcastle — Tyne trials; voyage card confirms",
-        "date": null
-      },
-      {
-        "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
-        "verified": false,
-        "note": "CRS10: NY 12 Jun 1949 from Newcastle",
-        "date": null
-      },
-      {
-        "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Voyage card: Port Said Jul 1949",
-        "date": null
-      },
-      {
-        "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
-        "verified": false,
-        "note": "Voyage card: Suez",
-        "date": null
-      },
-      {
-        "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Voyage card: Aden",
-        "date": null
-      },
-      {
-        "port": "Karachi",
-        "lon": 67.0011,
-        "lat": 24.8607,
-        "verified": false,
-        "note": "Voyage card: Karachi",
-        "date": null
-      },
-      {
-        "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
-        "verified": false,
-        "note": "Voyage card: Bombay",
-        "date": null
-      },
-      {
-        "port": "Colombo",
-        "lon": 79.8612,
-        "lat": 6.9271,
-        "verified": false,
-        "note": "Voyage card: Colombo",
-        "date": null
-      },
-      {
-        "port": "Madras",
-        "lon": 80.2707,
-        "lat": 13.0827,
-        "verified": false,
-        "note": "Voyage card: Madras",
-        "date": null
-      },
-      {
-        "port": "Vizagapatam",
-        "lon": 83.2185,
-        "lat": 17.6868,
-        "verified": false,
-        "note": "Voyage card: Vizagapatam",
-        "date": null
-      },
-      {
-        "port": "Calcutta",
-        "lon": 88.3639,
-        "lat": 22.5726,
-        "verified": false,
-        "note": "Voyage card: Calcutta",
-        "date": null
-      },
-      {
-        "port": "New York",
-        "lon": -74.006,
-        "lat": 40.7128,
-        "verified": false,
-        "note": "Voyage card: US East Coast run",
-        "date": null
-      },
-      {
-        "port": "Philadelphia",
-        "lon": -75.1652,
-        "lat": 39.9526,
-        "verified": false,
-        "note": "Voyage card: Philadelphia",
-        "date": null
-      },
-      {
-        "port": "Baltimore",
-        "lon": -76.6122,
-        "lat": 39.2904,
-        "verified": false,
-        "note": "Voyage card: Baltimore",
-        "date": null
-      },
-      {
-        "port": "Hampton Roads",
-        "lon": -76.3219,
-        "lat": 36.9468,
-        "verified": false,
-        "note": "Voyage card: Hampton Roads",
-        "date": null
-      },
-      {
-        "port": "Cape Town",
-        "lon": 18.4241,
-        "lat": -33.9249,
-        "verified": false,
-        "note": "Voyage card: Cape Town",
-        "date": null
-      },
-      {
-        "port": "Port Elizabeth",
-        "lon": 25.6022,
-        "lat": -33.9608,
-        "verified": false,
-        "note": "Voyage card: Port Elizabeth",
-        "date": null
-      },
-      {
-        "port": "East London",
-        "lon": 27.9116,
-        "lat": -33.0153,
-        "verified": false,
-        "note": "Voyage card: East London",
-        "date": null
-      },
-      {
-        "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
-        "verified": false,
-        "note": "Voyage card: Durban",
-        "date": null
-      },
-      {
-        "port": "Beira",
-        "lon": 34.8389,
-        "lat": -19.8436,
-        "verified": false,
-        "note": "Voyage card: Beira — grounding Aug 1950",
-        "date": null
-      },
-      {
-        "port": "Lourenco Marques",
-        "lon": 32.5732,
-        "lat": -25.9692,
-        "verified": false,
-        "note": "Voyage card: Lourenco Marques",
-        "date": null
-      },
-      {
-        "port": "Tenerife",
-        "lon": -16.6291,
-        "lat": 28.2916,
-        "verified": false,
-        "note": "Voyage card: Tenerife",
-        "date": null
-      },
-      {
-        "port": "Antwerp",
-        "lon": 4.3997,
-        "lat": 51.2213,
-        "verified": false,
-        "note": "Voyage card: Antwerp",
-        "date": null
-      },
-      {
-        "port": "Rotterdam",
-        "lon": 4.4777,
-        "lat": 51.9244,
-        "verified": false,
-        "note": "Voyage card: Rotterdam",
-        "date": null
-      },
-      {
-        "port": "Hamburg",
-        "lon": 10.0153,
-        "lat": 53.5753,
-        "verified": false,
-        "note": "Voyage card: Hamburg",
-        "date": null
-      },
-      {
-        "port": "London",
-        "lon": -0.1278,
-        "lat": 51.5074,
-        "verified": false,
-        "note": "Voyage card: London",
-        "date": null
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "CRS10: discharged Liverpool 9 Jun 1950",
-        "date": null
-      }
-    ],
-    "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5666.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5667.jpeg"
-    ],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.831515,
-            53.940031
-          ],
-          [
-            -4.162754,
-            54.389945
-          ],
-          [
-            -5.002755,
-            54.604048
-          ],
-          [
-            -5.137288,
-            54.638339
-          ],
-          [
-            -5.2,
-            54.8
-          ],
-          [
-            -5.445564,
-            54.990994
-          ],
-          [
-            -5.854566,
-            55.309107
-          ],
-          [
-            -6.201782,
-            55.422779
-          ],
-          [
-            -6.654443,
-            55.698575
-          ],
-          [
-            -6.580727,
-            56.173018
-          ],
-          [
-            -6.567442,
-            56.420585
-          ],
-          [
-            -6.38018,
-            56.622089
-          ],
-          [
-            -6.316952,
-            56.690147
-          ],
-          [
-            -5.8274,
-            57.0506
-          ],
-          [
-            -5.658717,
-            57.22077
-          ],
-          [
-            -5.655077,
-            57.267716
-          ],
-          [
-            -5.778249,
-            57.284772
-          ],
-          [
-            -5.894746,
-            57.347681
-          ],
-          [
-            -5.9098,
-            57.5462
-          ],
-          [
-            -5.87533,
-            57.823831
-          ],
-          [
-            -5.784214,
-            58.005856
-          ],
-          [
-            -5.729708,
-            58.114745
-          ],
-          [
-            -4.799483,
-            58.7
-          ],
-          [
-            -3.397818,
-            58.762202
-          ],
-          [
-            -2.874305,
-            58.649909
-          ],
-          [
-            -1.746,
-            57.664
-          ],
-          [
-            -1.4,
-            57.3
-          ],
-          [
-            -2.3,
-            56.3
-          ],
-          [
-            -1.690521,
-            55.77889
-          ],
-          [
-            -1,
-            55.1
-          ],
-          [
-            -1.435432,
-            55.006961
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -1.435432,
-            55.006961
-          ],
-          [
-            -1,
-            55.1
-          ],
-          [
-            -1.690521,
-            55.77889
-          ],
-          [
-            -2.3,
-            56.3
-          ],
-          [
-            -1.4,
-            57.3
-          ],
-          [
-            -1.746,
-            57.664
-          ],
-          [
-            -2.874305,
-            58.649909
-          ],
-          [
-            -3.397818,
-            58.762202
-          ],
-          [
-            -4.799483,
-            58.7
-          ],
-          [
-            -5.2,
-            58.7
-          ],
-          [
-            -5.720463,
-            58.67623
-          ],
-          [
-            -5.722863,
-            58.67612
-          ],
-          [
-            -5.723212,
-            58.676105
-          ],
-          [
-            -6.489458,
-            58.64111
-          ],
-          [
-            -10.1362,
-            58.47456
-          ],
-          [
-            -11.841927,
-            58.396659
-          ],
-          [
-            -16.516959,
-            57.946839
-          ],
-          [
-            -17.704327,
-            57.823884
-          ],
-          [
-            -18.941948,
-            57.695725
-          ],
-          [
-            -19.4569,
-            57.6424
-          ],
-          [
-            -20.002106,
-            57.552768
-          ],
-          [
-            -23.465597,
-            56.983365
-          ],
-          [
-            -26.35425,
-            56.494332
-          ],
-          [
-            -30.003737,
-            55.657007
-          ],
-          [
-            -32.387,
-            55.1102
-          ],
-          [
-            -34.342459,
-            54.524551
-          ],
-          [
-            -36.435655,
-            53.89765
-          ],
-          [
-            -36.736047,
-            53.807684
-          ],
-          [
-            -38.1634,
-            53.3802
-          ],
-          [
-            -40.002313,
-            52.690451
-          ],
-          [
-            -41.89827,
-            51.979306
-          ],
-          [
-            -43.459,
-            51.3939
-          ],
-          [
-            -46.515249,
-            50
-          ],
-          [
-            -48.293,
-            49.1892
-          ],
-          [
-            -48.828117,
-            48.899093
-          ],
-          [
-            -50.001043,
-            48.263206
-          ],
-          [
-            -52.7,
-            46.8
-          ],
-          [
-            -54,
-            46.1
-          ],
-          [
-            -55,
-            45
-          ],
-          [
-            -62.183924,
-            44.501586
-          ],
-          [
-            -65.4,
-            43.2
-          ],
-          [
-            -68.3705,
-            42.119818
-          ],
-          [
-            -69.25,
-            41.8
-          ],
-          [
-            -69.5275,
-            41.5917
-          ],
-          [
-            -70.0641,
-            41.4823
-          ],
-          [
-            -70.2305,
-            41.4442
-          ],
-          [
-            -70.2864,
-            41.4528
-          ],
-          [
-            -70.5527,
-            41.4794
-          ],
-          [
-            -70.6342,
-            41.5038
-          ],
-          [
-            -70.6704,
-            41.4908
-          ],
-          [
-            -70.8432,
-            41.4056
-          ],
-          [
-            -70.8921,
-            41.3891
-          ],
-          [
-            -71.1677,
-            41.325
-          ],
-          [
-            -71.3569,
-            41.1171
-          ],
-          [
-            -71.4738,
-            41.0726
-          ],
-          [
-            -72.4247,
-            40.7393
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.023819,
-            40.708751
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            -74.023819,
-            40.708751
-          ],
-          [
-            -74.0488,
-            40.6676
-          ],
-          [
-            -74.0561,
-            40.6285
-          ],
-          [
-            -74.0106,
-            40.5253
-          ],
-          [
-            -73.027658,
-            40.535177
-          ],
-          [
-            -71.798554,
-            40.453237
-          ],
-          [
-            -71.557579,
-            40.437172
-          ],
-          [
-            -71.289425,
-            40.419295
-          ],
-          [
-            -69.5,
-            40.3
-          ],
-          [
-            -68.907278,
-            40.412386
-          ],
-          [
-            -68.813685,
-            40.430133
-          ],
-          [
-            -68.782982,
-            40.435954
-          ],
-          [
-            -64.632986,
-            41.222837
-          ],
-          [
-            -63.5093,
-            41.4359
-          ],
-          [
-            -62.794754,
-            41.53046
-          ],
-          [
-            -57.3379,
-            42.2526
-          ],
-          [
-            -52.613022,
-            42.613022
-          ],
-          [
-            -52.53975,
-            42.618612
-          ],
-          [
-            -51.0402,
-            42.733
-          ],
-          [
-            -50.001652,
-            42.754804
-          ],
-          [
-            -47.493255,
-            42.807466
-          ],
-          [
-            -44.6814,
-            42.8665
-          ],
-          [
-            -42.618304,
-            42.796183
-          ],
-          [
-            -40.001623,
-            42.706999
-          ],
-          [
-            -38.3322,
-            42.6501
-          ],
-          [
-            -37.685353,
-            42.592324
-          ],
-          [
-            -34.863425,
-            42.340269
-          ],
-          [
-            -32.0626,
-            42.0901
-          ],
-          [
-            -31.940532,
-            42.072366
-          ],
-          [
-            -30.001074,
-            41.790603
-          ],
-          [
-            -28.584901,
-            41.584862
-          ],
-          [
-            -25.9351,
-            41.1999
-          ],
-          [
-            -25.565029,
-            41.125083
-          ],
-          [
-            -20,
-            40
-          ],
-          [
-            -14.5065,
-            38.5182
-          ],
-          [
-            -13.755544,
-            38.272734
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -11.138637,
-            37.417342
-          ],
-          [
-            -10.855872,
-            37.324914
-          ],
-          [
-            -9.36445,
-            36.83741
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            32.359877,
-            31.336373
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.557983,
-            30.213982
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            44.972534,
-            12.710009
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            44.972534,
-            12.710009
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            49.5581,
-            14.1436
-          ],
-          [
-            54.2,
-            16.2
-          ],
-          [
-            56.876033,
-            17.38386
-          ],
-          [
-            58.191833,
-            18.742507
-          ],
-          [
-            59,
-            20
-          ],
-          [
-            62.375976,
-            21.440441
-          ],
-          [
-            64.447045,
-            22.842503
-          ],
-          [
-            66.6,
-            24.3
-          ],
-          [
-            66.975702,
-            24.817412
+            39.830933,
+            -4.061536
           ]
         ]
       },
       {
         "from_idx": 6,
         "to_idx": 7,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            66.975702,
-            24.817412
+            39.830933,
+            -4.061536
           ],
           [
-            66.6,
-            24.3
+            40.3,
+            -4.2
           ],
           [
-            68.719482,
-            22.543001
+            40,
+            -6.5
           ],
           [
-            69.592463,
-            20.809334
+            41,
+            -10
           ],
           [
-            70,
-            20
+            41.7,
+            -15
           ],
           [
-            72.4,
-            19
+            38.929,
+            -19.5234
           ],
           [
-            72.80777,
-            18.941361
+            36,
+            -24
+          ],
+          [
+            35.142957,
+            -24.861024
+          ],
+          [
+            34.437034,
+            -25.749552
+          ],
+          [
+            32.920532,
+            -28.449374
+          ],
+          [
+            31.173706,
+            -29.816817
           ]
         ]
       },
       {
         "from_idx": 7,
         "to_idx": 8,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            72.80777,
-            18.941361
+            31.173706,
+            -29.816817
           ],
           [
-            72.4,
-            19
-          ],
-          [
-            73,
-            15.3
-          ],
-          [
-            74.133516,
-            12.773359
-          ],
-          [
-            75.3,
-            9.7
-          ],
-          [
-            77,
-            8
-          ],
-          [
-            79.789581,
-            6.994585
+            28.5,
+            -33.5
           ]
         ]
       },
       {
         "from_idx": 8,
         "to_idx": 9,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            79.789581,
-            6.994585
+            28.5,
+            -33.5
           ],
           [
-            79.82666,
-            6.424484
+            25.934206,
+            -33.932046
           ],
           [
-            80.1,
-            5.8
-          ],
-          [
-            81.9,
-            5.9
-          ],
-          [
-            82.25,
-            7.25
-          ],
-          [
-            81,
-            13
-          ],
-          [
-            80.414429,
-            12.977795
+            25.640717,
+            -33.918292
           ]
         ]
       },
       {
         "from_idx": 9,
         "to_idx": 10,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            80.414429,
-            12.977795
+            25.640717,
+            -33.918292
           ],
           [
-            81,
-            13
+            25.934206,
+            -33.932046
           ],
           [
-            82,
-            16
+            26,
+            -34.5
           ],
           [
-            82.828231,
-            16.708301
-          ],
-          [
-            83.656463,
-            17.413983
-          ],
-          [
-            83.3898,
-            17.6221
+            22,
+            -35
           ]
         ]
       },
       {
         "from_idx": 10,
         "to_idx": 11,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            83.3898,
-            17.6221
+            22,
+            -35
           ],
           [
-            83.656463,
-            17.413983
+            18,
+            -35
           ],
           [
-            84.9566,
-            18.5238
+            18.237305,
+            -33.840764
           ],
           [
-            88,
-            21
-          ],
-          [
-            87.93869,
-            21.684229
-          ],
-          [
-            88.206482,
-            22.065278
-          ],
-          [
-            88.173523,
-            22.165786
+            18.428192,
+            -33.862433
           ]
         ]
       },
       {
         "from_idx": 11,
         "to_idx": 12,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            88.173523,
-            22.165786
+            18.428192,
+            -33.862433
           ],
           [
-            88.206482,
-            22.065278
+            18.237305,
+            -33.840764
           ],
           [
-            87.93869,
-            21.684229
+            18,
+            -35
           ],
           [
-            88,
-            21
+            14.0806,
+            -33.5827
           ],
           [
-            86.491,
-            17.5782
+            10.000809,
+            -31.926949
           ],
           [
-            85.735114,
-            15.791697
+            8.741211,
+            -31.368532
           ],
           [
-            85.155655,
-            14.422172
+            5.891411,
+            -30.076823
           ],
           [
-            85.038,
-            14.1441
+            2.015382,
+            -28.169477
           ],
           [
-            83.978619,
-            11.556515
+            0.00081,
+            -27.123985
           ],
           [
-            83.6282,
-            10.7006
+            -4.412459,
+            -24.677177
           ],
           [
-            82.25,
-            7.25
+            -7.024709,
+            -23.154038
           ],
           [
-            81.9,
-            5.9
+            -9.999624,
+            -21.343395
           ],
           [
-            80.1,
-            5.8
+            -10.796127,
+            -20.843889
           ],
           [
-            78.019032,
-            6.387793
+            -12.088665,
+            -20.028905
           ],
           [
-            75.966807,
-            6.966807
+            -16.822275,
+            -16.967419
           ],
           [
-            70.817426,
-            8.365148
+            -19.999225,
+            -14.844666
           ],
           [
-            69.999915,
-            8.582747
+            -22.806528,
+            -12.935362
           ],
           [
-            69.671733,
-            8.6701
+            -27.018677,
+            -10.021884
           ],
           [
-            69.3291,
-            8.7613
+            -28.772132,
+            -8.796464
           ],
           [
-            68.858995,
-            8.881605
+            -29.999876,
+            -7.933805
           ],
           [
-            65.7044,
-            9.6889
+            -31.063081,
+            -7.186164
           ],
           [
-            64.992809,
-            9.862937
+            -33.8,
+            -5.25
           ],
           [
-            64.698862,
-            9.934828
+            -34.860393,
+            -4.720374
           ],
           [
-            64.303249,
-            10.031585
+            -38.1,
+            -3.1
           ],
           [
-            62.0601,
-            10.5802
+            -41.5476,
+            -0.9739
           ],
           [
-            60.825733,
-            10.866984
+            -42.781385,
+            -0.211655
           ],
           [
-            59.894005,
-            11.083455
+            -42.984139,
+            -0.086392
           ],
           [
-            55.041504,
-            12.747516
+            -43.123942,
+            -2e-05
           ],
           [
-            53.61885,
-            13.300009
+            -44.9917,
+            1.1539
           ],
           [
-            50.856149,
-            12.884027
+            -46.399027,
+            2.021526
           ],
           [
-            45,
+            -48.44,
+            3.2798
+          ],
+          [
+            -51.9,
+            5.4
+          ],
+          [
+            -56.4243,
+            8.2122
+          ],
+          [
+            -61,
+            11
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.803589,
+            10.631253
+          ]
+        ]
+      },
+      {
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
+        "coords": [
+          [
+            -61.803589,
+            10.631253
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.9,
             12
           ],
           [
-            43.746586,
-            12.40439
+            -64.89149,
+            15.306171
           ],
           [
-            43.3,
-            12.7
+            -66.372586,
+            17.013056
           ],
           [
-            42.541058,
-            13.676089
+            -66.6,
+            17.3
           ],
           [
-            42.341309,
-            14.509144
+            -67.255752,
+            17.883904
           ],
           [
-            41.000977,
-            17.098792
+            -67.95,
+            18.5
           ],
           [
-            38.572998,
-            20.807472
+            -68.9,
+            19.75
           ],
           [
-            37.786499,
-            22.210682
+            -69.008576,
+            20.802629
           ],
           [
-            37,
-            23.6
+            -69.133036,
+            22.009247
           ],
           [
-            34.5,
-            27
+            -69.297107,
+            23.599887
           ],
           [
-            33.233643,
-            28.444544
+            -69.4289,
+            24.8776
           ],
           [
-            32.6,
-            29.7
+            -69.571367,
+            26.155434
           ],
           [
-            32.557983,
-            30.213982
+            -69.686099,
+            27.184507
           ],
           [
-            32.382202,
-            30.318359
+            -69.798842,
+            28.195741
           ],
           [
-            32.310104,
-            31.102922
+            -69.9433,
+            28.5593
           ],
           [
-            32.359877,
-            31.336373
+            -70.007418,
+            28.704929
           ],
           [
-            32.1,
-            31.7
+            -70.491548,
+            29.804519
           ],
           [
-            30.408377,
-            32.316071
+            -70.592445,
+            30.033682
           ],
           [
-            28.905525,
-            32.863395
+            -70.666621,
+            30.202157
           ],
           [
-            28.212434,
-            33.115811
+            -70.761711,
+            30.418131
           ],
           [
-            27.927542,
-            33.219565
+            -70.761716,
+            30.418143
           ],
           [
-            26.306431,
-            33.748752
+            -71.120755,
+            31.233616
           ],
           [
-            25.478721,
-            34.011915
+            -71.29405,
+            31.627217
           ],
           [
-            24.926664,
-            34.187436
+            -71.494758,
+            32.083079
           ],
           [
-            23,
-            34.8
+            -72.1002,
+            33.4582
           ],
           [
-            21.407365,
-            35.126694
+            -72.374413,
+            34.005228
           ],
           [
-            17.902084,
-            35.845726
+            -72.718517,
+            34.691681
           ],
           [
-            16.726588,
-            36.086854
+            -72.83967,
+            34.933368
           ],
           [
-            15.2,
-            36.4
+            -73.269223,
+            35.790283
           ],
           [
-            13.263819,
-            36.907095
+            -73.415861,
+            36.082812
           ],
           [
-            12.110644,
-            37.209117
+            -73.4495,
+            36.149919
           ],
           [
-            12.086301,
-            37.215493
+            -73.613489,
+            36.477059
           ],
           [
-            11.827836,
-            37.283186
+            -73.637591,
+            36.525141
           ],
           [
-            11.172235,
-            37.454891
+            -73.744231,
+            36.737877
           ],
           [
-            11,
-            37.5
+            -73.810546,
+            36.870169
           ],
           [
-            10.373031,
-            37.482087
+            -73.795419,
+            37.972408
           ],
           [
-            7.5,
-            37.4
+            -73.781008,
+            39.022499
           ],
           [
-            3.1,
-            37.2
+            -73.7709,
+            39.759
           ],
           [
-            -0.366667,
-            36.666667
+            -73.783,
+            40.0331
           ],
           [
-            -1.62439,
-            36.473171
+            -73.7932,
+            40.3456
           ],
           [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.36445,
-            36.83741
-          ],
-          [
-            -10.855872,
-            37.324914
-          ],
-          [
-            -11.138637,
-            37.417342
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -13.755544,
-            38.272734
-          ],
-          [
-            -14.5065,
-            38.5182
-          ],
-          [
-            -20,
-            40
-          ],
-          [
-            -25.565029,
-            41.125083
-          ],
-          [
-            -25.9351,
-            41.1999
-          ],
-          [
-            -28.584901,
-            41.584862
-          ],
-          [
-            -30.001074,
-            41.790603
-          ],
-          [
-            -31.940532,
-            42.072366
-          ],
-          [
-            -32.0626,
-            42.0901
-          ],
-          [
-            -34.863425,
-            42.340269
-          ],
-          [
-            -37.685353,
-            42.592324
-          ],
-          [
-            -38.3322,
-            42.6501
-          ],
-          [
-            -40.001623,
-            42.706999
-          ],
-          [
-            -42.618304,
-            42.796183
-          ],
-          [
-            -44.6814,
-            42.8665
-          ],
-          [
-            -47.493255,
-            42.807466
-          ],
-          [
-            -50.001652,
-            42.754804
-          ],
-          [
-            -51.0402,
-            42.733
-          ],
-          [
-            -52.53975,
-            42.618612
-          ],
-          [
-            -52.613022,
-            42.613022
-          ],
-          [
-            -57.3379,
-            42.2526
-          ],
-          [
-            -62.794754,
-            41.53046
-          ],
-          [
-            -63.5093,
-            41.4359
-          ],
-          [
-            -64.632986,
-            41.222837
-          ],
-          [
-            -68.782982,
-            40.435954
-          ],
-          [
-            -68.813685,
-            40.430133
-          ],
-          [
-            -68.907278,
-            40.412386
-          ],
-          [
-            -69.5,
-            40.3
-          ],
-          [
-            -71.289425,
-            40.419295
-          ],
-          [
-            -71.557579,
-            40.437172
-          ],
-          [
-            -71.798554,
-            40.453237
-          ],
-          [
-            -73.027658,
-            40.535177
+            -73.8129,
+            40.4456
           ],
           [
             -74.0106,
@@ -26249,9 +16709,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 12,
-        "to_idx": 13,
-        "verified": false,
+        "from_idx": 13,
+        "to_idx": 14,
+        "verified": true,
         "coords": [
           [
             -74.023819,
@@ -26294,95 +16754,12 @@ const VOYAGES = [
             38.787
           ],
           [
-            -75.0095,
-            38.79
+            -74.5647,
+            38.6565
           ],
           [
-            -75.059,
-            38.8498
-          ],
-          [
-            -75.1861,
-            39.0837
-          ],
-          [
-            -75.2711,
-            39.18
-          ],
-          [
-            -75.563965,
-            39.468005
-          ],
-          [
-            -75.546627,
-            39.580555
-          ],
-          [
-            -75.591431,
-            39.623673
-          ],
-          [
-            -75.521908,
-            39.686186
-          ],
-          [
-            -75.458908,
-            39.78163
-          ],
-          [
-            -75.314713,
-            39.850721
-          ]
-        ]
-      },
-      {
-        "from_idx": 13,
-        "to_idx": 14,
-        "verified": false,
-        "coords": [
-          [
-            -75.314713,
-            39.850721
-          ],
-          [
-            -75.458908,
-            39.78163
-          ],
-          [
-            -75.521908,
-            39.686186
-          ],
-          [
-            -75.591431,
-            39.623673
-          ],
-          [
-            -75.546627,
-            39.580555
-          ],
-          [
-            -75.563965,
-            39.468005
-          ],
-          [
-            -75.2711,
-            39.18
-          ],
-          [
-            -75.1861,
-            39.0837
-          ],
-          [
-            -75.059,
-            38.8498
-          ],
-          [
-            -75.0095,
-            38.79
-          ],
-          [
-            -74.8373,
-            38.6023
+            -74.5502,
+            38.5317
           ],
           [
             -74.5315,
@@ -26477,7 +16854,7 @@ const VOYAGES = [
       {
         "from_idx": 14,
         "to_idx": 15,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             -76.577797,
@@ -26540,19 +16917,396 @@ const VOYAGES = [
             36.9585
           ],
           [
-            -76.269836,
-            36.999262
+            -75.9599,
+            36.9485
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
           ]
         ]
       },
       {
         "from_idx": 15,
         "to_idx": 16,
-        "verified": false,
+        "verified": true,
         "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 16,
+        "to_idx": 17,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -74.5647,
+            38.6565
+          ],
+          [
+            -74.5502,
+            38.5317
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
           [
             -76.269836,
             36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
+          ]
+        ]
+      },
+      {
+        "from_idx": 17,
+        "to_idx": 18,
+        "verified": true,
+        "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 18,
+        "to_idx": 19,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
           ],
           [
             -76.0085,
@@ -26857,9 +17611,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 16,
-        "to_idx": 17,
-        "verified": false,
+        "from_idx": 19,
+        "to_idx": 20,
+        "verified": true,
         "coords": [
           [
             18.428192,
@@ -26892,9 +17646,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 17,
-        "to_idx": 18,
-        "verified": false,
+        "from_idx": 20,
+        "to_idx": 21,
+        "verified": true,
         "coords": [
           [
             25.640717,
@@ -26911,9 +17665,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 18,
-        "to_idx": 19,
-        "verified": false,
+        "from_idx": 21,
+        "to_idx": 22,
+        "verified": true,
         "coords": [
           [
             28.5,
@@ -26926,9 +17680,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 19,
-        "to_idx": 20,
-        "verified": false,
+        "from_idx": 22,
+        "to_idx": 23,
+        "verified": true,
         "coords": [
           [
             31.173706,
@@ -26939,8 +17693,39 @@ const VOYAGES = [
             -28.449374
           ],
           [
-            34.437034,
-            -25.749552
+            33.156738,
+            -25.888879
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.606049,
+            -25.995081
+          ]
+        ]
+      },
+      {
+        "from_idx": 23,
+        "to_idx": 24,
+        "verified": true,
+        "coords": [
+          [
+            32.606049,
+            -25.995081
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.861481,
+            -25.703413
           ],
           [
             35.142957,
@@ -26951,27 +17736,100 @@ const VOYAGES = [
             -24
           ],
           [
-            35.408936,
-            -20.004322
+            38.929,
+            -19.5234
           ],
           [
-            34.788208,
-            -19.87006
+            41.7,
+            -15
           ]
         ]
       },
       {
-        "from_idx": 20,
-        "to_idx": 21,
-        "verified": false,
+        "from_idx": 24,
+        "to_idx": 25,
+        "verified": true,
         "coords": [
           [
-            34.788208,
-            -19.87006
+            41.7,
+            -15
           ],
           [
-            35.408936,
-            -20.004322
+            41,
+            -10
+          ],
+          [
+            40,
+            -6.5
+          ],
+          [
+            39.325562,
+            -6.653695
+          ]
+        ]
+      },
+      {
+        "from_idx": 25,
+        "to_idx": 26,
+        "verified": true,
+        "coords": [
+          [
+            39.325562,
+            -6.653695
+          ],
+          [
+            38.968506,
+            -6.075011
+          ],
+          [
+            39.424438,
+            -4.861101
+          ]
+        ]
+      },
+      {
+        "from_idx": 26,
+        "to_idx": 27,
+        "verified": true,
+        "coords": [
+          [
+            39.424438,
+            -4.861101
+          ],
+          [
+            39.830933,
+            -4.061536
+          ]
+        ]
+      },
+      {
+        "from_idx": 27,
+        "to_idx": 28,
+        "verified": true,
+        "coords": [
+          [
+            39.830933,
+            -4.061536
+          ],
+          [
+            40.3,
+            -4.2
+          ],
+          [
+            40,
+            -6.5
+          ],
+          [
+            41,
+            -10
+          ],
+          [
+            41.7,
+            -15
+          ],
+          [
+            38.929,
+            -19.5234
           ],
           [
             36,
@@ -26996,9 +17854,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 21,
-        "to_idx": 22,
-        "verified": false,
+        "from_idx": 28,
+        "to_idx": 29,
+        "verified": true,
         "coords": [
           [
             32.606049,
@@ -27021,8 +17879,1647 @@ const VOYAGES = [
             -28.449374
           ],
           [
-            32,
+            31.173706,
+            -29.816817
+          ]
+        ]
+      },
+      {
+        "from_idx": 29,
+        "to_idx": 30,
+        "verified": true,
+        "coords": [
+          [
+            31.173706,
+            -29.816817
+          ],
+          [
+            28.5,
+            -33.5
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            25.640717,
+            -33.918292
+          ]
+        ]
+      },
+      {
+        "from_idx": 30,
+        "to_idx": 31,
+        "verified": true,
+        "coords": [
+          [
+            25.640717,
+            -33.918292
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            26,
+            -34.5
+          ],
+          [
+            22,
+            -35
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18.428192,
+            -33.862433
+          ]
+        ]
+      },
+      {
+        "from_idx": 31,
+        "to_idx": 32,
+        "verified": true,
+        "coords": [
+          [
+            18.428192,
+            -33.862433
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            14.0806,
+            -33.5827
+          ],
+          [
+            10.000809,
+            -31.926949
+          ],
+          [
+            8.741211,
+            -31.368532
+          ],
+          [
+            5.891411,
+            -30.076823
+          ],
+          [
+            2.015382,
+            -28.169477
+          ],
+          [
+            0.00081,
+            -27.123985
+          ],
+          [
+            -4.412459,
+            -24.677177
+          ],
+          [
+            -7.024709,
+            -23.154038
+          ],
+          [
+            -9.999624,
+            -21.343395
+          ],
+          [
+            -10.796127,
+            -20.843889
+          ],
+          [
+            -12.088665,
+            -20.028905
+          ],
+          [
+            -16.822275,
+            -16.967419
+          ],
+          [
+            -19.999225,
+            -14.844666
+          ],
+          [
+            -22.806528,
+            -12.935362
+          ],
+          [
+            -27.018677,
+            -10.021884
+          ],
+          [
+            -28.772132,
+            -8.796464
+          ],
+          [
+            -29.999876,
+            -7.933805
+          ],
+          [
+            -31.063081,
+            -7.186164
+          ],
+          [
+            -33.8,
+            -5.25
+          ],
+          [
+            -34.860393,
+            -4.720374
+          ],
+          [
+            -38.1,
+            -3.1
+          ],
+          [
+            -41.5476,
+            -0.9739
+          ],
+          [
+            -42.781385,
+            -0.211655
+          ],
+          [
+            -42.984139,
+            -0.086392
+          ],
+          [
+            -43.123942,
+            -2e-05
+          ],
+          [
+            -44.9917,
+            1.1539
+          ],
+          [
+            -46.399027,
+            2.021526
+          ],
+          [
+            -48.44,
+            3.2798
+          ],
+          [
+            -51.9,
+            5.4
+          ],
+          [
+            -56.4243,
+            8.2122
+          ],
+          [
+            -61,
+            11
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.803589,
+            10.631253
+          ]
+        ]
+      },
+      {
+        "from_idx": 32,
+        "to_idx": 33,
+        "verified": true,
+        "coords": [
+          [
+            -61.803589,
+            10.631253
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.9,
+            12
+          ],
+          [
+            -64.89149,
+            15.306171
+          ],
+          [
+            -66.372586,
+            17.013056
+          ],
+          [
+            -66.6,
+            17.3
+          ],
+          [
+            -67.255752,
+            17.883904
+          ],
+          [
+            -67.95,
+            18.5
+          ],
+          [
+            -68.9,
+            19.75
+          ],
+          [
+            -69.008576,
+            20.802629
+          ],
+          [
+            -69.133036,
+            22.009247
+          ],
+          [
+            -69.297107,
+            23.599887
+          ],
+          [
+            -69.4289,
+            24.8776
+          ],
+          [
+            -69.571367,
+            26.155434
+          ],
+          [
+            -69.686099,
+            27.184507
+          ],
+          [
+            -69.798842,
+            28.195741
+          ],
+          [
+            -69.9433,
+            28.5593
+          ],
+          [
+            -70.007418,
+            28.704929
+          ],
+          [
+            -70.491548,
+            29.804519
+          ],
+          [
+            -70.592445,
+            30.033682
+          ],
+          [
+            -70.666621,
+            30.202157
+          ],
+          [
+            -70.761711,
+            30.418131
+          ],
+          [
+            -70.761716,
+            30.418143
+          ],
+          [
+            -71.120755,
+            31.233616
+          ],
+          [
+            -71.29405,
+            31.627217
+          ],
+          [
+            -71.494758,
+            32.083079
+          ],
+          [
+            -72.1002,
+            33.4582
+          ],
+          [
+            -72.374413,
+            34.005228
+          ],
+          [
+            -72.718517,
+            34.691681
+          ],
+          [
+            -72.83967,
+            34.933368
+          ],
+          [
+            -73.269223,
+            35.790283
+          ],
+          [
+            -73.415861,
+            36.082812
+          ],
+          [
+            -73.4495,
+            36.149919
+          ],
+          [
+            -73.613489,
+            36.477059
+          ],
+          [
+            -73.637591,
+            36.525141
+          ],
+          [
+            -73.744231,
+            36.737877
+          ],
+          [
+            -73.810546,
+            36.870169
+          ],
+          [
+            -73.795419,
+            37.972408
+          ],
+          [
+            -73.781008,
+            39.022499
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 33,
+        "to_idx": 34,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -72.4247,
+            40.7393
+          ],
+          [
+            -71.4738,
+            41.0726
+          ],
+          [
+            -71.3569,
+            41.1171
+          ],
+          [
+            -71.1677,
+            41.325
+          ],
+          [
+            -70.8921,
+            41.3891
+          ],
+          [
+            -70.8432,
+            41.4056
+          ],
+          [
+            -70.6704,
+            41.4908
+          ],
+          [
+            -70.6342,
+            41.5038
+          ],
+          [
+            -70.5527,
+            41.4794
+          ],
+          [
+            -70.2864,
+            41.4528
+          ],
+          [
+            -70.2305,
+            41.4442
+          ],
+          [
+            -70.0641,
+            41.4823
+          ],
+          [
+            -69.5275,
+            41.5917
+          ],
+          [
+            -69.25,
+            41.8
+          ],
+          [
+            -68.3705,
+            42.119818
+          ],
+          [
+            -65.4,
+            43.2
+          ],
+          [
+            -62.183924,
+            44.501586
+          ],
+          [
+            -60.2173,
+            45.2835
+          ],
+          [
+            -59.3,
+            46.1
+          ],
+          [
+            -60.2,
+            47.75
+          ],
+          [
+            -63.3547,
+            48.9284
+          ],
+          [
+            -65.638916,
+            49.511125
+          ],
+          [
+            -66.890259,
+            49.292889
+          ],
+          [
+            -68.7297,
+            48.7027
+          ],
+          [
+            -69.625854,
+            47.820539
+          ],
+          [
+            -70.922241,
+            46.893985
+          ],
+          [
+            -71.040413,
+            46.841121
+          ],
+          [
+            -71.183098,
+            46.837089
+          ],
+          [
+            -71.234802,
+            46.766198
+          ],
+          [
+            -71.356447,
+            46.738916
+          ],
+          [
+            -71.683869,
+            46.652012
+          ],
+          [
+            -71.890961,
+            46.672032
+          ],
+          [
+            -72.194183,
+            46.547282
+          ],
+          [
+            -72.281799,
+            46.432117
+          ],
+          [
+            -72.806396,
+            46.217852
+          ],
+          [
+            -73.040098,
+            46.061274
+          ],
+          [
+            -73.164276,
+            46.038911
+          ],
+          [
+            -73.211243,
+            45.906207
+          ],
+          [
+            -73.373291,
+            45.793129
+          ],
+          [
+            -73.488373,
+            45.617586
+          ],
+          [
+            -73.535614,
+            45.509613
+          ]
+        ]
+      },
+      {
+        "from_idx": 34,
+        "to_idx": 35,
+        "verified": true,
+        "coords": [
+          [
+            -73.535614,
+            45.509613
+          ],
+          [
+            -73.488373,
+            45.617586
+          ],
+          [
+            -73.373291,
+            45.793129
+          ],
+          [
+            -73.211243,
+            45.906207
+          ],
+          [
+            -73.164276,
+            46.038911
+          ],
+          [
+            -73.040098,
+            46.061274
+          ],
+          [
+            -72.806396,
+            46.217852
+          ],
+          [
+            -72.281799,
+            46.432117
+          ],
+          [
+            -72.194183,
+            46.547282
+          ],
+          [
+            -71.890961,
+            46.672032
+          ],
+          [
+            -71.683869,
+            46.652012
+          ],
+          [
+            -71.356447,
+            46.738916
+          ],
+          [
+            -71.234802,
+            46.766198
+          ],
+          [
+            -71.183098,
+            46.837089
+          ],
+          [
+            -71.040413,
+            46.841121
+          ],
+          [
+            -70.922241,
+            46.893985
+          ],
+          [
+            -69.625854,
+            47.820539
+          ],
+          [
+            -68.7297,
+            48.7027
+          ],
+          [
+            -66.890259,
+            49.292889
+          ],
+          [
+            -65.638916,
+            49.511125
+          ],
+          [
+            -63.3547,
+            48.9284
+          ],
+          [
+            -60.2,
+            47.75
+          ],
+          [
+            -59.3,
+            46.1
+          ],
+          [
+            -60.2173,
+            45.2835
+          ],
+          [
+            -62.183924,
+            44.501586
+          ],
+          [
+            -65.4,
+            43.2
+          ],
+          [
+            -66.864102,
+            42.036227
+          ],
+          [
+            -68.640214,
+            40.624447
+          ],
+          [
+            -68.826743,
+            40.554059
+          ],
+          [
+            -68.860571,
+            40.541294
+          ],
+          [
+            -68.910147,
+            40.522586
+          ],
+          [
+            -68.968854,
+            40.500432
+          ],
+          [
+            -69.5,
+            40.3
+          ],
+          [
+            -71.118305,
+            39.812955
+          ],
+          [
+            -71.661125,
+            39.651813
+          ],
+          [
+            -72.44495,
+            39.419124
+          ],
+          [
+            -72.475572,
+            39.410034
+          ],
+          [
+            -72.78466,
+            39.318277
+          ],
+          [
+            -72.904115,
+            39.282816
+          ],
+          [
+            -73.040934,
+            39.242199
+          ],
+          [
+            -73.781008,
+            39.022499
+          ],
+          [
+            -74.073738,
+            38.935598
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
+          ]
+        ]
+      },
+      {
+        "from_idx": 35,
+        "to_idx": 36,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 36,
+        "to_idx": 37,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -74.5502,
+            38.5317
+          ],
+          [
+            -74.5647,
+            38.6565
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 37,
+        "to_idx": 38,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.537794,
+            40.250805
+          ],
+          [
+            -72.4725,
+            39.4965
+          ],
+          [
+            -72.44495,
+            39.419124
+          ],
+          [
+            -72.280515,
+            38.957304
+          ],
+          [
+            -72.150135,
+            38.863951
+          ],
+          [
+            -71.798223,
+            38.611978
+          ],
+          [
+            -71.643369,
+            38.501101
+          ],
+          [
+            -71.472185,
+            38.378531
+          ],
+          [
+            -71.271542,
+            38.234868
+          ],
+          [
+            -70.98362,
+            38.028713
+          ],
+          [
+            -70.521347,
+            37.697721
+          ],
+          [
+            -69.975985,
+            37.307235
+          ],
+          [
+            -69.848971,
+            37.216292
+          ],
+          [
+            -69.73835,
+            37.137086
+          ],
+          [
+            -69.656388,
+            37.0784
+          ],
+          [
+            -69.436,
+            36.9206
+          ],
+          [
+            -68.147963,
+            35.936306
+          ],
+          [
+            -67.057094,
+            35.102685
+          ],
+          [
+            -65.80232,
+            34.143809
+          ],
+          [
+            -65.2756,
+            33.7413
+          ],
+          [
+            -64.370232,
+            33.029719
+          ],
+          [
+            -63.465852,
+            32.318914
+          ],
+          [
+            -63.143196,
+            32.06532
+          ],
+          [
+            -62.024698,
+            31.186227
+          ],
+          [
+            -61.320443,
+            30.632712
+          ],
+          [
+            -60.541592,
+            30.010129
+          ],
+          [
+            -60.223798,
+            29.75575
+          ],
+          [
+            -60.000119,
+            29.576705
+          ],
+          [
+            -58.995496,
+            28.772554
+          ],
+          [
+            -57.951012,
+            27.936496
+          ],
+          [
+            -57.046567,
+            27.210057
+          ],
+          [
+            -54.840663,
+            25.427012
+          ],
+          [
+            -54.686707,
+            25.302569
+          ],
+          [
+            -51.302049,
+            22.551019
+          ],
+          [
+            -50.000417,
+            21.489805
+          ],
+          [
+            -49.207335,
+            20.840203
+          ],
+          [
+            -48.21318,
+            20.024728
+          ],
+          [
+            -46.036889,
+            18.239233
+          ],
+          [
+            -43.776444,
+            16.37688
+          ],
+          [
+            -40.000523,
+            13.2666
+          ],
+          [
+            -38.257452,
+            11.8296
+          ],
+          [
+            -36.07644,
+            10.028798
+          ],
+          [
+            -34.4259,
+            8.664676
+          ],
+          [
+            -32.762118,
+            7.288622
+          ],
+          [
+            -31.8433,
+            6.5287
+          ],
+          [
+            -30.0003,
+            5.002688
+          ],
+          [
+            -29.829347,
+            4.861138
+          ],
+          [
+            -29.222944,
+            4.359034
+          ],
+          [
+            -27.159236,
+            2.649749
+          ],
+          [
+            -27.041927,
+            2.552564
+          ],
+          [
+            -23.960846,
+            -2e-05
+          ],
+          [
+            -21.780662,
+            -1.806339
+          ],
+          [
+            -19.999803,
+            -3.28153
+          ],
+          [
+            -17.819,
+            -5.0879
+          ],
+          [
+            -14.3,
+            -8
+          ],
+          [
+            -12.52511,
+            -10.018534
+          ],
+          [
+            -11.321431,
+            -11.387445
+          ],
+          [
+            -9.999538,
+            -12.890797
+          ],
+          [
+            -6.625182,
+            -16.728359
+          ],
+          [
+            -2.645049,
+            -20.036605
+          ],
+          [
+            -1.147621,
+            -21.216471
+          ],
+          [
+            0.000594,
+            -22.121182
+          ],
+          [
+            4.581235,
+            -25.7304
+          ],
+          [
+            10,
             -30
+          ],
+          [
+            13.9085,
+            -32.5342
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18.428192,
+            -33.862433
+          ]
+        ]
+      },
+      {
+        "from_idx": 38,
+        "to_idx": 39,
+        "verified": true,
+        "coords": [
+          [
+            18.428192,
+            -33.862433
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            22,
+            -35
+          ],
+          [
+            26,
+            -34.5
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            25.640717,
+            -33.918292
+          ]
+        ]
+      },
+      {
+        "from_idx": 39,
+        "to_idx": 40,
+        "verified": true,
+        "coords": [
+          [
+            25.640717,
+            -33.918292
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            28.5,
+            -33.5
+          ]
+        ]
+      },
+      {
+        "from_idx": 40,
+        "to_idx": 41,
+        "verified": true,
+        "coords": [
+          [
+            28.5,
+            -33.5
+          ],
+          [
+            31.173706,
+            -29.816817
+          ]
+        ]
+      },
+      {
+        "from_idx": 41,
+        "to_idx": 42,
+        "verified": true,
+        "coords": [
+          [
+            31.173706,
+            -29.816817
+          ],
+          [
+            32.920532,
+            -28.449374
+          ],
+          [
+            33.156738,
+            -25.888879
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.606049,
+            -25.995081
+          ]
+        ]
+      },
+      {
+        "from_idx": 42,
+        "to_idx": 43,
+        "verified": true,
+        "coords": [
+          [
+            32.606049,
+            -25.995081
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            35.142957,
+            -24.861024
+          ],
+          [
+            36,
+            -24
+          ],
+          [
+            38.929,
+            -19.5234
+          ],
+          [
+            41.7,
+            -15
+          ],
+          [
+            41,
+            -10
+          ],
+          [
+            40,
+            -6.5
+          ],
+          [
+            40.3,
+            -4.2
+          ],
+          [
+            39.830933,
+            -4.061536
+          ]
+        ]
+      },
+      {
+        "from_idx": 43,
+        "to_idx": 44,
+        "verified": true,
+        "coords": [
+          [
+            39.830933,
+            -4.061536
+          ],
+          [
+            40.3,
+            -4.2
+          ],
+          [
+            40,
+            -6.5
+          ],
+          [
+            41,
+            -10
+          ],
+          [
+            41.7,
+            -15
+          ],
+          [
+            38.929,
+            -19.5234
+          ],
+          [
+            36,
+            -24
+          ],
+          [
+            35.142957,
+            -24.861024
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.606049,
+            -25.995081
+          ]
+        ]
+      },
+      {
+        "from_idx": 44,
+        "to_idx": 45,
+        "verified": true,
+        "coords": [
+          [
+            32.606049,
+            -25.995081
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            33.156738,
+            -25.888879
+          ],
+          [
+            32.920532,
+            -28.449374
+          ],
+          [
+            31.173706,
+            -29.816817
+          ]
+        ]
+      },
+      {
+        "from_idx": 45,
+        "to_idx": 46,
+        "verified": true,
+        "coords": [
+          [
+            31.173706,
+            -29.816817
           ],
           [
             28.5,
@@ -27041,318 +19538,7993 @@ const VOYAGES = [
             -35
           ],
           [
-            12.499733,
-            -28.1252
+            18.237305,
+            -33.840764
           ],
           [
-            10.425227,
-            -25.53227
-          ],
-          [
-            7.89386,
-            -22.368307
-          ],
-          [
-            5.653262,
-            -19.567777
-          ],
-          [
-            3.542734,
-            -16.929822
-          ],
-          [
-            1.7833,
-            -14.7307
-          ],
-          [
-            0.000405,
-            -12.501846
-          ],
-          [
-            -1.100476,
-            -11.1256
-          ],
-          [
-            -1.989182,
-            -10.0146
-          ],
-          [
-            -5.531121,
-            -5.586708
-          ],
-          [
-            -10,
-            -2e-05
-          ],
-          [
-            -13.4277,
-            5.5302
-          ],
-          [
-            -17,
-            11
-          ],
-          [
-            -18,
-            15
-          ],
-          [
-            -18,
-            21
-          ],
-          [
-            -18.76187,
-            24.560373
-          ],
-          [
-            -18.6689,
-            24.7237
-          ],
-          [
-            -16.186157,
-            27.71606
-          ],
-          [
-            -16.776123,
-            27.843933
+            18.428192,
+            -33.862433
           ]
         ]
       },
       {
-        "from_idx": 22,
-        "to_idx": 23,
-        "verified": false,
+        "from_idx": 46,
+        "to_idx": 47,
+        "verified": true,
         "coords": [
           [
-            -16.776123,
-            27.843933
+            18.428192,
+            -33.862433
           ],
           [
-            -16.186157,
-            27.71606
+            18.237305,
+            -33.840764
           ],
           [
-            -16.141152,
-            28.335073
+            18,
+            -35
           ],
           [
-            -15.901807,
-            28.751674
+            14.0806,
+            -33.5827
           ],
           [
-            -15.172119,
-            29.337503
+            10.000809,
+            -31.926949
           ],
           [
-            -13.9051,
-            32.4093
+            8.741211,
+            -31.368532
           ],
           [
-            -13.32875,
-            34.065242
+            5.891411,
+            -30.076823
           ],
           [
-            -13.114888,
-            34.6797
+            2.015382,
+            -28.169477
           ],
           [
-            -12.839781,
-            35.470126
+            0.00081,
+            -27.123985
           ],
           [
-            -12.761203,
-            35.695892
+            -4.412459,
+            -24.677177
           ],
           [
-            -12.608538,
-            36.134522
+            -7.024709,
+            -23.154038
           ],
           [
-            -12.493983,
-            36.463656
+            -9.999624,
+            -21.343395
           ],
           [
-            -12.32612,
-            36.945951
+            -10.796127,
+            -20.843889
           ],
           [
-            -12.262448,
-            37.128892
+            -12.088665,
+            -20.028905
           ],
           [
-            -12.131862,
-            37.504085
+            -16.822275,
+            -16.967419
+          ],
+          [
+            -19.999225,
+            -14.844666
+          ],
+          [
+            -22.806528,
+            -12.935362
+          ],
+          [
+            -27.018677,
+            -10.021884
+          ],
+          [
+            -28.772132,
+            -8.796464
+          ],
+          [
+            -29.999876,
+            -7.933805
+          ],
+          [
+            -31.063081,
+            -7.186164
+          ],
+          [
+            -33.8,
+            -5.25
+          ],
+          [
+            -34.860393,
+            -4.720374
+          ],
+          [
+            -38.1,
+            -3.1
+          ],
+          [
+            -41.5476,
+            -0.9739
+          ],
+          [
+            -42.781385,
+            -0.211655
+          ],
+          [
+            -42.984139,
+            -0.086392
+          ],
+          [
+            -43.123942,
+            -2e-05
+          ],
+          [
+            -44.9917,
+            1.1539
+          ],
+          [
+            -46.399027,
+            2.021526
+          ],
+          [
+            -48.44,
+            3.2798
+          ],
+          [
+            -51.9,
+            5.4
+          ],
+          [
+            -56.4243,
+            8.2122
+          ],
+          [
+            -61,
+            11
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.803589,
+            10.631253
+          ]
+        ]
+      },
+      {
+        "from_idx": 47,
+        "to_idx": 48,
+        "verified": true,
+        "coords": [
+          [
+            -61.803589,
+            10.631253
+          ],
+          [
+            -61.817065,
+            10.845292
+          ],
+          [
+            -61.9,
+            12
+          ],
+          [
+            -64.89149,
+            15.306171
+          ],
+          [
+            -66.372586,
+            17.013056
+          ],
+          [
+            -66.6,
+            17.3
+          ],
+          [
+            -67.255752,
+            17.883904
+          ],
+          [
+            -67.95,
+            18.5
+          ],
+          [
+            -68.9,
+            19.75
+          ],
+          [
+            -69.008576,
+            20.802629
+          ],
+          [
+            -69.133036,
+            22.009247
+          ],
+          [
+            -69.297107,
+            23.599887
+          ],
+          [
+            -69.4289,
+            24.8776
+          ],
+          [
+            -69.571367,
+            26.155434
+          ],
+          [
+            -69.686099,
+            27.184507
+          ],
+          [
+            -69.798842,
+            28.195741
+          ],
+          [
+            -69.9433,
+            28.5593
+          ],
+          [
+            -70.007418,
+            28.704929
+          ],
+          [
+            -70.491548,
+            29.804519
+          ],
+          [
+            -70.592445,
+            30.033682
+          ],
+          [
+            -70.666621,
+            30.202157
+          ],
+          [
+            -70.761711,
+            30.418131
+          ],
+          [
+            -70.761716,
+            30.418143
+          ],
+          [
+            -71.120755,
+            31.233616
+          ],
+          [
+            -71.29405,
+            31.627217
+          ],
+          [
+            -71.494758,
+            32.083079
+          ],
+          [
+            -72.1002,
+            33.4582
+          ],
+          [
+            -72.374413,
+            34.005228
+          ],
+          [
+            -72.718517,
+            34.691681
+          ],
+          [
+            -72.83967,
+            34.933368
+          ],
+          [
+            -73.269223,
+            35.790283
+          ],
+          [
+            -73.415861,
+            36.082812
+          ],
+          [
+            -73.4495,
+            36.149919
+          ],
+          [
+            -73.613489,
+            36.477059
+          ],
+          [
+            -73.637591,
+            36.525141
+          ],
+          [
+            -73.744231,
+            36.737877
+          ],
+          [
+            -73.810546,
+            36.870169
+          ],
+          [
+            -73.795419,
+            37.972408
+          ],
+          [
+            -73.781008,
+            39.022499
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 48,
+        "to_idx": 49,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -74.5647,
+            38.6565
+          ],
+          [
+            -74.5502,
+            38.5317
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
+          ]
+        ]
+      },
+      {
+        "from_idx": 49,
+        "to_idx": 50,
+        "verified": true,
+        "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 50,
+        "to_idx": 51,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
+          ]
+        ]
+      },
+      {
+        "from_idx": 51,
+        "to_idx": 52,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 52,
+        "to_idx": 53,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.537794,
+            40.250805
+          ],
+          [
+            -72.4725,
+            39.4965
+          ],
+          [
+            -72.44495,
+            39.419124
+          ],
+          [
+            -72.280515,
+            38.957304
+          ],
+          [
+            -72.150135,
+            38.863951
+          ],
+          [
+            -71.798223,
+            38.611978
+          ],
+          [
+            -71.643369,
+            38.501101
+          ],
+          [
+            -71.472185,
+            38.378531
+          ],
+          [
+            -71.271542,
+            38.234868
+          ],
+          [
+            -70.98362,
+            38.028713
+          ],
+          [
+            -70.521347,
+            37.697721
+          ],
+          [
+            -69.975985,
+            37.307235
+          ],
+          [
+            -69.848971,
+            37.216292
+          ],
+          [
+            -69.73835,
+            37.137086
+          ],
+          [
+            -69.656388,
+            37.0784
+          ],
+          [
+            -69.436,
+            36.9206
+          ],
+          [
+            -68.147963,
+            35.936306
+          ],
+          [
+            -67.057094,
+            35.102685
+          ],
+          [
+            -65.80232,
+            34.143809
+          ],
+          [
+            -65.2756,
+            33.7413
+          ],
+          [
+            -64.370232,
+            33.029719
+          ],
+          [
+            -63.465852,
+            32.318914
+          ],
+          [
+            -63.143196,
+            32.06532
+          ],
+          [
+            -62.024698,
+            31.186227
+          ],
+          [
+            -61.320443,
+            30.632712
+          ],
+          [
+            -60.541592,
+            30.010129
+          ],
+          [
+            -60.223798,
+            29.75575
+          ],
+          [
+            -60.000119,
+            29.576705
+          ],
+          [
+            -58.995496,
+            28.772554
+          ],
+          [
+            -57.951012,
+            27.936496
+          ],
+          [
+            -57.046567,
+            27.210057
+          ],
+          [
+            -54.840663,
+            25.427012
+          ],
+          [
+            -54.686707,
+            25.302569
+          ],
+          [
+            -51.302049,
+            22.551019
+          ],
+          [
+            -50.000417,
+            21.489805
+          ],
+          [
+            -49.207335,
+            20.840203
+          ],
+          [
+            -48.21318,
+            20.024728
+          ],
+          [
+            -46.036889,
+            18.239233
+          ],
+          [
+            -43.776444,
+            16.37688
+          ],
+          [
+            -40.000523,
+            13.2666
+          ],
+          [
+            -38.257452,
+            11.8296
+          ],
+          [
+            -36.07644,
+            10.028798
+          ],
+          [
+            -34.4259,
+            8.664676
+          ],
+          [
+            -32.762118,
+            7.288622
+          ],
+          [
+            -31.8433,
+            6.5287
+          ],
+          [
+            -30.0003,
+            5.002688
+          ],
+          [
+            -29.829347,
+            4.861138
+          ],
+          [
+            -29.222944,
+            4.359034
+          ],
+          [
+            -27.159236,
+            2.649749
+          ],
+          [
+            -27.041927,
+            2.552564
+          ],
+          [
+            -23.960846,
+            -2e-05
+          ],
+          [
+            -21.780662,
+            -1.806339
+          ],
+          [
+            -19.999803,
+            -3.28153
+          ],
+          [
+            -17.819,
+            -5.0879
+          ],
+          [
+            -14.3,
+            -8
+          ],
+          [
+            -12.52511,
+            -10.018534
+          ],
+          [
+            -11.321431,
+            -11.387445
+          ],
+          [
+            -9.999538,
+            -12.890797
+          ],
+          [
+            -6.625182,
+            -16.728359
+          ],
+          [
+            -2.645049,
+            -20.036605
+          ],
+          [
+            -1.147621,
+            -21.216471
+          ],
+          [
+            0.000594,
+            -22.121182
+          ],
+          [
+            4.581235,
+            -25.7304
+          ],
+          [
+            10,
+            -30
+          ],
+          [
+            13.9085,
+            -32.5342
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18.428192,
+            -33.862433
+          ]
+        ]
+      },
+      {
+        "from_idx": 53,
+        "to_idx": 54,
+        "verified": true,
+        "coords": [
+          [
+            18.428192,
+            -33.862433
+          ],
+          [
+            18.237305,
+            -33.840764
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            22,
+            -35
+          ],
+          [
+            26,
+            -34.5
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            25.640717,
+            -33.918292
+          ]
+        ]
+      },
+      {
+        "from_idx": 54,
+        "to_idx": 55,
+        "verified": true,
+        "coords": [
+          [
+            25.640717,
+            -33.918292
+          ],
+          [
+            25.934206,
+            -33.932046
+          ],
+          [
+            28.5,
+            -33.5
+          ]
+        ]
+      },
+      {
+        "from_idx": 55,
+        "to_idx": 56,
+        "verified": true,
+        "coords": [
+          [
+            28.5,
+            -33.5
+          ],
+          [
+            31.173706,
+            -29.816817
+          ]
+        ]
+      },
+      {
+        "from_idx": 56,
+        "to_idx": 57,
+        "verified": true,
+        "coords": [
+          [
+            31.173706,
+            -29.816817
+          ],
+          [
+            32.920532,
+            -28.449374
+          ],
+          [
+            33.156738,
+            -25.888879
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.606049,
+            -25.995081
+          ]
+        ]
+      },
+      {
+        "from_idx": 57,
+        "to_idx": 58,
+        "verified": true,
+        "coords": [
+          [
+            32.606049,
+            -25.995081
+          ],
+          [
+            32.827148,
+            -25.995081
+          ],
+          [
+            32.861481,
+            -25.703413
+          ],
+          [
+            35.142957,
+            -24.861024
+          ],
+          [
+            36,
+            -24
+          ],
+          [
+            38.929,
+            -19.5234
+          ],
+          [
+            41.7,
+            -15
+          ],
+          [
+            41,
+            -10
+          ],
+          [
+            40,
+            -6.5
+          ],
+          [
+            40.3,
+            -4.2
+          ],
+          [
+            39.830933,
+            -4.061536
+          ]
+        ]
+      },
+      {
+        "from_idx": 58,
+        "to_idx": 59,
+        "verified": true,
+        "coords": [
+          [
+            39.830933,
+            -4.061536
+          ],
+          [
+            40.3,
+            -4.2
+          ],
+          [
+            47.058219,
+            -1.280003
+          ],
+          [
+            50,
+            -1e-05
+          ],
+          [
+            53.365033,
+            -1.7e-05
+          ],
+          [
+            55,
+            -2e-05
+          ],
+          [
+            57.544015,
+            -2e-05
+          ],
+          [
+            60,
+            -2e-05
+          ],
+          [
+            64.732936,
+            -1.1e-05
+          ],
+          [
+            64.898351,
+            -1e-05
+          ],
+          [
+            65,
+            -1e-05
+          ],
+          [
+            67.531634,
+            -2e-05
+          ],
+          [
+            70,
+            -3e-05
+          ],
+          [
+            73.560879,
+            4.143884
+          ],
+          [
+            74.822653,
+            4.467475
+          ],
+          [
+            76.5453,
+            4.9093
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            82.998315,
+            12.032454
+          ],
+          [
+            83.45929,
+            15.271825
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 59,
+        "to_idx": 60,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            88.173523,
+            22.165786
+          ]
+        ]
+      },
+      {
+        "from_idx": 60,
+        "to_idx": 61,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ]
+        ]
+      },
+      {
+        "from_idx": 61,
+        "to_idx": 62,
+        "verified": true,
+        "coords": [
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            82.828231,
+            16.708301
+          ],
+          [
+            82,
+            16
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            80.414429,
+            12.977795
+          ]
+        ]
+      },
+      {
+        "from_idx": 62,
+        "to_idx": 63,
+        "verified": true,
+        "coords": [
+          [
+            80.414429,
+            12.977795
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 63,
+        "to_idx": 64,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
+          ],
+          [
+            78.019032,
+            6.387793
+          ],
+          [
+            75.966807,
+            6.966807
+          ],
+          [
+            70.817426,
+            8.365148
+          ],
+          [
+            69.999915,
+            8.582747
+          ],
+          [
+            69.671733,
+            8.6701
+          ],
+          [
+            69.3291,
+            8.7613
+          ],
+          [
+            68.858995,
+            8.881605
+          ],
+          [
+            65.7044,
+            9.6889
+          ],
+          [
+            64.992809,
+            9.862937
+          ],
+          [
+            64.698862,
+            9.934828
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 64,
+        "to_idx": 65,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 65,
+        "to_idx": 66,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 66,
+        "to_idx": 67,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.343132,
+            36.110975
+          ]
+        ]
+      },
+      {
+        "from_idx": 67,
+        "to_idx": 68,
+        "verified": true,
+        "coords": [
+          [
+            -5.343132,
+            36.110975
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -11.138637,
+            37.417342
           ],
           [
             -12.057515,
             37.717697
           ],
           [
-            -11.81009,
-            38.428587
+            -13.755544,
+            38.272734
           ],
           [
-            -11.664545,
-            38.84676
+            -14.5065,
+            38.5182
           ],
           [
-            -11.158374,
-            40.301066
+            -20,
+            40
           ],
           [
-            -11.070622,
-            40.553191
+            -25.565029,
+            41.125083
           ],
           [
-            -10.289669,
-            42.796988
+            -25.9351,
+            41.1999
           ],
           [
-            -10.167909,
-            43.146826
+            -28.584901,
+            41.584862
           ],
           [
-            -10.063992,
-            43.402334
+            -30.001074,
+            41.790603
           ],
           [
-            -7.987368,
-            45.91425
+            -31.940532,
+            42.072366
           ],
           [
-            -6.698867,
-            47.340067
+            -32.0626,
+            42.0901
           ],
           [
-            -5.5,
-            48.6667
+            -34.863425,
+            42.340269
           ],
           [
-            -5.06401,
-            48.799916
+            -37.685353,
+            42.592324
           ],
           [
-            -4.270518,
-            49.042365
+            -38.3322,
+            42.6501
           ],
           [
-            -4.030414,
-            49.115729
+            -40.001623,
+            42.706999
           ],
           [
-            -3.986163,
-            49.129249
+            -42.618304,
+            42.796183
           ],
           [
-            -3.197043,
-            49.370363
+            -44.6814,
+            42.8665
           ],
           [
-            -2.39189,
-            49.616376
+            -47.493255,
+            42.807466
           ],
           [
-            -1.992006,
-            49.738559
+            -50.001652,
+            42.754804
           ],
           [
-            -1.93365,
-            49.75639
+            -51.0402,
+            42.733
           ],
           [
-            -1.665743,
-            49.838248
+            -52.53975,
+            42.618612
           ],
           [
-            -1.47977,
-            49.895072
+            -52.613022,
+            42.613022
           ],
           [
-            -1.3,
-            49.95
+            -57.3379,
+            42.2526
           ],
           [
-            -0.671539,
-            50.155459
+            -62.794754,
+            41.53046
           ],
           [
-            -0.545959,
-            50.196513
+            -63.295397,
+            41.804622
           ],
           [
-            -0.343359,
-            50.262748
+            -64.2,
+            42.3
           ],
           [
-            0.39288,
-            50.503441
+            -66.864102,
+            42.036227
           ],
           [
-            1.193894,
-            50.765311
+            -68.445048,
+            41.879698
           ],
           [
-            1.3,
-            50.8
+            -69.25,
+            41.8
           ],
           [
-            1.441366,
-            50.849032
+            -69.5275,
+            41.5917
           ],
           [
-            1.567687,
-            50.892845
+            -69.7009,
+            41.848
           ],
           [
-            1.813195,
-            50.988387
+            -69.8936,
+            42.1322
           ],
           [
-            2.1,
-            51.1
+            -70.1183,
+            42.1947
           ],
           [
-            2.356699,
-            51.178984
+            -70.2609,
+            42.2369
           ],
           [
-            3.4,
-            51.5
+            -70.6925,
+            42.3542
           ],
           [
-            3.510818,
-            51.436889
+            -70.993309,
+            42.338753
           ],
           [
-            3.677482,
-            51.412653
+            -71.040001,
+            42.355753
+          ]
+        ]
+      },
+      {
+        "from_idx": 68,
+        "to_idx": 69,
+        "verified": true,
+        "coords": [
+          [
+            -71.040001,
+            42.355753
           ],
           [
-            3.844528,
-            51.354631
+            -70.993309,
+            42.338753
           ],
           [
-            3.9641,
-            51.426
+            -70.6925,
+            42.3542
           ],
           [
-            4.0905,
-            51.3831
+            -70.7125,
+            42.2816
           ],
           [
-            4.1894,
-            51.3917
+            -70.6161,
+            42.1958
           ],
           [
-            4.261322,
-            51.340907
+            -70.5195,
+            41.988
+          ],
+          [
+            -70.4594,
+            41.8478
+          ],
+          [
+            -70.481,
+            41.7813
+          ],
+          [
+            -70.5481,
+            41.776
+          ],
+          [
+            -70.6306,
+            41.7323
+          ],
+          [
+            -70.6781,
+            41.6824
+          ],
+          [
+            -70.6974,
+            41.6309
+          ],
+          [
+            -70.7415,
+            41.5963
+          ],
+          [
+            -70.8421,
+            41.5197
+          ],
+          [
+            -71.0037,
+            41.4535
+          ],
+          [
+            -71.117,
+            41.374
+          ],
+          [
+            -71.1677,
+            41.325
+          ],
+          [
+            -71.3569,
+            41.1171
+          ],
+          [
+            -71.4738,
+            41.0726
+          ],
+          [
+            -72.4247,
+            40.7393
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/168876_city_of_chester.jpeg"
+  },
+  {
+    "id": "city-of-florence-1949",
+    "ship": "City of Florence",
+    "ship_no": "140559",
+    "line": "Ellerman Lines (City Line)",
+    "built": "Unknown",
+    "tons": "4,382 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "4 Apr 1949, Glasgow",
+    "discharged": "14 Apr 1949, Birkenhead",
+    "engagement_date": "1949-04-04",
+    "discharge_date": "1949-04-14",
+    "rank": "Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Florence from 4 Apr 1949, Glasgow to 14 Apr 1949, Birkenhead. Engagement type: home-trade.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
+        "verified": true,
+        "note": "sailing Apr 11 1949"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival Apr 12 1949"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5665.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
+        "coords": [
+          [
+            -4.54422,
+            55.924586
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.137288,
+            54.638339
+          ],
+          [
+            -5.002755,
+            54.604048
+          ],
+          [
+            -4.162754,
+            54.389945
+          ],
+          [
+            -3.831515,
+            53.940031
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/140559_city_of_florence.jpeg"
+  },
+  {
+    "id": "city-of-brooklyn-1949",
+    "ship": "City of Brooklyn",
+    "ship_no": "182488",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1949, launched Wallsend 8 Dec 1948",
+    "tons": "4,411 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "25 May 1949, 150",
+    "discharged": "9 Jun 1950, Liverpool",
+    "engagement_date": "1949-05-25",
+    "discharge_date": "1950-06-09",
+    "rank": "Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Brooklyn from 25 May 1949, 150 to 9 Jun 1950, Liverpool. Engagement type: home-trade.",
+    "voyage_note": "USA immigration record: Arrived in New York 12th June 1949, sailing from Newcastle Verification: CHECKED: 'Arrived New York 12th June 1949, sailing from Newcastle' matches the card (IMG_5666) exactly — this was the ship's maiden voyage (launched 8 Dec 1948), Tyne sailing 1 June, New York arrival 12 June 1949.",
+    "waypoints": [
+      {
+        "port": "River Tyne",
+        "lon": -1.45,
+        "lat": 55.0,
+        "verified": true,
+        "note": "arrival May 25 1949; sailing June 1 1949"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival June 12 1949; sailing June 23 1949"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival July 7 1949"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing July 9 1949"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival July 13 1949; sailing July 13 1949"
+      },
+      {
+        "port": "Karachi",
+        "lon": 67.0207055,
+        "lat": 24.8546842,
+        "verified": true,
+        "note": "arrival July 17 1949; sailing July 20 1949"
+      },
+      {
+        "port": "Bombay",
+        "lon": 72.8258,
+        "lat": 18.975,
+        "verified": true,
+        "note": "arrival July 23 1949; sailing Aug 8 1949"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Aug 10 1949; sailing Aug 12 1949"
+      },
+      {
+        "port": "Madras",
+        "lon": 80.2707,
+        "lat": 13.0827,
+        "verified": true,
+        "note": "arrival Aug 14 1949; sailing Aug 17 1949"
+      },
+      {
+        "port": "Calcutta",
+        "lon": 88.3638953,
+        "lat": 22.5726459,
+        "verified": true,
+        "note": "arrival Aug 20 1949; sailing Sept 4 1949"
+      },
+      {
+        "port": "Sandheads",
+        "lon": 88.15,
+        "lat": 21.65,
+        "verified": true,
+        "note": "sailing Sept 5 1949"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Sept 9 1949; sailing Sept 9 1949"
+      },
+      {
+        "port": "Cochin",
+        "lon": 76.2673,
+        "lat": 9.9312,
+        "verified": true,
+        "note": "arrival Sept 10 1949; sailing Sept 11 1949"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Sept 16 1949; sailing Sept 17 1949"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival Sept 20 1949"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Sept 22 1949"
+      },
+      {
+        "port": "Halifax NS",
+        "lon": -63.5859487,
+        "lat": 44.648618,
+        "verified": true,
+        "note": "arrival Oct 4 1949; sailing Oct 5 1949"
+      },
+      {
+        "port": "Boston",
+        "lon": -71.0578303,
+        "lat": 42.3588336,
+        "verified": true,
+        "note": "arrival Oct 6 1949; sailing Oct 7 1949"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival Oct 8 1949; sailing Oct 13 1949"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Oct 14 1949; sailing Oct 14 1949"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Oct 15 1949; sailing Oct 18 1949"
+      },
+      {
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
+        "verified": true,
+        "note": "arrival Oct 19 1949; sailing Oct 20 1949"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Oct 20 1949; sailing Oct 21 1949"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Oct 22 1949; sailing Oct 23 1949"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival Oct 24 1949; sailing Oct 29 1949"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival Nov 11 1949"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing Nov 12 1949"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Nov 15 1949; sailing Nov 16 1949"
+      },
+      {
+        "port": "Karachi",
+        "lon": 67.0207055,
+        "lat": 24.8546842,
+        "verified": true,
+        "note": "arrival Nov 20 1949; sailing Nov 21 1949"
+      },
+      {
+        "port": "Bombay",
+        "lon": 72.8258,
+        "lat": 18.975,
+        "verified": true,
+        "note": "arrival Nov 22 1949; sailing Nov 25 1949"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Nov 27 1949; sailing Nov 30 1949"
+      },
+      {
+        "port": "Madras",
+        "lon": 80.2707,
+        "lat": 13.0827,
+        "verified": true,
+        "note": "arrival Dec 2 1949; sailing Dec 3 1949"
+      },
+      {
+        "port": "Vizagapatam",
+        "lon": 83.2185,
+        "lat": 17.6868,
+        "verified": true,
+        "note": "arrival Dec 4 1949; sailing Dec 5 1949"
+      },
+      {
+        "port": "Calcutta",
+        "lon": 88.3638953,
+        "lat": 22.5726459,
+        "verified": true,
+        "note": "arrival Dec 6 1949; sailing Dec 24 1949"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Dec 27 1949"
+      },
+      {
+        "port": "Cochin",
+        "lon": 76.2673,
+        "lat": 9.9312,
+        "verified": true,
+        "note": "arrival Jan 4 1950; sailing Jan 5 1950"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Jan 10 1950; sailing Jan 11 1950"
+      },
+      {
+        "port": "Port Sudan",
+        "lon": 37.2164,
+        "lat": 19.6158,
+        "verified": true,
+        "note": "arrival Jan 13 1950; sailing Jan 13 1950"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival Jan 15 1950"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Jan 17 1950"
+      },
+      {
+        "port": "Halifax NS",
+        "lon": -63.5859487,
+        "lat": 44.648618,
+        "verified": true,
+        "note": "arrival Jan 30 1950; sailing Feb 1 1950"
+      },
+      {
+        "port": "Boston",
+        "lon": -71.0578303,
+        "lat": 42.3588336,
+        "verified": true,
+        "note": "arrival Feb 2 1950; sailing Feb 3 1950"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival Feb 4 1950; sailing Feb 8 1950"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Feb 9 1950; sailing Feb 11 1950"
+      },
+      {
+        "port": "Baltimore",
+        "lon": -76.6122,
+        "lat": 39.2904,
+        "verified": true,
+        "note": "arrival Feb 11 1950; sailing Feb 15 1950"
+      },
+      {
+        "port": "Hampton Rds",
+        "lon": -76.4114187,
+        "lat": 36.9507552,
+        "verified": true,
+        "note": "arrival Feb 16 1950; sailing Feb 20 1950"
+      },
+      {
+        "port": "New York",
+        "lon": -74.0060152,
+        "lat": 40.7127281,
+        "verified": true,
+        "note": "arrival Feb 21 1950; sailing Mar 1 1950"
+      },
+      {
+        "port": "Philadelphia",
+        "lon": -75.1652,
+        "lat": 39.9526,
+        "verified": true,
+        "note": "arrival Mar 2 1950; sailing Mar 3 1950"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival Mar 17 1950"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing Mar 18 1950"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Mar 21 1950; sailing Mar 21 1950"
+      },
+      {
+        "port": "Karachi",
+        "lon": 67.0207055,
+        "lat": 24.8546842,
+        "verified": true,
+        "note": "arrival Mar 25 1950; sailing Mar 26 1950"
+      },
+      {
+        "port": "Bombay",
+        "lon": 72.8258,
+        "lat": 18.975,
+        "verified": true,
+        "note": "arrival Mar 28 1950; sailing Mar 29 1950"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Apr 1 1950; sailing Apr 1 1950"
+      },
+      {
+        "port": "Madras",
+        "lon": 80.2707,
+        "lat": 13.0827,
+        "verified": true,
+        "note": "arrival Apr 3 1950; sailing Apr 4 1950"
+      },
+      {
+        "port": "Vizagapatam",
+        "lon": 83.2185,
+        "lat": 17.6868,
+        "verified": true,
+        "note": "arrival Apr 5 1950; sailing Apr 6 1950"
+      },
+      {
+        "port": "Calcutta",
+        "lon": 88.3638953,
+        "lat": 22.5726459,
+        "verified": true,
+        "note": "arrival Apr 8 1950; sailing May 5 1950"
+      },
+      {
+        "port": "Vizagapatam",
+        "lon": 83.2185,
+        "lat": 17.6868,
+        "verified": true,
+        "note": "arrival May 8 1950; sailing May 10 1950"
+      },
+      {
+        "port": "Madras",
+        "lon": 80.2707,
+        "lat": 13.0827,
+        "verified": true,
+        "note": "arrival May 11 1950; sailing May 14 1950"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival May 16 1950; sailing May 18 1950"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival May 23 1950; sailing May 24 1950"
+      },
+      {
+        "port": "Port Sudan",
+        "lon": 37.2164,
+        "lat": 19.6158,
+        "verified": true,
+        "note": "arrival May 26 1950; sailing May 28 1950"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival May 29 1950"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing May 30 1950"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival June 8 1950"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5666.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
+        "coords": [
+          [
+            -1.435432,
+            55.006961
+          ],
+          [
+            -1,
+            55.1
+          ],
+          [
+            -1.690521,
+            55.77889
+          ],
+          [
+            -2.3,
+            56.3
+          ],
+          [
+            -1.4,
+            57.3
+          ],
+          [
+            -1.746,
+            57.664
+          ],
+          [
+            -2.874305,
+            58.649909
+          ],
+          [
+            -3.397818,
+            58.762202
+          ],
+          [
+            -4.799483,
+            58.7
+          ],
+          [
+            -5.2,
+            58.7
+          ],
+          [
+            -5.720463,
+            58.67623
+          ],
+          [
+            -5.722863,
+            58.67612
+          ],
+          [
+            -5.723212,
+            58.676105
+          ],
+          [
+            -6.489458,
+            58.64111
+          ],
+          [
+            -10.1362,
+            58.47456
+          ],
+          [
+            -11.841927,
+            58.396659
+          ],
+          [
+            -16.516959,
+            57.946839
+          ],
+          [
+            -17.704327,
+            57.823884
+          ],
+          [
+            -18.941948,
+            57.695725
+          ],
+          [
+            -19.4569,
+            57.6424
+          ],
+          [
+            -20.002106,
+            57.552768
+          ],
+          [
+            -23.465597,
+            56.983365
+          ],
+          [
+            -26.35425,
+            56.494332
+          ],
+          [
+            -30.003737,
+            55.657007
+          ],
+          [
+            -32.387,
+            55.1102
+          ],
+          [
+            -34.342459,
+            54.524551
+          ],
+          [
+            -36.435655,
+            53.89765
+          ],
+          [
+            -36.736047,
+            53.807684
+          ],
+          [
+            -38.1634,
+            53.3802
+          ],
+          [
+            -40.002313,
+            52.690451
+          ],
+          [
+            -41.89827,
+            51.979306
+          ],
+          [
+            -43.459,
+            51.3939
+          ],
+          [
+            -46.515249,
+            50
+          ],
+          [
+            -48.293,
+            49.1892
+          ],
+          [
+            -48.828117,
+            48.899093
+          ],
+          [
+            -50.001043,
+            48.263206
+          ],
+          [
+            -52.7,
+            46.8
+          ],
+          [
+            -54,
+            46.1
+          ],
+          [
+            -55,
+            45
+          ],
+          [
+            -62.183924,
+            44.501586
+          ],
+          [
+            -65.4,
+            43.2
+          ],
+          [
+            -68.3705,
+            42.119818
+          ],
+          [
+            -69.25,
+            41.8
+          ],
+          [
+            -69.5275,
+            41.5917
+          ],
+          [
+            -70.0641,
+            41.4823
+          ],
+          [
+            -70.2305,
+            41.4442
+          ],
+          [
+            -70.2864,
+            41.4528
+          ],
+          [
+            -70.5527,
+            41.4794
+          ],
+          [
+            -70.6342,
+            41.5038
+          ],
+          [
+            -70.6704,
+            41.4908
+          ],
+          [
+            -70.8432,
+            41.4056
+          ],
+          [
+            -70.8921,
+            41.3891
+          ],
+          [
+            -71.1677,
+            41.325
+          ],
+          [
+            -71.3569,
+            41.1171
+          ],
+          [
+            -71.4738,
+            41.0726
+          ],
+          [
+            -72.4247,
+            40.7393
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -71.798554,
+            40.453237
+          ],
+          [
+            -71.557579,
+            40.437172
+          ],
+          [
+            -71.289425,
+            40.419295
+          ],
+          [
+            -69.5,
+            40.3
+          ],
+          [
+            -68.907278,
+            40.412386
+          ],
+          [
+            -68.813685,
+            40.430133
+          ],
+          [
+            -68.782982,
+            40.435954
+          ],
+          [
+            -64.632986,
+            41.222837
+          ],
+          [
+            -63.5093,
+            41.4359
+          ],
+          [
+            -62.794754,
+            41.53046
+          ],
+          [
+            -57.3379,
+            42.2526
+          ],
+          [
+            -52.613022,
+            42.613022
+          ],
+          [
+            -52.53975,
+            42.618612
+          ],
+          [
+            -51.0402,
+            42.733
+          ],
+          [
+            -50.001652,
+            42.754804
+          ],
+          [
+            -47.493255,
+            42.807466
+          ],
+          [
+            -44.6814,
+            42.8665
+          ],
+          [
+            -42.618304,
+            42.796183
+          ],
+          [
+            -40.001623,
+            42.706999
+          ],
+          [
+            -38.3322,
+            42.6501
+          ],
+          [
+            -37.685353,
+            42.592324
+          ],
+          [
+            -34.863425,
+            42.340269
+          ],
+          [
+            -32.0626,
+            42.0901
+          ],
+          [
+            -31.940532,
+            42.072366
+          ],
+          [
+            -30.001074,
+            41.790603
+          ],
+          [
+            -28.584901,
+            41.584862
+          ],
+          [
+            -25.9351,
+            41.1999
+          ],
+          [
+            -25.565029,
+            41.125083
+          ],
+          [
+            -20,
+            40
+          ],
+          [
+            -14.5065,
+            38.5182
+          ],
+          [
+            -13.755544,
+            38.272734
+          ],
+          [
+            -12.057515,
+            37.717697
+          ],
+          [
+            -11.138637,
+            37.417342
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 2,
+        "to_idx": 3,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            49.5581,
+            14.1436
+          ],
+          [
+            54.2,
+            16.2
+          ],
+          [
+            56.876033,
+            17.38386
+          ],
+          [
+            58.191833,
+            18.742507
+          ],
+          [
+            59,
+            20
+          ],
+          [
+            62.375976,
+            21.440441
+          ],
+          [
+            64.447045,
+            22.842503
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            66.975702,
+            24.817412
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            66.975702,
+            24.817412
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            68.719482,
+            22.543001
+          ],
+          [
+            69.592463,
+            20.809334
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            72.80777,
+            18.941361
+          ]
+        ]
+      },
+      {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            72.80777,
+            18.941361
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            73,
+            15.3
+          ],
+          [
+            74.133516,
+            12.773359
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 7,
+        "to_idx": 8,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            80.414429,
+            12.977795
+          ]
+        ]
+      },
+      {
+        "from_idx": 8,
+        "to_idx": 9,
+        "verified": true,
+        "coords": [
+          [
+            80.414429,
+            12.977795
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82,
+            16
+          ],
+          [
+            82.828231,
+            16.708301
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            88.173523,
+            22.165786
+          ]
+        ]
+      },
+      {
+        "from_idx": 9,
+        "to_idx": 10,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ]
+        ]
+      },
+      {
+        "from_idx": 10,
+        "to_idx": 11,
+        "verified": true,
+        "coords": [
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            86.491,
+            17.5782
+          ],
+          [
+            85.735114,
+            15.791697
+          ],
+          [
+            85.155655,
+            14.422172
+          ],
+          [
+            85.038,
+            14.1441
+          ],
+          [
+            83.978619,
+            11.556515
+          ],
+          [
+            83.6282,
+            10.7006
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 11,
+        "to_idx": 12,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            70,
+            10
+          ],
+          [
+            65.126773,
+            10.035771
+          ],
+          [
+            65.0002,
+            10.0367
+          ],
+          [
+            64.696861,
+            10.034474
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 13,
+        "to_idx": 14,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 14,
+        "to_idx": 15,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 15,
+        "to_idx": 16,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -11.138637,
+            37.417342
+          ],
+          [
+            -12.057515,
+            37.717697
+          ],
+          [
+            -13.755544,
+            38.272734
+          ],
+          [
+            -14.5065,
+            38.5182
+          ],
+          [
+            -20,
+            40
+          ],
+          [
+            -25.565029,
+            41.125083
+          ],
+          [
+            -25.9351,
+            41.1999
+          ],
+          [
+            -28.584901,
+            41.584862
+          ],
+          [
+            -30.001074,
+            41.790603
+          ],
+          [
+            -31.940532,
+            42.072366
+          ],
+          [
+            -32.0626,
+            42.0901
+          ],
+          [
+            -34.863425,
+            42.340269
+          ],
+          [
+            -37.685353,
+            42.592324
+          ],
+          [
+            -38.3322,
+            42.6501
+          ],
+          [
+            -40.001623,
+            42.706999
+          ],
+          [
+            -42.618304,
+            42.796183
+          ],
+          [
+            -44.6814,
+            42.8665
+          ],
+          [
+            -47.493255,
+            42.807466
+          ],
+          [
+            -50.001652,
+            42.754804
+          ],
+          [
+            -51.0402,
+            42.733
+          ],
+          [
+            -52.53975,
+            42.618612
+          ],
+          [
+            -52.613022,
+            42.613022
+          ],
+          [
+            -55,
+            45
+          ],
+          [
+            -62.183924,
+            44.501586
+          ],
+          [
+            -63.48793,
+            44.535185
+          ],
+          [
+            -63.562088,
+            44.655955
+          ]
+        ]
+      },
+      {
+        "from_idx": 16,
+        "to_idx": 17,
+        "verified": true,
+        "coords": [
+          [
+            -63.562088,
+            44.655955
+          ],
+          [
+            -63.48793,
+            44.535185
+          ],
+          [
+            -63.533936,
+            44.288469
+          ],
+          [
+            -65.4,
+            43.2
+          ],
+          [
+            -68.3705,
+            42.119818
+          ],
+          [
+            -69.25,
+            41.8
+          ],
+          [
+            -69.5275,
+            41.5917
+          ],
+          [
+            -69.7009,
+            41.848
+          ],
+          [
+            -69.8936,
+            42.1322
+          ],
+          [
+            -70.1183,
+            42.1947
+          ],
+          [
+            -70.2609,
+            42.2369
+          ],
+          [
+            -70.6925,
+            42.3542
+          ],
+          [
+            -70.993309,
+            42.338753
+          ],
+          [
+            -71.040001,
+            42.355753
+          ]
+        ]
+      },
+      {
+        "from_idx": 17,
+        "to_idx": 18,
+        "verified": true,
+        "coords": [
+          [
+            -71.040001,
+            42.355753
+          ],
+          [
+            -70.993309,
+            42.338753
+          ],
+          [
+            -70.6925,
+            42.3542
+          ],
+          [
+            -70.7125,
+            42.2816
+          ],
+          [
+            -70.6161,
+            42.1958
+          ],
+          [
+            -70.5195,
+            41.988
+          ],
+          [
+            -70.4594,
+            41.8478
+          ],
+          [
+            -70.481,
+            41.7813
+          ],
+          [
+            -70.5481,
+            41.776
+          ],
+          [
+            -70.6306,
+            41.7323
+          ],
+          [
+            -70.6781,
+            41.6824
+          ],
+          [
+            -70.6974,
+            41.6309
+          ],
+          [
+            -70.7415,
+            41.5963
+          ],
+          [
+            -70.8421,
+            41.5197
+          ],
+          [
+            -71.0037,
+            41.4535
+          ],
+          [
+            -71.117,
+            41.374
+          ],
+          [
+            -71.1677,
+            41.325
+          ],
+          [
+            -71.3569,
+            41.1171
+          ],
+          [
+            -71.4738,
+            41.0726
+          ],
+          [
+            -72.4247,
+            40.7393
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 18,
+        "to_idx": 19,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
+          ]
+        ]
+      },
+      {
+        "from_idx": 19,
+        "to_idx": 20,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 20,
+        "to_idx": 21,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
+          ]
+        ]
+      },
+      {
+        "from_idx": 21,
+        "to_idx": 22,
+        "verified": true,
+        "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 22,
+        "to_idx": 23,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
           ]
         ]
       },
       {
         "from_idx": 23,
         "to_idx": 24,
-        "verified": false,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 24,
+        "to_idx": 25,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -71.798554,
+            40.453237
+          ],
+          [
+            -71.557579,
+            40.437172
+          ],
+          [
+            -71.289425,
+            40.419295
+          ],
+          [
+            -69.5,
+            40.3
+          ],
+          [
+            -68.907278,
+            40.412386
+          ],
+          [
+            -68.813685,
+            40.430133
+          ],
+          [
+            -68.782982,
+            40.435954
+          ],
+          [
+            -64.632986,
+            41.222837
+          ],
+          [
+            -63.5093,
+            41.4359
+          ],
+          [
+            -62.794754,
+            41.53046
+          ],
+          [
+            -57.3379,
+            42.2526
+          ],
+          [
+            -52.613022,
+            42.613022
+          ],
+          [
+            -52.53975,
+            42.618612
+          ],
+          [
+            -51.0402,
+            42.733
+          ],
+          [
+            -50.001652,
+            42.754804
+          ],
+          [
+            -47.493255,
+            42.807466
+          ],
+          [
+            -44.6814,
+            42.8665
+          ],
+          [
+            -42.618304,
+            42.796183
+          ],
+          [
+            -40.001623,
+            42.706999
+          ],
+          [
+            -38.3322,
+            42.6501
+          ],
+          [
+            -37.685353,
+            42.592324
+          ],
+          [
+            -34.863425,
+            42.340269
+          ],
+          [
+            -32.0626,
+            42.0901
+          ],
+          [
+            -31.940532,
+            42.072366
+          ],
+          [
+            -30.001074,
+            41.790603
+          ],
+          [
+            -28.584901,
+            41.584862
+          ],
+          [
+            -25.9351,
+            41.1999
+          ],
+          [
+            -25.565029,
+            41.125083
+          ],
+          [
+            -20,
+            40
+          ],
+          [
+            -14.5065,
+            38.5182
+          ],
+          [
+            -13.755544,
+            38.272734
+          ],
+          [
+            -12.057515,
+            37.717697
+          ],
+          [
+            -11.138637,
+            37.417342
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 25,
+        "to_idx": 26,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 26,
+        "to_idx": 27,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 27,
+        "to_idx": 28,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            49.5581,
+            14.1436
+          ],
+          [
+            54.2,
+            16.2
+          ],
+          [
+            56.876033,
+            17.38386
+          ],
+          [
+            58.191833,
+            18.742507
+          ],
+          [
+            59,
+            20
+          ],
+          [
+            62.375976,
+            21.440441
+          ],
+          [
+            64.447045,
+            22.842503
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            66.975702,
+            24.817412
+          ]
+        ]
+      },
+      {
+        "from_idx": 28,
+        "to_idx": 29,
+        "verified": true,
+        "coords": [
+          [
+            66.975702,
+            24.817412
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            68.719482,
+            22.543001
+          ],
+          [
+            69.592463,
+            20.809334
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            72.80777,
+            18.941361
+          ]
+        ]
+      },
+      {
+        "from_idx": 29,
+        "to_idx": 30,
+        "verified": true,
+        "coords": [
+          [
+            72.80777,
+            18.941361
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            73,
+            15.3
+          ],
+          [
+            74.133516,
+            12.773359
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 30,
+        "to_idx": 31,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            80.414429,
+            12.977795
+          ]
+        ]
+      },
+      {
+        "from_idx": 31,
+        "to_idx": 32,
+        "verified": true,
+        "coords": [
+          [
+            80.414429,
+            12.977795
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82,
+            16
+          ],
+          [
+            82.828231,
+            16.708301
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 32,
+        "to_idx": 33,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            88.173523,
+            22.165786
+          ]
+        ]
+      },
+      {
+        "from_idx": 33,
+        "to_idx": 34,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            86.491,
+            17.5782
+          ],
+          [
+            85.735114,
+            15.791697
+          ],
+          [
+            85.155655,
+            14.422172
+          ],
+          [
+            85.038,
+            14.1441
+          ],
+          [
+            83.978619,
+            11.556515
+          ],
+          [
+            83.6282,
+            10.7006
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 34,
+        "to_idx": 35,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 35,
+        "to_idx": 36,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            70,
+            10
+          ],
+          [
+            65.126773,
+            10.035771
+          ],
+          [
+            65.0002,
+            10.0367
+          ],
+          [
+            64.696861,
+            10.034474
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 36,
+        "to_idx": 37,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            41.638757,
+            14.831289
+          ],
+          [
+            39.618179,
+            17.395313
+          ],
+          [
+            38.006929,
+            19.986548
+          ],
+          [
+            37.496338,
+            19.590844
+          ]
+        ]
+      },
+      {
+        "from_idx": 37,
+        "to_idx": 38,
+        "verified": true,
+        "coords": [
+          [
+            37.496338,
+            19.590844
+          ],
+          [
+            38.006929,
+            19.986548
+          ],
+          [
+            36.108,
+            24.0443
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 38,
+        "to_idx": 39,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 39,
+        "to_idx": 40,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -11.138637,
+            37.417342
+          ],
+          [
+            -12.057515,
+            37.717697
+          ],
+          [
+            -13.755544,
+            38.272734
+          ],
+          [
+            -14.5065,
+            38.5182
+          ],
+          [
+            -20,
+            40
+          ],
+          [
+            -25.565029,
+            41.125083
+          ],
+          [
+            -25.9351,
+            41.1999
+          ],
+          [
+            -28.584901,
+            41.584862
+          ],
+          [
+            -30.001074,
+            41.790603
+          ],
+          [
+            -31.940532,
+            42.072366
+          ],
+          [
+            -32.0626,
+            42.0901
+          ],
+          [
+            -34.863425,
+            42.340269
+          ],
+          [
+            -37.685353,
+            42.592324
+          ],
+          [
+            -38.3322,
+            42.6501
+          ],
+          [
+            -40.001623,
+            42.706999
+          ],
+          [
+            -42.618304,
+            42.796183
+          ],
+          [
+            -44.6814,
+            42.8665
+          ],
+          [
+            -47.493255,
+            42.807466
+          ],
+          [
+            -50.001652,
+            42.754804
+          ],
+          [
+            -51.0402,
+            42.733
+          ],
+          [
+            -52.53975,
+            42.618612
+          ],
+          [
+            -52.613022,
+            42.613022
+          ],
+          [
+            -55,
+            45
+          ],
+          [
+            -62.183924,
+            44.501586
+          ],
+          [
+            -63.48793,
+            44.535185
+          ],
+          [
+            -63.562088,
+            44.655955
+          ]
+        ]
+      },
+      {
+        "from_idx": 40,
+        "to_idx": 41,
+        "verified": true,
+        "coords": [
+          [
+            -63.562088,
+            44.655955
+          ],
+          [
+            -63.48793,
+            44.535185
+          ],
+          [
+            -63.533936,
+            44.288469
+          ],
+          [
+            -65.4,
+            43.2
+          ],
+          [
+            -68.3705,
+            42.119818
+          ],
+          [
+            -69.25,
+            41.8
+          ],
+          [
+            -69.5275,
+            41.5917
+          ],
+          [
+            -69.7009,
+            41.848
+          ],
+          [
+            -69.8936,
+            42.1322
+          ],
+          [
+            -70.1183,
+            42.1947
+          ],
+          [
+            -70.2609,
+            42.2369
+          ],
+          [
+            -70.6925,
+            42.3542
+          ],
+          [
+            -70.993309,
+            42.338753
+          ],
+          [
+            -71.040001,
+            42.355753
+          ]
+        ]
+      },
+      {
+        "from_idx": 41,
+        "to_idx": 42,
+        "verified": true,
+        "coords": [
+          [
+            -71.040001,
+            42.355753
+          ],
+          [
+            -70.993309,
+            42.338753
+          ],
+          [
+            -70.6925,
+            42.3542
+          ],
+          [
+            -70.7125,
+            42.2816
+          ],
+          [
+            -70.6161,
+            42.1958
+          ],
+          [
+            -70.5195,
+            41.988
+          ],
+          [
+            -70.4594,
+            41.8478
+          ],
+          [
+            -70.481,
+            41.7813
+          ],
+          [
+            -70.5481,
+            41.776
+          ],
+          [
+            -70.6306,
+            41.7323
+          ],
+          [
+            -70.6781,
+            41.6824
+          ],
+          [
+            -70.6974,
+            41.6309
+          ],
+          [
+            -70.7415,
+            41.5963
+          ],
+          [
+            -70.8421,
+            41.5197
+          ],
+          [
+            -71.0037,
+            41.4535
+          ],
+          [
+            -71.117,
+            41.374
+          ],
+          [
+            -71.1677,
+            41.325
+          ],
+          [
+            -71.3569,
+            41.1171
+          ],
+          [
+            -71.4738,
+            41.0726
+          ],
+          [
+            -72.4247,
+            40.7393
+          ],
+          [
+            -73.027658,
+            40.535177
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 42,
+        "to_idx": 43,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
+          ]
+        ]
+      },
+      {
+        "from_idx": 43,
+        "to_idx": 44,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.8373,
+            38.6023
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.577797,
+            39.255917
+          ]
+        ]
+      },
+      {
+        "from_idx": 44,
+        "to_idx": 45,
+        "verified": true,
+        "coords": [
+          [
+            -76.577797,
+            39.255917
+          ],
+          [
+            -76.519775,
+            39.202728
+          ],
+          [
+            -76.364594,
+            39.154557
+          ],
+          [
+            -76.4292,
+            38.5384
+          ],
+          [
+            -76.3394,
+            38.3792
+          ],
+          [
+            -76.3318,
+            38.3391
+          ],
+          [
+            -76.2597,
+            38.0958
+          ],
+          [
+            -76.1514,
+            37.8805
+          ],
+          [
+            -76.1836,
+            37.7817
+          ],
+          [
+            -76.1525,
+            37.4661
+          ],
+          [
+            -76.1374,
+            37.3617
+          ],
+          [
+            -76.1124,
+            37.294
+          ],
+          [
+            -76.1542,
+            37.1867
+          ],
+          [
+            -76.1496,
+            37.1472
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.442871,
+            36.935623
+          ]
+        ]
+      },
+      {
+        "from_idx": 45,
+        "to_idx": 46,
+        "verified": true,
+        "coords": [
+          [
+            -76.442871,
+            36.935623
+          ],
+          [
+            -76.269836,
+            36.999262
+          ],
+          [
+            -76.0085,
+            36.9585
+          ],
+          [
+            -75.9599,
+            36.9485
+          ],
+          [
+            -75.8067,
+            36.8468
+          ],
+          [
+            -75.4399,
+            37.0813
+          ],
+          [
+            -75.287,
+            37.2901
+          ],
+          [
+            -75.1485,
+            37.4694
+          ],
+          [
+            -75.0202,
+            37.6502
+          ],
+          [
+            -74.5315,
+            38.3084
+          ],
+          [
+            -74.5502,
+            38.5317
+          ],
+          [
+            -74.5647,
+            38.6565
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.023819,
+            40.708751
+          ]
+        ]
+      },
+      {
+        "from_idx": 46,
+        "to_idx": 47,
+        "verified": true,
+        "coords": [
+          [
+            -74.023819,
+            40.708751
+          ],
+          [
+            -74.0488,
+            40.6676
+          ],
+          [
+            -74.0561,
+            40.6285
+          ],
+          [
+            -74.0106,
+            40.5253
+          ],
+          [
+            -73.8129,
+            40.4456
+          ],
+          [
+            -73.7932,
+            40.3456
+          ],
+          [
+            -73.783,
+            40.0331
+          ],
+          [
+            -73.7709,
+            39.759
+          ],
+          [
+            -73.921285,
+            39.411453
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.314713,
+            39.850721
+          ]
+        ]
+      },
+      {
+        "from_idx": 47,
+        "to_idx": 48,
+        "verified": true,
+        "coords": [
+          [
+            -75.314713,
+            39.850721
+          ],
+          [
+            -75.458908,
+            39.78163
+          ],
+          [
+            -75.521908,
+            39.686186
+          ],
+          [
+            -75.591431,
+            39.623673
+          ],
+          [
+            -75.546627,
+            39.580555
+          ],
+          [
+            -75.563965,
+            39.468005
+          ],
+          [
+            -75.2711,
+            39.18
+          ],
+          [
+            -75.1861,
+            39.0837
+          ],
+          [
+            -75.059,
+            38.8498
+          ],
+          [
+            -75.0095,
+            38.79
+          ],
+          [
+            -74.5743,
+            38.787
+          ],
+          [
+            -74.073738,
+            38.935598
+          ],
+          [
+            -73.781008,
+            39.022499
+          ],
+          [
+            -73.040934,
+            39.242199
+          ],
+          [
+            -72.904115,
+            39.282816
+          ],
+          [
+            -72.78466,
+            39.318277
+          ],
+          [
+            -72.475572,
+            39.410034
+          ],
+          [
+            -72.44495,
+            39.419124
+          ],
+          [
+            -71.661125,
+            39.651813
+          ],
+          [
+            -71.118305,
+            39.812955
+          ],
+          [
+            -69.5,
+            40.3
+          ],
+          [
+            -68.907278,
+            40.412386
+          ],
+          [
+            -68.813685,
+            40.430133
+          ],
+          [
+            -68.782982,
+            40.435954
+          ],
+          [
+            -64.632986,
+            41.222837
+          ],
+          [
+            -63.5093,
+            41.4359
+          ],
+          [
+            -62.794754,
+            41.53046
+          ],
+          [
+            -57.3379,
+            42.2526
+          ],
+          [
+            -52.613022,
+            42.613022
+          ],
+          [
+            -52.53975,
+            42.618612
+          ],
+          [
+            -51.0402,
+            42.733
+          ],
+          [
+            -50.001652,
+            42.754804
+          ],
+          [
+            -47.493255,
+            42.807466
+          ],
+          [
+            -44.6814,
+            42.8665
+          ],
+          [
+            -42.618304,
+            42.796183
+          ],
+          [
+            -40.001623,
+            42.706999
+          ],
+          [
+            -38.3322,
+            42.6501
+          ],
+          [
+            -37.685353,
+            42.592324
+          ],
+          [
+            -34.863425,
+            42.340269
+          ],
+          [
+            -32.0626,
+            42.0901
+          ],
+          [
+            -31.940532,
+            42.072366
+          ],
+          [
+            -30.001074,
+            41.790603
+          ],
+          [
+            -28.584901,
+            41.584862
+          ],
+          [
+            -25.9351,
+            41.1999
+          ],
+          [
+            -25.565029,
+            41.125083
+          ],
+          [
+            -20,
+            40
+          ],
+          [
+            -14.5065,
+            38.5182
+          ],
+          [
+            -13.755544,
+            38.272734
+          ],
+          [
+            -12.057515,
+            37.717697
+          ],
+          [
+            -11.138637,
+            37.417342
+          ],
+          [
+            -10.855872,
+            37.324914
+          ],
+          [
+            -9.36445,
+            36.83741
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 48,
+        "to_idx": 49,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 49,
+        "to_idx": 50,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 50,
+        "to_idx": 51,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            49.5581,
+            14.1436
+          ],
+          [
+            54.2,
+            16.2
+          ],
+          [
+            56.876033,
+            17.38386
+          ],
+          [
+            58.191833,
+            18.742507
+          ],
+          [
+            59,
+            20
+          ],
+          [
+            62.375976,
+            21.440441
+          ],
+          [
+            64.447045,
+            22.842503
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            66.975702,
+            24.817412
+          ]
+        ]
+      },
+      {
+        "from_idx": 51,
+        "to_idx": 52,
+        "verified": true,
+        "coords": [
+          [
+            66.975702,
+            24.817412
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            68.719482,
+            22.543001
+          ],
+          [
+            69.592463,
+            20.809334
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            72.80777,
+            18.941361
+          ]
+        ]
+      },
+      {
+        "from_idx": 52,
+        "to_idx": 53,
+        "verified": true,
+        "coords": [
+          [
+            72.80777,
+            18.941361
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            73,
+            15.3
+          ],
+          [
+            74.133516,
+            12.773359
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 53,
+        "to_idx": 54,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            80.414429,
+            12.977795
+          ]
+        ]
+      },
+      {
+        "from_idx": 54,
+        "to_idx": 55,
+        "verified": true,
+        "coords": [
+          [
+            80.414429,
+            12.977795
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82,
+            16
+          ],
+          [
+            82.828231,
+            16.708301
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 55,
+        "to_idx": 56,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            88.173523,
+            22.165786
+          ]
+        ]
+      },
+      {
+        "from_idx": 56,
+        "to_idx": 57,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 57,
+        "to_idx": 58,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            82.828231,
+            16.708301
+          ],
+          [
+            82,
+            16
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            80.414429,
+            12.977795
+          ]
+        ]
+      },
+      {
+        "from_idx": 58,
+        "to_idx": 59,
+        "verified": true,
+        "coords": [
+          [
+            80.414429,
+            12.977795
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 59,
+        "to_idx": 60,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
+          ],
+          [
+            78.019032,
+            6.387793
+          ],
+          [
+            75.966807,
+            6.966807
+          ],
+          [
+            70.817426,
+            8.365148
+          ],
+          [
+            69.999915,
+            8.582747
+          ],
+          [
+            69.671733,
+            8.6701
+          ],
+          [
+            69.3291,
+            8.7613
+          ],
+          [
+            68.858995,
+            8.881605
+          ],
+          [
+            65.7044,
+            9.6889
+          ],
+          [
+            64.992809,
+            9.862937
+          ],
+          [
+            64.698862,
+            9.934828
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 60,
+        "to_idx": 61,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            41.638757,
+            14.831289
+          ],
+          [
+            39.618179,
+            17.395313
+          ],
+          [
+            38.006929,
+            19.986548
+          ],
+          [
+            37.496338,
+            19.590844
+          ]
+        ]
+      },
+      {
+        "from_idx": 61,
+        "to_idx": 62,
+        "verified": true,
+        "coords": [
+          [
+            37.496338,
+            19.590844
+          ],
+          [
+            38.006929,
+            19.986548
+          ],
+          [
+            36.108,
+            24.0443
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 62,
+        "to_idx": 63,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 63,
+        "to_idx": 64,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -7.987368,
+            45.91425
+          ],
+          [
+            -7.66278,
+            46.539604
+          ],
+          [
+            -6.921259,
+            47.968223
+          ],
+          [
+            -6.791122,
+            48.218947
+          ],
+          [
+            -6.61351,
+            48.561136
+          ],
+          [
+            -6.510489,
+            48.759616
+          ],
+          [
+            -6.196961,
+            49.363661
+          ],
+          [
+            -5.979701,
+            49.782237
+          ],
+          [
+            -5.952064,
+            49.835483
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.440366,
+            52.111814
+          ],
+          [
+            -5.081903,
+            52.783932
+          ],
+          [
+            -4.806092,
+            52.785658
+          ],
+          [
+            -4.329113,
+            53.12664
+          ],
+          [
+            -4.119099,
+            53.234173
+          ],
+          [
+            -3.964322,
+            53.295363
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/182488_city_of_brooklyn.jpeg"
+  },
+  {
+    "id": "city-of-tokio-1950",
+    "ship": "City of Tokio",
+    "ship_no": "145885",
+    "line": "Ellerman Lines (City Line)",
+    "built": "Unknown",
+    "tons": "4,426 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "19 Jun 1950, ",
+    "discharged": "29 Jun 1950, Birkenhead",
+    "engagement_date": "1950-06-19",
+    "discharge_date": "1950-06-29",
+    "rank": "Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Chief Steward on City of Tokio from 19 Jun 1950,  to 29 Jun 1950, Birkenhead.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Swansea",
+        "lon": -3.9459248,
+        "lat": 51.6195955,
+        "verified": true,
+        "note": "arrival June 19 1950; sailing June 20 1950"
+      },
+      {
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
+        "verified": true,
+        "note": "arrival June 22 1950; sailing June 27 1950"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival June 28 1950"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5668.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
+        "coords": [
+          [
+            -4.126358,
+            51.432338
+          ],
+          [
+            -4.501826,
+            51.156194
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.781725,
+            52.16867
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.54422,
+            55.924586
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
+          [
+            -4.54422,
+            55.924586
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.137288,
+            54.638339
+          ],
+          [
+            -5.002755,
+            54.604048
+          ],
+          [
+            -4.162754,
+            54.389945
+          ],
+          [
+            -3.831515,
+            53.940031
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/145885_city_of_tokio.jpeg"
+  },
+  {
+    "id": "city-of-leicester-1950",
+    "ship": "City of Leicester",
+    "ship_no": "147349",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1926",
+    "tons": "1,975 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "23 Sep 1950, Unknown",
+    "discharged": "3 Oct 1950, Unknown (P.Lan)",
+    "engagement_date": "1950-09-23",
+    "discharge_date": "1950-10-03",
+    "rank": "Purser",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Purser on City of Leicester from 23 Sep 1950, Unknown to 3 Oct 1950, Unknown (P.Lan). Engagement type: home-trade.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "Antwerp",
+        "lon": 4.3997081,
+        "lat": 51.2211097,
+        "verified": true,
+        "note": "sailing Sept 30 1950"
+      },
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "arrival Oct 1 1950"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5671.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
         "coords": [
           [
             4.261322,
@@ -27387,230 +27559,16 @@ const VOYAGES = [
             51.5
           ],
           [
-            3.559619,
-            51.659619
+            2.330031,
+            51.330031
           ],
           [
-            3.9,
-            52
+            1.868984,
+            51.235892
           ],
           [
-            4.069748,
-            51.987629
-          ],
-          [
-            4.151802,
-            51.961827
-          ],
-          [
-            4.230423,
-            51.922673
-          ],
-          [
-            4.289818,
-            51.89641
-          ],
-          [
-            4.32827,
-            51.89302
-          ],
-          [
-            4.369469,
-            51.900223
-          ],
-          [
-            4.457359,
-            51.900012
-          ],
-          [
-            4.503708,
-            51.916321
-          ]
-        ]
-      },
-      {
-        "from_idx": 24,
-        "to_idx": 25,
-        "verified": false,
-        "coords": [
-          [
-            4.503708,
-            51.916321
-          ],
-          [
-            4.457359,
-            51.900012
-          ],
-          [
-            4.369469,
-            51.900223
-          ],
-          [
-            4.32827,
-            51.89302
-          ],
-          [
-            4.289818,
-            51.89641
-          ],
-          [
-            4.230423,
-            51.922673
-          ],
-          [
-            4.151802,
-            51.961827
-          ],
-          [
-            4.069748,
-            51.987629
-          ],
-          [
-            3.9,
-            52
-          ],
-          [
-            4.308389,
-            52.513982
-          ],
-          [
-            4.9,
-            53.5
-          ],
-          [
-            6.384053,
-            53.685507
-          ],
-          [
-            8.25,
-            53.9
-          ],
-          [
-            8.745294,
-            53.909831
-          ],
-          [
-            9.041942,
-            53.874321
-          ],
-          [
-            9.227347,
-            53.877053
-          ],
-          [
-            9.336273,
-            53.840148
-          ],
-          [
-            9.39653,
-            53.775829
-          ],
-          [
-            9.496185,
-            53.710038
-          ],
-          [
-            9.535584,
-            53.633153
-          ],
-          [
-            9.632921,
-            53.583652
-          ],
-          [
-            9.751117,
-            53.55475
-          ],
-          [
-            9.927252,
-            53.545112
-          ]
-        ]
-      },
-      {
-        "from_idx": 25,
-        "to_idx": 26,
-        "verified": false,
-        "coords": [
-          [
-            9.927252,
-            53.545112
-          ],
-          [
-            9.751117,
-            53.55475
-          ],
-          [
-            9.632921,
-            53.583652
-          ],
-          [
-            9.535584,
-            53.633153
-          ],
-          [
-            9.496185,
-            53.710038
-          ],
-          [
-            9.39653,
-            53.775829
-          ],
-          [
-            9.336273,
-            53.840148
-          ],
-          [
-            9.227347,
-            53.877053
-          ],
-          [
-            9.041942,
-            53.874321
-          ],
-          [
-            8.745294,
-            53.909831
-          ],
-          [
-            8.25,
-            53.9
-          ],
-          [
-            6.384053,
-            53.685507
-          ],
-          [
-            4.9,
-            53.5
-          ],
-          [
-            3.900173,
-            52.700139
-          ],
-          [
-            3.327388,
-            52.241911
-          ],
-          [
-            3.044362,
-            52.01549
-          ],
-          [
-            2.9,
-            51.9
-          ],
-          [
-            1.806977,
-            51.701268
-          ],
-          [
-            1.539869,
-            51.652703
-          ],
-          [
-            1.25,
-            51.6
+            1.474566,
+            51.467902
           ],
           [
             0.8262,
@@ -27645,11 +27603,95 @@ const VOYAGES = [
             51.4867
           ]
         ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/147349_city_of_leicester.jpeg"
+  },
+  {
+    "id": "city-of-lille-1950",
+    "ship": "City of Lille",
+    "ship_no": "149679",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1928",
+    "tons": "4,052 grt",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "2 Nov 1950, P.Lan",
+    "discharged": "8 Dec 1950, ",
+    "engagement_date": "1950-11-02",
+    "discharge_date": "1950-12-08",
+    "rank": "Unknown rank",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William's service on City of Lille from 2 Nov 1950, P.Lan to 8 Dec 1950, .",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "sailing Nov 5 1950"
       },
       {
-        "from_idx": 26,
-        "to_idx": 27,
-        "verified": false,
+        "port": "Avonmouth",
+        "lon": -2.705,
+        "lat": 51.5075,
+        "verified": true,
+        "note": "arrival Nov 8 1950; sailing Nov 9 1950"
+      },
+      {
+        "port": "Rotterdam",
+        "lon": 4.47775,
+        "lat": 51.9244424,
+        "verified": true,
+        "note": "arrival Nov 12 1950; sailing Nov 13 1950"
+      },
+      {
+        "port": "Hamburg",
+        "lon": 10.0013165,
+        "lat": 53.5501721,
+        "verified": true,
+        "note": "arrival Nov 15 1950; sailing Nov 16 1950"
+      },
+      {
+        "port": "Hull",
+        "lon": -0.3301214,
+        "lat": 53.7623863,
+        "verified": true,
+        "note": "arrival Nov 17 1950; sailing Nov 19 1950"
+      },
+      {
+        "port": "Middlesbrough",
+        "lon": -1.2344047,
+        "lat": 54.5760419,
+        "verified": true,
+        "note": "arrival Nov 20 1950; sailing Nov 26 1950"
+      },
+      {
+        "port": "Antwerp",
+        "lon": 4.3997081,
+        "lat": 51.2211097,
+        "verified": true,
+        "note": "arrival Nov 28 1950; sailing Dec 2 1950"
+      },
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "arrival Dec 3 1950"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5672.jpeg",
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5673.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
         "coords": [
           [
             0.2137,
@@ -27772,975 +27814,582 @@ const VOYAGES = [
             50.4096
           ],
           [
-            -5.9,
-            51.25
+            -4.501826,
+            51.156194
           ],
           [
-            -5.440366,
-            52.111814
+            -4.126358,
+            51.432338
           ],
           [
-            -5.081903,
-            52.783932
+            -3.260193,
+            51.32203
           ],
           [
-            -4.806092,
-            52.785658
+            -3.123721,
+            51.397362
           ],
           [
-            -4.329113,
-            53.12664
+            -2.921677,
+            51.498912
           ],
           [
-            -4.119099,
-            53.234173
+            -2.782288,
+            51.519853
           ],
           [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -2.980042,
-            53.370425
-          ]
-        ]
-      }
-    ],
-    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/182488_city_of_brooklyn.jpeg"
-  },
-  {
-    "id": "leicester-1950",
-    "ship": "City of Leicester",
-    "ship_no": "147349",
-    "line": "Ellerman Lines (City Line)",
-    "built": "1926",
-    "tons": "1,975 grt",
-    "flag": null,
-    "engaged": "23 Sep 1950",
-    "discharged": "3 Oct 1950",
-    "engagement_date": "1950-09-23",
-    "discharge_date": "1950-10-03",
-    "rank": "Purser",
-    "authoritative_discharge": true,
-    "card_image": "city_of_leicester_card14_first.jpg",
-    "note": "Eastern Mediterranean route. Rank listed as Purser only — not dual role.",
-    "voyage_note": "Greece, Turkey, Aegean. Short 10-day engagement.",
-    "waypoints": [
-      {
-        "port": "London",
-        "lon": -0.1278,
-        "lat": 51.5074,
-        "verified": true,
-        "date": "1950-10-01",
-        "note": "Voyage card: Arrival 01 Oct 1950"
-      }
-    ],
-    "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5670.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5671.jpeg"
-    ],
-    "waypoints_source": "csv_verified",
-    "route_legs": [],
-    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/147349_city_of_leicester.jpeg"
-  },
-  {
-    "id": "lille-1950",
-    "ship": "City of Lille",
-    "ship_no": "149679",
-    "line": "Ellerman Lines (City Line)",
-    "built": "1928",
-    "tons": "4,052 grt",
-    "flag": null,
-    "engaged": "2 Nov 1950",
-    "discharged": "8 Dec 1950",
-    "engagement_date": "1950-11-02",
-    "discharge_date": "1950-12-08",
-    "rank": "Unknown",
-    "authoritative_discharge": true,
-    "card_image": "city_of_lille_card13_first.jpg",
-    "note": "East and South Africa route. 36 days.",
-    "voyage_note": "Tenerife, Cape Town, Port Elizabeth, East London, Durban, Lourenco Marques, Mombasa.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Engaged Nov 1950",
-        "date": null
-      },
-      {
-        "port": "Tenerife",
-        "lon": -16.6291,
-        "lat": 28.2916,
-        "verified": false,
-        "note": "Voyage card: Tenerife",
-        "date": null
-      },
-      {
-        "port": "Cape Town",
-        "lon": 18.4241,
-        "lat": -33.9249,
-        "verified": false,
-        "note": "Voyage card: Cape Town",
-        "date": null
-      },
-      {
-        "port": "Port Elizabeth",
-        "lon": 25.6022,
-        "lat": -33.9608,
-        "verified": false,
-        "note": "Voyage card: Port Elizabeth",
-        "date": null
-      },
-      {
-        "port": "East London",
-        "lon": 27.9116,
-        "lat": -33.0153,
-        "verified": false,
-        "note": "Voyage card: East London",
-        "date": null
-      },
-      {
-        "port": "Durban",
-        "lon": 31.0218,
-        "lat": -29.8587,
-        "verified": false,
-        "note": "Voyage card: Durban",
-        "date": null
-      },
-      {
-        "port": "Lourenco Marques",
-        "lon": 32.5732,
-        "lat": -25.9692,
-        "verified": false,
-        "note": "Voyage card: Lourenco Marques",
-        "date": null
-      },
-      {
-        "port": "Mombasa",
-        "lon": 39.6682,
-        "lat": -4.0435,
-        "verified": false,
-        "note": "Voyage card: Mombasa",
-        "date": null
-      },
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Returned Dec 1950",
-        "date": null
-      }
-    ],
-    "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5672.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5673.jpeg"
-    ],
-    "waypoints_source": "manual_assumed",
-    "route_legs": [
-      {
-        "from_idx": 0,
-        "to_idx": 1,
-        "verified": false,
-        "coords": [
-          [
-            -2.980042,
-            53.370425
-          ],
-          [
-            -3.042183,
-            53.459438
-          ],
-          [
-            -3.397522,
-            53.572938
-          ],
-          [
-            -3.964322,
-            53.295363
-          ],
-          [
-            -4.119099,
-            53.234173
-          ],
-          [
-            -4.329113,
-            53.12664
-          ],
-          [
-            -4.806092,
-            52.785658
-          ],
-          [
-            -5.081903,
-            52.783932
-          ],
-          [
-            -5.440366,
-            52.111814
-          ],
-          [
-            -5.9,
-            51.25
-          ],
-          [
-            -6.022929,
-            51.019331
-          ],
-          [
-            -6.132679,
-            50.813392
-          ],
-          [
-            -6.236156,
-            50.619224
-          ],
-          [
-            -6.674013,
-            49.79761
-          ],
-          [
-            -6.686732,
-            49.773745
-          ],
-          [
-            -6.692563,
-            49.762802
-          ],
-          [
-            -6.693996,
-            49.760113
-          ],
-          [
-            -6.69652,
-            49.755378
-          ],
-          [
-            -6.697411,
-            49.753705
-          ],
-          [
-            -6.709922,
-            49.73023
-          ],
-          [
-            -7.193705,
-            48.822439
-          ],
-          [
-            -7.371242,
-            48.489301
-          ],
-          [
-            -7.679507,
-            47.910861
-          ],
-          [
-            -7.907145,
-            47.483711
-          ],
-          [
-            -10.063992,
-            43.402334
-          ],
-          [
-            -10.167909,
-            43.146826
-          ],
-          [
-            -10.289669,
-            42.796988
-          ],
-          [
-            -11.070622,
-            40.553191
-          ],
-          [
-            -11.158374,
-            40.301066
-          ],
-          [
-            -11.664545,
-            38.84676
-          ],
-          [
-            -11.81009,
-            38.428587
-          ],
-          [
-            -12.057515,
-            37.717697
-          ],
-          [
-            -12.131862,
-            37.504085
-          ],
-          [
-            -12.262448,
-            37.128892
-          ],
-          [
-            -12.32612,
-            36.945951
-          ],
-          [
-            -12.493983,
-            36.463656
-          ],
-          [
-            -12.608538,
-            36.134522
-          ],
-          [
-            -12.761203,
-            35.695892
-          ],
-          [
-            -12.839781,
-            35.470126
-          ],
-          [
-            -13.114888,
-            34.6797
-          ],
-          [
-            -13.32875,
-            34.065242
-          ],
-          [
-            -13.9051,
-            32.4093
-          ],
-          [
-            -15.172119,
-            29.337503
-          ],
-          [
-            -15.901807,
-            28.751674
-          ],
-          [
-            -16.141152,
-            28.335073
-          ],
-          [
-            -16.186157,
-            27.71606
-          ],
-          [
-            -16.776123,
-            27.843933
+            -2.734909,
+            51.501049
           ]
         ]
       },
       {
         "from_idx": 1,
         "to_idx": 2,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
-            -16.776123,
-            27.843933
+            -2.734909,
+            51.501049
           ],
           [
-            -16.186157,
-            27.71606
+            -2.782288,
+            51.519853
           ],
           [
-            -18.6689,
-            24.7237
+            -2.921677,
+            51.498912
           ],
           [
-            -18.76187,
-            24.560373
+            -3.123721,
+            51.397362
           ],
           [
-            -18,
-            21
+            -3.260193,
+            51.32203
           ],
           [
-            -18,
-            15
+            -4.126358,
+            51.432338
           ],
           [
-            -17,
-            11
-          ],
-          [
-            -13.4277,
-            5.5302
-          ],
-          [
-            -10,
-            -2e-05
-          ],
-          [
-            -5.531121,
-            -5.586708
-          ],
-          [
-            -1.989182,
-            -10.0146
-          ],
-          [
-            -1.100476,
-            -11.1256
-          ],
-          [
-            0.000405,
-            -12.501846
-          ],
-          [
-            1.7833,
-            -14.7307
-          ],
-          [
-            3.542734,
-            -16.929822
-          ],
-          [
-            5.653262,
-            -19.567777
-          ],
-          [
-            7.89386,
-            -22.368307
-          ],
-          [
-            10.425227,
-            -25.53227
-          ],
-          [
-            12.499733,
-            -28.1252
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18.428192,
-            -33.862433
-          ]
-        ]
-      },
-      {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
-        "coords": [
-          [
-            18.428192,
-            -33.862433
-          ],
-          [
-            18.237305,
-            -33.840764
-          ],
-          [
-            18,
-            -35
-          ],
-          [
-            22,
-            -35
-          ],
-          [
-            26,
-            -34.5
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            25.640717,
-            -33.918292
-          ]
-        ]
-      },
-      {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
-        "coords": [
-          [
-            25.640717,
-            -33.918292
-          ],
-          [
-            25.934206,
-            -33.932046
-          ],
-          [
-            28.5,
-            -33.5
-          ]
-        ]
-      },
-      {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
-        "coords": [
-          [
-            28.5,
-            -33.5
-          ],
-          [
-            31.173706,
-            -29.816817
-          ]
-        ]
-      },
-      {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
-        "coords": [
-          [
-            31.173706,
-            -29.816817
-          ],
-          [
-            32.920532,
-            -28.449374
-          ],
-          [
-            33.156738,
-            -25.888879
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.606049,
-            -25.995081
-          ]
-        ]
-      },
-      {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
-        "coords": [
-          [
-            32.606049,
-            -25.995081
-          ],
-          [
-            32.827148,
-            -25.995081
-          ],
-          [
-            32.861481,
-            -25.703413
-          ],
-          [
-            35.142957,
-            -24.861024
-          ],
-          [
-            36,
-            -24
-          ],
-          [
-            38.929,
-            -19.5234
-          ],
-          [
-            41.7,
-            -15
-          ],
-          [
-            41,
-            -10
-          ],
-          [
-            40,
-            -6.5
-          ],
-          [
-            40.3,
-            -4.2
-          ],
-          [
-            39.830933,
-            -4.061536
-          ]
-        ]
-      },
-      {
-        "from_idx": 7,
-        "to_idx": 8,
-        "verified": false,
-        "coords": [
-          [
-            39.830933,
-            -4.061536
-          ],
-          [
-            40.3,
-            -4.2
-          ],
-          [
-            43,
-            -1
-          ],
-          [
-            45.852351,
-            1.732747
-          ],
-          [
-            49.4,
-            5
-          ],
-          [
-            50.8379,
-            8.3029
-          ],
-          [
-            52.3,
-            11.6
-          ],
-          [
-            50.856149,
-            12.884027
-          ],
-          [
-            45,
-            12
-          ],
-          [
-            43.746586,
-            12.40439
-          ],
-          [
-            43.3,
-            12.7
-          ],
-          [
-            42.541058,
-            13.676089
-          ],
-          [
-            42.341309,
-            14.509144
-          ],
-          [
-            41.000977,
-            17.098792
-          ],
-          [
-            38.572998,
-            20.807472
-          ],
-          [
-            37.786499,
-            22.210682
-          ],
-          [
-            37,
-            23.6
-          ],
-          [
-            34.5,
-            27
-          ],
-          [
-            33.233643,
-            28.444544
-          ],
-          [
-            32.6,
-            29.7
-          ],
-          [
-            32.557983,
-            30.213982
-          ],
-          [
-            32.382202,
-            30.318359
-          ],
-          [
-            32.310104,
-            31.102922
-          ],
-          [
-            32.359877,
-            31.336373
-          ],
-          [
-            32.1,
-            31.7
-          ],
-          [
-            30.408377,
-            32.316071
-          ],
-          [
-            28.905525,
-            32.863395
-          ],
-          [
-            28.212434,
-            33.115811
-          ],
-          [
-            27.927542,
-            33.219565
-          ],
-          [
-            26.306431,
-            33.748752
-          ],
-          [
-            25.478721,
-            34.011915
-          ],
-          [
-            24.926664,
-            34.187436
-          ],
-          [
-            23,
-            34.8
-          ],
-          [
-            21.407365,
-            35.126694
-          ],
-          [
-            17.902084,
-            35.845726
-          ],
-          [
-            16.726588,
-            36.086854
-          ],
-          [
-            15.2,
-            36.4
-          ],
-          [
-            13.263819,
-            36.907095
-          ],
-          [
-            12.110644,
-            37.209117
-          ],
-          [
-            12.086301,
-            37.215493
-          ],
-          [
-            11.827836,
-            37.283186
-          ],
-          [
-            11.172235,
-            37.454891
-          ],
-          [
-            11,
-            37.5
-          ],
-          [
-            10.373031,
-            37.482087
-          ],
-          [
-            7.5,
-            37.4
-          ],
-          [
-            3.1,
-            37.2
-          ],
-          [
-            -0.366667,
-            36.666667
-          ],
-          [
-            -1.62439,
-            36.473171
-          ],
-          [
-            -2.244793,
-            36.377724
-          ],
-          [
-            -2.590675,
-            36.324512
-          ],
-          [
-            -3.264225,
-            36.220888
-          ],
-          [
-            -3.683043,
-            36.156455
-          ],
-          [
-            -4.7,
-            36
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
-            -5.354867,
-            35.968819
-          ],
-          [
-            -5.75,
-            35.95
-          ],
-          [
-            -7.26966,
-            36.31906
-          ],
-          [
-            -8.219465,
-            36.549727
-          ],
-          [
-            -9.25,
-            36.8
-          ],
-          [
-            -9.452092,
-            37.781589
-          ],
-          [
-            -9.6,
-            38.5
-          ],
-          [
-            -9.9844,
-            40.7798
-          ],
-          [
-            -9.5,
-            43
-          ],
-          [
-            -9.14264,
-            43.688493
-          ],
-          [
-            -9.019938,
-            43.924891
-          ],
-          [
-            -8.49576,
-            44.934776
-          ],
-          [
-            -7.987368,
-            45.91425
-          ],
-          [
-            -7.66278,
-            46.539604
-          ],
-          [
-            -6.921259,
-            47.968223
-          ],
-          [
-            -6.791122,
-            48.218947
-          ],
-          [
-            -6.61351,
-            48.561136
-          ],
-          [
-            -6.510489,
-            48.759616
-          ],
-          [
-            -6.196961,
-            49.363661
-          ],
-          [
-            -5.979701,
-            49.782237
-          ],
-          [
-            -5.952064,
-            49.835483
-          ],
-          [
-            -5.783648,
-            49.997799
+            -4.501826,
+            51.156194
           ],
           [
             -5.8714,
             50.4096
           ],
           [
-            -5.9,
-            51.25
+            -5.783648,
+            49.997799
           ],
           [
-            -5.440366,
-            52.111814
+            -5.611439,
+            49.881674
           ],
           [
-            -5.081903,
-            52.783932
+            -5.196944,
+            49.937831
           ],
           [
-            -4.806092,
-            52.785658
+            -4.115519,
+            50.084349
           ],
           [
-            -4.329113,
-            53.12664
+            -4,
+            50.1
           ],
           [
-            -4.119099,
-            53.234173
+            -2.624015,
+            50.023556
           ],
           [
-            -3.964322,
-            53.295363
+            -2.270882,
+            50.112738
           ],
           [
-            -3.397522,
-            53.572938
+            -2.100162,
+            50.138244
           ],
           [
-            -3.042183,
-            53.459438
+            -1.755087,
+            50.189798
           ],
           [
-            -2.980042,
-            53.370425
+            -1.577583,
+            50.216317
+          ],
+          [
+            -1.251907,
+            50.264973
+          ],
+          [
+            -0.76446,
+            50.337798
+          ],
+          [
+            -0.764313,
+            50.33751
+          ],
+          [
+            -0.672505,
+            50.358079
+          ],
+          [
+            -0.505582,
+            50.395477
+          ],
+          [
+            0.301537,
+            50.576304
+          ],
+          [
+            1.149895,
+            50.76637
+          ],
+          [
+            1.3,
+            50.8
+          ],
+          [
+            1.441366,
+            50.849032
+          ],
+          [
+            1.567687,
+            50.892845
+          ],
+          [
+            1.813195,
+            50.988387
+          ],
+          [
+            2.1,
+            51.1
+          ],
+          [
+            2.356699,
+            51.178984
+          ],
+          [
+            3.4,
+            51.5
+          ],
+          [
+            3.559619,
+            51.659619
+          ],
+          [
+            3.9,
+            52
+          ],
+          [
+            4.069748,
+            51.987629
+          ],
+          [
+            4.151802,
+            51.961827
+          ],
+          [
+            4.230423,
+            51.922673
+          ],
+          [
+            4.289818,
+            51.89641
+          ],
+          [
+            4.32827,
+            51.89302
+          ],
+          [
+            4.369469,
+            51.900223
+          ],
+          [
+            4.457359,
+            51.900012
+          ],
+          [
+            4.503708,
+            51.916321
+          ]
+        ]
+      },
+      {
+        "from_idx": 2,
+        "to_idx": 3,
+        "verified": true,
+        "coords": [
+          [
+            4.503708,
+            51.916321
+          ],
+          [
+            4.457359,
+            51.900012
+          ],
+          [
+            4.369469,
+            51.900223
+          ],
+          [
+            4.32827,
+            51.89302
+          ],
+          [
+            4.289818,
+            51.89641
+          ],
+          [
+            4.230423,
+            51.922673
+          ],
+          [
+            4.151802,
+            51.961827
+          ],
+          [
+            4.069748,
+            51.987629
+          ],
+          [
+            3.9,
+            52
+          ],
+          [
+            4.308389,
+            52.513982
+          ],
+          [
+            4.9,
+            53.5
+          ],
+          [
+            6.384053,
+            53.685507
+          ],
+          [
+            8.25,
+            53.9
+          ],
+          [
+            8.745294,
+            53.909831
+          ],
+          [
+            9.041942,
+            53.874321
+          ],
+          [
+            9.227347,
+            53.877053
+          ],
+          [
+            9.336273,
+            53.840148
+          ],
+          [
+            9.39653,
+            53.775829
+          ],
+          [
+            9.496185,
+            53.710038
+          ],
+          [
+            9.535584,
+            53.633153
+          ],
+          [
+            9.632921,
+            53.583652
+          ],
+          [
+            9.751117,
+            53.55475
+          ],
+          [
+            9.927252,
+            53.545112
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            9.927252,
+            53.545112
+          ],
+          [
+            9.751117,
+            53.55475
+          ],
+          [
+            9.632921,
+            53.583652
+          ],
+          [
+            9.535584,
+            53.633153
+          ],
+          [
+            9.496185,
+            53.710038
+          ],
+          [
+            9.39653,
+            53.775829
+          ],
+          [
+            9.336273,
+            53.840148
+          ],
+          [
+            9.227347,
+            53.877053
+          ],
+          [
+            9.041942,
+            53.874321
+          ],
+          [
+            8.745294,
+            53.909831
+          ],
+          [
+            8.25,
+            53.9
+          ],
+          [
+            6.384053,
+            53.685507
+          ],
+          [
+            4.9,
+            53.5
+          ],
+          [
+            3.720947,
+            53.5
+          ],
+          [
+            3.34058,
+            53.5
+          ],
+          [
+            2.146404,
+            53.5
+          ],
+          [
+            1.075698,
+            53.5
+          ],
+          [
+            0.4,
+            53.5
+          ],
+          [
+            -0.039825,
+            53.583538
+          ],
+          [
+            -0.299377,
+            53.730842
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
+            -0.299377,
+            53.730842
+          ],
+          [
+            -0.039825,
+            53.583538
+          ],
+          [
+            0.4,
+            53.5
+          ],
+          [
+            0.038452,
+            54.123822
+          ],
+          [
+            -0.754169,
+            54.819051
+          ],
+          [
+            -1.142578,
+            54.66986
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            -1.142578,
+            54.66986
+          ],
+          [
+            -0.754169,
+            54.819051
+          ],
+          [
+            0.3771,
+            53.9975
+          ],
+          [
+            0.71596,
+            53.756184
+          ],
+          [
+            0.946317,
+            53.592137
+          ],
+          [
+            1.075698,
+            53.5
+          ],
+          [
+            2.1349,
+            52.7457
+          ],
+          [
+            2.791374,
+            52.020069
+          ],
+          [
+            2.9,
+            51.9
+          ],
+          [
+            3.4,
+            51.5
+          ],
+          [
+            3.510818,
+            51.436889
+          ],
+          [
+            3.677482,
+            51.412653
+          ],
+          [
+            3.844528,
+            51.354631
+          ],
+          [
+            3.9641,
+            51.426
+          ],
+          [
+            4.0905,
+            51.3831
+          ],
+          [
+            4.1894,
+            51.3917
+          ],
+          [
+            4.261322,
+            51.340907
+          ]
+        ]
+      },
+      {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            4.261322,
+            51.340907
+          ],
+          [
+            4.1894,
+            51.3917
+          ],
+          [
+            4.0905,
+            51.3831
+          ],
+          [
+            3.9641,
+            51.426
+          ],
+          [
+            3.844528,
+            51.354631
+          ],
+          [
+            3.677482,
+            51.412653
+          ],
+          [
+            3.510818,
+            51.436889
+          ],
+          [
+            3.4,
+            51.5
+          ],
+          [
+            2.330031,
+            51.330031
+          ],
+          [
+            1.868984,
+            51.235892
+          ],
+          [
+            1.474566,
+            51.467902
+          ],
+          [
+            0.8262,
+            51.5038
+          ],
+          [
+            0.5034,
+            51.4996
+          ],
+          [
+            0.4499,
+            51.479
+          ],
+          [
+            0.4265,
+            51.4482
+          ],
+          [
+            0.3441,
+            51.45
+          ],
+          [
+            0.3126,
+            51.4722
+          ],
+          [
+            0.2782,
+            51.4594
+          ],
+          [
+            0.2137,
+            51.4867
           ]
         ]
       }
@@ -28748,138 +28397,131 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/149679_city_of_lille.jpeg"
   },
   {
-    "id": "durban-1950",
+    "id": "city-of-durban-1950",
     "ship": "City of Durban",
     "ship_no": "145892",
     "line": "Ellerman Lines (City Line)",
     "built": "1921",
-    "tons": "1,522 grt",
-    "flag": "🎖 Voyage Cards Held",
+    "tons": "7,522 net tons (card)",
+    "flag": "🎖 CRS10 Card Confirmed",
     "engaged": "28 Dec 1950, Birkenhead",
     "discharged": "27 Mar 1951, Liverpool",
     "engagement_date": "1950-12-28",
     "discharge_date": "1951-03-27",
     "rank": "Purser and Chief Steward",
     "authoritative_discharge": true,
-    "card_image": "city_of_durban_card11_first.jpg",
-    "note": "Indian Ocean, Malabar Coast route. Voyage card documents all port calls. Condenser trouble at Aden Aug 1951.",
-    "voyage_note": "Karachi, Bombay, then the Malabar Coast: Cochin, Calicut (Kozhikode), Alleppey. Small ship — 1,522 grt. 89 days.",
+    "card_image": null,
+    "note": "William served as Purser and Chief Steward on City of Durban from 28 Dec 1950, Birkenhead to 27 Mar 1951, Liverpool. Engagement type: foreign-going.",
+    "voyage_note": "",
     "waypoints": [
       {
-        "port": "Birkenhead",
-        "lon": -3.0138,
-        "lat": 53.3927,
-        "verified": false,
-        "note": "CRS10: engaged 28 Dec 1950",
-        "date": null
-      },
-      {
-        "port": "Gibraltar",
-        "lon": -5.3536,
-        "lat": 36.1408,
-        "verified": false,
-        "note": "Outward route",
-        "date": null
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "sailing Dec 30 1950"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Voyage card: Port Said Jan 1951",
-        "date": null
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival Jan 11 1951"
       },
       {
         "port": "Suez",
-        "lon": 32.5498,
-        "lat": 29.9668,
-        "verified": false,
-        "note": "Voyage card: Suez",
-        "date": null
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing Jan 12 1951"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Voyage card: Aden",
-        "date": null
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Jan 17 1951; sailing Jan 18 1951"
       },
       {
         "port": "Karachi",
-        "lon": 67.0011,
-        "lat": 24.8607,
-        "verified": false,
-        "note": "Voyage card: Karachi",
-        "date": null
+        "lon": 67.0207055,
+        "lat": 24.8546842,
+        "verified": true,
+        "note": "arrival Jan 23 1951; sailing Jan 31 1951"
       },
       {
         "port": "Bombay",
-        "lon": 72.8354,
-        "lat": 18.9388,
-        "verified": false,
-        "note": "Voyage card: Bombay",
-        "date": null
+        "lon": 72.8258,
+        "lat": 18.975,
+        "verified": true,
+        "note": "arrival Feb 2 1951; sailing Feb 8 1951"
       },
       {
-        "port": "Kozhikode",
-        "lon": 75.7804,
-        "lat": 11.2588,
-        "verified": false,
-        "note": "Voyage card: Kozhikode (Calicut)",
-        "date": null
+        "port": "Koilchottam",
+        "lon": 75.696891,
+        "lat": 11.4383564,
+        "verified": true,
+        "note": "arrival Feb 10 1951; sailing Feb 14 1951"
       },
       {
         "port": "Cochin",
         "lon": 76.2673,
         "lat": 9.9312,
-        "verified": false,
-        "note": "Voyage card: Cochin",
-        "date": null
+        "verified": true,
+        "note": "arrival Feb 15 1951; sailing Feb 19 1951"
+      },
+      {
+        "port": "Kozhikode",
+        "lon": 75.7754716,
+        "lat": 11.2450558,
+        "verified": true,
+        "note": "arrival Feb 20 1951; sailing Feb 21 1951"
       },
       {
         "port": "Alleppey",
         "lon": 76.3388,
         "lat": 9.4981,
-        "verified": false,
-        "note": "Voyage card: Alleppey",
-        "date": null
+        "verified": true,
+        "note": "arrival Feb 22 1951; sailing Feb 25 1951"
       },
       {
         "port": "Aden",
-        "lon": 45.0361,
-        "lat": 12.7797,
-        "verified": false,
-        "note": "Voyage card: Aden homeward",
-        "date": null
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Mar 4 1951; sailing Mar 4 1951"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival Mar 9 1951"
       },
       {
         "port": "Port Said",
-        "lon": 32.3019,
-        "lat": 31.2653,
-        "verified": false,
-        "note": "Voyage card homeward",
-        "date": null
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Mar 10 1951"
       },
       {
         "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "CRS10: discharged Liverpool 27 Mar 1951",
-        "date": null
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival Mar 23 1951"
       }
     ],
     "card_images": [
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5674.jpeg",
-      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5675.jpeg"
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5674.jpeg"
     ],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "crs10_card",
     "route_legs": [
       {
         "from_idx": 0,
         "to_idx": 1,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             -2.980042,
@@ -29018,25 +28660,6 @@ const VOYAGES = [
             35.97289
           ],
           [
-            -5.343132,
-            36.110975
-          ]
-        ]
-      },
-      {
-        "from_idx": 1,
-        "to_idx": 2,
-        "verified": false,
-        "coords": [
-          [
-            -5.343132,
-            36.110975
-          ],
-          [
-            -5.269383,
-            35.97289
-          ],
-          [
             -4.7,
             36
           ],
@@ -29159,9 +28782,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 2,
-        "to_idx": 3,
-        "verified": false,
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
         "coords": [
           [
             32.359877,
@@ -29182,9 +28805,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 3,
-        "to_idx": 4,
-        "verified": false,
+        "from_idx": 2,
+        "to_idx": 3,
+        "verified": true,
         "coords": [
           [
             32.557983,
@@ -29241,9 +28864,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 4,
-        "to_idx": 5,
-        "verified": false,
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
         "coords": [
           [
             44.972534,
@@ -29292,9 +28915,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 5,
-        "to_idx": 6,
-        "verified": false,
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
         "coords": [
           [
             66.975702,
@@ -29327,9 +28950,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 6,
-        "to_idx": 7,
-        "verified": false,
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
         "coords": [
           [
             72.80777,
@@ -29358,9 +28981,20 @@ const VOYAGES = [
         ]
       },
       {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
         "from_idx": 7,
         "to_idx": 8,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             76.195679,
@@ -29371,7 +29005,7 @@ const VOYAGES = [
       {
         "from_idx": 8,
         "to_idx": 9,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             76.195679,
@@ -29382,7 +29016,7 @@ const VOYAGES = [
       {
         "from_idx": 9,
         "to_idx": 10,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             76.195679,
@@ -29449,7 +29083,7 @@ const VOYAGES = [
       {
         "from_idx": 10,
         "to_idx": 11,
-        "verified": false,
+        "verified": true,
         "coords": [
           [
             44.972534,
@@ -29502,6 +29136,17 @@ const VOYAGES = [
           [
             32.557983,
             30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 11,
+        "to_idx": 12,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
           ],
           [
             32.382202,
@@ -29518,9 +29163,9 @@ const VOYAGES = [
         ]
       },
       {
-        "from_idx": 11,
-        "to_idx": 12,
-        "verified": false,
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
         "coords": [
           [
             32.359877,
@@ -29784,33 +29429,2507 @@ const VOYAGES = [
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/145892_city_of_durban.jpeg"
   },
   {
+    "id": "city-of-durban-1950-2",
+    "ship": "City of Durban",
+    "ship_no": "145892",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1921",
+    "tons": "7,522 net tons (card)",
+    "flag": "🎖 CRS10 Card Confirmed",
+    "engaged": "28 Mar 1950, Liverpool",
+    "discharged": "11 Apr 1951, Unknown",
+    "engagement_date": "1950-03-28",
+    "discharge_date": "1951-04-11",
+    "rank": "Purser and Chief Steward",
+    "authoritative_discharge": true,
+    "card_image": null,
+    "note": "William served as Purser and Chief Steward on City of Durban from 28 Mar 1950, Liverpool to 11 Apr 1951, Unknown. Engagement type: home-trade.",
+    "voyage_note": "Verification: LIKELY TYPO: engagement date 28/03/1950 sits between a discharge on 27/03/1951 and the next engagement on 23/04/1951 — almost certainly should read 28/03/1951, not 1950. Left as originally recorded pending your confirmation.",
+    "waypoints": [
+      {
+        "port": "Calcutta",
+        "lon": 88.3638953,
+        "lat": 22.5726459,
+        "verified": true,
+        "note": "sailing Sept 12 1950"
+      },
+      {
+        "port": "Vizagapatam",
+        "lon": 83.2185,
+        "lat": 17.6868,
+        "verified": true,
+        "note": "arrival Sept 16 1950; sailing Sept 28 1950"
+      },
+      {
+        "port": "Colombo",
+        "lon": 79.8542005,
+        "lat": 6.9388614,
+        "verified": true,
+        "note": "arrival Oct 2 1950; sailing Oct 7 1950"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Oct 15 1950; sailing Oct 15 1950"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival Oct 20 1950"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Oct 22 1950"
+      },
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "arrival Nov 5 1950; sailing Nov 8 1950"
+      },
+      {
+        "port": "Hull",
+        "lon": -0.3301214,
+        "lat": 53.7623863,
+        "verified": true,
+        "note": "arrival Nov 9 1950; sailing Nov 14 1950"
+      },
+      {
+        "port": "Middlesbrough",
+        "lon": -1.2344047,
+        "lat": 54.5760419,
+        "verified": true,
+        "note": "arrival Nov 14 1950; sailing Nov 17 1950"
+      },
+      {
+        "port": "Antwerp",
+        "lon": 4.3997081,
+        "lat": 51.2211097,
+        "verified": true,
+        "note": "arrival Nov 19 1950; sailing Nov 23 1950"
+      },
+      {
+        "port": "Avonmouth",
+        "lon": -2.705,
+        "lat": 51.5075,
+        "verified": true,
+        "note": "arrival Nov 26 1950; sailing Nov 29 1950"
+      },
+      {
+        "port": "Glasgow",
+        "lon": -4.2501687,
+        "lat": 55.861155,
+        "verified": true,
+        "note": "arrival Dec 1 1950; sailing Dec 5 1950"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival Dec 6 1950; sailing Dec 30 1950"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "arrival Jan 11 1951"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "sailing Jan 12 1951"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Jan 17 1951; sailing Jan 18 1951"
+      },
+      {
+        "port": "Karachi",
+        "lon": 67.0207055,
+        "lat": 24.8546842,
+        "verified": true,
+        "note": "arrival Jan 23 1951; sailing Jan 31 1951"
+      },
+      {
+        "port": "Bombay",
+        "lon": 72.8258,
+        "lat": 18.975,
+        "verified": true,
+        "note": "arrival Feb 2 1951; sailing Feb 8 1951"
+      },
+      {
+        "port": "Koilchottam",
+        "lon": 75.696891,
+        "lat": 11.4383564,
+        "verified": true,
+        "note": "arrival Feb 10 1951; sailing Feb 14 1951"
+      },
+      {
+        "port": "Cochin",
+        "lon": 76.2673,
+        "lat": 9.9312,
+        "verified": true,
+        "note": "arrival Feb 15 1951; sailing Feb 19 1951"
+      },
+      {
+        "port": "Kozhikode",
+        "lon": 75.7754716,
+        "lat": 11.2450558,
+        "verified": true,
+        "note": "arrival Feb 20 1951; sailing Feb 21 1951"
+      },
+      {
+        "port": "Alleppey",
+        "lon": 76.3388,
+        "lat": 9.4981,
+        "verified": true,
+        "note": "arrival Feb 22 1951; sailing Feb 25 1951"
+      },
+      {
+        "port": "Aden",
+        "lon": 45.028504,
+        "lat": 12.789585,
+        "verified": true,
+        "note": "arrival Mar 4 1951; sailing Mar 4 1951"
+      },
+      {
+        "port": "Suez",
+        "lon": 32.537086,
+        "lat": 29.974498,
+        "verified": true,
+        "note": "arrival Mar 9 1951"
+      },
+      {
+        "port": "Port Said",
+        "lon": 32.305505,
+        "lat": 31.263235,
+        "verified": true,
+        "note": "sailing Mar 10 1951"
+      },
+      {
+        "port": "Liverpool",
+        "lon": -2.9166389,
+        "lat": 53.3933411,
+        "verified": true,
+        "note": "arrival Mar 23 1951; sailing Mar 29 1951"
+      },
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "arrival Apr 2 1951; sailing Apr 4 1951"
+      },
+      {
+        "port": "Middlesbrough",
+        "lon": -1.2344047,
+        "lat": 54.5760419,
+        "verified": true,
+        "note": "arrival Apr 5 1951"
+      }
+    ],
+    "card_images": [
+      "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/voyagecards/IMG_5674.jpeg"
+    ],
+    "waypoints_source": "crs10_card",
+    "route_legs": [
+      {
+        "from_idx": 0,
+        "to_idx": 1,
+        "verified": true,
+        "coords": [
+          [
+            88.173523,
+            22.165786
+          ],
+          [
+            88.206482,
+            22.065278
+          ],
+          [
+            87.93869,
+            21.684229
+          ],
+          [
+            88,
+            21
+          ],
+          [
+            84.9566,
+            18.5238
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.3898,
+            17.6221
+          ]
+        ]
+      },
+      {
+        "from_idx": 1,
+        "to_idx": 2,
+        "verified": true,
+        "coords": [
+          [
+            83.3898,
+            17.6221
+          ],
+          [
+            83.656463,
+            17.413983
+          ],
+          [
+            83.45929,
+            15.271825
+          ],
+          [
+            82.998315,
+            12.032454
+          ],
+          [
+            82.25,
+            7.25
+          ],
+          [
+            81.9,
+            5.9
+          ],
+          [
+            80.1,
+            5.8
+          ],
+          [
+            79.82666,
+            6.424484
+          ],
+          [
+            79.789581,
+            6.994585
+          ]
+        ]
+      },
+      {
+        "from_idx": 2,
+        "to_idx": 3,
+        "verified": true,
+        "coords": [
+          [
+            79.789581,
+            6.994585
+          ],
+          [
+            78.868856,
+            6.674926
+          ],
+          [
+            78.019032,
+            6.387793
+          ],
+          [
+            75.966807,
+            6.966807
+          ],
+          [
+            70.817426,
+            8.365148
+          ],
+          [
+            69.999915,
+            8.582747
+          ],
+          [
+            69.671733,
+            8.6701
+          ],
+          [
+            69.3291,
+            8.7613
+          ],
+          [
+            68.858995,
+            8.881605
+          ],
+          [
+            65.7044,
+            9.6889
+          ],
+          [
+            64.992809,
+            9.862937
+          ],
+          [
+            64.698862,
+            9.934828
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 3,
+        "to_idx": 4,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 4,
+        "to_idx": 5,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 5,
+        "to_idx": 6,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -7.954994,
+            45.668797
+          ],
+          [
+            -6.698867,
+            47.340067
+          ],
+          [
+            -5.5,
+            48.6667
+          ],
+          [
+            -5.06401,
+            48.799916
+          ],
+          [
+            -4.270518,
+            49.042365
+          ],
+          [
+            -4.030414,
+            49.115729
+          ],
+          [
+            -3.986163,
+            49.129249
+          ],
+          [
+            -3.197043,
+            49.370363
+          ],
+          [
+            -2.39189,
+            49.616376
+          ],
+          [
+            -1.992006,
+            49.738559
+          ],
+          [
+            -1.93365,
+            49.75639
+          ],
+          [
+            -1.665743,
+            49.838248
+          ],
+          [
+            -1.47977,
+            49.895072
+          ],
+          [
+            -1.3,
+            49.95
+          ],
+          [
+            -0.671539,
+            50.155459
+          ],
+          [
+            -0.545959,
+            50.196513
+          ],
+          [
+            -0.343359,
+            50.262748
+          ],
+          [
+            0.39288,
+            50.503441
+          ],
+          [
+            1.193894,
+            50.765311
+          ],
+          [
+            1.3,
+            50.8
+          ],
+          [
+            1.384634,
+            51.049171
+          ],
+          [
+            1.4181,
+            51.1477
+          ],
+          [
+            1.474566,
+            51.467902
+          ],
+          [
+            0.8262,
+            51.5038
+          ],
+          [
+            0.5034,
+            51.4996
+          ],
+          [
+            0.4499,
+            51.479
+          ],
+          [
+            0.4265,
+            51.4482
+          ],
+          [
+            0.3441,
+            51.45
+          ],
+          [
+            0.3126,
+            51.4722
+          ],
+          [
+            0.2782,
+            51.4594
+          ],
+          [
+            0.2137,
+            51.4867
+          ]
+        ]
+      },
+      {
+        "from_idx": 6,
+        "to_idx": 7,
+        "verified": true,
+        "coords": [
+          [
+            0.2137,
+            51.4867
+          ],
+          [
+            0.2782,
+            51.4594
+          ],
+          [
+            0.3126,
+            51.4722
+          ],
+          [
+            0.3441,
+            51.45
+          ],
+          [
+            0.4265,
+            51.4482
+          ],
+          [
+            0.4499,
+            51.479
+          ],
+          [
+            0.5034,
+            51.4996
+          ],
+          [
+            0.8262,
+            51.5038
+          ],
+          [
+            1.25,
+            51.6
+          ],
+          [
+            1.5065,
+            51.878829
+          ],
+          [
+            1.761684,
+            52.03871
+          ],
+          [
+            2.1349,
+            52.7457
+          ],
+          [
+            0.4,
+            53.5
+          ],
+          [
+            -0.039825,
+            53.583538
+          ],
+          [
+            -0.299377,
+            53.730842
+          ]
+        ]
+      },
+      {
+        "from_idx": 7,
+        "to_idx": 8,
+        "verified": true,
+        "coords": [
+          [
+            -0.299377,
+            53.730842
+          ],
+          [
+            -0.039825,
+            53.583538
+          ],
+          [
+            0.4,
+            53.5
+          ],
+          [
+            0.038452,
+            54.123822
+          ],
+          [
+            -0.754169,
+            54.819051
+          ],
+          [
+            -1.142578,
+            54.66986
+          ]
+        ]
+      },
+      {
+        "from_idx": 8,
+        "to_idx": 9,
+        "verified": true,
+        "coords": [
+          [
+            -1.142578,
+            54.66986
+          ],
+          [
+            -0.754169,
+            54.819051
+          ],
+          [
+            0.3771,
+            53.9975
+          ],
+          [
+            0.71596,
+            53.756184
+          ],
+          [
+            0.946317,
+            53.592137
+          ],
+          [
+            1.075698,
+            53.5
+          ],
+          [
+            2.1349,
+            52.7457
+          ],
+          [
+            2.791374,
+            52.020069
+          ],
+          [
+            2.9,
+            51.9
+          ],
+          [
+            3.4,
+            51.5
+          ],
+          [
+            3.510818,
+            51.436889
+          ],
+          [
+            3.677482,
+            51.412653
+          ],
+          [
+            3.844528,
+            51.354631
+          ],
+          [
+            3.9641,
+            51.426
+          ],
+          [
+            4.0905,
+            51.3831
+          ],
+          [
+            4.1894,
+            51.3917
+          ],
+          [
+            4.261322,
+            51.340907
+          ]
+        ]
+      },
+      {
+        "from_idx": 9,
+        "to_idx": 10,
+        "verified": true,
+        "coords": [
+          [
+            4.261322,
+            51.340907
+          ],
+          [
+            4.1894,
+            51.3917
+          ],
+          [
+            4.0905,
+            51.3831
+          ],
+          [
+            3.9641,
+            51.426
+          ],
+          [
+            3.844528,
+            51.354631
+          ],
+          [
+            3.677482,
+            51.412653
+          ],
+          [
+            3.510818,
+            51.436889
+          ],
+          [
+            3.4,
+            51.5
+          ],
+          [
+            2.356699,
+            51.178984
+          ],
+          [
+            2.1,
+            51.1
+          ],
+          [
+            1.813195,
+            50.988387
+          ],
+          [
+            1.567687,
+            50.892845
+          ],
+          [
+            1.441366,
+            50.849032
+          ],
+          [
+            1.3,
+            50.8
+          ],
+          [
+            1.149895,
+            50.76637
+          ],
+          [
+            0.301537,
+            50.576304
+          ],
+          [
+            -0.505582,
+            50.395477
+          ],
+          [
+            -0.672505,
+            50.358079
+          ],
+          [
+            -0.764313,
+            50.33751
+          ],
+          [
+            -0.76446,
+            50.337798
+          ],
+          [
+            -1.251907,
+            50.264973
+          ],
+          [
+            -1.577583,
+            50.216317
+          ],
+          [
+            -1.755087,
+            50.189798
+          ],
+          [
+            -2.100162,
+            50.138244
+          ],
+          [
+            -2.270882,
+            50.112738
+          ],
+          [
+            -2.624015,
+            50.023556
+          ],
+          [
+            -4,
+            50.1
+          ],
+          [
+            -4.115519,
+            50.084349
+          ],
+          [
+            -5.196944,
+            49.937831
+          ],
+          [
+            -5.611439,
+            49.881674
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -4.501826,
+            51.156194
+          ],
+          [
+            -4.126358,
+            51.432338
+          ],
+          [
+            -3.260193,
+            51.32203
+          ],
+          [
+            -3.123721,
+            51.397362
+          ],
+          [
+            -2.921677,
+            51.498912
+          ],
+          [
+            -2.782288,
+            51.519853
+          ],
+          [
+            -2.734909,
+            51.501049
+          ]
+        ]
+      },
+      {
+        "from_idx": 10,
+        "to_idx": 11,
+        "verified": true,
+        "coords": [
+          [
+            -2.734909,
+            51.501049
+          ],
+          [
+            -2.782288,
+            51.519853
+          ],
+          [
+            -2.921677,
+            51.498912
+          ],
+          [
+            -3.123721,
+            51.397362
+          ],
+          [
+            -3.260193,
+            51.32203
+          ],
+          [
+            -4.126358,
+            51.432338
+          ],
+          [
+            -4.501826,
+            51.156194
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.781725,
+            52.16867
+          ],
+          [
+            -5.742388,
+            52.779797
+          ],
+          [
+            -5.733548,
+            52.917129
+          ],
+          [
+            -5.7075,
+            53.3218
+          ],
+          [
+            -5.7,
+            53.4
+          ],
+          [
+            -5.489975,
+            53.98807
+          ],
+          [
+            -5.247687,
+            54.666478
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.54422,
+            55.924586
+          ]
+        ]
+      },
+      {
+        "from_idx": 11,
+        "to_idx": 12,
+        "verified": true,
+        "coords": [
+          [
+            -4.54422,
+            55.924586
+          ],
+          [
+            -4.768562,
+            55.987575
+          ],
+          [
+            -4.893723,
+            55.949777
+          ],
+          [
+            -5.012512,
+            55.653573
+          ],
+          [
+            -5.009766,
+            55.415764
+          ],
+          [
+            -5.445564,
+            54.990994
+          ],
+          [
+            -5.2,
+            54.8
+          ],
+          [
+            -5.137288,
+            54.638339
+          ],
+          [
+            -5.002755,
+            54.604048
+          ],
+          [
+            -4.162754,
+            54.389945
+          ],
+          [
+            -3.831515,
+            53.940031
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      },
+      {
+        "from_idx": 12,
+        "to_idx": 13,
+        "verified": true,
+        "coords": [
+          [
+            -2.980042,
+            53.370425
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.964322,
+            53.295363
+          ],
+          [
+            -4.119099,
+            53.234173
+          ],
+          [
+            -4.329113,
+            53.12664
+          ],
+          [
+            -4.806092,
+            52.785658
+          ],
+          [
+            -5.081903,
+            52.783932
+          ],
+          [
+            -5.440366,
+            52.111814
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.952064,
+            49.835483
+          ],
+          [
+            -5.979701,
+            49.782237
+          ],
+          [
+            -6.196961,
+            49.363661
+          ],
+          [
+            -6.510489,
+            48.759616
+          ],
+          [
+            -6.61351,
+            48.561136
+          ],
+          [
+            -6.791122,
+            48.218947
+          ],
+          [
+            -6.921259,
+            47.968223
+          ],
+          [
+            -7.66278,
+            46.539604
+          ],
+          [
+            -7.987368,
+            45.91425
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 13,
+        "to_idx": 14,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 14,
+        "to_idx": 15,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 15,
+        "to_idx": 16,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            49.5581,
+            14.1436
+          ],
+          [
+            54.2,
+            16.2
+          ],
+          [
+            56.876033,
+            17.38386
+          ],
+          [
+            58.191833,
+            18.742507
+          ],
+          [
+            59,
+            20
+          ],
+          [
+            62.375976,
+            21.440441
+          ],
+          [
+            64.447045,
+            22.842503
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            66.975702,
+            24.817412
+          ]
+        ]
+      },
+      {
+        "from_idx": 16,
+        "to_idx": 17,
+        "verified": true,
+        "coords": [
+          [
+            66.975702,
+            24.817412
+          ],
+          [
+            66.6,
+            24.3
+          ],
+          [
+            68.719482,
+            22.543001
+          ],
+          [
+            69.592463,
+            20.809334
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            72.80777,
+            18.941361
+          ]
+        ]
+      },
+      {
+        "from_idx": 17,
+        "to_idx": 18,
+        "verified": true,
+        "coords": [
+          [
+            72.80777,
+            18.941361
+          ],
+          [
+            72.4,
+            19
+          ],
+          [
+            73,
+            15.3
+          ],
+          [
+            74.133516,
+            12.773359
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 18,
+        "to_idx": 19,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 19,
+        "to_idx": 20,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 20,
+        "to_idx": 21,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ]
+        ]
+      },
+      {
+        "from_idx": 21,
+        "to_idx": 22,
+        "verified": true,
+        "coords": [
+          [
+            76.195679,
+            9.876864
+          ],
+          [
+            75.3,
+            9.7
+          ],
+          [
+            70,
+            10
+          ],
+          [
+            65.126773,
+            10.035771
+          ],
+          [
+            65.0002,
+            10.0367
+          ],
+          [
+            64.696861,
+            10.034474
+          ],
+          [
+            64.303249,
+            10.031585
+          ],
+          [
+            62.0601,
+            10.5802
+          ],
+          [
+            60.825733,
+            10.866984
+          ],
+          [
+            59.894005,
+            11.083455
+          ],
+          [
+            55.041504,
+            12.747516
+          ],
+          [
+            53.61885,
+            13.300009
+          ],
+          [
+            50.856149,
+            12.884027
+          ],
+          [
+            45,
+            12
+          ],
+          [
+            44.972534,
+            12.710009
+          ]
+        ]
+      },
+      {
+        "from_idx": 22,
+        "to_idx": 23,
+        "verified": true,
+        "coords": [
+          [
+            44.972534,
+            12.710009
+          ],
+          [
+            43.746586,
+            12.40439
+          ],
+          [
+            43.3,
+            12.7
+          ],
+          [
+            42.541058,
+            13.676089
+          ],
+          [
+            42.341309,
+            14.509144
+          ],
+          [
+            41.000977,
+            17.098792
+          ],
+          [
+            38.572998,
+            20.807472
+          ],
+          [
+            37.786499,
+            22.210682
+          ],
+          [
+            37,
+            23.6
+          ],
+          [
+            34.5,
+            27
+          ],
+          [
+            33.233643,
+            28.444544
+          ],
+          [
+            32.6,
+            29.7
+          ],
+          [
+            32.557983,
+            30.213982
+          ]
+        ]
+      },
+      {
+        "from_idx": 23,
+        "to_idx": 24,
+        "verified": true,
+        "coords": [
+          [
+            32.557983,
+            30.213982
+          ],
+          [
+            32.382202,
+            30.318359
+          ],
+          [
+            32.310104,
+            31.102922
+          ],
+          [
+            32.359877,
+            31.336373
+          ]
+        ]
+      },
+      {
+        "from_idx": 24,
+        "to_idx": 25,
+        "verified": true,
+        "coords": [
+          [
+            32.359877,
+            31.336373
+          ],
+          [
+            32.1,
+            31.7
+          ],
+          [
+            30.408377,
+            32.316071
+          ],
+          [
+            28.905525,
+            32.863395
+          ],
+          [
+            28.212434,
+            33.115811
+          ],
+          [
+            27.927542,
+            33.219565
+          ],
+          [
+            26.306431,
+            33.748752
+          ],
+          [
+            25.478721,
+            34.011915
+          ],
+          [
+            24.926664,
+            34.187436
+          ],
+          [
+            23,
+            34.8
+          ],
+          [
+            21.407365,
+            35.126694
+          ],
+          [
+            17.902084,
+            35.845726
+          ],
+          [
+            16.726588,
+            36.086854
+          ],
+          [
+            15.2,
+            36.4
+          ],
+          [
+            13.263819,
+            36.907095
+          ],
+          [
+            12.110644,
+            37.209117
+          ],
+          [
+            12.086301,
+            37.215493
+          ],
+          [
+            11.827836,
+            37.283186
+          ],
+          [
+            11.172235,
+            37.454891
+          ],
+          [
+            11,
+            37.5
+          ],
+          [
+            10.373031,
+            37.482087
+          ],
+          [
+            7.5,
+            37.4
+          ],
+          [
+            3.1,
+            37.2
+          ],
+          [
+            -0.366667,
+            36.666667
+          ],
+          [
+            -1.62439,
+            36.473171
+          ],
+          [
+            -2.244793,
+            36.377724
+          ],
+          [
+            -2.590675,
+            36.324512
+          ],
+          [
+            -3.264225,
+            36.220888
+          ],
+          [
+            -3.683043,
+            36.156455
+          ],
+          [
+            -4.7,
+            36
+          ],
+          [
+            -5.269383,
+            35.97289
+          ],
+          [
+            -5.354867,
+            35.968819
+          ],
+          [
+            -5.75,
+            35.95
+          ],
+          [
+            -7.26966,
+            36.31906
+          ],
+          [
+            -8.219465,
+            36.549727
+          ],
+          [
+            -9.25,
+            36.8
+          ],
+          [
+            -9.452092,
+            37.781589
+          ],
+          [
+            -9.6,
+            38.5
+          ],
+          [
+            -9.9844,
+            40.7798
+          ],
+          [
+            -9.5,
+            43
+          ],
+          [
+            -9.14264,
+            43.688493
+          ],
+          [
+            -9.019938,
+            43.924891
+          ],
+          [
+            -8.49576,
+            44.934776
+          ],
+          [
+            -7.987368,
+            45.91425
+          ],
+          [
+            -7.66278,
+            46.539604
+          ],
+          [
+            -6.921259,
+            47.968223
+          ],
+          [
+            -6.791122,
+            48.218947
+          ],
+          [
+            -6.61351,
+            48.561136
+          ],
+          [
+            -6.510489,
+            48.759616
+          ],
+          [
+            -6.196961,
+            49.363661
+          ],
+          [
+            -5.979701,
+            49.782237
+          ],
+          [
+            -5.952064,
+            49.835483
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.440366,
+            52.111814
+          ],
+          [
+            -5.081903,
+            52.783932
+          ],
+          [
+            -4.806092,
+            52.785658
+          ],
+          [
+            -4.329113,
+            53.12664
+          ],
+          [
+            -4.119099,
+            53.234173
+          ],
+          [
+            -3.964322,
+            53.295363
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -2.980042,
+            53.370425
+          ]
+        ]
+      },
+      {
+        "from_idx": 25,
+        "to_idx": 26,
+        "verified": true,
+        "coords": [
+          [
+            -2.980042,
+            53.370425
+          ],
+          [
+            -3.042183,
+            53.459438
+          ],
+          [
+            -3.397522,
+            53.572938
+          ],
+          [
+            -3.964322,
+            53.295363
+          ],
+          [
+            -4.119099,
+            53.234173
+          ],
+          [
+            -4.329113,
+            53.12664
+          ],
+          [
+            -4.806092,
+            52.785658
+          ],
+          [
+            -5.081903,
+            52.783932
+          ],
+          [
+            -5.440366,
+            52.111814
+          ],
+          [
+            -5.9,
+            51.25
+          ],
+          [
+            -5.8714,
+            50.4096
+          ],
+          [
+            -5.783648,
+            49.997799
+          ],
+          [
+            -5.611439,
+            49.881674
+          ],
+          [
+            -5.196944,
+            49.937831
+          ],
+          [
+            -4.115519,
+            50.084349
+          ],
+          [
+            -4,
+            50.1
+          ],
+          [
+            -2.624015,
+            50.023556
+          ],
+          [
+            -2.270882,
+            50.112738
+          ],
+          [
+            -2.100162,
+            50.138244
+          ],
+          [
+            -1.755087,
+            50.189798
+          ],
+          [
+            -1.577583,
+            50.216317
+          ],
+          [
+            -1.251907,
+            50.264973
+          ],
+          [
+            -0.76446,
+            50.337798
+          ],
+          [
+            -0.764313,
+            50.33751
+          ],
+          [
+            -0.672505,
+            50.358079
+          ],
+          [
+            -0.505582,
+            50.395477
+          ],
+          [
+            0.301537,
+            50.576304
+          ],
+          [
+            1.149895,
+            50.76637
+          ],
+          [
+            1.3,
+            50.8
+          ],
+          [
+            1.384634,
+            51.049171
+          ],
+          [
+            1.4181,
+            51.1477
+          ],
+          [
+            1.474566,
+            51.467902
+          ],
+          [
+            0.8262,
+            51.5038
+          ],
+          [
+            0.5034,
+            51.4996
+          ],
+          [
+            0.4499,
+            51.479
+          ],
+          [
+            0.4265,
+            51.4482
+          ],
+          [
+            0.3441,
+            51.45
+          ],
+          [
+            0.3126,
+            51.4722
+          ],
+          [
+            0.2782,
+            51.4594
+          ],
+          [
+            0.2137,
+            51.4867
+          ]
+        ]
+      },
+      {
+        "from_idx": 26,
+        "to_idx": 27,
+        "verified": true,
+        "coords": [
+          [
+            0.2137,
+            51.4867
+          ],
+          [
+            0.2782,
+            51.4594
+          ],
+          [
+            0.3126,
+            51.4722
+          ],
+          [
+            0.3441,
+            51.45
+          ],
+          [
+            0.4265,
+            51.4482
+          ],
+          [
+            0.4499,
+            51.479
+          ],
+          [
+            0.5034,
+            51.4996
+          ],
+          [
+            0.8262,
+            51.5038
+          ],
+          [
+            1.25,
+            51.6
+          ],
+          [
+            1.5065,
+            51.878829
+          ],
+          [
+            1.761684,
+            52.03871
+          ],
+          [
+            2.1349,
+            52.7457
+          ],
+          [
+            1.075698,
+            53.5
+          ],
+          [
+            0.946317,
+            53.592137
+          ],
+          [
+            0.71596,
+            53.756184
+          ],
+          [
+            0.3771,
+            53.9975
+          ],
+          [
+            -0.754169,
+            54.819051
+          ],
+          [
+            -1.142578,
+            54.66986
+          ]
+        ]
+      }
+    ],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/145892_city_of_durban.jpeg"
+  },
+  {
+    "id": "city-of-durban-1951",
+    "ship": "City of Durban",
+    "ship_no": "145892",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1921",
+    "tons": "7,522 net tons (card)",
+    "flag": "📍 Last Known Position",
+    "engaged": "23 Apr 1951, P.Lan",
+    "discharged": "25 Apr 1951, P.Lan",
+    "engagement_date": "1951-04-23",
+    "discharge_date": "1951-04-25",
+    "rank": "Purser and Chief Steward",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chief Steward on City of Durban from 23 Apr 1951, P.Lan to 25 Apr 1951, P.Lan. Engagement type: home-trade.",
+    "voyage_note": "",
+    "waypoints": [
+      {
+        "port": "London",
+        "lon": -0.1277653,
+        "lat": 51.5074456,
+        "verified": true,
+        "note": "no new port call logged in this window; ship's last known position was London (arrival Apr 14 1951)"
+      }
+    ],
+    "card_images": [],
+    "waypoints_source": "card_carried_forward",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/145892_city_of_durban.jpeg"
+  },
+  {
+    "id": "city-of-durban-1951-2",
+    "ship": "City of Durban",
+    "ship_no": "145892",
+    "line": "Ellerman Lines (City Line)",
+    "built": "1921",
+    "tons": "7,522 net tons (card)",
+    "flag": "❓ No Card Data",
+    "engaged": "7 Sep 1951, Unknown",
+    "discharged": "8 Sep 1951, Unknown",
+    "engagement_date": "1951-09-07",
+    "discharge_date": "1951-09-08",
+    "rank": "Purser and Chief Steward",
+    "authoritative_discharge": false,
+    "card_image": null,
+    "note": "William served as Purser and Chief Steward on City of Durban from 7 Sep 1951, Unknown to 8 Sep 1951, Unknown. Engagement type: home-trade.",
+    "voyage_note": "No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
+    "card_images": [],
+    "waypoints_source": "no_data",
+    "route_legs": [],
+    "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/145892_city_of_durban.jpeg"
+  },
+  {
     "id": "rodsley-1963",
     "ship": "Rodsley",
     "ship_no": "186857",
     "line": "Unknown",
     "built": "Unknown",
     "tons": "Unknown",
-    "flag": "⚓ Final Entry",
+    "flag": "❓ No Card Data",
     "engaged": "Unknown",
-    "discharged": "21 Dec 1963",
+    "discharged": "21 Dec 1963, ",
     "engagement_date": null,
     "discharge_date": "1963-12-21",
-    "rank": "Unknown",
-    "authoritative_discharge": true,
+    "rank": "Unknown rank",
+    "authoritative_discharge": false,
     "card_image": null,
-    "note": "The last entry in the CRS10 record. Discharge date 21 December 1963. No engagement date recorded. This is the end of William James Rushton's documented career at sea — 45 years after his first voyage on the Ortega.",
-    "voyage_note": "Final voyage. No other details recorded in the CRS10 record.",
-    "waypoints": [
-      {
-        "port": "Liverpool",
-        "lon": -2.9916,
-        "lat": 53.4084,
-        "verified": false,
-        "note": "Last documented voyage — Dec 1963"
-      }
-    ],
+    "note": "William's service on Rodsley from Unknown to 21 Dec 1963, .",
+    "voyage_note": "No transcribed CRS10 card or resolvable place data available for this engagement — route not plotted.",
+    "waypoints": [],
     "card_images": [],
-    "waypoints_source": "manual_assumed",
+    "waypoints_source": "no_data",
     "route_legs": [],
     "vessel_img": "https://raw.githubusercontent.com/pushpingeo/rushton/refs/heads/main/vessels/186857_rodsley.jpeg"
   }
