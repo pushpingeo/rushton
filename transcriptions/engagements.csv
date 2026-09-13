@@ -1,0 +1,43 @@
+,Ship Number,Ship Name,Engagement Date,Engagement Place,Discharge Date,Discharge Place,F or H,Rank,USA Immigration Notes,card_verification
+,123976,SS Ortega,29/10/1918,Liverpool,11/11/1918,Ellis Island New York,,,,No transcribed CRS10 card exists for this vessel in the current collection (49 scanned cards are all later 'City of...' ships) — unverifiable against card data.
+,123976,SS Ortega,8/2/19,Liverpool,19/2/19,NYC,,,,No transcribed CRS10 card exists for this vessel — unverifiable.
+,140520,Sycamore,11/04/1924,,13/03/1925,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder matching the next engagement — cannot verify or refine without additional card material.
+,127995,Leicestershire,13/03/1925,,13/06/1925,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,120901,Carmania,13/06/1925,,31/07/1925,,,,25th June arrived NYC,No transcribed card for this vessel — the 'arrived NYC 25th June' immigration note cannot be cross-checked. Discharge date is a same-day placeholder — unverifiable.
+,131454,Oxfordshire,31/07/1925,,10/08/1925,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,115258,Warwickshire,10/08/1925,,02/12/1927,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,143663,Yorkshire,02/12/1927,,08/11/1935,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder despite an 8-year service gap — unverifiable without further source material.
+,164273,Derbyshire,08/11/1935,,03/12/1937,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,149625,Cheshire,03/12/1937,,22/04/1938,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,149001,Shropshire,22/04/1938,,08/09/1939,,,Assistant Steward,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,161082,Staffordshire,08/09/1939,,16/06/1940,,,,,No transcribed card for this vessel. Discharge date is a same-day placeholder — unverifiable.
+,131464,City of Dunkirk,16/06/1940,,22/10/1941,Hull,,Chief Steward,,No transcribed card for this vessel in the current collection — unverifiable.
+,135582,City of Rangoon,26/11/1941,Birkenhead,17/08/1942,Manchester,F,Chief Steward,,
+,135582,City of Rangoon,18/08/1942,Manchester,20/08/1942,Manchester,F,Chief Steward,,
+,135479,City of Norwich,12/09/1942,Glasgow,21/12/1942,Liverpool,F,Chief Steward,,
+,135479,City of Norwich,03/01/1943,Liverpool,15/01/1943,Liverpool,F,Chief Steward,,"CHECKED (assumed discharge date): card (IMG_5647) confirms the ship was docked in Liverpool through ~19 Jan 1943 — consistent with an engage/discharge cycle inside that layup, though the card can't pin the exact administrative day any tighter."
+,135479,City of Norwich,15/01/1943,Birkenhead,03/03/1943,Liverpool,F,Chief Steward,,
+,135479,City of Norwich,10/03/1943,Liverpool,23/03/1943,Birkenhead,H,Chief Steward,,"CHECKED (assumed discharge date): card (IMG_5647) shows the ship still in Liverpool, sailing 25 Mar 1943 — a minor 2-day discrepancy with the stated 23 Mar discharge, but same port/window."
+,135479,City of Norwich,23/03/1943,Birkenhead,03/06/1943,"Amouth (Weymouth, Avonmouth, Yarmouth?)",H,Chief Steward,,
+,135479,City of Norwich,14/06/1943,Amouth,16/06/1944,,F,Purser and Chiefmate,R/Hall Line Lici,
+,135479,City of Norwich,19/07/1944,Glasgow,24/07/1944,Glasgow,HT,Purser and Chiefmate,,CHECKED (assumed discharge date): card (IMG_5649) confirms the ship was docked in Glasgow continuously from 27 Jun to 30 Jul 1944 — consistent with the engage/discharge window.
+,135479,City of Norwich,24/07/1944,Glasgow,19/04/1946,Liverpool,H,Purser and Chiefmate,"R/Hall Line as arranged. Dept Liverpool 28th July 1944; 19th Feb 1945 Port Said, Eygpt; Calcutta 23rd July 1945; Melbourne 1st Nov 1945; 21st Jan 1946 Colombo; 18th March NYC","PARTIAL MATCH + GENUINE CONFLICT. The '18th March NYC' immigration note matches a New York arrival on 19 Mar 1946 in the card (IMG_5660) — 1 day off. But the stated 19/04/1946 Liverpool discharge conflicts with the card, which shows the ship still in New York (sailing 21 Apr) and Hampton Roads through 24 Apr — nowhere near Liverpool. Flagged per discussion 2026-09-13: possible he returned Liverpool separately, on another vessel, after leaving City of Norwich in the US. Discharge date/place left as recorded pending further research."
+,187125,City of Newcastle,13/06/1946,Unknown,19/06/1946,Unknown,F,Purser and Chiefmate,,
+,187125,City of Newcastle,10/06/1946,Unknown,16/12/1946,Hull,F,Purser and Chiefmate,,
+,187125,City of Newcastle,17/12/1946,Hull,19/12/1946,Hull,F,Purser and Chiefmate,R/Hall Line as arranged,
+,147349,City of Leicester,06/01/1947,Unknown (Tilby),06/02/1947,Unknown (Papla),,Purser and Chiefmate,,"CHECKED (assumed discharge date): card (IMG_5658) confirms the ship was in the London/Tilbury area from 30 Dec 1946 (arrival) until sailing 19 Feb 1947 — consistent with 'Tilby' as engagement place and both engage/discharge dates falling inside this layup. Card also notes a captain change (T.D. Handley to W.F. Wilson) dated 14 Feb 1947, close to the discharge date."
+,135479,City of Norwich,06/02/1947,Birkenhead,07/03/1947,Birkenhead,,Purser and Chiefmate,,
+,135479,City of Norwich,20/03/1947,Birkenhead,31/03/1947,Birkenhead,,Purser and Chiefmate,,
+,168876,City of Chester,15/04/1947,Unknown,07/10/1947,151,F,Chief Steward,"Arrived in New york 15th May 1947, sailing from Montreal","CHECKED: 'Arrived New York 15th May 1947, sailing from Montreal' matches the card (IMG_5662) exactly — Quebec/Montreal early May, New York arrival 15 May 1947."
+,168876,City of Chester,23/10/1947,150,30/10/1947,151,F,Chief Steward,,CHECKED (assumed discharge date): card (IMG_5662) confirms the ship was in Liverpool continuously from 19 Oct to 7 Nov 1947 — consistent with the engage/discharge window.
+,168876,City of Chester,30/10/1947,150,21/02/1949,151,F,Chief Steward,"Hall Line Ltd, Arrived in New York 26th Jan 1948 having sailed from Capetown. Arrived in New York 22 May 1948 from port elizabeth, sa. Arrived in New York 17th sept, departed from Mombassa 14th Aug.","CHECKED: all 3 immigration notes corroborated by cards (IMG_5662/5663) — 26 Jan 1948 ex-Cape Town (card: NY arrival 25 Jan, 1 day off); 22 May 1948 ex-Port Elizabeth (card: exact match); 17 Sept ex-Mombasa 14 Aug (card: exact match on both dates)."
+,140559,City of Florence,04/04/1949,Glasgow,14/04/1949,Birkenhead,H,Chief Steward,,
+,182488,City of Brooklyn,25/05/1949,150,09/06/1950,Liverpool,H,Chief Steward,"Arrived in New York 12th June 1949, sailing from Newcastle","CHECKED: 'Arrived New York 12th June 1949, sailing from Newcastle' matches the card (IMG_5666) exactly — this was the ship's maiden voyage (launched 8 Dec 1948), Tyne sailing 1 June, New York arrival 12 June 1949."
+,145885,City of Tokio,19/06/1950,,29/06/1950,Birkenhead,,Chief Steward,,
+,147349,City of Leicester,23/09/1950,Unknown,03/10/1950,Unknown (P.Lan),H,Purser,,
+,149679,City of Lille,02/11/1950,P.Lan,08/12/1950,,,,,
+,145892,City of Durban,28/12/1950,Birkenhead,27/03/1951,Liverpool,F,Purser and Chief Steward,,
+,145892,City of Durban,28/03/1950,Liverpool,11/04/1951,Unknown,H,Purser and Chief Steward,,"LIKELY TYPO: engagement date 28/03/1950 sits between a discharge on 27/03/1951 and the next engagement on 23/04/1951 — almost certainly should read 28/03/1951, not 1950. Left as originally recorded pending your confirmation."
+,145892,City of Durban,23/04/1951,P.Lan,25/04/1951,P.Lan,H,Purser and Chief Steward,,
+,145892,City of Durban,7/9/51,Unknown,08/09/1951,Unknown,H,Purser and Chief Steward,,
+,186857,Rodsley,,,21/12/1963,,,,,

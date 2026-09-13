@@ -4,7 +4,6 @@
 const CONTEXT = [
   {yr:"Oct 1918", txt:"William joins SS Ortega aged 18 — two weeks before the Armistice ending the First World War."},
   {yr:"Nov 1918", txt:"Armistice Day, 11 November 1918. William is discharged at Ellis Island, New York on the very day the war ends."},
-  {yr:"Mar 1920", txt:"Joins SS Orduna for its first post-war South American sailing — five years of wartime charter had kept it from its Pacific route."},
   {yr:"1927–1935", txt:"Nearly 8 years on the Yorkshire (Bibby Line). An entire decade running Liverpool to Rangoon via Suez."},
   {yr:"Sep 1939", txt:"War declared 3 September 1939. William is at sea — discharged just 5 days after the outbreak."},
   {yr:"Jun 1940", txt:"Joins City of Dunkirk the week of Dunkirk — his first voyage as Chief Steward."},
