@@ -1,51 +1,51 @@
 port_id,code,name,lon,lat,aliases,notes
 aberdeen,Ab,Aberdeen,,,,
-abadan,Abad,Abadan,,,,
+abadan,Abad,Abadan,48.2591475,30.3636097,,
 st-abb-s-head,Abbs,St Abb's Head,,,,
 aberayron,Abr,Aberayron,,,,
 aberystwith,Abs,Aberystwith,,,,
-adelaide,Adl,Adelaide,,,,
-albany,Alb,Albany,,,,
+adelaide,Adl,Adelaide,138.5999312,-34.9281805,,
+albany,Alb,Albany,-73.7549680,42.6511674,,
 alborough,Ald,Alborough,,,,
-algiers,Alg,Algiers,,,,
+algiers,Alg,Algiers,3.0588445,36.7729333,,
 algeciras,Algec,Algeciras,,,,
 alicante,Ali,Alicante,,,,
 alloa,All,Alloa,,,,
-alexandria,Alx,Alexandria,,,,
+alexandria,Alx,Alexandria,29.8951716,31.1991806,,
 amsterdam,Ams,Amsterdam,,,,
 amsterdam,Amst,Amsterdam,,,,
 ancona,Anc,Ancona,,,,
 anjer,Anj,Anjer,,,,
-antwerp,Ant,Antwerp,,,Antf,
+antwerp,Ant,Antwerp,4.3997081,51.2211097,Antf,
 antofagasta,Antof,Antofagasta,,,,
 arbroath,Arb,Arbroath,,,,
 archangel,Arc,Archangel,,,,
 ardrossan,Ard,Ardrossan,,,,
 arendal,Arend,Arendal,,,,
 astoria,Ast,Astoria,,,,
-auckland,Auck,Auckland,,,,
-buenos-aires,B A,Buenos Aires,,,,
+auckland,Auck,Auckland,174.7631803,-36.8520950,,
+buenos-aires,B A,Buenos Aires,-58.3887904,-34.6095579,,
 banff,Baf,Banff,,,,
 bangor,Bag,Bangor,,,,
 bahia-blanca,Bah B,Bahia Blanca,,,,
-bahrain,Bahr,Bahrain,,,Bahrein,
-balboa,Balb,Balboa,,,,
+bahrain,Bahr,Bahrain,50.5344606,26.1551249,Bahrein,
+balboa,Balb,Balboa,-79.5529019,8.9495435,,
 balik-papan,Balik P,Balik Papan,,,,
 baltimore,Balt,Baltimore,-76.6122,39.2904,,
-ceuta,,Ceuta,-5.3213,35.8894,,"Spanish enclave near Gibraltar"
+ceuta,,Ceuta,-5.3213,35.8894,,Spanish enclave near Gibraltar
 bandar-abbas,Bandar A,Bandar Abbas,,,,
 barmouth,Bar,Barmouth,,,,
 barbados,Barb,Barbados,,,,
-barcelona,Barc,Barcelona,,,,
+barcelona,Barc,Barcelona,2.1770730,41.3825802,,
 barranquilla,Barranq,Barranquilla,,,,
 batavia,Bat,Batavia,,,,
-beachy-head,Bchy,Beachy Head,,,,
+beachy-head,Bchy,Beachy Head,0.2494669,50.7381850,,
 bridgewater,Bdg,Bridgewater,,,,
 bordeaux,Bdx,Bordeaux,,,,
 beaumont,Beaum,Beaumont,,,,
-belfast,Bel,Belfast,,,,
+belfast,Bel,Belfast,-5.9301829,54.5963910,,
 belawan-deli,Belaw,Belawan-Deli,,,,
-belfast-loch,Belf L,Belfast Loch,,,,
+belfast-loch,Belf L,Belfast Loch,-5.7330755,54.6848407,,
 bellingham,Belling,Bellingham,,,,
 bergen,Berg,Bergen,,,,
 beaufort,Bf,Beaufort,,,,
@@ -54,37 +54,37 @@ blythe,Bly,Blythe,,,,
 beaumaris,Bms,Beaumaris,,,,
 bangkok,Bnk,Bangkok,,,,
 bombay,Bom,Bombay,72.8258,18.9750,,
-okha,P Okha,Okha,69.0762,22.4707,,"country: India - Gujarat coast"
+okha,P Okha,Okha,69.0762,22.4707,,country: India - Gujarat coast
 bedi-bunder,Bedi B,Bedi Bunder,70.0577,22.4707,,"country: India - Gujarat coast, near Jamnagar"
 bordeaux,Bor,Bordeaux,,,,
-boston,Bos,Boston,,,,
+boston,Bos,Boston,-71.0578303,42.3588336,,
 barnstaple,Bpl,Barnstaple,,,,
 bridport,Bpt,Bridport,,,,
 british-columbia,Br Col,British Columbia,,,,
-bremen,Bre,Bremen,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+bremen,Bre,Bremen,8.8071646,53.0758196,,"ambiguous code - more than one place uses this abbreviation, use card context"
 bremerhaven,Bre,Bremerhaven,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 bremerhaven,Brehvn,Bremerhaven,,,,
-brindisi,Brin,Brindisi,,,,
-brisbane,Bris,Brisbane,,,,
+brindisi,Brin,Brindisi,17.6884975,40.6358599,,
+brisbane,Bris,Brisbane,153.0235009,-27.4689623,,
 braila-ibrail,Brla,Braila (Ibrail),,,,
-bristol,Brs,Bristol,,,Brist,
+bristol,Brs,Bristol,-2.5816622,51.4430141,Brist,
 brunsbuttel,Bsbtl,Brunsbuttel,,,,
-busrah,Busr,Busrah,,,,
+busrah,Busr,Busrah,47.8090981,30.4952371,,
 brixham,Bxm,Brixham,,,,
 burry-port,Byp,Burry Port,,,,
 bizerta,Bzta,Bizerta,,,,
 cape-cod-canal,C Cod Can,Cape Cod Canal,,,,
 cape-palmas,C Pal,Cape Palmas,,,,
 ciudad-trujillo,C Truj,Ciudad Trujillo,,,,
-cape-verdes,C Vds,Cape Verdes,,,,
+cape-verdes,C Vds,Cape Verdes,-24.0083947,16.0000552,,
 cagliari,Cagl,Cagliari,,,,
-calcutta,Cal,Calcutta,,,,
-calcutta,Calc,Calcutta,,,,
+calcutta,Cal,Calcutta,88.3638953,22.5726459,,
+calcutta,Calc,Calcutta,88.3638953,22.5726459,,
 cardigan,Car,Cardigan,,,,
 casablanca,Casa,Casablanca,,,,
 cadiz,Cdz,Cadiz,,,,
-ceylon,Cey,Ceylon,,,,
-cardiff,Cf,Cardiff,,,,
+ceylon,Cey,Ceylon,80.6625544,7.8771833,,
+cardiff,Cf,Cardiff,-3.1791934,51.4816546,,
 cherbourg,Chbg,Cherbourg,,,,
 chesapeake,Chesa,Chesapeake,,,,
 chepstow,Chp,Chepstow,,,,
@@ -92,97 +92,97 @@ chester,Chs,Chester,,,,
 charlestown,Chtn,Charlestown,,,,
 ciudad-trujillo,Ciu Truj,Ciudad Trujillo,,,,
 calais,Cls,Calais,,,,
-clyde,Cly,Clyde,,,,
+clyde,Cly,Clyde,-4.8515956,55.5035646,,
 cochin,Coch,Cochin,76.2673,9.9312,,
-alleppey,,Alleppey,76.3388,9.4981,,"country: India - Kerala coast"
-calicut,,Calicut,75.7804,11.2588,Cali,"country: India - Kerala coast"
-mangalore,,Mangalore,74.8560,12.9141,Mangal,"country: India - Karnataka coast"
+alleppey,,Alleppey,76.3388,9.4981,,country: India - Kerala coast
+calicut,,Calicut,75.7804,11.2588,Cali,country: India - Kerala coast
+mangalore,,Mangalore,74.8560,12.9141,Mangal,country: India - Karnataka coast
 constantinople,Con,Constantinople,,,,
 coosaw,Coos,Coosaw,,,,
 corunna,Cor,Corunna,,,,
-copenhagen,Cpn,Copenhagen,,,,
+copenhagen,Cpn,Copenhagen,12.5700724,55.6867243,,
 corfu,Crf,Corfu,,,,
 san-cristobal,Crist,San Cristobal,,,,
 cork,Crk,Cork,,,,
 coronel,Crnl,Coronel,,,,
 constantza,Cstza,Constantza,,,,
 cartagena,Ctga,Cartagena,,,,
-curacao,Curac,Curacao,,,,
+curacao,Curac,Curacao,-68.9309263,12.1176488,,
 cuxhaven,Cux,Cuxhaven,,,,
 civitavecchia,Cvecchia,Civitavecchia,,,,
 cowes,Cws,Cowes,,,,
-dakar,Dak,Dakar,,,,
-dar-es-salaam,Dar es S,Dar es Salaam,,,,
+dakar,Dak,Dakar,-17.4479380,14.6934250,,
+dar-es-salaam,Dar es S,Dar es Salaam,39.2803583,-6.8160837,,
 demerara,Dem,Demerara,,,,
 dungarvon,Dgr,Dungarvon,,,,
-djibouti,Djib,Djibouti,,,,
-dunkirk,Dnk,Dunkirk,,,,
+djibouti,Djib,Djibouti,42.8453061,11.8145966,,
+dunkirk,Dnk,Dunkirk,2.3772525,51.0347708,,
 downs-deal,Dns,Downs (Deal),,,,
-dover,Dov,Dover,,,,
+dover,Dov,Dover,1.3134228,51.1251275,,
 dieppe,Dppe,Dieppe,,,,
 dartmouth,Drt,Dartmouth,,,,
-downs,Dss,Downs,,,,
+downs,Dss,Downs,1.4027344,51.2239544,,
 drontheim,Dthm,Drontheim,,,,
-dublin,Dub,Dublin,,,,
+dublin,Dub,Dublin,-6.2605593,53.3493795,,
 dumbarton,Dum,Dumbarton,,,,
-dundee,Dun,Dundee,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-dunkirk,Dun,Dunkirk,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-dunedin,Duned,Dunedin,,,,
-dunnet-head,Dunnet,Dunnet Head,,,,
-durban,Durb,Durban,,,,
+dundee,Dun,Dundee,-2.9701900,56.4605938,,"ambiguous code - more than one place uses this abbreviation, use card context"
+dunkirk,Dun,Dunkirk,2.3772525,51.0347708,,"ambiguous code - more than one place uses this abbreviation, use card context"
+dunedin,Duned,Dunedin,170.5035755,-45.8740984,,
+dunnet-head,Dunnet,Dunnet Head,-3.3724478,58.6689377,,
+durban,Durb,Durban,31.0099090,-29.8618145,,
 devonport,Dvpt,Devonport,,,,
 danzig,Dzg,Danzig,,,,
 east-london,E Lo,East London,27.9116,-33.0153,,
-ellesmere-port,Elles P,Ellesmere Port,,,,
+ellesmere-port,Elles P,Ellesmere Port,-2.9022507,53.2789347,,
 elsinore,Els,Elsinore,,,,
 esbjerg,Esbj,Esbjerg,,,,
 esquimalt,Esquim,Esquimalt,,,,
-eastham,Esthm,Eastham,,,,
+eastham,Esthm,Eastham,-2.9521413,53.3041812,,
 exeter,Exr,Exeter,,,,
 fort-de-france,F de F,Fort de France,,,,
 falmouth,Fal,Falmouth,,,,
 ferrol,Ferr,Ferrol,,,,
 finisterre,Finis,Finisterre,,,,
 flamborough-head,Flam,Flamborough Head,,,,
-flushing,Flsh,Flushing,,,,
+flushing,Flsh,Flushing,3.5697992,51.4480929,,
 foo-chow,Foo,Foo-chow,,,,
 fowey,Fow,Fowey,,,,
 fowey,Foy,Fowey,,,,
-san-francisco,Fran,San Francisco,,,,
+san-francisco,Fran,San Francisco,-122.4075201,37.7879363,,
 freemantle,Fre,Freemantle,,,,
 fedrikshavn,Fred,Fedrikshavn,,,,
-freetown,Freet,Freetown,,,,
+freetown,Freet,Freetown,-13.2679500,8.4790040,,
 galway,Gal,Galway,,,,
 galveston,Galv,Galveston,,,,
 garston,Garst,Garston,,,,
 gaeta,Gat,Gaeta,,,,
 gothenburg,Gbg,Gothenburg,,,,
 gdynia,Gdy,Gdynia,,,,
-geelong,Gee,Geelong,,,,
+geelong,Gee,Geelong,144.3598241,-38.1493248,,
 genoa,Gen,Genoa,,,,
-gibraltar,Gib,Gibraltar,,,,
+gibraltar,Gib,Gibraltar,-5.3474761,36.1285933,,
 gijon,Gij,Gijon,,,,
-glasgow,Glas,Glasgow,,,,
-glasgow,Glg,Glasgow,,,,
+glasgow,Glas,Glasgow,-4.2501687,55.8611550,,
+glasgow,Glg,Glasgow,-4.2501687,55.8611550,,
 grangemouth,Gmh,Grangemouth,,,,
 grangemouth,Gmo,Grangemouth,,,,
 guernsey,Gns,Guernsey,,,,
 goole,Goo,Goole,,,,
 granville,Granv,Granville,,,,
 grays-harbour,Grays H,Grays Harbour,,,,
-greenock,Green,Greenock,,,,
+greenock,Green,Greenock,-4.7564721,55.9473423,,
 grimsby,Grms,Grimsby,,,,
 groningen,Gro,Groningen,,,,
 guantanamero,Guant,Guantanamero,,,,
 guayanillo,Guayan,Guayanillo,,,,
 half-jack,H J,Half-Jack,,,,
-halifax-ns,Hal,Halifax NS,,,Halifax,
+halifax-ns,Hal,Halifax NS,-63.5859487,44.6486180,Halifax,
 halden,Hald,Halden,,,,
-hamburg,Ham,Hamburg,,,,
+hamburg,Ham,Hamburg,10.0013165,53.5501721,,
 harwich,Har,Harwich,,,,
 harwich,Harw,Harwich,,,,
 havana,Hav,Havana,,,,
-hamburg,Hbg,Hamburg,,,,
+hamburg,Hbg,Hamburg,10.0013165,53.5501721,,
 harrington,Hgt,Harrington,,,,
 hoogezand,Hgz,Hoogezand,,,,
 holyhead,Hhd,Holyhead,,,,
@@ -195,108 +195,108 @@ honolulu,Hono,Honolulu,,,,
 houston,Houst,Houston,,,,
 hartlepool,Hpl,Hartlepool,,,,
 harlingen,Hrl,Harlingen,,,,
-hull,Hul,Hull,,,,
+hull,Hul,Hull,-0.3301214,53.7623863,,
 hurst-castle,Hurst,Hurst Castle,,,,
-le-havre,Hvr,Le Havre,,,Havre,
-isle-of-wight,I W,Isle of Wight,,,,
+le-havre,Hvr,Le Havre,0.1079732,49.4938975,Havre,
+isle-of-wight,I W,Isle of Wight,-1.3327111,50.6710482,,
 isle-of-man,I.M.,Isle of Man,,,,
-immingham,Imming,Immingham,,,,
+immingham,Imming,Immingham,-0.2136727,53.6159963,,
 inverness,Inv,Inverness,,,,
-iloilo-philippines,Iloi,Iloilo (Philippines),,,,
+iloilo-philippines,Iloi,Iloilo (Philippines),122.5799456,10.9522168,,
 iquique,Iqui,Iquique,,,,
 estanbul,Istan,Estanbul,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-istanbul,Istan,Istanbul,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+istanbul,Istan,Istanbul,28.9758715,41.0063810,,"ambiguous code - more than one place uses this abbreviation, use card context"
 jamaica,Ja,Jamaica,,,,
 jersey,Jer,Jersey,,,,
 king-george-s-sound,K G S,King George's Sound,,,,
-karachi,Kar,Karachi,,,,
+karachi,Kar,Karachi,67.0207055,24.8546842,,
 key-west,Key W,Key West,,,,
-khorram-shahr,Khorr S,Khorram Shahr,,,,
+khorram-shahr,Khorr S,Khorram Shahr,48.1779858,30.4333105,,
 kildonan-arran,Kild,Kildonan (Arran),,,,
 kopervik,Koper,Kopervik,,,,
 kingstown-ja,Ktn (Ja),"Kingstown, Ja.",,,,
 kurrachee-karachi,Kurra,Kurrachee (Karachi),,,,
-loch-ewe,L Ewe,Loch Ewe,,,,
+loch-ewe,L Ewe,Loch Ewe,-5.6344503,57.8212502,,
 lourenco-marques,L M,Lourenco Marques,32.5732,-25.9692,Lour Marques,
 lancaster,Lan,Lancaster,,,,
-las-palmas,Las P,Las Palmas,,,,
+las-palmas,Las P,Las Palmas,-15.4349015,28.1288694,,
 londonderry,Lderry,Londonderry,,,,
 londonderry,Ldy,Londonderry,,,,
 leghorn,Leg,Leghorn,,,,
 leningrad,Lgrad,Leningrad,,,,
 limerick,Lim,Limerick,,,,
-lisbon,Lis,Lisbon,,,,
-liverpool,Liv,Liverpool,,,,
+lisbon,Lis,Lisbon,-9.1365919,38.7077507,,
+liverpool,Liv,Liverpool,-2.9166389,53.3933411,,
 lizard,Liz,Lizard,-5.2053,49.9598,,"Lizard Point, Cornwall - a coastal reporting/signal station ships were reported passing, not a real port of call"
 llanelly,Lly,Llanelly,,,,
 londonderry,Lndy,Londonderry,,,,
-london,Lo,London,,,,
-london,Lon,London,,,,
+london,Lo,London,-0.1277653,51.5074456,,
+london,Lon,London,-0.1277653,51.5074456,,
 longview,Longv,Longview,,,,
-los-angeles,Los A,Los Angeles,,,,
+los-angeles,Los A,Los Angeles,-118.2427660,34.0536909,,
 leith,Lth,Leith,,,,
-lowestoft,Lwt,Lowestoft,,,Lws,
+lowestoft,Lwt,Lowestoft,1.7537638,52.4766308,Lws,
 lynn,Lyn,Lynn,,,,
 point-lynas,Lynas,Point Lynas,,,,
-lyttelton,Lyt,Lyttelton,,,,
-montevideo,M V,Montevideo,,,,
+lyttelton,Lyt,Lyttelton,172.7205727,-43.6024739,,
+montevideo,M V,Montevideo,-56.1913095,-34.9058916,,
 macao,Mac,Macao,,,,
 madagascar,Mad,Madagascar,,,,
 magallanes,Magall,Magallanes,,,,
-manchester,Man,Manchester,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-manila,Man,Manila,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+manchester,Man,Manchester,-2.2324547,53.4424618,,"ambiguous code - more than one place uses this abbreviation, use card context"
+manila,Man,Manila,120.9803621,14.5904492,,"ambiguous code - more than one place uses this abbreviation, use card context"
 margate,Mar,Margate,,,,
 marseilles,Mars,Marseilles,5.3698,43.2965,,
-mauritius,Mau,Mauritius,57.4989,-20.1619,P.Louis,"Port Louis is the island's capital and main port - card writes it as 'P.Louis'"
+mauritius,Mau,Mauritius,57.4989,-20.1619,P.Louis,Port Louis is the island's capital and main port - card writes it as 'P.Louis'
 mayaguez,Mayag,Mayaguez,,,,
 mumbles,Mbls,Mumbles,,,,
-middlesbrough,Mbro,Middlesbrough,,,,
+middlesbrough,Mbro,Middlesbrough,-1.2344047,54.5760419,,
 miramichi,Mch,Miramichi,,,,
-manchester,Mchr,Manchester,,,,
+manchester,Mchr,Manchester,-2.2324547,53.4424618,,
 madeira,Mda,Madeira,,,,
-melbourne,Melb,Melbourne,,,,
+melbourne,Melb,Melbourne,144.9631732,-37.8142454,,
 messina,Mess,Messina,,,,
-methil-roads,Meth Rds,Methil Roads,,,,
-milford-haven,Mil,Milford Haven,,,,
-milford-haven,Milf H,Milford Haven,,,,
-malta,Mlt,Malta,,,,
+methil-roads,Meth Rds,Methil Roads,-3.0132612,56.1848771,," Coordinates: Methil harbour, Fife (the roadstead itself is just offshore)."
+milford-haven,Mil,Milford Haven,-5.0359395,51.7130946,,
+milford-haven,Milf H,Milford Haven,-5.0359395,51.7130946,,
+malta,Mlt,Malta,14.3951627,35.9311442,,
 mobile,Mob,Mobile,,,,
-mombasa,Momb,Mombasa,,,Mombassa,
+mombasa,Momb,Mombasa,39.6671690,-4.0505200,Mombassa,
 monrovia,Mon,Monrovia,,,,
 maryport,Mpt,Maryport,,,,
 martinique,Mque,Martinique,,,,
 monmouth,Mth,Monmouth,,,,
 montrose,Mtr,Montrose,,,,
-montreal,Mtrl,Montreal,,,,
+montreal,Mtrl,Montreal,-73.5698065,45.5031824,,
 murmansk,Murm,Murmansk,,,,
 maryport,Mypt,Maryport,,,,
-new-brunswick,N B,New Brunswick,,,,
+new-brunswick,N B,New Brunswick,-66.7501830,46.5002830,,
 north-foreland,N Fore,North Foreland,,,,
 new-orleans,N O,New Orleans,,,,
 nova-scotia,N S,Nova Scotia,,,,
 new-south-wales,N S W,New South Wales,,,,
 new-westminster,N West,New Westminster,,,,
-new-york,N Y,New York,,,,
-naples,Nap,Naples,,,,
+new-york,N Y,New York,-74.0060152,40.7127281,,
+naples,Nap,Naples,14.2487679,40.8358846,,
 st-nazaire,Naz,St Nazaire,,,,
 nieuwe-diep,Ndp,Nieuwe Diep,,,,
 needles,Need,Needles,,,,
-newport,new,Newport,,,,
+newport,new,Newport,-71.3137707,41.4899827,,
 newcastle,Newc,Newcastle,,,,
 nicolaief,Nf,Nicolaief,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-nieuw-waterweg,Nf,Nieuw Waterweg,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+nieuw-waterweg,Nf,Nieuw Waterweg,4.1285773,51.9717447,,"ambiguous code - more than one place uses this abbreviation, use card context"
 newfoundland,Nfld,Newfoundland,,,,
-norfolk-va,Nflk,"Norfolk, Va.",,,,
+norfolk-va,Nflk,"Norfolk, Va.",-76.2899539,36.8493695,,
 newhaven,Nhv,Newhaven,,,,
-newport,Npt,Newport,,,,
+newport,Npt,Newport,-71.3137707,41.4899827,,
 newquay,Nqy,Newquay,,,,
 newry,Nry,Newry,,,,
 nova-scotia,NSc,Nova Scotia,,,,
 nantes,Nts,Nantes,,,,
 newcastle,Nwc,Newcastle,,,,
-nieuw-waterweg,NWtg,Nieuw Waterweg,,,,
+nieuw-waterweg,NWtg,Nieuw Waterweg,4.1285773,51.9717447,,
 old-calabar,O Cal,Old Calabar,,,,
-odessa,Ods,Odessa,,,,
+odessa,Ods,Odessa,30.7322878,46.4843023,,
 oporto,Op,Oporto,,,,
 orkneys,Ork,Orkneys,,,,
 ostend,Ost,Ostend,,,,
@@ -307,9 +307,9 @@ port-au-prince,P au P,Port au Prince,,,,
 puerto-cabello,P Cab,Puerto Cabello,,,,
 port-costa,P Cost,Port Costa,,,,
 port-elizabeth,P Eliz,Port Elizabeth,25.6022,-33.9608,,
-port-natal,P Nat,Port Natal,,,,
+port-natal,P Nat,Port Natal,31.0099090,-29.8618145,,
 algoa-bay,,Algoa Bay,25.6022,-33.9608,,"country: South Africa - the bay Port Elizabeth sits on, used as the port name on this card"
-port-said,P Said,Port Said,,,,
+port-said,P Said,Port Said,32.3055050,31.2632350,,
 port-stanley,P Stan,Port Stanley,,,,
 port-talbot,P Talb,Port Talbot,,,,
 port-townsend,P Town,Port Townsend,,,,
@@ -322,10 +322,10 @@ pernambuco,Pern,Pernambuco,,,,
 peterhead,Pet,Peterhead,,,,
 philadelphia,Phil,Philadelphia,-75.1652,39.9526,,
 paulsboro,Paulsbro,Paulsboro,-75.2432,39.8384,,"country: USA - Delaware River, New Jersey"
-piraeus,Pir,Piraeus,,,,
+piraeus,Pir,Piraeus,23.6470593,37.9431594,,
 pekela,Pka,Pekela,,,,
-palermo,Plmo,Palermo,,,,
-plymouth,Ply,Plymouth,,,,
+palermo,Plmo,Palermo,13.3524434,38.1112268,,
+plymouth,Ply,Plymouth,-4.1424451,50.3714122,,
 paramibo,Pmbo,Paramibo,,,,
 portmadoc,Pmd,Portmadoc,,,,
 pomarao,Pmoar,Pomarao,,,,
@@ -337,53 +337,53 @@ preston,Pres,Preston,,,,
 providence-ri,Prov,Providence RI,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 princetown-bc-canada,Prov,"Princetown, BC Canada",,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 portland,Ptld,Portland,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-portland-oregon,Ptld,Portland Oregon,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-portland-victoria,Ptld,Portland Victoria,141.6044,-38.3455,,"country: Australia - card disambiguates with a '(Vict)' annotation"
+portland-oregon,Ptld,Portland Oregon,-122.6741940,45.5202471,,"ambiguous code - more than one place uses this abbreviation, use card context"
+portland-victoria,Ptld,Portland Victoria,141.6044,-38.3455,,country: Australia - card disambiguates with a '(Vict)' annotation
 portsmouth,Pts,Portsmouth,,,,
 prawle-point,Pwle,Prawle Point,,,,
-quebec,Qbc,Quebec,,,,
+quebec,Qbc,Quebec,-71.8258668,52.4760892,,
 queenborough,Qbro,Queenborough,,,,
 queenstown,Qtn,Queenstown,,,,
-quebec,Que,Quebec,,,,
+quebec,Que,Quebec,-71.8258668,52.4760892,,
 rio-grande,R G,Rio Grande,,,,
-rio-de-janeiro,R J,Rio de Janeiro,,,,
-river-mersey,R Mers,River Mersey,,,,
+rio-de-janeiro,R J,Rio de Janeiro,-43.2093727,-22.9110137,,
+river-mersey,R Mers,River Mersey,-2.8937832,53.3048950,,
 ramsgate,Ram,Ramsgate,,,,
 reunion,Reu,Reunion,,,,
 reykjavik,Reyk,Reykjavik,,,,
 rouen,Rn,Rouen,,,,
-rosario,Ros,Rosario,,,Rosa,
-rotterdam,Rot,Rotterdam,,,,
-rotterdam,Rott,Rotterdam,,,,
-runcorn,Runc,Runcorn,,,,
+rosario,Ros,Rosario,-60.6617024,-32.9593609,Rosa,
+rotterdam,Rot,Rotterdam,4.4777500,51.9244424,,
+rotterdam,Rott,Rotterdam,4.4777500,51.9244424,,
+runcorn,Runc,Runcorn,-2.7334941,53.3421509,,
 san-diego,S Diego,San Diego,,,,
 south-georgia,S Geo,South Georgia,,,,
 sierra-leone,S L,Sierra Leone,,,,
 south-orkney,S Ork,South Orkney,,,,
 sagres,Sag,Sagres,,,,
 saigon,Saig,Saigon,106.6297,10.8231,,
-sandheads,Sandh,Sandheads,,,,
+sandheads,Sandh,Sandheads,88.15,21.65,,"Coordinates: approximate, just south of Sagar Island at the Hooghly mouth — the historic Sandheads pilot station/anchorage; not an exact light-vessel fix."
 sarpsborg,Sarps,Sarpsborg,,,,
-savannah,Sav,Savannah,,,,
+savannah,Sav,Savannah,-81.0921335,32.0790074,,
 scarborough,Scr,Scarborough,,,,
 seattle,Seat,Seattle,,,,
 seaford,Sfd,Seaford,,,,
 sagunto,Sgto,Sagunto,,,,
-shanghai,Shi,Shanghai,,,,
+shanghai,Shi,Shanghai,121.4700152,31.2312707,,
 shields-n,Shl,"Shields, N",,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 shields-s,Shl,"Shields, S",,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-shields,Shls,Shields,,,,
+shields,Shls,Shields,-1.4471035,55.0087655,,
 shoreham,Shm,Shoreham,,,,
-shanghai,Shng,Shanghai,121.4737,31.2304,,
-dairen,Dair,Dairen,121.6147,38.9140,,"country: China (Manchuria) - now Dalian"
+shanghai,Shng,Shanghai,121.4700152,31.2312707,,
+dairen,Dair,Dairen,121.6147,38.9140,,country: China (Manchuria) - now Dalian
 taku-bar,TakuBar,Taku Bar,117.5000,38.9833,,"sandbar at the mouth of the Hai River, the shipping approach to Tientsin (Tianjin)"
 scilly,Sil,Scilly,,,,
 silloth,Sill,Silloth,,,,
-singapore,Sing,Singapore,,,,
-sunderland,Sld,Sunderland,,,,
+singapore,Sing,Singapore,103.8194992,1.3571070,,
+sunderland,Sld,Sunderland,-1.3828727,54.9058512,,
 sligo,Sli,Sligo,,,,
-southend,Snd,Southend,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
-sunderland,Snd,Sunderland,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+southend,Snd,Southend,0.7128137,51.5388241,,"ambiguous code - more than one place uses this abbreviation, use card context"
+sunderland,Snd,Sunderland,-1.3828727,54.9058512,,"ambiguous code - more than one place uses this abbreviation, use card context"
 southampton,Sou,Southampton,,,,
 sourabaya,Soura,Sourabaya,,,,
 spithead,Spit,Spithead,,,,
@@ -399,31 +399,31 @@ stockton,Stk,Stockton,,,,
 stockholm,Stkm,Stockholm,,,,
 stranraer,Str,Stranraer,,,,
 sulina,Sul,Sulina,,,,
-swansea,Sws,Swansea,,,,
-sydney-nsw,Syd,Sydney NSW,,,Sydney,
+swansea,Sws,Swansea,-3.9459248,51.6195955,,
+sydney-nsw,Syd,Sydney NSW,151.2082848,-33.8698439,Sydney,
 table-bay,Table,Table Bay,18.4241,-33.9249,,
 tacoma,Tac,Tacoma,,,,
-tail-of-the-bank,Tail,Tail of the Bank,-4.7597,55.9581,,"anchorage at the mouth of the Clyde estuary near Greenock"
+tail-of-the-bank,Tail,Tail of the Bank,-4.7597,55.9581,,anchorage at the mouth of the Clyde estuary near Greenock
 gareloch,,Gareloch,-4.8167,56.0500,,"sea loch on the Firth of Clyde, near Glasgow - card writes 'Gateloch', likely a misreading/misspelling of Gareloch"
 takoradi,Takor,Takoradi,,,,
 tampico,Tamp,Tampico,,,,
 tarragona,Tarra,Tarragona,,,,
 texel,Tex,Texel,,,,
-teneriffe,Tffe,Teneriffe,,,,
+teneriffe,Tffe,Teneriffe,-16.2507843,28.467178,,
 teignmouth,Tgmo,Teignmouth,,,,
 teignmouth,Tgn,Teignmouth,,,,
 tocopilla,Tocop,Tocopilla,,,,
 tonsberg,Tons,Tonsberg,,,,
 torre-annunziata,Torre A,Torre Annunziata,,,,
 topsham,Tps,Topsham,,,,
-trieste,Tri,Trieste,,,,
-trincomalee,Trin,Trincomalee,,,,
+trieste,Tri,Trieste,13.7772781,45.6496485,,
+trincomalee,Trin,Trincomalee,81.2344952,8.5764250,,
 troon,Trn,Troon,,,,
 taranto,Trnto,Taranto,,,,
 trondheim,Trond,Trondheim,,,,
-trieste,Trst,Trieste,,,,
-ushant,Usht,Ushant,,,,
-valencia,Val,Valencia,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
+trieste,Trst,Trieste,13.7772781,45.6496485,,
+ushant,Usht,Ushant,-5.0906022,48.4593440,,
+valencia,Val,Valencia,-0.3763353,39.4697065,,"ambiguous code - more than one place uses this abbreviation, use card context"
 valparaiso,Val,Valparaiso,,,,"ambiguous code - more than one place uses this abbreviation, use card context"
 vancouver,Vanc,Vancouver,,,,
 vera-cruz,Vcruz,Vera Cruz,,,,
@@ -434,7 +434,7 @@ vishaghapatnam,Visag,Vishaghapatnam,,,,
 vlaardingen,Vlaard,Vlaardingen,,,,
 vladivostok,Vlad,Vladivostok,,,,
 wabana,Wab,Wabana,,,,
-wellington,Well,Wellington,,,,
+wellington,Well,Wellington,174.7772114,-41.2887953,,
 wexford,Wex,Wexford,,,,
 weymouth,Wey,Weymouth,,,,
 weymouth,Weymo,Weymouth,,,,
@@ -453,115 +453,115 @@ yarmouth,Yar,Yarmouth,,,,
 yougal,Ygh,Yougal,,,,
 ymuiden,Ymui,Ymuiden,,,,
 yokohama,Yoko,Yokohama,139.6380,35.4437,,
-zanzibar,Zanz,Zanzibar,,,,
+zanzibar,Zanz,Zanzibar,39.3209535,-6.0999709,,
 zeebrugge,Zeeb,Zeebrugge,,,,
 zwolle,Zwl,Zwolle,,,,
-aden,,Aden,,,,country: Yemen
+aden,,Aden,45.0285040,12.7895850,,country: Yemen
 avonmouth,Avr,Avonmouth,-2.7050,51.5075,,country: United Kingdom
-colombo,,Colombo,,,,country: Sri Lanka
-cristobal,,Cristobal,,,,country: Panama
-hampton-rds,,Hampton Rds,,,,country: United States
+colombo,,Colombo,79.8542005,6.9388614,,country: Sri Lanka
+cristobal,,Cristobal,-79.9071872,9.2578758,,country: Panama
+hampton-rds,,Hampton Rds,-76.4114187,36.9507552,,country: United States
 kobe,,Kobe,135.1955,34.6913,,country: Japan
 osaka,,Osaka,135.5023,34.6937,,country: Japan
-moji,,Moji,130.9506,33.9436,,"country: Japan - now part of Kitakyushu"
+moji,,Moji,130.9506,33.9436,,country: Japan - now part of Kitakyushu
 keelung,,Keelung,121.7392,25.1276,,"country: Taiwan (Formosa) - card writes 'Keel' (arrival) and possibly 'Kul' (sailing, uncertain reading)"
 cebu,,Cebu,123.8854,10.3157,,country: Philippines
-nagoya,,Nagoya,,,,country: Japan
-otaru,,Otaru,,,,country: Japan
+nagoya,,Nagoya,136.8998438,35.1851045,,country: Japan
+otaru,,Otaru,140.9946021,43.1906806,,country: Japan
 panama-canal,Pan,Panama Canal,-79.5197,8.9483,,country: Panama
 colon,,Colon,-79.9014,9.3547,,"country: Panama - Atlantic-side terminus city of the Panama Canal, adjacent to but distinct from Cristobal"
 port-swettenham,P Swet,Port Swettenham,101.3900,3.0044,,country: Malaysia
-st-john-nb,,St John (NB),,,,country: Canada
-suez,,Suez,,,,country: Egypt
+st-john-nb,,St John (NB),-66.0627914,45.2727640,,country: Canada
+suez,,Suez,32.5370860,29.9744980,,country: Egypt
 beira,,Beira,34.8389,-19.8436,,"country: Mozambique. Written in full on cards, not in the official abbreviation guide."
 clyde-anchorage,Clyde Anch,Clyde Anchorage,-4.85,55.75,,"Anchorage in the Firth of Clyde, distinct from the general ""Cly""=Clyde code. Approximate coordinates - needs checking."
-cape-town,,Cape Town,,,,country: South Africa
-fremantle,,Fremantle,,,,country: Australia
-kakinada,,Kakinada,,,,country: India
-lobito,,Lobito,,,,country: Angola
-mossel-bay,,Mossel Bay,,,,country: South Africa
-noumea,,Noumea,,,,country: New Caledonia
+cape-town,,Cape Town,18.4172197,-33.9288301,,country: South Africa
+fremantle,,Fremantle,115.7586172,-32.0534086,,country: Australia
+kakinada,,Kakinada,82.2350607,16.9437385,,country: India
+lobito,,Lobito,13.5464318,-12.3506867,,country: Angola
+mossel-bay,,Mossel Bay,22.1536248,-34.1832022,,country: South Africa
+noumea,,Noumea,166.4424190,-22.2745264,,country: New Caledonia
 port-pirie,,Port Pirie,138.0208,-33.1839,Pirie,country: Australia
 cairns,,Cairns,145.7781,-16.9186,,country: Australia
 rockhampton,,Rockhampton,150.5100,-23.3791,Rkhmptn,country: Australia
-perim,,Perim,43.42,12.65,Prm,"small island at the mouth of the Red Sea (Bab-el-Mandeb strait) - historically a British coaling/bunkering station"
+perim,,Perim,43.42,12.65,Prm,small island at the mouth of the Red Sea (Bab-el-Mandeb strait) - historically a British coaling/bunkering station
 port-sudan,P Sud,Port Sudan,37.2164,19.6158,,country: Sudan
 rangoon,,Rangoon,96.1735,16.8409,Rng,"country: Burma (now Yangon, Myanmar)"
 newport-news,,Newport News,-76.4257,36.9740,NNews,country: USA
-chefoo,,Chefoo,121.3914,37.5393,,"country: China (Shandong) - now Yantai. Treaty port on the north China coast"
+chefoo,,Chefoo,121.3914,37.5393,,country: China (Shandong) - now Yantai. Treaty port on the north China coast
 chinwangtao,,Chinwangtao,119.5865,39.9320,,"country: China (Hebei) - now Qinhuangdao, near Taku Bar. Resolves the 'Chin[u]' code flagged unresolved on IMG_5637 - IMG_5639 gives it a clear date and card position (between Chefoo and Taku Bar), matching where it was flagged before"
 navlakhi,,Navlakhi,70.4595,22.9601,Naval,"country: India - Gujarat/Kathiawar coast, near Bedi Bunder. 'Naval' reading is tentative - fits the route position (between Okha and Bedi Bunder) but not confirmed against an official list"
 navlakhi,,Navalakhi,70.4595,22.9601,,"country: India - full-name spelling seen on IMG_5664 (City of Florence), confirming the 'Naval' abbreviation used on IMG_5644"
-barry,Bar,Barry,-3.2926,51.4045,"Barry D.","country: United Kingdom (Wales) - coal port near Newport/Cardiff. Card writes it 'Barry D.' (Barry Dock)"
-vizagapatam,Vizag,Vizagapatam,83.2185,17.6868,"Vizagapatnam; Visakhapatnam","country: India (Andhra Pradesh coast) - now Visakhapatnam"
+barry,Bar,Barry,-3.2926,51.4045,Barry D.,country: United Kingdom (Wales) - coal port near Newport/Cardiff. Card writes it 'Barry D.' (Barry Dock)
+vizagapatam,Vizag,Vizagapatam,83.2185,17.6868,Vizagapatnam; Visakhapatnam,country: India (Andhra Pradesh coast) - now Visakhapatnam
 coringa,,Coringa,82.2333,16.8167,Cora,"country: India (Andhra Pradesh coast), near Kakinada - a historically significant port, now silted up. Tentative: IMG_5640 writes 'Cora' between Sandheads and the next entry, fits the geography but not confirmed against an official list"
 madras,Mad,Madras,80.2707,13.0827,,country: India (Tamil Nadu coast) - now Chennai
 bassein,,Bassein,94.7300,16.7833,,"country: Burma (now Myanmar) - now Pathein, near Rangoon"
-koilchottam,,Koilchottam,,,Koilthottam,"country: India - written in full on IMG_5641, position (after Fremantle, before Calcutta) suggests the Malabar/south Indian coast, but not identified against an official list or gazetteer. Genuinely tentative"
-dubai,,Dubai,,,"","United Arab Emirates; written in full on IMG_5674"
-kozhikode,,Kozhikode,,,"","Malabar coast, India; written in full on IMG_5674"
+koilchottam,,Koilchottam,75.696891,11.4383564,Koilthottam,"country: India - written in full on IMG_5641, position (after Fremantle, before Calcutta) suggests the Malabar/south Indian coast, but not identified against an official list or gazetteer. Genuinely tentative. Coordinates: Koyilandy, Kerala (best-guess phonetic match on the Malabar coast) — tentative, matching the existing uncertainty flagged above."
+dubai,,Dubai,55.1885624,25.0742823,,United Arab Emirates; written in full on IMG_5674
+kozhikode,,Kozhikode,75.7754716,11.2450558,,"Malabar coast, India; written in full on IMG_5674"
 jeddah,Jedd,Jeddah,39.1925,21.4858,,"country: Saudi Arabia (Red Sea coast). First appearance of the Persian Gulf run, IMG_5643"
-bushire,Bush,Bushire,50.8385,28.9684,,"country: Iran (Persian Gulf) - now Bushehr"
-khor-musa-bar,,Khor Musa Bar,49.1500,30.4167,,"country: Iran (Persian Gulf) - the sandbar approach to Bandar Shahpur; approximate coordinates"
-bandar-shahpur,Bandar Sh,Bandar Shahpur,49.1161,30.4408,Bandar Shapur,"country: Iran (Persian Gulf) - now Bandar Imam Khomeini"
-harta-point,,Harta Point,,,,"country: Iran/Iraq (Persian Gulf, Shatt al-Arab/Khor Musa approach) - first appearance IMG_5665, between Bandar Shahpur and Abadan. Not identified against an official list or gazetteer; coordinates not established"
-bandar-mashur,,Bandar Mashur,,,,"country: Iran (Persian Gulf) - first appearance IMG_5668, sandwiched between two Bandar Shapur calls with no dates given for either the arrival or sailing. Possibly the same place as bandar-shahpur under a different transliteration (compare 'Bandar-e Ma'shur'/Mahshahr, a real town near Bandar-e Imam Khomeini), possibly a distinct nearby berth - not confirmed, kept as its own tentative entry rather than merged"
+bushire,Bush,Bushire,50.8385,28.9684,,country: Iran (Persian Gulf) - now Bushehr
+khor-musa-bar,,Khor Musa Bar,49.1500,30.4167,,country: Iran (Persian Gulf) - the sandbar approach to Bandar Shahpur; approximate coordinates
+bandar-shahpur,Bandar Sh,Bandar Shahpur,49.1161,30.4408,Bandar Shapur,country: Iran (Persian Gulf) - now Bandar Imam Khomeini
+harta-point,,Harta Point,48.7,30.2,,"country: Iran/Iraq (Persian Gulf, Shatt al-Arab/Khor Musa approach) - first appearance IMG_5665, between Bandar Shahpur and Abadan. Not identified against an official list or gazetteer; coordinates not established. Coordinates: interpolated within the Khor Musa channel between Bandar-e Emam Khomeini and Abadan — not a confirmed fix, no gazetteer match found."
+bandar-mashur,,Bandar Mashur,49.1833,30.4667,,"country: Iran (Persian Gulf) - first appearance IMG_5668, sandwiched between two Bandar Shapur calls with no dates given for either the arrival or sailing. Possibly the same place as bandar-shahpur under a different transliteration (compare 'Bandar-e Ma'shur'/Mahshahr, a real town near Bandar-e Imam Khomeini), possibly a distinct nearby berth - not confirmed, kept as its own tentative entry rather than merged. Coordinates: Bandar-e Mahshahr town centre (geocoded), approximate for this river/coastal port."
 santos,,Santos,-46.3308,-23.9608,,country: Brazil - port of Sao Paulo
-partington,,Partington,-2.4291,53.4139,,"country: United Kingdom - oil terminal on the Manchester Ship Canal"
-great-yarmouth-rds,,Great Yarmouth Roads,1.7500,52.6167,"Gt Yar Rds","country: United Kingdom - the roadstead off Great Yarmouth, Norfolk"
-the-nore,,The Nore,0.7500,51.5000,"Nore L.V.","country: United Kingdom - sandbank/anchorage and historic light vessel station at the mouth of the Thames Estuary, not a port of call in the usual sense"
-haifa,,Haifa,34.9896,32.7940,,"country: Palestine (British Mandate) - first appearance IMG_5645"
-mormugao,Morm,Mormugao,73.8018,15.4218,,"country: India (Goa) - first appearance IMG_5646"
-st-lawrence,St L,St Lawrence,,,,"TENTATIVE - country: Canada. Card writes 'St L.' amid a dense, uncertain Nov-Dec 1941 stretch on IMG_5646; not confirmed against an official list"
-walvis-bay,Walvis,Walvis Bay,14.5053,-22.9576,,"country: Namibia (South West Africa) - first appearance IMG_5647"
+partington,,Partington,-2.4291,53.4139,,country: United Kingdom - oil terminal on the Manchester Ship Canal
+great-yarmouth-rds,,Great Yarmouth Roads,1.7500,52.6167,Gt Yar Rds,"country: United Kingdom - the roadstead off Great Yarmouth, Norfolk"
+the-nore,,The Nore,0.7500,51.5000,Nore L.V.,"country: United Kingdom - sandbank/anchorage and historic light vessel station at the mouth of the Thames Estuary, not a port of call in the usual sense"
+haifa,,Haifa,34.9896,32.7940,,country: Palestine (British Mandate) - first appearance IMG_5645
+mormugao,Morm,Mormugao,73.8018,15.4218,,country: India (Goa) - first appearance IMG_5646
+st-lawrence,St L,St Lawrence,-68.4633,48.5136,,"TENTATIVE - country: Canada. Card writes 'St L.' amid a dense, uncertain Nov-Dec 1941 stretch on IMG_5646; not confirmed against an official list. Coordinates: Pointe-au-Père (Father Point) pilot station near Rimouski, QC — the traditional ocean-pilot boarding point on the St Lawrence, fitting the arrival-then-sailing-2-days-later pattern. Placement is an interpretation, not a confirmed identification."
+walvis-bay,Walvis,Walvis Bay,14.5053,-22.9576,,country: Namibia (South West Africa) - first appearance IMG_5647
 bougie,Bougie,Bougie,5.0667,36.7500,,"country: Algeria (now Bejaia) - first appearance IMG_5647, timing matches Allied North Africa convoy support post-Operation Torch (Nov 1942)"
 port-kembla,P Kembla,Port Kembla,150.9028,-34.4731,,"country: Australia (NSW, near Wollongong) - first appearance IMG_5649"
-saldanha-bay,Saldanha B,Saldanha Bay,17.9442,-33.0117,,"country: South Africa - first appearance IMG_5651"
+saldanha-bay,Saldanha B,Saldanha Bay,17.9442,-33.0117,,country: South Africa - first appearance IMG_5651
 tripoli,Trip,Tripoli,13.1913,32.8872,,"country: Libya - first appearance IMG_5652, fits Allied North Africa campaign timing"
 augusta,Augusta,Augusta,15.2214,37.2306,,"country: Italy (Sicily) - first appearance IMG_5652, fits Allied Italian campaign timing"
-castellammare,C'mare,Castellammare,14.4842,40.7011,,"country: Italy (near Naples) - first appearance IMG_5652"
-chittagong,Chitt,Chittagong,91.8317,22.3569,,"country: Bengal/British India (now Bangladesh) - first appearance IMG_5653"
-kuwait,Kuwait,Kuwait,47.9774,29.3759,,"country: Kuwait - first appearance IMG_5657"
-basra,Basra,Basra,47.8160,30.5085,"Busreh; Basrah","country: Iraq - first appearance IMG_5657"
-mena-al-ahmadi,,Mena al Ahmadi,48.1450,29.0769,,"country: Kuwait - the oil terminal south of Kuwait City (Mina al-Ahmadi). First appearance IMG_5669"
-river-tyne,Tyne,River Tyne,-1.4500,55.0000,,"country: United Kingdom - first appearance IMG_5657"
-izmir,Izmir,Izmir,27.1428,38.4237,Smyrna,"country: Turkey (also historically Smyrna) - first appearance IMG_5658"
-patras,Patras,Patras,21.7346,38.2466,,"country: Greece - first appearance IMG_5658"
-kalamata,Kalamata,Kalamata,22.1109,37.0389,,"country: Greece - first appearance IMG_5658"
-volo,Volo,Volo,22.9444,39.3622,Volos,"country: Greece (Volos) - first appearance IMG_5658"
-vostizza,Vostizza,Vostizza,22.0833,38.2500,Aigio,"country: Greece (old name for Aigio) - first appearance IMG_5658"
-katakolo,Katakolo,Katakolo,21.3167,37.6500,,"country: Greece - first appearance IMG_5658"
-venice,Venice,Venice,12.3155,45.4408,,"country: Italy - first appearance IMG_5658"
-split,Split,Split,16.4402,43.5081,,"country: Croatia (then Yugoslavia) - first appearance IMG_5658"
-syracuse,Syracuse,Syracuse,15.2866,37.0755,,"country: Italy (Sicily) - first appearance IMG_5658"
-bandirma,Bandirma,Bandirma,27.9764,40.3564,,"country: Turkey - first appearance IMG_5658"
-kuluk,Kuluk,Kuluk,27.6167,37.2500,Kulluk,"TENTATIVE - country: Turkey (possibly Guelluek/Guellueck Bay). Coordinates approximate - first appearance IMG_5658. 'Kulluk' (double-l) spelling seen on IMG_5671"
-sitia,Sitia,Sitia,26.1000,35.2000,,"country: Greece (Crete) - first appearance IMG_5659"
-heraklion,Heraklion,Heraklion,25.1442,35.3387,,"country: Greece (Crete) - first appearance IMG_5659"
-suda-bay,Suda Bay,Suda Bay,24.1167,35.4833,,"country: Greece (Crete) - first appearance IMG_5659"
-beirut,Beirut,Beirut,35.5018,33.8938,,"country: Lebanon - first appearance IMG_5659"
+castellammare,C'mare,Castellammare,14.4842,40.7011,,country: Italy (near Naples) - first appearance IMG_5652
+chittagong,Chitt,Chittagong,91.8317,22.3569,,country: Bengal/British India (now Bangladesh) - first appearance IMG_5653
+kuwait,Kuwait,Kuwait,47.9774,29.3759,,country: Kuwait - first appearance IMG_5657
+basra,Basra,Basra,47.8160,30.5085,Busreh; Basrah,country: Iraq - first appearance IMG_5657
+mena-al-ahmadi,,Mena al Ahmadi,48.1450,29.0769,,country: Kuwait - the oil terminal south of Kuwait City (Mina al-Ahmadi). First appearance IMG_5669
+river-tyne,Tyne,River Tyne,-1.4500,55.0000,,country: United Kingdom - first appearance IMG_5657
+izmir,Izmir,Izmir,27.1428,38.4237,Smyrna,country: Turkey (also historically Smyrna) - first appearance IMG_5658
+patras,Patras,Patras,21.7346,38.2466,,country: Greece - first appearance IMG_5658
+kalamata,Kalamata,Kalamata,22.1109,37.0389,,country: Greece - first appearance IMG_5658
+volo,Volo,Volo,22.9444,39.3622,Volos,country: Greece (Volos) - first appearance IMG_5658
+vostizza,Vostizza,Vostizza,22.0833,38.2500,Aigio,country: Greece (old name for Aigio) - first appearance IMG_5658
+katakolo,Katakolo,Katakolo,21.3167,37.6500,,country: Greece - first appearance IMG_5658
+venice,Venice,Venice,12.3155,45.4408,,country: Italy - first appearance IMG_5658
+split,Split,Split,16.4402,43.5081,,country: Croatia (then Yugoslavia) - first appearance IMG_5658
+syracuse,Syracuse,Syracuse,15.2866,37.0755,,country: Italy (Sicily) - first appearance IMG_5658
+bandirma,Bandirma,Bandirma,27.9764,40.3564,,country: Turkey - first appearance IMG_5658
+kuluk,Kuluk,Kuluk,27.6167,37.2500,Kulluk,TENTATIVE - country: Turkey (possibly Guelluek/Guellueck Bay). Coordinates approximate - first appearance IMG_5658. 'Kulluk' (double-l) spelling seen on IMG_5671
+sitia,Sitia,Sitia,26.1000,35.2000,,country: Greece (Crete) - first appearance IMG_5659
+heraklion,Heraklion,Heraklion,25.1442,35.3387,,country: Greece (Crete) - first appearance IMG_5659
+suda-bay,Suda Bay,Suda Bay,24.1167,35.4833,,country: Greece (Crete) - first appearance IMG_5659
+beirut,Beirut,Beirut,35.5018,33.8938,,country: Lebanon - first appearance IMG_5659
 tripoli-lebanon,Trip (Leb),Tripoli (Lebanon),35.8497,34.4346,,"country: Lebanon - distinct from Tripoli, Libya (port_id tripoli) - card explicitly labels 'Tripoli (Lebanon)'/'Tripoli (Leb)' to disambiguate - first appearance IMG_5659"
-limassol,Limassol,Limassol,33.0414,34.6786,,"country: Cyprus - first appearance IMG_5659"
-famagusta,Famagusta,Famagusta,33.9385,35.1156,,"country: Cyprus - first appearance IMG_5659"
-oran,Oran,Oran,-0.6417,35.6969,,"country: Algeria - first appearance IMG_5659"
-pearl-harbor,Pearl Hbr,Pearl Harbor,-157.9614,21.3469,,"country: USA (Hawaii/Oahu) - first appearance IMG_5660"
-hobart,Hobart,Hobart,147.3272,-42.8821,,"country: Australia (Tasmania) - first appearance IMG_5660"
-davao,Davao,Davao,125.6128,7.0731,,"country: Philippines - first appearance IMG_5661"
-tacloban,Tacloban,Tacloban,124.9633,11.2543,,"country: Philippines - first appearance IMG_5661"
+limassol,Limassol,Limassol,33.0414,34.6786,,country: Cyprus - first appearance IMG_5659
+famagusta,Famagusta,Famagusta,33.9385,35.1156,,country: Cyprus - first appearance IMG_5659
+oran,Oran,Oran,-0.6417,35.6969,,country: Algeria - first appearance IMG_5659
+pearl-harbor,Pearl Hbr,Pearl Harbor,-157.9614,21.3469,,country: USA (Hawaii/Oahu) - first appearance IMG_5660
+hobart,Hobart,Hobart,147.3272,-42.8821,,country: Australia (Tasmania) - first appearance IMG_5660
+davao,Davao,Davao,125.6128,7.0731,,country: Philippines - first appearance IMG_5661
+tacloban,Tacloban,Tacloban,124.9633,11.2543,,country: Philippines - first appearance IMG_5661
 tabako,Tabako,Tabako,123.7333,13.3500,Tabaco,"country: Philippines (Bicol region, also spelled Tabaco) - first appearance IMG_5661"
-boulogne,Boulogne,Boulogne,1.6117,50.7264,,"country: France - first appearance IMG_5661"
-trinidad,Trinidad,Trinidad,-61.5000,10.6667,,"country: Trinidad and Tobago - first appearance IMG_5662"
+boulogne,Boulogne,Boulogne,1.6117,50.7264,,country: France - first appearance IMG_5661
+trinidad,Trinidad,Trinidad,-61.5000,10.6667,,country: Trinidad and Tobago - first appearance IMG_5662
 mozambique-island,Mozambique,Mozambique,40.7350,-15.0342,,"country: Mozambique - the historic port city/island (Ilha de Mocambique), distinct from the country name written the same way on the card - first appearance IMG_5662"
-tanga,Tanga,Tanga,39.0983,-5.0689,,"country: Tanzania (Tanganyika) - first appearance IMG_5663"
-charleston,Charleston,Charleston,-79.9311,32.7765,,"country: USA (South Carolina) - first appearance IMG_5663"
-tobruk,Tobruk,Tobruk,23.9509,32.0836,,"country: Libya - first appearance IMG_5670"
-paphos,Paphos,Paphos,32.4075,34.7571,,"country: Cyprus - first appearance IMG_5670"
-aegion,Aegion,Aegion,22.0858,38.2500,,"country: Greece (Gulf of Corinth) - first appearance IMG_5670"
-thessaloniki,Thessaloniki,Thessaloniki,22.9444,40.6401,,"country: Greece (Salonika) - first appearance IMG_5670"
-bourgas,Bourgas,Bourgas,27.4626,42.4954,,"country: Bulgaria - first appearance IMG_5670"
+tanga,Tanga,Tanga,39.0983,-5.0689,,country: Tanzania (Tanganyika) - first appearance IMG_5663
+charleston,Charleston,Charleston,-79.9311,32.7765,,country: USA (South Carolina) - first appearance IMG_5663
+tobruk,Tobruk,Tobruk,23.9509,32.0836,,country: Libya - first appearance IMG_5670
+paphos,Paphos,Paphos,32.4075,34.7571,,country: Cyprus - first appearance IMG_5670
+aegion,Aegion,Aegion,22.0858,38.2500,,country: Greece (Gulf of Corinth) - first appearance IMG_5670
+thessaloniki,Thessaloniki,Thessaloniki,22.9444,40.6401,,country: Greece (Salonika) - first appearance IMG_5670
+bourgas,Bourgas,Bourgas,27.4626,42.4954,,country: Bulgaria - first appearance IMG_5670
 zante,Zante,Zante,20.9020,37.7870,Zakynthos,"country: Greece (island, also known as Zakynthos) - first appearance IMG_5671"
 hole-haven,Hole Haven,Hole Haven,0.5622,51.5083,,"country: England (Canvey Island, Thames Estuary oil terminal) - first appearance IMG_5671"
-iskenderun,Iskenderun,Iskenderun,36.1673,36.5865,Alexandretta,"country: Turkey (also historically Alexandretta) - first appearance IMG_5671"
-lattakia,Lattakia,Lattakia,35.7833,35.5167,Latakia,"country: Syria - first appearance IMG_5671"
-larnaca,Larnaca,Larnaca,33.6333,34.9167,,"country: Cyprus - first appearance IMG_5671"
+iskenderun,Iskenderun,Iskenderun,36.1673,36.5865,Alexandretta,country: Turkey (also historically Alexandretta) - first appearance IMG_5671
+lattakia,Lattakia,Lattakia,35.7833,35.5167,Latakia,country: Syria - first appearance IMG_5671
+larnaca,Larnaca,Larnaca,33.6333,34.9167,,country: Cyprus - first appearance IMG_5671
 three-rivers,,Three Rivers,-72.5477,46.3432,Trois-Rivieres,"country: Canada (Quebec, on the St Lawrence - Trois-Rivieres) - first appearance IMG_5672"
