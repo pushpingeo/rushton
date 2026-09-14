@@ -621,9 +621,21 @@ function drawVoyage(idx){
 
   map.getSource('rv').setData({type:'FeatureCollection',features:vseg});
   map.getSource('ra').setData({type:'FeatureCollection',features:aseg});
-  map.getSource('pts').setData({type:'FeatureCollection',features:wps.map((w,i)=>({
+  // Merge waypoints that share a coordinate (e.g. a ship calling at the same
+  // port more than once in one voyage) into a single marker, so every visit
+  // is listed in its popup instead of silently overlapping and hiding all
+  // but the last-drawn one.
+  const byCoord=new Map();
+  wps.forEach(w=>{
+    const key=w.lon+','+w.lat;
+    if(!byCoord.has(key)) byCoord.set(key,{port:w.port,lon:w.lon,lat:w.lat,verified:false,notes:[]});
+    const entry=byCoord.get(key);
+    if(w.verified) entry.verified=true;
+    if(w.note) entry.notes.push(w.note);
+  });
+  map.getSource('pts').setData({type:'FeatureCollection',features:[...byCoord.values()].map(w=>({
     type:'Feature',geometry:{type:'Point',coordinates:[w.lon,w.lat]},
-    properties:{p:w.port,v:w.verified,n:w.note||'',i}
+    properties:{p:w.port,v:w.verified,n:w.notes.join(' · ')}
   }))});
 
   if(wps.length>1){
